@@ -88,11 +88,11 @@ export default function MissionPage() {
                 {/* Right: Action Button */}
                 <div>
                 {misi.status === 'OPEN' && (
-                  <Link href="/dashboard/quiz"> {/* <--- TAMBAHAN 1: Pembungkus Link */}
-                     <button className="bg-laser hover:bg-red-700 text-white font-bold py-3 px-8 rounded skew-x-[-10deg] shadow-[0_0_20px_rgba(214,0,28,0.4)] transition-transform hover:scale-105">
+                  <Link href="/dashboard/quiz">   {/* <--- TAMBAHAN PEMBUKA */}
+                    <button className="bg-laser hover:bg-red-700 text-white font-bold py-3 px-8 rounded skew-x-[-10deg] shadow-[0_0_20px_rgba(214,0,28,0.4)] transition-transform hover:scale-105">
                       <span className="skew-x-[10deg] block">DEPLOY MISI</span>
-                     </button>
-                   </Link> {/* <--- TAMBAHAN 2: Penutup Link */}
+                    </button>
+                  </Link>                         {/* <--- TAMBAHAN PENUTUP */}
                 )}
                     {misi.status === 'COMPLETED' && (
                         <button className="border border-green-500 text-green-500 font-bold py-3 px-8 rounded cursor-default">
