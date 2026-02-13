@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma"; // [UPDATED] Import Prisma
 import Sidebar from "@/components/dashboard/Sidebar";       
 import NavbarMobile from "@/components/dashboard/NavbarMobile"; 
 import { Toaster } from "sonner"; 
-import SubscriptionGuard from "@/components/dashboard/SubscriptionGuard"; // [UPDATED] Import Guard
+import SubscriptionGuard from "@/components/dashboard/Guard"; // [UPDATED] Import Guard
 
 export default async function DashboardLayout({
   children,
