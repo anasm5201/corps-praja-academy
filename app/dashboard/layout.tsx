@@ -1,11 +1,11 @@
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
-import { prisma } from "@/lib/prisma"; // [UPDATED] Import Prisma
+import { prisma } from "@/lib/prisma"; 
 import Sidebar from "@/components/dashboard/Sidebar";       
 import NavbarMobile from "@/components/dashboard/NavbarMobile"; 
 import { Toaster } from "sonner"; 
-import SecurityGate from "@/components/dashboard/SecurityGate"; // [UPDATED] Import Guard
+import SecurityGate from "@/components/dashboard/SecurityGate"; // ✅ INI KUNCI KEMENANGAN KITA
 
 export default async function DashboardLayout({
   children,
@@ -13,19 +13,25 @@ export default async function DashboardLayout({
   children: React.ReactNode;
 }) {
   const session = await getServerSession(authOptions);
+  
+  // 1. Cek Sesi Login
   if (!session) redirect("/login");
 
-  // [UPDATED] Ambil Data User Lengkap (Subscription & CreatedAt)
+  // 2. Ambil Data User Lengkap dari Database
+  // Kita butuh 'subscriptionType' yang terbaru dari DB, bukan dari session yang mungkin usang
   const user = await prisma.user.findUnique({
     where: { id: (session.user as any).id },
     select: {
       id: true,
       name: true,
+      email: true, // Tambahkan email untuk berjaga-jaga
+      image: true, // Tambahkan image untuk avatar
       subscriptionType: true,
       createdAt: true,
     }
   });
 
+  // 3. Jika user tidak ada di DB (aneh tapi mungkin terjadi), tendang ke login
   if (!user) redirect("/login");
 
   return (
@@ -79,8 +85,12 @@ export default async function DashboardLayout({
                     {user.subscriptionType === 'FREE' ? 'REKRUT (TRIAL)' : 'CORPS PRAJA'}
                   </p>
                 </div>
-                <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-sm text-white shadow-lg ${user.subscriptionType !== 'FREE' ? 'bg-gradient-to-br from-amber-600 to-yellow-800 border-amber-500/30' : 'bg-gradient-to-br from-red-900 to-black border-red-500/30 shadow-red-900/20'}`}>
-                  {user.name?.charAt(0).toUpperCase()}
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-sm text-white shadow-lg overflow-hidden ${user.subscriptionType !== 'FREE' ? 'bg-gradient-to-br from-amber-600 to-yellow-800 border-amber-500/30' : 'bg-gradient-to-br from-red-900 to-black border-red-500/30 shadow-red-900/20'}`}>
+                  {user.image ? (
+                    <img src={user.image} alt="Avatar" className="w-full h-full object-cover" />
+                  ) : (
+                    <span>{user.name?.charAt(0).toUpperCase()}</span>
+                  )}
                 </div>
              </div>
         </header>
