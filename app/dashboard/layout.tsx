@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma"; // [UPDATED] Import Prisma
 import Sidebar from "@/components/dashboard/Sidebar";       
 import NavbarMobile from "@/components/dashboard/NavbarMobile"; 
 import { Toaster } from "sonner"; 
-import SubscriptionGuard from "@/components/dashboard/Guard"; // [UPDATED] Import Guard
+import SubscriptionGuard from "@/components/dashboard/SecurityGate"; // [UPDATED] Import Guard
 
 export default async function DashboardLayout({
   children,
@@ -88,11 +88,9 @@ export default async function DashboardLayout({
         {/* [UPDATED] CONTENT CHILDREN WRAPPED WITH IRON CURTAIN */}
         {/* Guard ini akan mengecek status user & URL. Jika tidak valid, konten asli diganti Lock Screen */}
         <div className="flex-1">
-            <SubscriptionGuard user={user}>
-                <div className="p-4 md:p-8">
-                    {children}
-                </div>
-            </SubscriptionGuard>
+            <SecurityGate user={user}>
+               {children}
+            </SecurityGate>
         </div>
 
       </main>
