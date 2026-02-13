@@ -470,3 +470,4 @@ model UserProfile {
   examDate       DateTime?
   updatedAt      DateTime @updatedAt
 }
+// Update pancingan untuk Vercel (Force Update)
