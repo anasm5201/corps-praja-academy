@@ -1,0 +1,13 @@
+<svg viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="25" cy="30" r="20" fill="none" stroke="black"/>
+  <rect x="18" y="23" width="14" height="14" fill="black"/> 
+  <text x="50" y="35">:</text>
+
+  <rect x="65" y="10" width="40" height="40" fill="none" stroke="black"/>
+  <circle cx="85" cy="30" r="7" fill="black"/>
+
+  <text x="115" y="35">::</text>
+
+  <polygon points="135,20 155,20 165,30 155,40 135,40 125,30" fill="none" stroke="black"/> <polygon points="145,35 150,25 140,25" fill="black"/> <text x="175" y="35">:</text>
+  <text x="195" y="35">?</text>
+</svg>

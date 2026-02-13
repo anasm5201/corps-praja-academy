@@ -1,0 +1,132 @@
+[
+  {
+    "id": "verbal-01",
+    "category": "TIU",
+    "text": "UMUR : TAHUN = ... : ...",
+    "explanation": "Hubungan: Besaran dan Satuan. Umur dihitung dalam satuan Tahun. Maka padanannya adalah KECEPATAN dihitung dalam satuan KNOT (pada kapal/pesawat) atau JARAK dalam METER. Opsi D (Kecepatan : Jam) salah karena Jam adalah satuan waktu, bukan kecepatan.",
+    "options": [
+      { "key": "A", "text": "Air : Minum", "score": 0 },
+      { "key": "B", "text": "Kertas : Helai", "score": 0 },
+      { "key": "C", "text": "Gempa : Richter", "score": 5 },
+      { "key": "D", "text": "Kecepatan : Jam", "score": 0 },
+      { "key": "E", "text": "Jam : Detik", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-02",
+    "category": "TIU",
+    "text": "KAKAKTUA : MERPATI = ... : ...",
+    "explanation": "Hubungan: Satu Golongan/Klasifikasi. Kakaktua dan Merpati sama-sama jenis BURUNG. Maka cari pasangan yang satu golongan. GURAME dan KAKAP sama-sama jenis IKAN.",
+    "options": [
+      { "key": "A", "text": "Ayam : Kandang", "score": 0 },
+      { "key": "B", "text": "Singa : Naga", "score": 0 },
+      { "key": "C", "text": "Gurame : Kakap", "score": 5 },
+      { "key": "D", "text": "Gajah : Semut", "score": 0 },
+      { "key": "E", "text": "Elang : Kupu-kupu", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-03",
+    "category": "TIU",
+    "text": "APOTEKER : OBAT = ... : ...",
+    "explanation": "Hubungan: Profesi dan Objek yang diracik/dibuat/dikelola. Apoteker meracik Obat. Maka padanannya adalah KOKI memasak MASAKAN. (PENTING: Dokter : Pasien salah, karena Dokter 'memeriksa' bukan 'membuat' pasien).",
+    "options": [
+      { "key": "A", "text": "Psikiater : Ide", "score": 0 },
+      { "key": "B", "text": "Dokter : Pasien", "score": 0 },
+      { "key": "C", "text": "Koki : Masakan", "score": 5 },
+      { "key": "D", "text": "Montir : Rusak", "score": 0 },
+      { "key": "E", "text": "Penulis : Majalah", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-04",
+    "category": "TIU",
+    "text": "MATAHARI : BUMI = BUMI : ...",
+    "explanation": "Hubungan: Pusat Orbit. Matahari dikelilingi oleh Bumi. Bumi dikelilingi oleh BULAN. (Analogi: A dikelilingi B, maka B dikelilingi C).",
+    "options": [
+      { "key": "A", "text": "Bintang", "score": 0 },
+      { "key": "B", "text": "Matahari", "score": 0 },
+      { "key": "C", "text": "Bulan", "score": 5 },
+      { "key": "D", "text": "Planet", "score": 0 },
+      { "key": "E", "text": "Galaksi", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-05",
+    "category": "TIU",
+    "text": "Premis 1: Semua atlet pandai menjaga stamina.\nPremis 2: Sebagian orang yang pandai menjaga stamina hidup sehat.\nKesimpulan yang sah adalah...",
+    "explanation": "Jebakan 'Middle Term' tidak terdistribusi. \nA = Atlet\nB = Jaga Stamina\nC = Hidup Sehat\nSemua A adalah B. Sebagian B adalah C. Apakah A pasti C? BELUM TENTU. Bisa saja yang 'hidup sehat' itu adalah orang jaga stamina yang BUKAN atlet. Maka: Tidak dapat ditarik kesimpulan mutlak.",
+    "options": [
+      { "key": "A", "text": "Semua atlet hidup sehat", "score": 0 },
+      { "key": "B", "text": "Sebagian atlet hidup sehat", "score": 0 },
+      { "key": "C", "text": "Orang yang hidup sehat adalah atlet", "score": 0 },
+      { "key": "D", "text": "Sebagian orang yang hidup sehat bukan atlet", "score": 0 },
+      { "key": "E", "text": "Tidak dapat ditarik kesimpulan", "score": 5 }
+    ]
+  },
+  {
+    "id": "verbal-06",
+    "category": "TIU",
+    "text": "Premis 1: Jika hari ini hujan, maka Budi naik mobil.\nPremis 2: Budi tidak naik mobil.\nKesimpulan yang sah adalah...",
+    "explanation": "Modus Tollens.\nPremis 1: P -> Q (Jika Hujan, maka Mobil)\nPremis 2: ~Q (Tidak Mobil)\nKesimpulan: ~P (TIDAK Hujan).",
+    "options": [
+      { "key": "A", "text": "Hari ini hujan", "score": 0 },
+      { "key": "B", "text": "Hari ini tidak hujan", "score": 5 },
+      { "key": "C", "text": "Budi naik motor", "score": 0 },
+      { "key": "D", "text": "Budi tidak punya payung", "score": 0 },
+      { "key": "E", "text": "Hari ini mendung", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-07",
+    "category": "TIU",
+    "text": "Premis 1: Semua anggota organisasi harus hadir rapat.\nPremis 2: Sebagian pejabat desa adalah anggota organisasi.\nKesimpulan yang sah adalah...",
+    "explanation": "Hukum Silogisme Kuantor: Jika satu premis 'Semua' dan satu premis 'Sebagian', maka kesimpulan HARUS 'Sebagian'.\nSemua A = B.\nSebagian C = A.\nMaka: Sebagian C (Pejabat) harus melakukan B (Hadir Rapat).",
+    "options": [
+      { "key": "A", "text": "Semua pejabat desa harus hadir rapat", "score": 0 },
+      { "key": "B", "text": "Semua yang hadir rapat adalah pejabat desa", "score": 0 },
+      { "key": "C", "text": "Sebagian pejabat desa harus hadir rapat", "score": 5 },
+      { "key": "D", "text": "Sebagian anggota organisasi bukan pejabat desa", "score": 0 },
+      { "key": "E", "text": "Tidak ada pejabat desa yang hadir rapat", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-08",
+    "category": "TIU",
+    "text": "Premis 1: Semua guru adalah sarjana.\nPremis 2: Sementara sarjana adalah dosen.\nKesimpulan yang sah adalah...",
+    "explanation": "Jebakan Logika. 'Sementara' artinya 'Sebagian'.\nSemua Guru = Sarjana.\nSebagian Sarjana = Dosen.\nApakah Guru = Dosen? Tidak ada informasi yang menghubungkan Guru dan Dosen secara langsung. Bisa jadi himpunan Guru dan Dosen terpisah total meski sama-sama Sarjana. Maka: Tidak dapat disimpulkan.",
+    "options": [
+      { "key": "A", "text": "Semua guru adalah dosen", "score": 0 },
+      { "key": "B", "text": "Sebagian guru adalah dosen", "score": 0 },
+      { "key": "C", "text": "Sementara dosen bukan sarjana", "score": 0 },
+      { "key": "D", "text": "Sementara sarjana adalah guru dan dosen", "score": 0 },
+      { "key": "E", "text": "Tidak dapat ditarik kesimpulan", "score": 5 }
+    ]
+  },
+  {
+    "id": "verbal-09",
+    "category": "TIU",
+    "text": "Premis 1: Tidak ada pemalas yang sukses.\nPremis 2: Semua atlet adalah orang sukses.\nKesimpulan yang sah adalah...",
+    "explanation": "Premis 1: Pemalas -> Tidak Sukses.\nPremis 2: Atlet -> Sukses.\nEkuivalensi Premis 1: Sukses -> Bukan Pemalas.\nSilogisme: Atlet -> Sukses -> Bukan Pemalas.\nKesimpulan: Tidak ada atlet yang pemalas (Semua atlet bukan pemalas).",
+    "options": [
+      { "key": "A", "text": "Sebagian atlet adalah pemalas", "score": 0 },
+      { "key": "B", "text": "Tidak ada atlet yang pemalas", "score": 5 },
+      { "key": "C", "text": "Semua pemalas adalah atlet", "score": 0 },
+      { "key": "D", "text": "Sebagian orang sukses bukan atlet", "score": 0 },
+      { "key": "E", "text": "Tidak dapat ditarik kesimpulan", "score": 0 }
+    ]
+  },
+  {
+    "id": "verbal-10",
+    "category": "TIU",
+    "text": "Premis 1: Jika harga BBM naik, maka harga sembako naik.\nPremis 2: Jika harga sembako naik, maka daya beli masyarakat turun.\nPremis 3: Daya beli masyarakat tidak turun.\nKesimpulan yang sah adalah...",
+    "explanation": "Silogisme Berantai + Modus Tollens.\nP -> Q\nQ -> R\nKesimpulan sementara: P -> R (Jika BBM naik, Daya beli turun).\nFakta: ~R (Daya beli TIDAK turun).\nMaka: ~P (Harga BBM TIDAK naik).",
+    "options": [
+      { "key": "A", "text": "Harga sembako naik", "score": 0 },
+      { "key": "B", "text": "Harga BBM naik", "score": 0 },
+      { "key": "C", "text": "Harga BBM tidak naik", "score": 5 },
+      { "key": "D", "text": "Daya beli masyarakat naik", "score": 0 },
+      { "key": "E", "text": "Pemerintah memberikan subsidi", "score": 0 }
+    ]
+  }
+]

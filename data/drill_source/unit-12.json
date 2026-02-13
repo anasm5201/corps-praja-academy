@@ -1,0 +1,148 @@
+{
+    "unit_id": 12,
+    "title": "Unit 12: Syllogism Trap (Jebakan Logika)",
+    "description": "Drill logika formal: Modus Tollens, Silogisme Kategorik, dan Negasi Pernyataan Majemuk yang sering menjebak.",
+    "level": "Kadet Madya",
+    "questions": [
+      {
+        "id": "U12-Q1",
+        "type": "TIU",
+        "text": "Premis 1: Semua anggota Corps Praja berbadan tegap. Premis 2: Sebagian orang yang berbadan tegap adalah Polisi Militer. Kesimpulan yang SAH adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Semua anggota Corps Praja adalah Polisi Militer.", "score": 0 },
+          { "key": "B", "text": "Sebagian anggota Corps Praja adalah Polisi Militer.", "score": 0 },
+          { "key": "C", "text": "Sebagian Polisi Militer adalah anggota Corps Praja.", "score": 0 },
+          { "key": "D", "text": "Semua Polisi Militer berbadan tegap.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat ditarik kesimpulan.", "score": 5 }
+        ],
+        "explanation": "PLATINUM KEY: Jebakan Klasik! 'Middle Term' (Berbadan Tegap) tidak menjembatani Praja dan PM secara langsung. Bisa saja Praja dan PM adalah dua himpunan terpisah yang sama-sama ada di dalam himpunan 'Tegap'. Jangan asumsikan irisan jika tidak disebutkan!"
+      },
+      {
+        "id": "U12-Q2",
+        "type": "TIU",
+        "text": "Negasi (Ingkaran) dari pernyataan: 'Semua pejabat negara wajib lapor LHKPN dan tidak boleh korupsi' adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Semua pejabat negara tidak wajib lapor LHKPN dan boleh korupsi.", "score": 0 },
+          { "key": "B", "text": "Beberapa pejabat negara tidak wajib lapor LHKPN dan boleh korupsi.", "score": 0 },
+          { "key": "C", "text": "Ada pejabat negara yang tidak wajib lapor LHKPN atau boleh korupsi.", "score": 5 },
+          { "key": "D", "text": "Tidak ada pejabat negara yang wajib lapor LHKPN.", "score": 0 },
+          { "key": "E", "text": "Beberapa pejabat negara wajib lapor LHKPN tetapi boleh korupsi.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hukum De Morgan. Ingkaran 'SEMUA' = 'ADA/SEBAGIAN'. Ingkaran 'DAN' = 'ATAU'. Jadi: (Semua -> Ada) ... (Dan -> Atau). Jawabannya C."
+      },
+      {
+        "id": "U12-Q3",
+        "type": "TIU",
+        "text": "Perhatikan Diagram Venn berikut. Pernyataan yang paling tepat menggambarkan daerah yang diarsir (Merah) adalah...",
+        "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='black' fill='none'/><text x='30' y='50' font-size='10'>ASN</text><circle cx='100' cy='50' r='30' stroke='black' fill='none'/><text x='110' y='50' font-size='10'>Koruptor</text><path d='M 80,27 A 30,30 0 0,1 80,73 A 30,30 0 0,1 80,27 Z' fill='red' opacity='0.5' stroke='none'/></svg>",
+        "options": [
+          { "key": "A", "text": "Semua ASN adalah Koruptor.", "score": 0 },
+          { "key": "B", "text": "Tidak ada ASN yang Koruptor.", "score": 0 },
+          { "key": "C", "text": "Sebagian ASN adalah Koruptor.", "score": 5 },
+          { "key": "D", "text": "Semua Koruptor adalah ASN.", "score": 0 },
+          { "key": "E", "text": "ASN sama dengan Koruptor.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Irisan (Intersection). Daerah merah adalah pertemuan himpunan ASN dan Koruptor. Artinya: Ada anggota ASN yang juga anggota Koruptor (Sebagian ASN adalah Koruptor)."
+      },
+      {
+        "id": "U12-Q4",
+        "type": "TIU",
+        "text": "Jika hari ini hujan, maka jalanan licin. Jika jalanan licin, maka terjadi kemacetan. Saat ini tidak terjadi kemacetan. Kesimpulannya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Hari ini hujan.", "score": 0 },
+          { "key": "B", "text": "Jalanan licin.", "score": 0 },
+          { "key": "C", "text": "Hari ini tidak hujan.", "score": 5 },
+          { "key": "D", "text": "Jalanan tidak licin tapi hujan.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat disimpulkan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Modus Tollens Berantai. P -> Q, Q -> R. Maka P -> R. Faktanya ~R (Tidak macet). Maka ~P (Tidak hujan). Mundur ke belakang."
+      },
+      {
+        "id": "U12-Q5",
+        "type": "TKP",
+        "text": "Anda adalah ketua tim. Salah satu anggota tim Anda memiliki logika berpikir 'Slippery Slope' (sesat pikir) yang pesimistis: 'Kalau kita ubah satu SOP kecil ini, pasti nanti seluruh sistem akan hancur berantakan'. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menyetujui pendapatnya agar dia tenang.", "score": 1 },
+          { "key": "B", "text": "Menertawakan ketakutannya yang berlebihan.", "score": 1 },
+          { "key": "C", "text": "Mengajaknya membedah data riil dan dampak spesifik dari perubahan tersebut secara logis (Counter-Data).", "score": 5 },
+          { "key": "D", "text": "Mengabaikan pendapatnya dan jalan terus.", "score": 2 },
+          { "key": "E", "text": "Meminta anggota lain menasihatinya.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Critical Thinking Leadership. Hadapi sesat pikir (Fallacy) bukan dengan emosi, tapi dengan DATA dan UJI LOGIKA (Opsi C)."
+      },
+      {
+        "id": "U12-Q6",
+        "type": "TIU",
+        "text": "Semua K adalah P. Tidak ada P yang merupakan H. Kesimpulan?",
+        "image": "<svg width='200' height='100' viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='black' fill='none'/><text x='50' y='30' font-size='10'>P</text><circle cx='50' cy='60' r='20' stroke='black' fill='#eee'/><text x='50' y='65' font-size='10'>K</text><circle cx='150' cy='50' r='30' stroke='black' fill='none'/><text x='150' y='55' font-size='10'>H</text></svg>",
+        "options": [
+          { "key": "A", "text": "Sebagian K adalah H.", "score": 0 },
+          { "key": "B", "text": "Semua H adalah K.", "score": 0 },
+          { "key": "C", "text": "Tidak ada K yang merupakan H.", "score": 5 },
+          { "key": "D", "text": "Semua P adalah K.", "score": 0 },
+          { "key": "E", "text": "Sebagian P bukan K.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visualkan! K ada di dalam perut P. P terpisah total dari H. Maka K otomatis terpisah total dari H. Tidak ada K yang H."
+      },
+      {
+        "id": "U12-Q7",
+        "type": "TWK",
+        "text": "Logika Konstitusi: Jika Peraturan Pemerintah (PP) bertentangan dengan Undang-Undang (UU), maka PP tersebut harus diuji materi (Judicial Review). Lembaga yang berwenang menguji PP terhadap UU adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mahkamah Konstitusi (MK)", "score": 0 },
+          { "key": "B", "text": "Mahkamah Agung (MA)", "score": 5 },
+          { "key": "C", "text": "Dewan Perwakilan Rakyat (DPR)", "score": 0 },
+          { "key": "D", "text": "Komisi Yudisial (KY)", "score": 0 },
+          { "key": "E", "text": "Presiden", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hati-hati! MK menguji UU terhadap UUD. Tapi kalau peraturan DI BAWAH UU (seperti PP, Perpres) diuji terhadap UU, itu wewenang MA (Mahkamah Agung)."
+      },
+      {
+        "id": "U12-Q8",
+        "type": "TIU",
+        "text": "Tidak ada Praja yang malas. Semua yang malas akan gagal. Bambang adalah seorang Praja.",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Bambang mungkin gagal.", "score": 0 },
+          { "key": "B", "text": "Bambang tidak akan gagal.", "score": 0 },
+          { "key": "C", "text": "Bambang tidak malas.", "score": 5 },
+          { "key": "D", "text": "Yang tidak gagal adalah Bambang.", "score": 0 },
+          { "key": "E", "text": "Semua yang tidak malas adalah Praja.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Praja -> Tidak Malas. Malas -> Gagal. Bambang = Praja -> Maka Bambang Tidak Malas. (Apakah Bambang Gagal/Sukses? Tidak ada premis yang menghubungkan 'Tidak Malas' dengan 'Sukses'. Orang rajin pun bisa gagal. Jadi kesimpulan paling aman hanya sampai C)."
+      },
+      {
+        "id": "U12-Q9",
+        "type": "TIU",
+        "text": "Kontraposisi: Pernyataan yang ekuivalen dengan 'Jika harga BBM naik, maka harga sembako naik' adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Jika harga sembako naik, maka harga BBM naik.", "score": 0 },
+          { "key": "B", "text": "Jika harga BBM tidak naik, maka harga sembako tidak naik.", "score": 0 },
+          { "key": "C", "text": "Jika harga sembako tidak naik, maka harga BBM tidak naik.", "score": 5 },
+          { "key": "D", "text": "Harga BBM naik dan harga sembako tidak naik.", "score": 0 },
+          { "key": "E", "text": "Harga BBM turun atau harga sembako naik.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rumus Kontraposisi. P -> Q setara dengan ~Q -> ~P. (Jika TIDAK Akibat, maka TIDAK Sebab). Pilihan A salah (itu Konvers). Pilihan B salah (itu Invers)."
+      },
+      {
+        "id": "U12-Q10",
+        "type": "TWK",
+        "text": "Logika Sejarah: Semua organisasi pergerakan yang bersikap 'Non-Kooperatif' dilarang oleh pemerintah kolonial. PNI bersikap Non-Kooperatif. Budi Utomo bersikap Kooperatif.",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Budi Utomo dilarang pemerintah kolonial.", "score": 0 },
+          { "key": "B", "text": "PNI disayang pemerintah kolonial.", "score": 0 },
+          { "key": "C", "text": "PNI dilarang pemerintah kolonial.", "score": 5 },
+          { "key": "D", "text": "Budi Utomo adalah organisasi terlarang.", "score": 0 },
+          { "key": "E", "text": "Semua organisasi dilarang.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Silogisme Kategorial Sederhana. Non-Koop -> Dilarang. PNI -> Non-Koop. Maka PNI -> Dilarang. (Bagaimana dengan Budi Utomo? Premis tidak mengatakan apa nasib yang Kooperatif, jadi jangan asumsikan)."
+      }
+    ]
+  }

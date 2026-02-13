@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10,10 v40 h30 v-10 h-20 v-30 z" fill="black" transform="translate(0,0)"/>
+  <text x="20" y="60">A</text>
+
+  <path d="M10,10 v40 h30 v-10 h-20 v-30 z" fill="black" transform="translate(100,0) rotate(90, 25, 30)"/>
+  <text x="80" y="60">B</text>
+
+  <path d="M10,10 v40 h30 v-10 h-20 v-30 z" fill="black" transform="translate(160,0) rotate(180, 25, 30)"/>
+  <text x="140" y="60">C</text>
+
+  <path d="M40,10 v40 h-30 v-10 h20 v-30 z" fill="black" transform="translate(180,0)"/>
+  <text x="200" y="60">D</text>
+
+  <path d="M10,10 v40 h30 v-10 h-20 v-30 z" fill="black" transform="translate(240,0) rotate(270, 25, 30)"/>
+  <text x="260" y="60">E</text>
+</svg>

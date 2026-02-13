@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="5" width="40" height="40" fill="none" stroke="black" stroke-dasharray="2"/>
+  <circle cx="25" cy="25" r="5" fill="black"/>
+  <rect x="55" y="5" width="40" height="40" fill="none" stroke="black" stroke-dasharray="2"/>
+  <circle cx="70" cy="25" r="5" fill="black"/><circle cx="80" cy="25" r="5" fill="black"/>
+  <rect x="105" y="5" width="40" height="40" fill="none" stroke="black" stroke-dasharray="2"/>
+  <circle cx="115" cy="25" r="5" fill="black"/><circle cx="125" cy="25" r="5" fill="black"/><circle cx="135" cy="25" r="5" fill="black"/>
+</svg>

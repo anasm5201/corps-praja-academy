@@ -1,91 +1,105 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { authOptions } from "@/lib/auth";
+import { getServerSession } from "next-auth";
+import { redirect } from "next/navigation";
+import { prisma } from "@/lib/prisma"; // [UPDATED] Import Prisma
+import Sidebar from "@/components/dashboard/Sidebar";       
+import NavbarMobile from "@/components/dashboard/NavbarMobile"; 
+import { Toaster } from "sonner"; 
+import SubscriptionGuard from "@/components/dashboard/SubscriptionGuard"; // [UPDATED] Import Guard
 
-export default function DashboardLayout({
+export default async function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
+  const session = await getServerSession(authOptions);
+  if (!session) redirect("/login");
 
-  const menuItems = [
-    { name: "COMMAND CENTER", href: "/dashboard", icon: "🏠" },
-    { name: "MISSION (TRY OUT)", href: "/dashboard/mission", icon: "🎯" },
-    { name: "INTEL (MATERI)", href: "/dashboard/intel", icon: "📚" },
-    { name: "RANKING", href: "/dashboard/ranking", icon: "🏆" },
-    { name: "SETTINGS", href: "/dashboard/settings", icon: "⚙️" },
-  ];
+  // [UPDATED] Ambil Data User Lengkap (Subscription & CreatedAt)
+  const user = await prisma.user.findUnique({
+    where: { id: (session.user as any).id },
+    select: {
+      id: true,
+      name: true,
+      subscriptionType: true,
+      createdAt: true,
+    }
+  });
+
+  if (!user) redirect("/login");
 
   return (
-    <div className="flex h-screen bg-void text-white overflow-hidden">
+    // UBAH: Selection color lebih gelap (Merah Marun) agar lebih berwibawa/sakral
+    <div className="min-h-screen bg-[#050505] text-white font-sans selection:bg-red-900/50">
       
-      {/* --- SIDEBAR (TACTICAL MENU) --- */}
-      <aside className="w-64 border-r border-white/10 bg-black/50 backdrop-blur-md hidden md:flex flex-col">
+      {/* 1. BACKGROUND GRID DIGITAL (Ambience) */}
+      <div 
+        className="fixed inset-0 z-0 opacity-10 pointer-events-none"
+        style={{
+          backgroundImage: `linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px)`,
+          backgroundSize: '40px 40px'
+        }}
+      ></div>
+      
+      {/* 2. SIDEBAR NAVIGASI (Desktop) */}
+      <Sidebar />
+
+      {/* 3. NAVBAR NAVIGASI (Mobile) */}
+      <div className="lg:hidden">
+         <NavbarMobile />
+      </div>
+
+      {/* 4. MAIN CONTENT AREA */}
+      <main className="lg:pl-64 relative z-10 min-h-screen flex flex-col transition-all duration-300 pb-24 lg:pb-0">
         
-        {/* Logo Area */}
-        <div className="h-20 flex items-center justify-center border-b border-white/5">
-           <div className="relative w-10 h-10 mr-3">
-             <Image src="/assets/logo.png" alt="Logo" fill className="object-contain" />
-           </div>
-           <span className="font-bold tracking-widest font-sans text-sm">CORPS PRAJA</span>
+        {/* HEADER BAR (Sticky Top) */}
+        <header className="sticky top-0 z-30 bg-[#050505]/80 backdrop-blur-md border-b border-white/10 px-4 md:px-8 py-4 flex justify-between items-center">
+             
+             {/* UBAH: Status Indikator menjadi Penanda Lokasi Sakral */}
+             <div className="flex items-center gap-3">
+                <div className="flex h-3 w-3 relative">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600"></span>
+                </div>
+                <div>
+                    <span className="block text-[10px] font-black text-neutral-500 uppercase tracking-widest leading-none">
+                        TERITORIAL
+                    </span>
+                    <span className="block text-xs font-bold text-white uppercase tracking-wider leading-none mt-1">
+                        LEMBAH MANGLAYANG
+                    </span>
+                </div>
+             </div>
+
+             {/* UBAH: User Profile menjadi Identitas Praja */}
+             <div className="flex items-center gap-4">
+                <div className="text-right hidden sm:block">
+                  <h3 className="text-sm font-bold text-white uppercase">{user.name}</h3>
+                  <p className="text-[10px] font-mono text-red-500 uppercase tracking-widest">
+                    {user.subscriptionType === 'FREE' ? 'REKRUT (TRIAL)' : 'CORPS PRAJA'}
+                  </p>
+                </div>
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-sm text-white shadow-lg ${user.subscriptionType !== 'FREE' ? 'bg-gradient-to-br from-amber-600 to-yellow-800 border-amber-500/30' : 'bg-gradient-to-br from-red-900 to-black border-red-500/30 shadow-red-900/20'}`}>
+                  {user.name?.charAt(0).toUpperCase()}
+                </div>
+             </div>
+        </header>
+
+        {/* [UPDATED] CONTENT CHILDREN WRAPPED WITH IRON CURTAIN */}
+        {/* Guard ini akan mengecek status user & URL. Jika tidak valid, konten asli diganti Lock Screen */}
+        <div className="flex-1">
+            <SubscriptionGuard user={user}>
+                <div className="p-4 md:p-8">
+                    {children}
+                </div>
+            </SubscriptionGuard>
         </div>
 
-        {/* Menu Items */}
-        <nav className="flex-1 py-8 px-4 space-y-2">
-          {menuItems.map((item) => {
-            const isActive = pathname === item.href;
-            return (
-              <Link 
-                key={item.name} 
-                href={item.href}
-                className={`flex items-center gap-4 px-4 py-3 rounded text-sm font-mono transition-all ${
-                  isActive 
-                    ? "bg-laser/20 text-laser border border-laser/50 shadow-[0_0_15px_rgba(214,0,28,0.2)]" 
-                    : "text-gray-400 hover:bg-white/5 hover:text-white"
-                }`}
-              >
-                <span>{item.icon}</span>
-                {item.name}
-              </Link>
-            );
-          })}
-        </nav>
-
-        {/* User Profile Mini (UPDATED) */}
-        <div className="p-4 border-t border-white/10">
-          <div className="flex items-center justify-between bg-white/5 p-3 rounded border border-white/5">
-            
-            {/* Bagian Foto & Nama */}
-            <div className="flex items-center gap-3">
-               <div className="relative w-10 h-10 rounded-full border border-white/20 overflow-hidden bg-white/10">
-                  <Image src="/assets/satria.png" alt="Profile" fill className="object-cover" />
-               </div>
-               <div>
-                 <div className="text-xs font-bold text-white">KADET ANAS</div>
-                 <div className="text-[10px] text-holo">LEVEL 1 - ROOKIE</div>
-               </div>
-            </div>
-
-            {/* Tombol Logout (Ikon Pintu) */}
-            <Link href="/" className="p-2 text-gray-500 hover:text-red-500 transition-colors" title="Keluar Markas">
-              🚪
-            </Link>
-
-          </div>
-        </div>
-      </aside>
-
-      {/* --- MAIN CONTENT AREA --- */}
-      <main className="flex-1 overflow-y-auto relative">
-        {/* Background Grid di Dashboard */}
-        <div className="absolute inset-0 bg-[url('/assets/grid.png')] opacity-5 pointer-events-none bg-[size:30px_30px]"></div>
-        <div className="relative z-10 p-8">
-            {children}
-        </div>
       </main>
 
+      {/* 5. ANTENA NOTIFIKASI */}
+      <Toaster position="top-center" richColors theme="dark" />
+      
     </div>
   );
 }

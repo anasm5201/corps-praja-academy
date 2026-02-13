@@ -1,0 +1,132 @@
+[
+  {
+    "id": "twk-21",
+    "category": "TWK",
+    "text": "Bela negara tidak hanya dilakukan dengan angkat senjata, tetapi juga melalui profesi. Seorang guru yang bersedia ditempatkan di daerah 3T (Tertinggal, Terdepan, Terluar) untuk mencerdaskan kehidupan bangsa adalah wujud bela negara secara...",
+    "explanation": "Bela Negara ada dua jenis: Fisik (TNI/Angkat Senjata) dan Non-Fisik (Profesi/Psikis). Guru di daerah 3T melakukan bela negara Non-Fisik melalui pengabdian profesi sesuai Pasal 27 Ayat 3 UUD 1945.",
+    "options": [
+      { "key": "A", "text": "Fisik", "score": 0 },
+      { "key": "B", "text": "Militer", "score": 0 },
+      { "key": "C", "text": "Non-fisik (Nirmiliter)", "score": 5 },
+      { "key": "D", "text": "Wajib Militer", "score": 0 },
+      { "key": "E", "text": "Pertahanan Keamanan Rakyat Semesta", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-22",
+    "category": "TWK",
+    "text": "Ancaman terhadap kedaulatan negara saat ini bergeser dari perang konvensional menjadi 'Proxy War'. Salah satu bentuk ancaman nyata Proxy War yang dapat menghancurkan generasi muda Indonesia tanpa letusan peluru adalah...",
+    "explanation": "Proxy War adalah perang lewat pihak ketiga atau aspek nirmiliter. Peredaran narkoba dan gaya hidup hedonisme adalah senjata paling efektif untuk melemahkan ketahanan nasional suatu bangsa dengan merusak SDM-nya.",
+    "options": [
+      { "key": "A", "text": "Agresi militer negara tetangga", "score": 0 },
+      { "key": "B", "text": "Pelanggaran batas wilayah laut", "score": 0 },
+      { "key": "C", "text": "Peredaran narkoba dan penyebaran gaya hidup hedonisme", "score": 5 },
+      { "key": "D", "text": "Pencurian ikan di Natuna", "score": 0 },
+      { "key": "E", "text": "Embargo ekonomi", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-23",
+    "category": "TWK",
+    "text": "Dalam sistem ketatanegaraan Indonesia, terdapat lembaga yang berwenang memutus sengketa hasil pemilihan umum (PHPU) dan membubarkan partai politik. Lembaga negara yang dimaksud adalah...",
+    "explanation": "Hati-hati tertukar dengan Mahkamah Agung (MA). MA mengurus kasasi kasus pidana/perdata umum. Mahkamah Konstitusi (MK) mengurus 'Hukum Tata Negara': Uji Materi UU, Sengketa Pemilu, Pembubaran Parpol, dan Sengketa Kewenangan Lembaga Negara.",
+    "options": [
+      { "key": "A", "text": "Mahkamah Agung (MA)", "score": 0 },
+      { "key": "B", "text": "Komisi Yudisial (KY)", "score": 0 },
+      { "key": "C", "text": "Mahkamah Konstitusi (MK)", "score": 5 },
+      { "key": "D", "text": "Dewan Perwakilan Rakyat (DPR)", "score": 0 },
+      { "key": "E", "text": "Komisi Pemilihan Umum (KPU)", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-24",
+    "category": "TWK",
+    "text": "Peraturan Pemerintah Pengganti Undang-Undang (Perppu) adalah peraturan yang dikeluarkan Presiden dalam hal ihwal kegentingan yang memaksa. Kedudukan Perppu dalam hierarki peraturan perundang-undangan (UU No. 12 Tahun 2011) adalah...",
+    "explanation": "Perppu memiliki kedudukan yang SETARA/SEJAJAR dengan Undang-Undang (UU). Jika disetujui DPR, ia jadi UU. Jika ditolak, ia dicabut. Ia berada di bawah UUD 1945 dan di atas Peraturan Pemerintah (PP).",
+    "options": [
+      { "key": "A", "text": "Di bawah Undang-Undang", "score": 0 },
+      { "key": "B", "text": "Di atas Undang-Undang Dasar 1945", "score": 0 },
+      { "key": "C", "text": "Setara dengan Undang-Undang", "score": 5 },
+      { "key": "D", "text": "Setara dengan Peraturan Pemerintah", "score": 0 },
+      { "key": "E", "text": "Di bawah Peraturan Presiden", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-25",
+    "category": "TWK",
+    "text": "Manakah penulisan kata serapan dan penggunaan huruf kapital yang TEPAT sesuai PUEBI dalam kalimat berikut?",
+    "explanation": "'Jenderal' menggunakan huruf kapital karena diikuti nama orang (Jenderal Sudirman). 'sistem' (bukan system/sistim). 'gerilya' (bukan geriliya). Opsi B salah di 'jenderal' (huruf kecil). Opsi C salah di 'System'. Opsi D salah di 'Jendral' (tidak baku).",
+    "options": [
+      { "key": "A", "text": "Panglima Besar Jenderal Sudirman menerapkan sistem perang gerilya.", "score": 5 },
+      { "key": "B", "text": "Panglima besar jenderal Sudirman menerapkan sistem perang gerilya.", "score": 0 },
+      { "key": "C", "text": "Panglima Besar Jenderal Sudirman menerapkan system perang gerilya.", "score": 0 },
+      { "key": "D", "text": "Panglima Besar Jendral Sudirman menerapkan sistim perang gerilya.", "score": 0 },
+      { "key": "E", "text": "Panglima Besar Jenderal sudirman menerapkan sistem perang grilya.", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-26",
+    "category": "TWK",
+    "text": "Cermati kalimat berikut: 'Pemerintah memberikan *izin* impor beras untuk menjaga *kualitas* dan *kwantitas* stok nasional.' Kesalahan penulisan kata baku dalam kalimat tersebut terletak pada kata...",
+    "explanation": "Kata baku yang benar adalah: IZIN (pakai z, benar), KUALITAS (pakai u, benar), KUANTITAS (pakai u, bukan w). Jadi 'kwantitas' adalah bentuk tidak baku.",
+    "options": [
+      { "key": "A", "text": "Izin (seharusnya ijin)", "score": 0 },
+      { "key": "B", "text": "Impor (seharusnya import)", "score": 0 },
+      { "key": "C", "text": "Kualitas (seharusnya kwalitas)", "score": 0 },
+      { "key": "D", "text": "Kwantitas (seharusnya kuantitas)", "score": 5 },
+      { "key": "E", "text": "Nasional (seharusnya nasionalis)", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-27",
+    "category": "TWK",
+    "text": "Kalimat berikut yang merupakan kalimat efektif (hemat, logis, tidak ambigu) adalah...",
+    "explanation": "A salah (Para hadirin = jamak ganda). B salah (Agar supaya = pemborosan kata). C salah (Naik ke atas = pleonasme/mubazir). D benar (Subjek-Predikat-Objek jelas dan hemat). E salah (Sangat... sekali = pemborosan).",
+    "options": [
+      { "key": "A", "text": "Para hadirin sekalian dimohon berdiri.", "score": 0 },
+      { "key": "B", "text": "Kita harus belajar giat agar supaya lulus ujian.", "score": 0 },
+      { "key": "C", "text": "Dia naik ke atas panggung untuk menerima piala.", "score": 0 },
+      { "key": "D", "text": "Mahasiswa mengerjakan tugas akhir di perpustakaan.", "score": 5 },
+      { "key": "E", "text": "Mobil itu melaju dengan sangat cepat sekali.", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-28",
+    "category": "TWK",
+    "text": "Penggunaan tanda baca koma (,) yang SALAH terdapat pada kalimat...",
+    "explanation": "Opsi C salah karena konjungsi 'sehingga' adalah konjungsi intrakalimat yang TIDAK BOLEH didahului tanda koma. Opsi A, B, D, E menggunakan koma dengan benar (pemisah anak kalimat di awal, perincian, atau konjungsi antarkalimat).",
+    "options": [
+      { "key": "A", "text": "Karena hujan deras, adik tidak jadi pergi ke taman.", "score": 0 },
+      { "key": "B", "text": "Ibu membeli apel, jeruk, dan mangga.", "score": 0 },
+      { "key": "C", "text": "Dia sangat pandai, sehingga selalu juara kelas.", "score": 5 },
+      { "key": "D", "text": "Jadi, kita harus segera mengambil keputusan.", "score": 0 },
+      { "key": "E", "text": "Saya ingin membeli baju baru, tetapi uang saya belum cukup.", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-29",
+    "category": "TWK",
+    "text": "Tugas Mahkamah Agung (MA) berbeda dengan Komisi Yudisial (KY). Wewenang utama Komisi Yudisial sesuai UUD 1945 adalah...",
+    "explanation": "KY adalah lembaga pengawas etika hakim. Tugas utamanya mengusulkan pengangkatan Hakim Agung dan menjaga kehormatan/martabat hakim. KY tidak memutus perkara (itu tugas MA/MK).",
+    "options": [
+      { "key": "A", "text": "Mengadili pada tingkat kasasi", "score": 0 },
+      { "key": "B", "text": "Menguji peraturan perundang-undangan di bawah undang-undang", "score": 0 },
+      { "key": "C", "text": "Mengusulkan pengangkatan hakim agung dan menjaga kehormatan hakim", "score": 5 },
+      { "key": "D", "text": "Memutus sengketa kewenangan lembaga negara", "score": 0 },
+      { "key": "E", "text": "Memberikan grasi dan rehabilitasi", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-30",
+    "category": "TWK",
+    "text": "Dalam sistem otonomi daerah, terdapat urusan pemerintahan yang mutlak tetap menjadi wewenang pemerintah pusat dan tidak diserahkan ke daerah. Berikut ini yang termasuk urusan mutlak pemerintah pusat adalah...",
+    "explanation": "Ada 6 urusan mutlak Pusat: Politik Luar Negeri, Pertahanan, Keamanan, Yustisi (Hukum), Moneter/Fiskal (Uang), dan Agama. Pendidikan dan Kesehatan adalah urusan Konkuren (dibagi dengan daerah).",
+    "options": [
+      { "key": "A", "text": "Pendidikan dan Kebudayaan", "score": 0 },
+      { "key": "B", "text": "Kesehatan dan Sosial", "score": 0 },
+      { "key": "C", "text": "Pertahanan, Keamanan, dan Politik Luar Negeri", "score": 5 },
+      { "key": "D", "text": "Pariwisata dan Ekonomi Kreatif", "score": 0 },
+      { "key": "E", "text": "Pekerjaan Umum dan Perumahan Rakyat", "score": 0 }
+    ]
+  }
+]

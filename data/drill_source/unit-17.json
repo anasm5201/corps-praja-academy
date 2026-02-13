@@ -1,0 +1,148 @@
+{
+    "unit_id": 17,
+    "title": "Unit 17: The Gray Area (Dilema Etika)",
+    "description": "Simulasi pengambilan keputusan dalam situasi dilematis: Benturan kepentingan, loyalitas vs integritas, dan diskresi pejabat.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U17-Q1",
+        "type": "TKP",
+        "text": "Anda adalah panitia pengadaan barang. Kakak kandung Anda mengikuti tender tersebut dengan perusahaan yang sah dan memenuhi semua syarat kualitas. Secara aturan, dia berhak menang. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Memenangkannya karena dia memang memenuhi syarat (profesional).", "score": 2 },
+          { "key": "B", "text": "Menggugurkannya demi menghindari nepotisme.", "score": 1 },
+          { "key": "C", "text": "Mendeklarasikan 'Konflik Kepentingan' kepada atasan/tim dan mengundurkan diri dari proses penilaian khusus untuk tender tersebut.", "score": 5 },
+          { "key": "D", "text": "Pura-pura tidak kenal dan menilai seobjektif mungkin.", "score": 3 },
+          { "key": "E", "text": "Meminta rekan lain yang menilai kakak Anda.", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Manajemen Konflik Kepentingan. Opsi A dan D terlihat profesional tapi cacat etika (potensi bias tak sadar). Opsi B tidak adil (diskriminasi). Opsi C adalah prosedur standar integritas (Declare & Recuse)."
+      },
+      {
+        "id": "U17-Q2",
+        "type": "TWK",
+        "text": "Seorang pejabat mengambil keputusan 'Diskresi' (melanggar prosedur normal) untuk menyelamatkan nyawa warga saat bencana, namun secara administrasi hal itu menyebabkan kerugian negara. Menurut UU No. 30 Tahun 2014, tindakan ini...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tetap dianggap korupsi karena merugikan negara.", "score": 0 },
+          { "key": "B", "text": "Dapat dibenarkan asalkan tujuannya untuk kemaslahatan umum dan mendesak.", "score": 5 },
+          { "key": "C", "text": "Pejabat tersebut harus mengganti rugi dengan uang pribadi.", "score": 0 },
+          { "key": "D", "text": "Hanya Presiden yang boleh melakukan diskresi.", "score": 0 },
+          { "key": "E", "text": "Batal demi hukum.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konsep Diskresi. Diskresi sah jika: 1) Peraturan kosong/tidak jelas, 2) Kepentingan umum/mendesak, 3) Niat baik (tidak untuk memperkaya diri). Dalam kondisi darurat nyawa, administrasi nomor dua."
+      },
+      {
+        "id": "U17-Q3",
+        "type": "TIU",
+        "text": "Matriks Prioritas (Eisenhower): Anda punya 4 tugas. Mana yang harus dikerjakan PERTAMA?",
+        "image": "<svg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='100' height='100' fill='#ffaaaa' stroke='black'/><text x='50' y='50' text-anchor='middle' font-size='10'>A: Penting & Mendesak</text><rect x='100' y='0' width='100' height='100' fill='#aaffaa' stroke='black'/><text x='150' y='50' text-anchor='middle' font-size='10'>B: Penting & Tdk Mendesak</text><rect x='0' y='100' width='100' height='100' fill='#ffffaa' stroke='black'/><text x='50' y='150' text-anchor='middle' font-size='10'>C: Tdk Penting & Mendesak</text><rect x='100' y='100' width='100' height='100' fill='#ddd' stroke='black'/><text x='150' y='150' text-anchor='middle' font-size='10'>D: Tdk Penting & Tdk Mendesak</text></svg>",
+        "options": [
+          { "key": "A", "text": "Tugas A (Krisis/Deadline)", "score": 5 },
+          { "key": "B", "text": "Tugas B (Perencanaan/Strategi)", "score": 0 },
+          { "key": "C", "text": "Tugas C (Gangguan/Telepon)", "score": 0 },
+          { "key": "D", "text": "Tugas D (Hiburan)", "score": 0 },
+          { "key": "E", "text": "Semua bersamaan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Eisenhower Matrix. DO First = A. Schedule = B. Delegate = C. Delete = D."
+      },
+      {
+        "id": "U17-Q4",
+        "type": "TKP",
+        "text": "Anda sedang buru-buru menuju lokasi tes wawancara promosi jabatan (sangat krusial). Di jalan sepi, Anda melihat korban tabrak lari tergeletak berdarah. Jika Anda menolong, Anda pasti terlambat dan gagal promosi. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menelepon ambulans lalu segera pergi melanjutkan perjalanan.", "score": 3 },
+          { "key": "B", "text": "Pura-pura tidak lihat karena masa depan karir dipertaruhkan.", "score": 1 },
+          { "key": "C", "text": "Berhenti, memberikan pertolongan pertama, dan mengantar ke RS, meskipun konsekuensinya gagal tes.", "score": 5 },
+          { "key": "D", "text": "Menolong hanya jika ada orang lain yang melihat.", "score": 1 },
+          { "key": "E", "text": "Meminta orang lewat lain untuk menolong.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Humanisme > Ambisi. Tes karakter sesungguhnya adalah saat Anda diuji antara kepentingan pribadi vs nyawa orang lain. ASN adalah pelayan masyarakat. Nyawa di atas segalanya. (Tips: Di dunia nyata, seringkali ada dispensasi untuk aksi heroik, tapi di soal TKP, pilih opsi 'Pengorbanan Total')."
+      },
+      {
+        "id": "U17-Q5",
+        "type": "TWK",
+        "text": "Seorang ASN menerima parsel lebaran dari rekanan proyek. Karena takut menolak dan menyinggung perasaan, dia menerimanya. Apa yang harus dia lakukan menurut UU Tipikor agar tidak dianggap suap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Membagikannya ke panti asuhan.", "score": 0 },
+          { "key": "B", "text": "Melaporkannya ke KPK/UPG (Unit Pengendali Gratifikasi) dalam waktu maksimal 30 hari kerja.", "score": 5 },
+          { "key": "C", "text": "Menyimpannya dan tidak memakainya.", "score": 0 },
+          { "key": "D", "text": "Mengembalikan diam-diam.", "score": 0 },
+          { "key": "E", "text": "Melaporkannya ke atasan langsung.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Prosedur Gratifikasi. Boleh diterima (jika terpaksa), tapi WAJIB LAPOR KPK/UPG maksimal 30 hari kerja. Nanti KPK yang tentukan barang itu jadi milik negara atau milik penerima."
+      },
+      {
+        "id": "U17-Q6",
+        "type": "TIU",
+        "text": "Logika Etika: Semua tindakan korupsi merugikan negara. Sebagian tindakan yang merugikan negara disebabkan oleh kelalaian (bukan kesengajaan).",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Semua kelalaian adalah korupsi.", "score": 0 },
+          { "key": "B", "text": "Semua korupsi disebabkan oleh kelalaian.", "score": 0 },
+          { "key": "C", "text": "Sebagian tindakan yang merugikan negara bukan korupsi (tapi kelalaian).", "score": 5 },
+          { "key": "D", "text": "Tidak ada korupsi yang disengaja.", "score": 0 },
+          { "key": "E", "text": "Kelalaian tidak merugikan negara.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Analisis Himpunan. Lingkaran 'Merugikan Negara' berisi dua sub-himpunan: 'Korupsi' dan 'Kelalaian'. Jadi sebagian kerugian negara itu korupsi, sebagian lagi kelalaian."
+      },
+      {
+        "id": "U17-Q7",
+        "type": "TKP",
+        "text": "Atasan Anda memerintahkan memalsukan tanggal kuitansi perjalanan dinas agar anggaran terserap (padahal perjalanan asli dilakukan, hanya beda tanggal). Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Melakukannya karena perjalanan dinasnya benar-benar ada (substansi benar).", "score": 2 },
+          { "key": "B", "text": "Menolak dengan tegas dan mengatakan itu tindak pidana.", "score": 5 },
+          { "key": "C", "text": "Melakukannya tapi meminta surat perintah tertulis sebagai bukti jika ada masalah.", "score": 3 },
+          { "key": "D", "text": "Pura-pura sakit agar tidak disuruh.", "score": 1 },
+          { "key": "E", "text": "Berkonsultasi dengan bendahara.", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas Administrasi. Memalsukan data (meski substansi benar) tetaplah Maladministrasi/Pemalsuan Dokumen. Menolak (B) adalah yang terbaik. Meminta perintah tertulis (C) melindungi diri tapi tetap melakukan kesalahan."
+      },
+      {
+        "id": "U17-Q8",
+        "type": "TIU",
+        "text": "Dilema Neraca: Manakah yang lebih berat? (Asumsi lengan timbangan sama panjang)",
+        "image": "<svg width='200' height='100' viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><line x1='50' y1='20' x2='150' y2='20' stroke='black'/><polygon points='100,20 95,30 105,30' fill='black'/><rect x='40' y='20' width='20' height='40' fill='none' stroke='black'/><text x='50' y='50' text-anchor='middle' font-size='10'>3A</text><rect x='140' y='20' width='20' height='40' fill='none' stroke='black'/><text x='150' y='50' text-anchor='middle' font-size='10'>2B</text><text x='100' y='80' text-anchor='middle' font-size='10'>Posisi Seimbang</text></svg>",
+        "options": [
+          { "key": "A", "text": "Benda A lebih berat dari B", "score": 0 },
+          { "key": "B", "text": "Benda B lebih berat dari A", "score": 5 },
+          { "key": "C", "text": "Benda A dan B sama berat", "score": 0 },
+          { "key": "D", "text": "Berat total kiri > kanan", "score": 0 },
+          { "key": "E", "text": "Tidak dapat ditentukan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Logika Persamaan. 3A = 2B. Artinya butuh 3 buah A untuk menyamai 2 buah B. Berarti Benda B lebih 'padat/berat' secara satuan. (Misal: 3 Kelereng = 2 Batu. Pasti Batu lebih berat satuannya)."
+      },
+      {
+        "id": "U17-Q9",
+        "type": "TKP",
+        "text": "Anda adalah Customer Service. Seorang lansia marah-marah karena antrean online penuh, padahal dia tidak punya HP (Gaptek). Aturan kantor mewajibkan daftar online. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menjelaskan aturan dengan tegas dan memintanya pulang.", "score": 1 },
+          { "key": "B", "text": "Membantunya mendaftarkan lewat HP pribadi Anda dan melayaninya (Diskresi Pelayanan).", "score": 5 },
+          { "key": "C", "text": "Menyuruh satpam menenangkan lansia tersebut.", "score": 1 },
+          { "key": "D", "text": "Meminta pengunjung lain membantunya.", "score": 3 },
+          { "key": "E", "text": "Memberikan pengecualian tanpa daftar (langsung masuk).", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Service Excellence + Empathy. Aturan dibuat untuk manusia, bukan sebaliknya. Jika ada hambatan akses (Disabilitas/Lansia Gaptek), petugas wajib 'Jemput Bola' (Bantu daftarkan). Opsi E (Langsung masuk) bisa memicu kecemburuan pengantre lain, lebih baik daftarkan resmi via HP petugas agar tetap prosedural tapi solutif."
+      },
+      {
+        "id": "U17-Q10",
+        "type": "TWK",
+        "text": "Dalam etika pemerintahan, prinsip 'Good Governance' yang menuntut agar setiap kebijakan dapat dipertanggungjawabkan kepada publik disebut...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Transparansi", "score": 0 },
+          { "key": "B", "text": "Akuntabilitas", "score": 5 },
+          { "key": "C", "text": "Efisiensi", "score": 0 },
+          { "key": "D", "text": "Partisipatif", "score": 0 },
+          { "key": "E", "text": "Supremasi Hukum", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Definisi Istilah. Transparansi = Terbuka (Bisa dilihat). Akuntabilitas = Dapat dipertanggungjawabkan (Hasil/Konsekuensinya). Partisipatif = Melibatkan rakyat."
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 110 V130 M30 120 H50" stroke="black" stroke-width="3"/> <text x="65" y="125">+</text>
+  <path d="M80 110 L100 130 M100 110 L80 130" stroke="black" stroke-width="3"/> <text x="115" y="125">=</text>
+  <text x="140" y="125" font-size="30">?</text>
+
+  <g transform="translate(170,120)">
+    <path d="M0 -10 V10 M-10 0 H10" stroke="black" stroke-width="3"/>
+    <path d="M-7 -7 L7 7 M7 -7 L-7 7" stroke="black" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+{
+    "unit_id": 8,
+    "title": "Unit 8: Akselerasi Numerik & Verbal",
+    "description": "Latihan kecepatan tinggi untuk deret angka, padanan kata, dan pemahaman wacana singkat.",
+    "level": "Kadet Muda",
+    "questions": [
+      {
+        "id": "U8-Q1",
+        "type": "TIU",
+        "text": "Sinonim: INSOMNIA = ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tidur Nyenyak", "score": 0 },
+          { "key": "B", "text": "Cemas", "score": 0 },
+          { "key": "C", "text": "Tak Bisa Tidur", "score": 5 },
+          { "key": "D", "text": "Mimpi Buruk", "score": 0 },
+          { "key": "E", "text": "Lupa Ingatan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Insomnia = Gangguan menyulitkan tidur. Jelas C."
+      },
+      {
+        "id": "U8-Q2",
+        "type": "TIU",
+        "text": "Deret: 100, 50, 25, 12.5, ... Angka selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "6.25", "score": 5 },
+          { "key": "B", "text": "6.50", "score": 0 },
+          { "key": "C", "text": "6.75", "score": 0 },
+          { "key": "D", "text": "5.25", "score": 0 },
+          { "key": "E", "text": "7.25", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola pembagian 2 (Dibagi setengah). 12.5 / 2 = 6.25."
+      },
+      {
+        "id": "U8-Q3",
+        "type": "TKP",
+        "text": "Anda memiliki ide inovasi untuk memangkas birokrasi, tapi senior Anda yang kolot menolaknya mentah-mentah. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tetap menerapkan ide tersebut diam-diam.", "score": 2 },
+          { "key": "B", "text": "Mencari dukungan dari rekan lain untuk melawan senior.", "score": 3 },
+          { "key": "C", "text": "Menyusun proposal tertulis dengan data keuntungan efisiensi, lalu ajukan resmi saat rapat.", "score": 5 },
+          { "key": "D", "text": "Menunggu sampai senior tersebut pensiun.", "score": 1 },
+          { "key": "E", "text": "Keluar dari tim tersebut.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Kreativitas & Inovasi vs Hierarki. Jangan melawan frontal (B) atau subversif (A). Gunakan jalur formal dengan DATA (C) agar objektif."
+      },
+      {
+        "id": "U8-Q4",
+        "type": "TIU",
+        "text": "Jika 4x - 5 = 15, maka nilai 2x + 3 adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "10", "score": 0 },
+          { "key": "B", "text": "11", "score": 0 },
+          { "key": "C", "text": "12", "score": 0 },
+          { "key": "D", "text": "13", "score": 5 },
+          { "key": "E", "text": "14", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Cari x dulu. 4x = 20 -> x = 5. Masukkan ke persamaan kedua: 2(5) + 3 = 10 + 3 = 13."
+      },
+      {
+        "id": "U8-Q5",
+        "type": "TWK",
+        "text": "Badan yang dibentuk Jepang untuk menyelidiki usaha-usaha persiapan kemerdekaan Indonesia adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "PPKI (Dokuritsu Junbi Inkai)", "score": 0 },
+          { "key": "B", "text": "BPUPKI (Dokuritsu Junbi Cosakai)", "score": 5 },
+          { "key": "C", "text": "PETA", "score": 0 },
+          { "key": "D", "text": "Putera", "score": 0 },
+          { "key": "E", "text": "Jawa Hokokai", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kata kunci 'Menyelidiki' = BPUPKI (Badan Penyelidik...). Kalau 'Persiapan' (Pelaksana) = PPKI."
+      },
+      {
+        "id": "U8-Q6",
+        "type": "TIU",
+        "text": "Analogi: KERTAS : PENA = ... : ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Dinding : Kuas", "score": 5 },
+          { "key": "B", "text": "Mobil : Bensin", "score": 0 },
+          { "key": "C", "text": "Komputer : Keyboard", "score": 0 },
+          { "key": "D", "text": "Meja : Kursi", "score": 0 },
+          { "key": "E", "text": "Gelas : Air", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Fungsi Alat & Media. Kertas adalah media yang ditulis oleh Pena. Dinding adalah media yang dicat oleh Kuas."
+      },
+      {
+        "id": "U8-Q7",
+        "type": "TWK",
+        "text": "Sistem pemerintahan di mana menteri bertanggung jawab kepada Parlemen (DPR), bukan kepada Presiden, disebut sistem...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Presidensial", "score": 0 },
+          { "key": "B", "text": "Parlementer", "score": 5 },
+          { "key": "C", "text": "Monarki", "score": 0 },
+          { "key": "D", "text": "Republik", "score": 0 },
+          { "key": "E", "text": "Otoriter", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Parlementer = Menteri (Eksekutif) lapor ke Parlemen (Legislatif). Presidensial = Menteri lapor ke Presiden."
+      },
+      {
+        "id": "U8-Q8",
+        "type": "TKP",
+        "text": "Rekan kerja Anda sering datang terlambat namun pulang paling cepat. Atasan tidak tahu karena rekan tersebut pandai mencari alasan. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Ikut-ikutan malas karena merasa tidak adil.", "score": 1 },
+          { "key": "B", "text": "Menyindirnya terus menerus.", "score": 2 },
+          { "key": "C", "text": "Mengingatkan rekan tersebut personal dampaknya bagi tim.", "score": 5 },
+          { "key": "D", "text": "Melapor anonim ke atasan.", "score": 3 },
+          { "key": "E", "text": "Mencatat jam datangnya untuk bukti.", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Assertiveness. Langkah pertama adalah teguran personal (C). Jika tidak berubah dan merugikan kinerja, baru eskalasi (D/E)."
+      },
+      {
+        "id": "U8-Q9",
+        "type": "TIU",
+        "text": "A, C, F, J, O, ... Huruf selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "T", "score": 0 },
+          { "key": "B", "text": "U", "score": 5 },
+          { "key": "C", "text": "V", "score": 0 },
+          { "key": "D", "text": "S", "score": 0 },
+          { "key": "E", "text": "P", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konversi ke Angka. A(1) +2 = C(3). C(3) +3 = F(6). F(6) +4 = J(10). J(10) +5 = O(15). Pola +2, +3, +4, +5. Selanjutnya +6. 15+6 = 21. Huruf ke-21 adalah U."
+      },
+      {
+        "id": "U8-Q10",
+        "type": "TWK",
+        "text": "Hak DPR untuk melakukan penyelidikan terhadap kebijakan pemerintah yang diduga bertentangan dengan undang-undang disebut hak...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Interpelasi", "score": 0 },
+          { "key": "B", "text": "Angket", "score": 5 },
+          { "key": "C", "text": "Menyatakan Pendapat", "score": 0 },
+          { "key": "D", "text": "Budget", "score": 0 },
+          { "key": "E", "text": "Imunitas", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Interpelasi = Bertanya. Angket = Menyelidiki (Investigasi). Menyatakan Pendapat = Tindak lanjut hasil angket/interpelasi."
+      }
+    ]
+  }

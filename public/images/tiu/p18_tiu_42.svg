@@ -1,0 +1,12 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <path d="M20 100 L80 100 L100 80 L40 80 Z" fill="lightgray" stroke="black"/> 
+  <text x="50" y="120" font-size="12">Lantai 1 (9)</text>
+  
+  <path d="M30 80 L70 80 L80 70 L40 70 Z" fill="gray" stroke="black"/>
+  <text x="50" y="95" font-size="12">Lantai 2 (4)</text>
+  
+  <rect x="45" y="50" width="20" height="20" fill="white" stroke="black"/>
+  <text x="50" y="45" font-size="12">Lantai 3 (1)</text>
+</svg>

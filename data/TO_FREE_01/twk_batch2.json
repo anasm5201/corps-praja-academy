@@ -1,0 +1,132 @@
+[
+  {
+    "id": "twk-11",
+    "category": "TWK",
+    "text": "Seorang pejabat publik sering memamerkan gaya hidup mewah di media sosial, seperti liburan ke luar negeri dan barang-barang *branded*, di tengah kondisi ekonomi masyarakat yang sedang sulit. Meskipun barang tersebut dibeli dengan uang pribadinya yang sah, tindakan tersebut dikecam karena dianggap melanggar pengamalan Pancasila, khususnya Sila ke-...",
+    "explanation": "Ini adalah jebakan klasik. Banyak yang menjawab Sila 2 (Tenggang rasa). Namun, 'Bergaya hidup mewah' dan 'Pemborosan' adalah butir spesifik dari SILA KE-5 (Keadilan Sosial). Sila 5 mengatur hubungan individu dengan kepatutan publik/sosial.",
+    "options": [
+      { "key": "A", "text": "Sila ke-1", "score": 0 },
+      { "key": "B", "text": "Sila ke-2", "score": 0 },
+      { "key": "C", "text": "Sila ke-3", "score": 0 },
+      { "key": "D", "text": "Sila ke-4", "score": 0 },
+      { "key": "E", "text": "Sila ke-5", "score": 5 }
+    ]
+  },
+  {
+    "id": "twk-12",
+    "category": "TWK",
+    "text": "Pak Budi melihat tetangganya yang beda agama sedang mengalami musibah kebakaran. Tanpa memandang latar belakang keyakinan, Pak Budi langsung memberikan bantuan pakaian dan makanan. Tindakan Pak Budi membantu korban bencana ini adalah murni implementasi nilai...",
+    "explanation": "Kata kuncinya adalah 'Membantu korban bencana/musibah' dan perlakuan kepada manusia. Meskipun ada unsur 'beda agama', fokus utamanya bukan pada ibadahnya, tapi pada aksi tolong-menolong antar manusia. Ini adalah ranah SILA KE-2 (Gemar melakukan kegiatan kemanusiaan).",
+    "options": [
+      { "key": "A", "text": "Ketuhanan Yang Maha Esa", "score": 0 },
+      { "key": "B", "text": "Kemanusiaan yang Adil dan Beradab", "score": 5 },
+      { "key": "C", "text": "Persatuan Indonesia", "score": 0 },
+      { "key": "D", "text": "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan", "score": 0 },
+      { "key": "E", "text": "Keadilan Sosial bagi Seluruh Rakyat Indonesia", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-13",
+    "category": "TWK",
+    "text": "Dalam sebuah rapat warga untuk menentukan jadwal ronda, terjadi perdebatan sengit. Sebagian warga ingin ronda ditiadakan dan diganti dengan iuran menyewa satpam, sebagian lagi ingin ronda tetap berjalan untuk keakraban. Ketua RT akhirnya mengambil keputusan melalui voting (suara terbanyak) setelah musyawarah tidak mencapai mufakat. Sikap Ketua RT tersebut sesuai dengan Sila ke-4 karena...",
+    "explanation": "Sila ke-4 mengutamakan Musyawarah untuk Mufakat. Namun, jika mufakat tidak tercapai, pengambilan keputusan melalui suara terbanyak (Voting) adalah mekanisme demokrasi yang sah dan diizinkan oleh Sila ke-4, asalkan semua pihak menerima hasilnya dengan lapang dada.",
+    "options": [
+      { "key": "A", "text": "Memaksakan kehendak mayoritas kepada minoritas", "score": 0 },
+      { "key": "B", "text": "Menunjukkan kekuasaan seorang pemimpin", "score": 0 },
+      { "key": "C", "text": "Mengutamakan kepentingan golongan kaya yang bisa membayar satpam", "score": 0 },
+      { "key": "D", "text": "Menempuh jalan voting sebagai solusi akhir demokrasi saat mufakat buntu", "score": 5 },
+      { "key": "E", "text": "Mengabaikan pendapat minoritas", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-14",
+    "category": "TWK",
+    "text": "Seorang ASN menolak cuti liburannya demi menyelesaikan tugas pelayanan publik yang mendesak akibat bencana alam di daerahnya. Ia rela waktu istirahatnya terpotong demi kepentingan masyarakat luas. Nilai dasar yang terkandung dalam tindakan tersebut adalah...",
+    "explanation": "Rela berkorban untuk kepentingan negara dan bangsa adalah butir dari SILA KE-3. Namun dalam konteks 'Mendahulukan kepentingan umum di atas kepentingan pribadi' juga bisa beririsan dengan Sila 5. Dalam opsi soal TWK biasanya akan diarahkan ke 'Rela Berkorban' (Patriotisme) yang merupakan Sila 3, atau 'Pengabdian' (Integritas). Jika opsinya Sila, pilih Sila 3.",
+    "options": [
+      { "key": "A", "text": "Sila ke-1 (Beribadah melalui kerja)", "score": 0 },
+      { "key": "B", "text": "Sila ke-2 (Menolong orang)", "score": 0 },
+      { "key": "C", "text": "Sila ke-3 (Rela berkorban demi bangsa)", "score": 5 },
+      { "key": "D", "text": "Sila ke-4 (Taat pimpinan)", "score": 0 },
+      { "key": "E", "text": "Sila ke-5 (Bekerja keras)", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-15",
+    "category": "TWK",
+    "text": "Pasal 29 Ayat 2 UUD 1945 menyatakan bahwa Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu. Konsekuensi logis dari pasal ini bagi pemerintah adalah...",
+    "explanation": "Pasal 29 Ayat 2 bukan hanya slogan, tapi mewajibkan negara 'Hadir'. Bentuk kehadirannya adalah memfasilitasi sarana ibadah dan regulasi yang melindungi, bukan mencampuri urusan dogma/akidah agama.",
+    "options": [
+      { "key": "A", "text": "Pemerintah wajib menyatukan semua agama menjadi satu agama negara", "score": 0 },
+      { "key": "B", "text": "Pemerintah tidak boleh ikut campur sama sekali dalam urusan agama", "score": 0 },
+      { "key": "C", "text": "Pemerintah berkewajiban memfasilitasi dan melindungi pelaksanaan ibadah warganya", "score": 5 },
+      { "key": "D", "text": "Pemerintah membebaskan warga untuk tidak memeluk agama (Atheis)", "score": 0 },
+      { "key": "E", "text": "Pemerintah menentukan tata cara ibadah setiap agama", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-16",
+    "category": "TWK",
+    "text": "Amandemen UUD 1945 dilakukan sebanyak empat kali (1999-2002). Salah satu alasan fundamental dilakukannya amandemen pada Pasal 7 mengenai masa jabatan Presiden adalah...",
+    "explanation": "Sebelum amandemen, Pasal 7 berbunyi '...dapat dipilih kembali'. Kata ini multitafsir dan menyebabkan Presiden Soeharto bisa menjabat 32 tahun (seumur hidup). Amandemen membatasi tegas: 'maksimal 2 kali masa jabatan' untuk mencegah penyalahgunaan kekuasaan (abuse of power).",
+    "options": [
+      { "key": "A", "text": "Agar presiden bisa menjabat seumur hidup", "score": 0 },
+      { "key": "B", "text": "Mencegah kekuasaan absolut dan membatasi masa jabatan maksimal 2 periode", "score": 5 },
+      { "key": "C", "text": "Mempermudah proses pemilihan umum", "score": 0 },
+      { "key": "D", "text": "Memberikan kekuasaan lebih besar kepada MPR", "score": 0 },
+      { "key": "E", "text": "Menghapus peran Presiden sebagai kepala negara", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-17",
+    "category": "TWK",
+    "text": "Bela Negara diatur dalam Pasal 27 Ayat 3 UUD 1945. Perbedaan mendasar antara Bela Negara dalam Pasal 27 Ayat 3 dengan Pertahanan Negara dalam Pasal 30 Ayat 1 adalah...",
+    "explanation": "Jebakan Pasal! Pasal 27 Ayat 3 adalah tentang 'HAK & KEWAJIBAN WARGA NEGARA' (Semua profesi, guru, dokter, sipil berhak membela negara). Pasal 30 Ayat 1 adalah tentang 'SISTEM PERTAHANAN' (TNI/Polri sebagai komponen utama, rakyat komponen pendukung).",
+    "options": [
+      { "key": "A", "text": "Pasal 27 membahas TNI, Pasal 30 membahas Rakyat", "score": 0 },
+      { "key": "B", "text": "Pasal 27 membahas Wajib Militer, Pasal 30 membahas Sukarelawan", "score": 0 },
+      { "key": "C", "text": "Pasal 27 adalah Hak & Kewajiban Warga Negara, Pasal 30 adalah Sistem Pertahanan (TNI/Polri)", "score": 5 },
+      { "key": "D", "text": "Tidak ada perbedaan, keduanya sama", "score": 0 },
+      { "key": "E", "text": "Pasal 27 untuk saat perang, Pasal 30 untuk saat damai", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-18",
+    "category": "TWK",
+    "text": "Anda ditunjuk sebagai panitia pengadaan barang di kantor. Saudara kandung Anda memiliki perusahaan yang bergerak di bidang tersebut dan ingin mengikuti tender. Secara kualifikasi, perusahaan saudara Anda memang sangat bagus. Sikap Integritas yang tepat adalah...",
+    "explanation": "Ini adalah definisi KONFLIK KEPENTINGAN (Conflict of Interest). Meskipun perusahaannya bagus, hubungan darah akan bias. Tindakan paling berintegritas adalah MUNDUR dari kepanitiaan atau mendeklarasikan konflik kepentingan dan tidak terlibat dalam penilaian spesifik terhadap perusahaan tersebut.",
+    "options": [
+      { "key": "A", "text": "Memenangkan saudara Anda asalkan harganya wajar", "score": 0 },
+      { "key": "B", "text": "Memberikan bocoran spesifikasi agar saudara Anda bisa menang secara 'fair'", "score": 0 },
+      { "key": "C", "text": "Tetap menjadi panitia namun bersikap pura-pura tidak kenal", "score": 0 },
+      { "key": "D", "text": "Mengundurkan diri dari tim penilai atau mendeklarasikan konflik kepentingan kepada atasan", "score": 5 },
+      { "key": "E", "text": "Menolak perusahaan saudara Anda tanpa melihat kualifikasinya", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-19",
+    "category": "TWK",
+    "text": "Korupsi memiliki dampak luar biasa (extraordinary crime). Salah satu dampak korupsi terhadap kehidupan ekonomi makro adalah...",
+    "explanation": "Korupsi menghambat investasi karena menciptakan ekonomi biaya tinggi (high cost economy). Investor malas masuk jika banyak pungli/suap, sehingga pertumbuhan ekonomi melambat dan lapangan kerja berkurang.",
+    "options": [
+      { "key": "A", "text": "Meningkatkan daya beli masyarakat secara instan", "score": 0 },
+      { "key": "B", "text": "Menghambat investasi dan pertumbuhan ekonomi karena biaya ekonomi tinggi", "score": 5 },
+      { "key": "C", "text": "Mempercepat proses birokrasi pemerintahan", "score": 0 },
+      { "key": "D", "text": "Meningkatkan kualitas barang dan jasa publik", "score": 0 },
+      { "key": "E", "text": "Menurunkan harga barang di pasar", "score": 0 }
+    ]
+  },
+  {
+    "id": "twk-20",
+    "category": "TWK",
+    "text": "Seorang ASN menerima parsel lebaran dari rekanan kontraktor yang tidak dikenal dekat, namun parsel tersebut dikirimkan ke rumahnya saat ia sedang cuti. Tindakan pelaporan yang benar sesuai prosedur KPK adalah...",
+    "explanation": "Aturan 'Tolak' berlaku jika bisa ditolak langsung. Jika barang sudah sampai di rumah dan tidak bisa ditolak saat itu juga (pemberi sudah pergi/dikirim kurir), maka wajib DITERIMA dulu (untuk bukti) lalu DILAPORKAN ke UPG/KPK maksimal 30 Hari Kerja.",
+    "options": [
+      { "key": "A", "text": "Membagikan isi parsel ke tetangga agar tidak mubazir", "score": 0 },
+      { "key": "B", "text": "Mengembalikan parsel lewat jasa pengiriman dengan biaya sendiri", "score": 0 },
+      { "key": "C", "text": "Melaporkan penerimaan tersebut ke KPK/Unit Pengendalian Gratifikasi maksimal 30 hari kerja", "score": 5 },
+      { "key": "D", "text": "Menyimpannya di gudang sampai kadaluarsa", "score": 0 },
+      { "key": "E", "text": "Melaporkan kepada polisi sebagai barang temuan", "score": 0 }
+    ]
+  }
+]

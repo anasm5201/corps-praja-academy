@@ -1,0 +1,149 @@
+{
+  "unit_id": 26,
+  "title": "Unit 26: The Architect (Figural 3D Extreme)",
+  "description": "Uji kemampuan spasial level elite: Rotasi mental objek asimetris, analisis irisan penampang, dan konstruksi bangun ruang kompleks.",
+  "level": "Kadet Utama",
+  "questions": [
+    {
+      "id": "U26-Q1",
+      "type": "TIU",
+      "text": "Jaring-jaring Kubus Berpola: Jika jaring-jaring ini dilipat, manakah kubus yang TERBENTUK?",
+      "image": "<svg width='250' height='100' viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='10' width='30' height='30' fill='white' stroke='black'/><path d='M60 10 L90 40' stroke='black'/><rect x='60' y='40' width='30' height='30' fill='white' stroke='black'/><circle cx='75' cy='55' r='10' fill='black'/><rect x='60' y='70' width='30' height='30' fill='white' stroke='black'/><path d='M60 70 L90 100' stroke='black'/><rect x='30' y='40' width='30' height='30' fill='black'/><rect x='90' y='40' width='30' height='30' fill='white' stroke='black'/><rect x='100' y='50' width='10' height='10' fill='black'/><rect x='120' y='40' width='30' height='30' fill='white' stroke='black'/><text x='135' y='60' text-anchor='middle'>A</text></svg>",
+      "image_desc": "Sisi Atas: Garis Diagonal (/). Sisi Tengah: Lingkaran Hitam. Sisi Bawah: Garis Diagonal (/).",
+      "options": [
+        { "key": "A", "text": "Sisi Hitam Polos bertemu Sisi A.", "score": 0 },
+        { "key": "B", "text": "Dua sisi Garis Diagonal (/) bertemu membentuk panah (V).", "score": 5 },
+        { "key": "C", "text": "Lingkaran Hitam bersebelahan dengan Hitam Polos.", "score": 0 },
+        { "key": "D", "text": "Kotak Kecil berhadapan dengan Huruf A.", "score": 0 },
+        { "key": "E", "text": "Sisi Hitam Polos menjadi Alas, Lingkaran Hitam menjadi Tutup.", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Orientasi Garis. Dua diagonal (/) dipisah satu sisi akan bertemu membentuk V saat dilipat."
+    },
+    {
+      "id": "U26-Q2",
+      "type": "TIU",
+      "text": "Penghitungan Balok Tersembunyi: Berapakah jumlah total kubus satuan yang menyusun bangun ini?",
+      "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='#ccc'><path d='M10 100 L50 120 L130 120 L90 100' fill='#999'/><path d='M10 100 L10 80 L50 100 L50 120' fill='#bbb'/><path d='M130 120 L130 100 L90 80 L90 100' fill='#bbb'/><path d='M30 80 L60 95 L110 95 L80 80' fill='#ddd'/><path d='M50 60 L70 70 L90 70 L70 60' fill='#eee'/><text x='10' y='20' font-size='10'>L1: 4x3</text><text x='10' y='35' font-size='10'>L2: 3x2</text><text x='10' y='50' font-size='10'>L3: 2x1</text></svg>",
+      "options": [
+        { "key": "A", "text": "18", "score": 0 },
+        { "key": "B", "text": "19", "score": 0 },
+        { "key": "C", "text": "20", "score": 5 },
+        { "key": "D", "text": "21", "score": 0 },
+        { "key": "E", "text": "24", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Hitung Luas Per Lantai. Total = 12 + 6 + 2 = 20 balok."
+    },
+    {
+      "id": "U26-Q3",
+      "type": "TIU",
+      "text": "Rotasi Mental Kompleks: Objek di sebelah kiri diputar 180 derajat secara vertikal (dibalik atas-bawah). Manakah hasilnya?",
+      "image": "<svg width='200' height='80' viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><path d='M20 10 L50 10 L50 20 L30 20 L30 30 L45 30 L45 40 L30 40 L30 70 L20 70 Z' fill='black'/><text x='35' y='78' font-size='8' text-anchor='middle'>ASLI</text><path d='M60 30 Q70 50 80 30' fill='none' stroke='black' marker-end='url(#arrow)'/><text x='70' y='60' font-size='8'>180° Vert</text><text x='150' y='40' font-weight='bold'>?</text></svg>",
+      "options": [
+        { "key": "A", "text": "Huruf F terbalik (seperti dicermin air)", "score": 5 },
+        { "key": "B", "text": "Huruf F menghadap kiri", "score": 0 },
+        { "key": "C", "text": "Huruf L", "score": 0 },
+        { "key": "D", "text": "Huruf T", "score": 0 },
+        { "key": "E", "text": "Huruf F normal", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Pencerminan Air. Rotasi 180 derajat vertikal sama dengan mencerminkan benda ke bawah."
+    },
+    {
+      "id": "U26-Q4",
+      "type": "TIU",
+      "text": "Irisan Penampang (Cross-Section): Sebuah Tabung (Silinder) dipotong miring (diagonal) tidak sejajar alas. Bentuk irisan yang dihasilkan adalah...",
+      "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='20' rx='20' ry='5' fill='none' stroke='black'/><line x1='30' y1='20' x2='30' y2='80' stroke='black'/><line x1='70' y1='20' x2='70' y2='80' stroke='black'/><path d='M30 80 A20 5 0 0 0 70 80' fill='none' stroke='black' stroke-dasharray='2,2'/><path d='M30 80 A20 5 0 0 1 70 80' fill='none' stroke='black'/><line x1='20' y1='60' x2='80' y2='40' stroke='red' stroke-width='2' stroke-dasharray='4'/></svg>",
+      "options": [
+        { "key": "A", "text": "Lingkaran Sempurna", "score": 0 },
+        { "key": "B", "text": "Persegi Panjang", "score": 0 },
+        { "key": "C", "text": "Elips (Lonjong)", "score": 5 },
+        { "key": "D", "text": "Parabola", "score": 0 },
+        { "key": "E", "text": "Segitiga", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Geometri Irisan. Potong MIRING pada tabung menghasilkan ELIPS."
+    },
+    {
+      "id": "U26-Q5",
+      "type": "TIU",
+      "text": "Konstruksi 3D: Dua potongan manakah yang jika digabungkan akan membentuk Kubus Sempurna 3x3x3?",
+      "image": "<svg width='250' height='60' viewBox='0 0 250 60' xmlns='http://www.w3.org/2000/svg'><text x='10' y='30'>Pcs 1: L (4 balok)</text><text x='100' y='30'>Pcs 2: Balok 2x2</text><text x='200' y='30'>Target: 3x3x3 (27)</text></svg>",
+      "options": [
+        { "key": "A", "text": "Potongan volume 13 dan Potongan volume 14.", "score": 5 },
+        { "key": "B", "text": "Dua potongan volume 10.", "score": 0 },
+        { "key": "C", "text": "Potongan volume 15 dan 15.", "score": 0 },
+        { "key": "D", "text": "Potongan bentuk L dan T.", "score": 0 },
+        { "key": "E", "text": "Potongan volume 20 dan 5.", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Hukum Kekekalan Volume. Volume total harus 27. Hanya opsi A (13+14) yang pas."
+    },
+    {
+      "id": "U26-Q6",
+      "type": "TIU",
+      "text": "Logika Dadu: Tiga dadu ditumpuk. Dadu paling atas angka 5. Berapakah jumlah titik pada sisi-sisi yang TERSEMBUNYI (Antarmuka + Alas) di tumpukan tersebut?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "10", "score": 0 },
+        { "key": "B", "text": "12", "score": 0 },
+        { "key": "C", "text": "14", "score": 0 },
+        { "key": "D", "text": "16", "score": 5 },
+        { "key": "E", "text": "18", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Deduksi Dadu. Atas=5, maka Bawah=2. Dadu Tengah & Bawah: Atas+Bawah=7. Total Tersembunyi = Bawah1(2) + AtasBawah2(7) + AtasBawah3(7) = 16."
+    },
+    {
+      "id": "U26-Q7",
+      "type": "TIU",
+      "text": "Pandangan Ortogonal: Gambar manakah yang merupakan Tampak Kanan (Right Side View) dari benda tangga ini?",
+      "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><path d='M10 90 L80 90 L80 60 L40 60 L40 30 L10 30 Z' fill='gray' stroke='black'/><line x1='10' y1='30' x2='40' y2='10' stroke='black'/><line x1='40' y1='10' x2='70' y2='10' stroke='black'/><line x1='70' y1='10' x2='70' y2='40' stroke='black'/><line x1='70' y1='40' x2='40' y2='60' stroke='black'/><line x1='70' y1='40' x2='110' y2='40' stroke='black'/><line x1='110' y1='40' x2='110' y2='70' stroke='black'/><line x1='110' y1='70' x2='80' y2='90' stroke='black'/><line x1='80' y1='60' x2='110' y2='40' stroke='black'/></svg>",
+      "options": [
+        { "key": "A", "text": "Dua Persegi Panjang bertumpuk vertikal", "score": 5 },
+        { "key": "B", "text": "Bentuk L", "score": 0 },
+        { "key": "C", "text": "Satu Persegi Besar", "score": 0 },
+        { "key": "D", "text": "Bentuk Tangga", "score": 0 },
+        { "key": "E", "text": "Segitiga", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Collapse Dimension. Dari kanan, tangga terlihat sebagai dinding datar bertumpuk."
+    },
+    {
+      "id": "U26-Q8",
+      "type": "TIU",
+      "text": "Pengecatan Kubus: Kubus 3x3x3 dicat merah. Dipotong 27 bagian. Berapa kubus kecil yang hanya punya 1 SISI MERAH?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "4", "score": 0 },
+        { "key": "B", "text": "6", "score": 5 },
+        { "key": "C", "text": "8", "score": 0 },
+        { "key": "D", "text": "12", "score": 0 },
+        { "key": "E", "text": "1", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Rumus Cat. 1 Sisi = Pusat Muka (Center Face). Ada 6 sisi x 1 pusat = 6 buah."
+    },
+    {
+      "id": "U26-Q9",
+      "type": "TIU",
+      "text": "Serial 3D: Balok bergerak Kiri Bawah -> Kanan Bawah -> Kanan Atas. Posisi selanjutnya?",
+      "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='150' height='150' fill='none' stroke='black'/><line x1='75' y1='0' x2='75' y2='150' stroke='black'/><line x1='0' y1='75' x2='150' y2='75' stroke='black'/><rect x='20' y='95' width='35' height='35' fill='black'/><text x='30' y='90' font-size='10'>1</text><rect x='95' y='95' width='35' height='35' fill='gray'/><text x='105' y='90' font-size='10'>2</text><rect x='95' y='20' width='35' height='35' fill='lightgray'/><text x='105' y='15' font-size='10'>3</text></svg>",
+      "options": [
+        { "key": "A", "text": "Kiri Atas", "score": 5 },
+        { "key": "B", "text": "Tengah", "score": 0 },
+        { "key": "C", "text": "Kembali ke Kiri Bawah", "score": 0 },
+        { "key": "D", "text": "Hilang", "score": 0 },
+        { "key": "E", "text": "Kanan Bawah", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Pola Gerak Berlawanan Jarum Jam. Pasti ke Kiri Atas."
+    },
+    {
+      "id": "U26-Q10",
+      "type": "TIU",
+      "text": "Lipatan Kertas: Lingkaran dilipat jadi 2, lalu jadi 3 (seperti pizza). Ujung busur digunting bergerigi. Dibuka jadi...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Lingkaran dengan gerigi di sekeliling tepinya.", "score": 5 },
+        { "key": "B", "text": "Lingkaran dengan lubang di tengah.", "score": 0 },
+        { "key": "C", "text": "Bentuk Bunga.", "score": 0 },
+        { "key": "D", "text": "Lingkaran utuh.", "score": 0 },
+        { "key": "E", "text": "Dua setengah lingkaran terpisah.", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Lokasi Guntingan. Guntingan di tepi luar (busur) akan menjadi gerigi di sekeliling lingkaran saat dibuka."
+    }
+  ]
+}

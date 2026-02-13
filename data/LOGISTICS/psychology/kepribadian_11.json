@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 11 - Decision Making",
+  "type": "PSIKOLOGI_LANJUTAN_POLRI",
+  "description": "Fokus pada Situational Awareness, Risk Assessment, dan Pengambilan Keputusan Taktis.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_DETEKSI_ANCAMAN",
+  "question": "Saat patroli malam di area sepi, Anda melihat mobil parkir dengan mesin menyala dan kaca gelap rapat di depan ruko perhiasan yang sudah tutup. Apa respons awal Anda?",
+  "options": [
+  { "label": "A", "text": "Langsung mengetuk keras dan memaksa pengemudi turun saat itu juga.", "points": 1 },
+  { "label": "B", "text": "Melewatinya karena bisa saja hanya berhenti sebentar tanpa masalah.", "points": 2 },
+  { "label": "C", "text": "Mendekat sambil menyorot lampu, lalu bertanya identitas dengan nada tegas.", "points": 4 },
+  { "label": "D", "text": "Mengamati dari jarak aman, mencatat plat, lalu menyiapkan pemeriksaan setelah backup.", "points": 3 },
+  { "label": "E", "text": "Tactical pause: observasi 360°, verifikasi plat via radio, atur posisi cover, lalu periksa sopan sesuai SOP.", "points": 5 }
+  ],
+  "explanation": "Keputusan terbaik memakai prinsip Situational Awareness dan officer safety: observasi, verifikasi, lalu pendekatan taktis. Opsi 4 sudah hati-hati (menunggu dukungan), namun opsi 5 lebih unggul karena menambah kontrol risiko (cover-positioning, verifikasi data) dan komunikasi pelayanan prima tanpa memicu eskalasi."
+  },
+  {
+  "id": 2,
+  "category": "KEP_PRIORITAS_PENYELAMATAN",
+  "question": "Terjadi kebakaran di gedung. Lantai 1 ada brankas berisi dokumen rahasia, lantai 2 ada seorang nenek terjebak. Api membesar cepat. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Mengutamakan brankas karena berisi dokumen rahasia negara.", "points": 1 },
+  { "label": "B", "text": "Menunggu instruksi atasan karena takut salah prosedur saat darurat.", "points": 2 },
+  { "label": "C", "text": "Memanggil pemadam, lalu mencoba evakuasi nenek bila jalur masih aman.", "points": 3 },
+  { "label": "D", "text": "Fokus evakuasi nenek, sambil meminta petugas lain mengamankan area dokumen.", "points": 4 },
+  { "label": "E", "text": "Risk assessment cepat: evakuasi nenek sebagai prioritas, koordinasikan pengamanan dokumen, lalu catat keputusan untuk akuntabilitas.", "points": 5 }
+  ],
+  "explanation": "Prinsip Human Safety First dan diskresi operasional menempatkan nyawa sebagai prioritas utama. Opsi 4 sudah benar memprioritaskan evakuasi, tetapi opsi 5 lebih matang karena menambahkan koordinasi lintas peran serta dokumentasi keputusan (accountability) agar tetap selaras prosedur tanpa mengorbankan keselamatan."
+  },
+  {
+  "id": 3,
+  "category": "KEP_KEPUTUSAN_BERISIKO",
+  "question": "Anda mengejar tersangka bersenjata tajam yang lari ke pasar ramai. Risiko bahaya ke warga tinggi bila Anda menggunakan senjata api, tetapi bila terlambat ia bisa lolos. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Menembak untuk melumpuhkan agar segera berhenti meski kondisi ramai.", "points": 1 },
+  { "label": "B", "text": "Melepaskan tembakan peringatan untuk membuatnya takut dan berhenti.", "points": 2 },
+  { "label": "C", "text": "Tetap mengejar dekat sendirian sambil berteriak agar warga menepi.", "points": 3 },
+  { "label": "D", "text": "No-shoot, koordinasi perimeter dan pintu keluar, evakuasi warga terdekat, lalu lakukan penangkapan terukur bila aman.", "points": 5 },
+  { "label": "E", "text": "Menahan tembakan dan mengikuti dari jarak aman sambil meminta backup mendekat.", "points": 4 }
+  ],
+  "explanation": "Dalam manajemen risiko kolateral, penggunaan senjata api di kerumunan adalah opsi terakhir. Opsi 4 lebih unggul daripada opsi 5 karena bukan hanya menahan tembakan dan menunggu bantuan, tetapi juga membangun containment (perimeter/akses keluar) serta langkah de-eskalasi keselamatan publik sebelum tindakan penangkapan."
+  },
+  {
+  "id": 4,
+  "category": "KEP_ANALISA_BERITA",
+  "question": "Beredar video viral yang tampak menunjukkan rekan polisi memukul warga. Publik marah, sementara kronologi lengkap belum jelas. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut menghakimi di media sosial agar dianggap berpihak pada warga.", "points": 1 },
+  { "label": "B", "text": "Membela rekan tanpa cek fakta demi solidaritas korps.", "points": 2 },
+  { "label": "C", "text": "Menyimpulkan video pasti editan lalu menyebarkan pendapat itu ke grup.", "points": 3 },
+  { "label": "D", "text": "Menahan komentar publik, mengumpulkan data internal, dan melapor ke atasan/Humas untuk klarifikasi resmi.", "points": 5 },
+  { "label": "E", "text": "Menahan komentar, tetapi hanya menulis status netral 'tunggu fakta' tanpa koordinasi internal.", "points": 4 }
+  ],
+  "explanation": "Ini menguji suspension of judgment dan disiplin komunikasi institusional. Opsi 4 lebih baik dari opsi 5 karena tidak berhenti pada sikap netral, melainkan aktif menempuh jalur chain of command dan Humas untuk klarifikasi berbasis fakta serta menjaga integritas institusi tanpa defensif berlebihan."
+  },
+  {
+  "id": 5,
+  "category": "KEP_KEPUTUSAN_LINTAS_WEWENANG",
+  "question": "Terjadi kecelakaan di perbatasan wilayah Polsek A (wilayah Anda) dan Polsek B. Korban butuh pertolongan segera, Polsek B lebih dekat namun belum tiba. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Tidak bertindak karena itu masuk wilayah hukum Polsek B.", "points": 1 },
+  { "label": "B", "text": "Bertindak sebagai first responder: pertolongan, amankan TKP, atur lalu lintas, lalu koordinasi Polsek B untuk serah terima.", "points": 5 },
+  { "label": "C", "text": "Menghubungi Polsek B dan memberi pertolongan dasar sambil menunggu mereka datang.", "points": 3 },
+  { "label": "D", "text": "Menangani korban dan TKP, lalu membuat catatan serah terima agar administrasi jelas.", "points": 4 },
+  { "label": "E", "text": "Menunggu perintah Kapolres agar tidak melanggar kewenangan wilayah.", "points": 2 }
+  ],
+  "explanation": "Prinsip pelayanan prima dan tanggung jawab kemanusiaan menempatkan petugas terdekat sebagai first responder. Opsi 4 sudah memperhatikan administrasi, namun opsi 5 lebih unggul karena mengutamakan life-saving dan pengamanan TKP sekaligus mengelola koordinasi lintas wilayah untuk kesinambungan penanganan."
+  },
+  {
+  "id": 6,
+  "category": "KEP_ANALISA_GESTUR",
+  "question": "Saat memeriksa identitas pengendara, tangan orang tersebut gemetar, menghindari kontak mata, dan berkeringat padahal cuaca dingin. Apa analisa dan tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Menertawakan kegugupannya agar ia 'kapok' dan tidak macam-macam.", "points": 1 },
+  { "label": "B", "text": "Langsung menuduh bersalah dan menggeledah agresif tanpa komunikasi awal.", "points": 2 },
+  { "label": "C", "text": "Menganggap itu wajar, lalu melanjutkan pemeriksaan administrasi seperti biasa.", "points": 3 },
+  { "label": "D", "text": "Komunikasi asertif: tanyakan kondisi, amati tangan/pinggang, dan minta rekan standby di posisi aman.", "points": 4 },
+  { "label": "E", "text": "Assessment berbasis indikator: jaga jarak-cover, de-eskalasi verbal, panggil backup bila perlu, lalu periksa sesuai SOP dan dasar hukum.", "points": 5 }
+  ],
+  "explanation": "Bahasa tubuh bisa berasal dari kecemasan, takut, atau faktor medis; karena itu perlu pendekatan berbasis indikator, bukan asumsi. Opsi 4 sudah baik (awas + asertif), namun opsi 5 lebih profesional karena menggabungkan de-eskalasi, officer safety (distance-cover), serta pemeriksaan yang akuntabel sesuai prosedur."
+  },
+  {
+  "id": 7,
+  "category": "KEP_DILEMA_PERINTAH_SAMAR",
+  "question": "Komandan memberi perintah via telepon dengan suara putus-putus: 'Amankan... segera...'. Anda tidak yakin 'amankan' berarti ditangkap atau dilindungi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menafsirkan sendiri lalu langsung melakukan penangkapan karena biasanya begitu.", "points": 1 },
+  { "label": "B", "text": "Diam menunggu ditelepon balik karena takut mengganggu Komandan.", "points": 2 },
+  { "label": "C", "text": "Menghubungi kembali untuk konfirmasi, lakukan read-back, dan mencatat perintah sebelum eksekusi.", "points": 5 },
+  { "label": "D", "text": "Menjaga situasi dengan aman dulu sambil berupaya menghubungi ulang Komandan.", "points": 4 },
+  { "label": "E", "text": "Bertanya pada rekan untuk menebak maksud perintah, lalu bersiap bergerak.", "points": 3 }
+  ],
+  "explanation": "Dalam chain of command, ambiguitas perintah adalah risiko operasional dan etik. Opsi 4 sudah mengurangi risiko dengan tindakan aman sementara, tetapi opsi 5 lebih unggul karena memakai teknik komunikasi presisi (clarification + read-back) dan pencatatan untuk mencegah salah tafsir yang berdampak fatal."
+  },
+  {
+  "id": 8,
+  "category": "KEP_ANALISA_LAPORAN_PALSU",
+  "question": "Seorang warga melapor dirampok, namun ceritanya berubah-ubah, tidak ada luka, dan barang masih lengkap. Analisa dan langkah Anda?",
+  "options": [
+  { "label": "A", "text": "Memarahinya dan menuduh berbohong agar ia kapok membuat laporan.", "points": 1 },
+  { "label": "B", "text": "Menerima laporan apa adanya dan langsung memproses tanpa verifikasi awal.", "points": 2 },
+  { "label": "C", "text": "Mencatat laporan, lalu menunda verifikasi karena menganggap itu urusan unit lain.", "points": 3 },
+  { "label": "D", "text": "Pendekatan empatik: interview terstruktur, verifikasi TKP/CCTV/saksi, jelaskan konsekuensi laporan palsu secara profesional.", "points": 5 },
+  { "label": "E", "text": "Melakukan wawancara kognitif dan cek TKP/saksi untuk menguji konsistensi keterangan.", "points": 4 }
+  ],
+  "explanation": "Polisi adalah pencari fakta: indikasi inkonsistensi perlu diuji dengan teknik wawancara investigatif, bukan konfrontasi emosional. Opsi 5 lebih baik dari opsi 4 karena menambahkan komunikasi pelayanan prima (empati) dan edukasi konsekuensi hukum secara asertif, sehingga tetap tegas tanpa memicu defensif atau salah tuduh."
+  },
+  {
+  "id": 9,
+  "category": "KEP_MANAJEMEN_MASSA",
+  "question": "Massa demonstran mulai melempar botol air mineral ke barikade. SOP membolehkan gas air mata bila terjadi ancaman serius pada nyawa. Keputusan Anda sebagai komandan lapangan?",
+  "options": [
+  { "label": "A", "text": "Langsung menembakkan gas air mata secara masif agar massa bubar cepat.", "points": 1 },
+  { "label": "B", "text": "Memerintahkan pasukan maju menyerang balik untuk memberi efek jera.", "points": 2 },
+  { "label": "C", "text": "Memerintahkan pasukan bertahan saja dan menunggu sampai situasi memburuk.", "points": 3 },
+  { "label": "D", "text": "Bertahan dengan tameng, beri peringatan bertahap, dan aktifkan tim negosiator serta dokumentasi.", "points": 4 },
+  { "label": "E", "text": "Eskalasi terukur: peringatan, koridor aman, penindakan selektif provokator; gas hanya bila ambang bahaya terpenuhi.", "points": 5 }
+  ],
+  "explanation": "Prinsip proporsionalitas dan de-eskalasi menuntut eskalasi bertahap, bukan reaksi impulsif. Opsi 4 sudah mengikuti tahapan peringatan dan negosiasi, tetapi opsi 5 lebih unggul karena menambahkan strategi kontrol massa yang presisi (selective enforcement dan koridor aman) serta menempatkan gas sebagai last resort berbasis ambang ancaman."
+  },
+  {
+  "id": 10,
+  "category": "KEP_PENEMUAN_DOMPET",
+  "question": "Anda menemukan dompet tebal berisi uang tunai jutaan rupiah dan kartu identitas di toilet mal saat tidak berseragam. Tidak terlihat CCTV. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Mengambil uangnya karena merasa tidak ada yang melihat dan tidak ada bukti.", "points": 1 },
+  { "label": "B", "text": "Menyerahkan dompet utuh ke keamanan/informasi, buat berita acara, dan simpan bukti penyerahan.", "points": 5 },
+  { "label": "C", "text": "Mengambil sedikit sebagai 'uang jasa' lalu menitipkan sisanya ke satpam.", "points": 2 },
+  { "label": "D", "text": "Membiarkannya di lokasi agar pemiliknya kembali mengambil sendiri.", "points": 3 },
+  { "label": "E", "text": "Menyerahkan ke keamanan dan mencatat identitas petugas penerima serta waktu penyerahan.", "points": 4 }
+  ],
+  "explanation": "Integritas diuji saat tanpa pengawasan: standar penegak hukum adalah kejujuran dan akuntabilitas. Opsi 4 memang tidak mengambil, namun opsi 5 lebih baik karena memastikan rantai tanggung jawab (berita acara, bukti penyerahan) sehingga mencegah sengketa, fitnah, dan menjaga trust publik."
+  },
+  {
+  "id": 11,
+  "category": "KEP_PENGEJARAN_BERISIKO",
+  "question": "Anda mengejar jambret motor. Pelaku masuk ke jalan sempit area SD saat jam pulang sekolah. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Tetap mengejar masuk area sekolah sambil membunyikan sirene agar anak menyingkir.", "points": 2 },
+  { "label": "B", "text": "Memotong lewat trotoar untuk mengejar cepat meski banyak pejalan kaki.", "points": 1 },
+  { "label": "C", "text": "Mengikuti pelaku pelan dari jarak aman sampai keluar dari zona sekolah.", "points": 3 },
+  { "label": "D", "text": "Hentikan pengejaran di zona sekolah, catat ciri/arah, dan koordinasi pencegatan oleh unit lain.", "points": 5 },
+  { "label": "E", "text": "Menghentikan pengejaran fisik, namun tetap memonitor dari titik aman sambil mengirim pembaruan posisi ke radio.", "points": 4 }
+  ],
+  "explanation": "Risk mitigation menempatkan keselamatan anak sebagai prioritas, karena risiko cedera massal jauh lebih besar daripada manfaat menangkap saat itu juga. Opsi 4 lebih unggul daripada opsi 5 karena menutup celah pelarian melalui koordinasi pencegatan (containment), bukan sekadar memonitor, sehingga tetap taktis tanpa reckless driving."
+  },
+  {
+  "id": 12,
+  "category": "KEP_INTERVENSI_KDRT",
+  "question": "Anda mendengar teriakan minta tolong dari rumah (dugaan KDRT). Pintu terkunci. Anda tidak memiliki surat perintah, dan suara korban makin lemah. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Menunggu ketua RT datang lebih dulu agar ada saksi warga sebelum bertindak.", "points": 2 },
+  { "label": "B", "text": "Pergi karena menganggap itu urusan privat keluarga dan bukan ranah petugas.", "points": 1 },
+  { "label": "C", "text": "Mengaktifkan diskresi penyelamatan nyawa: panggil backup/medis, lalu masuk proporsional bila ancaman nyata, dan segera lapor pimpinan.", "points": 5 },
+  { "label": "D", "text": "Mencoba komunikasi dari luar, memanggil saksi warga/RT terdekat, dan menyiapkan tindakan diskresi bila situasi memburuk.", "points": 4 },
+  { "label": "E", "text": "Menelepon atasan dulu dan menunggu instruksi lengkap sebelum melakukan apa pun.", "points": 3 }
+  ],
+  "explanation": "Keadaan memaksa (exigent circumstances) menuntut keputusan cepat untuk life-saving, dengan tetap menjaga akuntabilitas. Opsi 4 sudah mengarah pada de-eskalasi dan saksi, namun opsi 5 lebih baik karena menggabungkan keselamatan korban (medis/backup), tindakan proporsional, serta pelaporan segera sebagai kontrol integritas diskresi."
+  },
+  {
+  "id": 13,
+  "category": "KEP_JEBAKAN_SUAP",
+  "question": "Anda menangkap bandar narkoba. Di mobil, ia menawarkan tas berisi uang tunai 1 miliar agar Anda pura-pura tidak melihat barang bukti. Tidak ada saksi terlihat. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Menerima uang dan melepaskan bandar agar tidak repot proses panjang.", "points": 1 },
+  { "label": "B", "text": "Menawar minta lebih besar agar 'sepadan' dengan risiko yang Anda ambil.", "points": 2 },
+  { "label": "C", "text": "Menolak tegas, tetapi memilih tidak melaporkan percobaan suap itu.", "points": 3 },
+  { "label": "D", "text": "Menolak, amankan uang sebagai barang bukti, hadirkan saksi/rekam, lapor pimpinan, dan lanjutkan proses hukum.", "points": 5 },
+  { "label": "E", "text": "Menolak lalu melaporkan ke atasan sesampainya di kantor tanpa pengamanan bukti yang memadai.", "points": 4 }
+  ],
+  "explanation": "Ujian integritas paling berat adalah saat minim pengawasan: yang dinilai bukan niat, tetapi kontrol dan akuntabilitas. Opsi 5 lebih baik dari opsi 4 karena memastikan chain of custody (pengamanan bukti, saksi/rekaman, pelaporan) sehingga percobaan suap dapat diproses kuat dan tidak membuka ruang sangkalan."
+  },
+  {
+  "id": 14,
+  "category": "KEP_KERUSUHAN_PENJARA",
+  "question": "Terjadi kerusuhan di rutan. Napi membakar kasur, jumlah petugas kalah 1 banding 10, dan napi mendekat dengan senjata tajam rakitan. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Maju menyerang sendirian untuk menunjukkan keberanian agar napi takut.", "points": 1 },
+  { "label": "B", "text": "Mencoba negosiasi jarak dekat tanpa perlindungan karena berharap mereka luluh.", "points": 2 },
+  { "label": "C", "text": "Mundur saja ke zona aman tanpa melokalisir area karena fokus menyelamatkan diri.", "points": 3 },
+  { "label": "D", "text": "Mundur taktis sambil melokalisir akses, lalu segera meminta bantuan dan menyiapkan evakuasi medis.", "points": 4 },
+  { "label": "E", "text": "Tactical withdrawal + containment: lockdown area, komunikasi dari posisi aman, panggil unit khusus, dan prioritaskan minimalisasi korban.", "points": 5 }
+  ],
+  "explanation": "Pada situasi overwhelmed, prioritas adalah keselamatan personel dan containment untuk mencegah eskalasi meluas. Opsi 4 sudah melakukan mundur taktis dan minta bantuan, namun opsi 5 lebih unggul karena menambah kontrol sistemik (lockdown/containment + komunikasi aman) untuk menekan risiko korban sekaligus menjaga kendali situasi."
+  },
+  {
+  "id": 15,
+  "category": "KEP_KORBAN_VS_TERSANGKA",
+  "question": "Di TKP kecelakaan, tersangka penabrak dikeroyok massa hingga kritis. Korban tabrakan juga kritis. Anda hanya punya satu mobil patroli. Keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Mengangkut korban dulu karena ia dianggap pihak yang lebih 'benar'.", "points": 2 },
+  { "label": "B", "text": "Mengangkut korban dan membiarkan tersangka tetap dikeroyok massa.", "points": 1 },
+  { "label": "C", "text": "Triage cepat, stabilisasi dasar, angkut yang paling mengancam nyawa, koordinasi ambulans/backup, sekaligus kendalikan massa.", "points": 5 },
+  { "label": "D", "text": "Memisahkan massa dan meminta ambulans, sambil menunggu tenaga medis menentukan prioritas.", "points": 4 },
+  { "label": "E", "text": "Mengangkut tersangka dulu agar tidak mati di tangan massa tanpa mengecek kondisi korban.", "points": 3 }
+  ],
+  "explanation": "Prinsip medical neutrality menuntut penanganan berdasarkan triage, bukan status hukum atau emosi massa. Opsi 4 sudah baik (mengamankan situasi dan memanggil ambulans), tetapi opsi 5 lebih unggul karena melakukan triage dan keputusan transport secara segera, sekaligus menjaga pengendalian massa agar hak hidup kedua pihak terlindungi."
+  },
+  {
+  "id": 16,
+  "category": "KEP_SENJATA_MACET",
+  "question": "Dalam kontak jarak dekat, senjata Anda tiba-tiba tidak berfungsi. Lawan bergerak mendekat. Keputusan detik ini?",
+  "options": [
+  { "label": "A", "text": "Tetap berdiri di tempat dan fokus membetulkan senjata di ruang terbuka.", "points": 1 },
+  { "label": "B", "text": "Melempar senjata dan maju memukul lawan tanpa perlindungan apa pun.", "points": 2 },
+  { "label": "C", "text": "Mundur lurus membelakangi lawan sambil berharap situasi mereda sendiri.", "points": 2 },
+  { "label": "D", "text": "Bergerak ke cover terdekat dan coba pulihkan fungsi senjata tanpa memberi tahu tim.", "points": 4 },
+  { "label": "E", "text": "Ambil cover, umumkan kondisi ke rekan, minta dukungan, lalu pulihkan senjata saat aman.", "points": 5 }
+  ],
+  "explanation": "Ini menguji self-control, komunikasi taktis, dan manajemen risiko. Opsi 4 sudah benar karena memprioritaskan cover, namun opsi 5 lebih unggul karena menambah assertive communication (memberi tahu tim) sehingga koordinasi, keamanan rekan, dan peluang de-eskalasi situasi meningkat tanpa tindakan impulsif."
+  },
+  {
+  "id": 17,
+  "category": "KEP_DILEMA_MEDIA",
+  "question": "Wartawan mendesak Anda memberi pernyataan tentang kasus sensitif yang belum selesai. Mereka memancing emosi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membalas dengan emosi dan menantang wartawan agar berhenti bertanya.", "points": 1 },
+  { "label": "B", "text": "Memberi detail penyidikan agar terlihat transparan dan meyakinkan publik.", "points": 2 },
+  { "label": "C", "text": "Menghindar cepat tanpa penjelasan sehingga memicu spekulasi lebih luas.", "points": 3 },
+  { "label": "D", "text": "Memberi pernyataan umum yang menenangkan, lalu segera mengakhiri sesi wawancara.", "points": 4 },
+  { "label": "E", "text": "Tetap tenang, jawab normatif, dan arahkan ke Humas sesuai chain of command.", "points": 5 }
+  ],
+  "explanation": "Situasi ini menilai pengendalian diri dan kontrol informasi (information control). Opsi 4 cukup baik karena menjaga ketenangan, namun opsi 5 lebih tepat karena mengikuti prosedur komunikasi institusional (chain of command/Humas) sehingga menjaga integritas penyidikan, privasi, dan service excellence kepada publik."
+  },
+  {
+  "id": 18,
+  "category": "KEP_SABOTASE_KENDARAAN",
+  "question": "Saat mengawal VIP, Anda merasa kendali kemudi berat dan rem melemah (dugaan sabotase). Kecepatan sedang tinggi di tol. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Menarik rem tangan mendadak agar mobil cepat berhenti meski berisiko terguling.", "points": 1 },
+  { "label": "B", "text": "Tetap melaju seperti biasa agar tidak mengganggu iring-iringan dan lalu lintas.", "points": 2 },
+  { "label": "C", "text": "Berteriak panik ke VIP dan mencoba berhenti mendadak di lajur berjalan.", "points": 2 },
+  { "label": "D", "text": "Nyalakan hazard, kurangi laju bertahap, dan minta kendaraan pengawal membuka ruang aman.", "points": 4 },
+  { "label": "E", "text": "Tetap tenang, lakukan perlambatan terukur, pindah ke lokasi aman, lalu koordinasi evakuasi VIP.", "points": 5 }
+  ],
+  "explanation": "Ini menguji crisis management dan pengendalian emosi. Opsi 4 sudah mengarah pada keselamatan konvoi, namun opsi 5 lebih unggul karena menyusun prioritas lengkap: stabilisasi kendaraan, keselamatan VIP, dan koordinasi evakuasi secara terukur sehingga risiko korban berantai di tol berkurang."
+  },
+  {
+  "id": 19,
+  "category": "KEP_NEGOSIASI_SANDERA",
+  "question": "Penyandera menodongkan senjata tajam ke korban dan meminta mobil untuk kabur. Tim penindak belum pada posisi siap. Sikap Anda sebagai negosiator?",
+  "options": [
+  { "label": "A", "text": "Langsung memenuhi permintaan agar penyandera cepat pergi meski risikonya tak terukur.", "points": 2 },
+  { "label": "B", "text": "Memerintahkan penyerbuan segera agar situasi cepat selesai tanpa negosiasi.", "points": 1 },
+  { "label": "C", "text": "Mengancam dan memaki penyandera supaya takut, berharap ia menurunkan senjata.", "points": 1 },
+  { "label": "D", "text": "Memberi empati singkat dan menawarkan konsesi kecil sambil menegosiasikan pelepasan korban.", "points": 4 },
+  { "label": "E", "text": "De-eskalasi verbal, bangun rapport, minta bukti kondisi korban, dan sinkron dengan tim penindak.", "points": 5 }
+  ],
+  "explanation": "Negosiasi krisis menuntut de-eskalasi, rapport, dan kontrol tempo agar risiko korban menurun. Opsi 4 terlihat baik karena menawarkan konsesi, namun opsi 5 lebih tepat karena menambahkan verifikasi kondisi korban dan koordinasi lintas fungsi, sehingga keputusan taktis tidak spekulatif dan keselamatan sandera lebih terjaga."
+  },
+  {
+  "id": 20,
+  "category": "KEP_SAKSI_KUNCI",
+  "question": "Saksi kunci kasus berat menolak bersaksi karena takut dibalas. Tanpa kesaksiannya, perkara melemah. Solusi Anda?",
+  "options": [
+  { "label": "A", "text": "Mengintimidasi saksi dengan ancaman hukum agar mau bicara saat itu juga.", "points": 1 },
+  { "label": "B", "text": "Memberi uang supaya saksi berani, lalu meminta ia bersaksi secepatnya.", "points": 2 },
+  { "label": "C", "text": "Meminta saksi menandatangani pernyataan tanpa perlindungan karena waktu mendesak.", "points": 3 },
+  { "label": "D", "text": "Memberi pengamanan sementara dan meminta saksi tetap tinggal di rumah dengan pengawasan.", "points": 4 },
+  { "label": "E", "text": "Risk assessment, koordinasi perlindungan saksi resmi, dan siapkan mekanisme bersaksi yang aman.", "points": 5 }
+  ],
+  "explanation": "Ini menilai service excellence dan duty of care terhadap saksi. Opsi 4 membantu secara sementara, namun opsi 5 lebih unggul karena memakai pendekatan sistemik: asesmen risiko, perlindungan terstruktur, dan prosedur aman sehingga saksi merasa terlindungi tanpa melanggar integritas atau memunculkan konflik kepentingan."
+  },
+  {
+  "id": 21,
+  "category": "KEP_VERIFIKASI_RUMOR",
+  "question": "Beredar rumor akan ada penyerangan ke markas malam ini. Sumber tidak jelas, anggota mulai gelisah. Tindakan Anda sebagai Perwira Jaga?",
+  "options": [
+  { "label": "A", "text": "Mengabaikan rumor karena tidak ada surat resmi dan tidak ada bukti awal.", "points": 1 },
+  { "label": "B", "text": "Menyebarkan rumor ke semua orang agar semua takut dan langsung siaga penuh.", "points": 2 },
+  { "label": "C", "text": "Menaikkan siaga maksimal dan mengunci semua akses tanpa koordinasi verifikasi intel.", "points": 3 },
+  { "label": "D", "text": "Menaikkan kewaspadaan internal dan meminta unit terdekat bersiaga di sekitar lokasi.", "points": 4 },
+  { "label": "E", "text": "Siaga terukur: amankan perimeter, tenangkan anggota, dan lakukan cek-ricek melalui intel resmi.", "points": 5 }
+  ],
+  "explanation": "Ini menguji intelligence cycle dan pengendalian kepanikan. Opsi 4 meningkatkan kesiapsiagaan, namun opsi 5 lebih baik karena menambah verifikasi sumber (cek-ricek) dan de-eskalasi internal sehingga respons berbasis data, bukan rumor, serta menjaga disiplin organisasi."
+  },
+  {
+  "id": 22,
+  "category": "KEP_POLA_KEJAHATAN",
+  "question": "Terjadi 3 pencurian motor dalam seminggu. Waktunya selalu sekitar pukul 03.00 dan targetnya mirip. Analisa dan keputusan Anda?",
+  "options": [
+  { "label": "A", "text": "Menganggap itu kebetulan dan menunggu kejadian berikutnya untuk memastikan.", "points": 1 },
+  { "label": "B", "text": "Melakukan patroli acak ke seluruh wilayah tanpa fokus agar terasa merata.", "points": 2 },
+  { "label": "C", "text": "Hanya membuat imbauan umum ke warga tanpa penyesuaian pola patroli.", "points": 3 },
+  { "label": "D", "text": "Memetakan pola waktu dan lokasi, lalu menambah patroli pada jam rawan di titik prioritas.", "points": 4 },
+  { "label": "E", "text": "Crime mapping: susun prioritas titik rawan, koordinasi CCTV/warga, dan patroli fokus berbasis pola.", "points": 5 }
+  ],
+  "explanation": "Pattern recognition penting untuk pencegahan berbasis risiko. Opsi 4 sudah tepat karena fokus jam dan titik rawan, namun opsi 5 lebih unggul karena menambah koordinasi sumber data (CCTV/warga) dan prioritas berbasis bukti, sehingga efektivitas preventif meningkat tanpa pemborosan sumber daya."
+  },
+  {
+  "id": 23,
+  "category": "KEP_BIAS_KONFIRMASI",
+  "question": "Anda semula yakin Si A pelakunya karena residivis. Namun bukti objektif menunjukkan ia berada di tempat lain. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memaksa Si A mengaku karena riwayatnya membuat Anda yakin ia tetap pelaku.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan bukti baru karena merasa bukti itu pasti keliru atau dimanipulasi.", "points": 2 },
+  { "label": "C", "text": "Tetap menjadikan Si A tersangka utama sambil mencari bukti yang menguatkan keyakinan.", "points": 3 },
+  { "label": "D", "text": "Minta peer review atasan/rekan untuk menguji asumsi Anda dan menata ulang arah penyidikan.", "points": 4 },
+  { "label": "E", "text": "Buang confirmation bias: revisi hipotesis, dokumentasikan keputusan, dan ikuti bukti ke arah tersangka lain.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas kognitif dan objektivitas penyidikan. Opsi 4 baik karena ada kontrol sosial (peer review), namun opsi 5 lebih unggul karena langsung menyesuaikan hipotesis berbasis evidence-based policing serta mencatat akuntabilitas, sehingga mengurangi salah tangkap dan meningkatkan kualitas perkara."
+  },
+  {
+  "id": 24,
+  "category": "KEP_INFORMASI_BERLIMPAH",
+  "question": "Di TKP kerusuhan, ada banyak saksi memberi keterangan saling bertentangan. Anda kebingungan menentukan mana yang valid. Langkah Anda?",
+  "options": [
+  { "label": "A", "text": "Memilih saksi yang paling yakin bicara, karena terlihat paling percaya diri.", "points": 1 },
+  { "label": "B", "text": "Menggabungkan semua cerita menjadi versi tengah agar terasa adil bagi semua.", "points": 2 },
+  { "label": "C", "text": "Memilih versi yang paling cocok dengan dugaan awal Anda agar cepat selesai.", "points": 2 },
+  { "label": "D", "text": "Fokus hanya pada bukti fisik dan mengabaikan semua saksi karena terlalu berbeda.", "points": 4 },
+  { "label": "E", "text": "Triangulasi: pisahkan saksi, susun timeline, dan cross-check dengan bukti objektif (CCTV/jejak).", "points": 5 }
+  ],
+  "explanation": "Saksi mata rentan distorsi memori dan bias persepsi. Opsi 4 tampak aman karena mengandalkan bukti fisik, namun opsi 5 lebih unggul karena melakukan data triangulation terstruktur (separasi saksi, timeline, cross-check) sehingga Anda tetap memanfaatkan data manusia tanpa terjebak kontradiksi."
+  },
+  {
+  "id": 25,
+  "category": "KEP_JEJAK_DIGITAL",
+  "question": "Seorang DPO tidak terlacak secara fisik, tetapi muncul unggahan singkat di media sosial. Analisa dan langkah Anda?",
+  "options": [
+  { "label": "A", "text": "Menebak lokasi dari foto saja lalu langsung bergerak tanpa verifikasi tambahan.", "points": 1 },
+  { "label": "B", "text": "Menghubungi akun tersebut lewat komentar/DM agar ia terpancing membalas.", "points": 2 },
+  { "label": "C", "text": "Menunggu unggahan berikutnya sambil berharap ia menampilkan lokasi secara jelas.", "points": 3 },
+  { "label": "D", "text": "Memantau pola unggahan dan meminta tim menyiapkan langkah saat ada petunjuk lebih kuat.", "points": 4 },
+  { "label": "E", "text": "Amankan jejak digital, koordinasi unit siber, verifikasi petunjuk open-source, dan ikuti prosedur hukum.", "points": 5 }
+  ],
+  "explanation": "Pendekatan profesional adalah evidence preservation dan analisis yang akuntabel. Opsi 4 sudah berpikir pola, namun opsi 5 lebih unggul karena menggabungkan pengamanan bukti, verifikasi, koordinasi spesialis, dan kepatuhan prosedur sehingga keputusan tidak spekulatif dan tidak membuka risiko salah langkah."
+  },
+  {
+  "id": 26,
+  "category": "KEP_RELIABILITAS_INFORMAN",
+  "question": "Informan yang akurasinya tidak konsisten memberi info tentang transaksi narkoba besar. Ia juga sering meminta uang. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Langsung melakukan penggerebekan besar hanya berdasarkan info informan tersebut.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan info sepenuhnya karena rekam jejaknya sering meleset sebelumnya.", "points": 2 },
+  { "label": "C", "text": "Membayar dulu agar ia termotivasi, lalu percaya penuh pada info berikutnya.", "points": 1 },
+  { "label": "D", "text": "Terima dengan hati-hati, kirim tim kecil untuk cek lapangan sebelum rencana operasi.", "points": 4 },
+  { "label": "E", "text": "Trust but verify: nilai reliabilitas, cross-check sumber lain, dan validasi sebelum pengerahan penuh.", "points": 5 }
+  ],
+  "explanation": "Dalam intelijen, sumber dinilai (reliabilitas) dan informasi diuji (validitas). Opsi 4 sudah mengarah pada verifikasi awal, namun opsi 5 lebih unggul karena menambah penilaian sumber dan cross-check multi-sumber sehingga risiko jebakan, pemborosan sumber daya, dan salah sasaran bisa ditekan."
+  },
+  {
+  "id": 27,
+  "category": "KEP_KEAMANAN_DATA_PRIBADI",
+  "question": "Anda menerima email yang terlihat resmi meminta klik tautan untuk memperbarui kata sandi akun dinas. Anda ragu keasliannya. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Langsung klik tautan dan mengganti kata sandi agar cepat selesai.", "points": 1 },
+  { "label": "B", "text": "Meneruskan email ke grup kerja supaya semua tahu dan ikut menilai.", "points": 2 },
+  { "label": "C", "text": "Membalas email dengan marah karena merasa diganggu dan dicurigai.", "points": 2 },
+  { "label": "D", "text": "Mengecek ciri email, lalu menghubungi IT lewat nomor resmi untuk konfirmasi.", "points": 4 },
+  { "label": "E", "text": "Jangan klik; verifikasi via kanal resmi, laporkan sebagai insiden, dan ikuti prosedur reset resmi.", "points": 5 }
+  ],
+  "explanation": "Ini menguji cyber awareness terhadap social engineering. Opsi 4 baik karena konfirmasi, namun opsi 5 lebih unggul karena menambahkan incident reporting dan kepatuhan prosedur resmi (audit trail), sehingga melindungi organisasi dari penyebaran serangan dan kebocoran kredensial."
+  },
+  {
+  "id": 28,
+  "category": "KEP_ANALISA_DOKUMEN_PALSU",
+  "question": "Saat razia, Anda melihat dokumen pengemudi tampak ada anomali kecil (kualitas cetak/font). Pengemudi terlihat santai. Analisa dan tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Menganggap itu wajar dan langsung mengembalikan dokumen tanpa pengecekan.", "points": 1 },
+  { "label": "B", "text": "Menuduh dokumen palsu dan membentak agar ia mengaku saat itu juga.", "points": 2 },
+  { "label": "C", "text": "Menahan dokumen dan menyuruhnya menunggu lama tanpa menjelaskan alasannya.", "points": 3 },
+  { "label": "D", "text": "Menanyakan klarifikasi singkat lalu melakukan verifikasi sistem sebelum mengambil kesimpulan.", "points": 4 },
+  { "label": "E", "text": "Tetap sopan, cek fitur keamanan, verifikasi ke sistem resmi, lalu tindak sesuai SOP bila mismatch.", "points": 5 }
+  ],
+  "explanation": "Ini menilai attention to detail dan pelayanan prima saat kontrol. Opsi 4 sudah melakukan verifikasi, namun opsi 5 lebih unggul karena menggabungkan de-eskalasi (sopan), pemeriksaan standar (fitur keamanan), dan prosedur penindakan akuntabel sehingga mengurangi konflik sekaligus menjaga ketegasan."
+  },
+  {
+  "id": 29,
+  "category": "KEP_KEAMANAN_OPERASI_OPSEC",
+  "question": "Keluarga menanyakan lokasi dan detail tugas besok, padahal besok ada operasi rahasia. Jawaban Anda?",
+  "options": [
+  { "label": "A", "text": "Memberi lokasi dan waktu detail agar keluarga tenang dan bisa mendoakan.", "points": 1 },
+  { "label": "B", "text": "Memberi petunjuk wilayah secara umum karena merasa itu tidak terlalu berbahaya.", "points": 3 },
+  { "label": "C", "text": "Mematikan ponsel tanpa penjelasan sehingga keluarga panik dan curiga.", "points": 2 },
+  { "label": "D", "text": "Menjawab singkat bahwa ada tugas dinas, tanpa detail, dan janji kabar setelah aman.", "points": 4 },
+  { "label": "E", "text": "Tetapkan batas OPSEC dengan empati: tidak berbagi detail, beri kepastian waktu komunikasi aman.", "points": 5 }
+  ],
+  "explanation": "OPSEC memakai prinsip need-to-know, namun tetap menjaga hubungan dan ketenangan keluarga. Opsi 4 sudah tidak membocorkan detail, namun opsi 5 lebih unggul karena menambah empati dan rencana komunikasi yang jelas, sehingga menjaga integritas operasi sekaligus mengurangi tekanan psikologis keluarga."
+  },
+  {
+  "id": 30,
+  "category": "KEP_DEBRIEFING_MISI",
+  "question": "Operasi penangkapan gagal karena target kabur. Dalam debriefing, atasan meminta analisa penyebabnya. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menyalahkan rekan tim di forum agar terlihat Anda sudah bekerja maksimal.", "points": 1 },
+  { "label": "B", "text": "Diam saja karena takut dianggap tidak kompeten jika bicara terbuka.", "points": 2 },
+  { "label": "C", "text": "Menjawab normatif 'situasi lapangan sulit' tanpa data agar cepat selesai.", "points": 3 },
+  { "label": "D", "text": "Menyampaikan fakta, namun fokus pada kesalahan unit lain agar Anda aman dari kritik.", "points": 4 },
+  { "label": "E", "text": "AAR objektif: paparkan data, akui kontribusi kekurangan, dan ajukan perbaikan tanpa blaming.", "points": 5 }
+  ],
+  "explanation": "Debriefing adalah After Action Review: fokus pada learning, bukan blaming. Opsi 4 terlihat rapi karena tetap bicara fakta, namun opsi 5 lebih unggul karena menunjukkan integritas (mengakui bagian sendiri), analisis sistemik, dan orientasi perbaikan sehingga meningkatkan kinerja unit dan trust dalam chain of command."
+  },
+  {
+  "id": 31,
+  "category": "KEP_KEPEMIMPINAN_VAKUM",
+  "question": "Dalam operasi penyisiran hutan, Komandan Tim tiba-tiba pingsan karena gigitan ular. Anggota lain panik dan terdiam. Anda anggota termuda. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut panik, berteriak minta tolong, dan membuat tim makin kacau.", "points": 1 },
+  { "label": "B", "text": "Menenangkan diri, tetapi hanya menunggu senior memutuskan langkah.", "points": 2 },
+  { "label": "C", "text": "Fokus menolong Komandan, namun tidak mengatur situasi dan tugas anggota.", "points": 3 },
+  { "label": "D", "text": "Mengusulkan evakuasi pada anggota paling senior dan membantu pertolongan dasar.", "points": 4 },
+  { "label": "E", "text": "Stabilkan situasi, aktifkan SOP evakuasi, dan tegaskan pelaksana komando sesuai hirarki.", "points": 5 }
+  ],
+  "explanation": "Situational leadership menuntut inisiatif untuk menenangkan tim dan menjaga kontrol. Opsi 4 sudah membantu secara fungsional, namun opsi 5 lebih unggul karena menutup celah vacuum of command: ada koordinasi, pembagian peran, dan chain of command tetap berjalan sehingga risiko kepanikan menurun dan keselamatan tim meningkat."
+  },
+  {
+  "id": 32,
+  "category": "KEP_KEMACETAN_TOTAL",
+  "question": "Lampu lalu lintas di perempatan besar mati total saat jam pulang kantor. Kemacetan mengunci (gridlock). Anda sedang lewat (bukan piket Lantas). Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Tetap melintas dan menganggap itu urusan petugas lain saja.", "points": 1 },
+  { "label": "B", "text": "Menghubungi Polantas, lalu melanjutkan perjalanan tanpa membantu situasi.", "points": 2 },
+  { "label": "C", "text": "Membantu mengarahkan arus dari pinggir sambil menunggu petugas terkait.", "points": 3 },
+  { "label": "D", "text": "Turun dan melakukan pengaturan sederhana agar arus tidak semakin terkunci.", "points": 4 },
+  { "label": "E", "text": "Koordinasi Polantas, amankan titik rawan, dan gatur sementara dengan prosedur aman.", "points": 5 }
+  ],
+  "explanation": "Pelayanan prima menuntut respons proaktif saat chaos publik. Opsi 4 terlihat inisiatif, namun opsi 5 lebih baik karena menggabungkan service excellence dan mitigasi risiko (koordinasi, pengamanan titik rawan), sehingga bantuan Anda efektif tanpa melampaui prosedur."
+  },
+  {
+  "id": 33,
+  "category": "KEP_ALAT_KOMUNIKASI_RUSAK",
+  "question": "Saat pengintaian di daerah tanpa sinyal, HT Anda rusak. Anda melihat target bergerak pindah. Bagaimana cara melapor ke tim induk?",
+  "options": [
+  { "label": "A", "text": "Berdiam menunggu tim induk menyadari Anda hilang kontak lebih dulu.", "points": 1 },
+  { "label": "B", "text": "Mengejar target sendiri meski tidak bisa memberi pembaruan ke tim.", "points": 2 },
+  { "label": "C", "text": "Mencari sinyal dengan berpindah jauh, sambil kehilangan pengamatan target.", "points": 3 },
+  { "label": "D", "text": "Mengirim rekan sebagai kurir, sementara Anda tetap memantau dari posisi aman.", "points": 4 },
+  { "label": "E", "text": "Aktifkan rencana cadangan: kurir/tanda taktis, catat arah-waktu, dan jaga pengamatan.", "points": 5 }
+  ],
+  "explanation": "Resourcefulness dan komunikasi taktis menuntut solusi cadangan saat alat gagal. Opsi 4 sudah menjaga alur informasi, namun opsi 5 lebih unggul karena menambahkan standar kontrol (catatan waktu/arah + prosedur yang disepakati), sehingga tim induk menerima informasi yang lebih akurat dan dapat dieksekusi."
+  },
+  {
+  "id": 34,
+  "category": "KEP_BARBUK_HUJAN",
+  "question": "Di TKP pembunuhan outdoor, hujan deras turun sebelum tim forensik datang. Ada jejak dan barang yang terancam rusak. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Menunggu tim forensik datang tanpa melakukan apa pun pada area bukti.", "points": 1 },
+  { "label": "B", "text": "Mengamankan bukti dengan memindahkannya sendiri agar tidak hilang.", "points": 2 },
+  { "label": "C", "text": "Mendokumentasikan cepat, lalu membiarkan karena takut salah prosedur.", "points": 3 },
+  { "label": "D", "text": "Membuat pelindung sementara tanpa menyentuh bukti dan menjaga perimeter.", "points": 4 },
+  { "label": "E", "text": "Lindungi bukti, tandai area, dokumentasikan, dan koordinasi cepat kedatangan forensik.", "points": 5 }
+  ],
+  "explanation": "Evidence preservation menuntut menjaga status quo TKP dan mencegah kontaminasi. Opsi 4 sudah benar secara fisik, namun opsi 5 lebih unggul karena menambah kontrol investigatif (penandaan, dokumentasi, koordinasi), sehingga chain of custody dan kualitas pembuktian tetap kuat."
+  },
+  {
+  "id": 35,
+  "category": "KEP_HAMBATAN_BAHASA",
+  "question": "Seorang turis asing melapor kehilangan paspor dengan panik, tetapi Anda tidak memahami bahasanya. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menolak menangani karena komunikasi tidak nyambung dan menyuruh kembali lagi.", "points": 1 },
+  { "label": "B", "text": "Menyuruh langsung ke kedutaan tanpa upaya membantu proses awal.", "points": 2 },
+  { "label": "C", "text": "Mencoba memahami sekilas lalu meminta ia menunggu tanpa kepastian langkah.", "points": 3 },
+  { "label": "D", "text": "Menggunakan aplikasi penerjemah dan meminta bantuan petugas yang lebih fasih berbahasa.", "points": 4 },
+  { "label": "E", "text": "Tenangkan dulu, pakai translator, verifikasi identitas, dan arahkan prosedur resmi kehilangan.", "points": 5 }
+  ],
+  "explanation": "Service excellence menuntut empati dan problem solving saat hambatan komunikasi. Opsi 4 sudah solutif, namun opsi 5 lebih unggul karena ada de-eskalasi emosi, verifikasi, dan alur layanan yang jelas sehingga bantuan menjadi efektif dan akuntabel."
+  },
+  {
+  "id": 36,
+  "category": "KEP_MOBIL_MOGOK_DI_HUTAN",
+  "question": "Mobil patroli mogok di tengah hutan. Tidak ada sinyal, hari mulai gelap, Anda berdua dengan rekan. Solusi Anda?",
+  "options": [
+  { "label": "A", "text": "Meninggalkan kendaraan dan berjalan tanpa rencana arah atau titik temu.", "points": 1 },
+  { "label": "B", "text": "Menunggu saja di mobil tanpa rencana komunikasi atau pengamanan diri.", "points": 2 },
+  { "label": "C", "text": "Mencoba menyalakan berulang-ulang sampai kelelahan dan situasi makin tidak aman.", "points": 3 },
+  { "label": "D", "text": "Lakukan pemeriksaan dasar, hemat sumber daya, dan tentukan rencana mencari bantuan saat aman.", "points": 4 },
+  { "label": "E", "text": "Assessment risiko: amankan diri, troubleshooting dasar, siapkan sinyal/kurir, lalu lapor saat bisa.", "points": 5 }
+  ],
+  "explanation": "Pengendalian diri dan risk assessment menentukan keselamatan di area terpencil. Opsi 4 sudah logis, namun opsi 5 lebih unggul karena menambah kontrol situasi (pengamanan diri + rencana komunikasi cadangan), sehingga mengurangi keputusan impulsif yang berisiko tersesat atau kehilangan kontak."
+  },
+  {
+  "id": 37,
+  "category": "KEP_KEHABISAN_BENSIN_PENGEJARAN",
+  "question": "Saat mengejar pelaku, indikator bensin mobil Anda menyala (hampir habis). Pelaku masih jauh di depan. Apa strategi Anda?",
+  "options": [
+  { "label": "A", "text": "Memaksa mengejar sampai kendaraan mogok dan kehilangan kendali operasi.", "points": 1 },
+  { "label": "B", "text": "Menghentikan pengejaran tanpa memberi info ke pusat komando atau unit lain.", "points": 2 },
+  { "label": "C", "text": "Berbalik mencari BBM tanpa melaporkan arah pelarian dan perkembangan terbaru.", "points": 3 },
+  { "label": "D", "text": "Laporkan posisi-arah, lalu ikuti seperlunya dari jarak aman sambil hemat sumber daya.", "points": 4 },
+  { "label": "E", "text": "Pivot strategi: update real-time, minta intercept unit depan, dan prioritaskan keselamatan publik.", "points": 5 }
+  ],
+  "explanation": "Ini menilai kemampuan strategic pivot dan koordinasi. Opsi 4 sudah mempertahankan kontak, namun opsi 5 lebih unggul karena mengubah pengejaran menjadi operasi jaringan (intercept) yang lebih aman dan efektif, mengurangi risiko kecelakaan dan kehilangan target."
+  },
+  {
+  "id": 38,
+  "category": "KEP_KONFLIK_ANTAR_WARGA",
+  "question": "Dua kelompok warga bertikai soal lahan parkir. Situasi memanas, Ketua RT tidak ada. Anda petugas Bhabinkamtibmas sendirian. Langkah inisiatif?",
+  "options": [
+  { "label": "A", "text": "Membiarkan sampai terjadi kekerasan baru bertindak karena belum ada korban.", "points": 1 },
+  { "label": "B", "text": "Membubarkan dengan ancaman keras agar cepat selesai meski memicu resistensi.", "points": 2 },
+  { "label": "C", "text": "Memisahkan sementara lalu menunggu perangkat setempat tanpa mengelola emosi massa.", "points": 3 },
+  { "label": "D", "text": "Mediasi cepat dengan perwakilan, buat aturan sementara, dan minta dukungan bila perlu.", "points": 4 },
+  { "label": "E", "text": "De-eskalasi: pisahkan, komunikasi asertif, netral, dokumentasi, dan rujuk forum resmi.", "points": 5 }
+  ],
+  "explanation": "Pemolisian masyarakat menuntut de-eskalasi sebelum konflik menjadi kekerasan. Opsi 4 sudah problem solving, namun opsi 5 lebih unggul karena menutup risiko bias (netral + dokumentasi) dan menjaga legitimasi keputusan sehingga warga lebih menerima dan situasi lebih stabil."
+  },
+  {
+  "id": 39,
+  "category": "KEP_KESALAHAN_ADMINISTRASI_KRUSIAL",
+  "question": "Surat perintah yang Anda bawa salah ketik alamat. Target ada di depan mata. Jika Anda kembali memperbaiki administrasi, ada risiko target kabur. Solusi Anda?",
+  "options": [
+  { "label": "A", "text": "Mengubah alamat surat dengan pulpen sendiri agar terlihat sesuai lokasi.", "points": 1 },
+  { "label": "B", "text": "Menangkap paksa meski sadar administrasi bermasalah, lalu urusan surat belakangan.", "points": 2 },
+  { "label": "C", "text": "Menahan target dengan alasan pemeriksaan tanpa kejelasan dasar dan dokumentasi yang rapi.", "points": 3 },
+  { "label": "D", "text": "Mundur dan susun ulang penindakan setelah surat diperbaiki agar aman prosedur.", "points": 4 },
+  { "label": "E", "text": "Amankan situasi lewat pemantauan/perimeter, koordinasi pimpinan, dan pastikan dasar hukum jelas.", "points": 5 }
+  ],
+  "explanation": "Integritas menuntut kepatuhan prosedur, tetapi operasi juga butuh manajemen risiko agar target tidak lolos. Opsi 4 menonjol pada legalitas, namun opsi 5 lebih unggul karena menjaga due process sekaligus mengendalikan situasi secara terukur melalui koordinasi dan pengamanan, bukan jalan pintas."
+  },
+  {
+  "id": 40,
+  "category": "KEP_ANAK_HILANG",
+  "question": "Di tengah keramaian festival, Anda menemukan anak kecil menangis terpisah dari orang tua. Anak tidak bisa bicara. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Membawa anak ke rumah Anda agar aman sambil menunggu orang tua mencari.", "points": 1 },
+  { "label": "B", "text": "Menitipkan ke pedagang terdekat karena Anda harus segera melanjutkan tugas.", "points": 2 },
+  { "label": "C", "text": "Mengumumkan detail anak ke publik tanpa koordinasi posko dan tanpa verifikasi penjemput.", "points": 3 },
+  { "label": "D", "text": "Membawa ke posko, mengumumkan ciri-ciri, dan menunggu orang tua datang.", "points": 4 },
+  { "label": "E", "text": "Aktifkan SOP anak hilang: posko resmi, broadcast ciri tanpa ekspos berlebih, dan verifikasi penjemput.", "points": 5 }
+  ],
+  "explanation": "Pelayanan prima harus disertai perlindungan anak dan kontrol risiko. Opsi 4 sudah membantu, namun opsi 5 lebih unggul karena menjaga privasi dan keamanan anak melalui prosedur verifikasi, sehingga mencegah salah penjemput dan meningkatkan akuntabilitas."
+  },
+  {
+  "id": 41,
+  "category": "KEP_KONSISTENSI_KERAGUAN",
+  "question": "Pernyataan KKK: 'Saya kadang menunda keputusan penting sampai sangat mepet karena takut salah langkah.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini mengukur decisiveness dan tolerance terhadap risiko keputusan. Opsi D menunjukkan kecenderungan tidak menunda, namun opsi E lebih kuat karena menandakan kontrol diri dan pola kerja terencana: berpikir cepat, lalu eksekusi, bukan menunggu sampai tekanan memuncak."
+  },
+  {
+  "id": 42,
+  "category": "KEP_KONSISTENSI_DEPENDENSI_2",
+  "question": "Pernyataan LLL: 'Saya merasa lebih aman jika orang lain yang memutuskan, supaya jika salah bukan saya yang disalahkan.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menguji locus of control dan akuntabilitas. Opsi D sudah menunjukkan sikap bertanggung jawab, namun opsi E lebih baik karena menegaskan ownership keputusan: berani memutuskan, siap dievaluasi, dan tidak berorientasi menghindari blame."
+  },
+  {
+  "id": 43,
+  "category": "KEP_KONSISTENSI_PANIK",
+  "question": "Pernyataan MMM: 'Saat situasi darurat mendadak, pikiran saya sering kosong dan sulit bertindak.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini mengukur stress response (freeze vs coping). Opsi D menandakan Anda umumnya tidak freeze, namun opsi E lebih unggul karena menunjukkan coping mechanism yang konsisten: mampu tetap fokus, melakukan prioritas, dan menjaga kendali diri di bawah tekanan."
+  },
+  {
+  "id": 44,
+  "category": "KEP_KONSISTENSI_PENYESALAN",
+  "question": "Pernyataan NNN: 'Saya sering menyesali keputusan dan terus memikirkan 'bagaimana jika' berhari-hari.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menilai rumination dan ketahanan psikologis. Opsi D menunjukkan Anda cenderung bisa move on, namun opsi E lebih baik karena menandakan pola evaluasi sehat: belajar dari AAR, lalu fokus pada tindakan berikutnya tanpa terjebak overthinking."
+  },
+  {
+  "id": 45,
+  "category": "KEP_KONSISTENSI_IMPULSIF_2",
+  "question": "Pernyataan OOO: 'Saya lebih suka bertindak dulu baru berpikir, daripada kehilangan momen.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menguji impulsivity dan kontrol diri. Opsi D menunjukkan Anda tidak impulsif, namun opsi E lebih unggul karena menegaskan keputusan taktis yang matang: cepat boleh, tetapi tetap melalui proses observasi dan orientasi sebelum tindakan."
+  },
+  {
+  "id": 46,
+  "category": "KEP_KONSISTENSI_SUBJEKTIF",
+  "question": "Pernyataan PPP: 'Dalam mengambil keputusan, saya lebih mengandalkan firasat pribadi daripada data atau fakta yang ada.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menilai objektivitas dan bias kognitif. Opsi D menunjukkan Anda lebih berbasis data, namun opsi E lebih baik karena menegaskan evidence-based decision: intuisi boleh sebagai sinyal awal, tetapi keputusan akhir harus ditopang fakta dan prosedur."
+  },
+  {
+  "id": 47,
+  "category": "KEP_KONSISTENSI_KAKU",
+  "question": "Pernyataan QQQ: 'Sekali saya memutuskan, saya tidak akan mengubahnya meskipun ada informasi baru yang menunjukkan saya keliru.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menguji fleksibilitas dan kemampuan pivot saat fakta berubah. Opsi D menunjukkan Anda tidak kaku, namun opsi E lebih unggul karena menegaskan adaptive leadership: berani merevisi keputusan berbasis informasi baru demi hasil yang lebih benar dan aman."
+  },
+  {
+  "id": 48,
+  "category": "KEP_KONSISTENSI_MENYALAHKAN",
+  "question": "Pernyataan RRR: 'Jika keputusan tim gagal, hal pertama yang saya lakukan adalah mencari siapa yang salah agar dia bertanggung jawab.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menilai budaya evaluasi: blaming culture vs learning culture. Opsi D sudah mengarah pada evaluasi yang sehat, namun opsi E lebih baik karena menandakan AAR berorientasi perbaikan sistem dan perilaku, bukan reaksi emosional mencari kambing hitam."
+  },
+  {
+  "id": 49,
+  "category": "KEP_KONSISTENSI_KOLABORASI",
+  "question": "Pernyataan SSS: 'Saya merasa mendiskusikan keputusan dengan tim hanya membuang waktu.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menguji collaborative mindset dan pengelolaan blind spot. Opsi D menunjukkan Anda terbuka pada diskusi, namun opsi E lebih unggul karena menegaskan koordinasi tim sebagai kontrol risiko dan kualitas keputusan, terutama pada situasi kompleks."
+  },
+  {
+  "id": 50,
+  "category": "KEP_PENUTUP_TANGGUNG_JAWAB",
+  "question": "Pernyataan TTT (Final): 'Saya siap menanggung risiko dan konsekuensi atas keputusan tugas yang saya ambil, tanpa melempar kesalahan ke orang lain.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+  { "label": "B", "text": "Sesuai", "points": 4 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+  ],
+  "explanation": "Ini mengukur integritas dan akuntabilitas sebagai fondasi kepemimpinan. Opsi B sudah menunjukkan kesiapan bertanggung jawab, namun opsi A lebih unggul karena menandakan komitmen penuh terhadap ownership keputusan, termasuk kesiapan evaluasi dan koreksi tanpa defensif."
+  }
+  ]
+}

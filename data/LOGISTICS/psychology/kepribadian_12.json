@@ -1,0 +1,1078 @@
+{
+  "title": "Paket Kepribadian 12 - Komunikasi Taktis",
+  "type": "PSIKOLOGI_LANJUTAN_POLRI",
+  "description": "Fokus pada Verbal Judo, De-eskalasi, dan Negosiasi Krisis.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_ROAD_RAGE",
+  "question": "Seorang pengemudi keluar dari mobil membawa tongkat bisbol, berteriak marah karena ditilang. Jarak 5 meter. Respon verbal Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#dc2626'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>AGRESIF</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><text x='105' y='35' fill='#f97316' font-size='12' text-anchor='middle'>✋</text><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>VERBAL COMMAND</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>TENANG & TEGAS</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menaikkan nada, mengancam konsekuensi berat, lalu memerintahnya jongkok saat itu juga.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Mendekat untuk menenangkan, sambil meminta ia menyerahkan tongkat tanpa memberi jarak aman.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menjaga jarak dan berkata tegas: 'Pak, letakkan tongkatnya. Saya jelaskan prosedurnya.'",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Menahan posisi, minta rekan siaga, lalu beri instruksi singkat dan konsisten agar situasi tidak naik.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Tenang, validasi emosi, minta ia letakkan tongkat, dan arahkan ke solusi prosedural sambil meminta backup.",
+  "points": 5
+  }
+  ],
+  "explanation": "Audit: respons terbaik harus mengutamakan keselamatan, de-eskalasi, dan prosedur. Opsi 5 memakai command presence tanpa provokasi: validasi emosi menurunkan arousal, lalu instruksi jelas menjaga kontrol. Opsi 4 sudah baik (konsisten + minta dukungan), namun belum memanfaatkan teknik verbal judo (validasi + reframing) sehingga peluang compliance lebih rendah."
+  },
+  {
+  "id": 2,
+  "category": "KEP_PERCOBAAN_BUNUH_DIRI",
+  "question": "Seseorang berdiri di pinggir jembatan berniat bunuh diri. Dia berteriak 'Jangan mendekat!' Apa kalimat pertama Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><path d='M20 60 L60 60 L60 20' stroke='white' fill='none'/><circle cx='60' cy='20' r='5' fill='#dc2626'/><text x='40' y='40' fill='white' font-size='8' text-anchor='middle'>CRISIS</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><rect x='130' y='20' width='150' height='40' fill='#f97316'/><text x='205' y='35' fill='black' font-size='8' text-anchor='middle'>ACTIVE LISTENING</text><text x='205' y='50' fill='black' font-size='8' text-anchor='middle'>SAYA DISINI MEMBANTU</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "'Tenang! Jangan bikin masalah, turun sekarang!' sambil memberi instruksi bertubi-tubi.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "'Saya tidak akan mendekat. Tapi kamu harus turun, ini berbahaya.'",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "'Saya [Nama], saya dengar kamu tertekan. Boleh saya bicara dari sini saja?'",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "'Saya tetap di sini, aman. Apa yang membuat kamu sampai di titik ini?'",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "'Saya tidak akan mendekat. Saya ingin mendengar kamu dulu, supaya kita cari cara paling aman bersama.'",
+  "points": 5
+  }
+  ],
+  "explanation": "Prinsip negosiasi krisis: tactical patience dan active listening lebih efektif daripada komando keras. Opsi 5 menegaskan kepatuhan pada batasan (tidak mendekat), membangun rapport, dan mengajak kolaborasi untuk keselamatan—ini menurunkan resistensi. Opsi 4 sudah membuka pertanyaan, namun belum menegaskan kontrak keamanan dan posisi sebagai pendengar, sehingga trust belum sekuat opsi 5."
+  },
+  {
+  "id": 3,
+  "category": "KEP_SENGKETA_LAHAN",
+  "question": "Dua kelompok warga membawa parang saling berhadapan di lahan sengketa. Suasana sangat panas. Anda tiba pertama kali. Tindakan komunikasi Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='30' y='45' fill='#dc2626' font-size='15' text-anchor='middle'>⚔️</text><line x1='60' y1='40' x2='90' y2='40' stroke='white'/><rect x='100' y='20' width='180' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>PISAHKAN & DINGINKAN</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>PANGGIL KETUA KELOMPOK</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Memerintah bubar dengan nada tinggi tanpa memberi arahan jelas soal jarak dan keamanan.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Langsung mengancam penangkapan massal agar mereka takut dan mundur.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menggunakan pengeras suara, meminta semua mundur dan menahan diri sambil menunggu bantuan.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Memanggil ketua kedua pihak maju bergantian untuk bicara, sambil menjaga batas aman massa.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Membangun buffer zone, minta senjata diturunkan, lalu ajak ketua bicara terpisah sesuai chain of command.",
+  "points": 5
+  }
+  ],
+  "explanation": "Tujuan awal adalah pendinginan dan pemisahan kontrol massa. Opsi 5 unggul karena menggabungkan scene management (buffer zone), permintaan menurunkan senjata (de-eskalasi nonverbal), serta kanal komunikasi formal melalui ketua kelompok (informal leaders) sesuai chain of command. Opsi 4 sudah mengidentifikasi pemimpin, tetapi tanpa pembentukan jarak aman/buffer yang eksplisit, risiko flashpoint tetap lebih tinggi."
+  },
+  {
+  "id": 4,
+  "category": "KEP_MENOLAK_SUAP_HALUS",
+  "question": "Seorang pengusaha menyelipkan amplop ke saku Anda sambil berbisik: 'Ini rezeki buat bapak, tolong lancarkan izin usaha saya'. Cara menolak yang elegan?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#555'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>AMPLOP</text><line x1='90' y1='40' x2='120' y2='40' stroke='#f97316' marker-end='url(#arrow)'/><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>TOLAK TEGAS</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>TAPI SOPAN</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Membiarkannya di saku dulu agar tidak canggung, lalu berniat mengembalikan nanti.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Menolak dengan nada sinis dan mempermalukannya di depan orang banyak.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Mengembalikan amplop dan menegaskan izin tetap diproses sesuai SOP, tanpa menyinggung hal lain.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Mengembalikan amplop, lalu mencatat identitas dan melapor ke atasan setelah layanan selesai.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Mengembalikan di area terpantau, jelaskan integritas, dokumentasikan, dan laporkan sesuai jalur pengawasan.",
+  "points": 5
+  }
+  ],
+  "explanation": "Standar integritas menuntut penolakan yang asertif sekaligus akuntabel. Opsi 5 terbaik karena tidak hanya menolak, tetapi juga melakukan procedural safeguarding (area terpantau/dokumentasi) dan melapor melalui chain of command untuk mencegah framing balik atau fitnah. Opsi 4 sudah melapor, namun kurang mengamankan konteks penolakan saat kejadian sehingga risiko sengketa narasi lebih besar."
+  },
+  {
+  "id": 5,
+  "category": "KEP_INTERVENSI_KDRT_VERBAL",
+  "question": "Sepasang suami istri bertengkar hebat di tempat umum, sang suami membentak kasar. Anda datang melerai. Kalimat pembuka Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='30' y='45' fill='#dc2626' font-size='15' text-anchor='middle'>🗣️⚡🗣️</text><line x1='60' y1='40' x2='90' y2='40' stroke='white'/><rect x='100' y='20' width='160' height='40' fill='#f97316'/><text x='180' y='35' fill='black' font-size='8' text-anchor='middle'>DISTRAKSI</text><text x='180' y='50' fill='black' font-size='8' text-anchor='middle'>PISAHKAN PERHATIAN</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "'Kalian berdua bikin gaduh! Kalau tidak diam saya tindak!'",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "'Bapak salah! Jangan kasar ke istri!' sambil langsung menunjuk-nunjuk.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "'Saya petugas. Tolong turunkan suara, kita bicara di pinggir agar tidak mengundang massa.'",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "'Bapak, Ibu, saya ingin memastikan semua aman. Boleh saya bicara sebentar terpisah?'",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "'Saya paham situasinya panas. Kita pisah dulu, saya dengar bergantian agar aman dan adil.'",
+  "points": 5
+  }
+  ],
+  "explanation": "Intervensi konflik publik mengutamakan de-eskalasi, netralitas, dan keselamatan. Opsi 5 memadukan validasi situasi, permintaan separasi (separation), dan procedural justice (didengar bergantian) sehingga mengurangi defensif kedua pihak. Opsi 4 juga aman dan netral, tetapi belum menegaskan format komunikasi yang adil, sehingga salah satu pihak bisa merasa 'dipihakkan' dan emosi kembali naik."
+  },
+  {
+  "id": 6,
+  "category": "KEP_MENGHADAPI_PEMABUK",
+  "question": "Seorang pemabuk mengganggu ketertiban di kafe. Saat ditegur, dia meracau tidak jelas dan menantang. Strategi komunikasi Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='30' y='45' fill='#555' font-size='20' text-anchor='middle'>🍺</text><line x1='50' y1='40' x2='80' y2='40' stroke='white'/><rect x='90' y='20' width='180' height='40' fill='#f97316'/><text x='180' y='35' fill='black' font-size='8' text-anchor='middle'>JANGAN DEBAT LOGIKA</text><text x='180' y='50' fill='black' font-size='8' text-anchor='middle'>PERINTAH SINGKAT & JELAS</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menghadapi dengan debat panjang soal aturan, berharap ia sadar dan merasa malu.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Menanggapi candanya agar akrab, sambil berharap ia berhenti dengan sendirinya.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Memberi batas tegas dengan kalimat pendek dan konsisten: 'Pak, berhenti. Duduk atau keluar.'",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Mengulang instruksi singkat, sambil mengatur posisi aman dan meminta staf menyiapkan jalur keluar.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Gunakan broken record + pilihan aman, libatkan rekan, dan siapkan opsi medis bila kondisinya memburuk.",
+  "points": 5
+  }
+  ],
+  "explanation": "Pada subjek intoxicated, kapasitas kognitif menurun sehingga instruksi harus singkat dan repetitif (broken record). Opsi 5 unggul karena menggabungkan batas perilaku, manajemen risiko (posisi aman + rekan), serta perhatian keselamatan (opsi medis) tanpa terpancing debat. Opsi 4 sudah mengatur posisi dan instruksi, namun belum memasukkan aspek duty of care bila ada risiko keracunan/cedera."
+  },
+  {
+  "id": 7,
+  "category": "KEP_PROTES_TILANG_VIP",
+  "question": "Anda menilang mobil mewah. Pengemudinya mengaku kenal Kapolda dan menelepon seseorang sambil membentak: 'Kamu belum tahu siapa saya?!' Sikap Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#555'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>AROGAN</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>PROFESIONAL</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>POKER FACE</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Mengendur karena takut, lalu mencari alasan agar penilangan tidak jadi dilakukan.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Membalas dengan sindiran agar ia 'turun kelas' dan tidak merasa punya beking.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Tetap sopan dan jelaskan prosedur penilangan, sambil meminta ia menandatangani berkas.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Jaga nada netral, tawarkan ia menghubungi atasan di tempat, tetapi proses tetap berjalan.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Tenang, dokumentasikan, izinkan telepon, dan tekankan aturan universal sambil rujuk ke chain of command.",
+  "points": 5
+  }
+  ],
+  "explanation": "Situasi name-dropping menguji integritas dan pengendalian diri. Opsi 5 terbaik karena menjaga professional composure, memberi ruang (silakan menelepon), namun tetap menegakkan prosedur serta mengikatnya pada jalur formal (chain of command + dokumentasi). Opsi 4 sudah menawarkan atasan, tetapi tanpa penekanan dokumentasi/akuntabilitas, risiko tekanan informal dan distorsi fakta lebih besar."
+  },
+  {
+  "id": 8,
+  "category": "KEP_MENENANGKAN_KORBAN_PANIK",
+  "question": "Seorang ibu histeris karena anaknya hilang di pasar. Dia menangis keras sehingga sulit dimintai keterangan. Cara Anda menenangkannya?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><circle cx='40' cy='40' r='15' fill='#dc2626'/><text x='40' y='45' fill='white' font-size='12' text-anchor='middle'>😭</text><line x1='70' y1='40' x2='100' y2='40' stroke='white'/><rect x='110' y='20' width='160' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>GROUNDING TECHNIQUE</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>SENTUHAN & NADA RENDAH</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Meminta ia berhenti menangis agar bisa 'berpikir', tanpa memberi dukungan emosional.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Langsung berlari mencari anak, meninggalkan ibu tanpa arah dan tanpa informasi.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Ajak duduk, beri air, bicara pelan, lalu minta ia tarik napas agar stabil.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Setelah stabil, ringkas ciri anak dan lokasi terakhir, lalu minta petugas lain mulai pencarian.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Lakukan grounding, validasi emosi, kumpulkan info kunci, dan koordinasikan pencarian terstruktur segera.",
+  "points": 5
+  }
+  ],
+  "explanation": "Pendekatan Psychological First Aid dimulai dari stabilisasi emosi (grounding) sebelum penggalian data. Opsi 5 unggul karena menggabungkan stabilisasi, validasi, dan transisi cepat ke aksi terkoordinasi (pembagian tugas) sehingga peluang menemukan anak meningkat. Opsi 4 sudah menugaskan pencarian, namun tanpa validasi emosi yang eksplisit, ibu bisa kembali panik dan informasi menjadi bias."
+  },
+  {
+  "id": 9,
+  "category": "KEP_RESISTENSI_PENANGKAPAN",
+  "question": "Tersangka menolak masuk ke mobil patroli. Dia berdiam diri dan mengeraskan badan (resistensi pasif). Banyak warga menonton. Tindakan Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='40' height='40' fill='#555'/><text x='40' y='45' fill='white' font-size='8' text-anchor='middle'>DIAM</text><line x1='70' y1='40' x2='100' y2='40' stroke='white'/><rect x='110' y='20' width='160' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>VERBAL JUDO</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>BERI OPSI PILIHAN</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menyeretnya cepat di depan warga agar 'selesai', tanpa komunikasi dan tanpa kontrol martabat.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Meminta warga ikut mendorong agar terlihat kuat, meski situasi jadi tidak terkendali.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menjelaskan singkat hak dan prosedur, lalu memberi perintah masuk dengan nada tegas.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Memberi pilihan perilaku: masuk sendiri atau dibantu petugas, sambil menata posisi aman.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Gunakan pilihan + batas waktu, komunikasikan ke saksi, dan eskalasi sesuai use of force continuum bila perlu.",
+  "points": 5
+  }
+  ],
+  "explanation": "Resistensi pasif efektif ditangani dengan verbal judo dan kontrol situasi, bukan emosi. Opsi 5 terbaik karena memberi opsi (ilusi kontrol), menetapkan batas waktu, menjaga transparansi di depan publik, dan tetap mengikuti use of force continuum sehingga legitimasi tindakan terjaga. Opsi 4 sudah memberi pilihan, tetapi tanpa batas waktu dan narasi prosedural, situasi bisa berlarut dan memancing kerumunan."
+  },
+  {
+  "id": 10,
+  "category": "KEP_REMAJA_NONGKRONG",
+  "question": "Sekelompok remaja nongkrong sambil minum miras di taman. Anda ingin membubarkan mereka tanpa memicu perlawanan. Pendekatan Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#555'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>REMAJA</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>PERSUASIF</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>KEKAKAAAN</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Datang dengan gaya mengintimidasi dan melabeli mereka nakal agar mereka kapok.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Langsung menyita barang dan mengancam proses hukum, tanpa dialog atau penjelasan.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menyapa dengan sopan, jelaskan aturan dan alasan keamanan, lalu minta mereka bubar.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Ajak bicara 'yang paling dituakan', buat komitmen pulang tertib, sambil catat identitas.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Pendekatan persuasif + procedural justice, tawarkan opsi aman (pulang/antar), dan lakukan penertiban proporsional.",
+  "points": 5
+  }
+  ],
+  "explanation": "Pada remaja, otoritas kaku sering memicu reaktansi. Opsi 5 unggul karena menggabungkan pendekatan persuasif, penjelasan yang adil (procedural justice), dan pilihan solusi aman, sehingga kepatuhan muncul tanpa kehilangan wibawa. Opsi 4 sudah memanfaatkan pemimpin informal, namun belum menegaskan alasan dan opsi aman secara sistematis sehingga sebagian anggota masih berpotensi menantang."
+  },
+  {
+  "id": 11,
+  "category": "KEP_PELAYANAN_LANSIA",
+  "question": "Seorang nenek pikun datang ke Polsek menanyakan alamat rumahnya berulang-ulang. Petugas lain mulai kesal. Sikap Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><path d='M30 60 Q40 20 50 60' stroke='white' fill='none'/><circle cx='40' cy='25' r='8' fill='#555'/><text x='40' y='75' fill='white' font-size='8' text-anchor='middle'>LANSIA</text><line x1='70' y1='40' x2='100' y2='40' stroke='white'/><rect x='110' y='20' width='160' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>EYE LEVEL & SABAR</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>ANTAR PULANG</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menyuruhnya menunggu lama sampai ada keluarganya, agar pekerjaan Anda cepat selesai.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Menjawab singkat dan datar, lalu kembali bekerja meski ia masih kebingungan.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menurunkan posisi tubuh, bicara pelan, dan menanyakan identitas dasar dengan sabar.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Menghubungi keluarga/RT setempat, sambil menenangkan nenek di ruang yang aman dan nyaman.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Layanan prima: eye level, koordinasi keluarga, dokumentasi, dan bila perlu antar pulang dengan pengawalan aman.",
+  "points": 5
+  }
+  ],
+  "explanation": "Kelompok rentan membutuhkan service excellence dan perlindungan. Opsi 5 terbaik karena memadukan empati (eye level), keamanan (ruang aman), serta solusi tuntas (koordinasi dan antar bila perlu) dengan dokumentasi. Opsi 4 sudah menghubungi keluarga, namun tanpa langkah pengamanan dan pendampingan terstruktur, risiko nenek kembali tersesat tetap ada."
+  },
+  {
+  "id": 12,
+  "category": "KEP_KOMPLAIN_WARGA",
+  "question": "Seorang warga marah di loket karena antrean SKCK lama dan sistem sedang down. Dia membanting map. Respon Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#dc2626'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>KOMPLAIN</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><rect x='130' y='20' width='150' height='40' fill='#f97316'/><text x='205' y='35' fill='black' font-size='8' text-anchor='middle'>MINTA MAAF (EMPATI)</text><text x='205' y='50' fill='black' font-size='8' text-anchor='middle'>BERI KEPASTIAN</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menyalahkan warga karena tidak sabar, lalu meminta satpam menertibkan tanpa penjelasan.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Membalas dengan nada defensif dan menjelaskan gangguan teknis panjang lebar.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menenangkan situasi, minta ia bicara pelan, lalu sampaikan bahwa sistem sedang bermasalah.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Minta maaf, jelaskan kendala singkat, dan beri estimasi waktu pulih agar ekspektasi jelas.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Service recovery: validasi emosi, beri kepastian waktu/opsi alternatif, dan catat nomor untuk prioritas sesuai aturan.",
+  "points": 5
+  }
+  ],
+  "explanation": "Penanganan komplain efektif memakai model LEAR/Service Recovery: listen–empathize–apologize–resolve. Opsi 5 unggul karena tidak hanya memberi estimasi, tetapi juga menyediakan opsi alternatif yang terukur (mis. penjadwalan/nomor prioritas sesuai kebijakan) sehingga warga merasa diperlakukan adil. Opsi 4 sudah memberi estimasi, namun tanpa opsi resolusi, emosi bisa kembali naik saat menunggu."
+  },
+  {
+  "id": 13,
+  "category": "KEP_MENYAMPAIKAN_BERITA_DUKA",
+  "question": "Anda harus menyampaikan kabar kepada seorang ibu bahwa anaknya meninggal dalam kecelakaan lalu lintas. Bagaimana cara Anda menyampaikannya?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='30' y='45' fill='#555' font-size='20' text-anchor='middle'>⚰️</text><line x1='60' y1='40' x2='90' y2='40' stroke='white'/><rect x='100' y='20' width='180' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>LANGSUNG & BEREMPATI</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>JANGAN LEWAT TELEPON</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menyampaikan singkat lewat telepon agar cepat, tanpa memastikan dukungan pendamping.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Mengirim pesan tertulis supaya tidak canggung, lalu meminta ia datang ke rumah sakit.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Datang langsung, berbicara hati-hati dan bertahap, tetapi terlalu berputar-putar sehingga membingungkan.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Datang langsung, pilih tempat privat, sampaikan jelas dan empatik, lalu beri waktu ia bereaksi.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Tatap muka, jelas, empatik, cek dukungan keluarga, dan dampingi langkah awal administratif tanpa membanjiri informasi.",
+  "points": 5
+  }
+  ],
+  "explanation": "Penyampaian berita duka menuntut kejelasan, privasi, dan dukungan emosional (death notification protocol). Opsi 5 terbaik karena selain tatap muka dan empati, ia memastikan support system hadir serta mengatur informasi secara terukur (mencegah overload saat fase syok). Opsi 4 sudah privat dan empatik, namun belum memastikan dukungan dan tindak lanjut awal yang membuat keluarga merasa tidak sendirian."
+  },
+  {
+  "id": 14,
+  "category": "KEP_PELAYANAN_DIFABEL",
+  "question": "Seorang warga tunarungu datang melapor. Anda tidak bisa bahasa isyarat. Komunikasi macet. Solusi Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='30' y='45' fill='white' font-size='20' text-anchor='middle'>🧏</text><line x1='60' y1='40' x2='90' y2='40' stroke='white'/><rect x='100' y='20' width='160' height='40' fill='#f97316'/><text x='180' y='35' fill='black' font-size='8' text-anchor='middle'>TULISAN / VISUAL</text><text x='180' y='50' fill='black' font-size='8' text-anchor='middle'>SABAR & SENYUM</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menyuruhnya kembali lain hari karena Anda tidak paham, agar proses tidak memakan waktu.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Berbicara lebih keras dan cepat, berharap ia menangkap maksud dari gerak bibir.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Meminta rekan menggantikan Anda, sementara Anda tetap pasif tanpa memastikan kualitas layanan.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Gunakan tulisan/ketik di ponsel, lalu minta bantuan petugas lain untuk verifikasi detail laporan.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Layanan inklusif: komunikasi tertulis/visual, jaga privasi, dan koordinasi interpreter/pendamping bila tersedia.",
+  "points": 5
+  }
+  ],
+  "explanation": "Pelayanan publik wajib aksesibel bagi difabel. Opsi 5 unggul karena tidak hanya memakai alat bantu, tetapi juga menjaga privasi dan memastikan akurasi melalui koordinasi pendamping/interpreter bila ada—ini inclusive service yang berkelanjutan. Opsi 4 sudah memakai tulisan, namun tanpa perhatian privasi dan dukungan interpretasi, risiko miskomunikasi dan ketidaknyamanan lebih besar."
+  },
+  {
+  "id": 15,
+  "category": "KEP_EDUKASI_HUKUM_AWAM",
+  "question": "Seorang petani tua tidak mengerti kenapa dia tidak boleh membakar ladang. Jika dijelaskan pasal-pasal dia bingung. Cara Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#555'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>PASAL-PASAL</text><line x1='90' y1='40' x2='120' y2='40' stroke='white'/><text x='105' y='35' fill='#dc2626' font-size='12' text-anchor='middle'>X</text><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>BAHASA SEDERHANA</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>ANALOGI & DAMPAK</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Membacakan dasar hukum panjang agar ia 'tahu aturan', meski ia tidak paham konteksnya.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Mengancam sanksi berat agar ia takut, tanpa menjelaskan dampak dan alternatif solusi.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menjelaskan dengan bahasa sederhana tentang risiko asap dan kebakaran, lalu minta ia tidak mengulang.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Gunakan analogi yang dekat, jelaskan dampak kesehatan/ekonomi, dan tawarkan cara pembersihan lahan yang aman.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Edukasi persuasif: bahasa lokal, analogi, opsi alternatif, dan libatkan tokoh setempat agar kepatuhan berkelanjutan.",
+  "points": 5
+  }
+  ],
+  "explanation": "Komunikasi efektif menuntut penyesuaian literasi dan konteks budaya. Opsi 5 terbaik karena menggabungkan risk communication (dampak), solusi alternatif, serta penguatan sosial (tokoh setempat) yang meningkatkan kepatuhan jangka panjang. Opsi 4 sudah menawarkan alternatif, namun tanpa penguatan sosial/komunitas, perubahan perilaku cenderung tidak stabil ketika pengawasan tidak ada."
+  },
+  {
+  "id": 16,
+  "category": "KEP_PENDENGAR_AKTIF",
+  "question": "Warga curhat panjang tentang masalah yang sepele. Anda punya banyak tugas lain. Sikap Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><path d='M30 40 Q50 20 70 40 T110 40' stroke='white' fill='none'/><text x='70' y='60' fill='white' font-size='8' text-anchor='middle'>CERITA PANJANG</text><rect x='140' y='20' width='140' height='40' fill='#f97316'/><text x='210' y='35' fill='black' font-size='8' text-anchor='middle'>DENGAR - RINGKAS</text><text x='210' y='50' fill='black' font-size='8' text-anchor='middle'>ARAHKAN SOLUSI</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Memotong keras: 'Saya sibuk, jangan lama-lama' lalu mengakhiri interaksi.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Membiarkan ia bicara, tetapi Anda tampak tidak hadir dan tidak merespons secara bermakna.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Mendengarkan singkat, lalu minta ia menulis keluhan agar Anda bisa lanjut pekerjaan.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Gunakan paraphrasing untuk merangkum, lalu arahkan ke langkah solusi dan batas waktu layanan.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Dengar aktif singkat, validasi, ringkas, lalu tawarkan kanal lanjut (janji temu/rujukan) agar tetap terlayani.",
+  "points": 5
+  }
+  ],
+  "explanation": "Active listening bukan berarti tanpa batas; perlu assertive communication dan manajemen waktu. Opsi 5 unggul karena selain meringkas dan mengarahkan solusi, ia menyediakan jalur tindak lanjut yang jelas sehingga warga tetap merasa dihargai. Opsi 4 sudah efektif merangkum dan membatasi waktu, namun tanpa opsi kanal lanjut, warga bisa merasa 'diusir' dan kepuasan layanan turun."
+  },
+  {
+  "id": 17,
+  "category": "KEP_PENANGANAN_KORBAN_TRAUMA",
+  "question": "Seorang wanita korban kekerasan seksual datang melapor dengan trauma berat, gemetar, dan takut pada polisi pria. Anda petugas pria. Sikap Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='60' height='40' fill='#555'/><text x='50' y='45' fill='white' font-size='8' text-anchor='middle'>PETUGAS</text><text x='50' y='55' fill='white' font-size='8' text-anchor='middle'>PRIA</text><line x1='90' y1='40' x2='120' y2='40' stroke='#f97316' marker-end='url(#arrow)'/><rect x='130' y='20' width='140' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>ALIHKAN KE POLWAN</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>RUANG KHUSUS (PPA)</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Tetap memeriksa karena Anda yang piket, meski korban terlihat tidak aman dan menghindar.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Meminta ia menulis kronologi sendiri di ruang tunggu agar cepat, tanpa pendampingan emosional.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Menawarkan memanggil Polwan, tetapi tetap berada dekat korban sehingga ia tetap merasa tertekan.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Memanggil Polwan dan menyiapkan ruang tertutup, lalu Anda mundur agar korban lebih nyaman bicara.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Trauma-informed: beri pilihan, panggil Polwan/Unit PPA, jaga privasi, dan minimalkan paparan pemicu selama proses awal.",
+  "points": 5
+  }
+  ],
+  "explanation": "Pendekatan trauma-informed care menempatkan rasa aman dan kontrol pada korban. Opsi 5 terbaik karena memberi pilihan (autonomy), memastikan pendamping yang tepat (Polwan/Unit PPA), menjaga privasi, dan meminimalkan re-traumatisasi sejak kontak pertama. Opsi 4 sudah memanggil Polwan dan mundur, namun belum menegaskan prinsip pilihan/otonomi yang krusial untuk mengembalikan sense of control korban."
+  },
+  {
+  "id": 18,
+  "category": "KEP_PROVOKASI_KAMERA",
+  "question": "Seorang pelanggar merekam wajah Anda dari jarak dekat sambil memprovokasi: 'Ayo pukul saya pak, biar viral!' Sikap Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><rect x='20' y='20' width='40' height='40' fill='#555'/><text x='40' y='45' fill='white' font-size='20' text-anchor='middle'>📱</text><line x1='70' y1='40' x2='100' y2='40' stroke='white'/><rect x='110' y='20' width='160' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>IGNORE & PROCEED</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>TETAP SENYUM</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Membalas emosi dengan kata-kata keras agar ia kapok, meski direkam dari dekat.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Menutup kamera dan meminta ia hapus rekaman, sehingga situasi makin memanas.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Mengabaikan provokasi, namun Anda tampak gelisah dan menghentikan prosedur karena fokus buyar.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Tetap tenang, jaga jarak, dan lanjutkan prosedur sambil memberi instruksi singkat yang terdengar publik.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Komposur penuh: tenang, narasikan tindakan secara profesional, minta ruang aman, dan lanjut prosedur sesuai SOP.",
+  "points": 5
+  }
+  ],
+  "explanation": "Provokasi kamera bertujuan memicu reaksi untuk dijadikan konten negatif. Opsi 5 terbaik karena selain mengendalikan emosi, ia melakukan verbal narration (menjelaskan apa yang dilakukan) yang meningkatkan akuntabilitas dan mengurangi mispersepsi publik. Opsi 4 sudah tenang dan lanjut SOP, namun tanpa narasi yang jelas, video bisa dipotong dan dipelintir konteksnya."
+  },
+  {
+  "id": 19,
+  "category": "KEP_MENENANGKAN_ANAK",
+  "question": "Seorang anak kecil tersesat dan menangis ketakutan melihat seragam polisi. Bagaimana cara Anda mendekatinya?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><circle cx='40' cy='30' r='10' fill='#dc2626'/><text x='40' y='55' fill='white' font-size='8' text-anchor='middle'>TAKUT</text><line x1='70' y1='40' x2='100' y2='40' stroke='white'/><rect x='110' y='20' width='160' height='40' fill='#f97316'/><text x='190' y='35' fill='black' font-size='8' text-anchor='middle'>LEPAS TOPI / JONGKOK</text><text x='190' y='50' fill='black' font-size='8' text-anchor='middle'>NON-THREATENING</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Tetap berdiri dan memberi perintah tegas agar ia berhenti menangis supaya cepat tenang.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Mendekat cepat dan memegang tangannya agar ia ikut Anda, meski ia makin takut.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Bicara lembut dari jarak dekat, tetapi tetap menjulang sehingga ia merasa terintimidasi.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Jongkok sejajar mata, senyum, sebutkan nama Anda, lalu tanyakan namanya pelan-pelan.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Non-threatening: jongkok, kurangi atribut menakutkan, validasi takutnya, dan ajak ia memilih cara aman mencari orang tua.",
+  "points": 5
+  }
+  ],
+  "explanation": "Anak membutuhkan rasa aman dan kontrol. Opsi 5 terbaik karena menurunkan ancaman (postur/atribut), melakukan validasi emosi, serta memberi pilihan sederhana (autonomy) yang menenangkan. Opsi 4 sudah tepat dengan eye level dan nada lembut, namun belum mengurangi atribut menakutkan dan belum memberi pilihan, sehingga beberapa anak masih bisa tetap menolak."
+  },
+  {
+  "id": 20,
+  "category": "KEP_INTEGRITAS_KOMUNIKASI",
+  "question": "Masyarakat bertanya tentang perkembangan kasus yang mandek. Sebenarnya berkas hilang karena kelalaian petugas. Apa jawaban Anda?",
+  "svgCode": "<svg width='300' height='80' viewBox='0 0 300 80'><text x='40' y='45' fill='white' font-size='20' text-anchor='middle'>📁</text><text x='40' y='65' fill='#dc2626' font-size='8' text-anchor='middle'>HILANG</text><line x1='80' y1='40' x2='110' y2='40' stroke='white'/><rect x='120' y='20' width='160' height='40' fill='#f97316'/><text x='200' y='35' fill='black' font-size='8' text-anchor='middle'>JUJUR & SOLUTIF</text><text x='200' y='50' fill='black' font-size='8' text-anchor='middle'>SIAP TANGGUNG JAWAB</text></svg>",
+  "options": [
+  {
+  "label": "A",
+  "text": "Menghindar dan memberi jawaban umum agar tidak disalahkan, tanpa rencana tindak lanjut yang jelas.",
+  "points": 1
+  },
+  {
+  "label": "B",
+  "text": "Menyalahkan pelapor karena dianggap kurang data, supaya beban kesalahan berpindah.",
+  "points": 2
+  },
+  {
+  "label": "C",
+  "text": "Mengatakan ada kendala administrasi, lalu meminta mereka menunggu tanpa kepastian waktu.",
+  "points": 3
+  },
+  {
+  "label": "D",
+  "text": "Mengakui ada kesalahan internal, minta maaf, dan menjelaskan langkah perbaikan serta timeline pembaruan.",
+  "points": 4
+  },
+  {
+  "label": "E",
+  "text": "Akuntabel: akui kelalaian, minta maaf, lapor atasan, buat BA penggantian, dan beri update tertulis serta timeline.",
+  "points": 5
+  }
+  ],
+  "explanation": "Integritas layanan menuntut kejujuran dan tindakan korektif, bukan defensif. Opsi 5 terbaik karena menggabungkan accountability (akui kelalaian), chain of command (lapor atasan), evidence continuity (BA penggantian), dan kepastian layanan (update tertulis + timeline). Opsi 4 sudah jujur dan memberi timeline, namun belum menegaskan mekanisme formal penggantian berkas yang menjadi bukti akuntabilitas institusi."
+  },
+  {
+  "id": 21,
+  "category": "KEP_BASELINE_PERILAKU",
+  "question": "Sebelum mulai bertanya tentang kasus pembunuhan, apa hal pertama yang harus Anda lakukan terhadap terperiksa di ruang interogasi?",
+  "options": [
+  { "label": "A", "text": "Langsung menekan dengan nada mengintimidasi agar ia cepat goyah dan takut.", "points": 1 },
+  { "label": "B", "text": "Segera menyodorkan detail tuduhan agar ia kaget dan defensif sejak awal.", "points": 2 },
+  { "label": "C", "text": "Menjelaskan aturan wawancara singkat dan memastikan ia memahami hak serta prosesnya.", "points": 3 },
+  { "label": "D", "text": "Membangun rapport ringan sambil observasi respons normal, lalu mulai pertanyaan terstruktur.", "points": 4 },
+  { "label": "E", "text": "Cek kondisi aman-nyaman, jelaskan hak/prosedur, bangun rapport, lalu kalibrasi baseline perilaku.", "points": 5 }
+  ],
+  "explanation": "Standar wawancara investigatif menuntut procedural justice: jelas, adil, dan tidak mengintimidasi. Opsi 5 paling tepat karena menggabungkan pengecekan kondisi (mengurangi resistensi), penegasan hak dan proses (menghindari paksaan), serta rapport building untuk memperoleh baseline perilaku yang valid. Opsi 4 sudah membangun rapport dan baseline, tetapi belum menempatkan penjelasan hak/prosedur sebagai pengaman awal untuk integritas proses."
+  },
+  {
+  "id": 22,
+  "category": "KEP_PERTANYAAN_TERBUKA",
+  "question": "Anda ingin saksi menceritakan kronologi kejadian selengkap mungkin. Bentuk pertanyaan mana yang paling efektif?",
+  "options": [
+  { "label": "A", "text": "Menanyakan detail spesifik yang mengarahkan, agar jawaban cepat dan singkat.", "points": 1 },
+  { "label": "B", "text": "Memberi dua pilihan jawaban, sehingga saksi tinggal memilih yang paling cocok.", "points": 2 },
+  { "label": "C", "text": "Meminta saksi menceritakan dari awal dengan kata-katanya sendiri, tanpa interupsi.", "points": 3 },
+  { "label": "D", "text": "Memulai dengan pertanyaan terbuka, lalu lanjutkan klarifikasi bertahap tanpa mengarahkan.", "points": 4 },
+  { "label": "E", "text": "Mulai free recall, lakukan cognitive interview (apa lihat/dengar/rasakan), lalu verifikasi detail.", "points": 5 }
+  ],
+  "explanation": "Untuk memaksimalkan memori naratif, gunakan pertanyaan terbuka dan teknik cognitive interview yang minim sugesti. Opsi 5 unggul karena selain free recall, ia menambah penggalian multisensorik dan verifikasi, sehingga informasi lebih kaya dan lebih akurat. Opsi 4 sudah benar secara prinsip, tetapi belum menambahkan kerangka cognitive interview yang sistematis."
+  },
+  {
+  "id": 23,
+  "category": "KEP_TAKTIK_DIAM",
+  "question": "Terperiksa baru saja memberi jawaban yang terdengar janggal, lalu dia diam menunggu respon Anda. Taktik apa yang Anda gunakan?",
+  "options": [
+  { "label": "A", "text": "Langsung menuduh bohong agar ia terpojok dan terpancing emosi.", "points": 1 },
+  { "label": "B", "text": "Cepat pindah ke pertanyaan lain agar suasana tidak canggung.", "points": 2 },
+  { "label": "C", "text": "Mengulang pertanyaan dengan nada lebih tegas agar ia menjawab segera.", "points": 3 },
+  { "label": "D", "text": "Menahan jeda sejenak, lalu minta ia menjelaskan bagian yang belum jelas.", "points": 4 },
+  { "label": "E", "text": "Gunakan tactical pause netral, lalu paraphrasing dan probe klarifikasi tanpa konfrontasi.", "points": 5 }
+  ],
+  "explanation": "Keheningan dapat menjadi alat de-eskalasi dan memberi ruang berpikir, tetapi harus tetap netral dan tidak mengintimidasi. Opsi 5 terbaik karena menggabungkan jeda taktis dengan paraphrasing dan pertanyaan klarifikasi, sehingga mendorong elaborasi tanpa menekan. Opsi 4 sudah memanfaatkan jeda dan klarifikasi, namun belum memastikan teknik paraphrasing untuk menguji konsistensi secara halus."
+  },
+  {
+  "id": 24,
+  "category": "KEP_INKONSISTENSI_NARASI",
+  "question": "Terperiksa menceritakan alibi dengan sangat lancar dan detail seperti dihafal. Anda curiga itu skenario buatan. Cara mengujinya?",
+  "options": [
+  { "label": "A", "text": "Menyatakan tidak percaya agar ia panik dan terpancing membuat kesalahan.", "points": 1 },
+  { "label": "B", "text": "Meminta ia mengulang persis sama, lalu menilai dari kelancarannya.", "points": 2 },
+  { "label": "C", "text": "Meminta ia menambahkan detail kecil agar cerita makin panjang dan sulit dikontrol.", "points": 3 },
+  { "label": "D", "text": "Meminta ia menceritakan secara mundur dari akhir ke awal untuk menguji konsistensi.", "points": 4 },
+  { "label": "E", "text": "Uji dengan variasi urutan (mundur/acak), minta konteks inderawi, lalu cek konsistensi tanpa tuduhan.", "points": 5 }
+  ],
+  "explanation": "Narasi yang dihafal sering rapuh saat dibebani cognitive load. Opsi 5 paling kuat karena tidak hanya memakai reverse chronology, tetapi juga variasi urutan dan penggalian detail inderawi (waktu, suara, jarak), sehingga inkonsistensi lebih mudah muncul tanpa pendekatan agresif. Opsi 4 efektif, namun lebih sempit karena hanya mengandalkan cerita mundur tanpa penguatan uji detail kontekstual."
+  },
+  {
+  "id": 25,
+  "category": "KEP_NON_VERBAL_LEAKAGE",
+  "question": "Saat ditanya 'Apakah Anda mengambil uang itu?', ia menjawab 'Tidak' dengan tegas, tetapi bahunya berkedik sebelah dan matanya melirik ke pintu. Analisa Anda?",
+  "options": [
+  { "label": "A", "text": "Menganggap itu bukti pasti berbohong, lalu langsung menekan agar mengaku.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan sepenuhnya bahasa tubuh karena hanya ucapan yang penting.", "points": 2 },
+  { "label": "C", "text": "Mencatatnya sebagai tanda cemas umum, lalu lanjutkan pertanyaan tanpa menyinggungnya.", "points": 3 },
+  { "label": "D", "text": "Mencatat incongruence, lalu ajukan pertanyaan klarifikasi untuk bagian yang rawan salah paham.", "points": 4 },
+  { "label": "E", "text": "Anggap itu hot spot (bukan bukti), lakukan follow-up probe dan validasi dengan bukti/koroborasi.", "points": 5 }
+  ],
+  "explanation": "Isyarat nonverbal adalah indikator untuk didalami, bukan vonis kebohongan. Opsi 5 terbaik karena menempatkan incongruence sebagai hot spot yang memicu probing dan koroborasi, sehingga mengurangi bias dan menjaga objektivitas. Opsi 4 sudah benar dengan klarifikasi, namun belum menegaskan prinsip kunci bahwa nonverbal harus divalidasi melalui bukti dan konsistensi naratif."
+  },
+  {
+  "id": 26,
+  "category": "KEP_STRATEGI_BUKTI_SUE",
+  "question": "Anda memegang bukti CCTV bahwa terperiksa ada di TKP. Kapan waktu terbaik menunjukkan bukti ini saat wawancara investigatif?",
+  "options": [
+  { "label": "A", "text": "Sejak awal agar ia takut duluan dan langsung mengubah sikapnya.", "points": 1 },
+  { "label": "B", "text": "Di awal sebagian saja, supaya ia mengaku tanpa perlu banyak pertanyaan.", "points": 2 },
+  { "label": "C", "text": "Setelah beberapa pertanyaan, lalu tunjukkan bukti untuk mengarahkan cerita ke versi Anda.", "points": 3 },
+  { "label": "D", "text": "Setelah ia memberi kronologi lengkap, baru konfrontasikan bukti untuk menguji konsistensi.", "points": 4 },
+  { "label": "E", "text": "Biarkan ia komit pada narasi dulu, lalu gunakan bukti secara bertahap dan terdokumentasi (SUE) untuk klarifikasi.", "points": 5 }
+  ],
+  "explanation": "SUE (Strategic Use of Evidence) efektif bila bukti digunakan setelah subjek menyampaikan narasi awal, sehingga kontradiksi terlihat jelas tanpa paksaan. Opsi 5 unggul karena menekankan penggunaan bertahap dan terdokumentasi untuk klarifikasi, bukan sekadar menjatuhkan. Opsi 4 sudah tepat soal timing, namun belum menegaskan prinsip bertahap dan dokumentasi yang menjaga akuntabilitas proses."
+  },
+  {
+  "id": 27,
+  "category": "KEP_EMPATI_TAKTIK",
+  "question": "Terperiksa kasus pencurian (ayah 3 anak) menangis dan malu membicarakan peristiwa. Taktik Anda agar informasi keluar akurat tanpa paksaan?",
+  "options": [
+  { "label": "A", "text": "Menghakimi moralnya agar ia malu, berharap ia mengaku karena tertekan.", "points": 1 },
+  { "label": "B", "text": "Menekan dengan ancaman hukuman berat agar ia berhenti menangis dan patuh.", "points": 2 },
+  { "label": "C", "text": "Menghibur berlebihan dan menyetujui alasan pencurian agar ia merasa dibenarkan.", "points": 3 },
+  { "label": "D", "text": "Validasi emosi, beri waktu, lalu minta ia menceritakan kejadian dengan kronologi jelas.", "points": 4 },
+  { "label": "E", "text": "Gunakan empati terarah: validasi, jelaskan proses, dorong tanggung jawab, dan hindari janji/iming-iming.", "points": 5 }
+  ],
+  "explanation": "Empati dalam wawancara bukan berarti membenarkan tindak pidana, tetapi menurunkan defensif agar informasi akurat muncul. Opsi 5 terbaik karena menggabungkan validasi emosi, penegasan proses, dan ethical interviewing (tanpa janji/iming-iming), sehingga mengurangi risiko pengakuan palsu. Opsi 4 sudah menenangkan dan meminta kronologi, namun belum menegaskan batas etis (tidak membenarkan, tidak memberi harapan palsu) yang krusial untuk integritas."
+  },
+  {
+  "id": 28,
+  "category": "KEP_MENANGANI_PENYANGKALAN",
+  "question": "Setiap kali Anda bertanya, terperiksa selalu memotong dengan 'Bukan saya' sehingga wawancara macet. Cara mengatasinya secara profesional?",
+  "options": [
+  { "label": "A", "text": "Memaksa ia berhenti menyangkal dengan nada tinggi agar dominasi Anda terasa.", "points": 1 },
+  { "label": "B", "text": "Membiarkan penyangkalan berulang, berharap ia lelah dan berubah sendiri.", "points": 2 },
+  { "label": "C", "text": "Mengalihkan ke pertanyaan tertutup agar ia tidak bisa memanjang-manjangkan jawaban.", "points": 3 },
+  { "label": "D", "text": "Akui penyangkalan, lalu minta ia menjelaskan aktivitasnya secara runtut untuk diverifikasi.", "points": 4 },
+  { "label": "E", "text": "Tetapkan aturan giliran bicara, akui penyangkalan, lalu gunakan pertanyaan terbuka dan verifikasi berbasis fakta.", "points": 5 }
+  ],
+  "explanation": "Penyangkalan berulang sering menjadi mekanisme pertahanan. Opsi 5 terbaik karena menerapkan assertive communication (aturan giliran bicara) tanpa agresi, tetap netral, dan mengarahkan ke narasi yang bisa diverifikasi. Opsi 4 sudah meminta kronologi aktivitas, namun tanpa aturan komunikasi, interupsi bisa terus berulang dan kontrol wawancara melemah."
+  },
+  {
+  "id": 29,
+  "category": "KEP_DUO_INTEROGATOR",
+  "question": "Rekan Anda berperan terlalu galak sehingga terperiksa ketakutan dan menutup diri. Peran Anda sebagai partner agar proses tetap etis dan efektif?",
+  "options": [
+  { "label": "A", "text": "Ikut menekan agar terperiksa makin takut dan cepat menyerah.", "points": 1 },
+  { "label": "B", "text": "Membentak rekan Anda di depan terperiksa sehingga situasi makin kacau.", "points": 2 },
+  { "label": "C", "text": "Membiarkan saja karena itu gaya rekan, Anda hanya menunggu giliran bertanya.", "points": 3 },
+  { "label": "D", "text": "Menurunkan tensi, meminta rekan jeda, lalu lanjutkan dengan nada netral dan terstruktur.", "points": 4 },
+  { "label": "E", "text": "Reset proses: hentikan tekanan, pastikan hak terpenuhi, gunakan pendekatan PEACE/rapport, dan koordinasikan peran lewat chain of command.", "points": 5 }
+  ],
+  "explanation": "Tekanan berlebihan meningkatkan risiko false confession dan merusak legitimasi. Opsi 5 unggul karena bukan sekadar 'menjadi baik', tetapi melakukan reset etis: memastikan hak, kembali ke model PEACE (information-gathering), dan menata peran secara formal agar tidak terulang. Opsi 4 sudah menurunkan tensi, namun belum menegaskan pemulihan prosedural dan koordinasi formal yang menjaga akuntabilitas."
+  },
+  {
+  "id": 30,
+  "category": "KEP_VALIDASI_PENGAKUAN",
+  "question": "Terperiksa akhirnya mengaku melakukan pembunuhan. Agar pengakuan valid dan tidak terkontaminasi, pertanyaan kunci apa yang harus Anda gali?",
+  "options": [
+  { "label": "A", "text": "Menanyakan penyesalan saja, lalu segera menutup wawancara agar cepat selesai.", "points": 1 },
+  { "label": "B", "text": "Langsung meminta tanda tangan berita acara tanpa menguji detail pengakuan.", "points": 2 },
+  { "label": "C", "text": "Meminta ia mengulang kalimat pengakuan, lalu mencatatnya sebagai bukti utama.", "points": 3 },
+  { "label": "D", "text": "Menggali detail yang belum dipublikasikan (guilty knowledge) untuk uji koroborasi.", "points": 4 },
+  { "label": "E", "text": "Minta narasi lengkap dengan detail unik, lokasi/alat, serta pastikan voluntariness tanpa janji/tekanan, lalu koroborasi.", "points": 5 }
+  ],
+  "explanation": "Validasi pengakuan menuntut dua hal: koroborasi fakta dan jaminan voluntariness. Opsi 5 terbaik karena menggabungkan guilty knowledge, detail operasional yang bisa diuji (alat, lokasi, urutan), serta pengecekan bahwa pengakuan tidak dipicu paksaan/janji—ini memperkuat integritas pembuktian. Opsi 4 fokus pada guilty knowledge saja, tetapi belum memastikan aspek voluntariness dan narasi lengkap yang mencegah kontaminasi informasi."
+  },
+  {
+  "id": 31,
+  "category": "KEP_PERTANYAAN_JEBAKAN_MEDIA",
+  "question": "Wartawan bertanya dengan nada memojokkan: 'Apakah Polisi kecolongan dalam kasus teror ini?' Bagaimana teknik menjawabnya dengan bridging?",
+  "options": [
+  { "label": "A", "text": "Membalas emosi dan menegur wartawan, sehingga terlihat defensif di ruang publik.", "points": 1 },
+  { "label": "B", "text": "Menolak menjawab dan memutus wawancara, sehingga publik merasa ditutup-tutupi.", "points": 2 },
+  { "label": "C", "text": "Menjawab 'tidak' secara kaku, lalu mengulang pembelaan diri tanpa pesan kunci.", "points": 3 },
+  { "label": "D", "text": "Akui kekhawatiran, lalu arahkan ke fakta yang boleh dibuka dan langkah pengamanan saat ini.", "points": 4 },
+  { "label": "E", "text": "Empati singkat, lakukan bridge ke pesan kunci, batasi hal rahasia, dan tekankan komitmen update terverifikasi.", "points": 5 }
+  ],
+  "explanation": "Bridging yang profesional tidak ikut mengulang framing negatif, tetapi mengelola emosi publik dan disiplin pesan. Opsi 5 unggul karena memadukan empati, pengamanan informasi (tidak membuka rahasia penyidikan), dan komitmen update berbasis verifikasi—ini menjaga kredibilitas. Opsi 4 sudah mengarahkan ke fakta dan langkah, namun belum menegaskan batas informasi dan komitmen update terverifikasi yang mencegah spekulasi."
+  },
+  {
+  "id": 32,
+  "category": "KEP_PUBLIC_SPEAKING_MASSA",
+  "question": "Anda harus berbicara di depan ribuan pengunjuk rasa yang mulai emosi. Bagaimana intonasi dan gaya bicara Anda?",
+  "options": [
+  { "label": "A", "text": "Menaikkan nada dan kecepatan bicara agar terlihat tegas, meski massa makin panas.", "points": 1 },
+  { "label": "B", "text": "Bicara terlalu cepat dan banyak, sehingga pesan tidak tertangkap dan memicu salah paham.", "points": 2 },
+  { "label": "C", "text": "Gunakan volume kuat dan tegas, tetapi tetap banyak istilah teknis yang sulit dipahami massa.", "points": 3 },
+  { "label": "D", "text": "Nada rendah, tempo lambat, kalimat sederhana, dan ulangi pesan inti agar tertangkap massa.", "points": 4 },
+  { "label": "E", "text": "Command voice: rendah-lambat-jelas, validasi tuntutan, tetapkan batas aman, dan arahkan kanal dialog formal.", "points": 5 }
+  ],
+  "explanation": "Massa emosi membutuhkan figur yang stabil, bukan pemicu. Opsi 5 terbaik karena menggabungkan voice of command dengan validasi emosi, penetapan batas (keselamatan), dan pengalihan ke kanal dialog formal—ini de-eskalasi berbasis wibawa. Opsi 4 sudah baik dari sisi intonasi dan kejelasan, namun belum menyertakan validasi dan kanal dialog yang menurunkan tensi serta memberi arah."
+  },
+  {
+  "id": 33,
+  "category": "KEP_OFF_THE_RECORD",
+  "question": "Saat makan siang santai, wartawan teman Anda bertanya: 'Katanya tersangka itu anak pejabat ya?' Ia bilang ini off the record. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengonfirmasi setengah-setengah karena merasa akrab, lalu berharap tidak ditulis.", "points": 1 },
+  { "label": "B", "text": "Memberi gestur kode yang menguatkan isu, tanpa mengatakan kata-kata eksplisit.", "points": 2 },
+  { "label": "C", "text": "Menolak menjawab dengan nada menyalahkan wartawan, sehingga relasi kerja memburuk.", "points": 3 },
+  { "label": "D", "text": "Menahan diri, katakan Anda tidak dapat membahas identitas, dan arahkan ke rilis resmi.", "points": 4 },
+  { "label": "E", "text": "Disiplin informasi: tidak konfirmasi/menyangkal, rujuk juru bicara, dan pegang prinsip one voice policy.", "points": 5 }
+  ],
+  "explanation": "Dalam komunikasi publik, risiko kebocoran tidak hanya dari kata-kata, tetapi juga isyarat. Opsi 5 terbaik karena menerapkan message discipline dan one voice policy—mengunci narasi pada kanal resmi agar tidak merusak penyidikan dan kepercayaan publik. Opsi 4 sudah mengarahkan ke rilis resmi, namun belum menegaskan prinsip tidak konfirmasi/menyangkal dan disiplin satu pintu yang mencegah distorsi."
+  },
+  {
+  "id": 34,
+  "category": "KEP_SPEKULASI_DATA",
+  "question": "Dalam live interview, Anda ditanya jumlah korban tewas pasti, sementara data lapangan belum terverifikasi. Jawaban Anda?",
+  "options": [
+  { "label": "A", "text": "Memberi angka perkiraan agar terlihat cepat, meski berisiko salah dan memicu panik.", "points": 1 },
+  { "label": "B", "text": "Mengutip kabar warga/medsos sebagai angka sementara, lalu membiarkan simpang siur.", "points": 2 },
+  { "label": "C", "text": "Mengatakan 'banyak' tanpa angka, sehingga tetap tidak membantu dan memicu spekulasi.", "points": 3 },
+  { "label": "D", "text": "Menegaskan data masih diverifikasi, lalu janji update ketika angka sudah tervalidasi.", "points": 4 },
+  { "label": "E", "text": "Tolak spekulasi: sebut status verifikasi, rujuk sumber resmi tunggal, dan beri waktu rilis berikutnya.", "points": 5 }
+  ],
+  "explanation": "Spekulasi data pada situasi krisis merusak kredibilitas dan dapat meningkatkan kepanikan. Opsi 5 unggul karena menahan diri dari angka, menetapkan single source of truth, serta memberi kepastian kapan pembaruan disampaikan—ini manajemen informasi krisis yang matang. Opsi 4 sudah menunda sampai terverifikasi, namun belum menegaskan sumber resmi tunggal dan jadwal rilis yang mencegah rumor."
+  },
+  {
+  "id": 35,
+  "category": "KEP_BAHASA_TUBUH_DI_PODIUM",
+  "question": "Saat memberikan konferensi pers tentang kasus serius, bagaimana bahasa tubuh (gesture) tangan Anda?",
+  "options": [
+  { "label": "A", "text": "Sering menunjuk wartawan dengan telunjuk untuk menekan, sehingga tampak agresif.", "points": 1 },
+  { "label": "B", "text": "Banyak memainkan benda kecil atau menggaruk kepala, sehingga terlihat gugup dan tidak siap.", "points": 2 },
+  { "label": "C", "text": "Menahan tangan kaku sepanjang waktu, sehingga tampak tegang meski pesan Anda jelas.", "points": 3 },
+  { "label": "D", "text": "Tangan stabil di podium, gestur seperlunya, dan kontak mata terukur untuk menjaga wibawa.", "points": 4 },
+  { "label": "E", "text": "Gestur terbuka dan terkontrol, ritme penekanan wajar, minim fidgeting, konsisten dengan pesan kunci.", "points": 5 }
+  ],
+  "explanation": "Bahasa tubuh yang stabil memperkuat kredibilitas, sedangkan gestur agresif atau gelisah melemahkan kepercayaan. Opsi 5 terbaik karena menggabungkan keterbukaan (tidak defensif), kontrol (minim fidgeting), dan keselarasan dengan pesan—ini non-verbal congruence. Opsi 4 sudah stabil dan berwibawa, namun opsi 5 lebih unggul karena menekankan keterbukaan dan konsistensi pesan sehingga mengurangi kesan menutup-nutupi."
+  },
+  {
+  "id": 36,
+  "category": "KEP_FOTO_ETIS_MEDSOS",
+  "question": "Anda berhasil menangkap pelaku kejahatan seksual anak. Anda ingin membagikan keberhasilan ini di media sosial pribadi. Konten mana yang paling aman dan etis?",
+  "options": [
+  { "label": "A", "text": "Mengunggah foto penangkapan dengan wajah tersangka terlihat jelas agar jadi efek jera.", "points": 1 },
+  { "label": "B", "text": "Menceritakan kronologi singkat disertai petunjuk lokasi dan waktu penangkapan agar publik tahu.", "points": 2 },
+  { "label": "C", "text": "Mengunggah foto kegiatan dari jauh dengan penyamaran wajah, tanpa menyebut identitas pihak terkait.", "points": 3 },
+  { "label": "D", "text": "Mengunggah imbauan pencegahan umum tanpa menyinggung kasus spesifik yang sedang ditangani.", "points": 4 },
+  { "label": "E", "text": "Tidak memposting di akun pribadi; jika perlu, hanya membagikan rilis resmi Humas yang sudah disanitasi.", "points": 5 }
+  ],
+  "explanation": "Etika digital menuntut confidentiality dan victim protection, terutama pada perkara anak. Opsi 5 paling profesional karena menjaga kerahasiaan penyidikan, menghindari trial by social media, dan mencegah reviktimisasi. Opsi 4 terlihat baik (edukasi), tetapi tetap berisiko disalahpahami sebagai klaim kasus tertentu bila konteksnya sensitif dan sedang hangat."
+  },
+  {
+  "id": 37,
+  "category": "KEP_MENJAWAB_SALAH",
+  "question": "Dalam wawancara TV, Anda tidak sengaja salah menyebut data. Anda baru sadar setelah acara selesai. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkan saja agar isu cepat lewat dan tidak jadi bahan perdebatan.", "points": 1 },
+  { "label": "B", "text": "Meminta stasiun TV menghapus bagian tersebut tanpa memberi penjelasan ke publik.", "points": 2 },
+  { "label": "C", "text": "Menunggu kesempatan berikutnya untuk meluruskan jika ditanya lagi oleh media.", "points": 3 },
+  { "label": "D", "text": "Koordinasi internal untuk verifikasi data, lalu siapkan ralat melalui jalur komunikasi resmi.", "points": 4 },
+  { "label": "E", "text": "Segera ralat secara resmi lewat media yang sama dan kanal institusi, dengan data terverifikasi dan akuntabel.", "points": 5 }
+  ],
+  "explanation": "Prinsip accountability menuntut koreksi cepat agar tidak terjadi disinformasi. Opsi 5 terbaik karena melakukan correction protocol secara terbuka dan terukur (satu sumber resmi, data terverifikasi), sehingga kepercayaan publik terjaga. Opsi 4 baik, namun tanpa ralat yang terpublikasi, kesalahan tetap beredar dan sulit dikendalikan."
+  },
+  {
+  "id": 38,
+  "category": "KEP_PIDATO_MOTIVASI",
+  "question": "Pasukan Anda baru saja gagal menangkap target dan terlihat lesu (moral rendah). Anda harus memberi arahan. Apa inti pesan Anda?",
+  "options": [
+  { "label": "A", "text": "Menegur keras agar mereka kapok, lalu menuntut hasil lebih baik tanpa diskusi.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan kegagalan dan langsung memerintahkan lanjut operasi seperti tidak terjadi apa-apa.", "points": 2 },
+  { "label": "C", "text": "Memompa semangat dengan janji kemenangan cepat, tanpa membahas evaluasi taktis.", "points": 3 },
+  { "label": "D", "text": "Mengakui situasi, lakukan evaluasi singkat, lalu tetapkan rencana perbaikan yang jelas.", "points": 4 },
+  { "label": "E", "text": "Ambil tanggung jawab, lakukan after-action review, jaga kondisi personel, dan tetapkan langkah taktis terukur.", "points": 5 }
+  ],
+  "explanation": "Pemulihan moral butuh psychological safety dan arah kerja yang jelas, bukan intimidasi. Opsi 5 unggul karena menggabungkan kepemimpinan akuntabel, evaluasi berbasis fakta, serta pengendalian diri untuk menjaga kesiapan personel. Opsi 4 sudah mengarah ke evaluasi dan rencana, tetapi belum menekankan aspek beban kerja/ketahanan personel yang menentukan efektivitas operasi berikutnya."
+  },
+  {
+  "id": 39,
+  "category": "KEP_KLARIFIKASI_HOAX",
+  "question": "Beredar hoaks bahwa polisi melakukan penculikan ulama. Massa terprovokasi mengepung Polsek. Anda Kapolsek. Apa pesan dan langkah klarifikasi yang paling tepat?",
+  "options": [
+  { "label": "A", "text": "Mengeluarkan peringatan keras dan mengancam tindakan tegas agar massa bubar.", "points": 1 },
+  { "label": "B", "text": "Menyampaikan bantahan singkat tanpa bukti, lalu meminta massa percaya begitu saja.", "points": 2 },
+  { "label": "C", "text": "Meminta tokoh masyarakat berbicara, sementara Anda tidak memberi penjelasan apapun.", "points": 3 },
+  { "label": "D", "text": "Memberi penjelasan fakta yang bisa dibuka, lalu mengajak perwakilan massa berdialog.", "points": 4 },
+  { "label": "E", "text": "Aktifkan incident command, gandeng tokoh kredibel, tampilkan bukti aman-terverifikasi, dan fokus de-eskalasi.", "points": 5 }
+  ],
+  "explanation": "Komunikasi krisis menuntut speed, accuracy, credibility. Opsi 5 terbaik karena menggabungkan struktur komando, third-party endorsement (tokoh kredibel), bukti terverifikasi, dan langkah de-eskalasi untuk mencegah eskalasi massa. Opsi 4 sudah mengarah pada dialog dan fakta, tetapi tanpa penopang kredibilitas dan struktur komando yang rapi, klarifikasi mudah dipelintir."
+  },
+  {
+  "id": 40,
+  "category": "KEP_TOWNHALL_MEETING",
+  "question": "Dalam pertemuan warga, Anda diserang pertanyaan: 'Polisi kerjanya apa? Maling motor di sini makin banyak!' Jawaban persuasif Anda?",
+  "options": [
+  { "label": "A", "text": "Membalas defensif dan menegaskan polisi sudah bekerja keras sehingga warga tidak perlu mengkritik.", "points": 1 },
+  { "label": "B", "text": "Menyalahkan warga karena tidak waspada, lalu menutup pembahasan dengan cepat.", "points": 2 },
+  { "label": "C", "text": "Menjanjikan penurunan kasus tanpa rencana konkret agar warga tenang sementara.", "points": 3 },
+  { "label": "D", "text": "Memvalidasi keluhan, jelaskan langkah yang sudah berjalan, lalu minta dukungan kemitraan warga.", "points": 4 },
+  { "label": "E", "text": "Validasi, paparkan rencana terukur, bentuk kanal laporan cepat, dan sepakati tindak lanjut dengan warga.", "points": 5 }
+  ],
+  "explanation": "Pendekatan community policing mengubah konfrontasi menjadi kemitraan. Opsi 5 unggul karena tidak hanya empatik dan informatif, tetapi juga menetapkan mekanisme tindak lanjut (kanal laporan, komitmen aksi, evaluasi) sehingga warga mendapat kepastian layanan. Opsi 4 sudah baik, namun masih umum dan kurang menutup celah ketidakpercayaan karena belum ada komitmen tindak lanjut yang terukur."
+  },
+  {
+  "id": 41,
+  "category": "KEP_KONSISTENSI_AROGANSI_VERBAL",
+  "question": "Pernyataan UUU: 'Dalam situasi tertentu, saya menaikkan volume suara agar orang patuh lebih cepat, meskipun berisiko terdengar kasar.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Wibawa petugas ditopang self-control dan komunikasi asertif, bukan kekasaran. Opsi 5 lebih baik daripada 4 karena menunjukkan prinsip yang kuat: suara tegas boleh untuk audibilitas/keamanan, tetapi bukan untuk intimidasi atau pelampiasan emosi. Opsi 4 bisa masih menyisakan toleransi “sesekali kasar” saat tertekan."
+  },
+  {
+  "id": 42,
+  "category": "KEP_KONSISTENSI_KEJUJURAN_PUBLIK",
+  "question": "Pernyataan VVV: 'Menurut saya, menyederhanakan fakta sampai tidak sepenuhnya akurat kadang perlu agar citra institusi tetap terjaga.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Public trust dibangun dengan akurasi dan transparansi yang bertanggung jawab (menunda informasi rahasia boleh, memelintir fakta tidak). Opsi 5 lebih baik daripada 4 karena tegas membedakan antara “menjaga kerahasiaan” dan “mengubah kebenaran”. Opsi 4 kadang masih menyisakan ruang kompromi pada tekanan citra."
+  },
+  {
+  "id": 43,
+  "category": "KEP_KONSISTENSI_PENDENGAR",
+  "question": "Pernyataan WWW: 'Saat warga berbicara panjang dan berputar-putar, saya cenderung memotongnya karena merasa itu menghambat pekerjaan lain.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Pelayanan prima butuh active listening dan teknik mengarahkan secara elegan (paraphrasing), bukan memotong impulsif. Opsi 5 lebih baik dari 4 karena menunjukkan kontrol diri: tetap efisien tanpa mengorbankan rasa dihargai. Opsi 4 bisa berarti “tidak memotong”, tetapi belum menegaskan kemampuan mengelola waktu secara asertif."
+  },
+  {
+  "id": 44,
+  "category": "KEP_KONSISTENSI_BOCOR_RAHASIA",
+  "question": "Pernyataan XXX: 'Saya suka membagikan cerita kasus atau aib pihak terkait kepada teman dekat agar dianggap orang yang banyak tahu.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Kerahasiaan adalah disiplin operasional dan etika profesi. Opsi 5 lebih baik daripada 4 karena menunjukkan integritas yang konsisten, bukan sekadar “biasanya tidak”. Opsi 4 masih berisiko kompromi saat ada dorongan validasi ego atau tekanan pertemanan."
+  },
+  {
+  "id": 45,
+  "category": "KEP_KONSISTENSI_ANTI_KRITIK",
+  "question": "Pernyataan YYY: 'Saya mudah defensif ketika orang mengoreksi cara saya berbicara, karena merasa wibawa saya sedang direndahkan.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Komunikator efektif punya growth mindset dan emotional regulation. Opsi 5 lebih baik daripada 4 karena menunjukkan kesiapan menerima umpan balik tanpa reaktivitas, sehingga kualitas pelayanan meningkat. Opsi 4 bisa berarti tidak sering defensif, namun belum menutup kemungkinan reaksi emosional saat ditekan."
+  },
+  {
+  "id": 46,
+  "category": "KEP_KONSISTENSI_EMPATI_PALSU",
+  "question": "Pernyataan ZZZ: 'Saya menganggap pelapor yang menangis adalah orang yang lemah dan menyulitkan proses pelayanan.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Menangis sering merupakan respons stres/trauma, bukan “kelemahan”. Opsi 5 lebih baik daripada 4 karena menegaskan trauma-informed approach dan sikap melayani yang tidak menghakimi. Opsi 4 bisa berarti “umumnya tidak setuju”, tetapi masih berpotensi memberi label negatif pada kondisi emosional pelapor."
+  },
+  {
+  "id": 47,
+  "category": "KEP_KONSISTENSI_MENANG_DEBAT",
+  "question": "Pernyataan AAAA: 'Dalam perdebatan, saya fokus menang agar terlihat benar, meski lawan bicara tersinggung atau kehilangan muka.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Komunikasi taktis mengejar solusi dan kepatuhan yang bermartabat, bukan kemenangan ego. Opsi 5 lebih baik dari 4 karena menunjukkan orientasi win-win dan kontrol impuls untuk tidak mempermalukan pihak lain. Opsi 4 bisa masih menyisakan kecenderungan kompetitif saat emosi memuncak."
+  },
+  {
+  "id": 48,
+  "category": "KEP_KONSISTENSI_SARKASME",
+  "question": "Pernyataan BBBB: 'Saya kadang memakai sindiran atau sarkasme untuk menegur orang agar cepat paham.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Sarkasme adalah agresi pasif yang menurunkan martabat dan memicu resistensi. Opsi 5 lebih baik daripada 4 karena menegaskan pilihan komunikasi yang asertif dan jelas tanpa merendahkan. Opsi 4 bisa berarti jarang memakai sarkasme, tetapi tetap berisiko muncul saat lelah/terpancing."
+  },
+  {
+  "id": 49,
+  "category": "KEP_KONSISTENSI_MENYALAHKAN_PENDENGAR",
+  "question": "Pernyataan CCCC: 'Jika orang salah paham, biasanya itu karena mereka kurang cerdas, bukan karena cara bicara saya perlu diperjelas.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Prinsip layanan: makna komunikasi dilihat dari respons yang diterima; komunikator bertanggung jawab memastikan pesan dipahami. Opsi 5 lebih baik dari 4 karena menunjukkan kerendahan hati profesional dan orientasi perbaikan, bukan menyalahkan. Opsi 4 masih bisa menyisakan bias menyalahkan pihak lain pada situasi tertentu."
+  },
+  {
+  "id": 50,
+  "category": "KEP_PENUTUP_KOMUNIKASI",
+  "question": "Pernyataan DDDD (Final): 'Saya berkomitmen menggunakan komunikasi untuk melindungi, mengayomi, dan melayani, bukan untuk menekan atau mempermalukan masyarakat.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+  { "label": "B", "text": "Sesuai", "points": 4 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+  ],
+  "explanation": "Komitmen ini menutup profil komunikasi taktis: service excellence, integritas, dan pengendalian diri. Opsi 5 lebih baik daripada 4 karena menunjukkan internalisasi nilai yang kuat dan konsisten, bukan sekadar setuju secara umum tanpa komitmen penuh."
+  }
+  ]
+}

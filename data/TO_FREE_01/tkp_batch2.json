@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tkp-16",
+    "category": "TKP",
+    "text": "Anda baru saja dipindahkan ke daerah pelosok yang memiliki adat istiadat yang sangat kuat dan berbeda dengan budaya asal Anda. Beberapa kebiasaan warga setempat terasa aneh bagi Anda. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Adaptasi Aktif. Tidak hanya menghormati, tapi mau 'mempelajari' agar bisa berbaur. Ini level tertinggi sosial budaya. Poin 4 (Opsi B): Adaptasi Pasif (Menghormati saja).",
+    "options": [
+      { "key": "A", "text": "Tetap berpegang teguh pada budaya saya sendiri secara eksklusif.", "score": 1 },
+      { "key": "B", "text": "Menghormati budaya mereka namun membatasi interaksi agar tidak salah paham.", "score": 3 },
+      { "key": "C", "text": "Berusaha bersikap sopan dan menghargai adat setempat.", "score": 4 },
+      { "key": "D", "text": "Mempelajari adat istiadat tersebut dan mencoba berbaur dengan masyarakat agar diterima dengan baik.", "score": 5 },
+      { "key": "E", "text": "Meminta dipindahkan kembali ke kota karena tidak nyaman.", "score": 2 }
+    ]
+  },
+  {
+    "id": "tkp-17",
+    "category": "TKP",
+    "text": "Di lingkungan tempat tinggal Anda akan diadakan kerja bakti membersihkan selokan pada hari Minggu. Namun, Anda sebenarnya sudah memiliki rencana untuk berlibur dengan keluarga di hari tersebut. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Win-Win Solution. Kewajiban sosial dipenuhi (menyediakan konsumsi/dana), kewajiban keluarga juga jalan. Poin 4 (Opsi E): Ikut sebentar (mengorbankan waktu keluarga). Poin 5 lebih bijak dalam manajemen konflik kepentingan.",
+    "options": [
+      { "key": "A", "text": "Mengabaikan kerja bakti karena liburan sudah direncanakan jauh hari.", "score": 1 },
+      { "key": "B", "text": "Meminta maaf kepada Pak RT dan langsung pergi liburan.", "score": 3 },
+      { "key": "C", "text": "Menyediakan makanan/minuman untuk warga yang kerja bakti sebagai bentuk partisipasi, lalu izin pergi berlibur.", "score": 5 },
+      { "key": "D", "text": "Membatalkan liburan keluarga demi kerja bakti.", "score": 4 },
+      { "key": "E", "text": "Ikut kerja bakti sebentar saja lalu pergi liburan.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-18",
+    "category": "TKP",
+    "text": "Anda bekerja sebagai pemimpin tim. Salah satu anggota tim Anda melakukan kesalahan fatal yang merugikan perusahaan. Atasan memanggil Anda untuk meminta pertanggungjawaban. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Leader Sejati. Ambil tanggung jawab penuh (pasang badan), lalu perbaiki internal. Jangan menyalahkan anak buah di depan atasan (Opsi A/B), itu tanda pemimpin lemah.",
+    "options": [
+      { "key": "A", "text": "Menjelaskan bahwa itu bukan kesalahan saya, tapi anggota tim tersebut.", "score": 1 },
+      { "key": "B", "text": "Membawa anggota tim tersebut menghadap atasan agar dia yang dimarahi.", "score": 2 },
+      { "key": "C", "text": "Meminta maaf dan berjanji akan lebih mengawasi tim.", "score": 4 },
+      { "key": "D", "text": "Menyalahkan keadaan dan sistem yang kurang mendukung.", "score": 1 },
+      { "key": "E", "text": "Mengakui kesalahan tersebut sebagai tanggung jawab saya sebagai ketua tim, dan segera menyusun rencana perbaikan.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-19",
+    "category": "TKP",
+    "text": "Anda sedang mengerjakan laporan yang sangat penting, namun tiba-tiba listrik di kantor padam dan diprediksi akan menyala lama. Laptop Anda baterainya hampir habis. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Orientasi Solusi (Problem Solving). Cari tempat lain (cafe/rumah) agar kerjaan SELESAI. Opsi A (Diam menunggu) adalah ciri pegawai pasif.",
+    "options": [
+      { "key": "A", "text": "Menunggu listrik menyala sambil mengobrol dengan rekan.", "score": 1 },
+      { "key": "B", "text": "Melaporkan kepada atasan bahwa pekerjaan akan terlambat.", "score": 2 },
+      { "key": "C", "text": "Mencatat poin-poin laporan di kertas sambil menunggu.", "score": 4 },
+      { "key": "D", "text": "Segera mencari tempat lain di luar kantor yang memiliki listrik/wifi (misal: cafe) untuk menyelesaikan laporan.", "score": 5 },
+      { "key": "E", "text": "Pulang ke rumah karena di kantor tidak bisa kerja.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-20",
+    "category": "TKP",
+    "text": "Rekan kerja Anda sering datang terlambat namun pulang lebih awal. Hal ini membuat beban kerja tim menjadi tidak seimbang. Anda merasa terganggu. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Assertif Profesional. Bicara empat mata untuk cari solusi. Opsi D (Lapor bos) langkah kedua jika diskusi gagal. Opsi B (Sindiran) tidak profesional.",
+    "options": [
+      { "key": "A", "text": "Mendiamkannya selama pekerjaan saya tidak terganggu.", "score": 2 },
+      { "key": "B", "text": "Menyindirnya saat rapat agar dia malu.", "score": 1 },
+      { "key": "C", "text": "Mengajaknya bicara empat mata untuk menanyakan alasannya dan mengingatkan dampaknya bagi tim.", "score": 5 },
+      { "key": "D", "text": "Langsung melaporkannya ke HRD.", "score": 3 },
+      { "key": "E", "text": "Ikut-ikutan datang terlambat karena merasa tidak adil.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-21",
+    "category": "TKP",
+    "text": "Perusahaan menerapkan sistem baru berbasis teknologi yang cukup rumit. Banyak rekan senior yang mengeluh dan enggan mempelajarinya. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Agent of Change. Belajar sendiri (mandiri) + Mengajarkan orang lain (kontribusi). Opsi C (Belajar sendiri) bagus tapi egois (Poin 4).",
+    "options": [
+      { "key": "A", "text": "Ikut mengeluh karena sistem lama lebih mudah.", "score": 1 },
+      { "key": "B", "text": "Menunggu instruksi lebih lanjut dari atasan.", "score": 2 },
+      { "key": "C", "text": "Mempelajarinya dengan tekun agar saya bisa menguasainya.", "score": 4 },
+      { "key": "D", "text": "Meminta kembali ke sistem lama.", "score": 1 },
+      { "key": "E", "text": "Mempelajarinya dengan cepat, lalu menawarkan diri untuk membimbing rekan-rekan senior yang kesulitan.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-22",
+    "category": "TKP",
+    "text": "Anda memiliki tetangga baru yang berbeda agama dan sering mengadakan kegiatan keagamaan di rumahnya hingga parkiran tamu meluber ke jalan depan rumah Anda. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Toleransi + Komunikasi Assertif. Memaklumi kegiatan ibadahnya (Toleransi), tapi tetap komunikasikan masalah parkir dengan santun (Solusi). Opsi E (Marah) salah.",
+    "options": [
+      { "key": "A", "text": "Merasa terganggu dan memasang pagar pembatas.", "score": 1 },
+      { "key": "B", "text": "Melaporkan ke Pak RT agar kegiatan tersebut dilarang.", "score": 2 },
+      { "key": "C", "text": "Bersikap toleran dan memaklumi, namun jika parkiran sudah sangat mengganggu, saya akan menyampaikannya dengan sopan.", "score": 5 },
+      { "key": "D", "text": "Ikut membantu mengatur parkir tamu mereka.", "score": 4 },
+      { "key": "E", "text": "Menegur tamu-tamu tersebut dengan keras.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-23",
+    "category": "TKP",
+    "text": "Atasan memberikan kritik pedas terhadap hasil kerja Anda di depan rekan-rekan lain dalam sebuah rapat. Anda merasa dipermalukan. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Kedewasaan Mental (Resiliensi). Fokus pada ISI KRITIK (untuk perbaikan), abaikan CARA penyampaiannya (emosi). Jangan defensif (Opsi A) atau dendam (Opsi E).",
+    "options": [
+      { "key": "A", "text": "Membela diri dan membantah kritik tersebut saat itu juga.", "score": 2 },
+      { "key": "B", "text": "Diam saja menahan marah dan sakit hati.", "score": 1 },
+      { "key": "C", "text": "Menerima kritik tersebut dan meminta maaf.", "score": 4 },
+      { "key": "D", "text": "Tetap tenang, mencatat poin perbaikan dari kritik tersebut, dan menjadikannya bahan evaluasi diri tanpa membawanya ke hati.", "score": 5 },
+      { "key": "E", "text": "Keluar dari ruangan rapat.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-24",
+    "category": "TKP",
+    "text": "Anda menemukan dompet berisi uang dan kartu identitas di area parkir kantor. Pemilik dompet tersebut adalah orang yang pernah berselisih paham dengan Anda. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Integritas tanpa bias personal. Kembalikan utuh langsung ke orangnya (menunjukkan niat baik). Opsi C (Titip satpam) aman, tapi Opsi E bisa memperbaiki hubungan.",
+    "options": [
+      { "key": "A", "text": "Pura-pura tidak melihat.", "score": 1 },
+      { "key": "B", "text": "Mengambil uangnya sebagai ganti rugi sakit hati, lalu membuang dompetnya.", "score": 1 },
+      { "key": "C", "text": "Menyerahkannya ke satpam agar diurus.", "score": 4 },
+      { "key": "D", "text": "Mengambil isinya lalu menyerahkan dompet kosong.", "score": 1 },
+      { "key": "E", "text": "Segera menghubungi pemiliknya atau mengembalikannya secara langsung tanpa mengurangi isinya sedikitpun.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-25",
+    "category": "TKP",
+    "text": "Hari ini beban kerja Anda sedang sedikit. Anda melihat rekan divisi lain sedang kewalahan menyiapkan acara kantor. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Proaktif Lintas Divisi. Menawarkan bantuan (Inisiatif) menunjukkan Anda *team player* level organisasi, bukan cuma level divisi.",
+    "options": [
+      { "key": "A", "text": "Merasa bersyukur karena pekerjaan saya sedikit.", "score": 1 },
+      { "key": "B", "text": "Pulang lebih awal karena tugas saya sudah selesai.", "score": 2 },
+      { "key": "C", "text": "Menyemangati mereka dari jauh.", "score": 3 },
+      { "key": "D", "text": "Menawarkan bantuan tenaga untuk hal-hal yang bisa saya kerjakan.", "score": 5 },
+      { "key": "E", "text": "Menunggu diminta bantuan baru bergerak.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-26",
+    "category": "TKP",
+    "text": "Anda ditawari proyek sampingan di luar kantor dengan bayaran tinggi, namun waktunya berbenturan dengan jam kerja kantor. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi B): Loyalitas & Integritas. Menolak tegas karena benturan waktu (korupsi waktu). Opsi C (Mengerjakan diam-diam) adalah pelanggaran berat.",
+    "options": [
+      { "key": "A", "text": "Menerima proyek tersebut dan mengerjakannya di sela-sela kerja kantor.", "score": 2 },
+      { "key": "B", "text": "Menolaknya karena waktunya mengganggu kewajiban utama saya di kantor.", "score": 5 },
+      { "key": "C", "text": "Menerima dan meminta rekan untuk mem-backup kerjaan kantor.", "score": 1 },
+      { "key": "D", "text": "Meminta izin cuti di hari-hari tertentu untuk mengerjakan proyek tersebut.", "score": 4 },
+      { "key": "E", "text": "Mengerjakannya diam-diam.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-27",
+    "category": "TKP",
+    "text": "Dalam diskusi kelompok, pendapat Anda ditolak oleh mayoritas anggota karena dianggap kurang relevan. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Berjiwa Besar (Legowo). Menerima keputusan bersama dan tetap berkontribusi. Jangan *ngambek* (Opsi B) atau memaksakan kehendak (Opsi A).",
+    "options": [
+      { "key": "A", "text": "Tetap ngotot mempertahankan pendapat saya.", "score": 2 },
+      { "key": "B", "text": "Diam saja dan tidak mau lagi memberikan masukan.", "score": 1 },
+      { "key": "C", "text": "Menerima keputusan kelompok dengan lapang dada dan mendukung pendapat yang terpilih.", "score": 5 },
+      { "key": "D", "text": "Mencari teman yang sepemikiran untuk memboikot keputusan.", "score": 1 },
+      { "key": "E", "text": "Meminta voting ulang.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-28",
+    "category": "TKP",
+    "text": "Anda melihat ada kebocoran keran air di toilet kantor yang mengakibatkan air terbuang percuma. Padahal itu bukan tanggung jawab divisi Anda. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Kepedulian Lingkungan/Aset. Matikan sumbernya (tindakan darurat) + Lapor teknisi (tindakan perbaikan). Opsi B (Lapor saja) bagus, tapi air keburu terbuang.",
+    "options": [
+      { "key": "A", "text": "Membiarkannya karena ada petugas kebersihan.", "score": 1 },
+      { "key": "B", "text": "Melaporkan kepada resepsionis atau teknisi gedung.", "score": 4 },
+      { "key": "C", "text": "Mengeluh di grup WA kantor.", "score": 2 },
+      { "key": "D", "text": "Mencoba mematikan keran utama jika bisa, lalu segera melapor ke bagian teknis agar diperbaiki.", "score": 5 },
+      { "key": "E", "text": "Menutup pintu toilet agar tidak terlihat.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-29",
+    "category": "TKP",
+    "text": "Setiap tahun kantor mengadakan acara 'Gathering' untuk mempererat keakraban, namun Anda merasa acara tersebut membosankan dan membuang waktu. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Adaptasi & Kontribusi Positif. Daripada mengeluh bosan, jadilah solusi (sumbang ide/jadi panitia) agar acara jadi seru. Opsi D (Ikut terpaksa) poin 4.",
+    "options": [
+      { "key": "A", "text": "Tidak ikut dengan alasan sakit.", "score": 1 },
+      { "key": "B", "text": "Datang tapi menyendiri main HP.", "score": 2 },
+      { "key": "C", "text": "Memberikan masukan ide acara kepada panitia agar lebih menarik dan berpartisipasi aktif.", "score": 5 },
+      { "key": "D", "text": "Tetap ikut sebagai formalitas menghargai perusahaan.", "score": 4 },
+      { "key": "E", "text": "Mengajak teman lain untuk membolos.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-30",
+    "category": "TKP",
+    "text": "Seorang pelanggan memberikan uang tips kepada Anda karena merasa puas dengan pelayanan cepat Anda. Padahal peraturan kantor melarang menerima tips. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi B): Integritas Prosedural. Tolak halus + Jelaskan aturan. Ini menjaga marwah instansi. Opsi C (Terima lalu sumbang) tetap salah secara prosedur (Gratifikasi).",
+    "options": [
+      { "key": "A", "text": "Menerimanya karena rezeki tidak boleh ditolak.", "score": 1 },
+      { "key": "B", "text": "Menolak dengan halus dan menjelaskan bahwa pelayanan terbaik sudah menjadi tugas saya tanpa biaya tambahan.", "score": 5 },
+      { "key": "C", "text": "Menerimanya lalu menyumbangkannya ke kotak amal.", "score": 3 },
+      { "key": "D", "text": "Menerimanya diam-diam agar tidak ketahuan atasan.", "score": 1 },
+      { "key": "E", "text": "Meminta pelanggan memasukkannya ke kotak saran.", "score": 2 }
+    ]
+  }
+]

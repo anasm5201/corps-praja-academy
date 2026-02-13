@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="30" height="60" fill="white" stroke="black"/>
+  <rect x="80" y="50" width="30" height="60" fill="white" stroke="black"/>
+  <rect x="110" y="50" width="30" height="60" fill="white" stroke="black"/>
+  
+  <polygon points="80,50 110,50 95,20" fill="white" stroke="black"/> <polygon points="80,110 110,110 95,140" fill="white" stroke="black"/> <text x="150" y="80">Valid</text>
+</svg>

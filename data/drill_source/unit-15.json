@@ -1,0 +1,148 @@
+{
+    "unit_id": 15,
+    "title": "Unit 15: Sejarah Diplomasi & Geopolitik",
+    "description": "Drill penguasaan peta NKRI, batas ZEE, sejarah diplomasi kedaulatan, dan peran Indonesia di kancah global.",
+    "level": "Kadet Madya",
+    "questions": [
+      {
+        "id": "U15-Q1",
+        "type": "TWK",
+        "text": "Perhatikan Peta Laut Natuna Utara berikut. Garis putus-putus merah yang sering diklaim sepihak oleh negara asing (Tiongkok) dan bertentangan dengan UNCLOS 1982 disebut...",
+        "image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M100,150 L80,100 L120,80 L160,100 L150,150 Z' fill='#ccc' stroke='black'/><text x='110' y='120' font-size='8'>Kalimantan</text><circle cx='80' cy='50' r='5' fill='green'/><text x='60' y='50' font-size='8'>Natuna</text><path d='M20,20 Q60,10 100,20 T180,20' fill='none' stroke='red' stroke-width='2' stroke-dasharray='5,5'/><text x='100' y='15' fill='red' font-size='8'>Garis Klaim Asing</text></svg>",
+        "options": [
+          { "key": "A", "text": "Garis Wallace", "score": 0 },
+          { "key": "B", "text": "Garis Weber", "score": 0 },
+          { "key": "C", "text": "Nine-Dash Line (Sembilan Garis Putus)", "score": 5 },
+          { "key": "D", "text": "Zona Ekonomi Eksklusif (ZEE)", "score": 0 },
+          { "key": "E", "text": "Landas Kontinen", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Isu Kedaulatan Terkini. Nine-Dash Line adalah klaim historis Tiongkok yang menabrak ZEE Indonesia di Natuna. Indonesia berpegang teguh pada UNCLOS 1982."
+      },
+      {
+        "id": "U15-Q2",
+        "type": "TIU",
+        "text": "Skala Peta: Jarak antara Kota A dan Kota B pada peta berskala 1:500.000 adalah 8 cm. Berapakah jarak sebenarnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "4 km", "score": 0 },
+          { "key": "B", "text": "40 km", "score": 5 },
+          { "key": "C", "text": "400 km", "score": 0 },
+          { "key": "D", "text": "4.000 km", "score": 0 },
+          { "key": "E", "text": "400 m", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rumus Skala. Jarak Sebenarnya = Jarak Peta x Skala. 8 cm x 500.000 = 4.000.000 cm. Ubah ke km (buang 5 nol) -> 40 km."
+      },
+      {
+        "id": "U15-Q3",
+        "type": "TWK",
+        "text": "Pada Konferensi Meja Bundar (KMB) 1949, Indonesia harus menanggung utang Hindia Belanda. Hal ini diterima oleh delegasi Indonesia (Moh. Hatta) dengan alasan taktis utama yaitu...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Agar Belanda memberikan bantuan ekonomi.", "score": 0 },
+          { "key": "B", "text": "Indonesia memiliki banyak cadangan emas.", "score": 0 },
+          { "key": "C", "text": "Harga mutlak untuk mendapatkan pengakuan kedaulatan penuh secepatnya.", "score": 5 },
+          { "key": "D", "text": "Takut ancaman militer Amerika Serikat.", "score": 0 },
+          { "key": "E", "text": "Kesalahan perhitungan ekonomi delegasi.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Diplomasi Realistis. Prioritas Hatta adalah 'Kedaulatan' (Sovereignty First). Masalah ekonomi (utang) dianggap bisa diselesaikan nanti, yang penting Belanda angkat kaki dulu."
+      },
+      {
+        "id": "U15-Q4",
+        "type": "TIU",
+        "text": "Analogi Negara & Ibukota: FILIPINA : MANILA = ... : ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "THAILAND : PHUKET", "score": 0 },
+          { "key": "B", "text": "VIETNAM : HANOI", "score": 5 },
+          { "key": "C", "text": "MALAYSIA : JOHOR", "score": 0 },
+          { "key": "D", "text": "MYANMAR : YANGON", "score": 0 },
+          { "key": "E", "text": "LAOS : VIETNAM", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasangan Ibukota ASEAN. Thailand ibukotanya Bangkok (bukan Phuket). Malaysia = Kuala Lumpur. Myanmar = Naypyidaw (Yangon ibukota lama). Laos = Vientiane. Jawaban Benar: Vietnam = Hanoi."
+      },
+      {
+        "id": "U15-Q5",
+        "type": "TKP",
+        "text": "Anda ditugaskan sebagai Liaison Officer (LO) dalam pertemuan delegasi internasional. Salah satu delegasi asing secara tidak sengaja menanyakan isu sensitif tentang separatisme di Indonesia dengan nada meremehkan. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Marah dan meminta dia keluar ruangan.", "score": 1 },
+          { "key": "B", "text": "Diam saja pura-pura tidak dengar agar aman.", "score": 2 },
+          { "key": "C", "text": "Menjelaskan fakta kondisi sebenarnya dengan tenang, tegas, dan data yang valid bahwa wilayah tersebut sah bagian NKRI.", "score": 5 },
+          { "key": "D", "text": "Melaporkan ke atasan agar atasan yang menjawab.", "score": 3 },
+          { "key": "E", "text": "Mengalihkan pembicaraan ke topik makanan.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Diplomasi Defensif-Aktif. Jangan emosi (tidak profesional), jangan diam (lemah). Jawab dengan 'Assertive Communication' berbasis fakta/data. Tunjukkan wibawa negara."
+      },
+      {
+        "id": "U15-Q6",
+        "type": "TWK",
+        "text": "Kenali Lambang: Simbol padi yang terikat pada lambang ASEAN melambangkan...",
+        "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' fill='blue'/><circle cx='50' cy='50' r='35' fill='red'/><path d='M40,70 L40,30 M42,70 L42,30 M44,70 L44,30 M46,70 L46,30 M48,70 L48,30 M50,70 L50,30 M52,70 L52,30 M54,70 L54,30 M56,70 L56,30 M58,70 L58,30' stroke='yellow' stroke-width='1'/><text x='50' y='85' text-anchor='middle' font-size='8' fill='white'>ASEAN</text></svg>",
+        "options": [
+          { "key": "A", "text": "Kemakmuran pertanian", "score": 0 },
+          { "key": "B", "text": "Makanan pokok Asia Tenggara", "score": 0 },
+          { "key": "C", "text": "Harapan persatuan negara-negara Asia Tenggara", "score": 5 },
+          { "key": "D", "text": "Jumlah kekayaan alam", "score": 0 },
+          { "key": "E", "text": "Keberanian melawan penjajah", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Makna Simbolis. 10 batang padi = 10 negara anggota. Terikat = Persatuan & Persahabatan. Warna Kuning = Kemakmuran. Bukan sekadar pertanian."
+      },
+      {
+        "id": "U15-Q7",
+        "type": "TIU",
+        "text": "Jika Indonesia ada di GMT+7 dan London ada di GMT+0. Sebuah pesawat berangkat dari Jakarta pukul 08.00 WIB menuju London dengan lama perjalanan 14 jam. Pukul berapa pesawat tiba di London (Waktu setempat)?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "14.00", "score": 0 },
+          { "key": "B", "text": "15.00", "score": 5 },
+          { "key": "C", "text": "22.00", "score": 0 },
+          { "key": "D", "text": "08.00 besoknya", "score": 0 },
+          { "key": "E", "text": "12.00", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Zona Waktu. 1. Hitung waktu tiba menurut WIB: 08.00 + 14 jam = 22.00 WIB. 2. Konversi ke London: London lebih lambat 7 jam. 22.00 - 7 = 15.00."
+      },
+      {
+        "id": "U15-Q8",
+        "type": "TWK",
+        "text": "Politik Luar Negeri 'Bebas Aktif' dicetuskan oleh Moh. Hatta dalam pidatonya yang berjudul...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Indonesia Menggugat", "score": 0 },
+          { "key": "B", "text": "Mendayung Antara Dua Karang", "score": 5 },
+          { "key": "C", "text": "Di Bawah Bendera Revolusi", "score": 0 },
+          { "key": "D", "text": "Nawaksara", "score": 0 },
+          { "key": "E", "text": "Lahirlah Pancasila", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Dokumen Sejarah. Hatta (1948) = 'Mendayung Antara Dua Karang' (Blok Barat & Timur). Soekarno = 'Indonesia Menggugat' (Pledoi). Soekarno = 'Nawaksara' (LPJ 1966)."
+      },
+      {
+        "id": "U15-Q9",
+        "type": "TKP",
+        "text": "Anda bertugas di perbatasan negara. Anda menemukan sekelompok pengungsi wanita dan anak-anak yang melintas batas secara ilegal karena konflik di negaranya. SOP mengharuskan penolakan, tapi kondisi mereka kritis. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Langsung mengusir mereka kembali ke wilayahnya sesuai SOP.", "score": 1 },
+          { "key": "B", "text": "Membiarkan mereka masuk dan menyuruh lari.", "score": 1 },
+          { "key": "C", "text": "Mengamankan mereka, memberikan pertolongan darurat kemanusiaan, lalu melapor ke komandan untuk koordinasi dengan Imigrasi/PBB.", "score": 5 },
+          { "key": "D", "text": "Membawa mereka ke rumah pribadi Anda.", "score": 2 },
+          { "key": "E", "text": "Pura-pura tidak melihat.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Dilema Hukum vs Kemanusiaan. Dalam hubungan internasional, prinsip 'Non-Refoulement' (tidak memulangkan paksa ke bahaya) dihormati. Opsi C menyeimbangkan Keamanan (Diamankan/Lapor) dan Kemanusiaan (Pertolongan Darurat)."
+      },
+      {
+        "id": "U15-Q10",
+        "type": "TWK",
+        "text": "Deklarasi Djuanda 13 Desember 1957 sangat vital bagi geopolitik Indonesia karena...",
+        "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='130' height='80' fill='lightblue'/><circle cx='40' cy='40' r='10' fill='green'/> <circle cx='80' cy='60' r='10' fill='green'/> <circle cx='110' cy='30' r='10' fill='green'/><path d='M40,40 L80,60 L110,30' stroke='black' stroke-dasharray='2,2'/></svg>",
+        "options": [
+          { "key": "A", "text": "Menetapkan batas ZEE 200 mil laut.", "score": 0 },
+          { "key": "B", "text": "Mengubah laut antar pulau dari 'pemisah' menjadi 'penghubung' (Laut Pedalaman).", "score": 5 },
+          { "key": "C", "text": "Mengusir kapal Belanda dari Irian Barat.", "score": 0 },
+          { "key": "D", "text": "Mendirikan ASEAN.", "score": 0 },
+          { "key": "E", "text": "Menetapkan Garis Wallace.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Wawasan Nusantara. Sebelum Djuanda, laut antar pulau adalah laut bebas (Internasional). Djuanda menarik garis lurus menghubungkan pulau terluar (Point to Point Theory), menjadikan laut di antaranya sebagai wilayah kedaulatan mutlak NKRI."
+      }
+    ]
+  }

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M30 40 L50 10 L70 40 H60 V50 H40 V40 Z" fill="none" stroke="black"/>
+  <line x1="20" y1="55" x2="80" y2="55" stroke="black" stroke-dasharray="4"/> <text x="90" y="55">-></text>
+
+  <g transform="translate(110, 60)">
+    <path d="M0 10 V20 H-10 L10 50 L30 20 H20 V10 Z" fill="black"/> </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="40" height="40" fill="white" stroke="black"/> <rect x="50" y="10" width="40" height="40" fill="white" stroke="black"/> <rect x="90" y="50" width="40" height="40" fill="white" stroke="black"/> <rect x="10" y="50" width="40" height="40" fill="white" stroke="black"/> <rect x="50" y="90" width="40" height="40" fill="white" stroke="black"/> <rect x="50" y="130" width="40" height="40" fill="white" stroke="black"/> <text x="65" y="75">A</text>
+  <text x="65" y="35">B</text>
+  <text x="105" y="75">C</text>
+  </svg>

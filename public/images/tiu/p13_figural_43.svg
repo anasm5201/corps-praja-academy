@@ -1,0 +1,15 @@
+<svg viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="40" height="40" fill="none" stroke="black"/>
+  <line x1="30" y1="15" x2="30" y2="45" stroke="black" stroke-width="4"/>
+  <line x1="15" y1="30" x2="45" y2="30" stroke="black" stroke-width="4"/>
+  
+  <text x="60" y="35">+</text>
+
+  <rect x="80" y="10" width="40" height="40" fill="none" stroke="black"/>
+  <line x1="85" y1="15" x2="115" y2="45" stroke="black" stroke-width="4"/> <line x1="115" y1="15" x2="85" y2="45" stroke="black" stroke-width="4"/> <line x1="100" y1="15" x2="100" y2="45" stroke="black" stroke-width="4"/> <text x="130" y="35">=</text>
+  <text x="145" y="35">?</text>
+
+  <g transform="translate(170, 10)">
+     <rect x="0" y="0" width="40" height="40" fill="none" stroke="black"/>
+     <line x1="5" y1="20" x2="35" y2="20" stroke="black" stroke-width="4"/> <line x1="5" y1="5" x2="35" y2="35" stroke="black" stroke-width="4"/> <line x1="35" y1="5" x2="5" y2="35" stroke="black" stroke-width="4"/> </g>
+</svg>

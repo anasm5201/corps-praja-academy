@@ -1,0 +1,5 @@
+<svg viewBox="0 0 250 50" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="35" font-family="Arial" font-size="30">H  A  M  N  T</text>
+  <line x1="0" y1="45" x2="250" y2="45" stroke="black"/>
+  <text x="10" y="55" font-size="10">A  B  C  D  E</text>
+</svg>

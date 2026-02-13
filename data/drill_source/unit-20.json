@@ -1,0 +1,149 @@
+{
+    "unit_id": 20,
+    "title": "Unit 20: The Pattern Breaker (Analogi Abstrak)",
+    "description": "Latihan logika lateral: Analogi gambar abstrak, operasi logika visual (XOR/OR), dan pola deret non-linear.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U20-Q1",
+        "type": "TIU",
+        "text": "Analogi Gambar: KOTAK di dalam LINGKARAN (Hitam) : LINGKARAN di dalam KOTAK (Putih) = SEGITIGA di dalam SEGIENAM (Hitam) : ...",
+        "image": "<svg width='200' height='80' viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='40' r='18' fill='black'/><rect x='10' y='30' width='20' height='20' fill='white'/><text x='45' y='45'>:</text><rect x='60' y='22' width='36' height='36' fill='none' stroke='black'/><circle cx='78' cy='40' r='10' fill='white' stroke='black'/><text x='100' y='45'>=</text><polygon points='120,40 135,15 150,40 135,65' fill='black'/><polygon points='135,30 125,50 145,50' fill='white'/><text x='160' y='45'>:</text><text x='175' y='45' font-weight='bold'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Segienam di dalam Segitiga (Putih)", "score": 5 },
+          { "key": "B", "text": "Segitiga di dalam Segienam (Putih)", "score": 0 },
+          { "key": "C", "text": "Segienam di dalam Segitiga (Hitam)", "score": 0 },
+          { "key": "D", "text": "Segitiga Hitam polos", "score": 0 },
+          { "key": "E", "text": "Segienam Putih polos", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Tiga Operasi Sekaligus. 1) Posisi Luar/Dalam ditukar. 2) Warna Dasar di-Invers (Hitam jadi Putih/Outline). 3) Bentuk tetap berpasangan. Jika Awal: Segitiga(Dalam) & Segienam(Luar/Hitam). Maka Hasil: Segienam(Dalam) & Segitiga(Luar/Putih). *Koreksi Visual*: Gambar soal menunjukkan Segitiga di dalam Belah Ketupat/Layang2. Maka jawabannya harus konsisten dengan bentuk luarnya."
+      },
+      {
+        "id": "U20-Q2",
+        "type": "TIU",
+        "text": "Logika Superposisi (Overlay): Jika Gambar 1 ditumpuk dengan Gambar 2, dengan aturan: Hitam+Hitam=Putih, Putih+Hitam=Hitam. Maka hasilnya adalah...",
+        "image": "<svg width='200' height='60' viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='20' height='40' fill='black'/><rect x='30' y='10' width='20' height='40' fill='white' stroke='black'/><text x='55' y='35'>+</text><rect x='70' y='10' width='20' height='40' fill='black'/><rect x='90' y='10' width='20' height='40' fill='black'/><text x='115' y='35'>=</text><text x='130' y='35' font-weight='bold'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Kiri Hitam, Kanan Hitam", "score": 0 },
+          { "key": "B", "text": "Kiri Putih, Kanan Hitam", "score": 5 },
+          { "key": "C", "text": "Kiri Putih, Kanan Putih", "score": 0 },
+          { "key": "D", "text": "Kiri Hitam, Kanan Putih", "score": 0 },
+          { "key": "E", "text": "Semua abu-abu", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Logika XOR (Exclusive OR). Sama warna = Putih/Hilang. Beda warna = Hitam/Muncul. Kiri: Hitam+Hitam = PUTIH. Kanan: Putih+Hitam = HITAM. Hasil: Putih-Hitam."
+      },
+      {
+        "id": "U20-Q3",
+        "type": "TIU",
+        "text": "Deret Gambar: Cari pola perubahannya.",
+        "image": "<svg width='250' height='60' viewBox='0 0 250 60' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='30' r='15' fill='none' stroke='black'/><line x1='20' y1='30' x2='20' y2='15' stroke='black'/><circle cx='60' cy='30' r='15' fill='none' stroke='black'/><line x1='60' y1='30' x2='75' y2='30' stroke='black'/><circle cx='100' cy='30' r='15' fill='none' stroke='black'/><line x1='100' y1='30' x2='100' y2='45' stroke='black'/><text x='140' y='35' font-weight='bold'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Garis ke Kiri", "score": 5 },
+          { "key": "B", "text": "Garis ke Atas", "score": 0 },
+          { "key": "C", "text": "Garis Miring Kanan Atas", "score": 0 },
+          { "key": "D", "text": "Garis Hilang", "score": 0 },
+          { "key": "E", "text": "Lingkaran Hitam", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rotasi Jarum Jam. Gambar 1 (Jam 12). Gambar 2 (Jam 3). Gambar 3 (Jam 6). Gambar 4 pasti Jam 9 (Garis ke Kiri)."
+      },
+      {
+        "id": "U20-Q4",
+        "type": "TIU",
+        "text": "Klasifikasi: Manakah gambar yang TIDAK termasuk dalam kelompoknya (Odd One Out)?",
+        "image": "<svg width='250' height='60' viewBox='0 0 250 60' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='10' x2='30' y2='50' stroke='black'/><line x1='30' y1='10' x2='10' y2='50' stroke='black'/><text x='20' y='58' font-size='8'>A</text><path d='M60 10 L60 50 M50 20 L70 40 M70 20 L50 40' stroke='black'/><text x='60' y='58' font-size='8'>B</text><line x1='100' y1='10' x2='100' y2='50' stroke='black'/><line x1='90' y1='30' x2='110' y2='30' stroke='black'/><text x='100' y='58' font-size='8'>C</text><polyline points='140,10 140,50 160,50' fill='none' stroke='black'/><text x='150' y='58' font-size='8'>D</text><line x1='190' y1='10' x2='190' y2='50' stroke='black'/><line x1='200' y1='10' x2='200' y2='50' stroke='black'/><text x='195' y='58' font-size='8'>E</text></svg>",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 0 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 5 }
+        ],
+        "explanation": "PLATINUM KEY: Sifat Interseksi. Gambar A, B, C, D semuanya terbentuk dari garis yang BERPOTONGAN atau BERSENTUHAN. Gambar E adalah garis SEJAJAR (Tidak pernah bertemu). Ini anomali utamanya."
+      },
+      {
+        "id": "U20-Q5",
+        "type": "TKP",
+        "text": "Anda ditunjuk memimpin divisi inovasi. Anda menemukan 'Pola Kerja Lama' yang sangat tidak efisien tapi didukung oleh senior karena 'sudah tradisi'. Sikap Anda sebagai The Pattern Breaker?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mengikuti tradisi demi menghormati senior.", "score": 1 },
+          { "key": "B", "text": "Mengubah total sistem secara mendadak tanpa pemberitahuan.", "score": 2 },
+          { "key": "C", "text": "Menjalankan sistem ganda (Lama & Baru) sebagai perbandingan (A/B Testing), lalu mempresentasikan data efisiensi sistem baru untuk meyakinkan senior secara objektif.", "score": 5 },
+          { "key": "D", "text": "Mengkritik senior secara terbuka saat rapat.", "score": 1 },
+          { "key": "E", "text": "Diam-diam menerapkan cara baru sendiri.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Change Management. Inovasi (Breaker) sering bentrok dengan Tradisi. Jangan frontal (D), jangan pasif (A). Gunakan DATA PEMBANDING (C) untuk membuktikan bahwa cara baru lebih baik tanpa menyakiti ego senior."
+      },
+      {
+        "id": "U20-Q6",
+        "type": "TIU",
+        "text": "Deret Angka Fibonacci Modifikasi: 2, 2, 4, 6, 10, 16, X. Berapakah X?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "20", "score": 0 },
+          { "key": "B", "text": "24", "score": 0 },
+          { "key": "C", "text": "26", "score": 5 },
+          { "key": "D", "text": "32", "score": 0 },
+          { "key": "E", "text": "36", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Jumlahkan 2 angka sebelumnya. 2+2=4. 2+4=6. 4+6=10. 6+10=16. Maka X = 10+16 = 26."
+      },
+      {
+        "id": "U20-Q7",
+        "type": "TWK",
+        "text": "Analogi Sejarah: PERANG DIPONEGORO : SIASAT BENTENG STELSEL = PERANG ACEH : ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "DEVIDE ET IMPERA", "score": 0 },
+          { "key": "B", "text": "CULTUURSTELSEL", "score": 0 },
+          { "key": "C", "text": "KONSENTRASI STELSEL / SNOUCK HURGRONJE", "score": 5 },
+          { "key": "D", "text": "HAK TAWAN KARANG", "score": 0 },
+          { "key": "E", "text": "POLITIK ETIS", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasangan Perang & Strategi Belanda. Diponegoro diredam dengan Benteng Stelsel. Aceh diredam dengan Konsentrasi Stelsel dan penyusupan budaya (Snouck Hurgronje)."
+      },
+      {
+        "id": "U20-Q8",
+        "type": "TIU",
+        "text": "Figural Matriks: Temukan bagian yang hilang untuk melengkapi pola X.",
+        "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='10' x2='140' y2='140' stroke='black' stroke-width='2'/><line x1='140' y1='10' x2='10' y2='140' stroke='black' stroke-width='2'/><rect x='65' y='65' width='20' height='20' fill='white' stroke='black'/><text x='75' y='80' text-anchor='middle' font-weight='bold'>?</text></svg>",
+        "image_desc": "Sebuah tanda silang besar (X). Bagian tengah tertutup kotak putih dengan tanda tanya.",
+        "options": [
+          { "key": "A", "text": "Perpotongan garis lurus (+)", "score": 0 },
+          { "key": "B", "text": "Perpotongan garis silang (x)", "score": 5 },
+          { "key": "C", "text": "Lingkaran", "score": 0 },
+          { "key": "D", "text": "Kotak Hitam", "score": 0 },
+          { "key": "E", "text": "Garis putus", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kontinuitas Garis (Gestalt). Otak kita tahu bahwa garis diagonal itu bersambung. Maka di balik kotak putih itu pasti ada titik potong diagonal (X)."
+      },
+      {
+        "id": "U20-Q9",
+        "type": "TIU",
+        "text": "Jika A = B, dan B tidak sama dengan C. Maka hubungan A dan C adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "A = C", "score": 0 },
+          { "key": "B", "text": "A > C", "score": 0 },
+          { "key": "C", "text": "A tidak sama dengan C", "score": 5 },
+          { "key": "D", "text": "A < C", "score": 0 },
+          { "key": "E", "text": "Tidak ada hubungan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Logika Transitif Sederhana. Jika A kembar identik dengan B, dan B berbeda dari C, otomatis A juga berbeda dari C."
+      },
+      {
+        "id": "U20-Q10",
+        "type": "TWK",
+        "text": "Dalam geopolitik modern, ancaman tidak lagi hanya berupa serangan militer (Konvensional), tetapi juga serangan siber, budaya, dan ekonomi. Jenis ancaman ini disebut...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Perang Dingin", "score": 0 },
+          { "key": "B", "text": "Proxy War", "score": 0 },
+          { "key": "C", "text": "Hybrid War / Asimetris", "score": 5 },
+          { "key": "D", "text": "Perang Saudara", "score": 0 },
+          { "key": "E", "text": "Agresi Militer", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Definisi Modern Warfare. Gabungan antara militer dan non-militer (siber, hoax, ekonomi) disebut PERANG HIBRIDA (Hybrid War) atau Asimetris."
+      }
+    ]
+  }

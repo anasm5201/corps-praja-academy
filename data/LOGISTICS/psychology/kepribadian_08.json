@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 08 - Keteraturan Diri",
+  "type": "PSIKOLOGI_KLINIS_POLRI",
+  "description": "Simulasi tes kepribadian fokus pada perencanaan, kerapian, dan manajemen diri (Conscientiousness).",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_RENCANA_HARIAN",
+  "question": "Anda memulai hari kerja yang padat dengan banyak tugas paralel. Apa langkah awal Anda?",
+  "options": [
+  { "label": "A", "text": "Saya langsung mengerjakan apa yang muncul duluan dan menyesuaikan di tengah jalan.", "points": 1 },
+  { "label": "B", "text": "Saya menunggu arahan detail dari atasan agar tidak salah langkah sejak awal.", "points": 2 },
+  { "label": "C", "text": "Saya memilih satu tugas yang terasa paling ringan untuk membangun ritme, lalu lanjut berikutnya.", "points": 3 },
+  { "label": "D", "text": "Saya membuat daftar prioritas singkat agar pekerjaan terurut dan tidak saling bertabrakan.", "points": 4 },
+  { "label": "E", "text": "Saya memetakan prioritas tertulis, cek agenda/perintah dinas, lalu tetapkan urutan eksekusi yang realistis.", "points": 5 }
+  ],
+  "explanation": "Indikator conscientiousness terlihat dari perencanaan dan kontrol diri saat beban tinggi. Opsi 4 sudah menunjukkan self-management, tetapi opsi 5 lebih unggul karena menambahkan alignment dengan arahan dinas (chain of command) dan manajemen risiko keterlambatan/terlewat tugas. Ini mencegah kerja reaktif dan meningkatkan akuntabilitas."
+  },
+  {
+  "id": 2,
+  "category": "KEP_KERAPIAN_MEJA",
+  "question": "Di unit Anda ada budaya inspeksi kerapian dan keamanan informasi. Kondisi meja/lemari kerja Anda biasanya seperti apa?",
+  "options": [
+  { "label": "A", "text": "Saya membiarkan meja apa adanya selama saya masih bisa menemukan barang yang dibutuhkan.", "points": 1 },
+  { "label": "B", "text": "Saya merapikan cepat saat ada tanda-tanda inspeksi, selebihnya berjalan seadanya.", "points": 2 },
+  { "label": "C", "text": "Saya menata berdasarkan kebiasaan kerja pribadi, tapi tidak selalu konsisten tiap hari.", "points": 3 },
+  { "label": "D", "text": "Saya menjaga kerapian dasar dan merapikan di akhir hari agar esok lebih mudah mulai kerja.", "points": 4 },
+  { "label": "E", "text": "Saya menjaga meja rapi, aman, dan terklasifikasi; dokumen sensitif disimpan sesuai prosedur.", "points": 5 }
+  ],
+  "explanation": "Kerapian di konteks kedinasan bukan estetika, tetapi kontrol lingkungan kerja dan keamanan informasi. Opsi 4 baik untuk efisiensi, namun opsi 5 lebih tinggi karena memasukkan disiplin 5R/Clean Desk dan aspek keamanan (information security), sehingga menurunkan risiko kebocoran dan salah arsip."
+  },
+  {
+  "id": 3,
+  "category": "KEP_PERSIAPAN_MISI",
+  "question": "Besok ada tugas pengamanan massa. Kapan dan bagaimana Anda menyiapkan perlengkapan dinas (seragam, alat, kelengkapan)?",
+  "options": [
+  { "label": "A", "text": "Saya menyiapkan seperlunya besok pagi, karena biasanya masih sempat sebelum berangkat.", "points": 1 },
+  { "label": "B", "text": "Saya menyiapkan malam hari, tetapi tidak selalu mengecek fungsi alat satu per satu.", "points": 2 },
+  { "label": "C", "text": "Saya menyiapkan H-1 dan mengecek kelengkapan utama, sisanya saya sesuaikan di lokasi.", "points": 3 },
+  { "label": "D", "text": "Saya menyiapkan H-1 lengkap dengan checklist agar tidak ada yang tertinggal saat apel.", "points": 4 },
+  { "label": "E", "text": "Saya menyiapkan H-1 dengan checklist, uji fungsi alat, dan pastikan cadangan sesuai SOP unit.", "points": 5 }
+  ],
+  "explanation": "Kesiapan operasional membutuhkan anticipatory planning dan kontrol risiko. Opsi 4 sudah sistematis, tetapi opsi 5 lebih unggul karena menambahkan uji fungsi dan contingency plan sesuai SOP, sehingga menurunkan risiko failure di lapangan dan menjaga keselamatan tim."
+  },
+  {
+  "id": 4,
+  "category": "KEP_MENYIMPAN_FILE",
+  "question": "Dokumen kerja sering dibutuhkan mendadak dan harus mudah ditelusuri. Bagaimana Anda mengelola file di komputer?",
+  "options": [
+  { "label": "A", "text": "Saya simpan cepat di lokasi mana saja yang penting tidak hilang, nanti dicari belakangan.", "points": 1 },
+  { "label": "B", "text": "Saya menamai file seadanya selama saya masih ingat versi terbarunya.", "points": 2 },
+  { "label": "C", "text": "Saya punya folder umum, tetapi kadang versi dan penamaan masih bercampur.", "points": 3 },
+  { "label": "D", "text": "Saya mengelompokkan per kategori/tahun dan memakai penamaan cukup jelas agar mudah dicari.", "points": 4 },
+  { "label": "E", "text": "Saya pakai struktur folder, penamaan baku, versi revisi, serta kontrol akses sesuai kebutuhan.", "points": 5 }
+  ],
+  "explanation": "Kemampuan organizing dan retrievability menentukan kualitas administrasi. Opsi 4 sudah memadai untuk temu kembali, namun opsi 5 lebih kuat karena menambahkan standar versi dan kontrol akses (integritas data), mencegah salah pakai dokumen, duplikasi, dan kebocoran informasi."
+  },
+  {
+  "id": 5,
+  "category": "KEP_MANAJEMEN_GAJI",
+  "question": "Gaji bulanan masuk. Dalam situasi kebutuhan rutin dan target masa depan, bagaimana Anda menetapkan prioritas alokasi?",
+  "options": [
+  { "label": "A", "text": "Saya pakai dulu untuk keinginan yang tertunda, sisanya saya lihat nanti cukup atau tidak.", "points": 1 },
+  { "label": "B", "text": "Saya bagi rata saja agar terasa adil, tanpa detail pos yang terlalu ketat.", "points": 2 },
+  { "label": "C", "text": "Saya utamakan kebutuhan pokok, lalu menabung jika masih ada sisa.", "points": 3 },
+  { "label": "D", "text": "Saya bayar kewajiban, sisihkan tabungan rutin, lalu hiburan dengan batas wajar.", "points": 4 },
+  { "label": "E", "text": "Saya susun anggaran: kewajiban, dana darurat/tabungan, lalu belanja non-esensial sesuai limit.", "points": 5 }
+  ],
+  "explanation": "Disiplin finansial berkaitan dengan delayed gratification dan integritas (mengurangi kerentanan pada tekanan/temptation). Opsi 4 sudah terarah, tetapi opsi 5 lebih unggul karena memasukkan dana darurat dan batas yang terukur, sehingga kontrol impuls lebih kuat dan risiko perilaku kompensasi menurun."
+  },
+  {
+  "id": 6,
+  "category": "KEP_MENCATAT_INSTRUKSI",
+  "question": "Komandan memberi instruksi lisan panjang dan detail saat apel. Apa respons Anda agar tidak terjadi salah tafsir?",
+  "options": [
+  { "label": "A", "text": "Saya mengandalkan ingatan karena mencatat bisa membuat saya tertinggal mendengar.", "points": 1 },
+  { "label": "B", "text": "Saya mencatat sekadarnya dan berharap detailnya bisa saya tanyakan nanti.", "points": 2 },
+  { "label": "C", "text": "Saya fokus mendengar penuh, lalu setelah apel menanyakan ulang bagian yang saya ragu.", "points": 3 },
+  { "label": "D", "text": "Saya mencatat poin utama agar urutan tugas jelas dan tidak ada bagian terlewat.", "points": 4 },
+  { "label": "E", "text": "Saya mencatat poin kunci, lalu melakukan read-back singkat pada bagian kritis untuk konfirmasi.", "points": 5 }
+  ],
+  "explanation": "Akurasi perintah adalah bagian dari discipline dan komunikasi asertif. Opsi 4 sudah baik, namun opsi 5 lebih tinggi karena menambahkan teknik read-back/konfirmasi (closed-loop communication) yang mencegah distorsi instruksi, terutama pada detail operasional yang berisiko tinggi."
+  },
+  {
+  "id": 7,
+  "category": "KEP_PROKRASTINASI",
+  "question": "Anda mendapat tugas laporan dengan tenggat 1 minggu, tetapi data pendukung harus dikumpulkan dari beberapa pihak. Strategi Anda?",
+  "options": [
+  { "label": "A", "text": "Saya menunggu mendekati tenggat agar fokus saya terkumpul saat terdesak.", "points": 1 },
+  { "label": "B", "text": "Saya mulai saat mood bagus, karena kalau dipaksa kualitas biasanya turun.", "points": 2 },
+  { "label": "C", "text": "Saya mulai beberapa hari sebelum tenggat, lalu menyelesaikan sekaligus dalam satu sesi.", "points": 3 },
+  { "label": "D", "text": "Saya mencicil dari awal agar ada waktu revisi dan mengurangi stres menjelang tenggat.", "points": 4 },
+  { "label": "E", "text": "Saya pecah jadi milestone, minta data lebih awal, lalu sisakan waktu verifikasi dan revisi.", "points": 5 }
+  ],
+  "explanation": "Manajemen waktu yang matang adalah kemampuan mengelola beban dan risiko. Opsi 4 menunjukkan anti-prokrastinasi, tetapi opsi 5 lebih unggul karena menambahkan perencanaan berbasis milestone dan dependency management (mengantisipasi hambatan data), sehingga kualitas dan ketepatan waktu lebih terjamin."
+  },
+  {
+  "id": 8,
+  "category": "KEP_BARANG_HILANG",
+  "question": "Anda menyadari Anda cukup sering salah menaruh barang kecil. Apa langkah perbaikan yang paling Anda pilih?",
+  "options": [
+  { "label": "A", "text": "Saya menganggapnya wajar dan mengganti barang saat hilang agar tidak repot.", "points": 1 },
+  { "label": "B", "text": "Saya menandai barang dengan nama besar supaya mudah ditemukan jika tertukar.", "points": 2 },
+  { "label": "C", "text": "Saya menaruh barang di tempat yang kira-kira mudah, meski tidak selalu tempat yang sama.", "points": 3 },
+  { "label": "D", "text": "Saya membuat tempat khusus untuk barang penting, meski kadang masih lupa mengembalikannya.", "points": 4 },
+  { "label": "E", "text": "Saya menetapkan tempat khusus tetap dan membangun kebiasaan cek-kembali sebelum pindah lokasi.", "points": 5 }
+  ],
+  "explanation": "Masalah kehilangan sering terkait atensi dan habit formation. Opsi 4 sudah membangun sistem, namun opsi 5 lebih baik karena menambahkan kontrol perilaku (habit loop) dan self-check rutin, sehingga konsistensi meningkat dan risiko kelalaian berulang menurun."
+  },
+  {
+  "id": 9,
+  "category": "KEP_IMPROVISASI_SOP",
+  "question": "Anda melihat SOP tertentu terasa lambat, dan Anda punya ide mempercepat proses tetapi berpotensi mengurangi aspek keselamatan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya mengutamakan percepatan agar target tercapai, sambil berharap risikonya bisa dikendalikan.", "points": 1 },
+  { "label": "B", "text": "Saya menjalankan cara saya sendiri secara situasional tanpa banyak melibatkan pihak lain.", "points": 2 },
+  { "label": "C", "text": "Saya konsultasikan ide cepat itu ke senior untuk menilai batas aman sebelum diterapkan.", "points": 3 },
+  { "label": "D", "text": "Saya tetap menjalankan SOP, lalu menyampaikan usulan perbaikan setelah kegiatan selesai.", "points": 4 },
+  { "label": "E", "text": "Saya patuhi SOP, lakukan risk assessment, lalu ajukan perbaikan via chain of command secara formal.", "points": 5 }
+  ],
+  "explanation": "Kepatuhan SOP adalah integritas dan kontrol diri dalam tekanan kinerja. Opsi 4 sudah patuh, tetapi opsi 5 lebih unggul karena menambahkan risk assessment dan jalur formal (chain of command), sehingga inovasi tetap aman, terdokumentasi, dan tidak mengorbankan keselamatan maupun akuntabilitas."
+  },
+  {
+  "id": 10,
+  "category": "KEP_EVALUASI_HARIAN",
+  "question": "Menjelang tidur setelah hari yang melelahkan, apa pola pikir yang paling menggambarkan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya menutup hari tanpa memikirkan apa pun, yang penting bisa segera tidur.", "points": 1 },
+  { "label": "B", "text": "Saya memikirkan banyak hal sekaligus sampai sulit tidur, lalu membiarkannya begitu saja.", "points": 2 },
+  { "label": "C", "text": "Saya merencanakan besok secara garis besar, tanpa terlalu mengevaluasi hari ini.", "points": 3 },
+  { "label": "D", "text": "Saya mengevaluasi singkat apa yang kurang hari ini agar besok bisa lebih rapi.", "points": 4 },
+  { "label": "E", "text": "Saya refleksi singkat, simpulkan pelajaran, lalu siapkan prioritas besok tanpa berlarut-larut.", "points": 5 }
+  ],
+  "explanation": "Refleksi efektif adalah self-regulation, bukan rumination. Opsi 4 sudah evaluatif, tetapi opsi 5 lebih baik karena menyeimbangkan evaluasi dengan penutupan emosi (emotional closure) dan rencana konkret, sehingga mencegah overthinking dan menjaga kesiapan psikologis untuk hari berikutnya."
+  },
+  {
+  "id": 11,
+  "category": "KEP_KESALAHAN_ADMINISTRASI",
+  "question": "Anda menemukan salah ketik satu huruf pada nama tersangka di BAP yang sudah dicetak tebal. Apa tindakan Anda agar integritas dokumen tetap terjaga?",
+  "options": [
+  { "label": "A", "text": "Saya biarkan karena hanya satu huruf dan konteksnya masih bisa dipahami.", "points": 1 },
+  { "label": "B", "text": "Saya beri koreksi manual agar terlihat rapi dan tidak perlu cetak ulang.", "points": 2 },
+  { "label": "C", "text": "Saya konsultasikan dulu ke rekan untuk memastikan apakah koreksi kecil ini perlu tindakan lanjut.", "points": 3 },
+  { "label": "D", "text": "Saya koreksi di file lalu cetak ulang bagian terkait agar nama tersangka konsisten di dokumen.", "points": 4 },
+  { "label": "E", "text": "Saya hentikan proses, koreksi file, reprint sesuai kebutuhan, dan pastikan prosedur koreksi terdokumentasi.", "points": 5 }
+  ],
+  "explanation": "Dokumen hukum menuntut presisi dan jejak audit yang jelas. Opsi 4 fokus pada perbaikan hasil, tetapi opsi 5 lebih unggul karena menambahkan dokumentasi prosedural (audit trail) dan memastikan konsistensi serta akuntabilitas, sehingga mengurangi risiko sengketa administrasi/keabsahan berkas."
+  },
+  {
+  "id": 12,
+  "category": "KEP_PEMERIKSAAN_SENJATA",
+  "question": "Saat perawatan senjata dinas, Anda melihat retakan sangat halus pada bagian laras. Anda belum yakin dampaknya. Apa langkah Anda?",
+  "options": [
+  { "label": "A", "text": "Saya anggap normal karena senjata masih bisa digunakan dan retakannya kecil.", "points": 1 },
+  { "label": "B", "text": "Saya tetap gunakan, tetapi saya lebih hati-hati dan mengurangi pemakaian sebisa mungkin.", "points": 2 },
+  { "label": "C", "text": "Saya foto sebagai catatan pribadi dan memantau apakah retakannya bertambah.", "points": 3 },
+  { "label": "D", "text": "Saya laporkan ke penanggung jawab saat ada kesempatan agar bisa dicek lebih lanjut.", "points": 4 },
+  { "label": "E", "text": "Saya amankan senjata, laporkan segera ke gudang/logistik, dan minta pemeriksaan sesuai SOP keselamatan.", "points": 5 }
+  ],
+  "explanation": "Keselamatan adalah prioritas, dan retakan mikro bisa menjadi titik kegagalan fatal. Opsi 4 sudah berniat melapor, namun opsi 5 lebih baik karena melakukan containment (menghentikan penggunaan) dan eskalasi cepat sesuai SOP, mencegah incident dan melindungi anggota lain."
+  },
+  {
+  "id": 13,
+  "category": "KEP_KEJELIAN_PATROLI",
+  "question": "Saat patroli, Anda melihat TNKB dimodifikasi sehingga angka terlihat seperti tulisan. Bagaimana Anda menanganinya secara profesional?",
+  "options": [
+  { "label": "A", "text": "Saya abaikan dulu selama kendaraan tidak menimbulkan gangguan langsung di lokasi.", "points": 1 },
+  { "label": "B", "text": "Saya catat dalam ingatan dan akan menegur jika kebetulan bertemu pengemudi.", "points": 2 },
+  { "label": "C", "text": "Saya dokumentasikan secara singkat lalu melaporkan ke rekan yang lebih berwenang.", "points": 3 },
+  { "label": "D", "text": "Saya lakukan pemeriksaan dan memberi edukasi aturan agar pemilik segera memperbaiki.", "points": 4 },
+  { "label": "E", "text": "Saya periksa sesuai prosedur, verifikasi identitas/kendaraan, dan lakukan penindakan-edukasi proporsional.", "points": 5 }
+  ],
+  "explanation": "Pelanggaran kecil dapat menjadi indikator risiko lebih besar, sehingga perlu kewaspadaan yang terukur. Opsi 4 sudah proaktif, tetapi opsi 5 lebih unggul karena memasukkan verifikasi dan prosedur pemeriksaan yang aman (situational awareness) serta tindakan proporsional—menggabungkan penegakan aturan dan pelayanan prima."
+  },
+  {
+  "id": 14,
+  "category": "KEP_LABELING_BARBUK",
+  "question": "Anda menyita barang bukti dari beberapa tersangka. Label rekan Anda sulit dibaca dan berisiko tertukar. Apa tindakan Anda untuk menjaga chain of custody?",
+  "options": [
+  { "label": "A", "text": "Saya biarkan karena rekan yang menulis label yang bertanggung jawab atas tulisannya.", "points": 1 },
+  { "label": "B", "text": "Saya tambahkan tanda pembeda sederhana agar saya bisa membedakannya nanti.", "points": 2 },
+  { "label": "C", "text": "Saya minta rekan menjelaskan labelnya, lalu saya ingat pembagiannya saat pengarsipan.", "points": 3 },
+  { "label": "D", "text": "Saya tulis ulang label dengan jelas agar mudah dibaca dan mengurangi risiko tertukar.", "points": 4 },
+  { "label": "E", "text": "Saya tulis ulang label, lakukan cross-check item per tersangka, dan pastikan paraf sesuai prosedur.", "points": 5 }
+  ],
+  "explanation": "Chain of custody menuntut kejelasan, konsistensi, dan verifikasi. Opsi 4 memperbaiki keterbacaan, namun opsi 5 lebih baik karena menambahkan cross-check dan validasi administrasi (paraf/prosedur), sehingga meminimalkan peluang mismatch yang dapat merusak pembuktian."
+  },
+  {
+  "id": 15,
+  "category": "KEP_DATA_KOORDINAT",
+  "question": "Anda menerima koordinat lewat radio, tetapi digit terakhir terputus. Anda merasa mendengar angka tertentu, namun tidak yakin. Apa respons Anda?",
+  "options": [
+  { "label": "A", "text": "Saya berangkat berdasarkan perkiraan agar tidak terlambat, sambil menyesuaikan di lapangan.", "points": 1 },
+  { "label": "B", "text": "Saya tanya rekan yang berdiri dekat saya untuk memastikan apa yang dia dengar.", "points": 2 },
+  { "label": "C", "text": "Saya menuju area umum sambil mencoba menghubungi ulang saat perjalanan.", "points": 3 },
+  { "label": "D", "text": "Saya minta pengirim mengulangi koordinat agar digit terakhir lebih jelas sebelum bergerak.", "points": 4 },
+  { "label": "E", "text": "Saya minta repeat, lakukan read-back koordinat, dan bergerak setelah konfirmasi dinyatakan clear.", "points": 5 }
+  ],
+  "explanation": "Dalam operasi, asumsi adalah sumber salah sasaran dan risiko keselamatan. Opsi 4 sudah meminta pengulangan, namun opsi 5 lebih unggul karena menggunakan closed-loop communication (read-back) untuk memastikan pesan diterima tepat, mengurangi risiko error koordinat dan mis-koordinasi."
+  },
+  {
+  "id": 16,
+  "category": "KEP_PENAMPILAN_SERAGAM",
+  "question": "Lima menit sebelum upacara, satu kancing seragam lepas dan belum ada yang menyadari. Apa tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya biarkan saja karena tidak terlalu terlihat dan waktu sudah mepet.", "points": 1 },
+  { "label": "B", "text": "Saya atur posisi berdiri agar bagian itu tidak tampak jelas dari depan.", "points": 2 },
+  { "label": "C", "text": "Saya cari cara cepat memperbaiki, tetapi kalau tidak ketemu ya saya tetap ikut.", "points": 3 },
+  { "label": "D", "text": "Saya pakai solusi cepat seperti peniti atau pinjam cadangan agar seragam tetap rapi.", "points": 4 },
+  { "label": "E", "text": "Saya perbaiki cepat sesuai kelayakan, lalu kembali tepat waktu dengan sikap tenang dan rapi.", "points": 5 }
+  ],
+  "explanation": "Kerapian seragam mencerminkan disiplin dan kontrol diri di bawah tekanan waktu. Opsi 4 sudah solutif, namun opsi 5 lebih baik karena menekankan eksekusi yang tetap terukur (tidak panik, tidak mengorbankan ketepatan waktu), menjaga performa dan citra institusi."
+  },
+  {
+  "id": 17,
+  "category": "KEP_DATA_ENTRY_BOSAN",
+  "question": "Anda menginput ratusan data. Di tengah pekerjaan, fokus menurun dan risiko salah ketik meningkat. Apa strategi Anda agar akurasi tetap terjaga?",
+  "options": [
+  { "label": "A", "text": "Saya percepat agar cepat selesai, karena koreksi bisa dilakukan belakangan jika sempat.", "points": 1 },
+  { "label": "B", "text": "Saya lanjut terus meski lelah, karena berhenti akan mengganggu alur kerja.", "points": 2 },
+  { "label": "C", "text": "Saya melambatkan tempo sambil berharap fokus kembali tanpa perlu jeda.", "points": 3 },
+  { "label": "D", "text": "Saya ambil jeda singkat untuk refocus, lalu melanjutkan dengan tempo stabil.", "points": 4 },
+  { "label": "E", "text": "Saya lakukan micro-break, lanjut stabil, dan lakukan pengecekan sampel untuk mengunci akurasi.", "points": 5 }
+  ],
+  "explanation": "Ketelitian administratif menuntut manajemen energi dan atensi. Opsi 4 sudah menerapkan rest & refocus, namun opsi 5 lebih unggul karena menambahkan quality control (sampling/verification) sehingga error dapat terdeteksi dini, menjaga integritas data dan meminimalkan rework."
+  },
+  {
+  "id": 18,
+  "category": "KEP_OLAH_TKP",
+  "question": "Saat olah TKP, Anda melihat puntung rokok yang tampak baru. Rekan mengatakan kemungkinan milik petugas yang datang lebih dulu. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya singkirkan agar area terlihat bersih dan olah TKP lebih cepat.", "points": 1 },
+  { "label": "B", "text": "Saya abaikan karena rekan yakin itu bukan dari pelaku.", "points": 2 },
+  { "label": "C", "text": "Saya tandai lokasinya saja, lalu fokus pada bukti lain yang lebih jelas.", "points": 3 },
+  { "label": "D", "text": "Saya amankan sebagai barang bukti dengan prosedur dasar agar bisa dianalisis bila perlu.", "points": 4 },
+  { "label": "E", "text": "Saya amankan dengan sarung tangan, dokumentasikan, dan masukkan ke evidence bag sesuai SOP.", "points": 5 }
+  ],
+  "explanation": "Prinsip forensik: jangan berasumsi sebelum verifikasi. Opsi 4 sudah mengamankan, namun opsi 5 lebih baik karena menambahkan dokumentasi TKP dan prosedur pengemasan yang benar, mencegah kontaminasi dan menjaga nilai pembuktian (chain of custody dan integritas bukti)."
+  },
+  {
+  "id": 19,
+  "category": "KEP_SERAH_TERIMA_JAGA",
+  "question": "Saat serah terima piket, hitungan amunisi kurang satu. Petugas sebelumnya menyebut kemungkinan hanya salah hitung. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya terima saja agar tidak memperpanjang urusan, nanti saya cari sendiri setelahnya.", "points": 1 },
+  { "label": "B", "text": "Saya catat di kepala dan melanjutkan tugas, karena mungkin akan ketemu sendiri.", "points": 2 },
+  { "label": "C", "text": "Saya tulis catatan kecil soal selisih, tetapi serah terima tetap saya tanda tangani.", "points": 3 },
+  { "label": "D", "text": "Saya ajak hitung ulang dan mencari bersama sebelum serah terima diselesaikan.", "points": 4 },
+  { "label": "E", "text": "Saya hentikan serah terima, lakukan recount, dokumentasikan, dan eskalasi jika selisih tetap ada.", "points": 5 }
+  ],
+  "explanation": "Akuntabilitas materiil adalah area zero tolerance karena dampaknya berisiko tinggi. Opsi 4 sudah mencari solusi, namun opsi 5 lebih unggul karena menambahkan dokumentasi resmi dan eskalasi sesuai prosedur, menjaga integritas, mencegah blame shifting, dan melindungi semua pihak."
+  },
+  {
+  "id": 20,
+  "category": "KEP_CEK_KENDARAAN",
+  "question": "Sebelum patroli, Anda mendapati oli mobil dinas sedikit di bawah batas minimal. Rekan menilai masih aman untuk jarak dekat. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya tetap berangkat karena selisihnya kecil dan patroli tidak jauh.", "points": 1 },
+  { "label": "B", "text": "Saya berangkat sambil memantau indikator mesin dan berharap tidak terjadi masalah.", "points": 2 },
+  { "label": "C", "text": "Saya pilih kendaraan lain agar cepat, lalu pengecekan saya lakukan nanti.", "points": 3 },
+  { "label": "D", "text": "Saya tambah oli sampai batas aman sebelum jalan agar risiko kerusakan berkurang.", "points": 4 },
+  { "label": "E", "text": "Saya tambah oli, cek item dasar lain, dan catat/infokan kondisi kendaraan sesuai prosedur.", "points": 5 }
+  ],
+  "explanation": "Preventive maintenance adalah disiplin aset negara dan risk management. Opsi 4 sudah melakukan perbaikan, tetapi opsi 5 lebih baik karena menambahkan pengecekan berantai serta pelaporan/pencatatan (accountability), sehingga mencegah kerusakan berulang dan memastikan kendaraan laik operasi secara sistematis."
+  },
+  {
+    "id": 21,
+    "category": "KEP_DATANG_APEL",
+    "question": "Apel pagi dijadwalkan pukul 07.00. Pukul berapa Anda biasanya tiba di lapangan?",
+    "options": [
+    { "label": "A", "text": "Sekitar 07.02, lalu saya cepat menyesuaikan barisan dan perlengkapan.", "points": 1 },
+    { "label": "B", "text": "Sekitar 07.00 tepat, karena saya sudah menyiapkan diri dari rumah.", "points": 2 },
+    { "label": "C", "text": "Sekitar 06.55, supaya ada waktu cek kerapian seragam dan posisi.", "points": 3 },
+    { "label": "D", "text": "Sekitar 06.50, agar sempat menenangkan diri dan cek perlengkapan inti.", "points": 4 },
+    { "label": "E", "text": "Sekitar 06.45, untuk briefing singkat, cek perlengkapan, dan siap saat komando.", "points": 5 }
+    ],
+    "explanation": "Dalam budaya disiplin, ketepatan waktu bukan hanya hadir, tetapi readiness. Opsi 4 sudah memberi buffer dan kontrol diri agar tidak tergesa. Opsi 5 lebih unggul karena memastikan kesiapan operasional (pre-brief/cek perlengkapan) sebelum komando, menurunkan risiko error saat apel dan menunjukkan akuntabilitas."
+    },
+    {
+    "id": 22,
+    "category": "KEP_DEADLINE_LAPORAN",
+    "question": "Laporan mingguan harus dikumpulkan Jumat pukul 16.00. Kapan Anda menuntaskan versi finalnya?",
+    "options": [
+    { "label": "A", "text": "Jumat sekitar 15.50, lalu saya kirim cepat agar masih masuk tenggat.", "points": 1 },
+    { "label": "B", "text": "Jumat sekitar 14.00, supaya masih ada waktu cek format dan lampiran.", "points": 2 },
+    { "label": "C", "text": "Jumat pagi, setelah data terakhir terkumpul dan saya rapikan sekali jalan.", "points": 3 },
+    { "label": "D", "text": "Kamis sore, agar ada buffer untuk koreksi kecil bila diperlukan.", "points": 4 },
+    { "label": "E", "text": "Kamis siang, lalu saya sisakan waktu verifikasi, revisi, dan antisipasi kendala teknis.", "points": 5 }
+    ],
+    "explanation": "Manajemen risiko (buffer time) menilai kedewasaan kerja. Opsi 4 sudah menyediakan cadangan waktu untuk koreksi. Opsi 5 lebih baik karena memasukkan tahapan quality control (verifikasi–revisi) dan mitigasi kendala teknis, sehingga hasil lebih reliabel dan integritas administrasi terjaga."
+    },
+    {
+    "id": 23,
+    "category": "KEP_MENUNGGU_ATASAN",
+    "question": "Atasan berjanji menemui Anda pukul 09.00, namun hingga 10.00 belum datang karena rapat mendadak. Apa yang Anda lakukan?",
+    "options": [
+    { "label": "A", "text": "Saya tinggalkan lokasi tanpa informasi, lalu kembali jika nanti dipanggil.", "points": 1 },
+    { "label": "B", "text": "Saya menunggu, tetapi beberapa kali menanyakan dengan nada mendesak.", "points": 2 },
+    { "label": "C", "text": "Saya menunggu sambil tetap siaga, tanpa melakukan hal lain agar tidak terlewat.", "points": 3 },
+    { "label": "D", "text": "Saya menunggu sambil mengerjakan tugas ringan dan menyiapkan poin pembicaraan.", "points": 4 },
+    { "label": "E", "text": "Saya konfirmasi sekali secara sopan, lalu gunakan waktu untuk briefing notes dan kesiapan bahan.", "points": 5 }
+    ],
+    "explanation": "Situasi ini menguji pengendalian diri dan etika hierarki. Opsi 4 sudah produktif dan tidak mengganggu alur pimpinan. Opsi 5 lebih unggul karena memakai komunikasi asertif yang proporsional (konfirmasi satu kali) sekaligus menyiapkan materi, sehingga efisien tanpa menekan pihak ajudan/atasan (respect chain of command)."
+    },
+    {
+    "id": 24,
+    "category": "KEP_BANGUN_PAGI",
+    "question": "Alarm pukul 04.30 berbunyi. Respons Anda yang paling menggambarkan kebiasaan Anda?",
+    "options": [
+    { "label": "A", "text": "Saya matikan alarm dan lanjut tidur karena merasa masih sangat butuh istirahat.", "points": 1 },
+    { "label": "B", "text": "Saya tunda beberapa kali karena ingin menambah tidur beberapa menit.", "points": 2 },
+    { "label": "C", "text": "Saya tunda sekali, lalu bangun dan segera mulai rutinitas dasar.", "points": 3 },
+    { "label": "D", "text": "Saya bangun langsung, merapikan tempat tidur, lalu mulai aktivitas tanpa gawai.", "points": 4 },
+    { "label": "E", "text": "Saya bangun langsung, rapikan, hidrasi singkat, lalu mulai rutinitas sesuai target harian.", "points": 5 }
+    ],
+    "explanation": "Disiplin diri tercermin dari impulse control saat transisi bangun. Opsi 4 sudah menekan distraksi (tanpa gawai) dan membentuk kebiasaan. Opsi 5 lebih baik karena menambahkan ritual kesiapan (hidrasi/target) yang memperkuat self-regulation dan konsistensi performa harian."
+    },
+    {
+    "id": 25,
+    "category": "KEP_ESTIMASI_PERJALANAN",
+    "question": "Perjalanan ke lokasi rapat rata-rata 30 menit. Rapat mulai pukul 10.00. Pukul berapa Anda berangkat?",
+    "options": [
+    { "label": "A", "text": "Sekitar 09.35, lalu saya percepat langkah jika ada hambatan di jalan.", "points": 1 },
+    { "label": "B", "text": "Sekitar 09.30, karena biasanya durasi 30 menit sudah cukup.", "points": 2 },
+    { "label": "C", "text": "Sekitar 09.25, agar ada sedikit ruang bila terjadi keterlambatan ringan.", "points": 3 },
+    { "label": "D", "text": "Sekitar 09.20, untuk buffer macet dan transisi sebelum rapat dimulai.", "points": 4 },
+    { "label": "E", "text": "Sekitar 09.15, agar aman bila ada kendala dan saya bisa siap sebelum forum dimulai.", "points": 5 }
+    ],
+    "explanation": "Risk management menuntut buffer yang realistis. Opsi 4 sudah mengantisipasi macet dan memberi waktu transisi. Opsi 5 lebih unggul karena memberi margin yang lebih aman untuk skenario gangguan (ban bocor/rekayasa lalu lintas), sehingga punctuality dan profesionalisme terjaga tanpa ngebut."
+    },
+    {
+    "id": 26,
+    "category": "KEP_GANGGUAN_HP",
+    "question": "Anda menyusun laporan penting yang butuh fokus. Notifikasi grup percakapan ramai bercanda terus berbunyi. Apa sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya cek notifikasi sesekali agar tetap update sambil lanjut mengetik.", "points": 1 },
+    { "label": "B", "text": "Saya balas singkat agar tidak dianggap mengabaikan grup, lalu lanjut kerja.", "points": 2 },
+    { "label": "C", "text": "Saya biarkan notifikasi aktif, tapi saya berusaha menahan diri untuk tidak membuka.", "points": 3 },
+    { "label": "D", "text": "Saya bisukan grup untuk sementara sampai target laporan selesai.", "points": 4 },
+    { "label": "E", "text": "Saya aktifkan mode fokus, jadwalkan cek pesan pada jeda, lalu selesaikan laporan dulu.", "points": 5 }
+    ],
+    "explanation": "Fokus kerja terkait attention control dan manajemen distraksi. Opsi 4 sudah memutus gangguan utama. Opsi 5 lebih baik karena memakai strategi deep work yang terstruktur (mode fokus + waktu cek terjadwal), sehingga tetap menjaga responsibilitas komunikasi tanpa mengorbankan kualitas output."
+    },
+    {
+    "id": 27,
+    "category": "KEP_WAKTU_ISTIRAHAT",
+    "question": "Jam istirahat 12.00–13.00. Pukul 13.05 Anda masih mengobrol di kantin. Respons Anda?",
+    "options": [
+    { "label": "A", "text": "Saya lanjut sebentar karena pembicaraan sedang penting bagi suasana tim.", "points": 1 },
+    { "label": "B", "text": "Saya selesaikan minum dulu, lalu kembali tanpa terburu-buru.", "points": 2 },
+    { "label": "C", "text": "Saya cek apakah ada urgensi di unit; jika aman, saya kembali beberapa menit lagi.", "points": 3 },
+    { "label": "D", "text": "Saya akhiri obrolan dan kembali segera, lalu lanjut tugas yang menunggu.", "points": 4 },
+    { "label": "E", "text": "Saya pamit dengan sopan, kembali segera, dan menebus keterlambatan dengan kerja fokus.", "points": 5 }
+    ],
+    "explanation": "Disiplin waktu adalah bagian dari integritas (time accountability). Opsi 4 sudah tepat karena segera kembali. Opsi 5 lebih unggul karena menambahkan tanggung jawab pemulihan performa (kompensasi dengan kerja fokus), menunjukkan kontrol diri dan orientasi pada hasil tanpa drama."
+    },
+    {
+    "id": 28,
+    "category": "KEP_SKALA_PRIORITAS",
+    "question": "Anda punya 3 hal: (1) Laporan deadline besok pagi, (2) data diminta atasan sore ini, (3) janji makan siang dengan teman lama. Urutan tindakan Anda?",
+    "options": [
+    { "label": "A", "text": "Saya penuhi janji makan siang dulu, lalu sisanya saya kejar setelahnya.", "points": 1 },
+    { "label": "B", "text": "Saya fokus laporan besok dulu, data atasan saya susulkan jika masih sempat.", "points": 2 },
+    { "label": "C", "text": "Saya kerjakan data atasan dulu, lalu coba selesaikan laporan malam ini.", "points": 3 },
+    { "label": "D", "text": "Saya selesaikan data atasan, lalu lanjut laporan dan minta teman reschedule.", "points": 4 },
+    { "label": "E", "text": "Saya penuhi data atasan, kunci progres laporan, dan komunikasikan reschedule secara elegan.", "points": 5 }
+    ],
+    "explanation": "Prioritas dinas mengikuti chain of command dan urgensi. Opsi 4 sudah tepat karena mendahulukan permintaan atasan dan menunda agenda sosial. Opsi 5 lebih baik karena menambahkan kontrol eksekusi (mengunci progres laporan agar tidak mepet) dan komunikasi asertif ke teman, sehingga tidak merusak relasi sekaligus menjaga performa."
+    },
+    {
+    "id": 29,
+    "category": "KEP_JANJI_TEMU",
+    "question": "Anda berjanji bertemu informan pukul 20.00. Hujan deras dan banjir di beberapa titik, Anda masih di rumah. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya batalkan pertemuan dan meminta jadwal ulang tanpa opsi lain.", "points": 1 },
+    { "label": "B", "text": "Saya menunggu hujan mereda dulu, lalu berangkat meski berisiko terlambat.", "points": 2 },
+    { "label": "C", "text": "Saya berangkat sesuai rencana dan mengandalkan keberuntungan agar jalan tetap aman.", "points": 3 },
+    { "label": "D", "text": "Saya kabari potensi hambatan dan menyiapkan rute alternatif sebelum berangkat.", "points": 4 },
+    { "label": "E", "text": "Saya koordinasi, berangkat lebih awal via rute aman, dan siapkan titik temu cadangan bila perlu.", "points": 5 }
+    ],
+    "explanation": "Komitmen harus sejalan dengan keselamatan dan koordinasi. Opsi 4 sudah melakukan komunikasi dan mitigasi rute. Opsi 5 lebih unggul karena menambahkan contingency plan (titik temu cadangan) dan manajemen risiko proaktif, menjaga kepercayaan informan tanpa mengorbankan safety."
+    },
+    {
+    "id": 30,
+    "category": "KEP_HARI_LIBUR",
+    "question": "Hari Minggu adalah hari libur. Pola penggunaan waktu yang paling menggambarkan Anda?",
+    "options": [
+    { "label": "A", "text": "Saya banyak pasif di rumah agar cepat pulih, tanpa rencana khusus.", "points": 1 },
+    { "label": "B", "text": "Saya isi dengan hiburan panjang sampai larut, lalu biar Senin menyesuaikan.", "points": 2 },
+    { "label": "C", "text": "Saya fokus keluarga dan urusan rumah, tanpa menyiapkan hal-hal untuk pekan depan.", "points": 3 },
+    { "label": "D", "text": "Saya aktif-recovery, lalu menyiapkan kebutuhan Senin seperti seragam dan agenda.", "points": 4 },
+    { "label": "E", "text": "Saya active recovery, jaga tidur, dan menyiapkan pekan depan agar siap tugas.", "points": 5 }
+    ],
+    "explanation": "Libur yang sehat adalah pemulihan terarah, bukan pelarian. Opsi 4 sudah menyeimbangkan recovery dan persiapan. Opsi 5 lebih baik karena menambahkan sleep hygiene dan kesiapan pekan (readiness), sehingga stamina, mood, dan disiplin kerja lebih stabil pada hari dinas."
+    },
+    {
+    "id": 31,
+    "category": "KEP_JALAN_PINTAS",
+    "question": "Ada cara cepat menyelesaikan pemberkasan, tetapi harus melewati satu tahap verifikasi data. Atasan tidak ada di tempat. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya lewati verifikasi agar selesai cepat, nanti saya rapikan jika sempat.", "points": 1 },
+    { "label": "B", "text": "Saya lewati sekali untuk kondisi tertentu, lalu saya cek ulang setelah beres.", "points": 2 },
+    { "label": "C", "text": "Saya konsultasi cepat ke rekan senior untuk menilai risiko sebelum melanjutkan.", "points": 3 },
+    { "label": "D", "text": "Saya tetap jalankan verifikasi sesuai SOP meski lebih lama.", "points": 4 },
+    { "label": "E", "text": "Saya jalankan SOP, lalu ajukan perbaikan alur via jalur resmi bila memang perlu.", "points": 5 }
+    ],
+    "explanation": "Integritas administrasi menolak shortcut yang mengorbankan validitas. Opsi 4 sudah patuh SOP. Opsi 5 lebih unggul karena menambahkan perbaikan sistem melalui chain of command, sehingga efisiensi bisa dicapai tanpa melanggar prosedur dan tetap ada jejak akuntabilitas."
+    },
+    {
+    "id": 32,
+    "category": "KEP_PEMERIKSAAN_RUTIN",
+    "question": "SOP mewajibkan pengecekan tekanan ban mobil patroli setiap pagi. Ban tampak baik secara visual. Apa yang Anda lakukan?",
+    "options": [
+    { "label": "A", "text": "Saya cukup melihat kondisi ban karena secara visual tampak masih layak.", "points": 1 },
+    { "label": "B", "text": "Saya cek cepat dengan cara sederhana, lalu lanjut jika terasa normal.", "points": 2 },
+    { "label": "C", "text": "Saya cek jika ada waktu; kalau terburu-buru, saya catat untuk nanti.", "points": 3 },
+    { "label": "D", "text": "Saya ukur dengan alat, terutama bila ada tanda cuaca ekstrem atau jarak jauh.", "points": 4 },
+    { "label": "E", "text": "Saya ukur dengan alat sesuai SOP dan catat hasilnya sebelum kendaraan dipakai.", "points": 5 }
+    ],
+    "explanation": "SOP mengurangi bias 'kira-kira'. Opsi 4 sudah mengarah pada pemeriksaan instrumental namun masih kondisional. Opsi 5 lebih baik karena konsisten (procedural discipline) dan terdokumentasi, memperkuat akuntabilitas serta keselamatan operasional."
+    },
+    {
+    "id": 33,
+    "category": "KEP_PENGGUNAAN_APD",
+    "question": "Anda akan masuk TKP kebakaran yang sudah padam, asap masih tipis. Rekan senior masuk tanpa masker. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya ikut tanpa masker agar tidak terlihat berbeda dari rekan senior.", "points": 1 },
+    { "label": "B", "text": "Saya masuk dengan penutup seadanya karena asapnya terlihat tidak terlalu tebal.", "points": 2 },
+    { "label": "C", "text": "Saya menunda masuk sebentar sambil menilai kondisi, lalu ikut jika dianggap aman.", "points": 3 },
+    { "label": "D", "text": "Saya tetap memakai masker/APD sesuai prosedur, lalu masuk menjalankan tugas.", "points": 4 },
+    { "label": "E", "text": "Saya pakai APD, masuk, dan mengingatkan rekan secara asertif tanpa mempermalukan.", "points": 5 }
+    ],
+    "explanation": "Ini menguji safety mindset dan keberanian komunikasi. Opsi 4 sudah patuh K3. Opsi 5 lebih unggul karena menambahkan assertive communication untuk mencegah normalisasi perilaku berbahaya (groupthink), sekaligus menjaga hormat pada senior (de-eskalasi sosial) dan keselamatan tim."
+    },
+    {
+    "id": 34,
+    "category": "KEP_PEMERIKSAAN_TAMU_VIP",
+    "question": "Pejabat penting datang ke markas, ajudannya menolak tas diperiksa dengan alasan status. Anda petugas jaga. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya izinkan masuk tanpa pemeriksaan agar tidak terjadi keributan di depan pos.", "points": 1 },
+    { "label": "B", "text": "Saya lakukan pemeriksaan sangat singkat agar terlihat ada upaya, lalu saya lewatkan.", "points": 2 },
+    { "label": "C", "text": "Saya minta arahan rekan jaga lain, sambil menahan mereka menunggu.", "points": 3 },
+    { "label": "D", "text": "Saya jelaskan SOP dengan sopan dan tetap meminta pemeriksaan sesuai standar.", "points": 4 },
+    { "label": "E", "text": "Saya jelaskan SOP, tawarkan pemeriksaan di area privat, dan eskalasi bila tetap menolak.", "points": 5 }
+    ],
+    "explanation": "SOP keamanan bersifat universal; pengecualian adalah celah. Opsi 4 sudah firm but polite. Opsi 5 lebih unggul karena menambahkan service excellence (opsi privat untuk menjaga martabat VIP) sekaligus menjaga prosedur, dan eskalasi terukur sesuai chain of command jika terjadi penolakan."
+    },
+    {
+    "id": 35,
+    "category": "KEP_LOG_BOOK",
+    "question": "Anda selesai patroli dan situasi aman. Bagaimana Anda mengisi Buku Mutasi (log book)?",
+    "options": [
+    { "label": "A", "text": "Saya tidak mengisi karena tidak ada kejadian yang perlu dicatat.", "points": 1 },
+    { "label": "B", "text": "Saya tulis sangat ringkas agar ada jejak, misalnya hanya status umum.", "points": 2 },
+    { "label": "C", "text": "Saya isi poin penting seperti waktu dan rute, detail lain menyusul bila perlu.", "points": 3 },
+    { "label": "D", "text": "Saya isi cukup lengkap tentang waktu, rute, dan temuan, lalu saya parafkan.", "points": 4 },
+    { "label": "E", "text": "Saya isi lengkap dan segera: waktu, rute, kondisi, serta catatan relevan untuk akuntabilitas.", "points": 5 }
+    ],
+    "explanation": "Log book adalah bukti akuntabilitas dan continuity of service. Opsi 4 sudah memenuhi dokumentasi dasar. Opsi 5 lebih baik karena menekankan ketepatan waktu pencatatan (mencegah distorsi ingatan) dan kelengkapan informasi yang berguna untuk analisa intelijen sederhana serta pertanggungjawaban bila ada audit."
+    },
+    {
+      "id": 36,
+      "category": "KEP_PENGGUNAAN_SIRENE",
+      "question": "Jalanan macet dan Anda ingin cepat sampai ke kantor untuk apel (bukan tugas darurat). Mobil dinas memiliki sirine/rotator. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya menyalakan isyarat agar kendaraan lain memberi jalan karena saya mengejar apel.", "points": 1 },
+      { "label": "B", "text": "Saya menyalakan rotator tanpa sirine supaya terlihat resmi namun tidak mengganggu.", "points": 2 },
+      { "label": "C", "text": "Saya mencari jalur alternatif yang legal agar tetap cepat tanpa memakai isyarat.", "points": 3 },
+      { "label": "D", "text": "Saya tetap tertib, lalu mengabari keterlambatan dan meminta arahan atasan.", "points": 4 },
+      { "label": "E", "text": "Saya berangkat lebih awal lain kali, dan hari ini tetap tertib tanpa isyarat.", "points": 5 }
+      ],
+      "explanation": "Isyarat prioritas adalah otoritas yang harus dijaga integritasnya. Opsi 4 sudah menjaga tertib dan komunikasi hierarkis (chain of command). Opsi 5 lebih unggul karena menambahkan perbaikan perilaku (preventive self-management) sehingga akar masalah disiplin waktu diselesaikan tanpa menyalahgunakan kewenangan."
+      },
+      {
+      "id": 37,
+      "category": "KEP_PROSEDUR_PENAHANAN",
+      "question": "Seorang tahanan tampak kedinginan di sel dan meminta memakai jaketnya yang memiliki tali panjang. Respons Anda?",
+      "options": [
+      { "label": "A", "text": "Saya izinkan memakai jaketnya karena kasihan dan kondisi terlihat tidak berbahaya.", "points": 1 },
+      { "label": "B", "text": "Saya tolak permintaan apa pun agar tidak menimbulkan risiko tambahan.", "points": 2 },
+      { "label": "C", "text": "Saya beri jaketnya, tetapi saya awasi lebih sering agar tetap aman.", "points": 3 },
+      { "label": "D", "text": "Saya tidak beri jaket bertali, namun saya beri selimut/alternatif hangat sesuai aturan.", "points": 4 },
+      { "label": "E", "text": "Saya amankan jaket bertali, jelaskan alasannya, dan beri alternatif hangat yang aman sesuai SOP.", "points": 5 }
+      ],
+      "explanation": "Situasi ini menuntut keseimbangan empati dan risk mitigation. Opsi 4 sudah memberikan solusi aman. Opsi 5 lebih baik karena menambahkan komunikasi asertif dan transparansi prosedur (service excellence), sehingga mencegah resistensi, menjaga martabat tahanan, dan tetap mematuhi safety protocol (pencegahan self-harm)."
+      },
+      {
+      "id": 38,
+      "category": "KEP_CLEARING_SENJATA",
+      "question": "Setelah tugas, Anda wajib melakukan clearing senjata di safety area. Rekan langsung menyarungkan karena yakin sudah kosong. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya ikut menyarungkan karena biasanya memang tidak ada peluru tersisa.", "points": 1 },
+      { "label": "B", "text": "Saya clearing sendiri, tetapi memilih tidak menyinggung rekan agar tidak menimbulkan konflik.", "points": 2 },
+      { "label": "C", "text": "Saya mengingatkan singkat, namun jika dia menolak saya biarkan dan fokus pada senjata saya.", "points": 3 },
+      { "label": "D", "text": "Saya ajak rekan ke safety area dan mengingatkan prosedur dengan nada tegas namun profesional.", "points": 4 },
+      { "label": "E", "text": "Saya ajak ke safety area, lakukan clearing bersama, dan tekankan prinsip no-assumption tanpa mempermalukan.", "points": 5 }
+      ],
+      "explanation": "Disiplin senjata adalah zero tolerance dan terkait keselamatan tim. Opsi 4 sudah tegas dan sesuai prosedur. Opsi 5 lebih unggul karena menggunakan assertive communication yang tidak memicu defensif (de-eskalasi sosial) serta membangun budaya keselamatan lewat praktik bersama, bukan sekadar menegur."
+      },
+      {
+      "id": 39,
+      "category": "KEP_SOP_VS_KEBIASAAN",
+      "question": "Di kantor baru, banyak orang terbiasa tidak memakai helm untuk jarak dekat, padahal SOP mewajibkan. Anda masih baru. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya ikut kebiasaan agar cepat diterima dan tidak dianggap kaku.", "points": 1 },
+      { "label": "B", "text": "Saya pakai helm hanya saat jarak jauh, untuk menyesuaikan situasi.", "points": 2 },
+      { "label": "C", "text": "Saya tetap pakai helm, tetapi saya menghindari pembahasan agar tidak menyinggung.", "points": 3 },
+      { "label": "D", "text": "Saya konsisten memakai helm dan memberi contoh tanpa menegur siapa pun.", "points": 4 },
+      { "label": "E", "text": "Saya konsisten pakai helm, dan bila ditanya saya jelaskan SOP secara tenang dan faktual.", "points": 5 }
+      ],
+      "explanation": "Ini menguji integritas saat ada tekanan konformitas (normative social influence). Opsi 4 sudah memberi teladan. Opsi 5 lebih baik karena menambahkan komunikasi asertif yang rendah konflik: tidak menggurui, tetapi siap menjelaskan dasar aturan saat diminta, menjaga wibawa penegak hukum dan membangun budaya keselamatan."
+      },
+      {
+      "id": 40,
+      "category": "KEP_LAPORAN_PALSU_REKAN",
+      "question": "Rekan mangkir lalu meminta Anda mengubah absensinya menjadi 'Hadir' agar tunjangan tidak dipotong. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya bantu sekali ini sebagai bentuk solidaritas, asal tidak sering terjadi.", "points": 1 },
+      { "label": "B", "text": "Saya tidak ikut campur dan membiarkan dia mengurus sendiri di sistem.", "points": 2 },
+      { "label": "C", "text": "Saya menolak, tetapi saya diam saja agar hubungan kerja tetap aman.", "points": 3 },
+      { "label": "D", "text": "Saya menolak dan menyarankan ia mengurus izin resmi atau klarifikasi ke atasan.", "points": 4 },
+      { "label": "E", "text": "Saya menolak tegas, jelaskan konsekuensi, dan arahkan solusi resmi tanpa mempermalukan.", "points": 5 }
+      ],
+      "explanation": "Pemalsuan absensi adalah pelanggaran integritas data dan bisa berujung konsekuensi disiplin. Opsi 4 sudah menolak dan memberi jalan keluar. Opsi 5 lebih unggul karena menggabungkan ketegasan batas (boundary setting) dengan de-eskalasi relasi kerja: menolak tanpa mempermalukan, sehingga tetap profesional dan mencegah konflik berlarut."
+      },
+      {
+      "id": 41,
+      "category": "KEP_KONSISTENSI_ANTI_ATURAN",
+      "question": "Pernyataan II: 'Menurut saya, peraturan yang terlalu rinci hanya membuang waktu dan menghambat gerak saya.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Aturan rinci berfungsi sebagai kontrol risiko dan standar akuntabilitas. Opsi 4 menunjukkan pemahaman fungsi SOP. Opsi 5 lebih baik karena menunjukkan acceptance yang kuat terhadap budaya prosedural—bukan sekadar patuh saat nyaman, tetapi menjadikan aturan sebagai pengaman dan pedoman integritas saat tekanan tinggi."
+      },
+      {
+      "id": 42,
+      "category": "KEP_KONSISTENSI_JAM_KARET",
+      "question": "Pernyataan JJ: 'Saya merasa wajar terlambat 5–10 menit untuk janji non-formal karena itu lumrah.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Disiplin waktu adalah bentuk penghormatan dan kontrol diri, bukan soal formalitas semata. Opsi 4 menolak normalisasi keterlambatan. Opsi 5 lebih unggul karena mencerminkan internalisasi standar disiplin yang konsisten lintas konteks, sehingga perilaku tepat waktu tidak bergantung situasi atau budaya sekitar."
+      },
+      {
+      "id": 43,
+      "category": "KEP_KONSISTENSI_CEROBOH",
+      "question": "Pernyataan KK: 'Saya sering terburu-buru sehingga sering melakukan kesalahan kecil yang harus direvisi.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Pernyataan ini menguji self-regulation dan kontrol impuls kerja. Opsi 4 menunjukkan orientasi pada akurasi. Opsi 5 lebih baik karena menandakan kebiasaan kerja stabil (pace control) dan komitmen pada prinsip cepat-tepat, sehingga risiko human error sistemik lebih rendah."
+      },
+      {
+      "id": 44,
+      "category": "KEP_KONSISTENSI_BERANTAKAN",
+      "question": "Pernyataan LL: 'Saya sering sulit menemukan barang sendiri karena lupa menaruhnya.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Orderliness berkaitan dengan kebiasaan sistemik, bukan sekadar niat. Opsi 4 menunjukkan Anda cukup teratur. Opsi 5 lebih unggul karena mengindikasikan adanya sistem penempatan (designated place) dan rutinitas cek-kembali yang konsisten, sehingga kehilangan barang jarang terjadi dan efisiensi kerja meningkat."
+      },
+      {
+      "id": 45,
+      "category": "KEP_KONSISTENSI_IMPULSIF",
+      "question": "Pernyataan MM: 'Saya sering membeli barang yang tidak saya butuhkan hanya karena diskon atau lapar mata.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji kontrol impuls dan delayed gratification. Opsi 4 menunjukkan Anda cukup mampu menahan dorongan. Opsi 5 lebih baik karena menandakan kontrol diri yang kuat dan konsistensi perilaku finansial, yang berkaitan dengan integritas dan ketahanan terhadap godaan (temptation resistance)."
+      },
+      {
+      "id": 46,
+      "category": "KEP_KONSISTENSI_RENCANA",
+      "question": "Pernyataan NN: 'Saya lebih suka menjalani hari tanpa target atau rencana harian; biarkan mengalir.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Kinerja kedinasan menuntut perencanaan, prioritas, dan target. Opsi 4 sudah menolak pola tanpa arah. Opsi 5 lebih unggul karena menunjukkan internalisasi mindset perencanaan (goal orientation) dan kesiapan menjalankan tugas berbasis rencana, bukan reaktif terhadap situasi."
+      },
+      {
+      "id": 47,
+      "category": "KEP_KONSISTENSI_MALAS_CATAT",
+      "question": "Pernyataan OO: 'Saya malas mencatat instruksi karena yakin ingatan saya cukup kuat.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Pernyataan ini menguji overconfidence bias dan akurasi kerja. Opsi 4 menunjukkan Anda memahami pentingnya pencatatan. Opsi 5 lebih baik karena menunjukkan komitmen kuat pada closed-loop communication (catat–konfirmasi) untuk mencegah distorsi informasi, yang krusial dalam perintah operasional."
+      },
+      {
+      "id": 48,
+      "category": "KEP_KONSISTENSI_SHORTCUT_2",
+      "question": "Pernyataan PP: 'Jika tidak ada pengawasan, saya cenderung melonggarkan standar kerja agar lebih santai.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Definisi integritas adalah konsisten melakukan hal benar saat tidak ada yang melihat. Opsi 4 menolak standar ganda. Opsi 5 lebih unggul karena menunjukkan internal locus of control dan standar kerja yang stabil tanpa bergantung CCTV/atasan, sehingga reliabilitas kinerja lebih tinggi."
+      },
+      {
+      "id": 49,
+      "category": "KEP_KONSISTENSI_SKS",
+      "question": "Pernyataan QQ: 'Saya lebih produktif jika mengerjakan tugas mepet deadline (SKS).'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "SKS berkaitan dengan prokrastinasi dan risiko kualitas turun. Opsi 4 menolak kebiasaan mepet tenggat. Opsi 5 lebih baik karena menunjukkan manajemen waktu proaktif (milestone mindset) dan ketahanan terhadap dorongan mencari adrenalin deadline, sehingga kualitas dan akurasi lebih terjaga."
+      },
+      {
+      "id": 50,
+      "category": "KEP_KONSISTENSI_PENUTUP_DISIPLIN",
+      "question": "Pernyataan RR (Penutup): 'Saya siap menjalani kehidupan yang sangat teratur, penuh aturan, dan diawasi ketat sebagai konsekuensi menjadi anggota Polri.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+      { "label": "B", "text": "Sesuai", "points": 4 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+      ],
+      "explanation": "Ini mengukur komitmen terhadap disiplin institusi dan kesiapan mental mengikuti aturan. Opsi 4 masih menyiratkan resistensi terhadap kontrol. Opsi 5 paling kuat karena menunjukkan penerimaan penuh terhadap struktur, pengawasan, dan standar perilaku, yang diperlukan untuk menjaga integritas, pelayanan prima, serta pengendalian diri dalam tugas."
+      }
+      ]
+    }

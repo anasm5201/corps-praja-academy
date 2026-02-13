@@ -1,0 +1,148 @@
+{
+    "unit_id": 10,
+    "title": "Unit 10: The Gauntlet (Uji Total)",
+    "description": "Uji kompetensi akhir Fase 1. Menggabungkan Figural 3D, Logika Matematika, dan Integritas Level Tinggi.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U10-Q1",
+        "type": "TIU",
+        "text": "Kemampuan Ruang: Jika jaring-jaring kubus ini dilipat, sisi manakah yang akan berhadapan dengan sisi 'X'?",
+        "image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='80' y='10' width='40' height='40' fill='white' stroke='black'/><text x='100' y='35' text-anchor='middle'>A</text><rect x='80' y='50' width='40' height='40' fill='white' stroke='black'/><text x='100' y='75' text-anchor='middle' font-weight='bold'>X</text><rect x='80' y='90' width='40' height='40' fill='white' stroke='black'/><text x='100' y='115' text-anchor='middle'>B</text><rect x='40' y='50' width='40' height='40' fill='white' stroke='black'/><text x='60' y='75' text-anchor='middle'>C</text><rect x='120' y='50' width='40' height='40' fill='white' stroke='black'/><text x='140' y='75' text-anchor='middle'>D</text><rect x='160' y='50' width='40' height='40' fill='white' stroke='black'/><text x='180' y='75' text-anchor='middle'>E</text></svg>",
+        "options": [
+          { "key": "A", "text": "Sisi A", "score": 0 },
+          { "key": "B", "text": "Sisi B", "score": 0 },
+          { "key": "C", "text": "Sisi D", "score": 0 },
+          { "key": "D", "text": "Sisi E", "score": 5 },
+          { "key": "E", "text": "Sisi C", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rumus Loncat Satu. X ada di tengah. Kirinya C, Kanannya D. Atasnya A, Bawahnya B. Saat dilipat, X menjadi 'Depan'. Maka 'Belakang'nya adalah E (yang melompat melewati D). Pasangan: A-B, C-D, X-E."
+      },
+      {
+        "id": "U10-Q2",
+        "type": "TIU",
+        "text": "Statistika Dasar: Rata-rata nilai 5 siswa adalah 80. Jika nilai Andi dimasukkan, rata-ratanya menjadi 81. Berapakah nilai Andi?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "81", "score": 0 },
+          { "key": "B", "text": "85", "score": 0 },
+          { "key": "C", "text": "86", "score": 5 },
+          { "key": "D", "text": "90", "score": 0 },
+          { "key": "E", "text": "91", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konsep Jumlah Total. Total awal (5 org) = 5 x 80 = 400. Total baru (6 org) = 6 x 81 = 486. Nilai Andi = 486 - 400 = 86. Cara cepat: Kenaikan rata-rata 1 poin untuk 6 orang = butuh surplus 6 poin. 80 + 6 = 86."
+      },
+      {
+        "id": "U10-Q3",
+        "type": "TWK",
+        "text": "Perhatikan Peta Konsep Kekuasaan Negara (Trias Politica) di Indonesia. Lembaga manakah yang memegang kekuasaan YUDIKATIF?",
+        "image": "<svg width='250' height='100' viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='50' r='30' fill='#ddd' stroke='black'/><text x='40' y='55' text-anchor='middle' font-size='8'>Eksekutif</text><circle cx='125' cy='50' r='30' fill='#ddd' stroke='black'/><text x='125' y='55' text-anchor='middle' font-size='8'>Legislatif</text><circle cx='210' cy='50' r='30' fill='#ffaaaa' stroke='black'/><text x='210' y='55' text-anchor='middle' font-size='8' font-weight='bold'>Yudikatif</text></svg>",
+        "options": [
+          { "key": "A", "text": "Presiden & Menteri", "score": 0 },
+          { "key": "B", "text": "DPR, DPD, MPR", "score": 0 },
+          { "key": "C", "text": "BPK", "score": 0 },
+          { "key": "D", "text": "MA, MK, KY", "score": 5 },
+          { "key": "E", "text": "TNI & Polri", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Eksekutif = Pelaksana (Presiden). Legislatif = Pembuat UU (DPR). Yudikatif = Kehakiman/Pengawas Hukum (Mahkamah Agung, Mahkamah Konstitusi, Komisi Yudisial)."
+      },
+      {
+        "id": "U10-Q4",
+        "type": "TKP",
+        "text": "Anda menemukan celah keamanan di sistem aplikasi kantor yang memungkinkan manipulasi absen. Tidak ada yang tahu selain Anda. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Diam saja dan tidak menggunakannya.", "score": 2 },
+          { "key": "B", "text": "Menggunakannya sesekali saat terlambat darurat.", "score": 1 },
+          { "key": "C", "text": "Membuat laporan tertulis kepada unit IT dan pimpinan tentang bug tersebut beserta saran perbaikan.", "score": 5 },
+          { "key": "D", "text": "Memberitahu teman dekat agar mereka juga hati-hati.", "score": 2 },
+          { "key": "E", "text": "Mencoba memperbaikinya sendiri tanpa izin.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas + Inisiatif Positif. Jangan salah gunakan (B), jangan diam (A). Melapor resmi (C) menunjukkan Anda aset berharga organisasi. Jangan utak-atik sendiri (E) karena bisa dianggap hacking ilegal."
+      },
+      {
+        "id": "U10-Q5",
+        "type": "TIU",
+        "text": "Analisis Radar Chart: Aspek manakah yang menjadi kelemahan terbesar kandidat ini?",
+        "image": "<svg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><polygon points='100,20 180,100 100,180 20,100' fill='none' stroke='#ccc'/><line x1='100' y1='20' x2='100' y2='180' stroke='#ccc'/><line x1='20' y1='100' x2='180' y2='100' stroke='#ccc'/><text x='100' y='15' text-anchor='middle' font-size='10'>Logika (90)</text><text x='190' y='105' text-anchor='middle' font-size='10'>Verbal (85)</text><text x='100' y='195' text-anchor='middle' font-size='10'>Numerik (80)</text><text x='10' y='105' text-anchor='middle' font-size='10'>Spasial (40)</text><polygon points='100,30 170,100 100,120 60,100' fill='rgba(255,0,0,0.5)' stroke='red' stroke-width='2'/></svg>",
+        "options": [
+          { "key": "A", "text": "Logika", "score": 0 },
+          { "key": "B", "text": "Verbal", "score": 0 },
+          { "key": "C", "text": "Numerik", "score": 0 },
+          { "key": "D", "text": "Spasial", "score": 5 },
+          { "key": "E", "text": "Semua seimbang", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Baca Grafik. Titik terjauh dari pusat = Nilai Tinggi. Titik terdekat ke pusat = Nilai Rendah. Sisi Spasial (Kiri) sangat menyusut ke dalam (skor 40), sedangkan yang lain melebar."
+      },
+      {
+        "id": "U10-Q6",
+        "type": "TWK",
+        "text": "Pengamalan Sila Ke-5 (Keadilan Sosial) dalam konteks pembangunan nasional adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Pembangunan tempat ibadah di setiap desa.", "score": 0 },
+          { "key": "B", "text": "Pemusatan industri di pulau Jawa agar efisien.", "score": 0 },
+          { "key": "C", "text": "Pembangunan infrastruktur yang merata hingga ke pelosok (Indonesia Sentris).", "score": 5 },
+          { "key": "D", "text": "Memberikan bantuan langsung tunai tanpa syarat.", "score": 0 },
+          { "key": "E", "text": "Mengutamakan produk impor yang murah.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Sila 5 = Keadilan & Pemerataan. Jawaban C (Pembangunan Merata) adalah antitesis dari 'Jawa Sentris', mewujudkan keadilan sosial bagi seluruh rakyat."
+      },
+      {
+        "id": "U10-Q7",
+        "type": "TIU",
+        "text": "Jika A = 2B dan B = 3C, maka A + B + C dalam variabel C adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "6C", "score": 0 },
+          { "key": "B", "text": "8C", "score": 0 },
+          { "key": "C", "text": "9C", "score": 0 },
+          { "key": "D", "text": "10C", "score": 5 },
+          { "key": "E", "text": "12C", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Substitusi semua ke C. B = 3C. A = 2B = 2(3C) = 6C. Maka A + B + C = 6C + 3C + C = 10C."
+      },
+      {
+        "id": "U10-Q8",
+        "type": "TKP",
+        "text": "Anda ditugaskan memimpin rapat penting, tapi materi presentasi di laptop mendadak korup/rusak 5 menit sebelum mulai. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Membatalkan rapat dengan alasan teknis.", "score": 1 },
+          { "key": "B", "text": "Panik dan memarahi staf IT.", "score": 1 },
+          { "key": "C", "text": "Tetap memimpin rapat dengan metode lisan/diskusi interaktif menggunakan papan tulis (whiteboard) secara percaya diri.", "score": 5 },
+          { "key": "D", "text": "Meminta wakil untuk menggantikan bicara.", "score": 2 },
+          { "key": "E", "text": "Mencoba memperbaiki file sambil membiarkan peserta menunggu lama.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Crisis Management. Pemimpin tidak boleh lumpuh karena alat. The show must go on. Gunakan 'Plan B' (Manual/Lisan) dengan percaya diri."
+      },
+      {
+        "id": "U10-Q9",
+        "type": "TIU",
+        "text": "Pola Gambar Matrix 3x3: Perhatikan pergerakan titik hitam.",
+        "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='150' height='150' fill='none' stroke='black'/><line x1='50' y1='0' x2='50' y2='150' stroke='black'/><line x1='100' y1='0' x2='100' y2='150' stroke='black'/><line x1='0' y1='50' x2='150' y2='50' stroke='black'/><line x1='0' y1='100' x2='150' y2='100' stroke='black'/><circle cx='25' cy='25' r='10' fill='black'/><circle cx='75' cy='25' r='10' fill='black'/><circle cx='125' cy='25' r='10' fill='black'/><circle cx='75' cy='75' r='10' fill='black'/><circle cx='125' cy='75' r='10' fill='black'/><circle cx='25' cy='75' r='10' fill='black'/><circle cx='125' cy='125' r='10' fill='black'/><circle cx='25' cy='125' r='10' fill='black'/><text x='75' y='135' text-anchor='middle' font-size='20' font-weight='bold'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Titik di Kiri", "score": 0 },
+          { "key": "B", "text": "Titik di Tengah", "score": 5 },
+          { "key": "C", "text": "Titik di Kanan", "score": 0 },
+          { "key": "D", "text": "Dua titik", "score": 0 },
+          { "key": "E", "text": "Kosong", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola Geser Siklik. Baris 1: 1-2-3. Baris 2: 2-3-1. Baris 3: 3-1-... Jawabannya 2 (Tengah)."
+      },
+      {
+        "id": "U10-Q10",
+        "type": "TWK",
+        "text": "Lembaga negara yang dihapus setelah amandemen UUD 1945 karena dianggap tidak efisien dan tumpang tindih dengan fungsi penasihat presiden adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Dewan Perwakilan Daerah (DPD)", "score": 0 },
+          { "key": "B", "text": "Dewan Pertimbangan Agung (DPA)", "score": 5 },
+          { "key": "C", "text": "Garis-Garis Besar Haluan Negara (GBHN)", "score": 0 },
+          { "key": "D", "text": "Mahkamah Yudisial", "score": 0 },
+          { "key": "E", "text": "Utusan Golongan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: DPA (Dewan Pertimbangan Agung) dihapus di Amandemen ke-4. Fungsinya diganti oleh Wantimpres (Dewan Pertimbangan Presiden) yang berada di bawah eksekutif, bukan lembaga tinggi negara lagi."
+      }
+    ]
+  }

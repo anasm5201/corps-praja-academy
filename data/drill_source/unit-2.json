@@ -1,0 +1,148 @@
+{
+    "unit_id": 2,
+    "title": "Unit 2: Logika Taktis & Wawasan Konstitusi",
+    "description": "Latihan refleks wewenang Lembaga Negara, Silogisme Penarikan Kesimpulan, dan Orientasi Pelayanan.",
+    "level": "Kadet Pratama",
+    "questions": [
+      {
+        "id": "U2-Q1",
+        "type": "TWK",
+        "text": "Lembaga negara yang memiliki wewenang mengusulkan pengangkatan Hakim Agung dan menjaga kehormatan hakim adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mahkamah Agung (MA)", "score": 0 },
+          { "key": "B", "text": "Mahkamah Konstitusi (MK)", "score": 0 },
+          { "key": "C", "text": "Komisi Yudisial (KY)", "score": 5 },
+          { "key": "D", "text": "Dewan Perwakilan Rakyat (DPR)", "score": 0 },
+          { "key": "E", "text": "Presiden", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kata kunci 'MENGUSULKAN' Hakim Agung & 'MENJAGA' kehormatan = KY. Kalau 'MENGADILI' kasasi = MA."
+      },
+      {
+        "id": "U2-Q2",
+        "type": "TIU",
+        "text": "Jika pengerjaan barak membutuhkan 12 pekerja selama 20 hari, berapa hari yang dibutuhkan jika pekerja dikurangi menjadi 8 orang?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "15 Hari", "score": 0 },
+          { "key": "B", "text": "25 Hari", "score": 0 },
+          { "key": "C", "text": "30 Hari", "score": 5 },
+          { "key": "D", "text": "32 Hari", "score": 0 },
+          { "key": "E", "text": "40 Hari", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Perbandingan Berbalik Nilai. (Orang x Hari) harus sama. 12 x 20 = 240. Maka 8 x H = 240. H = 30."
+      },
+      {
+        "id": "U2-Q3",
+        "type": "TKP",
+        "text": "Seorang warga marah-marah di loket pelayanan karena syarat berkasnya kurang, padahal ia mengaku sudah membawa semua sesuai info website (padahal info website sudah lama tidak diupdate). Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Meminta maaf atas kesalahan info website dan tetap menolak berkas.", "score": 3 },
+          { "key": "B", "text": "Menjelaskan aturan terbaru dengan tegas agar warga paham.", "score": 2 },
+          { "key": "C", "text": "Meminta maaf, membantu mengecek berkas yang bisa disusulkan, dan melapor ke IT untuk update website.", "score": 5 },
+          { "key": "D", "text": "Memanggil keamanan karena warga membuat keributan.", "score": 1 },
+          { "key": "E", "text": "Memberikan dispensasi menerima berkas karena kesalahan instansi.", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Akui kesalahan sistem (empati) + Solusi Konstruktif + Perbaikan Sistem (Lapor IT). Opsi E berbahaya (melanggar SOP)."
+      },
+      {
+        "id": "U2-Q4",
+        "type": "TIU",
+        "text": "Semua Taruna harus berbadan sehat. Sebagian orang yang berbadan sehat adalah atlet. Kesimpulan?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Semua atlet adalah Taruna.", "score": 0 },
+          { "key": "B", "text": "Sebagian atlet adalah Taruna.", "score": 0 },
+          { "key": "C", "text": "Semua Taruna adalah atlet.", "score": 0 },
+          { "key": "D", "text": "Sebagian orang yang berbadan sehat adalah Taruna.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat ditarik kesimpulan.", "score": 5 }
+        ],
+        "explanation": "PLATINUM KEY: Hati-hati! Premis tidak saling mengikat secara langsung antara Taruna dan Atlet. Hanya karena sama-sama sehat, belum tentu irisan. Jawabannya E."
+      },
+      {
+        "id": "U2-Q5",
+        "type": "TWK",
+        "text": "Organisasi pergerakan nasional yang pertama kali bergerak di bidang politik secara terang-terangan menuntut kemerdekaan adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Budi Utomo", "score": 0 },
+          { "key": "B", "text": "Sarekat Islam", "score": 0 },
+          { "key": "C", "text": "Indische Partij", "score": 5 },
+          { "key": "D", "text": "Perhimpunan Indonesia", "score": 0 },
+          { "key": "E", "text": "PNI", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Budi Utomo = Budaya/Pendidikan. Indische Partij (Tiga Serangkai) = POLITIK Pertama & Tegas."
+      },
+      {
+        "id": "U2-Q6",
+        "type": "TIU",
+        "text": "Deret Angka: 2, 3, 5, 8, 12, ... Angka selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "15", "score": 0 },
+          { "key": "B", "text": "16", "score": 0 },
+          { "key": "C", "text": "17", "score": 5 },
+          { "key": "D", "text": "18", "score": 0 },
+          { "key": "E", "text": "19", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola penambahan bertingkat (+1, +2, +3, +4). Selanjutnya pasti +5. Maka 12 + 5 = 17."
+      },
+      {
+        "id": "U2-Q7",
+        "type": "TWK",
+        "text": "Lambang negara Garuda Pancasila dirancang oleh Sultan Hamid II. Jumlah bulu pada ekor Garuda melambangkan...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tanggal Kemerdekaan (17)", "score": 0 },
+          { "key": "B", "text": "Bulan Kemerdekaan (8)", "score": 5 },
+          { "key": "C", "text": "Tahun Kemerdekaan (45)", "score": 0 },
+          { "key": "D", "text": "Tahun Kemerdekaan (19)", "score": 0 },
+          { "key": "E", "text": "Jumlah Sila (5)", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Visual: Sayap (17), Ekor (8), Pangkal Ekor (19), Leher (45)."
+      },
+      {
+        "id": "U2-Q8",
+        "type": "TKP",
+        "text": "Anda ditugaskan ke daerah terpencil yang sinyal internetnya sangat buruk, padahal pekerjaan Anda membutuhkan laporan online harian. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Meminta atasan memindahkan lokasi tugas.", "score": 1 },
+          { "key": "B", "text": "Menunggu sampai sinyal membaik baru bekerja.", "score": 2 },
+          { "key": "C", "text": "Mencari lokasi/spot tertentu yang ada sinyal setiap sore untuk upload laporan.", "score": 5 },
+          { "key": "D", "text": "Mengirim laporan secara manual via pos seminggu sekali.", "score": 3 },
+          { "key": "E", "text": "Mengeluh kepada rekan kerja tentang fasilitas yang buruk.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Aspek Kemampuan Beradaptasi & Kerja Tuntas. Jangan menyerah pada keadaan (A/B), cari solusi taktis (C)."
+      },
+      {
+        "id": "U2-Q9",
+        "type": "TIU",
+        "text": "Analogi Kata: TELUR : AVOID = ... : ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "LARI : RUN", "score": 0 },
+          { "key": "B", "text": "EMAS : GOLD", "score": 0 },
+          { "key": "C", "text": "OVOID : BENTUK", "score": 5 },
+          { "key": "D", "text": "AYAM : IKAN", "score": 0 },
+          { "key": "E", "text": "PUTIH : HITAM", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Ini bukan bahasa Inggris! 'Ovoid' adalah istilah ilmiah bentuk telur. Maka cari hubungan Istilah-Bentuk."
+      },
+      {
+        "id": "U2-Q10",
+        "type": "TWK",
+        "text": "Pasal 30 Ayat (1) UUD 1945 menegaskan bahwa hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara adalah milik...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "TNI", "score": 0 },
+          { "key": "B", "text": "Polri", "score": 0 },
+          { "key": "C", "text": "Seluruh Warga Negara", "score": 5 },
+          { "key": "D", "text": "TNI dan Polri", "score": 0 },
+          { "key": "E", "text": "Pemerintah", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pertahanan Keamanan (Pasal 30) = Hak & Wajib WARGA NEGARA. TNI/Polri adalah kekuatan utamanya."
+      }
+    ]
+  }

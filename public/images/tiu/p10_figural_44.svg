@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <text x="40" y="45" font-size="40" font-family="sans-serif">A</text>
+  <line x1="20" y1="55" x2="80" y2="55" stroke="black" stroke-dasharray="4"/> <text x="90" y="55">-></text>
+
+  <text x="120" y="85" font-size="40" font-family="sans-serif" transform="scale(1, -1) translate(0, -130)">A</text>
+</svg>

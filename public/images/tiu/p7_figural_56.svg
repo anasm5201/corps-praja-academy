@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="120" r="15" fill="none" stroke="black"/> 
+  <text x="65" y="125">+</text>
+  <circle cx="90" cy="120" r="3" fill="black"/> 
+  <text x="115" y="125">=</text>
+  <text x="140" y="125" font-size="30">?</text>
+
+  <g transform="translate(170,120)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="black"/>
+    <circle cx="0" cy="0" r="3" fill="black"/>
+  </g>
+</svg>

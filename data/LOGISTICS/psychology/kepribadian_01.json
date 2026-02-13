@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 01 - Integritas & Lie Detector",
+  "type": "PSIKOLOGI_KEPRIBADIAN",
+  "description": "Simulasi tes kepribadian fokus pada validitas jawaban dan integritas moral.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_LIE_SCALE",
+  "question": "Pernyataan: 'Saya tidak pernah merasa marah kepada siapapun seumur hidup saya.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Item ini adalah Lie Scale untuk mendeteksi “faking good”. Emosi marah adalah respon manusiawi; yang dinilai adalah pengendalian diri, bukan klaim perfeksionis. Opsi 4 sudah menunjukkan realisme (pernah marah). Opsi 5 lebih kuat karena menolak klaim absolut secara tegas, sehingga profil tampak jujur dan stabil, bukan “too perfect” yang rawan dianggap tidak valid."
+  },
+  {
+  "id": 2,
+  "category": "KEP_INTEGRITAS_UANG",
+  "question": "Saat berjalan di koridor kantor yang sepi dan tidak ada CCTV, Anda menemukan uang Rp 100.000 jatuh. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Saya simpan saja karena merasa tidak akan ketahuan siapa pun.", "points": 1 },
+  { "label": "B", "text": "Saya biarkan di tempat itu agar bukan urusan saya.", "points": 2 },
+  { "label": "C", "text": "Saya ambil lalu saya sumbangkan supaya terasa lebih baik.", "points": 3 },
+  { "label": "D", "text": "Saya ambil dan saya coba tanyakan sebentar pada sekitar.", "points": 4 },
+  { "label": "E", "text": "Saya serahkan ke satpam/Lost & Found dan dicatat.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas saat “no supervision”. Opsi 4 sudah mengarah pada pemulihan hak pemilik dengan inisiatif bertanya, tetapi masih rentan bias (tanpa jejak administratif). Opsi 5 lebih baik karena membangun audit trail (pencatatan), mencegah konflik klaim, dan memenuhi akuntabilitas institusional—selaras prinsip integritas dan prosedur."
+  },
+  {
+  "id": 3,
+  "category": "KEP_LIE_SCALE",
+  "question": "Pernyataan: 'Saya menyukai setiap orang yang saya kenal.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini mengukur realisme sosial. Menyukai semua orang tanpa pengecualian cenderung tidak realistis dan bisa terbaca sebagai respons defensif (social desirability). Opsi 4 menunjukkan penerimaan realitas bahwa preferensi interpersonal wajar. Opsi 5 lebih kuat karena menolak klaim absolut sehingga profil lebih konsisten dan tidak terlihat dibuat-buat."
+  },
+  {
+  "id": 4,
+  "category": "KEP_INTEGRITAS_PROSEDUR",
+  "question": "Anda melihat rekan kerja pulang lebih awal tanpa izin atasan (korupsi waktu). Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya biarkan saja agar hubungan kerja tetap aman.", "points": 1 },
+  { "label": "B", "text": "Saya ikut pulang cepat juga supaya dianggap kompak.", "points": 2 },
+  { "label": "C", "text": "Saya menegur singkat dan meminta dia bertanggung jawab.", "points": 3 },
+  { "label": "D", "text": "Saya ajak bicara empat mata dan ingatkan aturan jam dinas.", "points": 4 },
+  { "label": "E", "text": "Saya tegur privat, dorong koreksi, lalu eskalasi bila berulang.", "points": 5 }
+  ],
+  "explanation": "Ini menilai integritas, kepedulian tim, dan chain of command. Opsi 4 sudah tepat karena menggunakan komunikasi asertif tanpa mempermalukan (mengurangi resistensi). Opsi 5 lebih baik karena menambahkan mekanisme kontrol: meminta koreksi perilaku dan menggunakan eskalasi bertahap bila berulang—mencegah pembiaran dan menjaga disiplin organisasi secara prosedural."
+  },
+  {
+  "id": 5,
+  "category": "KEP_LIE_SCALE",
+  "question": "Pernyataan: 'Saya tidak pernah terlambat masuk sekolah/kerja sekalipun.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini Lie Scale untuk menguji kecenderungan “zero flaw claim”. Keterlambatan bisa terjadi karena faktor situasional; yang dinilai adalah disiplin dan upaya mitigasi, bukan klaim tanpa cela. Opsi 4 cukup realistis. Opsi 5 lebih kuat karena menolak klaim absolut dan membuat profil lebih valid, sehingga penilaian disiplin bisa dilihat dari pola perilaku lain, bukan dari jawaban “terlalu sempurna”."
+  },
+  {
+  "id": 6,
+  "category": "KEP_INTEGRITAS_GRATIFIKASI",
+  "question": "Warga memberi 'uang rokok' sebagai ucapan terima kasih karena Anda telah membantunya dengan cepat. Reaksi Anda?",
+  "options": [
+  { "label": "A", "text": "Saya terima karena kasihan dan menganggap itu hal wajar.", "points": 1 },
+  { "label": "B", "text": "Saya terima lalu saya niatkan untuk saya sumbangkan.", "points": 2 },
+  { "label": "C", "text": "Saya tolak, tetapi saya balas dengan nada yang menusuk.", "points": 3 },
+  { "label": "D", "text": "Saya menolak halus dan ucapkan terima kasih atas niatnya.", "points": 4 },
+  { "label": "E", "text": "Saya menolak santun dan jelaskan aturan layanan tanpa imbalan.", "points": 5 }
+  ],
+  "explanation": "Ini uji anti-gratifikasi dan service excellence. Opsi 4 sudah menjaga etika dengan penolakan sopan. Opsi 5 lebih baik karena menambahkan edukasi singkat (procedural justice) sehingga warga paham batasan dan tidak mengulang, sekaligus menjaga martabat institusi tanpa mempermalukan pemberi."
+  },
+  {
+  "id": 7,
+  "category": "KEP_LIE_SCALE",
+  "question": "Pernyataan: 'Saya tidak pernah membicarakan keburukan orang lain.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Item ini mengecek kecenderungan menampilkan diri “tanpa cela”. Interaksi sosial kadang memunculkan gosip; yang dinilai adalah kontrol diri dan etika komunikasi. Opsi 4 menunjukkan kejujuran realistis. Opsi 5 lebih kuat dalam menolak klaim “tidak pernah” sehingga validitas respons lebih tinggi."
+  },
+  {
+  "id": 8,
+  "category": "KEP_INTEGRITAS_UJIAN",
+  "question": "Saat ujian seleksi, teman sebelah Anda meminta jawaban karena pengawas sedang lengah. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya beri sedikit agar suasana aman dan tidak ribut.", "points": 1 },
+  { "label": "B", "text": "Saya berikan yang salah supaya dia berhenti meminta.", "points": 2 },
+  { "label": "C", "text": "Saya diam dan berharap dia berhenti sendiri.", "points": 3 },
+  { "label": "D", "text": "Saya menolak dengan isyarat dan tetap lanjut mengerjakan.", "points": 4 },
+  { "label": "E", "text": "Saya menolak tegas dan saya lindungi lembar jawaban saya.", "points": 5 }
+  ],
+  "explanation": "Dilema ini menguji integritas sekaligus kontrol situasi. Opsi 4 sudah menolak dan tidak memicu kegaduhan. Opsi 5 lebih baik karena menambahkan langkah protektif (self-safeguarding) agar tidak terseret pelanggaran (misal terlihat berbagi jawaban), sehingga integritas dan ketertiban ujian tetap terjaga."
+  },
+  {
+  "id": 9,
+  "category": "KEP_LIE_SCALE",
+  "question": "Pernyataan: 'Saya tidak pernah merasa takut terhadap apapun.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Ini menilai realisme emosi dasar. Takut adalah emosi adaptif; yang diharapkan adalah keberanian yang terkelola (calm under pressure), bukan “tidak punya takut”. Opsi 4 realistis. Opsi 5 lebih baik karena menolak klaim absolut, menunjukkan pemahaman diri yang matang dan lebih valid secara psikologis."
+  },
+  {
+  "id": 10,
+  "category": "KEP_INTEGRITAS_SISTEM",
+  "question": "Ada celah sistem online yang memungkinkan Anda memproses perizinan keluarga lebih cepat tanpa antre. Tidak akan ada yang tahu. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya gunakan untuk keluarga karena merasa itu kesempatan.", "points": 1 },
+  { "label": "B", "text": "Saya gunakan sekali, lalu saya berhenti agar aman.", "points": 2 },
+  { "label": "C", "text": "Saya ikut antre, tapi saya tidak mau repot melapor.", "points": 3 },
+  { "label": "D", "text": "Saya tidak gunakan celahnya dan saya tetap ikut antre.", "points": 4 },
+  { "label": "E", "text": "Saya ikut prosedur dan saya laporkan celahnya ke pihak terkait.", "points": 5 }
+  ],
+  "explanation": "Ini uji integritas saat ada privilege. Opsi 4 sudah benar karena tidak menyalahgunakan wewenang. Opsi 5 lebih unggul karena menutup risiko berulang dengan melaporkan bug (preventive control), menjaga fairness layanan, dan menunjukkan loyalitas pada perbaikan sistem—bukan sekadar tidak ikut memanfaatkan."
+  },
+  {
+  "id": 11,
+  "category": "KEP_KEUANGAN_NEGARA",
+  "question": "Tim Anda menghemat anggaran kegiatan Rp 5.000.000. Ketua tim mengusulkan uang itu dibagi rata sebagai bonus kerja keras. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya setuju karena itu hasil efisiensi kerja tim.", "points": 1 },
+  { "label": "B", "text": "Saya ikut saja agar tidak dianggap menghambat.", "points": 2 },
+  { "label": "C", "text": "Saya usul dipakai untuk konsumsi internal agar tim senang.", "points": 3 },
+  { "label": "D", "text": "Saya usul konsultasi ke keuangan untuk opsi yang sah.", "points": 4 },
+  { "label": "E", "text": "Saya tolak dan pastikan sisa anggaran diproses sesuai aturan.", "points": 5 }
+  ],
+  "explanation": "Ini menguji akuntabilitas keuangan dan integritas kolektif. Opsi 4 cukup baik karena mengarahkan ke prosedur (mengurangi salah langkah). Opsi 5 lebih baik karena mengambil posisi tegas bahwa pembagian sisa anggaran untuk bonus adalah penyimpangan, lalu memastikan proses pertanggungjawaban dilakukan rapi (audit readiness) sesuai ketentuan."
+  },
+  {
+  "id": 12,
+  "category": "KEP_GRATIFIKASI_PASIF",
+  "question": "Seorang rekanan mengirim parsel lebaran mewah ke rumah Anda saat Anda tidak di rumah, dan keluarga sudah menerimanya. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya biarkan saja karena sudah terlanjur diterima.", "points": 1 },
+  { "label": "B", "text": "Saya bagikan ke sekitar supaya tidak terasa gratifikasi.", "points": 2 },
+  { "label": "C", "text": "Saya kembalikan ke pengirim tanpa membuat urusan panjang.", "points": 3 },
+  { "label": "D", "text": "Saya laporkan ke UPG lalu menunggu arahan tindak lanjut.", "points": 4 },
+  { "label": "E", "text": "Saya laporkan resmi dan dokumentasikan status parselnya.", "points": 5 }
+  ],
+  "explanation": "Dilema ini menguji kepatuhan anti-gratifikasi dan bukti akuntabilitas. Opsi 4 sudah tepat karena pelaporan melindungi Anda secara administratif. Opsi 5 lebih baik karena menambahkan dokumentasi dan jejak prosedural (audit trail) sehingga tidak ada ruang interpretasi negatif, sekaligus menjaga integritas institusi dan diri."
+  },
+  {
+  "id": 13,
+  "category": "KEP_MARKUP_ANGGARAN",
+  "question": "Atasan meminta Anda menaikkan harga (mark-up) pada nota pembelian agar ada dana lebih untuk operasional. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya ikuti perintah agar aman dari risiko dimutasi.", "points": 1 },
+  { "label": "B", "text": "Saya lakukan sedikit saja supaya terlihat wajar.", "points": 2 },
+  { "label": "C", "text": "Saya menghindar agar tugas itu dialihkan ke orang lain.", "points": 3 },
+  { "label": "D", "text": "Saya tolak dan jelaskan risikonya, lalu berhenti di situ.", "points": 4 },
+  { "label": "E", "text": "Saya tolak, tawarkan solusi legal, dan minta jalur resmi.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas di bawah tekanan otoritas. Opsi 4 sudah menolak dengan komunikasi asertif. Opsi 5 lebih baik karena menambahkan problem solving legal (misal usulan penyesuaian anggaran/pertanggungjawaban sesuai aturan) serta mendorong keputusan tertulis/jalur resmi, sehingga mengurangi tekanan informal dan melindungi organisasi dari praktik koruptif."
+  },
+  {
+  "id": 14,
+  "category": "KEP_KESALAHAN_PAYROLL",
+  "question": "Gaji Anda masuk lebih banyak Rp 2.000.000 tanpa notifikasi bonus. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Saya gunakan dulu, nanti kalau diminta baru saya urus.", "points": 1 },
+  { "label": "B", "text": "Saya diam saja dan berharap itu memang hak saya.", "points": 2 },
+  { "label": "C", "text": "Saya simpan terpisah dan saya tunggu informasi resmi.", "points": 3 },
+  { "label": "D", "text": "Saya tanya rekan apakah mereka juga mengalami hal sama.", "points": 4 },
+  { "label": "E", "text": "Saya konfirmasi ke bendahara dan siap koreksi bila salah.", "points": 5 }
+  ],
+  "explanation": "Ini menilai kejujuran aktif dan kontrol risiko. Opsi 4 memberi konteks, tetapi belum menyelesaikan akuntabilitas. Opsi 5 lebih baik karena langsung ke sumber otoritatif (bendahara), mempercepat koreksi, dan mencegah dugaan penggelapan/penyalahgunaan dana—menunjukkan integritas dan ketertiban administrasi."
+  },
+  {
+  "id": 15,
+  "category": "KEP_SPPD_FIKTIF",
+  "question": "Anda dinas luar kota 3 hari, namun urusan selesai dalam 2 hari. Anda masih memegang uang saku untuk hari ke-3. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Saya tetap menginap sampai hari ke-3 agar sesuai surat.", "points": 2 },
+  { "label": "B", "text": "Saya pulang hari ke-2, tapi laporan tetap 3 hari.", "points": 1 },
+  { "label": "C", "text": "Saya pulang hari ke-2 dan memakai sisanya untuk kebutuhan tim.", "points": 3 },
+  { "label": "D", "text": "Saya pulang hari ke-2 dan saya konsultasikan mekanismenya.", "points": 4 },
+  { "label": "E", "text": "Saya laporkan realisasi 2 hari dan kembalikan sisa dana.", "points": 5 }
+  ],
+  "explanation": "Ini menguji akuntabilitas SPPD dan integritas laporan. Opsi 4 sudah mengarah ke prosedur dengan konsultasi. Opsi 5 lebih baik karena memastikan pelaporan sesuai realisasi (truthful reporting) dan mengembalikan dana, sehingga tidak terjadi SPPD fiktif atau manipulasi administrasi."
+  },
+  {
+  "id": 16,
+  "category": "KEP_PINJAM_UANG_KANTOR",
+  "question": "Anda terdesak biaya rumah sakit keluarga dan memegang uang kas kecil kantor. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Saya pinjam dulu dari kas kecil dan nanti saya ganti.", "points": 2 },
+  { "label": "B", "text": "Saya ambil sedikit karena yakin tidak akan ketahuan.", "points": 1 },
+  { "label": "C", "text": "Saya minta izin atasan untuk memakai kas kecil sementara.", "points": 3 },
+  { "label": "D", "text": "Saya minta bantuan rekan/akses koperasi yang resmi.", "points": 4 },
+  { "label": "E", "text": "Saya tidak menyentuh uang kantor dan cari solusi legal.", "points": 5 }
+  ],
+  "explanation": "Ini menilai pemisahan aset dan kontrol impuls. Opsi 4 sudah mencari jalur bantuan yang relatif aman. Opsi 5 lebih baik karena secara tegas menjaga boundary: uang kantor bukan sumber pinjaman, sekaligus tetap problem-focused dengan mencari alternatif legal (koperasi/bank/keluarga), sehingga integritas dan akuntabilitas tetap utuh."
+  },
+  {
+  "id": 17,
+  "category": "KEP_WHISTLEBLOWING",
+  "question": "Anda menemukan bukti valid atasan melakukan korupsi pengadaan, namun ia sering membantu karir Anda. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya diam karena merasa berutang budi kepadanya.", "points": 1 },
+  { "label": "B", "text": "Saya ceritakan ke rekan dekat untuk mencari dukungan dulu.", "points": 2 },
+  { "label": "C", "text": "Saya tegur beliau secara informal agar segera berhenti.", "points": 3 },
+  { "label": "D", "text": "Saya kumpulkan bukti rapi dan pertimbangkan jalur pelaporan.", "points": 4 },
+  { "label": "E", "text": "Saya lapor lewat WBS/kanal resmi dengan bukti dan rahasia.", "points": 5 }
+  ],
+  "explanation": "Ini menguji konflik kepentingan dan integritas terhadap institusi. Opsi 4 sudah baik karena menjaga evidence handling dan kehati-hatian. Opsi 5 lebih unggul karena menggunakan kanal resmi (procedural integrity), menjaga kerahasiaan (menghindari fitnah/gosip), dan melindungi institusi melalui mekanisme pengawasan yang sah."
+  },
+  {
+  "id": 18,
+  "category": "KEP_FASILITAS_KANTOR",
+  "question": "Kendaraan dinas operasional sedang menganggur di hari Minggu. Anda ingin menggunakannya untuk pergi kondangan keluarga. Tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Saya gunakan saja karena sedang tidak dipakai siapa pun.", "points": 1 },
+  { "label": "B", "text": "Saya gunakan asal saya isi bensin sendiri dan cepat pulang.", "points": 2 },
+  { "label": "C", "text": "Saya minta izin teman yang pegang kunci kendaraan dinas.", "points": 3 },
+  { "label": "D", "text": "Saya ragu, lalu saya pilih pakai kendaraan pribadi saja.", "points": 4 },
+  { "label": "E", "text": "Saya tidak gunakan fasilitas dinas dan patuhi batas aset negara.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas penggunaan aset negara dan self-control. Opsi 4 sudah aman karena memilih opsi pribadi. Opsi 5 lebih baik karena menegaskan prinsip kepatuhan (fasilitas dinas hanya untuk dinas), sehingga mencegah normalisasi penyalahgunaan aset dan menjaga citra institusi secara konsisten."
+  },
+  {
+  "id": 19,
+  "category": "KEP_BISNIS_SAMPINGAN",
+  "question": "Gaji Anda dirasa kurang dan Anda ingin penghasilan tambahan. Cara mana yang Anda pilih?",
+  "options": [
+  { "label": "A", "text": "Saya jadi calo layanan agar cepat dapat uang.", "points": 1 },
+  { "label": "B", "text": "Saya gunakan fasilitas kantor untuk usaha kecil-kecilan.", "points": 2 },
+  { "label": "C", "text": "Saya ambil pekerjaan sampingan yang berisiko citra institusi.", "points": 3 },
+  { "label": "D", "text": "Saya cari usaha legal di luar jam dinas tanpa konflik tugas.", "points": 4 },
+  { "label": "E", "text": "Saya pilih usaha legal, patuh aturan, dan transparan bila wajib.", "points": 5 }
+  ],
+  "explanation": "Ini menguji etika profesi, konflik kepentingan, dan integritas. Opsi 4 sudah tepat karena legal dan tidak mengganggu dinas. Opsi 5 lebih baik karena menambahkan kepatuhan administratif (transparansi/izin bila diwajibkan aturan internal) dan menjaga martabat institusi—mencegah potensi “abuse of power” dan reputational risk."
+  },
+  {
+  "id": 20,
+  "category": "KEP_INTEGRITAS_LAPORAN",
+  "question": "Saat membuat LPJ kegiatan, ada bukti bon hilang senilai Rp 50.000. Teman menyarankan beli bon kosong dan isi sendiri. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Saya buat bon baru karena nilainya kecil dan cepat selesai.", "points": 1 },
+  { "label": "B", "text": "Saya biarkan saja, nanti kalau ditanya baru saya jawab.", "points": 2 },
+  { "label": "C", "text": "Saya tutup dengan cara lain agar laporan terlihat rapi.", "points": 3 },
+  { "label": "D", "text": "Saya minta toko buatkan salinan kuitansi bila memungkinkan.", "points": 4 },
+  { "label": "E", "text": "Saya buat berita acara/SPTJM sesuai prosedur dan laporkan.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas administrasi dan akuntabilitas dokumen. Opsi 4 cukup baik karena berupaya mendapatkan bukti yang sah. Opsi 5 lebih unggul karena memakai mekanisme resmi saat bukti tidak dapat dipulihkan (SPTJM/BA kehilangan), sehingga tidak terjadi pemalsuan dokumen dan LPJ tetap audit-ready serta defensible secara hukum."
+  },
+  {
+    "id": 21,
+    "category": "KEP_TITIP_ABSEN",
+    "question": "Teman seangkatan terlambat bangun dan meminta Anda menandatangani daftar hadir atas namanya agar tidak dihukum. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya bantu tanda tangan sekali saja agar situasi tetap aman.", "points": 1 },
+    { "label": "B", "text": "Saya menolak dan membiarkan dia mengurus konsekuensinya.", "points": 3 },
+    { "label": "C", "text": "Saya sarankan ia lapor alasan terlambat, tanpa saya ikut campur.", "points": 4 },
+    { "label": "D", "text": "Saya menolak, lalu saya ingatkan cara izin yang benar.", "points": 5 },
+    { "label": "E", "text": "Saya minta orang lain yang mengurus supaya saya tidak terlibat.", "points": 2 }
+    ],
+    "explanation": "Titip absen termasuk pemalsuan data dan melanggar integritas administrasi. Opsi 4 menunjukkan assertive communication: menolak tegas namun tetap membantu teman memilih jalur yang sah (izin/penjelasan) sehingga disiplin dan ketertiban terjaga. Opsi 5 lebih baik daripada 4 karena tidak berhenti pada penolakan; ia mengarahkan perilaku korektif dan menguatkan kontrol diri serta kepatuhan prosedur."
+    },
+    {
+    "id": 22,
+    "category": "KEP_PLAGIARISME",
+    "question": "Anda selesai menyusun makalah. Teman akrab meminta file untuk 'referensi' dan Anda curiga akan di-copy. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya kirim file lengkap karena percaya dia akan bijak.", "points": 2 },
+    { "label": "B", "text": "Saya kirim file, tapi saya minta janji tidak menyalin.", "points": 3 },
+    { "label": "C", "text": "Saya kirim poin garis besar agar ia paham alurnya.", "points": 4 },
+    { "label": "D", "text": "Saya menolak memberi file, tapi saya tawarkan bimbingan.", "points": 5 },
+    { "label": "E", "text": "Saya menolak dengan alasan palsu supaya tidak enak.", "points": 1 }
+    ],
+    "explanation": "Plagiarisme merusak integritas akademik dan menunjukkan moral hazard. Opsi 4 paling matang: menjaga integritas sambil tetap memberi bantuan yang sah (coaching), ini selaras service excellence internal. Opsi 3 sudah membantu tanpa menyerahkan bahan mentah, tetapi masih berisiko disalin. Opsi 5 lebih baik daripada 4 karena memutus peluang plagiarisme sekaligus membangun kapasitas teman (problem solving, bukan enabling)."
+    },
+    {
+    "id": 23,
+    "category": "KEP_KERJA_KELOMPOK",
+    "question": "Dalam kerja kelompok, ada anggota tidak berkontribusi namun meminta namanya tetap dicantumkan. Anda ketua tim. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya cantumkan saja agar hubungan tetap baik.", "points": 1 },
+    { "label": "B", "text": "Saya coret namanya tanpa bicara agar cepat selesai.", "points": 2 },
+    { "label": "C", "text": "Saya beri tugas kecil dan tenggat, lalu evaluasi hasilnya.", "points": 4 },
+    { "label": "D", "text": "Saya ajak bicara tegas dan minta ia memenuhi peran tim.", "points": 3 },
+    { "label": "E", "text": "Saya bina dulu, lalu laporkan kondisi objektif bila gagal.", "points": 5 }
+    ],
+    "explanation": "Pemimpin menegakkan fairness dan akuntabilitas. Opsi 3 sudah mengarah pada manajemen kinerja (assign–deadline–review). Opsi 5 lebih baik karena menambahkan eskalasi prosedural (chain of command) bila pembinaan gagal, sehingga keputusan penilaian menjadi objektif dan defensible, bukan emosional atau diam-diam."
+    },
+    {
+    "id": 24,
+    "category": "KEP_PELANGGARAN_SOP",
+    "question": "Atasan meminta Anda mempercepat pemeriksaan keamanan karena antrean panjang dan warga mulai komplain. Tindakan Anda?",
+    "options": [
+    { "label": "A", "text": "Saya potong beberapa langkah agar antrean cepat habis.", "points": 1 },
+    { "label": "B", "text": "Saya percepat alur, tapi tetap menjalankan poin kritis SOP.", "points": 3 },
+    { "label": "C", "text": "Saya minta atasan menetapkan prioritas risiko sebelum ubah alur.", "points": 4 },
+    { "label": "D", "text": "Saya buka jalur tambahan bila ada personel yang bisa membantu.", "points": 5 },
+    { "label": "E", "text": "Saya menutup loket sebentar agar warga tenang dulu.", "points": 2 }
+    ],
+    "explanation": "SOP keamanan adalah kontrol risiko; memotong langkah tanpa mitigasi dapat memicu insiden. Opsi 4 menunjukkan manajemen operasi: mengatasi bottleneck dengan resource reallocation, bukan menurunkan standar. Opsi 3 sudah baik karena meminta penetapan prioritas risiko (risk-based decision) melalui chain of command. Opsi 5 lebih unggul karena langsung memberi solusi operasional yang menjaga keselamatan sekaligus service excellence (waktu tunggu turun tanpa kompromi SOP)."
+    },
+    {
+    "id": 25,
+    "category": "KEP_KONEKSI_DALAM",
+    "question": "Saudara Anda ikut seleksi di instansi tempat Anda bekerja dan meminta 'bocoran' agar lolos. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya berikan sedikit info internal yang menurut saya aman.", "points": 1 },
+    { "label": "B", "text": "Saya menolak total dan memilih tidak berkomunikasi dulu.", "points": 3 },
+    { "label": "C", "text": "Saya arahkan ke sumber resmi dan materi publik yang tersedia.", "points": 5 },
+    { "label": "D", "text": "Saya beri tips umum belajar tanpa menyentuh hal rahasia.", "points": 4 },
+    { "label": "E", "text": "Saya carikan kenalan panitia agar prosesnya dibantu.", "points": 0 }
+    ],
+    "explanation": "Ini menguji konflik kepentingan dan integritas institusi. Opsi 4 sudah membantu secara etis melalui tips umum. Opsi 5 lebih baik karena menegaskan batas: hanya rujukan resmi/materi publik sehingga tidak ada privilege tersembunyi, menjaga fairness dan mencegah pelanggaran rahasia jabatan."
+    },
+    {
+    "id": 26,
+    "category": "KEP_DATA_FIKTIF",
+    "question": "Atasan meminta Anda mengubah data laporan kinerja agar terlihat mencapai target, padahal realitanya belum. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya ubah data karena itu perintah dan untuk citra tim.", "points": 1 },
+    { "label": "B", "text": "Saya ubah sedikit agar tidak terlalu mencolok.", "points": 2 },
+    { "label": "C", "text": "Saya tetap pakai data asli, tapi hanya saya simpan internal.", "points": 3 },
+    { "label": "D", "text": "Saya sampaikan data asli dan jelaskan kendala operasionalnya.", "points": 4 },
+    { "label": "E", "text": "Saya pakai data asli, beri analisa, dan rencana perbaikan.", "points": 5 }
+    ],
+    "explanation": "Memalsukan data merusak integritas dan menghasilkan keputusan strategis yang salah. Opsi 4 sudah jujur dan mengkomunikasikan kendala secara asertif. Opsi 5 lebih baik karena menambahkan tindakan korektif (corrective action plan) dan manajemen risiko—bukan sekadar “jujur”, tetapi solutif dan berorientasi perbaikan sistem."
+    },
+    {
+    "id": 27,
+    "category": "KEP_BARANG_TEMUAN",
+    "question": "Saat piket asrama, Anda menemukan handphone mahal di kamar mandi. Tidak ada CCTV dan Anda sedang butuh uang. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya simpan dulu, kalau dicari baru saya kembalikan.", "points": 2 },
+    { "label": "B", "text": "Saya amankan dan saya tunggu pemiliknya datang sendiri.", "points": 3 },
+    { "label": "C", "text": "Saya serahkan ke petugas piket/provost dan dicatat.", "points": 5 },
+    { "label": "D", "text": "Saya umumkan di grup asrama tanpa menyerahkan ke petugas.", "points": 4 },
+    { "label": "E", "text": "Saya biarkan saja karena takut salah paham.", "points": 1 }
+    ],
+    "explanation": "Barang temuan harus diamankan dengan prosedur untuk mencegah tuduhan dan penyalahgunaan. Opsi 4 sudah membantu pencarian pemilik, namun rawan dispute dan tidak ada chain of custody. Opsi 5 lebih baik karena memastikan pencatatan resmi (chain of custody), menjaga integritas, dan meminimalkan risiko konflik klaim."
+    },
+    {
+    "id": 28,
+    "category": "KEP_ANTREAN_PRIORITAS",
+    "question": "Anda bertugas di loket. Seorang senior meminta didahulukan sementara warga masih antre. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya dahulukan agar tidak terjadi masalah dengan senior.", "points": 1 },
+    { "label": "B", "text": "Saya tanya warga apakah setuju senior didahulukan.", "points": 3 },
+    { "label": "C", "text": "Saya minta senior menunggu sambil saya percepat layanan.", "points": 4 },
+    { "label": "D", "text": "Saya minta senior ambil nomor antre, dengan bahasa sopan.", "points": 5 },
+    { "label": "E", "text": "Saya pura-pura tidak dengar dan fokus melayani warga.", "points": 2 }
+    ],
+    "explanation": "Pelayanan publik menuntut fairness dan konsistensi prosedur. Opsi 4 sudah menjaga etika hierarki dengan komunikasi sopan sekaligus menegakkan aturan. Opsi 5 lebih baik karena menghindari praktik “vote-based fairness” (opsi 3) yang bisa memicu tekanan sosial pada warga; aturan berlaku sama, dan penolakan dilakukan asertif serta transparan."
+    },
+    {
+    "id": 29,
+    "category": "KEP_KESALAHAN_REKAN",
+    "question": "Rekan tim melakukan kesalahan berat yang merugikan kantor dan memohon agar tidak dilaporkan, ia berjanji memperbaiki sendiri. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya tutupi karena kasihan dan demi kekompakan tim.", "points": 1 },
+    { "label": "B", "text": "Saya bantu perbaiki diam-diam agar masalah cepat selesai.", "points": 2 },
+    { "label": "C", "text": "Saya beri waktu singkat untuk mitigasi, lalu saya evaluasi.", "points": 3 },
+    { "label": "D", "text": "Saya laporkan ke pimpinan dengan data objektif, tanpa drama.", "points": 5 },
+    { "label": "E", "text": "Saya laporkan, tetapi sambil menyalahkan dia di depan umum.", "points": 4 }
+    ],
+    "explanation": "Kesalahan berat adalah isu manajemen risiko; menutupinya memperbesar dampak dan mencederai integritas. Opsi 4 sudah tepat karena pelaporan objektif menjaga kontrol organisasi. Opsi 5 lebih baik daripada 4 karena menambahkan aspek de-eskalasi: tidak mempermalukan rekan (opsi 4), namun tetap memastikan pimpinan punya informasi untuk containment dan corrective action secara terukur."
+    },
+    {
+    "id": 30,
+    "category": "KEP_PEMBAGIAN_TUGAS",
+    "question": "Anda diberi tugas di luar job description karena rekan yang biasa menangani sedang cuti, sementara Anda belum menguasainya. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Saya tolak karena itu bukan tanggung jawab saya.", "points": 1 },
+    { "label": "B", "text": "Saya kerjakan seadanya, kalau salah bukan urusan saya.", "points": 2 },
+    { "label": "C", "text": "Saya terima, lalu saya minta arahan singkat agar aman.", "points": 4 },
+    { "label": "D", "text": "Saya terima dan saya belajar mandiri sampai bisa.", "points": 3 },
+    { "label": "E", "text": "Saya terima, belajar cepat, dan konsultasi saat kritis.", "points": 5 }
+    ],
+    "explanation": "Ini menguji adaptabilitas dan tanggung jawab. Opsi 4 menunjukkan kesediaan menerima tugas dan meminta arahan untuk kontrol risiko. Opsi 5 lebih baik karena menggabungkan growth mindset (belajar cepat) dengan escalation point yang tepat (konsultasi saat kritis), sehingga kinerja tetap akurat dan tidak membahayakan layanan."
+    },
+    {
+    "id": 31,
+    "category": "KEP_KONSISTENSI_SOSIAL",
+    "question": "Pernyataan A: 'Saya lebih suka menghabiskan waktu luang sendirian daripada berkumpul dengan teman.'",
+    "options": [
+    { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+    { "label": "B", "text": "Sesuai", "points": 2 },
+    { "label": "C", "text": "Ragu-ragu", "points": 3 },
+    { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+    { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+    ],
+    "explanation": "Item ini mengukur kecenderungan sosial (social engagement) untuk konteks pelayanan dan kerja tim. Opsi 4 sudah menunjukkan fleksibilitas sosial tanpa harus ekstrem. Opsi 5 lebih baik karena menandakan kesiapan berinteraksi luas (service orientation) yang relevan untuk tugas lapangan, namun tetap perlu konsistensi dengan item pasangan agar tidak terkesan “faking”."
+    },
+    {
+    "id": 32,
+    "category": "KEP_KONSISTENSI_EMOSI",
+    "question": "Pernyataan B: 'Saya sering merasa jantung berdebar kencang tanpa alasan yang jelas.'",
+    "options": [
+    { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+    { "label": "B", "text": "Sesuai", "points": 2 },
+    { "label": "C", "text": "Ragu-ragu", "points": 3 },
+    { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+    { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+    ],
+    "explanation": "Ini indikator somatik kecemasan (anxiety somatic symptom). Opsi 4 menunjukkan kontrol emosi yang cukup baik. Opsi 5 lebih baik karena menandakan stabilitas fisiologis saat tidak ada pemicu, yang berkorelasi dengan kesiapan menghadapi tekanan. Namun, kewajaran tetap diuji di item lain agar profil tidak tampak “too perfect”."
+    },
+    {
+    "id": 33,
+    "category": "KEP_KONSISTENSI_ATURAN",
+    "question": "Pernyataan C: 'Kadang-kadang kita perlu melanggar sedikit aturan demi tujuan yang baik.'",
+    "options": [
+    { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+    { "label": "B", "text": "Sesuai", "points": 2 },
+    { "label": "C", "text": "Ragu-ragu", "points": 3 },
+    { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+    { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+    ],
+    "explanation": "Ini menguji moral reasoning dan potensi “ends justify means”. Opsi 4 sudah menolak pelanggaran aturan. Opsi 5 lebih baik karena menegaskan integritas hukum sebagai baseline, serta mengurangi risiko penyalahgunaan diskresi. Dalam konteks institusi hirarkis, diskresi harus terukur dan dapat dipertanggungjawabkan, bukan “melanggar sedikit”."
+    },
+    {
+    "id": 34,
+    "category": "KEP_KONSISTENSI_AGRESIFITAS",
+    "question": "Pernyataan D: 'Saya kadang ingin melampiaskan amarah dengan tindakan fisik seperti membanting barang.'",
+    "options": [
+    { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+    { "label": "B", "text": "Sesuai", "points": 2 },
+    { "label": "C", "text": "Ragu-ragu", "points": 3 },
+    { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+    { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+    ],
+    "explanation": "Item ini mengukur kontrol impuls dan agresivitas reaktif. Opsi 4 sudah menggambarkan kemampuan menahan dorongan. Opsi 5 lebih baik karena menunjukkan self-regulation yang kuat, penting untuk situasi konflik dan pengambilan keputusan taktis. Konsistensi akan dicek dengan item emosi/impulsivitas lain agar tidak tampak dibuat-buat."
+    },
+    {
+    "id": 35,
+    "category": "KEP_KONSISTENSI_SOSIAL_REVERSED",
+    "question": "Pernyataan E (pasangan Soal 31): 'Saya merasa nyaman berada di keramaian seperti acara besar atau pesta.'",
+    "options": [
+    { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+    { "label": "B", "text": "Sesuai", "points": 4 },
+    { "label": "C", "text": "Ragu-ragu", "points": 3 },
+    { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+    { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+    ],
+    "explanation": "Item ini adalah reverse pair untuk mengecek konsistensi kecenderungan sosial. Opsi 4 sudah menunjukkan kenyamanan sosial yang memadai. Opsi 5 lebih baik karena menandakan readiness untuk crowd setting (pelayanan/komunikasi massa) tanpa cepat terkuras. Namun, nilai ideal tetap harus sinkron dengan Soal 31 agar tidak tampak kontradiktif."
+    },
+    {
+      "id": 36,
+      "category": "KEP_KONSISTENSI_SEMANGAT",
+      "question": "Selama beberapa hari pelatihan intens, Anda bangun pagi terasa lelah dan kurang bertenaga. Apa respons Anda?",
+      "options": [
+      { "label": "A", "text": "Saya mengeluh dan mencari alasan agar bisa dispensasi.", "points": 1 },
+      { "label": "B", "text": "Saya memaksa terus tanpa mengubah apa pun dari kebiasaan.", "points": 2 },
+      { "label": "C", "text": "Saya menambah stimulan agar tetap jalan, meski tidak stabil.", "points": 3 },
+      { "label": "D", "text": "Saya evaluasi tidur dan pola makan, lalu perbaiki rutinitas.", "points": 4 },
+      { "label": "E", "text": "Saya perbaiki rutinitas dan koordinasi bila mengganggu tugas.", "points": 5 }
+      ],
+      "explanation": "Ini menguji vitalitas dan self-management. Opsi 4 sudah adaptif (self-regulation) dengan memperbaiki faktor pemulihan. Opsi 5 lebih unggul karena menambah aspek chain of command: bila kondisi mulai menurunkan performa, Anda melakukan koordinasi dini untuk mitigasi risiko tanpa mencari-cari alasan, sehingga disiplin dan kesiapan tugas tetap terjaga."
+      },
+      {
+      "id": 37,
+      "category": "KEP_KONSISTENSI_PERCAYA_DIRI",
+      "question": "Anda melihat beberapa orang tertawa saat Anda lewat, lalu Anda merasa mereka membicarakan keburukan Anda. Apa yang Anda lakukan?",
+      "options": [
+      { "label": "A", "text": "Saya langsung menegur keras agar mereka kapok.", "points": 1 },
+      { "label": "B", "text": "Saya menghindari mereka dan menyimpan kesal sendiri.", "points": 2 },
+      { "label": "C", "text": "Saya memendam curiga dan fokus pada pikiran negatif itu.", "points": 3 },
+      { "label": "D", "text": "Saya menenangkan diri dan berasumsi positif dulu.", "points": 4 },
+      { "label": "E", "text": "Saya tenang, cek fakta bila perlu, lalu lanjutkan tugas.", "points": 5 }
+      ],
+      "explanation": "Ini menguji stabilitas emosi dan cognitive reappraisal. Opsi 4 sudah mengurangi bias kecurigaan dan mencegah reaksi impulsif. Opsi 5 lebih baik karena menggabungkan kontrol diri dengan reality-testing: Anda tidak reaktif, namun tetap berbasis data bila ada indikasi nyata, sehingga menghindari konflik yang tidak perlu (de-eskalasi) dan menjaga profesionalisme."
+      },
+      {
+      "id": 38,
+      "category": "KEP_KONSISTENSI_AMBISI",
+      "question": "Anda sudah memenuhi standar minimal, lalu ada kesempatan ikut pelatihan tambahan yang menantang. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya menolak, karena merasa capaian sekarang sudah cukup.", "points": 1 },
+      { "label": "B", "text": "Saya ikut hanya bila diwajibkan, bukan karena kemauan.", "points": 2 },
+      { "label": "C", "text": "Saya ikut, tapi tanpa target jelas dan sekadar menggugurkan.", "points": 3 },
+      { "label": "D", "text": "Saya ikut untuk meningkatkan kemampuan dan memperluas pengalaman.", "points": 4 },
+      { "label": "E", "text": "Saya ikut, pasang target terukur, dan minta umpan balik rutin.", "points": 5 }
+      ],
+      "explanation": "Ini mengukur achievement motivation dan growth orientation. Opsi 4 sudah positif karena memilih berkembang. Opsi 5 lebih unggul karena menambahkan disiplin eksekusi: target terukur + feedback loop membuat peningkatan kompetensi lebih nyata, selaras dengan tuntutan kinerja dan pembinaan dalam organisasi hirarkis."
+      },
+      {
+      "id": 39,
+      "category": "KEP_KONSISTENSI_PERATURAN_REVERSED",
+      "question": "Anda terlambat dan jalan terlihat sepi, lalu muncul godaan melanggar aturan lalu lintas kecil agar cepat. Respons Anda?",
+      "options": [
+      { "label": "A", "text": "Saya melanggar saja, toh risikonya kecil dan tidak terlihat.", "points": 1 },
+      { "label": "B", "text": "Saya melanggar bila terasa aman, lalu lanjut seperti biasa.", "points": 2 },
+      { "label": "C", "text": "Saya ragu, lalu memilih keputusan yang paling menguntungkan saya.", "points": 3 },
+      { "label": "D", "text": "Saya tetap patuh, meski konsekuensinya saya terlambat.", "points": 4 },
+      { "label": "E", "text": "Saya patuh, terima konsekuensi, dan perbaiki perencanaan waktu.", "points": 5 }
+      ],
+      "explanation": "Ini menguji kepatuhan dan integritas saat tidak diawasi. Opsi 4 sudah menunjukkan taat asas dan pengendalian diri. Opsi 5 lebih baik karena menambahkan akuntabilitas: Anda tidak berhenti pada patuh, tetapi melakukan tindakan korektif (preventive action) agar pelanggaran tidak berulang, sejalan dengan budaya disiplin dan manajemen risiko."
+      },
+      {
+      "id": 40,
+      "category": "KEP_KONSISTENSI_LIE_ULTIMATE",
+      "question": "Saat wawancara, Anda ditanya: 'Apakah Anda tidak pernah berbohong seumur hidup?' Jawaban Anda?",
+      "options": [
+      { "label": "A", "text": "Saya tidak pernah berbohong sama sekali dalam hidup saya.", "points": 1 },
+      { "label": "B", "text": "Saya hampir tidak pernah berbohong, bisa dihitung jari.", "points": 2 },
+      { "label": "C", "text": "Saya kurang yakin, mungkin pernah tapi saya lupa.", "points": 3 },
+      { "label": "D", "text": "Saya pernah, dan saya belajar untuk lebih hati-hati.", "points": 4 },
+      { "label": "E", "text": "Saya pernah, saya akui, dan saya biasakan jujur serta terbuka.", "points": 5 }
+      ],
+      "explanation": "Ini item validitas (lie trap) untuk mendeteksi faking good. Opsi 4 sudah realistis dan mengakui pengalaman manusiawi. Opsi 5 lebih baik karena menambahkan komitmen perilaku: pengakuan + pembiasaan kejujuran dan transparansi menunjukkan integritas yang dapat dipertanggungjawabkan, bukan sekadar klaim moral."
+      },
+      {
+      "id": 41,
+      "category": "KEP_JOHARI_SELF_AWARENESS",
+      "question": "Anda menyadari ada kebiasaan kurang baik yang ingin diubah, tetapi Anda sering kembali mengulangnya. Apa sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya menolak mengakui, karena saya merasa tidak bermasalah.", "points": 1 },
+      { "label": "B", "text": "Saya mengakui, tapi saya biarkan karena sulit diubah.", "points": 2 },
+      { "label": "C", "text": "Saya mengakui, namun saya menyalahkan situasi sebagai penyebab.", "points": 3 },
+      { "label": "D", "text": "Saya mengakui dan mencoba mengubahnya pelan-pelan sendiri.", "points": 4 },
+      { "label": "E", "text": "Saya akui, buat rencana, dan minta kontrol/umpan balik.", "points": 5 }
+      ],
+      "explanation": "Ini mengukur self-awareness dan kemampuan perbaikan diri. Opsi 4 sudah menunjukkan niat berubah (self-regulation). Opsi 5 lebih baik karena menambah mekanisme kontrol: rencana jelas + feedback meningkatkan akuntabilitas, memperluas open area Johari, dan memperkuat pembinaan diri yang relevan untuk pola disiplin organisasi."
+      },
+      {
+      "id": 42,
+      "category": "KEP_JOHARI_KRITIK",
+      "question": "Anda dikritik dengan nada keras oleh senior di depan orang lain. Respons Anda?",
+      "options": [
+      { "label": "A", "text": "Saya balas berdebat agar saya tidak terlihat lemah.", "points": 1 },
+      { "label": "B", "text": "Saya diam, tapi menyimpan dendam dan menjaga jarak.", "points": 2 },
+      { "label": "C", "text": "Saya tersinggung lalu performa saya turun beberapa hari.", "points": 3 },
+      { "label": "D", "text": "Saya tenangkan diri dan minta contoh jelas yang dimaksud.", "points": 4 },
+      { "label": "E", "text": "Saya regulasi emosi, klarifikasi, lalu sepakati perbaikan cepat.", "points": 5 }
+      ],
+      "explanation": "Ini menguji emotional regulation dan komunikasi asertif. Opsi 4 sudah melakukan de-eskalasi dan meminta kejelasan (clarifying). Opsi 5 lebih unggul karena menutup loop: bukan hanya klarifikasi, tetapi memastikan tindak lanjut perbaikan (actionable improvement), menjaga hormat pada hierarki tanpa kehilangan kontrol diri."
+      },
+      {
+      "id": 43,
+      "category": "KEP_KONSISTENSI_MALAS",
+      "question": "Anda mendapat tugas yang membosankan dengan tenggat satu minggu. Cara Anda mengelolanya?",
+      "options": [
+      { "label": "A", "text": "Saya tunda sampai malam terakhir, baru dikerjakan terburu-buru.", "points": 1 },
+      { "label": "B", "text": "Saya mulai mendekati tenggat, karena biasanya tetap selesai.", "points": 2 },
+      { "label": "C", "text": "Saya cicil, tapi sering meleset dan akhirnya tetap mepet.", "points": 3 },
+      { "label": "D", "text": "Saya jadwalkan dari awal agar tidak menumpuk di akhir.", "points": 4 },
+      { "label": "E", "text": "Saya timebox harian, selesai lebih awal, lalu cek kualitas.", "points": 5 }
+      ],
+      "explanation": "Ini mengukur disiplin kerja dan kontrol impuls terhadap prokrastinasi. Opsi 4 sudah menerapkan perencanaan. Opsi 5 lebih baik karena menambah quality control dan buffer waktu, selaras dengan kultur akuntabilitas dan mengurangi risiko kesalahan saat tekanan meningkat."
+      },
+      {
+      "id": 44,
+      "category": "KEP_KONSISTENSI_LUPA",
+      "question": "Anda bertemu orang baru dalam konteks dinas dan tiba-tiba lupa namanya saat harus menyapanya. Apa yang Anda lakukan?",
+      "options": [
+      { "label": "A", "text": "Saya pura-pura tahu dan berharap tidak ketahuan.", "points": 1 },
+      { "label": "B", "text": "Saya menghindar agar tidak perlu menyebut namanya.", "points": 2 },
+      { "label": "C", "text": "Saya menebak namanya agar terlihat percaya diri.", "points": 3 },
+      { "label": "D", "text": "Saya minta maaf lalu minta ia mengulang namanya.", "points": 4 },
+      { "label": "E", "text": "Saya minta ulang namanya, ulangi, lalu catat sebagai pengingat.", "points": 5 }
+      ],
+      "explanation": "Ini menguji kejujuran situasional dan service orientation. Opsi 4 sudah asertif dan menjaga etika. Opsi 5 lebih unggul karena menambahkan strategi pencegahan (memory aid) sehingga kejadian serupa berkurang, menunjukkan profesionalisme dan perhatian pada detail."
+      },
+      {
+      "id": 45,
+      "category": "KEP_KONSISTENSI_IRI",
+      "question": "Teman seangkatan mendapat penghargaan. Anda merasakan sedikit iri, namun tetap ingin bersikap profesional. Apa respons Anda?",
+      "options": [
+      { "label": "A", "text": "Saya meremehkan pencapaiannya agar saya terlihat lebih baik.", "points": 1 },
+      { "label": "B", "text": "Saya membicarakan kekurangannya ke orang lain.", "points": 2 },
+      { "label": "C", "text": "Saya diam dan menjaga jarak karena merasa tidak nyaman.", "points": 3 },
+      { "label": "D", "text": "Saya ucapkan selamat, lalu refleksi untuk meningkatkan diri.", "points": 4 },
+      { "label": "E", "text": "Saya ucapkan selamat, belajar darinya, lalu buat target baru.", "points": 5 }
+      ],
+      "explanation": "Ini menguji pengendalian emosi kompetitif dan integritas relasi kerja. Opsi 4 sudah dewasa: validasi keberhasilan orang lain dan self-reflection. Opsi 5 lebih baik karena mengubah emosi menjadi motivasi terukur (achievement drive) tanpa menjatuhkan pihak lain, menjaga iklim tim dan profesionalisme."
+      },
+      {
+      "id": 46,
+      "category": "KEP_JOHARI_HIDDEN_AREA",
+      "question": "Anda mengingat kesalahan di masa lalu dan muncul penyesalan. Sikap Anda yang paling tepat?",
+      "options": [
+      { "label": "A", "text": "Saya anggap itu bukan salah saya, jadi tidak perlu dipikir.", "points": 1 },
+      { "label": "B", "text": "Saya menyesal terus-menerus sampai mengganggu fokus harian.", "points": 2 },
+      { "label": "C", "text": "Saya simpan sendiri, lalu menghindari situasi serupa karena takut.", "points": 3 },
+      { "label": "D", "text": "Saya terima sebagai pelajaran, lalu saya lanjutkan dengan tenang.", "points": 4 },
+      { "label": "E", "text": "Saya ambil pelajaran, perbaiki bila bisa, dan cegah pengulangan.", "points": 5 }
+      ],
+      "explanation": "Penyesalan yang sehat adalah refleksi, bukan ruminasi. Opsi 4 sudah menunjukkan acceptance dan stabilitas emosi. Opsi 5 lebih unggul karena menambah tindakan korektif dan pencegahan (corrective–preventive action), sejalan dengan akuntabilitas dan pembelajaran berkelanjutan dalam tugas."
+      },
+      {
+      "id": 47,
+      "category": "KEP_KONSISTENSI_KEPO",
+      "question": "Anda mendengar orang berbisik tentang sesuatu di dekat Anda, tetapi itu bukan urusan tugas Anda. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Saya ikut menyimak lalu menyebarkannya agar ramai.", "points": 1 },
+      { "label": "B", "text": "Saya menguping diam-diam karena merasa perlu tahu.", "points": 2 },
+      { "label": "C", "text": "Saya memancing informasi dengan pertanyaan agar mereka terbuka.", "points": 3 },
+      { "label": "D", "text": "Saya memilih fokus pada tugas dan tidak mencampuri urusan.", "points": 4 },
+      { "label": "E", "text": "Saya jaga batas, dan bertanya hanya bila terkait tugas resmi.", "points": 5 }
+      ],
+      "explanation": "Ini menguji impulse control, etika informasi, dan profesionalisme. Opsi 4 sudah menunjukkan boundary setting. Opsi 5 lebih baik karena menegaskan prinsip need-to-know: rasa ingin tahu dikelola dengan disiplin, sehingga menjaga kerahasiaan dan menghindari rumor yang merusak integritas."
+      },
+      {
+      "id": 48,
+      "category": "KEP_KONSISTENSI_KESAL",
+      "question": "Anda harus menunggu antrean yang sangat lama. Bagaimana Anda mengelola rasa jengkel Anda?",
+      "options": [
+      { "label": "A", "text": "Saya menyerobot antrean karena merasa waktu saya lebih penting.", "points": 1 },
+      { "label": "B", "text": "Saya protes keras agar petugas melayani saya lebih dulu.", "points": 2 },
+      { "label": "C", "text": "Saya menunjukkan kesal dengan gestur, meski tidak bicara.", "points": 3 },
+      { "label": "D", "text": "Saya menenangkan diri dan tetap menunggu sesuai giliran.", "points": 4 },
+      { "label": "E", "text": "Saya tetap tenang dan menyampaikan masukan dengan sopan bila perlu.", "points": 5 }
+      ],
+      "explanation": "Ini menguji de-eskalasi diri dan kontrol emosi dalam situasi frustasi. Opsi 4 sudah menunjukkan kepatuhan dan regulasi emosi. Opsi 5 lebih unggul karena menambah komunikasi asertif yang beretika: masukan disampaikan tanpa mengganggu ketertiban, sejalan dengan pelayanan prima dan kedewasaan sosial."
+      },
+      {
+      "id": 49,
+      "category": "KEP_KONSISTENSI_BANTUAN",
+      "question": "Saat Anda sedang dikejar tugas, ada orang meminta bantuan. Respons Anda yang paling tepat?",
+      "options": [
+      { "label": "A", "text": "Saya mengabaikan saja, karena itu bukan prioritas saya.", "points": 1 },
+      { "label": "B", "text": "Saya membentak agar dia tidak mengganggu pekerjaan.", "points": 2 },
+      { "label": "C", "text": "Saya tinggalkan tugas utama dan membantu sampai selesai.", "points": 3 },
+      { "label": "D", "text": "Saya minta dia menunggu, saya bantu setelah tugas selesai.", "points": 4 },
+      { "label": "E", "text": "Saya triase urgensi, bantu singkat, lalu arahkan jalur yang tepat.", "points": 5 }
+      ],
+      "explanation": "Ini menguji service excellence sekaligus manajemen prioritas. Opsi 4 sudah menjaga tanggung jawab utama tanpa menolak mentah-mentah. Opsi 5 lebih baik karena memakai triase (prioritization under pressure): bantuan diberikan secara efektif dan diarahkan sesuai prosedur, menjaga kualitas layanan tanpa mengorbankan tugas inti."
+      },
+      {
+      "id": 50,
+      "category": "KEP_JOHARI_KEBENARAN",
+      "question": "Anda menyadari keputusan penting yang Anda ambil ternyata keliru dan berdampak ke tim. Apa langkah Anda?",
+      "options": [
+      { "label": "A", "text": "Saya menutupinya agar tidak terlihat gagal di depan pimpinan.", "points": 1 },
+      { "label": "B", "text": "Saya mencari kambing hitam agar beban kesalahan terbagi.", "points": 2 },
+      { "label": "C", "text": "Saya perbaiki diam-diam tanpa memberi tahu siapa pun.", "points": 3 },
+      { "label": "D", "text": "Saya lapor ke pimpinan dan mengusulkan langkah perbaikan.", "points": 4 },
+      { "label": "E", "text": "Saya lapor cepat, perbaiki dampak, dan susun pencegahan ulang.", "points": 5 }
+      ],
+      "explanation": "Ini mengukur integritas, akuntabilitas, dan manajemen risiko. Opsi 4 sudah benar karena jujur dan solutif melalui chain of command. Opsi 5 lebih unggul karena menambahkan sense of urgency dan prevention plan, sehingga kerugian bisa diminimalkan dan sistem menjadi lebih kuat (lessons learned), sesuai standar profesional aparat."
+      }
+      ]
+    }

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="30,110 50,110 40,130" fill="none" stroke="black"/> <text x="65" y="125">+</text>
+  <polygon points="80,110 100,110 90,130" fill="none" stroke="black" transform="rotate(180 90 120)"/> <text x="115" y="125">=</text>
+  <text x="140" y="125" font-size="30">?</text>
+
+  <g transform="translate(170,110) scale(0.6)">
+    <polygon points="20,0 40,0 30,20" fill="none" stroke="black" stroke-width="2"/>
+    <polygon points="20,7 40,7 30,27" fill="none" stroke="black" stroke-width="2" transform="rotate(180 30 17)"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M25 25 L45 35 L45 15 Z M25 25 L45 15 A20 20 0 1 1 45 35 Z" fill="black" transform="translate(0,5)"/>
+  <path d="M85 25 L75 5 L95 5 Z M85 25 L95 5 A20 20 0 1 1 75 5 Z" fill="black" transform="translate(0,5)"/>
+  <path d="M145 25 L125 15 L125 35 Z M145 25 L125 35 A20 20 0 1 1 125 15 Z" fill="black" transform="translate(0,5)"/>
+  <text x="195" y="35" font-size="30">?</text>
+</svg>

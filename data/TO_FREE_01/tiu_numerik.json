@@ -1,0 +1,132 @@
+[
+  {
+    "id": "num-01",
+    "category": "TIU",
+    "text": "Nilai dari 33,33% × 246 + 12,5% × 64 adalah...",
+    "explanation": "JALAN TIKUS (Pecahan Istimewa):\n33,33% itu sama dengan 1/3.\n12,5% itu sama dengan 1/8.\nHitungan jadi mudah:\n(1/3 × 246) + (1/8 × 64)\n= 82 + 8\n= 90.",
+    "options": [
+      { "key": "A", "text": "88", "score": 0 },
+      { "key": "B", "text": "90", "score": 5 },
+      { "key": "C", "text": "92", "score": 0 },
+      { "key": "D", "text": "96", "score": 0 },
+      { "key": "E", "text": "100", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-02",
+    "category": "TIU",
+    "text": "Jika x = 14% dari 25 dan y = 25% dari 14, maka hubungan yang tepat adalah...",
+    "explanation": "JALAN TIKUS (Sifat Komutatif Perkalian):\nPersentase bisa dibolak-balik hasilnya SAMA.\nA% × B = B% × A.\n14/100 × 25 = 25/100 × 14.\nJadi x = y. Tidak perlu dihitung sampai ketemu angkanya.",
+    "options": [
+      { "key": "A", "text": "x > y", "score": 0 },
+      { "key": "B", "text": "x < y", "score": 0 },
+      { "key": "C", "text": "x = y", "score": 5 },
+      { "key": "D", "text": "x = 2y", "score": 0 },
+      { "key": "E", "text": "Hubungan tidak dapat ditentukan", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-03",
+    "category": "TIU",
+    "text": "Hasil dari (2024 × 2024) - (2023 × 2025) adalah...",
+    "explanation": "JALAN TIKUS (Selisih Kuadrat):\nAnggap 2024 = a.\nMaka 2023 = (a-1) dan 2025 = (a+1).\nSoal menjadi: a² - ((a-1)(a+1))\nIngat rumus: (a-1)(a+1) = a² - 1\nJadi: a² - (a² - 1) = a² - a² + 1 = 1.\nJawabannya pasti 1.",
+    "options": [
+      { "key": "A", "text": "-1", "score": 0 },
+      { "key": "B", "text": "0", "score": 0 },
+      { "key": "C", "text": "1", "score": 5 },
+      { "key": "D", "text": "2", "score": 0 },
+      { "key": "E", "text": "2024", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-04",
+    "category": "TIU",
+    "text": "Lanjutkan deret angka berikut: 2, 3, 5, 8, 12, 17, ...",
+    "explanation": "Pola Deret Bertingkat (Penjumlahan naik):\n2 ke 3 (+1)\n3 ke 5 (+2)\n5 ke 8 (+3)\n8 ke 12 (+4)\n12 ke 17 (+5)\nSelanjutnya pasti (+6).\n17 + 6 = 23.",
+    "options": [
+      { "key": "A", "text": "21", "score": 0 },
+      { "key": "B", "text": "22", "score": 0 },
+      { "key": "C", "text": "23", "score": 5 },
+      { "key": "D", "text": "24", "score": 0 },
+      { "key": "E", "text": "25", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-05",
+    "category": "TIU",
+    "text": "Lanjutkan deret berikut: 4, 9, 16, 25, 36, ...",
+    "explanation": "Pola Bilangan Kuadrat:\n2² = 4\n3² = 9\n4² = 16\n5² = 25\n6² = 36\nSelanjutnya 7² = 49.",
+    "options": [
+      { "key": "A", "text": "42", "score": 0 },
+      { "key": "B", "text": "45", "score": 0 },
+      { "key": "C", "text": "47", "score": 0 },
+      { "key": "D", "text": "48", "score": 0 },
+      { "key": "E", "text": "49", "score": 5 }
+    ]
+  },
+  {
+    "id": "num-06",
+    "category": "TIU",
+    "text": "Lanjutkan deret huruf berikut: A, C, F, J, O, ...",
+    "explanation": "Pola Loncat Huruf Bertingkat:\nA ke C (loncat B) -> Jeda 1 huruf\nC ke F (loncat D, E) -> Jeda 2 huruf\nF ke J (loncat G, H, I) -> Jeda 3 huruf\nJ ke O (loncat K, L, M, N) -> Jeda 4 huruf\nO ke ... (Harus loncat 5 huruf: P, Q, R, S, T) -> Maka jawabannya U.",
+    "options": [
+      { "key": "A", "text": "T", "score": 0 },
+      { "key": "B", "text": "U", "score": 5 },
+      { "key": "C", "text": "V", "score": 0 },
+      { "key": "D", "text": "P", "score": 0 },
+      { "key": "E", "text": "S", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-07",
+    "category": "TIU",
+    "text": "Manakah pecahan yang nilainya PALING BESAR?",
+    "explanation": "JALAN TIKUS (Kali Silang atau Desimal):\nA. 2/3 = 0,66\nB. 4/7 = 0,57\nC. 5/8 = 0,625\nD. 3/5 = 0,60\nE. 7/11 = 0,63\nYang terbesar adalah 0,66 (2/3). Cara cepat lain: Bandingkan A dan B dengan kali silang (2x7=14 vs 3x4=12, A menang). Bandingkan A dengan C (2x8=16 vs 3x5=15, A menang).",
+    "options": [
+      { "key": "A", "text": "2/3", "score": 5 },
+      { "key": "B", "text": "4/7", "score": 0 },
+      { "key": "C", "text": "5/8", "score": 0 },
+      { "key": "D", "text": "3/5", "score": 0 },
+      { "key": "E", "text": "7/11", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-08",
+    "category": "TIU",
+    "text": "Jika x = 2,888... dan y = 2√2, maka...",
+    "explanation": "Analisis:\nx = 2,88\ny = 2 × 1,414 (Ingat: √2 ≈ 1,414)\ny = 2,828\nJadi x (2,88) > y (2,82).",
+    "options": [
+      { "key": "A", "text": "x > y", "score": 5 },
+      { "key": "B", "text": "x < y", "score": 0 },
+      { "key": "C", "text": "x = y", "score": 0 },
+      { "key": "D", "text": "x = 2y", "score": 0 },
+      { "key": "E", "text": "Hubungan tidak dapat ditentukan", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-09",
+    "category": "TIU",
+    "text": "√64 + √0,25 - 2³ = ...",
+    "explanation": "Hitung satu per satu:\n√64 = 8\n√0,25 = 0,5 (Karena 0,5 x 0,5 = 0,25)\n2³ = 8\nJadi: 8 + 0,5 - 8 = 0,5.",
+    "options": [
+      { "key": "A", "text": "1", "score": 0 },
+      { "key": "B", "text": "0,5", "score": 5 },
+      { "key": "C", "text": "0,25", "score": 0 },
+      { "key": "D", "text": "0", "score": 0 },
+      { "key": "E", "text": "-0,5", "score": 0 }
+    ]
+  },
+  {
+    "id": "num-10",
+    "category": "TIU",
+    "text": "Berapakah 2/5 dari 60 ditambah 15% dari 200?",
+    "explanation": "Bagian 1: (2/5) × 60 = 2 × 12 = 24.\nBagian 2: 15% × 200 = 15/100 × 200 = 15 × 2 = 30.\nTotal: 24 + 30 = 54.",
+    "options": [
+      { "key": "A", "text": "44", "score": 0 },
+      { "key": "B", "text": "50", "score": 0 },
+      { "key": "C", "text": "54", "score": 5 },
+      { "key": "D", "text": "55", "score": 0 },
+      { "key": "E", "text": "60", "score": 0 }
+    ]
+  }
+]

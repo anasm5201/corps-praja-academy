@@ -1,0 +1,339 @@
+{
+  "title": "Paket Kecerdasan 12 – FULL SIMULATION",
+  "type": "PSIKOLOGI_KECERDASAN",
+  "description": "Simulasi akhir komprehensif mencakup Verbal, Numerik, Logika, dan Figural dengan durasi ketat untuk menguji kesiapan mental dan kognitif.",
+  "duration": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "category": "IQ_VERBAL_SYNONYM",
+      "question": "Manakah kata yang memiliki makna paling dekat dengan 'EKLIPS'?",
+      "options": [
+        { "label": "A", "text": "Penyatuan", "isCorrect": false },
+        { "label": "B", "text": "Gerhana", "isCorrect": true },
+        { "label": "C", "text": "Lintasan", "isCorrect": false },
+        { "label": "D", "text": "Lonjong", "isCorrect": false },
+        { "label": "E", "text": "Cahaya", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Sinonim adalah persamaan makna kata baku. Langkah: 'Eklips' dalam KBBI berarti penutupan sebagian atau seluruh sinar matahari/bulan (gerhana). Distraktor terdekat 'Lintasan' salah karena itu adalah definisi orbit (elips)."
+    },
+    {
+      "id": 2,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "JANTUNG : DARAH = ... : ...",
+      "options": [
+        { "label": "A", "text": "Otak : Pikir", "isCorrect": false },
+        { "label": "B", "text": "Pompa : Air", "isCorrect": true },
+        { "label": "C", "text": "Paru-paru : Oksigen", "isCorrect": false },
+        { "label": "D", "text": "Hutan : Pohon", "isCorrect": false },
+        { "label": "E", "text": "Komputer : Listrik", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Analogi fungsi dan objek yang dipindahkan. Langkah: Jantung berfungsi memompa darah agar mengalir. Pompa berfungsi memompa air agar mengalir. Distraktor 'Paru-paru : Oksigen' kurang tepat karena paru-paru menukar gas, bukan sekadar memompa cairan."
+    },
+    {
+      "id": 3,
+      "category": "IQ_VERBAL_ANTONYM",
+      "question": "Lawan kata dari 'SPORADIS' adalah...",
+      "options": [
+        { "label": "A", "text": "Jarang", "isCorrect": false },
+        { "label": "B", "text": "Kerap", "isCorrect": true },
+        { "label": "C", "text": "Berhenti", "isCorrect": false },
+        { "label": "D", "text": "Menyebar", "isCorrect": false },
+        { "label": "E", "text": "Sembarangan", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Antonim adalah lawan makna kata. Langkah: Sporadis artinya tidak tentu, kadang-kadang, atau jarang. Lawannya adalah sering, teratur, atau kerap. Distraktor 'Jarang' adalah sinonimnya."
+    },
+    {
+      "id": 4,
+      "category": "IQ_NUM_SERIES",
+      "question": "Lanjutkan seri angka berikut: 4, 9, 19, 39, ...",
+      "options": [
+        { "label": "A", "text": "59", "isCorrect": false },
+        { "label": "B", "text": "78", "isCorrect": false },
+        { "label": "C", "text": "79", "isCorrect": true },
+        { "label": "D", "text": "89", "isCorrect": false },
+        { "label": "E", "text": "99", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Pola aritmatika bertingkat (x2 + 1). Langkah: 4x2+1=9; 9x2+1=19; 19x2+1=39. Maka selanjutnya 39x2+1 = 79. Distraktor 78 salah karena hanya mengalikan 2 tanpa menambah 1."
+    },
+    {
+      "id": 5,
+      "category": "IQ_NUM_PERCENT",
+      "question": "Sebuah baju seharga Rp200.000 didiskon 20%, kemudian dikenakan pajak 10% dari harga setelah diskon. Berapa harga akhir yang harus dibayar?",
+      "options": [
+        { "label": "A", "text": "Rp170.000", "isCorrect": false },
+        { "label": "B", "text": "Rp172.000", "isCorrect": false },
+        { "label": "C", "text": "Rp176.000", "isCorrect": true },
+        { "label": "D", "text": "Rp180.000", "isCorrect": false },
+        { "label": "E", "text": "Rp190.000", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Hitung diskon dahulu, baru pajak. Langkah: Harga setelah diskon = 200.000 - (20% x 200.000) = 160.000. Pajak = 10% x 160.000 = 16.000. Total = 160.000 + 16.000 = 176.000. Distraktor 'Rp180.000' salah karena menghitung diskon dan pajak langsung dari harga awal (20%-10%)."
+    },
+    {
+      "id": 6,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia. Ikan pari bukan mamalia.",
+      "options": [
+        { "label": "A", "text": "Ikan pari bernapas dengan paru-paru", "isCorrect": false },
+        { "label": "B", "text": "Ikan paus bernapas dengan paru-paru", "isCorrect": true },
+        { "label": "C", "text": "Semua hewan laut bernapas dengan paru-paru", "isCorrect": false },
+        { "label": "D", "text": "Ikan paus dan ikan pari bernapas dengan insang", "isCorrect": false },
+        { "label": "E", "text": "Ikan pari adalah mamalia yang tidak bernapas dengan paru-paru", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Silogisme deduktif (Modus Ponens). Langkah: Premis mayor: Mamalia -> Paru-paru. Premis minor: Paus = Mamalia. Kesimpulan: Paus -> Paru-paru. Distraktor E salah karena menyalahi premis minor."
+    },
+    {
+      "id": 7,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Jika hari hujan, maka jalanan basah. Jalanan tidak basah.",
+      "options": [
+        { "label": "A", "text": "Hari sedang hujan", "isCorrect": false },
+        { "label": "B", "text": "Hari mendung", "isCorrect": false },
+        { "label": "C", "text": "Hari tidak hujan", "isCorrect": true },
+        { "label": "D", "text": "Jalanan kering karena panas", "isCorrect": false },
+        { "label": "E", "text": "Tidak dapat disimpulkan", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Modus Tollens (Jika P maka Q. Tidak Q. Maka Tidak P). Langkah: P=Hujan, Q=Basah. Fakta: Tidak Basah (~Q). Kesimpulan: Tidak Hujan (~P). Distraktor E salah karena logika ini valid."
+    },
+    {
+      "id": 8,
+      "category": "IQ_NUM_RATIO",
+      "question": "Perbandingan umur Ayah dan Budi adalah 5 : 2. Jika jumlah umur mereka adalah 49 tahun, berapakah umur Ayah?",
+      "options": [
+        { "label": "A", "text": "30 tahun", "isCorrect": false },
+        { "label": "B", "text": "35 tahun", "isCorrect": true },
+        { "label": "C", "text": "40 tahun", "isCorrect": false },
+        { "label": "D", "text": "42 tahun", "isCorrect": false },
+        { "label": "E", "text": "45 tahun", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Konsep perbandingan jumlah. Langkah: Total rasio = 5 + 2 = 7 bagian. Nilai 1 bagian = 49 / 7 = 7 tahun. Umur Ayah = 5 bagian x 7 = 35 tahun. Distraktor A salah jika menghitung selisih."
+    },
+    {
+      "id": 9,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Terdapat aturan perpustakaan: 'Pengunjung dilarang makan kecuali di kantin. Membawa air minum dalam botol tertutup diperbolehkan di ruang baca.' Manakah tindakan yang melanggar aturan?",
+      "options": [
+        { "label": "A", "text": "Makan nasi goreng di kantin", "isCorrect": false },
+        { "label": "B", "text": "Minum dari botol tumbler di ruang baca", "isCorrect": false },
+        { "label": "C", "text": "Makan biskuit di ruang baca", "isCorrect": true },
+        { "label": "D", "text": "Membawa tas berisi buku ke kantin", "isCorrect": false },
+        { "label": "E", "text": "Minum air mineral botol di selasar", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Pemahaman teks/logika wacana. Langkah: Makan hanya boleh di kantin. Opsi C (makan di ruang baca) jelas melanggar larangan 'dilarang makan kecuali di kantin'. Distraktor B diperbolehkan karena botol tertutup."
+    },
+    {
+      "id": 10,
+      "category": "IQ_NUM_WORDPROB",
+      "question": "Jarak kota A dan B adalah 120 km. Budi berangkat dari A ke B dengan kecepatan 40 km/jam pada pukul 07.00. Pada pukul berapa Budi tiba di B?",
+      "options": [
+        { "label": "A", "text": "09.00", "isCorrect": false },
+        { "label": "B", "text": "09.30", "isCorrect": false },
+        { "label": "C", "text": "10.00", "isCorrect": true },
+        { "label": "D", "text": "10.30", "isCorrect": false },
+        { "label": "E", "text": "11.00", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Rumus Fisika dasar (Waktu = Jarak / Kecepatan). Langkah: Waktu = 120 km / 40 km/jam = 3 jam. 07.00 + 3 jam = 10.00. Distraktor A salah hitung 2 jam."
+    },
+    {
+      "id": 11,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Dalam sebuah antrean: Andi di belakang Budi. Citra di depan Budi. Dedi di belakang Andi. Siapakah yang berada di urutan paling depan?",
+      "options": [
+        { "label": "A", "text": "Andi", "isCorrect": false },
+        { "label": "B", "text": "Budi", "isCorrect": false },
+        { "label": "C", "text": "Citra", "isCorrect": true },
+        { "label": "D", "text": "Dedi", "isCorrect": false },
+        { "label": "E", "text": "Tidak dapat ditentukan", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Logika urutan/posisi. Langkah: Citra - Budi - Andi - Dedi. Maka yang paling depan adalah Citra. Distraktor B salah karena Budi di belakang Citra."
+    },
+    {
+      "id": 12,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "GELAP : CAHAYA = ... : ...",
+      "options": [
+        { "label": "A", "text": "Lapar : Makanan", "isCorrect": true },
+        { "label": "B", "text": "Haus : Air", "isCorrect": false },
+        { "label": "C", "text": "Panas : Api", "isCorrect": false },
+        { "label": "D", "text": "Kering : Angin", "isCorrect": false },
+        { "label": "E", "text": "Pagi : Matahari", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Analogi kondisi dan penyebab hilangnya kondisi tersebut (Solusi). Langkah: Gelap hilang jika ada Cahaya. Lapar hilang jika ada Makanan. Distraktor 'Haus : Air' juga mungkin, namun 'Lapar : Makanan' lebih umum sebagai pasangan keadaan-solusi primer dalam tes standar (atau bisa dianggap setara, namun biasanya soal akan memilih satu yang paling pas konteksnya, di sini A dipilih sebagai kunci utama). *Koreksi:* Sebenarnya B juga sangat kuat. Mari kita pertajam: Gelap adalah ketiadaan cahaya. Lapar adalah kebutuhan makanan. Haus adalah kebutuhan air. Konsep 'ketiadaan' lebih dekat. Namun, 'Gelap diselesaikan oleh Cahaya', 'Lapar diselesaikan oleh Makanan'. Opsi A valid."
+    },
+    {
+      "id": 13,
+      "category": "IQ_FIG_SERIES",
+      "question": "Perhatikan pola rotasi pada gambar. Manakah gambar selanjutnya?",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><rect x='20' y='30' width='60' height='60' fill='none' stroke='black' stroke-width='2'/><path d='M50 35 L50 60 L70 60' stroke='black' stroke-width='3' fill='none'/><rect x='100' y='30' width='60' height='60' fill='none' stroke='black' stroke-width='2'/><path d='M130 35 L130 60 L110 60' stroke='black' stroke-width='3' fill='none'/><rect x='180' y='30' width='60' height='60' fill='none' stroke='black' stroke-width='2'/><path d='M210 85 L210 60 L190 60' stroke='black' stroke-width='3' fill='none'/><text x='270' y='70' font-size='40' fill='black'>?</text></svg>",
+      "options": [
+        { "label": "A", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='0' y='0' width='50' height='50' fill='none' stroke='black'/><path d='M25 45 L25 25 L45 25' stroke='black' stroke-width='3' fill='none'/></svg>", "isCorrect": true },
+        { "label": "B", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='0' y='0' width='50' height='50' fill='none' stroke='black'/><path d='M25 5 L25 25 L45 25' stroke='black' stroke-width='3' fill='none'/></svg>", "isCorrect": false },
+        { "label": "C", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='0' y='0' width='50' height='50' fill='none' stroke='black'/><path d='M25 45 L25 25 L5 25' stroke='black' stroke-width='3' fill='none'/></svg>", "isCorrect": false },
+        { "label": "D", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='0' y='0' width='50' height='50' fill='none' stroke='black'/><path d='M25 5 L25 25 L5 25' stroke='black' stroke-width='3' fill='none'/></svg>", "isCorrect": false },
+        { "label": "E", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='0' y='0' width='50' height='50' fill='none' stroke='black'/><path d='M5 25 L45 25' stroke='black' stroke-width='3' fill='none'/></svg>", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Rotasi 90 derajat berlawanan arah jarum jam (Counter-Clockwise). Langkah: Gambar 1 (L shape ke kanan atas) -> Gambar 2 (L shape ke kiri atas) -> Gambar 3 (L shape ke kiri bawah) -> Gambar 4 harus L shape ke kanan bawah. Opsi A menunjukkan bentuk L yang sudut sikunya di kanan bawah."
+    },
+    {
+      "id": 14,
+      "category": "IQ_NUM_SERIES",
+      "question": "3, 6, 9, 15, 24, ...",
+      "options": [
+        { "label": "A", "text": "30", "isCorrect": false },
+        { "label": "B", "text": "33", "isCorrect": false },
+        { "label": "C", "text": "36", "isCorrect": false },
+        { "label": "D", "text": "39", "isCorrect": true },
+        { "label": "E", "text": "42", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Deret Fibonacci (penjumlahan dua angka sebelumnya). Langkah: 3+6=9; 6+9=15; 9+15=24. Selanjutnya 15+24 = 39. Distraktor C salah (kelipatan 3 biasa)."
+    },
+    {
+      "id": 15,
+      "category": "IQ_FIG_MATRIX",
+      "question": "Pilihlah potongan yang melengkapi pola matriks berikut.",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><rect x='20' y='10' width='30' height='30' fill='black'/><circle cx='85' cy='25' r='15' fill='black'/><polygon points='135,10 150,40 120,40' fill='black'/><rect x='20' y='60' width='30' height='30' fill='none' stroke='black' stroke-width='3'/><circle cx='85' cy='75' r='15' fill='none' stroke='black' stroke-width='3'/><text x='135' y='85' font-size='30' fill='black'>?</text></svg>",
+      "options": [
+        { "label": "A", "text": "<svg width='40' height='40' viewBox='0 0 40 40'><polygon points='20,0 40,40 0,40' fill='black'/></svg>", "isCorrect": false },
+        { "label": "B", "text": "<svg width='40' height='40' viewBox='0 0 40 40'><polygon points='20,0 40,40 0,40' fill='none' stroke='black' stroke-width='3'/></svg>", "isCorrect": true },
+        { "label": "C", "text": "<svg width='40' height='40' viewBox='0 0 40 40'><rect x='5' y='5' width='30' height='30' fill='none' stroke='black' stroke-width='3'/></svg>", "isCorrect": false },
+        { "label": "D", "text": "<svg width='40' height='40' viewBox='0 0 40 40'><circle cx='20' cy='20' r='15' fill='none' stroke='black' stroke-width='3'/></svg>", "isCorrect": false },
+        { "label": "E", "text": "<svg width='40' height='40' viewBox='0 0 40 40'><polygon points='20,0 40,40 0,40' fill='gray'/></svg>", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Baris pertama bentuk solid (hitam penuh), baris kedua bentuk outline (garis tepi). Kolom sesuai bentuk (Kotak, Lingkaran, Segitiga). Langkah: Kolom 3 adalah segitiga. Baris 2 adalah outline. Maka jawabannya Segitiga Outline. Opsi A salah karena solid."
+    },
+    {
+      "id": 16,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Semua A adalah B. Sebagian B adalah C. Simpulan yang paling tepat?",
+      "options": [
+        { "label": "A", "text": "Semua A adalah C", "isCorrect": false },
+        { "label": "B", "text": "Semua C adalah A", "isCorrect": false },
+        { "label": "C", "text": "Sebagian A adalah C", "isCorrect": false },
+        { "label": "D", "text": "Sebagian C adalah A", "isCorrect": false },
+        { "label": "E", "text": "Tidak dapat ditarik kesimpulan pasti", "isCorrect": true }
+      ],
+      "explanation": "Aturan: Logika Himpunan. Langkah: A ada di dalam B. C beririsan dengan B. Tidak ada informasi apakah C menyentuh A atau tidak. Bisa jadi C beririsan dengan A, bisa jadi tidak. Maka tidak ada kesimpulan pasti. Distraktor C sering dipilih tapi salah karena spekulatif."
+    },
+    {
+      "id": 17,
+      "category": "IQ_NUM_WORDPROB",
+      "question": "Lima tahun yang lalu, usia Ani 3 kali usia Budi. Sekarang usia Ani 20 tahun. Berapa usia Budi sekarang?",
+      "options": [
+        { "label": "A", "text": "5 tahun", "isCorrect": false },
+        { "label": "B", "text": "10 tahun", "isCorrect": true },
+        { "label": "C", "text": "12 tahun", "isCorrect": false },
+        { "label": "D", "text": "15 tahun", "isCorrect": false },
+        { "label": "E", "text": "8 tahun", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Aljabar sederhana. Langkah: Usia Ani sekarang = 20. Usia Ani 5 tahun lalu = 15. Saat itu, Ani = 3 x Budi (dulu). 15 = 3 x Budi_dulu -> Budi_dulu = 5. Usia Budi sekarang = 5 + 5 = 10 tahun."
+    },
+    {
+      "id": 18,
+      "category": "IQ_SPATIAL_REFLECTION",
+      "question": "Manakah hasil pencerminan gambar terhadap sumbu vertikal (kanan)?",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><path d='M100 20 L140 20 L140 100 L100 100 L100 60 L120 60 L120 40 L100 40 Z' fill='black'/><line x1='150' y1='10' x2='150' y2='110' stroke='black' stroke-dasharray='5,5'/><text x='160' y='60' font-size='30'>?</text></svg>",
+      "options": [
+        { "label": "A", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><path d='M10 10 L30 10 L30 50 L10 50 L10 30 L20 30 L20 20 L10 20 Z' fill='black'/></svg>", "isCorrect": false },
+        { "label": "B", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><path d='M40 10 L20 10 L20 50 L40 50 L40 30 L30 30 L30 20 L40 20 Z' fill='black'/></svg>", "isCorrect": false },
+        { "label": "C", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><path d='M10 10 L30 10 L30 50 L10 50 L10 30 L0 30 L0 20 L10 20 Z' fill='black'/></svg>", "isCorrect": true },
+        { "label": "D", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><path d='M10 50 L30 50 L30 10 L10 10 L10 30 L20 30 L20 40 L10 40 Z' fill='black'/></svg>", "isCorrect": false },
+        { "label": "E", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='black'/></svg>", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Pencerminan membalik kiri-kanan. Langkah: Bentuk asli seperti huruf 'C' kotak menghadap kanan. Cerminannya harus menghadap kiri (seperti 'C' terbalik atau punggung 'C'). Opsi C adalah bentuk yang membalik orientasi tersebut secara horizontal."
+    },
+    {
+      "id": 19,
+      "category": "IQ_ATTENTION_MATCH",
+      "question": "Carilah gambar yang identik (sama persis) dengan gambar utama.",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><circle cx='150' cy='60' r='40' fill='none' stroke='black' stroke-width='3'/><rect x='130' y='40' width='40' height='40' fill='black'/><line x1='150' y1='20' x2='150' y2='40' stroke='black' stroke-width='3'/></svg>",
+      "options": [
+        { "label": "A", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='none' stroke='black'/><rect x='15' y='15' width='20' height='20' fill='black'/><line x1='25' y1='5' x2='25' y2='15' stroke='black'/></svg>", "isCorrect": true },
+        { "label": "B", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='none' stroke='black'/><rect x='15' y='15' width='20' height='20' fill='none' stroke='black'/><line x1='25' y1='5' x2='25' y2='15' stroke='black'/></svg>", "isCorrect": false },
+        { "label": "C", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='none' stroke='black'/><rect x='15' y='15' width='20' height='20' fill='black'/><line x1='25' y1='35' x2='25' y2='45' stroke='black'/></svg>", "isCorrect": false },
+        { "label": "D", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='black'/><rect x='15' y='15' width='20' height='20' fill='white'/><line x1='25' y1='5' x2='25' y2='15' stroke='black'/></svg>", "isCorrect": false },
+        { "label": "E", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><circle cx='25' cy='25' r='20' fill='none' stroke='black'/><rect x='15' y='15' width='20' height='20' fill='black'/></svg>", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Ketelitian detail. Langkah: Gambar utama adalah lingkaran dengan kotak hitam di tengah dan satu garis vertikal di atas kotak. Opsi A sama persis. Opsi B kotaknya tidak hitam. Opsi C garisnya di bawah. Opsi D warnanya terbalik."
+    },
+    {
+      "id": 20,
+      "category": "IQ_NUM_SERIES",
+      "question": "1/2, 3/4, 5/6, 7/8, ...",
+      "options": [
+        { "label": "A", "text": "8/9", "isCorrect": false },
+        { "label": "B", "text": "9/10", "isCorrect": true },
+        { "label": "C", "text": "10/11", "isCorrect": false },
+        { "label": "D", "text": "11/12", "isCorrect": false },
+        { "label": "E", "text": "9/11", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Pola pembilang dan penyebut bertambah 2. Langkah: Pembilang 1,3,5,7 -> 9. Penyebut 2,4,6,8 -> 10. Jawaban 9/10. Distraktor A salah pola."
+    },
+    {
+      "id": 21,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "KAKI : SEPATU = ... : ...",
+      "options": [
+        { "label": "A", "text": "Cat : Kuas", "isCorrect": false },
+        { "label": "B", "text": "Tangan : Sarung Tangan", "isCorrect": true },
+        { "label": "C", "text": "Meja : Ruangan", "isCorrect": false },
+        { "label": "D", "text": "Cincin : Jari", "isCorrect": false },
+        { "label": "E", "text": "Topi : Kepala", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Objek dan pakaian/pelindungnya (urutan tubuh : pakaian). Langkah: Kaki dilindungi sepatu. Tangan dilindungi sarung tangan. Distraktor D dan E urutannya terbalik (Benda : Tubuh)."
+    },
+    {
+      "id": 22,
+      "category": "IQ_SPATIAL_ROTATION",
+      "question": "Jika jaring-jaring kubus berikut dilipat, sisi manakah yang berhadapan dengan sisi hitam?",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><rect x='80' y='40' width='40' height='40' fill='white' stroke='black'/><rect x='120' y='40' width='40' height='40' fill='black' stroke='black'/><rect x='160' y='40' width='40' height='40' fill='white' stroke='black'/><rect x='200' y='40' width='40' height='40' fill='url(#pattern)' stroke='black'/><rect x='120' y='0' width='40' height='40' fill='gray' stroke='black'/><rect x='120' y='80' width='40' height='40' fill='white' stroke='black'/><defs><pattern id='pattern' patternUnits='userSpaceOnUse' width='10' height='10'><line x1='0' y1='0' x2='10' y2='10' stroke='black' stroke-width='1'/></pattern></defs></svg>",
+      "options": [
+        { "label": "A", "text": "Sisi Polos (Putih)", "isCorrect": false },
+        { "label": "B", "text": "Sisi Arsiran (Garis)", "isCorrect": true },
+        { "label": "C", "text": "Sisi Abu-abu", "isCorrect": false },
+        { "label": "D", "text": "Sisi Hitam (Dirinya sendiri)", "isCorrect": false },
+        { "label": "E", "text": "Tidak ada yang berhadapan", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Pada jaring-jaring lurus 4 kotak, sisi berhadapan selalu berselang satu kotak. Langkah: Sisi hitam ada di posisi ke-2. Sisi berhadapannya adalah posisi ke-4 (Arsiran). Sisi ke-1 berhadapan dengan ke-3. Sisi atas berhadapan dengan bawah."
+    },
+    {
+      "id": 23,
+      "category": "IQ_LOGIC_ANALYTICAL",
+      "question": "Lima siswa (A, B, C, D, E) berdiri dalam satu barisan. A tidak di urutan pertama atau terakhir. C tepat di belakang A. B di depan D. E di urutan terakhir. Siapakah yang berada di urutan pertama?",
+      "options": [
+        { "label": "A", "text": "A", "isCorrect": false },
+        { "label": "B", "text": "B", "isCorrect": true },
+        { "label": "C", "text": "C", "isCorrect": false },
+        { "label": "D", "text": "D", "isCorrect": false },
+        { "label": "E", "text": "E", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Menyusun urutan berdasarkan constraint. Langkah: 1. E di posisi 5 (terakhir). 2. A bukan 1 atau 5. 3. C tepat di belakang A (pasangan A-C). Kemungkinan posisi A-C adalah 2-3 atau 3-4. 4. B di depan D. Jika A-C di 2-3, maka 1 dan 4 sisa B dan D (B harus di 1, D di 4). Urutan: B - A - C - D - E. Maka urutan pertama adalah B."
+    },
+    {
+      "id": 24,
+      "category": "IQ_FIG_SERIES",
+      "question": "Tentukan kelanjutan pola segitiga berikut (bertambahnya elemen dalam).",
+      "svgCode": "<svg width='300' height='120' viewBox='0 0 300 120'><polygon points='50,10 20,70 80,70' fill='none' stroke='black' stroke-width='2'/><polygon points='120,10 90,70 150,70' fill='none' stroke='black' stroke-width='2'/><circle cx='120' cy='50' r='5' fill='black'/><polygon points='190,10 160,70 220,70' fill='none' stroke='black' stroke-width='2'/><circle cx='180' cy='50' r='5' fill='black'/><circle cx='200' cy='50' r='5' fill='black'/><text x='260' y='50' font-size='40'>?</text></svg>",
+      "options": [
+        { "label": "A", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><polygon points='25,5 5,45 45,45' fill='none' stroke='black'/><circle cx='15' cy='35' r='3' fill='black'/><circle cx='25' cy='35' r='3' fill='black'/><circle cx='35' cy='35' r='3' fill='black'/></svg>", "isCorrect": true },
+        { "label": "B", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><polygon points='25,5 5,45 45,45' fill='none' stroke='black'/><circle cx='25' cy='35' r='3' fill='black'/><circle cx='25' cy='25' r='3' fill='black'/></svg>", "isCorrect": false },
+        { "label": "C", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><polygon points='25,5 5,45 45,45' fill='none' stroke='black'/></svg>", "isCorrect": false },
+        { "label": "D", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black'/></svg>", "isCorrect": false },
+        { "label": "E", "text": "<svg width='50' height='50' viewBox='0 0 50 50'><polygon points='25,5 5,45 45,45' fill='none' stroke='black'/><rect x='20' y='30' width='10' height='10' fill='black'/></svg>", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Penambahan jumlah elemen titik di dalam bangun. Langkah: Gambar 1 = 0 titik. Gambar 2 = 1 titik. Gambar 3 = 2 titik. Gambar 4 harus memiliki 3 titik di dalamnya. Opsi A benar."
+    },
+    {
+      "id": 25,
+      "category": "IQ_LOGIC_CRITICAL",
+      "question": "Semua karyawan yang rajin mendapatkan bonus. Sebagian karyawan yang mendapatkan bonus membeli mobil baru. Budi adalah karyawan yang rajin.",
+      "options": [
+        { "label": "A", "text": "Budi pasti membeli mobil baru", "isCorrect": false },
+        { "label": "B", "text": "Budi tidak membeli mobil baru", "isCorrect": false },
+        { "label": "C", "text": "Budi mendapatkan bonus", "isCorrect": true },
+        { "label": "D", "text": "Semua yang membeli mobil baru adalah Budi", "isCorrect": false },
+        { "label": "E", "text": "Budi mungkin tidak mendapatkan bonus", "isCorrect": false }
+      ],
+      "explanation": "Aturan: Deduksi bertingkat. Langkah: 1. Rajin -> Bonus. 2. Budi -> Rajin. Kesimpulan pasti: Budi -> Bonus. Apakah Budi membeli mobil? Belum tentu, karena hanya 'Sebagian' penerima bonus yang beli mobil. Jadi C adalah satu-satunya kesimpulan pasti."
+    }
+  ]
+}

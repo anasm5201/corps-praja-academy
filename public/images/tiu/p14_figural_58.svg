@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(50, 30)">
+    <rect x="0" y="20" width="40" height="40" fill="white" stroke="black"/> <text x="15" y="45" font-family="Arial">2</text>
+    
+    <polygon points="0,20 20,0 60,0 40,20" fill="white" stroke="black"/> <text x="25" y="15" font-family="Arial">1</text>
+    
+    <polygon points="40,20 60,0 60,40 40,60" fill="white" stroke="black"/> <text x="45" y="35" font-family="Arial">3</text>
+  </g>
+  
+  <text x="120" y="50">-> Guling Kanan 2x -></text>
+</svg>

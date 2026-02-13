@@ -1,0 +1,148 @@
+{
+    "unit_id": 7,
+    "title": "Unit 7: Logika Posisi & Visualisasi Data",
+    "description": "Drill penalaran analitis dengan bantuan visual denah, geometri sudut, dan timeline sejarah.",
+    "level": "Kadet Muda",
+    "questions": [
+      {
+        "id": "U7-Q1",
+        "type": "TIU",
+        "text": "Lima Kadet (A, B, C, D, E) duduk mengelilingi meja bundar. A berseberangan dengan C. E duduk di antara C dan D. Posisi B ada di...",
+        "image": "<svg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='60' fill='none' stroke='black' stroke-width='2'/><circle cx='100' cy='20' r='15' fill='#ddd' stroke='black'/><text x='100' y='25' text-anchor='middle'>A</text><circle cx='100' cy='180' r='15' fill='#ddd' stroke='black'/><text x='100' y='185' text-anchor='middle'>C</text><circle cx='170' cy='140' r='15' fill='#ddd' stroke='black'/><text x='170' y='145' text-anchor='middle'>E</text><circle cx='170' cy='60' r='15' fill='#ddd' stroke='black'/><text x='170' y='65' text-anchor='middle'>D</text><circle cx='30' cy='100' r='15' fill='white' stroke='black' stroke-dasharray='4'/><text x='30' y='105' text-anchor='middle'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Kanan A", "score": 0 },
+          { "key": "B", "text": "Kiri A", "score": 5 },
+          { "key": "C", "text": "Antara A dan D", "score": 0 },
+          { "key": "D", "text": "Sebelah kanan D", "score": 0 },
+          { "key": "E", "text": "Sebelah kiri E", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visualkan lingkaran! A di Utara, C di Selatan. E di antara C dan D (misal di Tenggara). Maka D di Timur. Satu-satunya tempat sisa untuk B adalah di Barat (Kiri A)."
+      },
+      {
+        "id": "U7-Q2",
+        "type": "TIU",
+        "text": "Geometri: Jika Garis A dan B sejajar, berapakah nilai sudut x?",
+        "image": "<svg width='200' height='100' viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='30' x2='190' y2='30' stroke='black' stroke-width='2'/><text x='195' y='30' font-size='10'>A</text><line x1='10' y1='70' x2='190' y2='70' stroke='black' stroke-width='2'/><text x='195' y='70' font-size='10'>B</text><line x1='50' y1='100' x2='150' y2='0' stroke='black' stroke-width='2'/><text x='130' y='25' font-size='12'>120°</text><text x='70' y='85' font-size='12' font-weight='bold'>x</text></svg>",
+        "options": [
+          { "key": "A", "text": "60°", "score": 5 },
+          { "key": "B", "text": "120°", "score": 0 },
+          { "key": "C", "text": "30°", "score": 0 },
+          { "key": "D", "text": "90°", "score": 0 },
+          { "key": "E", "text": "150°", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Sifat Sudut Dalam Sepihak atau Berpelurus. Sudut tumpul 120°. Sudut x adalah pasangan dalam berseberangan dengan pelurusnya. Atau lebih cepat: Sudut Lancip + Sudut Tumpul = 180°. Maka x = 180 - 120 = 60°."
+      },
+      {
+        "id": "U7-Q3",
+        "type": "TWK",
+        "text": "Perhatikan Timeline Sejarah berikut. Peristiwa yang mengisi kotak kosong (Tahun 1948) adalah...",
+        "image": "<svg width='300' height='80' viewBox='0 0 300 80' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='40' x2='290' y2='40' stroke='black' stroke-width='2'/><circle cx='30' cy='40' r='5' fill='black'/><text x='30' y='25' text-anchor='middle' font-size='10'>1947</text><text x='30' y='60' text-anchor='middle' font-size='8'>Linggarjati</text><circle cx='150' cy='40' r='8' fill='red'/><text x='150' y='25' text-anchor='middle' font-size='12' font-weight='bold'>1948</text><text x='150' y='60' text-anchor='middle' font-size='10' font-weight='bold'>?</text><circle cx='270' cy='40' r='5' fill='black'/><text x='270' y='25' text-anchor='middle' font-size='10'>1949</text><text x='270' y='60' text-anchor='middle' font-size='8'>KMB</text></svg>",
+        "options": [
+          { "key": "A", "text": "Agresi Militer Belanda I", "score": 0 },
+          { "key": "B", "text": "Perjanjian Renville", "score": 5 },
+          { "key": "C", "text": "Dekrit Presiden", "score": 0 },
+          { "key": "D", "text": "Serangan Umum 1 Maret", "score": 0 },
+          { "key": "E", "text": "Trikora", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kronologi Diplomasi. 1947 (Linggarjati) -> 1948 (Renville - di atas kapal USS Renville) -> 1949 (Roem Royen & KMB)."
+      },
+      {
+        "id": "U7-Q4",
+        "type": "TIU",
+        "text": "Analisis Grafik: Kendaraan mana yang memiliki efisiensi bahan bakar terbaik (Jarak terjauh per Liter)?",
+        "image": "<svg width='250' height='120' viewBox='0 0 250 120' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='100' x2='240' y2='100' stroke='black'/><line x1='30' y1='100' x2='30' y2='10' stroke='black'/><text x='100' y='115' font-size='10'>Liter Bensin</text><text x='5' y='60' font-size='10' transform='rotate(-90, 5, 60)'>Jarak (km)</text><rect x='40' y='40' width='20' height='60' fill='#888'/><text x='50' y='35' text-anchor='middle' font-size='10'>A</text><text x='50' y='90' text-anchor='middle' font-size='8' fill='white'>10L/100km</text><rect x='80' y='20' width='20' height='80' fill='#555'/><text x='90' y='15' text-anchor='middle' font-size='10'>B</text><text x='90' y='90' text-anchor='middle' font-size='8' fill='white'>10L/150km</text><rect x='120' y='60' width='20' height='40' fill='#222'/><text x='130' y='55' text-anchor='middle' font-size='10'>C</text><text x='130' y='90' text-anchor='middle' font-size='8' fill='white'>5L/40km</text></svg>",
+        "options": [
+          { "key": "A", "text": "Kendaraan A", "score": 0 },
+          { "key": "B", "text": "Kendaraan B", "score": 5 },
+          { "key": "C", "text": "Kendaraan C", "score": 0 },
+          { "key": "D", "text": "A dan B sama", "score": 0 },
+          { "key": "E", "text": "Tidak dapat ditentukan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hitung Rasio km/Liter. A: 100km/10L = 10 km/L. B: 150km/10L = 15 km/L. C: 40km/5L = 8 km/L. Pemenangnya B."
+      },
+      {
+        "id": "U7-Q5",
+        "type": "TKP",
+        "text": "Anda adalah ketua panitia acara. H-1 acara, vendor katering membatalkan pesanan secara sepihak. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Marah besar kepada vendor tersebut.", "score": 1 },
+          { "key": "B", "text": "Melapor kepada atasan bahwa acara terancam gagal.", "score": 2 },
+          { "key": "C", "text": "Segera mencari vendor pengganti atau alternatif konsumsi lain dengan cepat.", "score": 5 },
+          { "key": "D", "text": "Meminta ganti rugi 2x lipat kepada vendor.", "score": 3 },
+          { "key": "E", "text": "Pasrah dan membatalkan sesi makan.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Problem Solving & Ketenangan (Composure). Fokus pada SOLUSI agar acara tetap jalan (C), bukan pada emosi (A) atau ganti rugi (D) yang bisa diurus belakangan."
+      },
+      {
+        "id": "U7-Q6",
+        "type": "TWK",
+        "text": "Simbol pada perisai Garuda Pancasila yang melambangkan Sila Ke-4 (Kerakyatan yang dipimpin oleh hikmat...) adalah...",
+        "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M10 10 L90 10 L90 60 Q50 100 10 60 Z' fill='none' stroke='black' stroke-width='2'/><line x1='10' y1='45' x2='90' y2='45' stroke='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black'/><text x='25' y='35' font-size='20'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "Bintang", "score": 0 },
+          { "key": "B", "text": "Rantai", "score": 0 },
+          { "key": "C", "text": "Pohon Beringin", "score": 0 },
+          { "key": "D", "text": "Kepala Banteng", "score": 5 },
+          { "key": "E", "text": "Padi dan Kapas", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Visual: Tengah (Bintang-1), Kanan Bawah (Rantai-2), Kanan Atas (Beringin-3), Kiri Atas (Banteng-4), Kiri Bawah (Padi Kapas-5). Letak Sila 4 ada di Kiri Atas."
+      },
+      {
+        "id": "U7-Q7",
+        "type": "TIU",
+        "text": "Silogisme Diagram Venn: Semua A adalah B. Sebagian B adalah C.",
+        "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><circle cx='75' cy='50' r='45' stroke='black' fill='none'/><text x='75' y='20' text-anchor='middle'>B</text><circle cx='60' cy='50' r='20' stroke='black' fill='#eee'/><text x='60' y='55' text-anchor='middle'>A</text><circle cx='110' cy='50' r='25' stroke='black' fill='none' stroke-dasharray='4'/><text x='110' y='55' text-anchor='middle'>C</text></svg>",
+        "options": [
+          { "key": "A", "text": "Semua A adalah C", "score": 0 },
+          { "key": "B", "text": "Sebagian A adalah C", "score": 0 },
+          { "key": "C", "text": "Semua C adalah B", "score": 0 },
+          { "key": "D", "text": "Sebagian A mungkin bukan C", "score": 5 },
+          { "key": "E", "text": "Tidak ada hubungan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hati-hati! C beririsan dengan B, tapi TIDAK PASTI menyentuh A yang ada di dalam B. Maka kita tidak bisa menyimpulkan A pasti C atau A bukan C secara mutlak. Jawaban paling aman/logis adalah kemungkinan (D)."
+      },
+      {
+        "id": "U7-Q8",
+        "type": "TIU",
+        "text": "Pola Bilangan Segitiga Pascal: Angka pada baris ke-5 adalah...",
+        "image": "<svg width='200' height='80' viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><text x='100' y='15' text-anchor='middle'>1</text><text x='100' y='30' text-anchor='middle'>1 1</text><text x='100' y='45' text-anchor='middle'>1 2 1</text><text x='100' y='60' text-anchor='middle'>1 3 3 1</text><text x='100' y='75' text-anchor='middle' font-weight='bold' fill='red'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "1 4 4 1", "score": 0 },
+          { "key": "B", "text": "1 4 6 4 1", "score": 5 },
+          { "key": "C", "text": "1 5 10 10 5 1", "score": 0 },
+          { "key": "D", "text": "1 3 6 3 1", "score": 0 },
+          { "key": "E", "text": "1 5 5 1", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pascal Pattern. Angka bawah = jumlah dua angka di atasnya. 1, (1+3=4), (3+3=6), (3+1=4), 1. -> 1 4 6 4 1."
+      },
+      {
+        "id": "U7-Q9",
+        "type": "TKP",
+        "text": "Anda baru dimutasi ke divisi yang semua pegawainya pulang tepat waktu (tenggo), padahal pekerjaan belum selesai. Anda biasanya lembur. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Ikut pulang tenggo agar diterima lingkungan.", "score": 2 },
+          { "key": "B", "text": "Tetap lembur sendirian dan mengkritik mereka.", "score": 2 },
+          { "key": "C", "text": "Pulang sesuai jam tapi membawa pekerjaan ke rumah.", "score": 3 },
+          { "key": "D", "text": "Menyelesaikan target kerja pribadi secara efisien di jam kerja, jika perlu lembur, lakukan tanpa memaksa orang lain.", "score": 5 },
+          { "key": "E", "text": "Melapor ke atasan tentang kemalasan tim.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Profesionalisme Mandiri. Jangan terpengaruh budaya buruk (A), tapi jangan jadi musuh bersama (B/E). Fokus pada kinerja diri sendiri (D)."
+      },
+      {
+        "id": "U7-Q10",
+        "type": "TWK",
+        "text": "Konsep 'Wawasan Nusantara' memandang laut Indonesia bukan sebagai pemisah, melainkan sebagai...",
+        "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='30' cy='50' rx='20' ry='30' fill='#ccc'/><ellipse cx='120' cy='50' rx='20' ry='30' fill='#ccc'/><line x1='50' y1='50' x2='100' y2='50' stroke='blue' stroke-width='4' stroke-dasharray='5,5'/><text x='75' y='40' text-anchor='middle' font-size='10' fill='blue'>Penghubung</text></svg>",
+        "options": [
+          { "key": "A", "text": "Batas pertahanan", "score": 0 },
+          { "key": "B", "text": "Pemisah pulau", "score": 0 },
+          { "key": "C", "text": "Pemersatu/Penghubung pulau", "score": 5 },
+          { "key": "D", "text": "Zona Ekonomi Eksklusif", "score": 0 },
+          { "key": "E", "text": "Jalur perdagangan dunia", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Deklarasi Djuanda 1957 mengubah konsep laut dari 'pemisah' (Res Nullius) menjadi 'penghubung' yang menyatukan ribuan pulau menjadi satu kesatuan wilayah."
+      }
+    ]
+  }

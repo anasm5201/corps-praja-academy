@@ -1,0 +1,50 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <style>.box { fill: none; stroke: black; stroke-width: 2; } .txt { font-family: Arial; font-weight: bold; font-size: 14px; text-anchor: middle; }</style>
+
+  <text x="300" y="20" class="txt">HUBUNGAN GAMBAR</text>
+  
+  <g transform="translate(80, 40)">
+    <rect width="80" height="80" class="box"/>
+    <polygon points="40,20 20,60 60,60" fill="black"/>
+  </g>
+  
+  <text x="180" y="85" font-size="20">:</text>
+
+  <g transform="translate(200, 40)">
+    <rect width="80" height="80" class="box"/>
+    <polygon points="40,60 20,20 60,20" fill="white" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <text x="300" y="85" font-size="20">::</text>
+
+  <g transform="translate(320, 40)">
+    <rect width="80" height="80" class="box"/>
+    <circle cx="30" cy="40" r="15" fill="black"/>
+    <rect x="50" y="25" width="10" height="30" fill="white" stroke="black"/>
+  </g>
+
+  <text x="420" y="85" font-size="20">:</text>
+
+  <g transform="translate(440, 40)">
+    <rect width="80" height="80" class="box"/>
+    <text x="40" y="50" font-size="30" text-anchor="middle">?</text>
+  </g>
+
+  <line x1="0" y1="140" x2="600" y2="140" stroke="#ccc" stroke-dasharray="5,5"/>
+
+  <g transform="translate(20, 160)">
+    <text x="40" y="-5" class="txt">A</text>
+    <rect width="80" height="80" class="box"/>
+    <circle cx="30" cy="40" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <rect x="50" y="25" width="10" height="30" fill="black"/>
+  </g>
+
+  <g transform="translate(130, 160)">
+    <text x="40" y="-5" class="txt">B</text>
+    <rect width="80" height="80" class="box"/>
+    <circle cx="50" cy="40" r="15" fill="white" stroke="black" stroke-width="2"/> <rect x="20" y="25" width="10" height="30" fill="black"/> </g>
+
+  <g transform="translate(240, 160)"><text x="40" y="-5" class="txt">C</text><rect width="80" height="80" class="box"/><circle cx="50" cy="40" r="15" fill="black"/><rect x="20" y="25" width="10" height="30" fill="white" stroke="black"/></g>
+  <g transform="translate(350, 160)"><text x="40" y="-5" class="txt">D</text><rect width="80" height="80" class="box"/><circle cx="30" cy="40" r="15" fill="white" stroke="black"/><rect x="50" y="25" width="10" height="30" fill="white" stroke="black"/></g>
+  <g transform="translate(460, 160)"><text x="40" y="-5" class="txt">E</text><rect width="80" height="80" class="box"/><circle cx="50" cy="40" r="15" fill="black"/><rect x="20" y="25" width="10" height="30" fill="black"/></g>
+</svg>

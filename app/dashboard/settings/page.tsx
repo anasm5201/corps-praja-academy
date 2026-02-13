@@ -1,103 +1,138 @@
-"use client";
-import { useState } from "react";
-import Image from "next/image";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth";
+import { redirect } from "next/navigation";
+import { 
+    User, Mail, Shield, LogOut, Copy, 
+    Settings, CreditCard, Bell, Key
+} from "lucide-react";
+// Jika Anda punya komponen SignOutButton terpisah, bisa diimport. 
+// Jika tidak, kita bisa buat tombol link sederhana ke /api/auth/signout atau client component.
+// Disini kita gunakan layout server component murni.
 
-export default function SettingsPage() {
-  const [loading, setLoading] = useState(false);
+export default async function SettingsPage() {
+  // 1. AMBIL SESI
+  const session = await getServerSession(authOptions);
+  
+  // ✅ FIX: Amankan User ID (Bypass Type Check)
+  // Casting ke 'any' agar properti 'id' bisa dibaca
+  const user = session?.user as any; 
+
+  if (!user) {
+    redirect("/auth/login");
+  }
+
+  // Generate Referral Code simulasi dari ID (Ambil 6 karakter terakhir)
+  const referralCode = user.id ? user.id.slice(-6).toUpperCase() : "UNKNOWN";
 
   return (
-    <div className="space-y-8 max-w-4xl">
-      
-      {/* HEADER */}
-      <div className="border-b border-white/10 pb-6">
-        <h1 className="text-3xl font-extrabold font-sans text-white tracking-wider">CONFIGURATION</h1>
-        <p className="text-gray-400 font-mono text-sm mt-1">Atur identitas agen dan preferensi sistem markas.</p>
-      </div>
-
-      {/* 1. IDENTITY PROTOCOL (Profil) */}
-      <div className="p-8 bg-white/5 border border-white/10 rounded-xl">
-        <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-            <span className="w-2 h-6 bg-laser block"></span>
-            IDENTITY PROTOCOL
-        </h2>
+    <div className="max-w-4xl mx-auto pb-24 px-4 sm:px-6 pt-8 text-white">
         
-        <div className="flex flex-col md:flex-row gap-8 items-start">
-            {/* Avatar Upload */}
-            <div className="flex flex-col items-center gap-3">
-                <div className="relative w-24 h-24 rounded-full border-2 border-dashed border-gray-500 flex items-center justify-center overflow-hidden group cursor-pointer hover:border-laser transition-colors">
-                    {/* Placeholder Image */}
-                    <Image src="/assets/satria.png" alt="Profile" fill className="object-cover opacity-50 group-hover:opacity-100 transition-opacity" />
-                    <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white opacity-0 group-hover:opacity-100 bg-black/50">
-                        CHANGE
-                    </div>
-                </div>
-                <div className="text-[10px] text-gray-500 font-mono">MAX: 2MB (JPG/PNG)</div>
+        {/* HEADER */}
+        <div className="flex items-center gap-4 mb-8 border-b border-white/10 pb-6">
+            <div className="p-3 bg-zinc-800 rounded-xl border border-white/10">
+                <Settings size={24} className="text-gray-400" />
             </div>
+            <div>
+                <h1 className="text-2xl font-black uppercase tracking-wide">Pengaturan Akun</h1>
+                <p className="text-gray-500 text-sm">Kelola profil dan preferensi sistem Anda.</p>
+            </div>
+        </div>
 
-            {/* Form Fields */}
-            <div className="flex-1 space-y-4 w-full">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="space-y-1">
-                        <label className="text-xs font-bold text-gray-400">CODENAME (NAMA LENGKAP)</label>
-                        <input type="text" defaultValue="Anas Kirsam" className="w-full bg-black border border-white/20 p-3 rounded text-white focus:border-laser focus:outline-none font-mono" />
-                    </div>
-                    <div className="space-y-1">
-                        <label className="text-xs font-bold text-gray-400">EMAIL ENCRYPTION</label>
-                        <input type="email" defaultValue="anas@corpspraja.id" className="w-full bg-black border border-white/20 p-3 rounded text-gray-500 cursor-not-allowed font-mono" disabled />
+        {/* PROFILE CARD */}
+        <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-6 md:p-8 mb-8 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-blue-900/10 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/2"></div>
+            
+            <div className="flex flex-col md:flex-row items-center gap-6 relative z-10">
+                {/* Avatar */}
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-zinc-800 to-black border-4 border-zinc-800 flex items-center justify-center shadow-2xl">
+                    {user.image ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={user.image} alt="Profile" className="w-full h-full rounded-full object-cover" />
+                    ) : (
+                        <User size={40} className="text-gray-500" />
+                    )}
+                </div>
+
+                {/* Info */}
+                <div className="text-center md:text-left flex-1 space-y-2">
+                    <h2 className="text-2xl font-black text-white">{user.name || "Kadet Tanpa Nama"}</h2>
+                    <div className="flex flex-col md:flex-row gap-3 items-center justify-center md:justify-start text-sm text-gray-400">
+                        <span className="flex items-center gap-1.5 px-3 py-1 bg-black/30 rounded-full border border-white/5">
+                            <Mail size={12} /> {user.email}
+                        </span>
+                        <span className="flex items-center gap-1.5 px-3 py-1 bg-blue-900/20 text-blue-400 rounded-full border border-blue-500/20 font-bold uppercase text-[10px] tracking-widest">
+                            <Shield size={12} /> {user.role || "MEMBER"}
+                        </span>
                     </div>
                 </div>
-                <div className="space-y-1">
-                    <label className="text-xs font-bold text-gray-400">TARGET INSTANSI</label>
-                    <select className="w-full bg-black border border-white/20 p-3 rounded text-white focus:border-laser focus:outline-none font-mono">
-                        <option>IPDN (Institut Pemerintahan Dalam Negeri)</option>
-                        <option>STIN (Sekolah Tinggi Intelijen Negara)</option>
-                        <option>POLTEKIP/POLTEKIM</option>
-                    </select>
+
+                {/* Referral Code (Titik Error Sebelumnya) */}
+                <div className="bg-black/40 p-4 rounded-xl border border-white/10 text-center min-w-[180px]">
+                    <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest mb-1">ID / KODE KOMANDAN</p>
+                    <div className="flex items-center justify-center gap-2">
+                        <code className="text-blue-400 font-mono font-bold tracking-widest text-lg">
+                            {/* ✅ FIX: Menggunakan variabel 'referralCode' yang sudah aman */}
+                            {referralCode}
+                        </code>
+                        <button className="text-gray-600 hover:text-white transition-colors">
+                            <Copy size={14} />
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
 
-      {/* 2. SYSTEM PREFERENCES */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          
-          {/* Notifications */}
-          <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-             <h3 className="text-lg font-bold text-white mb-4">COMMS (NOTIFIKASI)</h3>
-             <div className="space-y-4">
-                 {['Info Try Out Terbaru', 'Pengingat Jadwal Belajar', 'Hasil Analisis Mingguan'].map((item, i) => (
-                     <div key={i} className="flex justify-between items-center">
-                         <span className="text-sm text-gray-300 font-mono">{item}</span>
-                         <label className="relative inline-flex items-center cursor-pointer">
-                            <input type="checkbox" defaultChecked className="sr-only peer" />
-                            <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-holo"></div>
-                         </label>
-                     </div>
-                 ))}
-             </div>
-          </div>
+        {/* MENU GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <div className="p-6 bg-zinc-900/30 border border-white/5 rounded-2xl hover:border-white/10 transition-colors cursor-pointer group">
+                <div className="flex items-center gap-4 mb-3">
+                    <div className="p-2 bg-yellow-900/20 text-yellow-500 rounded-lg group-hover:bg-yellow-500 group-hover:text-black transition-all">
+                        <CreditCard size={20} />
+                    </div>
+                    <h3 className="font-bold text-gray-200">Langganan & Tagihan</h3>
+                </div>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                    Lihat status paket aktif dan riwayat transaksi Anda.
+                </p>
+            </div>
 
-          {/* Security */}
-          <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
-             <h3 className="text-lg font-bold text-white mb-4">SECURITY CLEARANCE</h3>
-             <div className="space-y-4">
-                 <button className="w-full py-3 border border-white/20 text-white rounded hover:bg-white/10 transition-all font-mono text-sm">
-                    GANTI PASSWORD
-                 </button>
-                 <button className="w-full py-3 border border-red-900/50 text-red-500 rounded hover:bg-red-900/20 transition-all font-mono text-sm flex justify-center items-center gap-2">
-                    ⚠ DELETE ACCOUNT
-                 </button>
-             </div>
-          </div>
+            <div className="p-6 bg-zinc-900/30 border border-white/5 rounded-2xl hover:border-white/10 transition-colors cursor-pointer group">
+                <div className="flex items-center gap-4 mb-3">
+                    <div className="p-2 bg-purple-900/20 text-purple-500 rounded-lg group-hover:bg-purple-500 group-hover:text-black transition-all">
+                        <Key size={20} />
+                    </div>
+                    <h3 className="font-bold text-gray-200">Keamanan Akun</h3>
+                </div>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                    Ubah kata sandi dan aktifkan verifikasi dua langkah.
+                </p>
+            </div>
 
-      </div>
+            <div className="p-6 bg-zinc-900/30 border border-white/5 rounded-2xl hover:border-white/10 transition-colors cursor-pointer group">
+                <div className="flex items-center gap-4 mb-3">
+                    <div className="p-2 bg-green-900/20 text-green-500 rounded-lg group-hover:bg-green-500 group-hover:text-black transition-all">
+                        <Bell size={20} />
+                    </div>
+                    <h3 className="font-bold text-gray-200">Notifikasi</h3>
+                </div>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                    Atur preferensi pemberitahuan email dan aplikasi.
+                </p>
+            </div>
 
-      {/* SAVE BUTTON */}
-      <div className="flex justify-end pt-4">
-        <button className="bg-laser text-white px-8 py-3 rounded font-bold hover:bg-red-700 transition-all shadow-[0_0_20px_rgba(214,0,28,0.4)]">
-            SIMPAN KONFIGURASI
-        </button>
-      </div>
+        </div>
+
+        {/* LOGOUT BUTTON */}
+        <div className="mt-12 pt-8 border-t border-white/5">
+             {/* Catatan: Di NextAuth, logout idealnya via Client Component (signOut).
+                Disini kita gunakan Link ke rute signout default NextAuth atau custom.
+             */}
+             <a href="/api/auth/signout" className="flex items-center gap-2 text-red-500 hover:text-red-400 font-bold text-sm px-4 py-2 hover:bg-red-900/10 rounded-lg w-fit transition-colors">
+                <LogOut size={16} />
+                KELUAR DARI SISTEM
+             </a>
+        </div>
 
     </div>
   );

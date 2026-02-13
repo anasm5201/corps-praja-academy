@@ -1,0 +1,148 @@
+{
+    "unit_id": 23,
+    "title": "Unit 23: The Social Worker (Hati Nurani)",
+    "description": "Uji kepekaan sosial: Menghadapi masyarakat rentan, adaptasi budaya baru, dan manajemen konflik interpersonal.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U23-Q1",
+        "type": "TKP",
+        "text": "Anda sedang terburu-buru menghadiri rapat evaluasi kinerja (sangat penting). Di perjalanan, Anda melihat seorang nenek pemulung tertabrak sepeda motor dan pingsan. Pelaku kabur. Tidak ada orang lain di sana. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menelepon ambulans/polisi, lalu segera pergi agar tidak terlambat rapat.", "score": 3 },
+          { "key": "B", "text": "Masa bodoh karena rapat menyangkut karir saya.", "score": 1 },
+          { "key": "C", "text": "Menolong nenek tersebut, membawanya ke RS terdekat, dan mengabari atasan bahwa Anda akan terlambat karena situasi darurat kemanusiaan.", "score": 5 },
+          { "key": "D", "text": "Meminta orang yang lewat untuk menolong.", "score": 2 },
+          { "key": "E", "text": "Memfoto kejadian untuk bukti ke atasan lalu pergi.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Humanity First. Dalam situasi 'Life or Death' (Nyawa), urusan administrasi/rapat menjadi prioritas kedua. Pemimpin yang baik berani mengambil risiko demi kemanusiaan. Opsi C menunjukkan tanggung jawab sosial tertinggi."
+      },
+      {
+        "id": "U23-Q2",
+        "type": "TWK",
+        "text": "Pasal 34 Ayat (1) UUD 1945 berbunyi 'Fakir miskin dan anak-anak terlantar dipelihara oleh negara'. Makna kata 'dipelihara' dalam konteks modern adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Diberi makan gratis seumur hidup.", "score": 0 },
+          { "key": "B", "text": "Ditempatkan di panti sosial saja.", "score": 0 },
+          { "key": "C", "text": "Diberdayakan (Empowerment) dan diberi jaminan sosial agar bisa mandiri/sejahtera.", "score": 5 },
+          { "key": "D", "text": "Dibebaskan dari hukum.", "score": 0 },
+          { "key": "E", "text": "Dibiarkan hidup di jalanan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konsep Pemberdayaan. Negara tidak hanya memberi 'ikan' (bansos konsumtif), tapi juga 'kail' (pelatihan, akses kesehatan/pendidikan) agar mereka mentas dari kemiskinan."
+      },
+      {
+        "id": "U23-Q3",
+        "type": "TKP",
+        "text": "Anda ditempatkan di daerah yang memiliki tradisi 'Uang Pelicin' sebagai tanda terima kasih kepada petugas. Warga tersinggung jika Anda menolak pemberian tersebut karena dianggap sombong. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menerima uang tersebut agar warga senang, lalu menyumbangkannya.", "score": 2 },
+          { "key": "B", "text": "Menolak dengan kasar karena itu gratifikasi.", "score": 1 },
+          { "key": "C", "text": "Menolak secara halus dengan bahasa budaya setempat, menjelaskan bahwa gaji Anda sudah dibayar negara, dan meminta doa restu saja sebagai ganti uang.", "score": 5 },
+          { "key": "D", "text": "Menerima dan melaporkan ke KPK.", "score": 4 },
+          { "key": "E", "text": "Meminta diganti barang saja bukan uang.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas Berbalut Budaya. Kuncinya di CARA MENOLAK. Jangan melukai hati warga (B), tapi jangan melanggar aturan (A). Opsi C adalah pendekatan persuasif kultural yang sempurna."
+      },
+      {
+        "id": "U23-Q4",
+        "type": "TIU",
+        "text": "Logika Sosial: Di sebuah desa, Semua Petani adalah Pemilik Sawah. Sebagian Pemilik Sawah juga beternak Sapi. Pak Asep tidak beternak Sapi.",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Pak Asep bukan Petani.", "score": 0 },
+          { "key": "B", "text": "Pak Asep pasti Petani.", "score": 0 },
+          { "key": "C", "text": "Pak Asep mungkin Petani, mungkin bukan.", "score": 5 },
+          { "key": "D", "text": "Pak Asep adalah Pemilik Sawah.", "score": 0 },
+          { "key": "E", "text": "Pak Asep benci Sapi.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Himpunan Bagian. Petani ada di dalam lingkaran Pemilik Sawah. Pemilik Sawah ada yang ternak sapi, ada yang tidak. Pak Asep tidak ternak sapi. Dia bisa jadi Pemilik Sawah yang Petani, atau Pemilik Sawah yang BUKAN Petani (karena tidak semua pemilik sawah adalah petani, hanya Semua Petani adalah pemilik sawah). Status Pak Asep tidak bisa dipastikan hanya dari data ini."
+      },
+      {
+        "id": "U23-Q5",
+        "type": "TKP",
+        "text": "Rekan kerja satu tim Anda memiliki bau badan yang sangat mengganggu sehingga anggota tim lain enggan bekerja dengannya. Kinerja tim mulai terganggu. Sebagai ketua tim, sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menegurnya di depan rapat agar dia sadar diri.", "score": 1 },
+          { "key": "B", "text": "Meletakkan kapur barus/pengharum di mejanya secara diam-diam.", "score": 2 },
+          { "key": "C", "text": "Mengajaknya bicara empat mata di ruang tertutup, menyampaikan masalah dengan bahasa yang sangat sopan dan empatik, serta memberikan solusi (misal: saran produk/dokter).", "score": 5 },
+          { "key": "D", "text": "Meminta HRD yang menegur.", "score": 3 },
+          { "key": "E", "text": "Membicarakan di belakang dengan tim lain.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Komunikasi Assertif & Empatik. Masalah personal sensitif harus dibicarakan PRIVAT (Empat mata). Tujuannya perbaikan kinerja, bukan mempermalukan. Opsi C paling manusiawi dan efektif."
+      },
+      {
+        "id": "U23-Q6",
+        "type": "TIU",
+        "text": "Analisis Data Kemiskinan: Berdasarkan grafik, tahun berapakah program pengentasan kemiskinan paling TIDAK EFEKTIF?",
+        "image": "<svg width='250' height='120' viewBox='0 0 250 120' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='100' x2='240' y2='100' stroke='black'/><line x1='30' y1='100' x2='30' y2='10' stroke='black'/><text x='10' y='60' font-size='8' transform='rotate(-90, 10, 60)'>% Miskin</text><circle cx='50' cy='30' r='3' fill='red'/><text x='50' y='115' font-size='8'>2019</text><text x='50' y='25' font-size='8'>10%</text><line x1='50' y1='30' x2='90' y2='40' stroke='red'/><circle cx='90' cy='40' r='3' fill='red'/><text x='90' y='115' font-size='8'>2020</text><text x='90' y='35' font-size='8'>9%</text><line x1='90' y1='40' x2='130' y2='40' stroke='red'/><circle cx='130' cy='40' r='3' fill='red'/><text x='130' y='115' font-size='8'>2021</text><text x='130' y='35' font-size='8'>9%</text><line x1='130' y1='40' x2='170' y2='80' stroke='red'/><circle cx='170' cy='80' r='3' fill='red'/><text x='170' y='115' font-size='8'>2022</text><text x='170' y='75' font-size='8'>5%</text></svg>",
+        "options": [
+          { "key": "A", "text": "2019", "score": 0 },
+          { "key": "B", "text": "2020", "score": 0 },
+          { "key": "C", "text": "2021", "score": 5 },
+          { "key": "D", "text": "2022", "score": 0 },
+          { "key": "E", "text": "Semua efektif", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Baca Tren. Efektif = Angka kemiskinan TURUN. \n2019-2020: Turun 1%. \n2020-2021: DATAR/STAGNAN (Tetap 9%). \n2021-2022: Turun drastis 4%. \nMaka tahun 2021 adalah yang paling tidak efektif karena tidak ada penurunan."
+      },
+      {
+        "id": "U23-Q7",
+        "type": "TWK",
+        "text": "Sikap 'Gotong Royong' yang menjadi ciri khas bangsa Indonesia, dalam sosiologi disebut sebagai bentuk...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Solidaritas Mekanik", "score": 5 },
+          { "key": "B", "text": "Solidaritas Organik", "score": 0 },
+          { "key": "C", "text": "Individualisme", "score": 0 },
+          { "key": "D", "text": "Patembayan (Gesellschaft)", "score": 0 },
+          { "key": "E", "text": "Stratifikasi Sosial", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Istilah Sosiologi (Emile Durkheim). Masyarakat pedesaan/tradisional punya ikatan batin kuat, kolektif, dan gotong royong = Solidaritas MEKANIK. Masyarakat kota (kerja berdasarkan spesialisasi/gaji) = Solidaritas ORGANIK."
+      },
+      {
+        "id": "U23-Q8",
+        "type": "TIU",
+        "text": "Hitungan Bansos: Desa A mendapat bantuan 50 karung beras. Tiap karung 25 kg. Beras itu akan dibagikan ke 125 KK miskin sama rata. Berapa kg yang diterima tiap KK?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "5 kg", "score": 0 },
+          { "key": "B", "text": "8 kg", "score": 0 },
+          { "key": "C", "text": "10 kg", "score": 5 },
+          { "key": "D", "text": "12 kg", "score": 0 },
+          { "key": "E", "text": "15 kg", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Total Beras = 50 x 25 = 1.250 kg. Dibagi 125 KK. 1.250 / 125 = 10 kg/KK."
+      },
+      {
+        "id": "U23-Q9",
+        "type": "TKP",
+        "text": "Seorang penyandang disabilitas datang ke kantor Anda. Loket pelayanan tinggi dan sulit dijangkau oleh kursi roda. Antrean sedang sepi. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tetap melayani dari balik loket sesuai SOP.", "score": 1 },
+          { "key": "B", "text": "Berteriak agar suara terdengar jelas.", "score": 1 },
+          { "key": "C", "text": "Keluar dari loket, menghampiri beliau, dan melayani dengan posisi sejajar/duduk agar memudahkan komunikasi (Jemput Bola).", "score": 5 },
+          { "key": "D", "text": "Menyuruh satpam mengangkat kursi rodanya.", "score": 2 },
+          { "key": "E", "text": "Meminta pendampingnya yang mengurus.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Adaptasi Pelayanan (Service Excellence). Jika infrastruktur menghambat, SDM yang harus fleksibel. Keluar loket dan melayani sejajar adalah bentuk penghormatan tertinggi."
+      },
+      {
+        "id": "U23-Q10",
+        "type": "TKP",
+        "text": "Rekan kerja Anda sering meminjam uang kepada Anda dan rekan lain dengan alasan kebutuhan mendesak, tapi sulit ditagih. Suasana kerja jadi tidak enak. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menjelek-jelekkannya di grup kantor.", "score": 1 },
+          { "key": "B", "text": "Melapor ke atasan agar gajinya dipotong.", "score": 3 },
+          { "key": "C", "text": "Berhenti meminjamkan uang dan menyarankannya ke manajemen keuangan/koperasi kantor secara tegas namun suportif.", "score": 5 },
+          { "key": "D", "text": "Ikhlaskan saja.", "score": 2 },
+          { "key": "E", "text": "Memarahinya di depan umum.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Ketegasan Profesional. Meminjamkan uang terus menerus menciptakan ketergantungan (Enabling). Stop pinjaman + Beri Solusi Sistemik (Koperasi/Bank) adalah cara terbaik mendidik tanggung jawab."
+      }
+    ]
+  }

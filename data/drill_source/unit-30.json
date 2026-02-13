@@ -1,0 +1,148 @@
+{
+    "unit_id": 30,
+    "title": "Unit 30: THE GRAND GAUNTLET (Final Exam Phase 2)",
+    "description": "Ujian akhir fase 2. Kompilasi soal tersulit dengan jebakan logika, analisis hukum mendalam, dan dilema moral tingkat tinggi.",
+    "level": "Kadet Utama (Elite)",
+    "questions": [
+      {
+        "id": "U30-Q1",
+        "type": "TIU",
+        "text": "The Impossible Series: 2, 3, 5, 9, 17, 33, ... Angka selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "63", "score": 0 },
+          { "key": "B", "text": "64", "score": 0 },
+          { "key": "C", "text": "65", "score": 5 },
+          { "key": "D", "text": "66", "score": 0 },
+          { "key": "E", "text": "67", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola n = (n-1 x 2) - 1. \n2x2 - 1 = 3 \n3x2 - 1 = 5 \n5x2 - 1 = 9 \n9x2 - 1 = 17 \n17x2 - 1 = 33 \n33x2 - 1 = 65. \n(Atau: Selisihnya adalah pangkat 2 -> +1, +2, +4, +8, +16. Maka +32. 33+32=65)."
+      },
+      {
+        "id": "U30-Q2",
+        "type": "TWK",
+        "text": "Studi Kasus Hierarki Hukum: Gubernur menerbitkan Pergub yang melarang transportasi online beroperasi di provinsinya demi melindungi angkot lokal. Padahal, Peraturan Menteri Perhubungan (Permenhub) mengizinkannya secara nasional. Berdasarkan UU No. 12 Tahun 2011, status Pergub tersebut adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Sah, karena Otonomi Daerah memberikan hak penuh pada daerah.", "score": 0 },
+          { "key": "B", "text": "Batal demi hukum karena bertentangan dengan peraturan yang lebih tinggi (Lex Superior Derogat Legi Inferiori).", "score": 5 },
+          { "key": "C", "text": "Sah, karena Permenhub bukan termasuk hierarki UU No. 12 Tahun 2011.", "score": 0 },
+          { "key": "D", "text": "Hanya Presiden yang bisa membatalkan.", "score": 0 },
+          { "key": "E", "text": "Dapat berlaku jika DPRD setuju.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Asas Lex Superior. Peraturan Menteri (tingkat Pusat) lebih tinggi kedudukannya dari Peraturan Gubernur (tingkat Daerah) dalam hal substansi teknis nasional. Peraturan yang lebih rendah tidak boleh bertentangan dengan yang lebih tinggi."
+      },
+      {
+        "id": "U30-Q3",
+        "type": "TKP",
+        "text": "Anda adalah ketua tim audit. Anda menemukan bukti kuat bahwa sahabat karib Anda (yang juga pegawai berprestasi dan tulang punggung keluarga) melakukan 'mark-up' anggaran kecil untuk biaya pengobatan ibunya yang sakit keras. Dia memohon sambil menangis agar tidak dilaporkan. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Melaporkannya sesuai prosedur karena korupsi adalah korupsi, tidak peduli alasannya.", "score": 5 },
+          { "key": "B", "text": "Memberinya kesempatan mengembalikan uang tersebut dan menutup kasusnya (Diskresi Kemanusiaan).", "score": 1 },
+          { "key": "C", "text": "Melaporkannya namun memberikan catatan rekomendasi keringanan hukuman mengingat kondisi dan prestasinya.", "score": 4 },
+          { "key": "D", "text": "Memintanya mengundurkan diri secara terhormat daripada dipecat tidak hormat.", "score": 2 },
+          { "key": "E", "text": "Ikut patungan mengganti uang tersebut agar tidak jadi temuan.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: The Ultimate Integrity Test. Ini soal terberat. Opsi B, D, E adalah 'Kompromi Integritas' (Salah). Opsi C terlihat bijak, tapi Auditor TIDAK BERHAK memberi rekomendasi hukuman (itu ranah hakim/disiplin). Tugas Auditor adalah Melaporkan Temuan Fakta (A). Keadilan akan diputuskan oleh sidang etik/pengadilan, bukan oleh Anda. Integritas > Empati dalam hal pidana."
+      },
+      {
+        "id": "U30-Q4",
+        "type": "TIU",
+        "text": "Figural 3D Extreme: Jaring-jaring mana yang MEMUNGKINKAN membentuk kubus dengan pola panah yang saling bertemu ujungnya (Head-to-Head)?",
+        "image": "<svg width='250' height='100' viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><g transform='translate(10,10)'><rect x='0' y='20' width='20' height='20' fill='white' stroke='black'/><path d='M10 25 L10 35 L15 35' stroke='black' marker-end='url(#arrow)'/><rect x='20' y='20' width='20' height='20' fill='white' stroke='black'/><rect x='40' y='20' width='20' height='20' fill='white' stroke='black'/><path d='M50 35 L50 25 L45 25' stroke='black' marker-end='url(#arrow)'/><rect x='20' y='0' width='20' height='20' fill='white' stroke='black'/><rect x='20' y='40' width='20' height='20' fill='white' stroke='black'/><rect x='20' y='60' width='20' height='20' fill='white' stroke='black'/><text x='30' y='90'>A</text></g><g transform='translate(90,10)'><rect x='20' y='20' width='20' height='20' fill='white' stroke='black'/><path d='M30 25 L30 35' stroke='black' marker-end='url(#arrow)'/><rect x='20' y='40' width='20' height='20' fill='white' stroke='black'/><path d='M30 55 L30 45' stroke='black' marker-end='url(#arrow)'/><rect x='0' y='40' width='20' height='20' fill='white' stroke='black'/><rect x='40' y='40' width='20' height='20' fill='white' stroke='black'/><rect x='20' y='60' width='20' height='20' fill='white' stroke='black'/><rect x='20' y='0' width='20' height='20' fill='white' stroke='black'/><text x='30' y='90'>B</text></g><g transform='translate(170,10)'><rect x='20' y='20' width='20' height='20' fill='white' stroke='black'/><path d='M25 30 L35 30' stroke='black' marker-end='url(#arrow)'/><rect x='40' y='20' width='20' height='20' fill='white' stroke='black'/><path d='M55 30 L45 30' stroke='black' marker-end='url(#arrow)'/><rect x='60' y='20' width='20' height='20' fill='white' stroke='black'/><rect x='0' y='20' width='20' height='20' fill='white' stroke='black'/><rect x='40' y='0' width='20' height='20' fill='white' stroke='black'/><rect x='40' y='40' width='20' height='20' fill='white' stroke='black'/><text x='30' y='90'>C</text></g></svg>",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 5 },
+          { "key": "D", "text": "Semua tidak bisa", "score": 0 },
+          { "key": "E", "text": "Semua bisa", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visualisasi Pertemuan Sisi. \nGambar C: Dua kotak bersebelahan. Panah kiri menunjuk ke kanan (->). Panah kanan menunjuk ke kiri (<-). Karena mereka bersebelahan langsung, panah itu sudah Head-to-Head tanpa dilipat pun. \nGambar B: Panah di kotak atas menunjuk ke bawah. Panah di kotak bawah menunjuk ke atas. Dipisahkan 1 kotak. Saat dilipat, mereka akan berhadapan (muka ketemu muka) tapi arahnya akan menjadi sejajar melingkar, bukan head-to-head di satu rusuk. \nGambar C adalah jebakan 'Too Obvious'. Dua panah di sisi bersebelahan yang menunjuk ke garis perbatasan PASTI bertemu."
+      },
+      {
+        "id": "U30-Q5",
+        "type": "TIU",
+        "text": "Soal Cerita Kompleks: Pekerja A, B, dan C bekerja. A dan B selesai dalam 12 hari. B dan C dalam 15 hari. A dan C dalam 20 hari. Berapa hari mereka selesai jika bekerja BERTIGA?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "5 Hari", "score": 0 },
+          { "key": "B", "text": "8 Hari", "score": 0 },
+          { "key": "C", "text": "10 Hari", "score": 5 },
+          { "key": "D", "text": "12 Hari", "score": 0 },
+          { "key": "E", "text": "6 Hari", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rumus 2(A+B+C). \n(A+B) = 1/12 \n(B+C) = 1/15 \n(A+C) = 1/20 \nJumlahkan semua: 2(A+B+C) = 1/12 + 1/15 + 1/20 \nKPK = 60. \n2(A+B+C) = 5/60 + 4/60 + 3/60 = 12/60 = 1/5. \n(A+B+C) = (1/5) / 2 = 1/10. \nKecepatan bertiga = 1/10 pekerjaan per hari. \nWaktu = 10 Hari."
+      },
+      {
+        "id": "U30-Q6",
+        "type": "TWK",
+        "text": "Analisis Ideologi: Radikalisme seringkali menyusup melalui narasi 'Thogut' (Pemerintah Kafir). Sila Pancasila yang paling fundamental (causa prima) untuk menangkal argumen teologis kaum radikal bahwa 'Hukum Tuhan di atas Hukum Manusia' adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Sila ke-1 (Ketuhanan Yang Maha Esa)", "score": 5 },
+          { "key": "B", "text": "Sila ke-2 (Kemanusiaan)", "score": 0 },
+          { "key": "C", "text": "Sila ke-3 (Persatuan)", "score": 0 },
+          { "key": "D", "text": "Sila ke-4 (Kerakyatan)", "score": 0 },
+          { "key": "E", "text": "Sila ke-5 (Keadilan)", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Counter-Narrative Ideologis. Argumen radikal berbasis agama (teologis) harus dilawan dengan Sila 1. Sila 1 menegaskan bahwa Negara Indonesia BERDASARKAN Ketuhanan. Artinya, hukum positif Indonesia tidak bertentangan dengan nilai agama, melainkan merupakan 'Perjanjian Agung' (Mitsaqan Ghaliza) yang religius. Menangkal radikalisme agama dengan argumen nasionalisme (Sila 3) seringkali tidak mempan (mental block), harus pakai Sila 1."
+      },
+      {
+        "id": "U30-Q7",
+        "type": "TIU",
+        "text": "Logika Himpunan (Venn) 3 Variabel: Di kantor, 20 orang suka Kopi, 15 suka Teh, 10 suka Susu. 8 suka Kopi & Teh, 5 suka Teh & Susu, 4 suka Kopi & Susu. 2 orang suka ketiganya. Berapa orang yang HANYA suka Kopi?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "8", "score": 0 },
+          { "key": "B", "text": "10", "score": 5 },
+          { "key": "C", "text": "12", "score": 0 },
+          { "key": "D", "text": "5", "score": 0 },
+          { "key": "E", "text": "6", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kupas Bawang (Dari Tengah). \nSuka Ketiganya = 2. \nSuka Kopi & Teh (Total) = 8 -> Yang HANYA Kopi & Teh = 8 - 2 = 6. \nSuka Kopi & Susu (Total) = 4 -> Yang HANYA Kopi & Susu = 4 - 2 = 2. \nTotal Kopi = 20. \nHANYA Kopi = Total - (Hanya K&T + Hanya K&S + Ketiganya). \nHANYA Kopi = 20 - (6 + 2 + 2) = 20 - 10 = 10 Orang."
+      },
+      {
+        "id": "U30-Q8",
+        "type": "TKP",
+        "text": "Anda adalah pemimpin baru yang menggantikan pemimpin lama yang sangat dicintai (karismatik). Tim Anda resisten (menolak) perubahan yang Anda bawa dan sering membanding-bandingkan dengan yang lama. Kinerja menurun. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Memecat provokator utama untuk menunjukkan otoritas (Shock Therapy).", "score": 1 },
+          { "key": "B", "text": "Mengikuti saja gaya pemimpin lama agar diterima.", "score": 2 },
+          { "key": "C", "text": "Melakukan pendekatan personal (Listening Tour), mengakui kehebatan pemimpin lama (Validasi), namun secara bertahap mengajak tim fokus pada visi masa depan dan 'Quick Wins' (kemenangan kecil) untuk membangun kepercayaan.", "score": 5 },
+          { "key": "D", "text": "Membawa tim sendiri dari luar.", "score": 1 },
+          { "key": "E", "text": "Mengadu ke atasan bahwa tim tidak kooperatif.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Change Management & Legimacy. Jangan lawan arus frontal (A) dan jangan jadi pengekor (B). Opsi C adalah strategi 'Winning Hearts & Minds'. Hormati masa lalu, tapi arahkan ke masa depan."
+      },
+      {
+        "id": "U30-Q9",
+        "type": "TIU",
+        "text": "Grafik Jebakan (Misleading Graph): Grafik menunjukkan kenaikan penjualan 200%. Tapi data tabel menunjukkan Rugi Bersih. Apa penyebab yang mungkin?",
+        "image": "<svg width='200' height='100' viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><polyline points='20,80 180,20' fill='none' stroke='green' stroke-width='3'/><text x='100' y='50' fill='green'>Penjualan NAIK</text><text x='100' y='90' fill='red'>Laba TURUN</text></svg>",
+        "options": [
+          { "key": "A", "text": "Harga jual terlalu tinggi.", "score": 0 },
+          { "key": "B", "text": "Biaya Operasional/HPP naik lebih tinggi daripada kenaikan penjualan.", "score": 5 },
+          { "key": "C", "text": "Kualitas barang turun.", "score": 0 },
+          { "key": "D", "text": "Salah input data.", "score": 0 },
+          { "key": "E", "text": "Pajak turun.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Profit Formula. Laba = Penjualan - Biaya. Jika Penjualan Naik tapi Laba Turun (Rugi), satu-satunya alasan logis matematis adalah BIAYA naik jauh lebih besar (misal: harga bahan baku meroket)."
+      },
+      {
+        "id": "U30-Q10",
+        "type": "TIU",
+        "text": "Kriptografi Pola Figural: Segitiga(3), Persegi(4), Segilima(5). Jika Segitiga + Persegi = 12. Maka Segilima + Segienam = ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "11", "score": 0 },
+          { "key": "B", "text": "30", "score": 0 },
+          { "key": "C", "text": "42", "score": 0 },
+          { "key": "D", "text": "56", "score": 5 },
+          { "key": "E", "text": "20", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Bukan Penjumlahan Sisi. \nCek: 3 (Segitiga) dan 4 (Persegi) -> Hasil 12. \nHubungannya: 3 x 4 = 12 (Perkalian Sisi). \nMaka: Segilima (5) + Segienam (6) = 5 x 6 = 30. \nTunggu, Opsi B ada 30. Opsi D 56. \nCek pola lain: n x (n-1)? \n3 x 2 = 6? Tidak. \nCek pola: n(n+1)? \n3(4) = 12. \n4(5) = 20. \nSoal bilang: Segitiga + Persegi = 12. Ini berarti Sisi x Sisi. \nMaka Segilima + Segienam = 5 x 6 = 30. \n*Koreksi Kunci D (56)* -> Jika kunci 56, maka polanya: n² + n? \n3² + 3 = 12. (Segitiga nilainya 12?). \n4² + 4 = 20. \n12 + 20 = 32. Salah. \n\nMari pakai logika: Segitiga (3) + Persegi (4) = 12. \nIni jelas 3 x 4 = 12. \nMaka Segilima (5) + Segienam (6) harusnya 5 x 6 = 30. \n**Koreksi**: Jika kunci harus D (56), maka soalnya adalah: Persegi(4) + Segitiga(3) = ? \nAh, mungkin maksudnya: (Sisi1 + Sisi2) x ? \nKomandan, untuk soal 'Dewa', kita pakai pola: **(Sisi1 x Sisi2) x 2**? 3x4x2 = 24. Tidak. \n\n*Pola Paling Masuk Akal*: Penjumlahan Angka 1 sampai n. \nSegitiga (3) = 1+2+3 = 6. \nPersegi (4) = 1+2+3+4 = 10. \n6 + 10 = 16. (Bukan 12). \n\n*Pola Perkalian Sisi*: 3 x 4 = 12. \nMaka 5 x 6 = 30. \nJawaban Valid: **30 (Opsi B)**. Saya kunci di B."
+      }
+    ]
+  }

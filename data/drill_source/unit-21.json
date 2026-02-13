@@ -1,0 +1,148 @@
+{
+    "unit_id": 21,
+    "title": "Unit 21: The Speed Reader (Literasi Taktis)",
+    "description": "Latihan kecepatan membaca dan memahami inti masalah dari wacana panjang, infografis, dan logika verbal tersirat.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U21-Q1",
+        "type": "TWK",
+        "text": "Wacana: 'Pemindahan Ibu Kota Nusantara (IKN) bukan sekadar memindahkan gedung pemerintahan, melainkan upaya mengubah mindset pembangunan dari Jawa-sentris menjadi Indonesia-sentris. Selain itu, IKN didesain sebagai forest city yang menjamin keberlanjutan lingkungan.' \n\nManakah pernyataan yang TIDAK sesuai dengan paragraf di atas?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "IKN bertujuan memeratakan pembangunan.", "score": 0 },
+          { "key": "B", "text": "IKN mengusung konsep kota hutan.", "score": 0 },
+          { "key": "C", "text": "Pemindahan IKN hanya berfokus pada infrastruktur fisik gedung.", "score": 5 },
+          { "key": "D", "text": "Pola pikir pembangunan diubah menjadi Indonesia-sentris.", "score": 0 },
+          { "key": "E", "text": "Aspek lingkungan menjadi perhatian dalam desain IKN.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Teknik Scanning Negatif. Cari kata 'BUKAN' atau 'KECUALI'. Teks eksplisit menyebut: 'bukan sekadar memindahkan gedung'. Maka Opsi C (Hanya berfokus fisik) bertentangan langsung dengan teks."
+      },
+      {
+        "id": "U21-Q2",
+        "type": "TIU",
+        "text": "Logika Wacana: 'Semua peserta yang lulus seleksi administrasi berhak mengikuti tes SKD. Sebagian peserta yang ikut SKD membawa surat keterangan sehat. Budi tidak membawa surat keterangan sehat.' Kesimpulan?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Budi tidak lulus seleksi administrasi.", "score": 0 },
+          { "key": "B", "text": "Budi tidak boleh ikut SKD.", "score": 0 },
+          { "key": "C", "text": "Budi bukan peserta yang lulus seleksi.", "score": 0 },
+          { "key": "D", "text": "Budi mungkin peserta yang lulus seleksi administrasi.", "score": 5 },
+          { "key": "E", "text": "Budi pasti tidak lulus.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Cek Premis. 'Sebagian' peserta bawa surat sehat. Artinya 'Sebagian LAINNYA' tidak bawa. Budi tidak bawa, berarti Budi bisa jadi masuk dalam kelompok 'sebagian lainnya' yang tetap ikut SKD. Jangan memvonis Budi gagal hanya karena tidak bawa surat (kecuali ada kata 'Wajib')."
+      },
+      {
+        "id": "U21-Q3",
+        "type": "TWK",
+        "text": "Literasi Infografis: Berdasarkan data visual berikut, tren pengangguran tertinggi terjadi pada tingkat pendidikan...",
+        "image": "<svg width='250' height='150' viewBox='0 0 250 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='100' width='30' height='30' fill='#888'/><text x='35' y='140' text-anchor='middle' font-size='8'>SD</text><text x='35' y='95' text-anchor='middle' font-size='8'>3%</text><rect x='70' y='80' width='30' height='50' fill='#888'/><text x='85' y='140' text-anchor='middle' font-size='8'>SMP</text><text x='85' y='75' text-anchor='middle' font-size='8'>5%</text><rect x='120' y='30' width='30' height='100' fill='red'/><text x='135' y='140' text-anchor='middle' font-size='8'>SMK</text><text x='135' y='25' text-anchor='middle' font-size='8'>10%</text><rect x='170' y='60' width='30' height='70' fill='#888'/><text x='185' y='140' text-anchor='middle' font-size='8'>S1</text><text x='185' y='55' text-anchor='middle' font-size='8'>7%</text><line x1='10' y1='130' x2='240' y2='130' stroke='black'/></svg>",
+        "options": [
+          { "key": "A", "text": "SD", "score": 0 },
+          { "key": "B", "text": "SMP", "score": 0 },
+          { "key": "C", "text": "SMK (Sekolah Menengah Kejuruan)", "score": 5 },
+          { "key": "D", "text": "S1 (Sarjana)", "score": 0 },
+          { "key": "E", "text": "Semua sama", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visual Reading. Cari batang paling tinggi/panjang. SMK memiliki batang tertinggi (10%). Ini anomali nyata di data BPS seringkali muncul: SMK penyumbang pengangguran tinggi."
+      },
+      {
+        "id": "U21-Q4",
+        "type": "TIU",
+        "text": "Penalaran Analitis Teks: 'Dalam antrean dokter, A dipanggil sebelum B. C dipanggil sesudah D dan sebelum E. B dipanggil sesudah E.' Urutan pemanggilan yang benar adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "A - B - D - C - E", "score": 0 },
+          { "key": "B", "text": "D - C - E - A - B", "score": 5 },
+          { "key": "C", "text": "D - E - C - A - B", "score": 0 },
+          { "key": "D", "text": "A - D - C - E - B", "score": 0 },
+          { "key": "E", "text": "E - C - D - A - B", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Mapping Cepat. 1) A < B. 2) D < C < E. 3) E < B. Gabungkan: D < C < E < B. Dan karena A < B, posisi A bisa dimana saja SEBELUM B. Cek opsi yang memenuhi D-C-E-A-B atau D-C-E-B (dengan A disisipkan). Opsi B: D-C-E-A-B. Cek syarat: A sebelum B? Ya. C sesudah D? Ya. C sebelum E? Ya. B sesudah E? Ya. Valid."
+      },
+      {
+        "id": "U21-Q5",
+        "type": "TKP",
+        "text": "Literasi Digital (Email): Anda menerima email keluhan panjang lebar dari warga dengan bahasa kasar dan huruf kapital semua. Intinya dia marah karena layanan lambat. Sikap Anda dalam membalas email?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tidak membalas agar tidak memicu keributan.", "score": 1 },
+          { "key": "B", "text": "Membalas dengan huruf kapital juga untuk menegaskan posisi.", "score": 1 },
+          { "key": "C", "text": "Membalas dengan template formal standar robot.", "score": 2 },
+          { "key": "D", "text": "Membalas dengan bahasa santun, meminta maaf atas ketidaknyamanan, mengakui poin keluhannya (validasi), dan memberikan solusi konkret/timeline penyelesaian.", "score": 5 },
+          { "key": "E", "text": "Meneruskan email ke atasan tanpa membalas.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: De-eskalasi Konflik. Hadapi 'Api' (Huruf Kapital/Marah) dengan 'Air' (Santun & Solutif). Kuncinya: Maaf + Validasi + Solusi."
+      },
+      {
+        "id": "U21-Q6",
+        "type": "TIU",
+        "text": "Kalimat Efektif: Manakah kalimat dinas yang paling efektif dan baku?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Kepada Bapak Kepala Dinas, waktu dan tempat kami persilahkan.", "score": 0 },
+          { "key": "B", "text": "Untuk mempersingkat waktu, mari kita mulai acara ini.", "score": 0 },
+          { "key": "C", "text": "Atas perhatiannya, kami ucapkan terima kasih.", "score": 0 },
+          { "key": "D", "text": "Kepada Bapak Kepala Dinas, kami silakan.", "score": 5 },
+          { "key": "E", "text": "Demikian agar menjadi maklum adanya.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Logika Bahasa. A salah (Waktu & tempat tidak bisa dipersilakan, yang dipersilakan ORANGNYA). B salah (Waktu tidak bisa disingkat, tapi dihemat). C salah ('-nya' itu kata ganti orang ketiga, harusnya 'Atas perhatian Bapak/Ibu'). D BENAR (Subjek jelas, predikat 'silakan' baku tanpa h)."
+      },
+      {
+        "id": "U21-Q7",
+        "type": "TWK",
+        "text": "Wacana Sejarah: 'Sumpah Pemuda bukan sekadar ikrar satu nusa bangsa bahasa, tetapi merupakan kristalisasi semangat untuk mendobrak sekat-sekat primordialisme kedaerahan (Jong Java, Jong Celebes) menjadi satu identitas politik baru bernama Indonesia.' Makna 'primordialisme' dalam konteks di atas adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Paham kebebasan individu", "score": 0 },
+          { "key": "B", "text": "Ikatan kekerabatan/kedaerahan yang dibawa sejak lahir", "score": 5 },
+          { "key": "C", "text": "Sikap memusuhi penjajah", "score": 0 },
+          { "key": "D", "text": "Gerakan bawah tanah", "score": 0 },
+          { "key": "E", "text": "Sistem pemerintahan kerajaan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Vocabulary in Context. Primordial = Awal/Asal. Primordialisme = Paham yang memegang teguh ikatan bawaan (suku, ras, daerah asal) secara berlebihan. Sumpah Pemuda melawan ini."
+      },
+      {
+        "id": "U21-Q8",
+        "type": "TIU",
+        "text": "Penarikan Kesimpulan: Semua A adalah B. Sebagian B adalah C. Semua C adalah D.",
+        "image": "<svg width='200' height='120' viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='60' r='50' fill='none' stroke='black'/><text x='100' y='30' font-size='10'>B</text><circle cx='80' cy='60' r='20' fill='#eee' stroke='black'/><text x='80' y='65' font-size='10'>A</text><circle cx='130' cy='60' r='15' fill='none' stroke='black'/><text x='130' y='65' font-size='10'>C</text><rect x='110' y='40' width='40' height='40' fill='none' stroke='black' stroke-dasharray='2,2'/><text x='140' y='35' font-size='10'>D</text></svg>",
+        "options": [
+          { "key": "A", "text": "Semua A adalah D.", "score": 0 },
+          { "key": "B", "text": "Sebagian B adalah D.", "score": 5 },
+          { "key": "C", "text": "Semua B adalah C.", "score": 0 },
+          { "key": "D", "text": "Tidak ada A yang D.", "score": 0 },
+          { "key": "E", "text": "Semua D adalah B.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rantai Logika. Sebagian B adalah C. Semua C adalah D. Maka otomatis: Sebagian B adalah D (karena perantara C). Hubungan A dan D tidak jelas (bisa beririsan, bisa tidak), jadi jangan disimpulkan."
+      },
+      {
+        "id": "U21-Q9",
+        "type": "TKP",
+        "text": "Anda menemukan dokumen rahasia negara tercecer di mesin fotokopi umum di kantor. Isinya tentang rencana kenaikan gaji pegawai yang belum rilis. Rekan-rekan mulai berkerumun ingin melihat. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Ikut membaca sekilas lalu menyimpannya.", "score": 1 },
+          { "key": "B", "text": "Membacakan isinya kepada rekan-rekan agar semua senang.", "score": 1 },
+          { "key": "C", "text": "Segera mengambil dokumen tersebut, memasukkannya ke map tertutup, dan menyerahkannya kepada pejabat yang berwenang/pemilik dokumen tanpa membocorkan isinya.", "score": 5 },
+          { "key": "D", "text": "Memarahi rekan yang berkerumun.", "score": 2 },
+          { "key": "E", "text": "Meninggalkannya agar tidak dituduh mencuri.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Rahasia Jabatan. Integritas diuji saat ada kesempatan. Tindakan benar: Amankan (Secure) -> Tutup Akses (Map Tertutup) -> Kembalikan ke Otoritas. Jangan ikut menyebarkan."
+      },
+      {
+        "id": "U21-Q10",
+        "type": "TWK",
+        "text": "Literasi Konstitusi: Pasal 33 Ayat (3) UUD 1945 berbunyi 'Bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.' Frasa 'dikuasai oleh negara' berarti...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Negara menjadi pemilik mutlak tanah (Negara Pemilik).", "score": 0 },
+          { "key": "B", "text": "Negara memiliki hak mengatur, mengurus, dan mengawasi (Hak Menguasai, bukan Memiliki).", "score": 5 },
+          { "key": "C", "text": "Rakyat tidak boleh memiliki tanah pribadi.", "score": 0 },
+          { "key": "D", "text": "Semua hasil tambang untuk pejabat negara.", "score": 0 },
+          { "key": "E", "text": "Swasta dilarang mengelola SDA.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Tafsir MK. Hak Menguasai Negara (HMN) tidak sama dengan Hak Memiliki. Negara bertindak sebagai Regulator (Pengatur) dan Supervisor, tapi kepemilikan bisa perorangan/adat, dan pengelolaan bisa kerja sama dengan swasta asal untungnya buat rakyat."
+      }
+    ]
+  }

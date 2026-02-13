@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 04 - Loyalitas & Hirarki",
+  "type": "PSIKOLOGI_KLINIS_POLRI",
+  "description": "Simulasi tes kepribadian fokus pada hierarki, disiplin komando, dan loyalitas korps.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_PERBEDAAN_STRATEGI",
+  "question": "Atasan langsung Anda memerintahkan strategi penanganan demo yang menurut Anda kurang efektif dibandingkan ide Anda. Waktu sangat mendesak. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengubah strategi di lapangan tanpa izin agar sesuai ide saya.", "points": 1 },
+  { "label": "B", "text": "Mengikuti perintah, sambil menunjukkan ketidaksetujuan di depan anggota.", "points": 2 },
+  { "label": "C", "text": "Melaksanakan perintah, lalu mencatat temuan untuk evaluasi setelah operasi.", "points": 3 },
+  { "label": "D", "text": "Minta waktu singkat memberi masukan, lalu ikut keputusan atasan.", "points": 4 },
+  { "label": "E", "text": "Sampaikan risiko singkat dan opsi mitigasi, lalu eksekusi keputusan atasan.", "points": 5 }
+  ],
+  "explanation": "Ini menguji chain of command dan assertive upward communication di situasi operasional. Opsi 4 sudah menjaga hierarki dengan meminta ruang memberi masukan. Opsi 5 lebih unggul karena masukan yang diberikan berorientasi mitigasi risiko (risk control) dan tetap menutup dengan eksekusi cepat—tidak menghambat tempo operasi serta menjaga kesatuan komando."
+  },
+  {
+  "id": 2,
+  "category": "KEP_POTONG_KOMPAS",
+  "question": "Anda punya ide untuk kemajuan divisi. Anda kenal dekat pimpinan tertinggi, sementara atasan langsung Anda pejabat menengah. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Menghubungi pimpinan tertinggi langsung agar ide cepat disetujui.", "points": 1 },
+  { "label": "B", "text": "Menyebarkan ide ke banyak pihak agar jadi tekanan dari bawah.", "points": 2 },
+  { "label": "C", "text": "Menunggu forum besar, baru menyampaikan tanpa koordinasi atasan.", "points": 3 },
+  { "label": "D", "text": "Sampaikan ide ke atasan langsung dan minta arahan jalur penyampaian.", "points": 4 },
+  { "label": "E", "text": "Sampaikan ke atasan langsung, minta endorsement, dan siap presentasi berjenjang.", "points": 5 }
+  ],
+  "explanation": "Larangan bypassing (potong kompas) menjaga stabilitas organisasi. Opsi 4 sudah patuh prosedur dengan melibatkan atasan langsung. Opsi 5 lebih baik karena menambah akuntabilitas: ide dibawa dengan dukungan atasan (endorsement) dan disiapkan untuk forum resmi, sehingga tetap cepat namun tidak merusak struktur komando."
+  },
+  {
+  "id": 3,
+  "category": "KEP_LOYALITAS_PRESTASI",
+  "question": "Atasan Anda mendapat penghargaan atas keberhasilan proyek yang sebagian besar Anda kerjakan. Nama Anda tidak disebut. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengoreksi di forum umum agar semua tahu kontribusi saya.", "points": 1 },
+  { "label": "B", "text": "Menyimpan kecewa dan menurunkan kualitas kerja ke depannya.", "points": 2 },
+  { "label": "C", "text": "Tetap profesional, namun memilih menjaga jarak agar tidak sakit hati.", "points": 3 },
+  { "label": "D", "text": "Mengucapkan selamat, lalu meminta umpan balik secara pribadi.", "points": 4 },
+  { "label": "E", "text": "Selamati atasan, lalu ajukan evaluasi tim dan pencatatan kontribusi resmi.", "points": 5 }
+  ],
+  "explanation": "Situasi ini menilai loyalitas, pengendalian emosi, dan komunikasi asertif. Opsi 4 sudah tepat: menjaga muka atasan dan meminta feedback secara privat. Opsi 5 lebih unggul karena mengunci fairness secara prosedural (procedural justice): kontribusi didokumentasikan resmi untuk pembelajaran tim dan penilaian kinerja, tanpa menjatuhkan atasan di ruang publik."
+  },
+  {
+  "id": 4,
+  "category": "KEP_PANGGILAN_DARURAT",
+  "question": "Hari libur Anda sedang bersama keluarga. Komandan menelpon perintah apel luar biasa karena ada kerusuhan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menunda respon dan berharap ada personel lain yang menggantikan.", "points": 1 },
+  { "label": "B", "text": "Mengangkat telepon, namun menawar agar boleh datang belakangan.", "points": 2 },
+  { "label": "C", "text": "Berangkat setelah acara selesai agar keluarga tidak kecewa.", "points": 3 },
+  { "label": "D", "text": "Konfirmasi perintah dan segera pamit, sambil mengatur kebutuhan keluarga.", "points": 4 },
+  { "label": "E", "text": "Konfirmasi, kirim ETA, amankan keluarga singkat, lalu segera berangkat.", "points": 5 }
+  ],
+  "explanation": "Ini menguji kesiapsiagaan (on call) dan disiplin komando. Opsi 4 sudah responsif: pamit dan menata urusan keluarga. Opsi 5 lebih baik karena menambahkan komunikasi operasional (ETA) dan prioritas waktu—unit bisa menghitung kekuatan (force readiness) tanpa mengorbankan ketertiban rumah tangga."
+  },
+  {
+  "id": 5,
+  "category": "KEP_RAHASIA_JABATAN",
+  "question": "Anda memegang dokumen rencana operasi. Sahabat Anda yang wartawan mendesak minta info 'off the record'. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memberi gambaran umum agar ia puas dan tidak menekan lagi.", "points": 1 },
+  { "label": "B", "text": "Memberi petunjuk samar agar terlihat membantu tanpa detail.", "points": 2 },
+  { "label": "C", "text": "Menolak menjawab, lalu menghindar agar tidak terus ditanya.", "points": 3 },
+  { "label": "D", "text": "Menolak tegas dan arahkan ke jalur Humas untuk informasi resmi.", "points": 4 },
+  { "label": "E", "text": "Tolak tegas, arahkan ke Humas, dan catat upaya permintaan informasi.", "points": 5 }
+  ],
+  "explanation": "Ini menilai integritas, security awareness, dan batas profesional. Opsi 4 sudah benar: menjaga kerahasiaan dan mengarahkan ke kanal resmi. Opsi 5 lebih unggul karena menambah kontrol keamanan: permintaan info dicatat/diinformasikan sesuai SOP, mencegah kebocoran berulang dan melindungi keselamatan operasi."
+  },
+  {
+  "id": 6,
+  "category": "KEP_HIERARKI_OF_DUTY",
+  "question": "Saat makan di warung (lepas dinas), Anda bertemu atasan Anda. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Pura-pura tidak melihat karena sedang di luar jam dinas.", "points": 1 },
+  { "label": "B", "text": "Menunggu atasan menyapa dulu agar saya tidak salah sikap.", "points": 2 },
+  { "label": "C", "text": "Mengangguk singkat dari jauh tanpa menyapa agar cepat selesai.", "points": 3 },
+  { "label": "D", "text": "Menyapa sopan dari tempat duduk tanpa mengganggu privasinya.", "points": 4 },
+  { "label": "E", "text": "Berdiri singkat, sapa hormat, lalu kembali makan tanpa berlebihan.", "points": 5 }
+  ],
+  "explanation": "Ini menguji etika hierarki dan profesionalisme di ruang publik. Opsi 4 sudah sopan dan menjaga privasi. Opsi 5 lebih unggul karena menunjukkan penghormatan yang jelas (clear respect signal) namun tetap proporsional—tidak berlebihan, tidak membuat situasi canggung."
+  },
+  {
+  "id": 7,
+  "category": "KEP_MUTASI_PELOSOK",
+  "question": "SK mutasi keluar. Anda dipindahkan ke wilayah terpencil jauh dari keluarga dan fasilitas. Reaksi Anda?",
+  "options": [
+  { "label": "A", "text": "Mencari cara membatalkan SK melalui koneksi pribadi.", "points": 1 },
+  { "label": "B", "text": "Menerima, tetapi menyampaikan keluhan ke banyak orang agar didengar.", "points": 2 },
+  { "label": "C", "text": "Berangkat, namun menjalani dengan sikap terpaksa dan mudah bolos.", "points": 3 },
+  { "label": "D", "text": "Menerima dan menyiapkan keluarga, sambil mengurus administrasi penugasan.", "points": 4 },
+  { "label": "E", "text": "Menerima, siapkan rencana adaptasi, dan lapor kesiapan sesuai jadwal.", "points": 5 }
+  ],
+  "explanation": "Ini menilai loyalitas penugasan dan coping adaptif. Opsi 4 sudah bertanggung jawab: menyiapkan keluarga dan administrasi. Opsi 5 lebih baik karena menambahkan rencana adaptasi (resilience plan) serta pelaporan kesiapan—membuat transisi lebih terkontrol dan meminimalkan gangguan kinerja."
+  },
+  {
+  "id": 8,
+  "category": "KEP_KORPS_DIBULLY",
+  "question": "Di reuni, teman mengejek polisi sebagai 'tukang tilang' dan 'korup'. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membalas dengan nada tinggi agar mereka kapok.", "points": 1 },
+  { "label": "B", "text": "Ikut menertawakan agar suasana cair dan saya diterima.", "points": 2 },
+  { "label": "C", "text": "Diam saja dan menghindar dari obrolan karena tidak enak hati.", "points": 3 },
+  { "label": "D", "text": "Menjawab singkat, tegas, dan mengajak bicara dengan kepala dingin.", "points": 4 },
+  { "label": "E", "text": "Tenang, validasi persepsi, lalu jelaskan fakta dan ajak dialog sehat.", "points": 5 }
+  ],
+  "explanation": "Ini menguji de-eskalasi dan citra institusi. Opsi 4 sudah asertif tanpa emosi. Opsi 5 lebih unggul karena memakai teknik validasi dan counter-narrative: tidak defensif, namun tetap menjaga marwah, membuka ruang dialog, dan mengurangi konflik sosial."
+  },
+  {
+  "id": 9,
+  "category": "KEP_ATASAN_SALAH_TEKNIS",
+  "question": "Atasan memerintahkan Anda memperbaiki komputer, tetapi instruksinya salah dan berisiko merusak aset. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menjalankan instruksi apa adanya meski yakin berisiko.", "points": 1 },
+  { "label": "B", "text": "Menolak dengan nada menyalahkan agar atasan sadar.", "points": 2 },
+  { "label": "C", "text": "Memperbaiki dengan cara saya tanpa memberi tahu, biar cepat selesai.", "points": 3 },
+  { "label": "D", "text": "Jelaskan risiko teknis singkat dan minta izin pakai cara yang aman.", "points": 4 },
+  { "label": "E", "text": "Jelaskan risiko, tawarkan opsi aman, dan minta keputusan tertulis bila perlu.", "points": 5 }
+  ],
+  "explanation": "Ini menilai loyalitas kritis dan perlindungan aset negara. Opsi 4 sudah tepat: komunikasi sopan dan meminta izin. Opsi 5 lebih baik karena menambah akuntabilitas (documentation) untuk keputusan berisiko—melindungi organisasi, atasan, dan Anda dari kerugian serta konflik pasca kejadian."
+  },
+  {
+  "id": 10,
+  "category": "KEP_TUGAS_LUAR_TUPOKSI",
+  "question": "Karena kekurangan personel, Komandan memerintahkan Anda membersihkan WC kantor yang kotor, padahal Anda staf administrasi/penyidik. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menolak karena merasa itu di luar tugas dan merendahkan.", "points": 1 },
+  { "label": "B", "text": "Mengerjakan, tetapi sambil mengeluh agar semua tahu saya dipaksa.", "points": 2 },
+  { "label": "C", "text": "Mengerjakan, lalu menuntut kompensasi pribadi setelahnya.", "points": 3 },
+  { "label": "D", "text": "Melaksanakan, lalu mengusulkan pembagian kurve agar adil ke depan.", "points": 4 },
+  { "label": "E", "text": "Melaksanakan sesuai higiene, lalu ajukan solusi sistem kebersihan markas.", "points": 5 }
+  ],
+  "explanation": "Ini menguji kepatuhan, kerendahan hati, dan orientasi solusi. Opsi 4 sudah baik: taat perintah dan mengusulkan pembagian kerja. Opsi 5 lebih unggul karena menambah standar prosedural (hygiene & sistem): dikerjakan aman, lalu dibuat perbaikan sistem agar masalah tidak berulang."
+  },
+  {
+  "id": 11,
+  "category": "KEP_KONFLIK_KEPENTINGAN",
+  "question": "Anda ditugaskan menyidik kasus penipuan. Ternyata terlapor adalah sepupu kandung Anda. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Tetap menangani dan berupaya meringankan secara diam-diam.", "points": 1 },
+  { "label": "B", "text": "Tetap menangani sambil menyembunyikan hubungan keluarga.", "points": 2 },
+  { "label": "C", "text": "Menangani dengan keras agar tidak dikira memihak.", "points": 3 },
+  { "label": "D", "text": "Lapor hubungan kekerabatan dan minta arahan pengawasan ketat.", "points": 4 },
+  { "label": "E", "text": "Lapor dan mengajukan recusal agar objektivitas dan integritas terjaga.", "points": 5 }
+  ],
+  "explanation": "Ini menilai integritas dan conflict of interest. Opsi 4 sudah mulai benar dengan disclosure dan pengawasan. Opsi 5 lebih unggul karena recusal adalah standar etik paling aman: mencegah bias, mencegah tuduhan nepotisme, dan menjaga kepercayaan publik terhadap proses hukum."
+  },
+  {
+  "id": 12,
+  "category": "KEP_NETRALITAS_POLITIK",
+  "question": "Ayah Anda mencalonkan diri sebagai kepala daerah. Tim sukses meminta foto bersama memakai seragam untuk spanduk. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Setuju foto dengan seragam asalkan tidak menyebut jabatan saya.", "points": 1 },
+  { "label": "B", "text": "Setuju foto tanpa seragam, tapi hadir di acara kampanye.", "points": 2 },
+  { "label": "C", "text": "Menolak foto, namun membantu mengatur tim secara tidak terlihat.", "points": 3 },
+  { "label": "D", "text": "Menolak terlibat kampanye dan jelaskan aturan netralitas ke keluarga.", "points": 4 },
+  { "label": "E", "text": "Menolak tegas, edukasi keluarga, dan menjaga jarak dari aktivitas politik praktis.", "points": 5 }
+  ],
+  "explanation": "Ini menguji netralitas dan integritas institusi. Opsi 4 sudah tepat: menolak dan memberi penjelasan. Opsi 5 lebih unggul karena konsistensi perilaku: tidak hanya menolak simbol seragam, tetapi juga menghindari keterlibatan praktis yang berpotensi konflik kepentingan dan menurunkan trust publik."
+  },
+  {
+  "id": 13,
+  "category": "KEP_PENYALAHGUNAAN_WEWENANG",
+  "question": "Anda punya urusan hutang-piutang pribadi yang sulit. Anda tergoda memakai atribut dinas untuk menakut-nakuti pihak lain. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memakai atribut dinas agar ia segera membayar.", "points": 1 },
+  { "label": "B", "text": "Mengancam lewat telepon dengan menyebut jabatan agar ditakuti.", "points": 2 },
+  { "label": "C", "text": "Meminta rekan sesama anggota membantu menagih agar cepat selesai.", "points": 3 },
+  { "label": "D", "text": "Menyelesaikan lewat mediasi keluarga atau jalur perdata tanpa atribut.", "points": 4 },
+  { "label": "E", "text": "Pisahkan urusan pribadi, pakai jalur hukum/perdata, dan jaga etika komunikasi.", "points": 5 }
+  ],
+  "explanation": "Ini menilai integritas dan kontrol impuls (abuse of power). Opsi 4 sudah benar: jalur non-atribut dan legal. Opsi 5 lebih baik karena menekankan pemisahan peran (role boundary) dan etika komunikasi—mengurangi risiko penyalahgunaan wewenang serta melindungi marwah institusi."
+  },
+  {
+  "id": 14,
+  "category": "KEP_NARKOBA_INTERNAL",
+  "question": "Anda mengetahui sahabat satu asrama menggunakan narkoba dan memohon agar Anda tidak melapor. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menutupinya demi menjaga pertemanan dan nama baik asrama.", "points": 1 },
+  { "label": "B", "text": "Menegur keras lalu menjauhinya agar saya tidak terseret.", "points": 2 },
+  { "label": "C", "text": "Menasehati agar berhenti dan berharap ia berubah sendiri.", "points": 3 },
+  { "label": "D", "text": "Dorong ia melapor/rehab, dan saya laporkan bila ia menolak.", "points": 4 },
+  { "label": "E", "text": "Amankan situasi, dorong self-report, lalu lapor via jalur resmi sesuai SOP.", "points": 5 }
+  ],
+  "explanation": "Ini menguji moral courage, zero tolerance, dan prosedur. Opsi 4 sudah tegas dengan memberi kesempatan self-report. Opsi 5 lebih unggul karena menggabungkan keselamatan, bantuan (tough love), dan kepatuhan SOP: Anda tidak menjadi ‘pelindung’, tetapi juga tidak bertindak emosional—proses tetap objektif dan tertib."
+  },
+  {
+  "id": 15,
+  "category": "KEP_ETIKA_MEDSOS",
+  "question": "Anda ingin viral dan terpikir membuat konten joget memakai seragam dinas dengan gaya yang berpotensi dinilai tidak pantas. Bagaimana penilaian Anda?",
+  "options": [
+  { "label": "A", "text": "Tidak masalah, seragam bisa dipakai untuk hiburan pribadi.", "points": 1 },
+  { "label": "B", "text": "Boleh asal akun privat dan tidak diketahui atasan.", "points": 2 },
+  { "label": "C", "text": "Boleh jika tidak menyebut instansi dan tidak ada lambang terlihat.", "points": 3 },
+  { "label": "D", "text": "Lebih aman membuat konten tanpa seragam dan menjaga martabat profesi.", "points": 4 },
+  { "label": "E", "text": "Hindari seragam; bila konten publik, pastikan edukatif dan sesuai arahan Humas.", "points": 5 }
+  ],
+  "explanation": "Ini menguji digital footprint dan wibawa institusi. Opsi 4 sudah menjaga batas: tidak memakai seragam. Opsi 5 lebih unggul karena menambah kontrol institusional: bila membuat konten publik, patuh arahan Humas dan orientasi edukatif—menjaga marwah sekaligus mendukung pelayanan prima."
+  },
+  {
+  "id": 16,
+  "category": "KEP_PERINTAH_KELUARGA",
+  "question": "Ibu Anda meminta tolong agar Anda membebaskan tetangga yang ditilang karena tidak memakai helm. Ibu berkata takut malu. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menghubungi petugas agar tilang dibatalkan demi keluarga.", "points": 1 },
+  { "label": "B", "text": "Menolak sambil memarahi ibu karena ikut campur.", "points": 2 },
+  { "label": "C", "text": "Menghindari pembicaraan agar tidak membuat ibu kecewa.", "points": 3 },
+  { "label": "D", "text": "Jelaskan batas wewenang dan arahkan tetangga mengikuti prosedur resmi.", "points": 4 },
+  { "label": "E", "text": "Jelaskan dengan empatik, edukasi keselamatan, dan tetap patuh prosedur tilang.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas dan komunikasi empatik. Opsi 4 sudah benar: tidak intervensi dan tetap prosedural. Opsi 5 lebih unggul karena menambahkan service excellence di keluarga: edukasi keselamatan dan komunikasi empatik menurunkan konflik emosional tanpa melanggar aturan."
+  },
+  {
+  "id": 17,
+  "category": "KEP_SOLIDARITAS_KEKERASAN",
+  "question": "Saat pemeriksaan, rekan Anda mulai melakukan kekerasan agar tersangka mengaku dan mengajak Anda ikut sebagai tanda kekompakan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut sekali agar tidak dianggap tidak solid.", "points": 1 },
+  { "label": "B", "text": "Diam saja dan membiarkan rekan menyelesaikan caranya.", "points": 2 },
+  { "label": "C", "text": "Keluar ruangan agar tidak terlibat, lalu lanjut kerja lain.", "points": 3 },
+  { "label": "D", "text": "Menegur dan meminta hentikan, lalu alihkan ke cara pemeriksaan legal.", "points": 4 },
+  { "label": "E", "text": "Hentikan, amankan proses, dan laporkan sesuai SOP untuk mencegah berulang.", "points": 5 }
+  ],
+  "explanation": "Ini menguji pengendalian diri, HAM, dan keberanian moral. Opsi 4 sudah benar: intervensi dan mengarahkan ke metode legal. Opsi 5 lebih unggul karena menutup celah risiko: proses diamankan dan dilaporkan sesuai SOP, sehingga mencegah normalisasi kekerasan dan melindungi integritas perkara."
+  },
+  {
+  "id": 18,
+  "category": "KEP_BOCORAN_OPERASI",
+  "question": "Pasangan Anda khawatir dan bertanya detail lokasi operasi rahasia serta kapan Anda pulang. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memberi detail lokasi agar ia tenang dan merasa dipercaya.", "points": 1 },
+  { "label": "B", "text": "Memberi kode lokasi agar ia paham tapi tidak terlalu jelas.", "points": 2 },
+  { "label": "C", "text": "Tidak menjawab sama sekali agar tidak terjadi kebocoran.", "points": 3 },
+  { "label": "D", "text": "Tenangkan, beri kabar seperlunya tanpa detail sensitif.", "points": 4 },
+  { "label": "E", "text": "Tenangkan, beri update aman, tanpa detail, sesuai SOP keamanan informasi.", "points": 5 }
+  ],
+  "explanation": "Ini menguji security awareness dan empati. Opsi 4 sudah baik: menenangkan tanpa detail. Opsi 5 lebih unggul karena update yang diberikan mengikuti SOP (need-to-know) dan memastikan komunikasi ‘aman’ tanpa membocorkan lokasi—melindungi operasi sekaligus menjaga ketenangan keluarga."
+  },
+  {
+  "id": 19,
+  "category": "KEP_SUAP_JABATAN",
+  "question": "Anda ditawari jalan pintas untuk sekolah perwira dengan membayar uang kepada oknum. Karir Anda bisa melesat. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menerima karena itu peluang langka dan semua orang mencari cara.", "points": 1 },
+  { "label": "B", "text": "Mempertimbangkan, lalu mencari cara agar transaksi aman dari risiko.", "points": 2 },
+  { "label": "C", "text": "Menolak, tetapi memilih diam agar tidak menimbulkan masalah.", "points": 3 },
+  { "label": "D", "text": "Menolak dan fokus menyiapkan diri lewat jalur resmi.", "points": 4 },
+  { "label": "E", "text": "Menolak, siapkan diri, dan laporkan praktik percaloan sesuai jalur.", "points": 5 }
+  ],
+  "explanation": "Ini menguji integritas dan anti-korupsi. Opsi 4 sudah baik: menolak dan memilih merit. Opsi 5 lebih unggul karena melindungi sistem: pelaporan memutus rantai percaloan dan memperkuat budaya organisasi yang bersih, bukan sekadar ‘selamat sendiri’."
+  },
+  {
+  "id": 20,
+  "category": "KEP_SAKSI_JUJUR",
+  "question": "Anda dipanggil menjadi saksi sidang kode etik terhadap teman satu angkatan yang bersalah. Teman lain menekan Anda agar berbohong melindunginya. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memberi keterangan yang menutupi agar teman selamat.", "points": 1 },
+  { "label": "B", "text": "Menghindar dengan tidak hadir agar tidak perlu memilih.", "points": 2 },
+  { "label": "C", "text": "Memberi jawaban samar agar tidak menyakiti pihak mana pun.", "points": 3 },
+  { "label": "D", "text": "Memberi kesaksian faktual sesuai yang saya lihat dan alami.", "points": 4 },
+  { "label": "E", "text": "Memberi kesaksian faktual, tenang, dan siap mempertanggungjawabkan.", "points": 5 }
+  ],
+  "explanation": "Ini menilai integritas peradilan dan keberanian moral. Opsi 4 sudah tepat karena objektif dan faktual. Opsi 5 lebih unggul karena menambahkan stabilitas emosi dan akuntabilitas: kesaksian disampaikan dengan composure dan kesiapan bertanggung jawab, sehingga proses etik berjalan kredibel dan tidak mudah digoyang tekanan sosial."
+  },
+  {
+    "id": 21,
+    "category": "KEP_HAK_TERSANGKA",
+    "question": "Dalam pengejaran, tersangka sudah menyerah dan mengangkat tangan. Komandan tim yang emosi memerintahkan: “Tembak kakinya biar kapok!”. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mengikuti perintah agar tidak dianggap melawan komandan.", "points": 1 },
+    { "label": "B", "text": "Mengulur waktu sambil berharap komandan berubah pikiran sendiri.", "points": 2 },
+    { "label": "C", "text": "Menolak halus, lalu fokus memborgol tersangka secepat mungkin.", "points": 3 },
+    { "label": "D", "text": "Menolak tegas, amankan tersangka, lalu laporkan situasi terkendali.", "points": 4 },
+    { "label": "E", "text": "Tenang, cegah eskalasi, amankan tersangka, dan ingatkan aturan kuasa paksa.", "points": 5 }
+    ],
+    "explanation": "Ini menguji kontrol emosi, lawful order, dan proportional use of force. Opsi 4 sudah benar karena menolak perintah yang tidak sah dan segera mengamankan tersangka. Opsi 5 lebih unggul karena menambahkan de-eskalasi terhadap komandan (assertive communication tanpa memprovokasi), sekaligus mengarahkan pada prinsip penggunaan kekuatan yang terukur dan akuntabel—mencegah pelanggaran HAM serta risiko hukum bagi tim."
+    },
+    {
+    "id": 22,
+    "category": "KEP_MANIPULASI_BARBUK",
+    "question": "Atasan meminta Anda mengurangi jumlah barang bukti narkoba dalam BAP agar bisa “diputar” kembali. Ini perintah langsung. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menuruti perintah karena itu keputusan atasan dan saya bawahan.", "points": 1 },
+    { "label": "B", "text": "Mengurangi sedikit agar terlihat wajar dan tidak terlalu mencolok.", "points": 2 },
+    { "label": "C", "text": "Menolak, tetapi memilih diam agar hubungan kerja tetap aman.", "points": 3 },
+    { "label": "D", "text": "Menolak tegas dan tetap mencatat sesuai fakta serta prosedur.", "points": 4 },
+    { "label": "E", "text": "Menolak, amankan chain of custody, dan laporkan lewat jalur pengawasan.", "points": 5 }
+    ],
+    "explanation": "Ini menguji integritas dan ketahanan terhadap tekanan otoritas. Opsi 4 sudah tepat karena menolak pemalsuan dan menjaga fakta. Opsi 5 lebih baik karena menutup celah risiko: selain menolak, Anda menjaga rantai penguasaan barang bukti (chain of custody) dan melakukan pelaporan sesuai mekanisme internal sehingga mencegah kejahatan berulang dan melindungi institusi."
+    },
+    {
+    "id": 23,
+    "category": "KEP_SURAT_TILANG",
+    "question": "Anda menindak mobil mewah yang melanggar. Pengemudi mengaku keluarga pejabat dan atasan Anda menelpon: “Lepaskan saja”. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Melepas tanpa tindakan apa pun agar aman dari konflik atasan.", "points": 1 },
+    { "label": "B", "text": "Tetap menilang sambil memarahi pengemudi karena merasa diintervensi.", "points": 2 },
+    { "label": "C", "text": "Mengganti menjadi teguran lisan agar tidak memperpanjang masalah.", "points": 3 },
+    { "label": "D", "text": "Tetap sopan, jelaskan pelanggaran, lalu minta konfirmasi perintah atasan.", "points": 4 },
+    { "label": "E", "text": "Tetap prosedural, dokumentasikan kejadian, dan minta arahan berjenjang resmi.", "points": 5 }
+    ],
+    "explanation": "Ini menguji procedural justice, integritas, dan komunikasi berjenjang. Opsi 4 sudah baik: menjaga sopan santun dan meminta klarifikasi agar tidak emosional. Opsi 5 lebih unggul karena menambah akuntabilitas: tindakan tetap berbasis prosedur, ada dokumentasi intervensi, dan arahan diminta melalui jalur resmi (chain of command) sehingga mengurangi peluang penyalahgunaan diskresi dan menjaga wibawa penegakan hukum."
+    },
+    {
+    "id": 24,
+    "category": "KEP_TUGAS_PRIBADI_ATASAN",
+    "question": "Di jam dinas yang sibuk, Komandan menyuruh Anda menjemput keluarganya belanja (urusan pribadi). Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Langsung berangkat karena takut dinilai tidak loyal pada komandan.", "points": 1 },
+    { "label": "B", "text": "Menolak dengan nada keras karena merasa diperlakukan sebagai pembantu.", "points": 2 },
+    { "label": "C", "text": "Mencari alasan agar bisa menghindar tanpa perlu memberi penjelasan.", "points": 3 },
+    { "label": "D", "text": "Sampaikan sedang ada tugas dinas, lalu tawarkan alternatif bantuan lain.", "points": 4 },
+    { "label": "E", "text": "Sampaikan tegas-santun, prioritaskan dinas, dan minta penugasan dinas tertulis.", "points": 5 }
+    ],
+    "explanation": "Ini menguji profesionalisme, batas peran, dan assertive communication. Opsi 4 sudah baik karena menolak dengan alasan operasional dan memberi alternatif. Opsi 5 lebih unggul karena menambahkan kontrol formal: meminta penugasan dinas yang jelas (bila memang terkait dinas) mencegah penyalahgunaan wewenang, menjaga fokus pelayanan publik, dan tetap menghormati hierarki."
+    },
+    {
+    "id": 25,
+    "category": "KEP_PROSEDUR_PENANGKAPAN",
+    "question": "Tim hendak menggerebek rumah target berisiko tinggi. Ketua tim memerintahkan mendobrak tanpa menunjukkan identitas kepada lingkungan sekitar karena situasi genting. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menolak ikut karena takut dianggap melanggar prosedur dan bermasalah.", "points": 1 },
+    { "label": "B", "text": "Mengikuti saja tanpa memastikan langkah pengamanan dan komunikasi apa pun.", "points": 2 },
+    { "label": "C", "text": "Mengikuti, tetapi ragu-ragu dan cenderung pasif saat masuk lokasi.", "points": 3 },
+    { "label": "D", "text": "Ikuti perintah, sambil minta ada anggota yang mengumumkan identitas saat aman.", "points": 4 },
+    { "label": "E", "text": "Ikuti taktis, pastikan safety, identifikasi cepat, dan dokumentasi tindakan pasca aman.", "points": 5 }
+    ],
+    "explanation": "Ini menguji keseimbangan tactical necessity dan akuntabilitas. Opsi 4 sudah baik karena tetap bergerak namun mengingatkan identifikasi pada momen aman. Opsi 5 lebih unggul karena lebih komprehensif: keselamatan personel dan warga diprioritaskan, identitas/otoritas disampaikan pada timing yang tepat, dan ada pencatatan tindakan untuk pertanggungjawaban—mengurangi risiko salah sasaran, konflik warga, serta temuan etik di kemudian hari."
+    },
+    {
+    "id": 26,
+    "category": "KEP_BARANG_SITAAN",
+    "question": "Barang bukti motor sport sitaan di gudang. Atasan menyuruh Anda memakainya untuk jalan-jalan malam minggu agar mesin “dipanaskan”. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Memakainya untuk keliling karena toh perintah atasan dan motor bagus.", "points": 1 },
+    { "label": "B", "text": "Memakainya sebentar di luar kantor agar tidak ketahuan dan cepat.", "points": 2 },
+    { "label": "C", "text": "Menolak, namun membiarkan atasan mencari orang lain yang mau.", "points": 3 },
+    { "label": "D", "text": "Menolak sopan dan usulkan pemanasan sesuai prosedur gudang barang bukti.", "points": 4 },
+    { "label": "E", "text": "Menolak, sarankan perawatan resmi tercatat, dan jaga integritas alat bukti.", "points": 5 }
+    ],
+    "explanation": "Ini menguji integritas barang bukti dan pencegahan abuse of power. Opsi 4 sudah baik karena menolak dan menawarkan cara pemeliharaan yang benar. Opsi 5 lebih unggul karena menekankan akuntabilitas: perawatan dilakukan melalui mekanisme resmi dan tercatat sehingga rantai penguasaan (chain of custody) tetap terjaga, mencegah tuduhan penyalahgunaan maupun rusaknya nilai pembuktian."
+    },
+    {
+    "id": 27,
+    "category": "KEP_KETERANGAN_PALSU",
+    "question": "Atasan meminta Anda menandatangani laporan perjalanan dinas fiktif. Anda tidak pergi, tetapi dapat uang saku yang dibagi. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menandatangani karena itu kesempatan tambahan dan dilakukan banyak orang.", "points": 1 },
+    { "label": "B", "text": "Menandatangani karena takut hubungan kerja memburuk bila menolak.", "points": 2 },
+    { "label": "C", "text": "Menolak, tapi memilih tidak membahasnya lagi agar suasana tetap aman.", "points": 3 },
+    { "label": "D", "text": "Menolak tegas dan menyarankan laporan dibuat sesuai kegiatan yang nyata.", "points": 4 },
+    { "label": "E", "text": "Menolak, dokumentasikan penolakan, dan gunakan jalur audit/pengawasan yang tepat.", "points": 5 }
+    ],
+    "explanation": "Ini menguji anti-korupsi, integritas dokumen, dan moral courage. Opsi 4 sudah benar karena menolak pemalsuan. Opsi 5 lebih unggul karena menambah perlindungan sistem: ada jejak penolakan dan pelaporan sesuai kanal pengawasan sehingga mencegah pemaksaan berulang serta menjaga tata kelola keuangan negara."
+    },
+    {
+    "id": 28,
+    "category": "KEP_OPERASI_SENYAP",
+    "question": "Anda diperintahkan melakukan penyadapan terhadap tokoh publik tanpa dasar izin yang sah, dengan alasan “demi keamanan” versi komandan. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Melaksanakan segera karena ini perintah operasi dan tidak boleh ditunda.", "points": 1 },
+    { "label": "B", "text": "Melaksanakan terbatas dulu, nanti izin menyusul agar tidak ketinggalan momen.", "points": 2 },
+    { "label": "C", "text": "Menolak diam-diam dengan alasan teknis agar tidak dimarahi komandan.", "points": 3 },
+    { "label": "D", "text": "Meminta dasar hukum dan perintah tertulis sebelum menjalankan tindakan apa pun.", "points": 4 },
+    { "label": "E", "text": "Minta legal basis tertulis, konsultasi jalur resmi, dan tolak bila tidak sah.", "points": 5 }
+    ],
+    "explanation": "Ini menguji kepatuhan hukum, integritas, dan kontrol risiko operasi. Opsi 4 sudah tepat karena mensyaratkan landasan legal dan perintah tertulis. Opsi 5 lebih unggul karena menambah due process internal: memastikan ada verifikasi jalur resmi (legal/komando) sebelum tindakan dilakukan, sehingga melindungi hak privasi warga, institusi, dan Anda dari operasi ilegal."
+    },
+    {
+    "id": 29,
+    "category": "KEP_BENTROK_HATI_NURANI",
+    "question": "Anda mengamankan eksekusi pengadilan yang berdampak penggusuran warga miskin. Warga menangis dan memohon, namun perintahnya legal. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menolak turun lapangan karena tidak tega dan memilih menghindar.", "points": 1 },
+    { "label": "B", "text": "Melaksanakan cepat dengan gaya keras agar warga tidak banyak protes.", "points": 2 },
+    { "label": "C", "text": "Melaksanakan sesuai perintah, tetapi menjaga jarak agar tidak terlibat emosi.", "points": 3 },
+    { "label": "D", "text": "Melaksanakan dengan humanis, komunikatif, dan meminimalkan penggunaan kekuatan.", "points": 4 },
+    { "label": "E", "text": "Laksanakan humanis, lakukan de-eskalasi, dan koordinasi bantuan sosial yang tersedia.", "points": 5 }
+    ],
+    "explanation": "Ini menguji profesionalisme humanis: legalitas tetap dijalankan, cara pelaksanaan harus beradab. Opsi 4 sudah baik karena menahan diri, komunikatif, dan menghindari kekerasan. Opsi 5 lebih unggul karena menambahkan pendekatan problem-solving: de-eskalasi terstruktur dan koordinasi pihak terkait (misal layanan sosial/pemda) untuk mengurangi dampak kemanusiaan, sehingga menjaga ketertiban sekaligus pelayanan prima."
+    },
+    {
+    "id": 30,
+    "category": "KEP_PREMANISME_SERAGAM",
+    "question": "Atasan mengajak Anda “mencari tambahan” dengan meminta jatah bulanan ke tempat hiburan malam. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Ikut karena atasan mengajak dan saya tidak enak menolak.", "points": 1 },
+    { "label": "B", "text": "Ikut hadir, tetapi menolak menerima uang agar merasa tidak bersalah.", "points": 2 },
+    { "label": "C", "text": "Menolak dengan alasan pribadi agar tidak menyinggung atasan.", "points": 3 },
+    { "label": "D", "text": "Menolak tegas dan mengingatkan risiko etik serta pidana secara sopan.", "points": 4 },
+    { "label": "E", "text": "Menolak, jaga sikap profesional, dan gunakan kanal pengawasan bila berulang.", "points": 5 }
+    ],
+    "explanation": "Ini menguji integritas dan ketegasan menolak pungli (premanisme berseragam). Opsi 4 sudah baik karena menolak dan memberi peringatan etik dengan komunikasi asertif. Opsi 5 lebih unggul karena menambahkan kontrol organisasi: penolakan konsisten disertai langkah pengawasan bila praktik berulang, sehingga mencegah normalisasi pelanggaran dan melindungi citra institusi."
+    },
+    {
+    "id": 31,
+    "category": "KEP_DAERAH_KONFLIK",
+    "question": "Anda baru menikah, lalu turun surat penugasan ke daerah konflik selama 1 tahun tanpa membawa keluarga. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Meminta penundaan dengan alasan pribadi agar mendapat perlakuan khusus.", "points": 1 },
+    { "label": "B", "text": "Berangkat, namun fokus kerja terganggu dan sering terbawa emosi rumah.", "points": 2 },
+    { "label": "C", "text": "Berangkat setelah menenangkan pasangan, tetapi tanpa rencana dukungan keluarga.", "points": 3 },
+    { "label": "D", "text": "Terima penugasan, siapkan kebutuhan keluarga, dan jaga komunikasi saat dinas.", "points": 4 },
+    { "label": "E", "text": "Terima, buat rencana dukungan keluarga, dan lapor kesiapan sesuai timeline tugas.", "points": 5 }
+    ],
+    "explanation": "Ini menguji loyalitas penugasan dan self-regulation. Opsi 4 sudah baik: menerima perintah, menyiapkan keluarga, dan menjaga komunikasi sehat. Opsi 5 lebih unggul karena lebih terstruktur: ada rencana dukungan keluarga (coping plan) serta pelaporan kesiapan yang jelas, sehingga kesiapsiagaan operasi dan stabilitas psikologis keluarga sama-sama terjaga."
+    },
+    {
+    "id": 32,
+    "category": "KEP_TUGAS_PERBATASAN",
+    "question": "Anda ditempatkan di pos perbatasan terpencil minim sinyal dan fasilitas. Rekan mengajak sering turun ke kota meninggalkan pos. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Ikut turun ke kota agar tidak stres meski meninggalkan pos.", "points": 1 },
+    { "label": "B", "text": "Sesekali ikut turun tanpa izin karena merasa itu hak pribadi.", "points": 2 },
+    { "label": "C", "text": "Bertahan, tetapi sering mengeluh sehingga suasana tim makin turun.", "points": 3 },
+    { "label": "D", "text": "Tetap di pos, beradaptasi, dan ajak tim membuat rutinitas positif.", "points": 4 },
+    { "label": "E", "text": "Tetap sesuai SOP, bangun moral tim, dan atur rotasi istirahat yang legal.", "points": 5 }
+    ],
+    "explanation": "Ini menguji grit, disiplin, dan kepemimpinan informal. Opsi 4 sudah baik karena adaptif dan menjaga moral tim. Opsi 5 lebih unggul karena menambahkan kepatuhan prosedur: membangun ketahanan tim sekaligus mengatur pemulihan (rest cycle) melalui rotasi yang sah, sehingga kesiapsiagaan pos terjaga tanpa pelanggaran disiplin."
+    },
+    {
+    "id": 33,
+    "category": "KEP_HOME_SICK",
+    "question": "Anda sangat dekat dengan ibu dan ditempatkan jauh. Ibu sering menelepon menangis meminta Anda pulang. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Sering pulang diam-diam meski mengganggu tugas dan disiplin kerja.", "points": 1 },
+    { "label": "B", "text": "Terbawa emosi dan menyalahkan penugasan hingga semangat kerja turun.", "points": 2 },
+    { "label": "C", "text": "Menghibur ibu, tetapi menjadi mudah gelisah dan sulit fokus bekerja.", "points": 3 },
+    { "label": "D", "text": "Tenangkan ibu, jelaskan batas dinas, dan pulang hanya saat cuti resmi.", "points": 4 },
+    { "label": "E", "text": "Tenangkan ibu, atur dukungan keluarga, dan jaga performa kerja stabil.", "points": 5 }
+    ],
+    "explanation": "Ini menguji kedewasaan emosi dan batas peran (role boundary). Opsi 4 sudah tepat karena empatik namun tetap disiplin dengan cuti resmi. Opsi 5 lebih unggul karena menambahkan manajemen dukungan: mengaktifkan support system keluarga (misal kerabat dekat) agar ibu lebih tenang, sehingga Anda tetap bisa menjaga kinerja dan integritas penugasan."
+    },
+    {
+    "id": 34,
+    "category": "KEP_PENOLAKAN_WARGA",
+    "question": "Anda dimutasi ke daerah yang warganya antipati terhadap polisi karena trauma masa lalu. Anda sering dicemooh saat lewat. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Bersikap keras agar warga takut dan tidak berani mencemooh lagi.", "points": 1 },
+    { "label": "B", "text": "Menghindari interaksi warga agar tidak memancing masalah di lapangan.", "points": 2 },
+    { "label": "C", "text": "Tetap netral dan bekerja rutin, namun tidak melakukan pendekatan khusus.", "points": 3 },
+    { "label": "D", "text": "Tetap ramah, dengarkan keluhan, dan tunjukkan pelayanan yang konsisten.", "points": 4 },
+    { "label": "E", "text": "Bangun trust sistematis: tokoh masyarakat, problem solving, dan service excellence.", "points": 5 }
+    ],
+    "explanation": "Ini menguji community policing dan kemampuan de-eskalasi sosial. Opsi 4 sudah baik karena konsisten ramah dan mendengar keluhan. Opsi 5 lebih unggul karena terstruktur dan berdampak: melibatkan tokoh setempat, memakai pendekatan problem-oriented policing, dan menunjukkan pelayanan prima sebagai “quick wins” untuk membalik stigma, sekaligus tetap menjaga keselamatan personel."
+    },
+    {
+    "id": 35,
+    "category": "KEP_TUGAS_NON_JOB",
+    "question": "Anda berprestasi, namun dimutasi ke posisi staf biasa tanpa jabatan strategis. Anda merasa tidak adil. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menurunkan kinerja sebagai bentuk protes karena merasa tidak dihargai.", "points": 1 },
+    { "label": "B", "text": "Fokus mencari kesalahan pimpinan agar bisa membuktikan mutasi ini keliru.", "points": 2 },
+    { "label": "C", "text": "Tetap bekerja, tetapi menjaga jarak dan menahan kontribusi ekstra.", "points": 3 },
+    { "label": "D", "text": "Tetap maksimal, minta umpan balik, dan perbaiki area yang dinilai kurang.", "points": 4 },
+    { "label": "E", "text": "Tetap berkinerja, upskill, dan jadikan posisi baru sebagai ajang pembuktian.", "points": 5 }
+    ],
+    "explanation": "Ini menguji emotional resilience dan loyalitas institusi. Opsi 4 sudah baik: profesional, mencari feedback, dan fokus perbaikan. Opsi 5 lebih unggul karena menambahkan growth mindset dan strategi karier yang sehat: upskilling dan pembuktian kinerja di mana pun ditempatkan memperlihatkan stabilitas emosi, kedewasaan, serta komitmen pada organisasi—bukan pada jabatan."
+    },
+    {
+      "id": 36,
+      "category": "KEP_LEBARAN_DI_JALAN",
+      "question": "Sudah 3 tahun berturut-turut Anda tidak bisa mudik Lebaran karena tugas Operasi Ketupat. Orang tua mulai komplain. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Mencari alasan agar bisa lepas piket tanpa prosedur yang jelas.", "points": 1 },
+      { "label": "B", "text": "Meminta tukar jadwal mendadak, meski berisiko mengganggu kekuatan.", "points": 2 },
+      { "label": "C", "text": "Tetap bertugas, namun menahan emosi dan menunda bicara dengan orang tua.", "points": 3 },
+      { "label": "D", "text": "Tetap bertugas, lalu jelaskan kondisi dinas dan rencanakan pulang saat cuti.", "points": 4 },
+      { "label": "E", "text": "Tetap bertugas, validasi perasaan orang tua, lalu atur quality time via jadwal resmi.", "points": 5 }
+      ],
+      "explanation": "Situasi ini menguji emotional regulation dan orientasi pengabdian. Opsi 4 sudah profesional: tetap on duty, komunikasi jelas, dan menjaga aturan cuti. Opsi 5 lebih unggul karena memakai pendekatan empatik (validasi emosi) tanpa mengorbankan kesiapsiagaan, sehingga konflik keluarga terde-eskalasi dan kinerja pelayanan Operasi Ketupat tetap optimal."
+      },
+      {
+      "id": 37,
+      "category": "KEP_PILIHAN_SULIT",
+      "question": "Anda ditawari dua opsi penempatan: (1) kota besar dekat keluarga tapi karir cenderung lambat, (2) daerah menantang berisiko tinggi tapi percepatan kompetensi. Pilihan Anda?",
+      "options": [
+      { "label": "A", "text": "Memilih yang dekat keluarga agar nyaman dan punya ruang untuk urusan pribadi.", "points": 1 },
+      { "label": "B", "text": "Memilih yang dekat keluarga karena merasa stabilitas rumah tangga paling utama.", "points": 2 },
+      { "label": "C", "text": "Memilih kota besar sambil fokus meningkatkan kompetensi melalui pelatihan internal.", "points": 3 },
+      { "label": "D", "text": "Siap ditempatkan di mana pun, lalu minta arahan atasan sesuai kebutuhan satuan.", "points": 4 },
+      { "label": "E", "text": "Memilih penugasan menantang dengan motivasi pengabdian dan mitigasi risiko keluarga.", "points": 5 }
+      ],
+      "explanation": "Ini menguji readiness keluar dari comfort zone dan kematangan pengambilan keputusan. Opsi 4 baik karena menunjukkan kesiapan mengikuti kebutuhan organisasi (chain of command). Opsi 5 lebih unggul karena proaktif: memilih penugasan menantang dengan motif pengabdian (bukan sekadar ambisi), disertai risk management dan rencana dukungan keluarga, sehingga konsisten dengan integritas serta ketahanan mental."
+      },
+      {
+      "id": 38,
+      "category": "KEP_PASANGAN_KERJA",
+      "question": "Pasangan Anda juga bekerja dan kariernya baik di Kota A. Anda dimutasi ke Kota B dan pasangan menolak ikut. Solusi Anda?",
+      "options": [
+      { "label": "A", "text": "Memaksa pasangan ikut dengan alasan ini perintah dinas dan tidak bisa ditawar.", "points": 1 },
+      { "label": "B", "text": "Meminta pembatalan mutasi segera karena merasa keluarga harus selalu satu kota.", "points": 2 },
+      { "label": "C", "text": "Menjalani tugas, namun hubungan dibiarkan mengalir tanpa rencana komunikasi yang jelas.", "points": 3 },
+      { "label": "D", "text": "Sepakati LDR, atur jadwal pertemuan saat cuti, dan jaga komunikasi rutin.", "points": 4 },
+      { "label": "E", "text": "Sepakati LDR, buat rencana dukungan, dan komunikasikan kebutuhan dinas secara asertif.", "points": 5 }
+      ],
+      "explanation": "Ini menguji problem solving, empati, dan batas peran. Opsi 4 sudah solutif karena menjaga tugas dan tetap merawat relasi dengan rencana cuti. Opsi 5 lebih unggul karena menambahkan assertive communication dan support plan (pola komunikasi, dukungan emosional, dan pengaturan logistik), sehingga konflik tidak membesar dan performa dinas tetap stabil."
+      },
+      {
+      "id": 39,
+      "category": "KEP_TUGAS_DADAKAN",
+      "question": "Anda baru tiba di rumah setelah dinas luar kota seminggu. Malam ini juga Anda diperintahkan berangkat lagi untuk back-up pasukan. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Tidak merespons panggilan agar bisa istirahat tanpa perlu menjelaskan.", "points": 1 },
+      { "label": "B", "text": "Meminta diganti rekan lain karena merasa kondisi badan sudah terlalu lelah.", "points": 2 },
+      { "label": "C", "text": "Berangkat, tetapi fokus terganggu karena emosi dan merasa tidak dihargai.", "points": 3 },
+      { "label": "D", "text": "Konfirmasi kebutuhan, siapkan perlengkapan, pamit keluarga, lalu berangkat.", "points": 4 },
+      { "label": "E", "text": "Konfirmasi cepat, lakukan recovery singkat, dan lapor kesiapan secara profesional.", "points": 5 }
+      ],
+      "explanation": "Ini menguji availability, kontrol emosi, dan profesionalisme. Opsi 4 sudah tepat karena responsif dan menjaga koordinasi keluarga. Opsi 5 lebih unggul karena menambah self-management: micro-recovery dan pelaporan kesiapan yang jelas (situational awareness), sehingga stamina dan keselamatan kerja lebih terjaga tanpa mengurangi kesiapsiagaan."
+      },
+      {
+      "id": 40,
+      "category": "KEP_MINDSET_PENEMPATAN",
+      "question": "Menurut Anda, ditempatkan di daerah perbatasan yang rawan dan minim fasilitas adalah...",
+      "options": [
+      { "label": "A", "text": "Penempatan yang sebaiknya dihindari karena tidak memberi manfaat bagi diri saya.", "points": 1 },
+      { "label": "B", "text": "Penempatan yang membuat motivasi turun karena kondisi kerja terlalu berat.", "points": 2 },
+      { "label": "C", "text": "Penempatan yang menuntut adaptasi tinggi dan dukungan tim yang solid.", "points": 3 },
+      { "label": "D", "text": "Tantangan berat yang bisa menjadi ruang kontribusi dan pembelajaran karakter.", "points": 4 },
+      { "label": "E", "text": "Amanah kehormatan untuk menjaga negara, sekaligus ajang pembuktian profesional.", "points": 5 }
+      ],
+      "explanation": "Ini menguji mindset dan ketahanan psikologis. Opsi 4 positif karena melihat tantangan sebagai kesempatan kontribusi. Opsi 5 lebih unggul karena menegaskan identitas sebagai abdi negara (sense of duty) dan orientasi pelayanan, sehingga mendorong perilaku disiplin, tahan banting, dan konsisten menjaga integritas di wilayah rawan."
+      },
+      {
+      "id": 41,
+      "category": "KEP_KONSISTENSI_ATURAN_2",
+      "question": "Pernyataan EE: 'Dalam tugas, saya cenderung mengakali SOP jika itu membuat pekerjaan lebih cepat selesai.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji kepatuhan prosedural dan kontrol impuls. Opsi 4 menunjukkan Anda paham SOP sebagai rel pengaman kerja. Opsi 5 lebih unggul karena menunjukkan internalisasi disiplin: Anda menolak jalan pintas walau ada tekanan waktu, sehingga risiko salah prosedur, temuan etik, dan kerugian publik bisa dicegah."
+      },
+      {
+      "id": 42,
+      "category": "KEP_KONSISTENSI_HIERARKI",
+      "question": "Pernyataan FF: 'Saya sulit menahan kesal jika harus menjalankan perintah yang menurut saya kurang tepat.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji pengendalian diri dan sikap terhadap chain of command. Opsi 4 menandakan Anda mampu tetap profesional walau tidak sepenuhnya sepakat. Opsi 5 lebih unggul karena menunjukkan stabilitas emosi dan komunikasi asertif: Anda tidak reaktif, dan bila perlu memberi masukan dilakukan pada waktu serta jalur yang tepat."
+      },
+      {
+      "id": 43,
+      "category": "KEP_KONSISTENSI_SOLIDARITAS_SEMPIT",
+      "question": "Pernyataan GG: 'Saya lebih memilih melindungi rekan sendiri meski itu berarti aturan tidak ditegakkan.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji integritas versus solidaritas sempit. Opsi 4 menunjukkan Anda menolak keberpihakan pada oknum. Opsi 5 lebih unggul karena menegaskan loyalitas pada institusi dan kebenaran: pelanggaran harus dihentikan melalui mekanisme yang benar, demi mencegah normalisasi deviasi dan kerusakan budaya organisasi."
+      },
+      {
+      "id": 44,
+      "category": "KEP_KONSISTENSI_HOME_SICK_2",
+      "question": "Pernyataan HH: 'Saya mudah cemas bila harus jauh dari keluarga dalam waktu lama.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji separation anxiety dan kesiapan penugasan. Opsi 4 menandakan Anda cukup adaptif meski tetap manusiawi. Opsi 5 lebih unggul karena menunjukkan resiliensi tinggi: Anda mampu mengelola rindu tanpa mengganggu disiplin, fokus kerja, dan kesiapsiagaan mutasi/operasi."
+      },
+      {
+      "id": 45,
+      "category": "KEP_KONSISTENSI_GRATIFIKASI_2",
+      "question": "Pernyataan II: 'Menerima bingkisan kecil setelah membantu warga itu wajar selama tidak diminta.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji sensitivitas terhadap gratifikasi dan konflik kepentingan. Opsi 4 menunjukkan Anda menolak praktik yang berpotensi bias. Opsi 5 lebih unggul karena tegas menjaga pelayanan prima tetap netral: Anda menutup celah “pembiasaan hadiah” yang bisa bergeser menjadi suap terselubung dan merusak trust publik."
+      },
+      {
+      "id": 46,
+      "category": "KEP_KONSISTENSI_WHISTLEBLOWER",
+      "question": "Pernyataan JJ: 'Saya memilih diam melihat pelanggaran kecil agar tidak dicap sebagai pengadu.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji integritas aktif dan keberanian moral. Opsi 4 berarti Anda tidak membenarkan pembiaran (omission). Opsi 5 lebih unggul karena menunjukkan orientasi pencegahan: Anda siap menindaklanjuti melalui jalur yang tepat, sehingga pelanggaran kecil tidak berkembang menjadi pelanggaran sistemik."
+      },
+      {
+      "id": 47,
+      "category": "KEP_KONSISTENSI_KERJA_KERAS",
+      "question": "Pernyataan KK: 'Saya sering merasa beban kerja tidak sebanding dengan gaji yang saya terima.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji orientasi pengabdian vs mental transaksional. Opsi 4 menunjukkan Anda mampu bekerja profesional tanpa hitung-hitungan. Opsi 5 lebih unggul karena menunjukkan komitmen duty-first: Anda fokus pada kualitas layanan dan tanggung jawab, bukan pada pembenaran keluhan yang dapat menurunkan integritas dan performa."
+      },
+      {
+      "id": 48,
+      "category": "KEP_KONSISTENSI_NETRALITAS",
+      "question": "Pernyataan LL: 'Saya bisa membantu promosi keluarga yang ikut pemilu selama hanya di lingkungan terbatas.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji netralitas dan batasan peran. Opsi 4 sudah benar karena menolak keterlibatan praktis. Opsi 5 lebih unggul karena konsisten dan tegas: Anda menutup rasionalisasi “terbatas” yang tetap berpotensi menjadi penyalahgunaan pengaruh serta mencederai persepsi publik terhadap netralitas institusi."
+      },
+      {
+      "id": 49,
+      "category": "KEP_KONSISTENSI_PRIVILEGE",
+      "question": "Pernyataan MM: 'Jika saya melanggar lalu lintas, saya berharap sesama aparat memaklumi dan tidak menindak.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji sikap terhadap privilege dan keteladanan. Opsi 4 menandakan Anda menolak standar ganda. Opsi 5 lebih unggul karena menunjukkan integritas yang konsisten: Anda siap diperlakukan sama di depan aturan, sehingga mencegah arogansi dan menjaga kredibilitas pelayanan prima."
+      },
+      {
+      "id": 50,
+      "category": "KEP_KONSISTENSI_SELF_DEV",
+      "question": "Pernyataan NN: 'Saya siap dikritik dan dibimbing oleh atasan/senior untuk memperbaiki kekurangan saya.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+      { "label": "B", "text": "Sesuai", "points": 4 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+      ],
+      "explanation": "Ini menguji teachability dan growth mindset. Opsi 4 sudah menunjukkan kesiapan menerima masukan. Opsi 5 lebih unggul karena mencerminkan komitmen kuat untuk pembinaan: Anda tidak defensif, siap diarahkan, dan mau melakukan perbaikan perilaku secara konsisten—modal penting untuk disiplin, integritas, dan performa jangka panjang."
+      }
+      ]
+    }

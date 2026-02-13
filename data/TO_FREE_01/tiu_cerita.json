@@ -1,0 +1,132 @@
+[
+  {
+    "id": "tiu-01",
+    "category": "TIU",
+    "text": "Budi berangkat dari Jakarta ke Bandung pukul 08.00 dengan kecepatan 60 km/jam. Andi berangkat dari rute yang sama pukul 08.30 dengan kecepatan 80 km/jam. Pukul berapakah Andi dapat menyusul Budi?",
+    "explanation": "JALAN TIKUS (Waktu Susul):\nSelisih Waktu = 30 menit = 0,5 jam.\nSelisih Jarak = V_budi × 0,5 = 60 × 0,5 = 30 km.\nWaktu Susul = Selisih Jarak / (V_andi - V_budi)\n= 30 / (80 - 60) = 30 / 20 = 1,5 jam.\nJadi, 08.30 + 1 jam 30 menit = 10.00.",
+    "options": [
+      { "key": "A", "text": "09.30", "score": 0 },
+      { "key": "B", "text": "09.45", "score": 0 },
+      { "key": "C", "text": "10.00", "score": 5 },
+      { "key": "D", "text": "10.15", "score": 0 },
+      { "key": "E", "text": "10.30", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-02",
+    "category": "TIU",
+    "text": "Pekerjaan membangun jembatan dapat diselesaikan oleh 15 pekerja dalam waktu 40 hari. Jika pekerjaan ingin selesai dalam waktu 25 hari, maka berapa tambahan pekerja yang dibutuhkan?",
+    "explanation": "JALAN TIKUS (Perbandingan Berbalik Nilai):\nTotal Beban Kerja = 15 orang × 40 hari = 600 beban.\nTarget Baru = 25 hari.\nOrang yang dibutuhkan = 600 / 25 = 24 orang.\nTambahan = 24 - 15 (pekerja awal) = 9 orang.",
+    "options": [
+      { "key": "A", "text": "9 orang", "score": 5 },
+      { "key": "B", "text": "10 orang", "score": 0 },
+      { "key": "C", "text": "15 orang", "score": 0 },
+      { "key": "D", "text": "24 orang", "score": 0 },
+      { "key": "E", "text": "25 orang", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-03",
+    "category": "TIU",
+    "text": "Andi dapat mengecat tembok dalam 3 jam, sedangkan Budi dapat mengecat tembok yang sama dalam 6 jam. Jika mereka bekerja bersama-sama, berapa lama waktu yang dibutuhkan?",
+    "explanation": "JALAN TIKUS (Kerja Bersama):\nRumus: (A × B) / (A + B)\n= (3 × 6) / (3 + 6)\n= 18 / 9\n= 2 jam.",
+    "options": [
+      { "key": "A", "text": "1 jam", "score": 0 },
+      { "key": "B", "text": "1,5 jam", "score": 0 },
+      { "key": "C", "text": "2 jam", "score": 5 },
+      { "key": "D", "text": "2,5 jam", "score": 0 },
+      { "key": "E", "text": "4,5 jam", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-04",
+    "category": "TIU",
+    "text": "Suatu proyek direncanakan selesai dalam 30 hari oleh 20 pekerja. Setelah 10 hari bekerja, proyek terhenti selama 10 hari karena bahan habis. Agar proyek selesai tepat waktu, berapa pekerja yang harus ditambah?",
+    "explanation": "JALAN TIKUS (Proyek Terhenti):\nSisa Hari Awal = 30 - 10 = 20 hari.\nSisa Hari Baru (setelah libur) = 20 - 10 = 10 hari.\nBeban Sisa = 20 pekerja × 20 hari = 400.\nPekerja Baru = 400 / 10 hari = 40 pekerja.\nTambahan = 40 - 20 = 20 pekerja.",
+    "options": [
+      { "key": "A", "text": "10 pekerja", "score": 0 },
+      { "key": "B", "text": "15 pekerja", "score": 0 },
+      { "key": "C", "text": "20 pekerja", "score": 5 },
+      { "key": "D", "text": "25 pekerja", "score": 0 },
+      { "key": "E", "text": "40 pekerja", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-05",
+    "category": "TIU",
+    "text": "Dari 50 siswa di kelas, 30 siswa suka Matematika, 25 siswa suka Bahasa Inggris, dan 10 siswa tidak suka keduanya. Berapa siswa yang suka KEDUANYA?",
+    "explanation": "JALAN TIKUS (Himpunan Semesta):\nTotal = (Suka A + Suka B) - Suka Keduanya + Tidak Suka Keduanya\n50 = (30 + 25) - x + 10\n50 = 55 - x + 10\n50 = 65 - x\nx = 65 - 50 = 15 siswa.",
+    "options": [
+      { "key": "A", "text": "5", "score": 0 },
+      { "key": "B", "text": "10", "score": 0 },
+      { "key": "C", "text": "12", "score": 0 },
+      { "key": "D", "text": "15", "score": 5 },
+      { "key": "E", "text": "20", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-06",
+    "category": "TIU",
+    "text": "Perbandingan uang Ani dan Budi adalah 3:5. Jika selisih uang mereka adalah Rp40.000, berapakah jumlah uang mereka berdua?",
+    "explanation": "JALAN TIKUS (Rumus Perbandingan):\nDiketahui: Selisih (5 - 3 = 2 bagian) adalah Rp40.000.\nMaka 1 bagian = 40.000 / 2 = 20.000.\nDitanya: Jumlah (3 + 5 = 8 bagian).\nTotal = 8 × 20.000 = Rp160.000.",
+    "options": [
+      { "key": "A", "text": "Rp120.000", "score": 0 },
+      { "key": "B", "text": "Rp140.000", "score": 0 },
+      { "key": "C", "text": "Rp150.000", "score": 0 },
+      { "key": "D", "text": "Rp160.000", "score": 5 },
+      { "key": "E", "text": "Rp180.000", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-07",
+    "category": "TIU",
+    "text": "Lima tahun yang lalu, umur Ayah adalah 4 kali umur Budi. Sekarang, umur Ayah adalah 3 kali umur Budi. Berapakah umur Ayah sekarang?",
+    "explanation": "Substitusi:\nSekarang: A = 3B\n5 thn lalu: (A-5) = 4(B-5)\nGanti A dengan 3B: (3B-5) = 4B - 20\n20 - 5 = 4B - 3B\n15 = B (Umur Budi sekarang).\nUmur Ayah = 3 × 15 = 45 tahun.",
+    "options": [
+      { "key": "A", "text": "30 tahun", "score": 0 },
+      { "key": "B", "text": "35 tahun", "score": 0 },
+      { "key": "C", "text": "40 tahun", "score": 0 },
+      { "key": "D", "text": "45 tahun", "score": 5 },
+      { "key": "E", "text": "50 tahun", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-08",
+    "category": "TIU",
+    "text": "Sebuah mobil menempuh jarak Kota A ke B dengan kecepatan 40 km/jam, lalu kembali lagi dari B ke A dengan kecepatan 60 km/jam. Berapakah kecepatan RATA-RATA mobil tersebut?",
+    "explanation": "JALAN TIKUS (Kecepatan Harmonik):\nJangan dirata-rata langsung (40+60)/2 = 50 (INI SALAH!).\nRumus: (2 × V1 × V2) / (V1 + V2)\n= (2 × 40 × 60) / (40 + 60)\n= 4800 / 100\n= 48 km/jam.",
+    "options": [
+      { "key": "A", "text": "48 km/jam", "score": 5 },
+      { "key": "B", "text": "50 km/jam", "score": 0 },
+      { "key": "C", "text": "52 km/jam", "score": 0 },
+      { "key": "D", "text": "54 km/jam", "score": 0 },
+      { "key": "E", "text": "55 km/jam", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-09",
+    "category": "TIU",
+    "text": "Seorang pedagang membeli baju seharga Rp100.000. Ia ingin mendapatkan untung 20% setelah memberikan diskon 20% kepada pembeli. Berapakah harga label yang harus dipasang?",
+    "explanation": "JALAN TIKUS (Reverse Logic):\nHarga Beli = 100.000\nHarga Jual (Target Untung 20%) = 120.000\nHarga Jual = Harga Label × (100% - Diskon)\n120.000 = Label × 80%\nLabel = 120.000 / 0,8 = Rp150.000.",
+    "options": [
+      { "key": "A", "text": "Rp140.000", "score": 0 },
+      { "key": "B", "text": "Rp144.000", "score": 0 },
+      { "key": "C", "text": "Rp150.000", "score": 5 },
+      { "key": "D", "text": "Rp160.000", "score": 0 },
+      { "key": "E", "text": "Rp200.000", "score": 0 }
+    ]
+  },
+  {
+    "id": "tiu-10",
+    "category": "TIU",
+    "text": "Jarak Kota P dan Q pada peta berskala 1:2.000.000 adalah 5 cm. Berapa jarak sebenarnya?",
+    "explanation": "Rumus: Jarak Sebenarnya = Jarak Peta × Skala\n= 5 cm × 2.000.000\n= 10.000.000 cm\nUbah ke km (buang 0 lima kali) = 100 km.",
+    "options": [
+      { "key": "A", "text": "10 km", "score": 0 },
+      { "key": "B", "text": "20 km", "score": 0 },
+      { "key": "C", "text": "50 km", "score": 0 },
+      { "key": "D", "text": "100 km", "score": 5 },
+      { "key": "E", "text": "200 km", "score": 0 }
+    ]
+  }
+]

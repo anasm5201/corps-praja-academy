@@ -1,0 +1,148 @@
+{
+  "unit_id": 19,
+  "title": "Unit 19: 3D Spatial Master",
+  "description": "Uji kemampuan spasial tingkat lanjut: Rotasi mental objek 3D, melipat jaring-jaring kompleks, dan analisis pandangan ortogonal.",
+  "level": "Kadet Utama",
+  "questions": [
+    {
+      "id": "U19-Q1",
+      "type": "TIU",
+      "text": "Jaring-jaring Kubus: Jika pola ini dilipat membentuk kubus, manakah kubus yang BENAR?",
+      "image": "<svg width='250' height='100' viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='10' width='30' height='30' fill='white' stroke='black'/><circle cx='75' cy='25' r='8' fill='black'/><rect x='60' y='40' width='30' height='30' fill='white' stroke='black'/><text x='75' y='60' text-anchor='middle' font-weight='bold'>A</text><rect x='60' y='70' width='30' height='30' fill='white' stroke='black'/><rect x='70' y='80' width='10' height='10' fill='black'/><rect x='30' y='40' width='30' height='30' fill='white' stroke='black'/><line x1='30' y1='40' x2='60' y2='70' stroke='black' stroke-width='2'/><rect x='90' y='40' width='30' height='30' fill='white' stroke='black'/><line x1='90' y1='70' x2='120' y2='40' stroke='black' stroke-width='2'/><rect x='120' y='40' width='30' height='30' fill='black'/><text x='200' y='50' font-size='10'>Cari kubus yg cocok</text></svg>",
+      "options": [
+        { "key": "A", "text": "Sisi 'A' bersebelahan dengan Sisi Hitam Polos.", "score": 0 },
+        { "key": "B", "text": "Sisi Lingkaran Hitam berhadapan dengan Sisi Hitam Polos.", "score": 5 },
+        { "key": "C", "text": "Sisi Garis Diagonal bertemu membentuk huruf V.", "score": 0 },
+        { "key": "D", "text": "Sisi Kotak Kecil bersebelahan dengan Sisi Lingkaran Hitam.", "score": 0 },
+        { "key": "E", "text": "Sisi 'A' adalah alas, Sisi Hitam Polos adalah tutup.", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Rumus Loncat Satu. Sisi Lingkaran Hitam (Atas) dipisahkan satu kotak (A) dengan Sisi Hitam Polos."
+    },
+    {
+      "id": "U19-Q2",
+      "type": "TIU",
+      "text": "Rotasi Objek: Balok huruf 'L' dirotasi 90 derajat berlawanan arah jarum jam pada sumbu mendatar (ke arah depan). Posisi akhirnya adalah...",
+      "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M30 20 L50 20 L50 60 L70 60 L70 80 L30 80 Z' fill='gray' stroke='black' stroke-width='2'/><text x='20' y='50' font-size='10'>L</text><path d='M80 30 Q90 50 80 70' fill='none' stroke='black' marker-end='url(#arrow)'/><text x='85' y='50' font-size='8'>90° CCW</text></svg>",
+      "options": [
+        { "key": "A", "text": "Berdiri tegak seperti huruf I", "score": 0 },
+        { "key": "B", "text": "Tidur telentang dengan kaki L menunjuk ke atas", "score": 5 },
+        { "key": "C", "text": "Tidur telungkup", "score": 0 },
+        { "key": "D", "text": "Miring ke kanan", "score": 0 },
+        { "key": "E", "text": "Tetap posisi semula", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Visualisasi Jatuh. Bayangkan huruf L itu jatuh ke belakang."
+    },
+    {
+      "id": "U19-Q3",
+      "type": "TIU",
+      "text": "Menghitung Balok: Berapa jumlah kubus satuan pada tumpukan ini? (Asumsikan tidak ada lubang tersembunyi/balok melayang).",
+      "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg' stroke='black' fill='#ddd'><path d='M10 100 L40 120 L100 120 L130 100 L100 80 L40 80 Z' fill='#999'/><path d='M40 80 L70 100 L100 80 L70 60 Z' fill='#bbb'/><path d='M40 60 L70 80 L100 60 L70 40 Z' fill='#eee'/><line x1='10' y1='100' x2='10' y2='70'/><line x1='40' y1='120' x2='40' y2='60'/><line x1='100' y1='120' x2='100' y2='80'/><line x1='130' y1='100' x2='130' y2='80'/></svg>",
+      "options": [
+        { "key": "A", "text": "9", "score": 0 },
+        { "key": "B", "text": "10", "score": 0 },
+        { "key": "C", "text": "13", "score": 0 },
+        { "key": "D", "text": "14", "score": 5 },
+        { "key": "E", "text": "15", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Hitung per Lantai. Lantai 1 (Dasar) penuh 3x3 = 9 balok. Lantai 2 ada 2x2 = 4 balok. Lantai 3 ada 1 balok. Total = 14 balok."
+    },
+    {
+      "id": "U19-Q4",
+      "type": "TIU",
+      "text": "Pelipatan Kertas (Paper Folding): Kertas persegi dilipat dua ke kanan, lalu dilipat dua ke bawah. Kemudian dilubangi bentuk segitiga di tengah. Jika dibuka, polanya adalah...",
+      "image": "<svg width='200' height='60' viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='40' height='40' fill='white' stroke='black' stroke-dasharray='4'/><path d='M30 10 L30 50' stroke='black'/><text x='30' y='55' font-size='8'>Lipat -></text><rect x='60' y='10' width='20' height='40' fill='#eee' stroke='black'/><path d='M60 30 L80 30' stroke='black'/><text x='70' y='55' font-size='8'>Lipat v</text><rect x='100' y='30' width='20' height='20' fill='#ccc' stroke='black'/><polygon points='110,40 105,45 115,45' fill='black'/><text x='110' y='55' font-size='8'>Lubang</text></svg>",
+      "options": [
+        { "key": "A", "text": "2 Segitiga", "score": 0 },
+        { "key": "B", "text": "4 Segitiga dengan ujung menghadap pusat", "score": 5 },
+        { "key": "C", "text": "4 Segitiga dengan ujung menghadap luar", "score": 0 },
+        { "key": "D", "text": "4 Segitiga sejajar", "score": 0 },
+        { "key": "E", "text": "1 Segitiga besar", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Simetri Lipatan. Lipatan 2x (Kanan, Bawah) berarti kertas menjadi 4 lapis. Lubang di tengah akan menjadi 4 lubang simetris mengelilingi pusat."
+    },
+    {
+      "id": "U19-Q5",
+      "type": "TIU",
+      "text": "Pandangan Atas (Top View): Manakah gambar pandangan atas yang tepat untuk bangun berikut?",
+      "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='50' width='40' height='40' fill='#ddd' stroke='black'/><line x1='30' y1='50' x2='50' y2='20' stroke='black'/><line x1='70' y='50' x2='50' y2='20' stroke='black'/><line x1='70' y='90' x2='50' y2='20' stroke='black'/><line x1='30' y='90' x2='50' y2='20' stroke='black'/><circle cx='50' cy='20' r='2' fill='black'/></svg>",
+      "options": [
+        { "key": "A", "text": "Persegi dengan titik di tengah", "score": 0 },
+        { "key": "B", "text": "Persegi dengan silang (X) di tengah", "score": 5 },
+        { "key": "C", "text": "Segitiga", "score": 0 },
+        { "key": "D", "text": "Lingkaran", "score": 0 },
+        { "key": "E", "text": "Persegi polos", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Proyeksi Ortogonal. Limas Segiempat dilihat dari atas tampak seperti amplop (Persegi dengan silang X)."
+    },
+    {
+      "id": "U19-Q6",
+      "type": "TIU",
+      "text": "Rotasi Dadu: Sebuah dadu standar. Sisi atas 1, sisi depan 2. Jika dadu digulingkan ke kanan 1x, lalu ke belakang 1x. Sisi atas sekarang adalah...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "3", "score": 0 },
+        { "key": "B", "text": "4", "score": 0 },
+        { "key": "C", "text": "5", "score": 0 },
+        { "key": "D", "text": "6", "score": 0 },
+        { "key": "E", "text": "2", "score": 5 }
+      ],
+      "explanation": "PLATINUM KEY: Tracking Sisi. Guling Kanan: Sisi Depan TETAP (2). Guling Belakang: Sisi Depan (2) naik menjadi ATAS."
+    },
+    {
+      "id": "U19-Q7",
+      "type": "TIU",
+      "text": "Analisis Potongan: Benda padat manakah yang dihasilkan jika potongan ini disatukan?",
+      "image": "<svg width='150' height='80' viewBox='0 0 150 80' xmlns='http://www.w3.org/2000/svg'><path d='M10 40 L40 10 L70 40 L40 70 Z' fill='none' stroke='black'/><text x='40' y='45' font-size='8' text-anchor='middle'>Alas</text><path d='M80 40 L110 10 L140 40' fill='none' stroke='black'/><line x1='80' y1='40' x2='110' y2='70' stroke='black'/><line x1='140' y1='40' x2='110' y2='70' stroke='black'/><text x='110' y='50' font-size='8' text-anchor='middle'>Sisi Tegak</text></svg>",
+      "options": [
+        { "key": "A", "text": "Prisma Segitiga", "score": 0 },
+        { "key": "B", "text": "Limas Segiempat", "score": 5 },
+        { "key": "C", "text": "Limas Segitiga", "score": 0 },
+        { "key": "D", "text": "Kubus", "score": 0 },
+        { "key": "E", "text": "Prisma Segiempat", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Identifikasi Elemen. 1 Alas Persegi + 4 Sisi Segitiga = Limas Segiempat."
+    },
+    {
+      "id": "U19-Q8",
+      "type": "TIU",
+      "text": "Pola Matriks 3D: Tentukan gambar yang hilang.",
+      "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='10' height='10' fill='black'/><rect x='60' y='10' width='20' height='10' fill='black'/><rect x='110' y='10' width='30' height='10' fill='black'/><rect x='10' y='60' width='20' height='10' fill='black'/><rect x='60' y='60' width='30' height='10' fill='black'/><rect x='110' y='60' width='10' height='10' fill='black'/><rect x='10' y='110' width='30' height='10' fill='black'/><rect x='60' y='110' width='10' height='10' fill='black'/><text x='125' y='120' font-weight='bold'>?</text></svg>",
+      "options": [
+        { "key": "A", "text": "1 Balok", "score": 0 },
+        { "key": "B", "text": "2 Balok", "score": 5 },
+        { "key": "C", "text": "3 Balok", "score": 0 },
+        { "key": "D", "text": "4 Balok", "score": 0 },
+        { "key": "E", "text": "Kosong", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Pola Sudoku. Setiap baris harus punya panjang 1, 2, dan 3. Yang hilang adalah panjang 2."
+    },
+    {
+      "id": "U19-Q9",
+      "type": "TIU",
+      "text": "Proyeksi Ortogonal: Jika benda ini dilihat dari DEPAN (Front View), bentuk apa yang terlihat?",
+      "image": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M20 80 L80 80 L80 20 L50 20 L50 50 L20 50 Z' fill='gray' stroke='black'/><text x='50' y='90' font-size='8'>Tampak Depan -></text></svg>",
+      "options": [
+        { "key": "A", "text": "Persegi Panjang utuh", "score": 0 },
+        { "key": "B", "text": "Bentuk L", "score": 5 },
+        { "key": "C", "text": "Bentuk T", "score": 0 },
+        { "key": "D", "text": "Dua persegi terpisah", "score": 0 },
+        { "key": "E", "text": "Segitiga", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Ortogonal Depan. Bentuk aslinya sudah 2D (L terbalik), maka proyeksinya tetap L."
+    },
+    {
+      "id": "U19-Q10",
+      "type": "TIU",
+      "text": "Serial Rotasi 3D: Jarum jam menunjuk pukul 12.00. Diputar 90 derajat ke kanan (sumbu z), lalu dicerminkan terhadap sumbu vertikal. Arah jarum sekarang?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Pukul 03.00", "score": 0 },
+        { "key": "B", "text": "Pukul 06.00", "score": 0 },
+        { "key": "C", "text": "Pukul 09.00", "score": 5 },
+        { "key": "D", "text": "Pukul 12.00", "score": 0 },
+        { "key": "E", "text": "Pukul 04.30", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Step-by-Step. Jam 12 putar kanan -> Jam 3. Jam 3 cermin vertikal -> Jam 9."
+    }
+  ]
+}

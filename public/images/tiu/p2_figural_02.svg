@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="30" height="30" fill="white" stroke="black"/>
+  <text x="50" y="32">:</text>
+  <rect x="70" y="10" width="30" height="30" fill="black"/>
+  <text x="110" y="32">::</text>
+  <path d="M140 40 L155 10 L170 40 Z" fill="white" stroke="black"/>
+  <text x="180" y="32">: ?</text>
+</svg>

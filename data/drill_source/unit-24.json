@@ -1,0 +1,148 @@
+{
+    "unit_id": 24,
+    "title": "Unit 24: The Professional (IT & Waktu)",
+    "description": "Drill kemampuan adaptasi teknologi, keamanan informasi, logika spreadsheet, dan manajemen waktu tingkat lanjut.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U24-Q1",
+        "type": "TKP",
+        "text": "Kantor baru saja beralih ke sistem pengarsipan digital (Paperless). Banyak senior yang menolak dan tetap mencetak berkas fisik karena 'lebih mantap'. Sikap Anda sebagai staf junior yang paham IT?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Diam saja dan tetap mengerjakan bagian Anda secara digital.", "score": 2 },
+          { "key": "B", "text": "Menyindir senior yang gaptek di rapat.", "score": 1 },
+          { "key": "C", "text": "Membuat tutorial singkat/infografis yang mudah dipahami, lalu menawarkan diri untuk membimbing senior satu per satu (Mentoring) dengan sabar.", "score": 5 },
+          { "key": "D", "text": "Mengerjakan semua pekerjaan digital senior agar cepat selesai.", "score": 3 },
+          { "key": "E", "text": "Melapor ke pimpinan bahwa senior menghambat kinerja.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Change Agent. Opsi C adalah solusi sistemik. Opsi D (Mengerjakan punya orang lain) itu 'Heroic' tapi tidak mendidik (Enabling Incompetence) dan akan membunuh waktu Anda sendiri."
+      },
+      {
+        "id": "U24-Q2",
+        "type": "TIU",
+        "text": "Logika Spreadsheet: Perhatikan tabel berikut. Rumus yang tepat untuk sel C2 agar menghasilkan status 'LULUS' jika Nilai (B2) di atas 75, dan 'GAGAL' jika sebaliknya adalah...",
+        "image": "<svg width='200' height='80' viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='200' height='80' fill='white' stroke='black'/><line x1='0' y1='20' x2='200' y2='20' stroke='black'/><line x1='50' y1='0' x2='50' y2='80' stroke='black'/><line x1='120' y1='0' x2='120' y2='80' stroke='black'/><text x='25' y='15' text-anchor='middle' font-size='10' font-weight='bold'>A (Nama)</text><text x='85' y='15' text-anchor='middle' font-size='10' font-weight='bold'>B (Nilai)</text><text x='160' y='15' text-anchor='middle' font-size='10' font-weight='bold'>C (Status)</text><text x='25' y='40' text-anchor='middle' font-size='10'>Budi</text><text x='85' y='40' text-anchor='middle' font-size='10'>80</text><text x='160' y='40' text-anchor='middle' font-size='10'>?</text></svg>",
+        "options": [
+          { "key": "A", "text": "=IF(B2>75, \"LULUS\", \"GAGAL\")", "score": 5 },
+          { "key": "B", "text": "=SUM(B2>75, \"LULUS\", \"GAGAL\")", "score": 0 },
+          { "key": "C", "text": "=IF(B2<75, \"LULUS\", \"GAGAL\")", "score": 0 },
+          { "key": "D", "text": "=VLOOKUP(B2, 75, \"LULUS\")", "score": 0 },
+          { "key": "E", "text": "=COUNTIF(B2, \"LULUS\")", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Logika IF. Struktur: =IF(Syarat, Jika Benar, Jika Salah). Syaratnya B2 > 75. Jika benar LULUS. Maka: =IF(B2>75, \"LULUS\", \"GAGAL\"). Opsi C salah logika (kurang dari)."
+      },
+      {
+        "id": "U24-Q3",
+        "type": "TWK",
+        "text": "Anda menerima email yang seolah-olah dari bank BUMN meminta update data pribadi dan PIN (Phishing). Dasar hukum yang mengatur larangan pencurian data dan manipulasi informasi elektronik di Indonesia adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "UU No. 5 Tahun 1999", "score": 0 },
+          { "key": "B", "text": "UU No. 11 Tahun 2008 jo UU No. 19 Tahun 2016 (UU ITE)", "score": 5 },
+          { "key": "C", "text": "UU No. 14 Tahun 2008 (KIP)", "score": 0 },
+          { "key": "D", "text": "UU No. 43 Tahun 1999", "score": 0 },
+          { "key": "E", "text": "KUHP Pasal 338", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan UU ITE. UU Informasi dan Transaksi Elektronik (UU ITE) mengatur cybercrime. UU KIP (C) tentang Keterbukaan Informasi Publik."
+      },
+      {
+        "id": "U24-Q4",
+        "type": "TIU",
+        "text": "Manajemen Kecepatan Kerja: Komputer A dapat memproses data dalam 30 menit. Komputer B dalam 60 menit. Jika kedua komputer bekerja bersama-sama (Parallel Processing), berapa menit waktu yang dibutuhkan?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "15 Menit", "score": 0 },
+          { "key": "B", "text": "20 Menit", "score": 5 },
+          { "key": "C", "text": "45 Menit", "score": 0 },
+          { "key": "D", "text": "90 Menit", "score": 0 },
+          { "key": "E", "text": "25 Menit", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rumus Gabungan (Waktu). 1/Total = 1/A + 1/B. \n1/T = 1/30 + 1/60. \nSamakan penyebut (60). \n1/T = 2/60 + 1/60 = 3/60. \nT = 60/3 = 20 Menit."
+      },
+      {
+        "id": "U24-Q5",
+        "type": "TKP",
+        "text": "Laptop dinas Anda mendadak 'Blue Screen' saat sedang mengerjakan laporan prioritas yang harus dikirim 1 jam lagi. Data belum sempat di-backup ke Cloud. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Panik dan memukul-mukul laptop.", "score": 1 },
+          { "key": "B", "text": "Pasrah menunggu IT datang, walau pasti telat.", "score": 2 },
+          { "key": "C", "text": "Segera lapor atasan tentang kendala teknis, lalu meminjam laptop rekan untuk mengerjakan ulang poin-poin krusial saja (Executive Summary) agar laporan tetap masuk tepat waktu.", "score": 5 },
+          { "key": "D", "text": "Pulang ke rumah untuk ambil laptop pribadi.", "score": 2 },
+          { "key": "E", "text": "Menyalahkan IT karena memberi laptop jelek.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Problem Solving under Pressure. Jangan terpaku pada alat yang rusak. Fokus pada TUJUAN (Laporan terkirim). Kerjakan ulang sebisanya di alat lain (Mitigasi) + Komunikasi ke atasan (Transparansi)."
+      },
+      {
+        "id": "U24-Q6",
+        "type": "TIU",
+        "text": "Logika Flowchart: Jika input adalah 5, berapakah Outputnya?",
+        "image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='80' y='5' width='40' height='20' rx='10' fill='white' stroke='black'/><text x='100' y='18' text-anchor='middle' font-size='8'>Input X</text><line x1='100' y1='25' x2='100' y2='40' stroke='black' marker-end='url(#arrow)'/><polygon points='100,40 130,55 100,70 70,55' fill='white' stroke='black'/><text x='100' y='58' text-anchor='middle' font-size='8'>X > 10?</text><line x1='130' y1='55' x2='150' y2='55' stroke='black'/><text x='140' y='50' font-size='8'>Ya</text><line x1='150' y1='55' x2='150' y2='80' stroke='black'/><rect x='130' y='80' width='40' height='20' fill='white' stroke='black'/><text x='150' y='93' text-anchor='middle' font-size='8'>X = X - 2</text><line x1='70' y1='55' x2='50' y2='55' stroke='black'/><text x='60' y='50' font-size='8'>Tidak</text><line x1='50' y1='55' x2='50' y2='80' stroke='black'/><rect x='30' y='80' width='40' height='20' fill='white' stroke='black'/><text x='50' y='93' text-anchor='middle' font-size='8'>X = X * 2</text><line x1='50' y1='100' x2='100' y2='120' stroke='black'/><line x1='150' y1='100' x2='100' y2='120' stroke='black'/><text x='100' y='135' text-anchor='middle' font-weight='bold'>Output?</text></svg>",
+        "options": [
+          { "key": "A", "text": "3", "score": 0 },
+          { "key": "B", "text": "5", "score": 0 },
+          { "key": "C", "text": "10", "score": 5 },
+          { "key": "D", "text": "12", "score": 0 },
+          { "key": "E", "text": "8", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Trace the Flow. Input X = 5. \nCek Syarat: Apakah 5 > 10? TIDAK. \nIkuti jalur 'Tidak': X = X * 2. \nHitung: 5 * 2 = 10. Output = 10."
+      },
+      {
+        "id": "U24-Q7",
+        "type": "TWK",
+        "text": "Program pemerintah untuk mewujudkan tata kelola pemerintahan yang bersih, efektif, transparan, dan akuntabel serta pelayanan publik yang berkualitas dan terpercaya berbasis teknologi disebut...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "E-Budgeting", "score": 0 },
+          { "key": "B", "text": "SPBE (Sistem Pemerintahan Berbasis Elektronik)", "score": 5 },
+          { "key": "C", "text": "Smart City", "score": 0 },
+          { "key": "D", "text": "Revolusi Industri 4.0", "score": 0 },
+          { "key": "E", "text": "OSS (Online Single Submission)", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Perpres No. 95 Tahun 2018. Payung hukum utama digitalisasi pemerintahan adalah SPBE (e-Government). OSS itu spesifik perizinan. Smart City itu konsep kota."
+      },
+      {
+        "id": "U24-Q8",
+        "type": "TKP",
+        "text": "Anda sedang WFH (Work From Home). Koneksi internet di rumah mati total, sedangkan ada rapat Zoom penting 10 menit lagi. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menelepon atasan minta izin tidak ikut rapat.", "score": 2 },
+          { "key": "B", "text": "Diam saja sampai internet nyala lagi.", "score": 1 },
+          { "key": "C", "text": "Segera Tethering (Hotspot) dari HP, atau lari ke cafe/coworking space terdekat yang punya wifi stabil.", "score": 5 },
+          { "key": "D", "text": "Mengupdate status WA bahwa internet mati.", "score": 1 },
+          { "key": "E", "text": "Meminta notulen rapat saja nanti.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Totalitas Kerja. WFH bukan alasan untuk menurunkan kinerja. Kendala teknis adalah tanggung jawab pribadi untuk diatasi segera (Resourcefulness)."
+      },
+      {
+        "id": "U24-Q9",
+        "type": "TIU",
+        "text": "Penjadwalan: Rapat A butuh 2 jam. Rapat B butuh 1 jam. Istirahat 30 menit. Rapat A harus dimulai sebelum Rapat B. Jika kegiatan dimulai pukul 08.00 dan tanpa jeda selain istirahat, pukul berapa paling cepat semua selesai?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "11.00", "score": 0 },
+          { "key": "B", "text": "11.30", "score": 5 },
+          { "key": "C", "text": "10.30", "score": 0 },
+          { "key": "D", "text": "12.00", "score": 0 },
+          { "key": "E", "text": "10.00", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Penjumlahan Waktu. Total durasi = 2 jam (A) + 1 jam (B) + 0.5 jam (Istirahat) = 3.5 jam. \n08.00 + 03.30 = 11.30."
+      },
+      {
+        "id": "U24-Q10",
+        "type": "TKP",
+        "text": "Anda memiliki akses ke database kependudukan. Seorang teman meminta tolong mengecek alamat seseorang yang berutang padanya. Dia berjanji akan merahasiakannya. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Memberikan datanya karena kasihan teman sedang susah.", "score": 1 },
+          { "key": "B", "text": "Memberikan clue (petunjuk) saja, tidak alamat lengkap.", "score": 2 },
+          { "key": "C", "text": "Menolak dengan tegas dan menjelaskan bahwa itu penyalahgunaan wewenang serta pelanggaran UU Perlindungan Data Pribadi.", "score": 5 },
+          { "key": "D", "text": "Pura-pura sistem sedang error.", "score": 3 },
+          { "key": "E", "text": "Meminta bayaran sebagai imbalan risiko.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Data Privacy & Integrity. Akses data jabatan BUKAN untuk kepentingan pribadi. Membocorkan data warga adalah pelanggaran hukum berat (Pidana). Tolak Tegas (Assertive)."
+      }
+    ]
+  }

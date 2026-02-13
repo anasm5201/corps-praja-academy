@@ -1,0 +1,149 @@
+{
+    "unit_id": 9,
+    "title": "Unit 9: Logika Diagramatik & Hierarki",
+    "description": "Latihan tingkat lanjut membaca diagram alur hukum, rotasi objek 3D, dan logika silogisme majemuk.",
+    "level": "Kadet Madya",
+    "questions": [
+      {
+        "id": "U9-Q1",
+        "type": "TIU",
+        "text": "Rotasi Objek: Jika objek di kiri diputar 180 derajat searah jarum jam, manakah hasilnya?",
+        "image": "<svg width='150' height='100' viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><path d='M30 30 L30 70 L70 70' stroke='black' stroke-width='5' fill='none'/><circle cx='30' cy='30' r='5' fill='black'/><text x='40' y='50' font-size='10'>Asli</text><path d='M80 50 Q100 20 120 50' stroke='black' fill='none' marker-end='url(#arrow)'/><text x='90' y='70' font-size='10'>180°</text></svg>",
+        "image_desc": "Huruf 'L' dengan titik di ujung atas. Diputar 180 derajat.",
+        "options": [
+          { "key": "A", "text": "Bentuk 'L' terbalik (7)", "score": 5 },
+          { "key": "B", "text": "Bentuk 'L' normal", "score": 0 },
+          { "key": "C", "text": "Bentuk 'r'", "score": 0 },
+          { "key": "D", "text": "Bentuk 'J'", "score": 0 },
+          { "key": "E", "text": "Bentuk V", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rotasi 180° = Kebalikan Total. Atas jadi Bawah, Kiri jadi Kanan. L (sudut di kiri-bawah) akan menjadi 7 (sudut di kanan-atas)."
+      },
+      {
+        "id": "U9-Q2",
+        "type": "TWK",
+        "text": "Perhatikan Hierarki Peraturan Perundang-undangan (UU No. 12 Tahun 2011). Kotak kosong pada diagram tersebut seharusnya diisi oleh...",
+        "image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='10' width='100' height='20' fill='#eee' stroke='black'/><text x='100' y='25' text-anchor='middle' font-size='8'>UUD 1945</text><line x1='100' y1='30' x2='100' y2='40' stroke='black'/><rect x='50' y='40' width='100' height='20' fill='#eee' stroke='black'/><text x='100' y='55' text-anchor='middle' font-size='8'>TAP MPR</text><line x1='100' y1='60' x2='100' y2='70' stroke='black'/><rect x='50' y='70' width='100' height='20' fill='#ffaaaa' stroke='black'/><text x='100' y='85' text-anchor='middle' font-size='10' font-weight='bold'>?</text><line x1='100' y1='90' x2='100' y2='100' stroke='black'/><rect x='50' y='100' width='100' height='20' fill='#eee' stroke='black'/><text x='100' y='115' text-anchor='middle' font-size='8'>Peraturan Pemerintah</text></svg>",
+        "options": [
+          { "key": "A", "text": "Peraturan Presiden (Perpres)", "score": 0 },
+          { "key": "B", "text": "Undang-Undang / Perpu", "score": 5 },
+          { "key": "C", "text": "Peraturan Daerah Provinsi", "score": 0 },
+          { "key": "D", "text": "Keputusan Presiden", "score": 0 },
+          { "key": "E", "text": "Peraturan Menteri", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Hierarki Wajib. 1. UUD 45, 2. Tap MPR, 3. UU/Perpu, 4. PP, 5. Perpres, 6. Perda Prov, 7. Perda Kab/Kota."
+      },
+      {
+        "id": "U9-Q3",
+        "type": "TIU",
+        "text": "Diagram Batang Ganda: Selisih terbesar antara Ekspor dan Impor terjadi pada tahun...",
+        "image": "<svg width='250' height='120' viewBox='0 0 250 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='15' height='50' fill='blue'/><rect x='35' y='60' width='15' height='40' fill='red'/><text x='35' y='110' text-anchor='middle' font-size='8'>2020</text><rect x='80' y='30' width='15' height='70' fill='blue'/><rect x='95' y='40' width='15' height='60' fill='red'/><text x='95' y='110' text-anchor='middle' font-size='8'>2021</text><rect x='140' y='10' width='15' height='90' fill='blue'/><rect x='155' y='80' width='15' height='20' fill='red'/><text x='155' y='110' text-anchor='middle' font-size='8'>2022</text><rect x='200' y='40' width='15' height='60' fill='blue'/><rect x='215' y='45' width='15' height='55' fill='red'/><text x='215' y='110' text-anchor='middle' font-size='8'>2023</text><text x='10' y='20' font-size='8' fill='blue'>Biru: Eks</text><text x='10' y='30' font-size='8' fill='red'>Mrh: Imp</text></svg>",
+        "options": [
+          { "key": "A", "text": "2020", "score": 0 },
+          { "key": "B", "text": "2021", "score": 0 },
+          { "key": "C", "text": "2022", "score": 5 },
+          { "key": "D", "text": "2023", "score": 0 },
+          { "key": "E", "text": "2021 dan 2023", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visual Gap. Lihat tahun 2022. Batang Biru (Ekspor) sangat tinggi, Batang Merah (Impor) sangat pendek. Gap-nya paling jauh dibanding tahun lain yang batangnya berdempetan."
+      },
+      {
+        "id": "U9-Q4",
+        "type": "TIU",
+        "text": "Ketidaksamaan Gambar (Odd One Out). Manakah panah yang arahnya berbeda sendiri jika dilihat relatif terhadap kotaknya?",
+        "image": "<svg width='250' height='60' viewBox='0 0 250 60' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black'/><line x1='25' y1='25' x2='25' y2='5' stroke='black' marker-end='url(#arrow)'/><text x='25' y='55' font-size='10'>A</text><rect x='60' y='10' width='30' height='30' fill='none' stroke='black'/><line x1='75' y1='25' x2='95' y2='25' stroke='black' marker-end='url(#arrow)'/><text x='75' y='55' font-size='10'>B</text><rect x='110' y='10' width='30' height='30' fill='none' stroke='black'/><line x1='125' y1='5' x2='125' y2='25' stroke='black' marker-end='url(#arrow)'/><text x='125' y='55' font-size='10'>C</text><rect x='160' y='10' width='30' height='30' fill='none' stroke='black'/><line x1='175' y1='25' x2='175' y2='45' stroke='black' marker-end='url(#arrow)'/><text x='175' y='55' font-size='10'>D</text><rect x='210' y='10' width='30' height='30' fill='none' stroke='black'/><line x1='225' y1='25' x2='205' y2='25' stroke='black' marker-end='url(#arrow)'/><text x='225' y='55' font-size='10'>E</text></svg>",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 5 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: A, B, D, E panahnya menunjuk KELUAR dari pusat kotak. Gambar C panahnya menunjuk MASUK ke dalam kotak."
+      },
+      {
+        "id": "U9-Q5",
+        "type": "TKP",
+        "text": "Tim Anda terdiri dari berbagai generasi (Boomer hingga Gen Z). Terjadi konflik gaya komunikasi di grup WhatsApp pekerjaan. Sikap Anda sebagai ketua tim?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Membuat peraturan grup yang sangat kaku dan formal.", "score": 2 },
+          { "key": "B", "text": "Membiarkan saja agar mereka beradaptasi sendiri secara alamiah.", "score": 1 },
+          { "key": "C", "text": "Mengadakan sesi sharing santai untuk menyepakati etika komunikasi yang nyaman bagi semua.", "score": 5 },
+          { "key": "D", "text": "Memihak gaya komunikasi Gen Z karena lebih cepat dan modern.", "score": 1 },
+          { "key": "E", "text": "Membubarkan grup WA dan kembali ke email.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Managing Diversity. Kuncinya adalah 'Kesepakatan Bersama' (Win-Win). Opsi A terlalu otoriter, B pasif. C adalah solusi perekat (Cohesive)."
+      },
+      {
+        "id": "U9-Q6",
+        "type": "TIU",
+        "text": "Logika Posisi: Dalam antrean tiket, Andi di belakang Budi. Citra di depan Budi. Dedi di depan Andi tapi di belakang Citra. Urutan dari depan adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Citra - Budi - Dedi - Andi", "score": 0 },
+          { "key": "B", "text": "Citra - Dedi - Budi - Andi", "score": 0 },
+          { "key": "C", "text": "Citra - Budi/Dedi - Andi", "score": 5 },
+          { "key": "D", "text": "Budi - Citra - Dedi - Andi", "score": 0 },
+          { "key": "E", "text": "Dedi - Citra - Budi - Andi", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Susun puzzle. 1) C di depan B. 2) B di depan A. -> C-B-A. 3) D di depan A, tapi D di belakang C. -> C - [D/B] - A. Posisi D dan B relatif satu sama lain tidak disebutkan tegas, tapi yang pasti C paling depan, A paling belakang. Cek opsi yang mungkin. Opsi C (Budi/Dedi bisa bertukar, tapi urutan C...A valid)."
+      },
+      {
+        "id": "U9-Q7",
+        "type": "TWK",
+        "text": "Semboyan 'Bhinneka Tunggal Ika' diambil dari kitab Sutasoma karangan Mpu Tantular pada masa kerajaan...",
+        "image": "<svg width='150' height='80' viewBox='0 0 150 80' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='40' width='50' height='40' fill='gray'/><polygon points='50,40 75,10 100,40' fill='gray'/><text x='75' y='70' text-anchor='middle' fill='white' font-size='10'>Sejarah</text></svg>",
+        "options": [
+          { "key": "A", "text": "Kediri", "score": 0 },
+          { "key": "B", "text": "Singasari", "score": 0 },
+          { "key": "C", "text": "Majapahit", "score": 5 },
+          { "key": "D", "text": "Mataram Kuno", "score": 0 },
+          { "key": "E", "text": "Sriwijaya", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Emas Sejarah. Sutasoma = Tantular = Majapahit (Masa Hayam Wuruk). Sriwijaya itu Buddha (Sukaraja)."
+      },
+      {
+        "id": "U9-Q8",
+        "type": "TIU",
+        "text": "Jika 15% dari X adalah 45, maka 5/6 dari X adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "200", "score": 0 },
+          { "key": "B", "text": "250", "score": 5 },
+          { "key": "C", "text": "300", "score": 0 },
+          { "key": "D", "text": "350", "score": 0 },
+          { "key": "E", "text": "150", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Cari X dulu. 15/100 * X = 45. X = 45 * 100 / 15. Coret 45/15 = 3. X = 300. Sekarang cari 5/6 * 300. 300/6 = 50. 50 * 5 = 250."
+      },
+      {
+        "id": "U9-Q9",
+        "type": "TKP",
+        "text": "Anda sedang cuti melahirkan/sakit, tiba-tiba atasan menelepon meminta password komputer kantor untuk data mendesak. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Langsung memberikan password demi loyalitas.", "score": 3 },
+          { "key": "B", "text": "Menolak memberikan karena itu rahasia pribadi.", "score": 1 },
+          { "key": "C", "text": "Memberikan password, lalu segera meminta IT mereset password setelah cuti selesai.", "score": 4 },
+          { "key": "D", "text": "Tidak memberikan password, tapi memandu atasan membuka file tersebut melalui user tamu atau cara lain yang aman.", "score": 5 },
+          { "key": "E", "text": "Tidak mengangkat telepon karena sedang cuti.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Keamanan Informasi (Cyber Security Awareness). Sharing password akun pribadi itu pelanggaran berat SOP IT. Solusi: Pandu akses tanpa share password, atau minta IT bukakan akses (D)."
+      },
+      {
+        "id": "U9-Q10",
+        "type": "TWK",
+        "text": "Makna alinea pertama Pembukaan UUD 1945 ('Bahwa sesungguhnya kemerdekaan itu ialah hak segala bangsa...') adalah dalil...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Subjektif", "score": 0 },
+          { "key": "B", "text": "Objektif", "score": 5 },
+          { "key": "C", "text": "Religius", "score": 0 },
+          { "key": "D", "text": "Yuridis", "score": 0 },
+          { "key": "E", "text": "Politis", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Alinea 1 = Dalil Objektif (Penjajahan tidak sesuai perikemanusiaan, berlaku universal) & Dalil Subjektif (Aspirasi bangsa Indonesia untuk lepas)."
+      }
+    ]
+  }

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tkp-31",
+    "category": "TKP",
+    "text": "Kantor Anda baru saja meluncurkan aplikasi pelayanan publik berbasis online. Namun, banyak warga lansia yang datang langsung karena tidak paham cara menggunakannya. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Solusi Humanis Berbasis Teknologi. Tidak menolak warga (tetap melayani) tapi juga melakukan edukasi (mendampingi pakai aplikasi) agar ke depan mereka mandiri. Opsi A (Tolak) tidak humanis. Opsi E (Manual terus) tidak mendukung transformasi digital.",
+    "options": [
+      { "key": "A", "text": "Meminta mereka pulang dan belajar menggunakan aplikasi dari anak cucunya.", "score": 1 },
+      { "key": "B", "text": "Membuatkan loket khusus manual selamanya untuk lansia.", "score": 3 },
+      { "key": "C", "text": "Melayani secara manual seperti biasa tanpa menyinggung aplikasi.", "score": 2 },
+      { "key": "D", "text": "Tetap melayani kebutuhan mereka saat itu, sembari mendampingi dan mengajarkan cara menggunakan aplikasi tersebut untuk keperluan selanjutnya.", "score": 5 },
+      { "key": "E", "text": "Meminta satpam untuk mengajari mereka di luar.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-32",
+    "category": "TKP",
+    "text": "Anda menemukan celah keamanan (bug) pada website kantor yang memungkinkan data dicuri, padahal website tersebut baru saja diresmikan oleh pimpinan. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Integritas & Keahlian TIK. Lapor secara rahasia ke tim IT/Pimpinan adalah prosedur keamanan (Vulnerability Disclosure). Jangan diumbar di medsos (Opsi A) atau dimanfaatkan (Opsi B).",
+    "options": [
+      { "key": "A", "text": "Memposting temuan tersebut di media sosial agar segera diperbaiki.", "score": 1 },
+      { "key": "B", "text": "Mencoba meretasnya untuk membuktikan kehebatan saya.", "score": 1 },
+      { "key": "C", "text": "Segera melaporkan temuan tersebut secara rahasia kepada tim IT atau pimpinan agar segera ditambal.", "score": 5 },
+      { "key": "D", "text": "Diam saja karena bukan tanggung jawab saya.", "score": 2 },
+      { "key": "E", "text": "Memberitahu rekan kerja lain untuk berhati-hati.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-33",
+    "category": "TKP",
+    "text": "Rekan kerja Anda menyebarkan berita di grup WhatsApp kantor yang isinya menyudutkan pemerintah dan berpotensi hoax, namun ia mengklaim itu adalah kebebasan berpendapat. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi B): Anti-Radikalisme & Literasi Digital. Cek fakta dulu (saring), lalu luruskan dengan data (sharing yang benar). Opsi D (Lapor atasan) poin 4, langkah selanjutnya jika dia ngeyel.",
+    "options": [
+      { "key": "A", "text": "Langsung keluar dari grup WhatsApp.", "score": 2 },
+      { "key": "B", "text": "Mencari kebenaran berita tersebut (cek fakta), lalu mengirimkan data yang valid di grup untuk meluruskannya.", "score": 5 },
+      { "key": "C", "text": "Memarahinya di grup karena menyebar hoax.", "score": 3 },
+      { "key": "D", "text": "Melaporkannya kepada pimpinan.", "score": 4 },
+      { "key": "E", "text": "Diam saja agar tidak terjadi perdebatan.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-34",
+    "category": "TKP",
+    "text": "Pimpinan meminta Anda membuat laporan bulanan. Biasanya laporan dibuat manual dengan tulis tangan yang memakan waktu 3 hari. Anda tahu cara menggunakan Excel untuk menyelesaikannya dalam 3 jam. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Efisiensi TIK. Gunakan teknologi untuk efisiensi (selesai 3 jam), lalu gunakan sisa waktu untuk produktivitas lain. Jangan pura-pura lama (Opsi A) itu korupsi kinerja.",
+    "options": [
+      { "key": "A", "text": "Mengerjakan dengan Excel agar cepat, tapi baru menyerahkannya setelah 3 hari agar terlihat sibuk.", "score": 2 },
+      { "key": "B", "text": "Tetap mengerjakan manual sesuai kebiasaan lama.", "score": 1 },
+      { "key": "C", "text": "Mengerjakan manual tapi meminta bantuan teman.", "score": 3 },
+      { "key": "D", "text": "Mengusulkan kepada pimpinan untuk beralih ke digital di masa depan.", "score": 4 },
+      { "key": "E", "text": "Mengerjakan dengan Excel agar selesai hari itu juga, menyerahkannya segera, dan meminta tugas lain.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-35",
+    "category": "TKP",
+    "text": "Anda mendengar salah satu rekan kerja sering mengikuti pengajian tertutup yang mengajarkan kebencian terhadap agama lain dan pemerintah yang sah. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Kewaspadaan Dini (Anti-Radikalisme). Ini isu sensitif. Langkah terbaik adalah lapor ke pihak berwenang (unit kepatuhan internal/BNPT) secara prosedural. Menegur langsung (Opsi B) bisa berbahaya/konflik jika tidak punya wewenang.",
+    "options": [
+      { "key": "A", "text": "Tidak peduli karena itu urusan keyakinan pribadi.", "score": 1 },
+      { "key": "B", "text": "Menegurnya secara langsung dan berdebat dengannya.", "score": 3 },
+      { "key": "C", "text": "Melaporkan hal tersebut kepada unit pengawasan internal atau atasan untuk ditindaklanjuti sesuai prosedur.", "score": 5 },
+      { "key": "D", "text": "Menjauhinya dan mengajak teman lain memusuhinya.", "score": 2 },
+      { "key": "E", "text": "Mencari tahu lebih dalam dengan ikut pengajiannya.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-36",
+    "category": "TKP",
+    "text": "Jaringan internet di kantor mati total saat Anda harus mengirim email penting ke klien. Deadline tinggal 10 menit lagi. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Solutif & Rela Berkorban. Tethering HP pribadi adalah solusi tercepat (darurat). Jangan hitung-hitungan kuota untuk kepentingan mendesak kantor. Opsi B (Nunggu teknisi) pasti telat.",
+    "options": [
+      { "key": "A", "text": "Panik dan memarahi teknisi.", "score": 1 },
+      { "key": "B", "text": "Menunggu sampai internet menyala kembali.", "score": 2 },
+      { "key": "C", "text": "Pergi ke warnet terdekat.", "score": 3 },
+      { "key": "D", "text": "Segera menggunakan tethering hotspot dari HP pribadi untuk mengirim email tersebut tepat waktu.", "score": 5 },
+      { "key": "E", "text": "Menelepon klien untuk minta perpanjangan waktu.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-37",
+    "category": "TKP",
+    "text": "Dalam sebuah seminar, pembicara menyampaikan pandangan yang secara tersirat ingin mengganti ideologi Pancasila dengan ideologi lain. Peserta lain tampak terhanyut. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Ketegasan Ideologi. Meninggalkan ruangan (aksi penolakan) + Melaporkan penyelenggara. Ini sikap aktif membela Pancasila. Diam (Opsi A) sama dengan setuju.",
+    "options": [
+      { "key": "A", "text": "Diam saja dan mendengarkan sampai selesai.", "score": 1 },
+      { "key": "B", "text": "Mengajukan pertanyaan kritis untuk mendebat pembicara di forum.", "score": 4 },
+      { "key": "C", "text": "Merekamnya untuk diviralkan.", "score": 3 },
+      { "key": "D", "text": "Keluar ruangan diam-diam.", "score": 2 },
+      { "key": "E", "text": "Meninggalkan ruangan sebagai bentuk protes dan segera melaporkan kegiatan tersebut kepada pihak berwajib.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-38",
+    "category": "TKP",
+    "text": "Anda diminta atasan untuk memanipulasi data laporan keuangan secara digital agar penyerapan anggaran terlihat bagus. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi A): Integritas Mutlak. Menolak perintah atasan yang melanggar hukum adalah kewajiban ASN. Jangan takut. Opsi B (Menolak halus) poin 4, tapi ketegasan lebih utama di sini.",
+    "options": [
+      { "key": "A", "text": "Menolak dengan tegas perintah tersebut karena melanggar hukum dan kode etik.", "score": 5 },
+      { "key": "B", "text": "Mencoba menolak secara halus dan mengulur waktu.", "score": 4 },
+      { "key": "C", "text": "Melakukannya sekali ini saja karena takut dipecat.", "score": 1 },
+      { "key": "D", "text": "Melakukannya tapi menyimpan bukti perintah atasan untuk jaga diri.", "score": 2 },
+      { "key": "E", "text": "Pura-pura tidak bisa menggunakan aplikasinya.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-39",
+    "category": "TKP",
+    "text": "File penting pekerjaan Anda terkena virus ransomware dan tidak bisa dibuka. Anda belum sempat melakukan backup data. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Tanggung Jawab & Pembelajaran. Lapor jujur (akui kesalahan) + Minta bantuan IT + Siap konsekuensi (lembur input ulang). Opsi A (Diam) berbahaya. Opsi E (Bayar tebusan) dilarang.",
+    "options": [
+      { "key": "A", "text": "Diam saja dan berharap tidak ada yang menanyakan file tersebut.", "score": 1 },
+      { "key": "B", "text": "Menyalahkan tim IT yang tidak memasang antivirus.", "score": 2 },
+      { "key": "C", "text": "Segera melapor ke tim IT untuk upaya pemulihan, dan siap lembur untuk mengerjakan ulang jika data tidak selamat.", "score": 5 },
+      { "key": "D", "text": "Mencoba memperbaikinya sendiri dengan tutorial youtube.", "score": 4 },
+      { "key": "E", "text": "Membayar tebusan kepada hacker menggunakan uang pribadi.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-40",
+    "category": "TKP",
+    "text": "Anda melihat bendera Merah Putih di halaman kantor sudah sobek dan kusam, namun petugas pengibar bendera sepertinya tidak menyadarinya. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Nasionalisme (Simbol Negara). Bendera adalah lambang negara, tidak boleh kusam/rusak. Peduli dengan melapor/mengganti adalah wujud cinta tanah air.",
+    "options": [
+      { "key": "A", "text": "Membiarkannya karena bukan tugas saya.", "score": 1 },
+      { "key": "B", "text": "Membicarakannya dengan teman.", "score": 2 },
+      { "key": "C", "text": "Menunggu sampai ada inspeksi upacara.", "score": 1 },
+      { "key": "D", "text": "Segera memberitahu bagian umum atau petugas terkait agar segera diganti dengan yang layak.", "score": 5 },
+      { "key": "E", "text": "Menurunkan bendera itu sendiri saat itu juga.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-41",
+    "category": "TKP",
+    "text": "Rekan kerja Anda gaptek (gagap teknologi) dan sering meminta Anda mengerjakan tugas input datanya. Awalnya Anda bantu, tapi lama-lama pekerjaan Anda sendiri terbengkalai. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Pemberdayaan (Empowerment). Jangan kasih ikan, kasih kail. Ajarkan dia bertahap. Kalau dikerjakan terus (Opsi A/C), dia tidak akan mandiri dan Anda rugi waktu.",
+    "options": [
+      { "key": "A", "text": "Tetap membantunya karena kasihan.", "score": 2 },
+      { "key": "B", "text": "Menolak mentah-mentah agar dia berusaha sendiri.", "score": 3 },
+      { "key": "C", "text": "Mengerjakannya setengah-setengah.", "score": 1 },
+      { "key": "D", "text": "Mengajarkan langkah-langkahnya dan membuatkan panduan catatan kecil, lalu memintanya mencoba sendiri.", "score": 5 },
+      { "key": "E", "text": "Melaporkan ketidakmampuannya kepada atasan.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-42",
+    "category": "TKP",
+    "text": "Di media sosial, Anda melihat teman kantor memposting ujaran kebencian terhadap suku tertentu yang memicu konflik SARA. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Perekat Bangsa. Ingatkan personal (sentuh hatinya). Jika gagal, baru lapor. Opsi A (Unfriend) tindakan pasif. Opsi B (Perang komen) memperkeruh suasana.",
+    "options": [
+      { "key": "A", "text": "Langsung unfriend/blokir akunnya.", "score": 2 },
+      { "key": "B", "text": "Membalas komentarnya dengan marah.", "score": 1 },
+      { "key": "C", "text": "Menghubunginya secara pribadi (DM) untuk mengingatkan bahwa postingan tersebut tidak pantas bagi seorang ASN.", "score": 5 },
+      { "key": "D", "text": "Melaporkan akunnya ke fitur report media sosial.", "score": 4 },
+      { "key": "E", "text": "Men-screenshot untuk bahan gosip di kantor.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-43",
+    "category": "TKP",
+    "text": "Anda ditawari software bajakan oleh teman untuk dipasang di komputer kantor agar pekerjaan lebih mudah, karena pengadaan software asli prosesnya lama. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi B): Integritas TIK. Menggunakan software bajakan di aset negara adalah pelanggaran hukum (HAKI). Lebih baik pakai Open Source (Legal & Gratis) atau tunggu pengadaan.",
+    "options": [
+      { "key": "A", "text": "Menerimanya karena demi kelancaran pekerjaan.", "score": 2 },
+      { "key": "B", "text": "Menolak dan menyarankan menggunakan software alternatif yang open source (gratis) namun legal.", "score": 5 },
+      { "key": "C", "text": "Memasangnya diam-diam.", "score": 1 },
+      { "key": "D", "text": "Menunggu sampai software asli dibeli, meskipun pekerjaan lambat.", "score": 4 },
+      { "key": "E", "text": "Meminta teman menginstalkannya agar saya tidak terlibat langsung.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-44",
+    "category": "TKP",
+    "text": "Saat upacara bendera, teman di samping Anda mengajak mengobrol dan bercanda saat lagu Indonesia Raya dikumandangkan. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Nasionalisme (Khidmat). Sikap sempurna saat lagu kebangsaan adalah wajib. Beri isyarat diam (tanpa suara) agar tidak ikut ribut, lalu fokus hormat.",
+    "options": [
+      { "key": "A", "text": "Ikut mengobrol sebentar.", "score": 1 },
+      { "key": "B", "text": "Menegurnya dengan suara keras agar dia diam.", "score": 2 },
+      { "key": "C", "text": "Memberi isyarat tangan untuk diam dan tetap bersikap sempurna menghormati lagu kebangsaan.", "score": 5 },
+      { "key": "D", "text": "Pura-pura tidak dengar.", "score": 3 },
+      { "key": "E", "text": "Melaporkannya setelah upacara selesai.", "score": 4 }
+    ]
+  },
+  {
+    "id": "tkp-45",
+    "category": "TKP",
+    "text": "Anda lupa password akun sistem kantor dan mencoba login berkali-kali hingga akun terkunci. Atasan sedang butuh data dari akun tersebut segera. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Kejujuran & Responsif. Jangan bohong (Opsi B) atau coba-coba hack (Opsi A). Hubungi admin IT adalah prosedur standar reset password tercepat.",
+    "options": [
+      { "key": "A", "text": "Mencoba membobol akun sendiri dengan aplikasi hack.", "score": 1 },
+      { "key": "B", "text": "Berbohong kepada atasan bahwa sistem sedang error.", "score": 1 },
+      { "key": "C", "text": "Meminta rekan kerja login dengan akunnya untuk mengambil data yang mirip.", "score": 4 },
+      { "key": "D", "text": "Segera menghubungi admin IT untuk reset password dan meminta maaf kepada atasan atas keterlambatan tersebut.", "score": 5 },
+      { "key": "E", "text": "Pasrah dan menunggu akun terbuka sendiri besok.", "score": 2 }
+    ]
+  }
+]

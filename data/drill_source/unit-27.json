@@ -1,0 +1,149 @@
+{
+    "unit_id": 27,
+    "title": "Unit 27: Mini Tryout Alpha (Random Mix)",
+    "description": "Simulasi ujian acak pertama. Kombinasi TWK Penalaran, TIU Logika & Figural, serta TKP Dilema Sosial dalam satu paket.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U27-Q1",
+        "type": "TWK",
+        "text": "Studi Kasus Nasionalisme: Fenomena 'Brain Drain' (ilmuwan Indonesia pindah ke luar negeri) semakin marak. Banyak yang mencap mereka tidak nasionalis. Namun, dari perspektif Bela Negara non-fisik, sikap pemerintah yang paling tepat adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mencabut kewarganegaraan mereka sebagai sanksi.", "score": 0 },
+          { "key": "B", "text": "Mewajibkan mereka pulang dengan ancaman denda.", "score": 0 },
+          { "key": "C", "text": "Menciptakan ekosistem riset yang kondusif dan penghargaan yang layak di dalam negeri agar mereka tertarik pulang secara sukarela.", "score": 5 },
+          { "key": "D", "text": "Membiarkan saja karena itu hak asasi manusia.", "score": 0 },
+          { "key": "E", "text": "Melarang mahasiswa kuliah di luar negeri.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Solusi Sistemik. Nasionalisme tidak bisa dipaksa dengan ancaman (A/B). Masalah Brain Drain adalah masalah fasilitas dan apresiasi. Solusi C adalah wujud tanggung jawab negara (State Responsibility) untuk memfasilitasi warganya berkarya."
+      },
+      {
+        "id": "U27-Q2",
+        "type": "TIU",
+        "text": "Figural Analogi: Tentukan hubungan gambar A ke B, lalu terapkan pada C ke D.",
+        "image": "<svg width='250' height='80' viewBox='0 0 250 80' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='20' width='40' height='40' fill='black'/><text x='30' y='75' font-size='10' text-anchor='middle'>A</text><polygon points='70,20 60,40 80,40' fill='none' stroke='black'/><polygon points='70,60 60,40 80,40' fill='none' stroke='black'/><text x='70' y='75' font-size='10' text-anchor='middle'>B</text><circle cx='130' cy='40' r='20' fill='black'/><text x='130' y='75' font-size='10' text-anchor='middle'>C</text><text x='190' y='45' font-weight='bold' font-size='20'>?</text></svg>",
+        "image_desc": "A: Persegi (4 sisi) Hitam. B: Dua Segitiga (3 sisi) Putih yang saling bertolak belakang. C: Lingkaran (1 sisi?) Hitam.",
+        "options": [
+          { "key": "A", "text": "Dua Setengah Lingkaran Putih bertolak belakang", "score": 5 },
+          { "key": "B", "text": "Dua Lingkaran Putih", "score": 0 },
+          { "key": "C", "text": "Satu Lingkaran Putih", "score": 0 },
+          { "key": "D", "text": "Dua Persegi Putih", "score": 0 },
+          { "key": "E", "text": "Setengah Lingkaran Hitam", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Analisis Transformasi. 1) Warna: Hitam -> Putih/Outline. 2) Jumlah: Satu -> Dua. 3) Bentuk: Persegi dibelah diagonal jadi segitiga? Atau Sisi berkurang? (4 sisi jadi 3 sisi). Jika Lingkaran (1 sisi lengkung) dibelah jadi apa? Jadi 2 Setengah Lingkaran. Posisi B saling tolak belakang, maka D juga harus saling tolak belakang."
+      },
+      {
+        "id": "U27-Q3",
+        "type": "TKP",
+        "text": "Anda baru saja dimutasi ke unit pelayanan yang terkenal 'basah' (banyak pungli). Senior di sana mengajak Anda berbagi 'uang jajan' dari warga. Anda butuh uang untuk biaya berobat orang tua, tapi hati nurani menolak. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menerima sementara waktu sampai biaya berobat tertutup, lalu berhenti.", "score": 1 },
+          { "key": "B", "text": "Menolak dengan halus dan mengatakan bahwa Anda takut azab/dosa.", "score": 3 },
+          { "key": "C", "text": "Menolak dengan tegas namun sopan, dan konsisten menunjukkan kinerja bersih agar menjadi contoh (Role Model), serta mencari pinjaman legal untuk berobat.", "score": 5 },
+          { "key": "D", "text": "Melaporkan senior ke polisi saat itu juga.", "score": 2 },
+          { "key": "E", "text": "Menghindar setiap kali pembagian uang.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas di Bawah Tekanan. Jangan kompromi (A). Menolak dengan alasan agama (B) bagus tapi kurang kuat secara profesional. Opsi C adalah paket lengkap: Menolak + Memberi Contoh (Influence) + Solusi Pribadi (Cari pinjaman legal)."
+      },
+      {
+        "id": "U27-Q4",
+        "type": "TIU",
+        "text": "Perbandingan Kuantitatif: Jika X adalah 16,67% dari 60, dan Y adalah 1/4 dari 40. Maka...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "X > Y", "score": 0 },
+          { "key": "B", "text": "X < Y", "score": 0 },
+          { "key": "C", "text": "X = Y", "score": 5 },
+          { "key": "D", "text": "X = 2Y", "score": 0 },
+          { "key": "E", "text": "Hubungan tidak dapat ditentukan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pecahan Istimewa. 16,67% = 1/6. \nX = 1/6 * 60 = 10. \nY = 1/4 * 40 = 10. \nMaka X = Y. (Hafalan tabel pecahan sangat membantu di sini)."
+      },
+      {
+        "id": "U27-Q5",
+        "type": "TKP",
+        "text": "Tim Anda sedang mengerjakan proyek prioritas nasional. Tiba-tiba salah satu anggota kunci mengundurkan diri mendadak karena masalah keluarga. Deadline tinggal 3 hari. Sikap Anda sebagai ketua tim?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Meminta perpanjangan waktu ke pimpinan.", "score": 2 },
+          { "key": "B", "text": "Marah kepada anggota yang keluar karena tidak profesional.", "score": 1 },
+          { "key": "C", "text": "Segera melakukan rapat darurat untuk redistribusi tugas (Re-tasking) sisa anggota tim dan Anda sendiri turun tangan mengerjakan bagian yang kosong (Hands-on).", "score": 5 },
+          { "key": "D", "text": "Memaksa anggota tersebut untuk menyelesaikan tugasnya dulu baru boleh keluar.", "score": 1 },
+          { "key": "E", "text": "Mencari pengganti baru dari luar.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Crisis Management. 3 Hari = Tidak sempat cari orang baru (E). Fokus pada Resource yang ada. Redistribusi tugas + Pemimpin turun tangan (C) adalah solusi paling taktis."
+      },
+      {
+        "id": "U27-Q6",
+        "type": "TWK",
+        "text": "Sengketa Pemilihan Umum (PHPU) Presiden dan Wakil Presiden diperiksa dan diputus oleh...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mahkamah Agung (MA) dalam waktu 14 hari.", "score": 0 },
+          { "key": "B", "text": "Mahkamah Konstitusi (MK) dalam waktu 14 hari kerja.", "score": 5 },
+          { "key": "C", "text": "Bawaslu dalam waktu 7 hari.", "score": 0 },
+          { "key": "D", "text": "KPU Pusat.", "score": 0 },
+          { "key": "E", "text": "Pengadilan Tinggi Tata Usaha Negara.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Angka & Lembaga. Sengketa Hasil Pemilu = Wewenang MK. Batas waktu PHPU Pilpres = 14 HARI KERJA sejak registrasi."
+      },
+      {
+        "id": "U27-Q7",
+        "type": "TIU",
+        "text": "Logika Posisi (Seating): 6 Orang (A,B,C,D,E,F) duduk berderet. A di ujung kiri. C di antara A dan B. E di ujung kanan. D di sebelah kiri E. Siapakah yang duduk di sebelah kanan C?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "A", "score": 0 },
+          { "key": "B", "text": "B", "score": 5 },
+          { "key": "C", "text": "D", "score": 0 },
+          { "key": "D", "text": "E", "score": 0 },
+          { "key": "E", "text": "F", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Gambar Garis. [A] [?] [?] [?] [?] [E]. \nC antara A dan B -> Karena A di ujung kiri, pasti urutannya A - C - B. \nPosisi sekarang: [A] [C] [B] [?] [?] [E]. \nD di kiri E -> [A] [C] [B] [?] [D] [E]. \nSisa F di posisi kosong -> [A] [C] [B] [F] [D] [E]. \nSebelah kanan C adalah B."
+      },
+      {
+        "id": "U27-Q8",
+        "type": "TKP",
+        "text": "Anda adalah petugas loket. Seorang warga datang membawa berkas yang sudah lengkap tapi map-nya basah kuyup kena hujan. Dokumen di dalamnya masih terbaca tapi terlihat lusuh. Aturan kantor mengharuskan dokumen rapi. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menolak berkas dan meminta warga pulang mengganti map.", "score": 2 },
+          { "key": "B", "text": "Memarahi warga karena ceroboh tidak membawa payung.", "score": 1 },
+          { "key": "C", "text": "Menerima berkas tersebut dengan senyum, lalu membantu mengeringkan atau mengganti map dengan stok kantor jika ada, karena substansi dokumen masih terbaca.", "score": 5 },
+          { "key": "D", "text": "Menerima dengan wajah cemberut.", "score": 1 },
+          { "key": "E", "text": "Menyuruh warga beli map di koperasi dulu.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Orientasi Pelayanan. Aturan 'rapi' itu untuk memudahkan arsip, bukan untuk mempersulit warga. Jika masih terbaca (substansi aman), bantu warga (ganti map/keringkan). Itu Service Excellence."
+      },
+      {
+        "id": "U27-Q9",
+        "type": "TWK",
+        "text": "Sistem Check and Balances: Presiden dapat membekukan dan/atau membubarkan Dewan Perwakilan Rakyat (DPR). Pernyataan tersebut adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Benar, sesuai hak prerogatif Presiden.", "score": 0 },
+          { "key": "B", "text": "Benar, jika DPR menghambat anggaran.", "score": 0 },
+          { "key": "C", "text": "Salah, Presiden tidak dapat membubarkan DPR menurut UUD 1945.", "score": 5 },
+          { "key": "D", "text": "Salah, harus dengan persetujuan MK.", "score": 0 },
+          { "key": "E", "text": "Benar, dalam keadaan darurat militer.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasal 7C UUD 1945. 'Presiden tidak dapat membekukan dan/atau membubarkan Dewan Perwakilan Rakyat'. Ini koreksi total terhadap praktik masa Orde Lama/Baru."
+      },
+      {
+        "id": "U27-Q10",
+        "type": "TKP",
+        "text": "Di kantor, Anda dikenal sebagai ahli IT. Rekan kerja senior sering minta tolong hal sepele (seperti print, ganti font) yang mengganggu pekerjaan utama Anda. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Selalu membantu setiap kali diminta agar disukai senior.", "score": 2 },
+          { "key": "B", "text": "Menolak kasar dan bilang 'Saya bukan tukang print'.", "score": 1 },
+          { "key": "C", "text": "Mengajari cara melakukannya sekali dua kali, lalu selanjutnya mendorong mereka mencoba sendiri (Empowerment) dengan alasan Anda sedang ada deadline.", "score": 5 },
+          { "key": "D", "text": "Pura-pura sibuk pakai headset.", "score": 3 },
+          { "key": "E", "text": "Melapor ke atasan tentang gangguan ini.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Assertiveness & Coaching. Jangan jadi 'Yes Man' (A) yang merugikan diri sendiri. Jangan jadi 'Antagonis' (B). Jadilah 'Mentor' (C). Ajari -> Lepas. Ini mendidik kemandirian."
+      }
+    ]
+  }

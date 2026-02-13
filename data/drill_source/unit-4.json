@@ -1,0 +1,148 @@
+{
+    "unit_id": 4,
+    "title": "Unit 4: Konstitusi & Analisa Posisi",
+    "description": "Latihan hafalan pasal HAM, logika posisi duduk, dan sensitivitas sosial budaya.",
+    "level": "Kadet Pratama",
+    "questions": [
+      {
+        "id": "U4-Q1",
+        "type": "TWK",
+        "text": "Hak untuk memeluk agama dan beribadah menurut kepercayaannya dijamin dalam UUD 1945 Pasal...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Pasal 28 E Ayat 1", "score": 5 },
+          { "key": "B", "text": "Pasal 29 Ayat 1", "score": 0 },
+          { "key": "C", "text": "Pasal 30 Ayat 1", "score": 0 },
+          { "key": "D", "text": "Pasal 27 Ayat 1", "score": 0 },
+          { "key": "E", "text": "Pasal 31 Ayat 1", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hati-hati! Pasal 29 Ayat 2 tentang 'Negara menjamin'. Tapi HAK individunya dirinci di Pasal 28E Ayat 1 (Memeluk agama)."
+      },
+      {
+        "id": "U4-Q2",
+        "type": "TIU",
+        "text": "Lima orang (A, B, C, D, E) duduk melingkar. A duduk di sebelah kanan B. C duduk di antara D dan E. Jika E duduk di sebelah kiri B, siapakah yang duduk di sebelah kanan A?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "B", "score": 0 },
+          { "key": "B", "text": "C", "score": 0 },
+          { "key": "C", "text": "D", "score": 5 },
+          { "key": "D", "text": "E", "score": 0 },
+          { "key": "E", "text": "A sendiri", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Gambar lingkaran! Urutan berlawanan jarum jam: B -> A -> D -> C -> E -> B. Maka kanan A adalah D."
+      },
+      {
+        "id": "U4-Q3",
+        "type": "TKP",
+        "text": "Di lingkungan baru Anda, warga memiliki tradisi kerja bakti setiap Minggu pagi. Namun Minggu ini Anda sangat lelah lembur. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tidak ikut karena butuh istirahat.", "score": 1 },
+          { "key": "B", "text": "Membayar denda atau menyumbang makanan saja.", "score": 3 },
+          { "key": "C", "text": "Ikut sebentar sekadar setor muka lalu pulang.", "score": 2 },
+          { "key": "D", "text": "Tetap ikut kerja bakti dan membaur dengan warga.", "score": 5 },
+          { "key": "E", "text": "Mengusulkan jadwal diganti hari lain.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Aspek Sosial Budaya. Adaptasi & partisipasi masyarakat lebih prioritas dibanding kelelahan pribadi (kecuali sakit parah)."
+      },
+      {
+        "id": "U4-Q4",
+        "type": "TIU",
+        "text": "Jika 3 lusin baju harganya Rp 1.800.000, berapakah harga 5 kodi baju tersebut? (Asumsi harga satuan sama)",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Rp 2.500.000", "score": 0 },
+          { "key": "B", "text": "Rp 3.000.000", "score": 0 },
+          { "key": "C", "text": "Rp 4.500.000", "score": 0 },
+          { "key": "D", "text": "Rp 5.000.000", "score": 5 },
+          { "key": "E", "text": "Rp 6.000.000", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: 1 Lusin = 12, 1 Kodi = 20. Harga/pcs = 1.8jt / 36 = 50rb. 5 Kodi = 100 pcs. 100 x 50rb = 5 Juta."
+      },
+      {
+        "id": "U4-Q5",
+        "type": "TWK",
+        "text": "Dekrit Presiden 5 Juli 1959 menandai berakhirnya masa Demokrasi Liberal dan kembalinya Indonesia ke...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "UUD RIS", "score": 0 },
+          { "key": "B", "text": "UUDS 1950", "score": 0 },
+          { "key": "C", "text": "UUD 1945", "score": 5 },
+          { "key": "D", "text": "Konstituante", "score": 0 },
+          { "key": "E", "text": "Orde Baru", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Isi Dekrit: Bubarkan Konstituante, Kembali ke UUD 45, Tidak berlaku UUDS 50."
+      },
+      {
+        "id": "U4-Q6",
+        "type": "TIU",
+        "text": "Manakah pecahan yang nilainya paling besar?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "1/3", "score": 0 },
+          { "key": "B", "text": "30%", "score": 0 },
+          { "key": "C", "text": "0,32", "score": 0 },
+          { "key": "D", "text": "4/11", "score": 5 },
+          { "key": "E", "text": "0,33", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: 1/3 = 0,333. 30% = 0,300. 0,32 = 0,320. 4/11 = 0,363. Maka 4/11 paling besar."
+      },
+      {
+        "id": "U4-Q7",
+        "type": "TWK",
+        "text": "Tokoh 'Tiga Serangkai' pendiri Indische Partij adalah Douwes Dekker, Cipto Mangunkusumo, dan...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Ki Hajar Dewantara (Suwardi Suryaningrat)", "score": 5 },
+          { "key": "B", "text": "Soekarno", "score": 0 },
+          { "key": "C", "text": "H.O.S Cokroaminoto", "score": 0 },
+          { "key": "D", "text": "Sutan Sjahrir", "score": 0 },
+          { "key": "E", "text": "Moh. Hatta", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Ingat 'DCS': Douwes, Cipto, Suwardi (Ki Hajar)."
+      },
+      {
+        "id": "U4-Q8",
+        "type": "TKP",
+        "text": "Atasan Anda mengambil keputusan yang jelas-jelas melanggar SOP dan berpotensi merugikan negara. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mengikuti perintah karena loyalitas harga mati.", "score": 1 },
+          { "key": "B", "text": "Menolak dengan keras di depan forum.", "score": 2 },
+          { "key": "C", "text": "Mengingatkan atasan secara empat mata dan memberikan data resikonya.", "score": 5 },
+          { "key": "D", "text": "Melaporkan atasan ke pihak berwajib diam-diam.", "score": 4 },
+          { "key": "E", "text": "Menceritakan kepada rekan kerja lain.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Loyalitas ada batasnya (Hukum). Tapi cara menegur harus hierarkis & sopan (Empat mata)."
+      },
+      {
+        "id": "U4-Q9",
+        "type": "TIU",
+        "text": "Antonim: NISBI = ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Relatif", "score": 0 },
+          { "key": "B", "text": "Mutlak", "score": 5 },
+          { "key": "C", "text": "Abstrak", "score": 0 },
+          { "key": "D", "text": "Maya", "score": 0 },
+          { "key": "E", "text": "Bergantung", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Nisbi = Relatif/Tergantung. Lawannya adalah Mutlak/Absolut."
+      },
+      {
+        "id": "U4-Q10",
+        "type": "TWK",
+        "text": "Asas dalam Wawasan Nusantara yang menyatakan bahwa tujuan yang sama harus dicapai dengan kejujuran dan keberanian berpikir benar adalah asas...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Keadilan", "score": 0 },
+          { "key": "B", "text": "Kejujuran", "score": 5 },
+          { "key": "C", "text": "Solidaritas", "score": 0 },
+          { "key": "D", "text": "Kerjasama", "score": 0 },
+          { "key": "E", "text": "Kesetiaan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Asas Kejujuran = Berani berpikir, berkata, dan bertindak sesuai realita/kebenaran."
+      }
+    ]
+  }

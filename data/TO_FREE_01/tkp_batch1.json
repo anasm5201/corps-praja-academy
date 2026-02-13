@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tkp-01",
+    "category": "TKP",
+    "text": "Anda adalah petugas loket pelayanan. Saat antrean sedang panjang, tiba-tiba seorang ibu marah-marah karena merasa sudah menunggu terlalu lama dan sistem antrean dianggap tidak adil. Sikap Anda adalah...",
+    "explanation": "Poin 5 (Opsi D): Mengandung unsur 'Mendengarkan' (Empati), 'Meminta Maaf' (Humanis), dan 'Menjelaskan' (Solutif). Poin 4 (Opsi C): Bagus, tapi kurang unsur 'Menjelaskan' agar warga paham. Poin 1 (Opsi A): Terpancing emosi.",
+    "options": [
+      { "key": "A", "text": "Meminta ibu tersebut untuk diam dan bersabar karena semua orang juga menunggu.", "score": 1 },
+      { "key": "B", "text": "Melapor ke satpam untuk menertibkan ibu tersebut agar tidak mengganggu suasana.", "score": 2 },
+      { "key": "C", "text": "Meminta maaf atas ketidaknyamanan tersebut dan segera melayaninya setelah giliran tiba.", "score": 4 },
+      { "key": "D", "text": "Mendengarkan keluhannya sebentar, meminta maaf, lalu menjelaskan mekanisme antrean dengan ramah agar ia mengerti.", "score": 5 },
+      { "key": "E", "text": "Tidak mempedulikan dan tetap fokus melayani antrean yang ada di depan meja.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-02",
+    "category": "TKP",
+    "text": "Saat Anda sedang melayani masyarakat, tiba-tiba komputer dan sistem database mengalami gangguan (down) sehingga pelayanan tidak bisa diproses secara digital. Antrean semakin menumpuk. Tindakan Anda...",
+    "explanation": "Poin 5 (Opsi E): Inisiatif tinggi. Tidak diam menunggu, tapi beralih ke manual (pencatatan) agar pelayanan TETAP JALAN. Poin 4 (Opsi C): Komunikatif, tapi pelayanan terhenti (pasif).",
+    "options": [
+      { "key": "A", "text": "Menutup loket sementara sampai sistem kembali normal.", "score": 1 },
+      { "key": "B", "text": "Meminta teknisi segera memperbaikinya sambil beristirahat sejenak.", "score": 2 },
+      { "key": "C", "text": "Menginformasikan kepada masyarakat bahwa sistem sedang gangguan dan memohon kesabaran.", "score": 4 },
+      { "key": "D", "text": "Menyuruh masyarakat pulang dan kembali lagi besok saat sistem sudah benar.", "score": 1 },
+      { "key": "E", "text": "Mencatat data permohonan secara manual terlebih dahulu agar antrean tetap terurai, lalu menginputnya nanti saat sistem pulih.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-03",
+    "category": "TKP",
+    "text": "Rekan kerja Anda yang duduk di sebelah sering menerima telepon pribadi dengan suara keras saat jam kerja, sehingga mengganggu konsentrasi Anda dan rekan lain. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Tindakan Assertif (Menegur langsung dengan sopan). Ini menyelesaikan masalah di akar tanpa merusak hubungan. Poin 4 (Opsi B): Halus tapi kurang tegas (kode). Poin 1 (Opsi A): Membiarkan masalah berlarut.",
+    "options": [
+      { "key": "A", "text": "Membiarkannya karena itu hak dia dan saya tidak ingin ribut.", "score": 1 },
+      { "key": "B", "text": "Menyindirnya secara halus saat istirahat makan siang.", "score": 4 },
+      { "key": "C", "text": "Menegurnya secara langsung dengan sopan dan memintanya mengecilkan suara karena mengganggu kerja.", "score": 5 },
+      { "key": "D", "text": "Melaporkan kejadian tersebut kepada atasan agar ditegur.", "score": 3 },
+      { "key": "E", "text": "Memasang headphone dan memutar musik agar tidak terdengar.", "score": 2 }
+    ]
+  },
+  {
+    "id": "tkp-04",
+    "category": "TKP",
+    "text": "Anda ditugaskan dalam sebuah tim kerja dengan orang-orang dari berbagai latar belakang budaya dan usia. Salah satu anggota tim yang lebih senior sering mendominasi dan meremehkan pendapat anggota muda. Sebagai ketua tim, sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Peran Pemimpin yang adil. Memfasilitasi diskusi agar semua suara didengar (inklusif). Poin 4 (Opsi D): Menegur itu benar, tapi harus diikuti solusi (forum diskusi).",
+    "options": [
+      { "key": "A", "text": "Membiarkannya karena beliau lebih senior dan berpengalaman.", "score": 1 },
+      { "key": "B", "text": "Mengurangi porsi kerja anggota senior tersebut.", "score": 2 },
+      { "key": "C", "text": "Mengambil alih semua keputusan agar tidak terjadi konflik.", "score": 3 },
+      { "key": "D", "text": "Menegur anggota senior tersebut di depan forum agar jera.", "score": 4 },
+      { "key": "E", "text": "Mengadakan forum diskusi terbuka dan memberikan kesempatan yang adil bagi setiap anggota untuk menyampaikan ide.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-05",
+    "category": "TKP",
+    "text": "Seorang warga lansia datang ke kantor Anda untuk mengurus surat, namun ia lupa membawa salah satu syarat dokumen. Rumahnya sangat jauh dari kantor. Sesuai SOP, berkas tidak boleh diproses jika tidak lengkap. Tindakan Anda...",
+    "explanation": "Poin 5 (Opsi D): Solusi 'Win-Win'. SOP tetap dijaga (berkas harus ada), tapi diberikan kemudahan teknologi (foto/WA) agar lansia tidak bolak-balik. Ini Pelayanan Prima. Poin 4 (Opsi B): Tegas SOP tapi kaku.",
+    "options": [
+      { "key": "A", "text": "Menolaknya dengan tegas dan memintanya pulang mengambil berkas.", "score": 2 },
+      { "key": "B", "text": "Menjelaskan dengan sabar bahwa SOP mengharuskan berkas lengkap, dan memintanya melengkapi.", "score": 4 },
+      { "key": "C", "text": "Karena kasihan, saya memprosesnya saja meskipun tidak lengkap.", "score": 1 },
+      { "key": "D", "text": "Berkonsultasi dengan atasan untuk memberi kelonggaran, misalnya memintanya mengirimkan foto dokumen tersebut via WhatsApp.", "score": 5 },
+      { "key": "E", "text": "Memberikan uang transport agar ia bisa pulang mengambil berkas.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-06",
+    "category": "TKP",
+    "text": "Atasan Anda menugaskan pekerjaan mendadak yang harus selesai hari ini juga, padahal Anda sudah berjanji akan menjemput ibu Anda di stasiun sore ini. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Profesionalisme + Solusi Pribadi. Kerja tuntas dulu (skala prioritas), urusan pribadi didelegasikan (pesan taksi/ojol). Poin 4 (Opsi C): Izin atasan itu opsi baik, tapi poin 5 lebih menunjukkan dedikasi.",
+    "options": [
+      { "key": "A", "text": "Menolak tugas tersebut karena sudah ada janji keluarga.", "score": 1 },
+      { "key": "B", "text": "Mengerjakan tugas seadanya agar cepat selesai lalu pergi.", "score": 2 },
+      { "key": "C", "text": "Meminta izin atasan untuk pulang cepat dan mengerjakan tugasnya di rumah malam nanti.", "score": 4 },
+      { "key": "D", "text": "Membatalkan janji jemput dan membiarkan ibu menunggu di stasiun.", "score": 3 },
+      { "key": "E", "text": "Menyelesaikan tugas tersebut secepat mungkin, dan meminta bantuan kerabat atau taksi online untuk menjemput ibu.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-07",
+    "category": "TKP",
+    "text": "Anda melihat rekan kerja Anda kesulitan menggunakan aplikasi baru yang diterapkan di kantor, sehingga pekerjaannya terhambat. Anda sendiri sudah cukup mahir menggunakannya. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Jejaring Kerja (Helping). Mengajarkan cara pakai (transfer ilmu) lebih baik daripada mengerjakan punya dia (memanjakan). Poin 4 (Opsi C): Menawarkan bantuan itu baik.",
+    "options": [
+      { "key": "A", "text": "Pura-pura tidak melihat agar tidak direpotkan.", "score": 1 },
+      { "key": "B", "text": "Menyuruhnya membaca buku manual sendiri.", "score": 2 },
+      { "key": "C", "text": "Menawarkan bantuan jika dia meminta.", "score": 4 },
+      { "key": "D", "text": "Berinisiatif menghampirinya dan mengajarkan cara penggunaan aplikasi tersebut di sela waktu luang.", "score": 5 },
+      { "key": "E", "text": "Mengambil alih pekerjaannya agar cepat selesai.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-08",
+    "category": "TKP",
+    "text": "Seorang teman dekat Anda meminta bantuan untuk meloloskan berkas perizinan usahanya yang sebenarnya belum memenuhi syarat. Ia berjanji akan memberi komisi. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi A): Integritas Mutlak. Menolak tegas + Menjelaskan aturan. Poin 4 (Opsi B): Menolak halus. Dalam integritas, ketegasan lebih dihargai daripada sekadar halus (takut menyinggung).",
+    "options": [
+      { "key": "A", "text": "Menolak dengan tegas dan menjelaskan bahwa hal itu melanggar aturan.", "score": 5 },
+      { "key": "B", "text": "Menolak secara halus dengan alasan tidak enak dengan atasan.", "score": 4 },
+      { "key": "C", "text": "Menerimanya karena dia teman baik dan sedang butuh bantuan.", "score": 1 },
+      { "key": "D", "text": "Menyarankannya untuk meminta bantuan rekan lain.", "score": 2 },
+      { "key": "E", "text": "Membantunya memperbaiki berkas agar memenuhi syarat secara legal.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-09",
+    "category": "TKP",
+    "text": "Anda ditempatkan di bagian front office. Tiba-tiba datang tamu pejabat daerah yang meminta dilayani segera tanpa antre, padahal banyak warga lain yang sudah menunggu lama. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi B): Assertif & Adil. Menjelaskan prosedur dengan sopan tapi tetap menolak permintaan istimewa (Keadilan). Poin 4 (Opsi D): Konsultasi atasan (melempar tanggung jawab/cari aman).",
+    "options": [
+      { "key": "A", "text": "Langsung melayaninya karena takut jabatannya.", "score": 1 },
+      { "key": "B", "text": "Menjelaskan dengan sangat sopan bahwa prosedur kantor mengharuskan antre demi keadilan bagi semua warga.", "score": 5 },
+      { "key": "C", "text": "Meminta warga lain untuk mengalah sebentar.", "score": 2 },
+      { "key": "D", "text": "Meminta arahan atasan apakah boleh mendahulukannya.", "score": 4 },
+      { "key": "E", "text": "Pura-pura sibuk agar dilayani rekan lain.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-10",
+    "category": "TKP",
+    "text": "Kantor Anda akan mengadakan kegiatan bakti sosial di hari libur. Keikutsertaan bersifat sukarela. Namun, Anda sebenarnya ingin menggunakan hari libur untuk istirahat karena lelah bekerja. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Sosial Budaya & Teamwork. Mengorbankan waktu pribadi demi kegiatan sosial kantor menunjukkan loyalitas dan kepedulian. Poin 4 (Opsi C): Datang sebentar (kompromi).",
+    "options": [
+      { "key": "A", "text": "Tidak ikut karena sifatnya sukarela.", "score": 2 },
+      { "key": "B", "text": "Ikut hanya jika diabsen oleh atasan.", "score": 3 },
+      { "key": "C", "text": "Datang sebentar untuk setor muka lalu pulang.", "score": 4 },
+      { "key": "D", "text": "Ikut berpartisipasi aktif karena ini kesempatan mempererat hubungan dengan rekan dan masyarakat.", "score": 5 },
+      { "key": "E", "text": "Menyumbang uang saja tanpa hadir.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-11",
+    "category": "TKP",
+    "text": "Anda memiliki ide inovasi untuk memperbaiki alur pelayanan yang lambat, namun ide tersebut ditentang oleh rekan senior yang merasa cara lama sudah cukup baik. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi E): Persuasif Berbasis Data. Tidak cuma bicara, tapi menyusun proposal/bukti. Ini cara profesional meyakinkan orang. Poin 4 (Opsi B): Bicara personal itu baik, tapi proposal lebih formal.",
+    "options": [
+      { "key": "A", "text": "Mundur dan menyimpan ide tersebut.", "score": 1 },
+      { "key": "B", "text": "Mencoba mendekati rekan senior secara personal untuk menjelaskan ide.", "score": 4 },
+      { "key": "C", "text": "Melaporkan sikap anti-perubahan senior kepada pimpinan.", "score": 2 },
+      { "key": "D", "text": "Menerapkan ide tersebut diam-diam.", "score": 3 },
+      { "key": "E", "text": "Menyusun proposal yang berisi data perbandingan efisiensi cara lama vs baru, lalu mempresentasikannya di rapat.", "score": 5 }
+    ]
+  },
+  {
+    "id": "tkp-12",
+    "category": "TKP",
+    "text": "Seorang warga komplain di media sosial tentang pelayanan kantor Anda yang dinilai lambat, dan postingan tersebut menjadi viral. Pimpinan meminta Anda menanganinya. Langkah pertama Anda...",
+    "explanation": "Poin 5 (Opsi C): Responsif Digital. Konfirmasi data dulu (cek fakta), lalu respon resmi (permintaan maaf + solusi). Jangan defensif. Poin 4 (Opsi A): Meminta maaf itu baik, tapi harus cek data dulu.",
+    "options": [
+      { "key": "A", "text": "Segera membalas komentar dengan permintaan maaf terbuka.", "score": 4 },
+      { "key": "B", "text": "Meminta admin menghapus komentar negatif tersebut.", "score": 1 },
+      { "key": "C", "text": "Mengecek kebenaran data keluhan tersebut, lalu memberikan klarifikasi resmi yang santun dan solutif.", "score": 5 },
+      { "key": "D", "text": "Mencari siapa petugas yang melayani saat itu untuk dimarahi.", "score": 2 },
+      { "key": "E", "text": "Mengabaikannya karena nanti juga reda sendiri.", "score": 1 }
+    ]
+  },
+  {
+    "id": "tkp-13",
+    "category": "TKP",
+    "text": "Rekan kerja satu tim Anda melakukan kesalahan fatal dalam laporan yang akan dipresentasikan besok. Ia panik dan meminta bantuan Anda. Padahal Anda juga sedang sibuk dengan tugas Anda sendiri. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi D): Orientasi Hasil Tim. Prioritaskan penyelamatan 'Kapal'. Bantu dia perbaiki yang krusial, lalu kembali ke tugas sendiri. Poin 4 (Opsi B): Memberi saran (kurang *hands-on*).",
+    "options": [
+      { "key": "A", "text": "Menolak membantunya karena itu kesalahannya sendiri.", "score": 1 },
+      { "key": "B", "text": "Memberikan saran perbaikan, tapi membiarkannya mengerjakan sendiri.", "score": 4 },
+      { "key": "C", "text": "Melaporkan kejadian ini kepada atasan agar deadline diundur.", "score": 2 },
+      { "key": "D", "text": "Meluangkan waktu untuk membantunya memperbaiki bagian yang krusial agar laporan tim aman, lalu kembali ke tugas saya.", "score": 5 },
+      { "key": "E", "text": "Mengerjakan ulang semua laporannya agar sempurna.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-14",
+    "category": "TKP",
+    "text": "Anda sedang melayani pelanggan, tiba-tiba telepon kantor berdering. Di saat yang sama, atasan memanggil Anda. Prioritas tindakan Anda...",
+    "explanation": "Poin 5 (Opsi D): Multitasking Taktis. Pelanggan di depan mata adalah Raja (Prioritas 1). Izin sebentar angkat telepon (Prioritas 2 - bisa ditahan), dan beri sinyal ke atasan (Prioritas 3 - internal bisa menunggu sebentar).",
+    "options": [
+      { "key": "A", "text": "Meninggalkan pelanggan untuk menemui atasan.", "score": 2 },
+      { "key": "B", "text": "Mengangkat telepon dan membiarkan pelanggan menunggu.", "score": 1 },
+      { "key": "C", "text": "Meminta rekan lain mengangkat telepon, meminta izin pelanggan sebentar untuk merespon panggilan atasan.", "score": 4 },
+      { "key": "D", "text": "Meminta izin pelanggan sebentar untuk mengangkat telepon (pending), lalu segera menyelesaikan pelayanan pelanggan, baru menemui atasan.", "score": 5 },
+      { "key": "E", "text": "Mengabaikan telepon dan atasan, fokus pelanggan saja.", "score": 3 }
+    ]
+  },
+  {
+    "id": "tkp-15",
+    "category": "TKP",
+    "text": "Di kantor, Anda dikenal sebagai orang yang sangat taat aturan. Suatu hari, Anda melihat atasan Anda sendiri melanggar prosedur keselamatan kerja yang cukup berbahaya. Sikap Anda...",
+    "explanation": "Poin 5 (Opsi C): Integritas & Keberanian. Mengingatkan atasan demi keselamatan (tujuan mulia) dengan cara sopan. Diam (Opsi A) adalah pembiaran. Lapor atasan yang lebih tinggi (Opsi D) adalah langkah terakhir jika teguran tidak mempan.",
+    "options": [
+      { "key": "A", "text": "Diam saja karena takut dipecat.", "score": 1 },
+      { "key": "B", "text": "Membicarakannya dengan rekan kerja lain (gosip).", "score": 2 },
+      { "key": "C", "text": "Mengingatkan atasan dengan sopan dan hati-hati demi keselamatan bersama.", "score": 5 },
+      { "key": "D", "text": "Melaporkan atasan tersebut ke bagian pengawasan.", "score": 4 },
+      { "key": "E", "text": "Pura-pura tidak melihat.", "score": 1 }
+    ]
+  }
+]

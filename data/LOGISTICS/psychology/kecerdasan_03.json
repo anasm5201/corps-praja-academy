@@ -1,0 +1,334 @@
+```json
+{
+  "title": "Paket Kecerdasan 03 – Logical Deduction",
+  "type": "PSIKOLOGI_KECERDASAN",
+  "description": "Silogisme, jika–maka, negasi, dan validitas kesimpulan. Fokus pada inferensi formal (single-best-answer) tanpa opini.",
+  "duration": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Semua petugas yang disiplin mematuhi SOP.\n2) Sebagian anggota regu adalah petugas yang disiplin.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Semua anggota regu mematuhi SOP.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian anggota regu tidak mematuhi SOP.", "isCorrect": false },
+        { "label": "C", "text": "Sebagian anggota regu mematuhi SOP.", "isCorrect": true },
+        { "label": "D", "text": "Tidak ada anggota regu yang mematuhi SOP.", "isCorrect": false },
+        { "label": "E", "text": "Semua yang mematuhi SOP adalah anggota regu.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: dari 'Semua D → SOP' dan 'Sebagian Regu adalah D' berlaku inferensi kuantor 'Sebagian Regu → SOP'. Langkah: ambil anggota regu yang termasuk D, lalu terapkan aturan umum D→SOP. Distraktor terdekat A salah karena 'sebagian' tidak pernah cukup untuk menyimpulkan 'semua'."
+    },
+    {
+      "id": 2,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Tidak ada barang berbahaya yang boleh dibawa masuk.\n2) Semua pisau lipat adalah barang berbahaya.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Tidak ada pisau lipat yang boleh dibawa masuk.", "isCorrect": true },
+        { "label": "B", "text": "Sebagian pisau lipat boleh dibawa masuk.", "isCorrect": false },
+        { "label": "C", "text": "Semua barang yang boleh dibawa masuk bukan pisau lipat.", "isCorrect": false },
+        { "label": "D", "text": "Tidak ada barang yang boleh dibawa masuk.", "isCorrect": false },
+        { "label": "E", "text": "Sebagian barang berbahaya boleh dibawa masuk.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: silogisme 'Tidak ada Berbahaya yang Boleh Masuk' + 'Semua Pisau = Berbahaya' menghasilkan 'Tidak ada Pisau yang Boleh Masuk'. Langkah: substitusi Pisau→Berbahaya, lalu terapkan larangan pada Berbahaya. Distraktor terdekat C terlalu kuat karena memperluas bentuk pernyataan (tidak diperlukan untuk kesimpulan formal)."
+    },
+    {
+      "id": 3,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Semua laporan yang lengkap dapat diverifikasi.\n2) Semua yang dapat diverifikasi dapat diaudit.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Semua laporan dapat diverifikasi.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian laporan lengkap tidak dapat diaudit.", "isCorrect": false },
+        { "label": "C", "text": "Sebagian laporan yang diaudit pasti lengkap.", "isCorrect": false },
+        { "label": "D", "text": "Semua yang dapat diaudit pasti lengkap.", "isCorrect": false },
+        { "label": "E", "text": "Semua laporan yang lengkap dapat diaudit.", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: transitivitas implikasi (A→B dan B→C maka A→C). Langkah: Lengkap→Verifikasi, Verifikasi→Audit, maka Lengkap→Audit. Distraktor terdekat D salah karena membalik arah implikasi (konversi terlarang)."
+    },
+    {
+      "id": 4,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Sebagian peserta adalah atlet.\n2) Tidak ada atlet yang perokok.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Tidak ada peserta yang perokok.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian peserta bukan perokok.", "isCorrect": true },
+        { "label": "C", "text": "Sebagian perokok adalah atlet.", "isCorrect": false },
+        { "label": "D", "text": "Semua peserta adalah atlet.", "isCorrect": false },
+        { "label": "E", "text": "Semua peserta bukan perokok.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: jika 'Sebagian Peserta = Atlet' dan 'Atlet ∩ Perokok = kosong', maka peserta yang atlet pasti bukan perokok. Langkah: pilih subset peserta yang atlet, lalu terapkan larangan atlet-perokok. Distraktor terdekat E salah karena 'sebagian' atlet tidak mewakili seluruh peserta."
+    },
+    {
+      "id": 5,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Semua kendaraan dinas berpelat merah.\n2) Kendaraan Y adalah kendaraan dinas.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Semua kendaraan berpelat merah adalah kendaraan dinas.", "isCorrect": false },
+        { "label": "B", "text": "Kendaraan Y bukan kendaraan dinas.", "isCorrect": false },
+        { "label": "C", "text": "Kendaraan Y pasti mobil listrik.", "isCorrect": false },
+        { "label": "D", "text": "Kendaraan Y berpelat merah.", "isCorrect": true },
+        { "label": "E", "text": "Tidak ada kendaraan dinas yang berpelat merah.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: modus ponens (Jika Dinas→Pelat Merah; Dinas benar untuk Y; maka Pelat Merah benar untuk Y). Langkah: cocokkan Y pada kelas 'kendaraan dinas', lalu turunkan atribut pelat merah. Distraktor terdekat A salah karena itu adalah pembalikan implikasi (converse fallacy)."
+    },
+    {
+      "id": 6,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Tidak ada pegawai yang menerima gratifikasi yang berintegritas.\n2) Sebagian pegawai adalah berintegritas.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Sebagian pegawai tidak menerima gratifikasi.", "isCorrect": true },
+        { "label": "B", "text": "Semua pegawai menerima gratifikasi.", "isCorrect": false },
+        { "label": "C", "text": "Sebagian penerima gratifikasi adalah pegawai berintegritas.", "isCorrect": false },
+        { "label": "D", "text": "Tidak ada pegawai yang berintegritas.", "isCorrect": false },
+        { "label": "E", "text": "Semua pegawai tidak menerima gratifikasi.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: jika integritas tidak bisa beririsan dengan penerima gratifikasi, maka siapa pun yang integritas pasti bukan penerima gratifikasi. Langkah: ambil subset pegawai berintegritas, lalu simpulkan mereka tidak menerima gratifikasi. Distraktor terdekat E terlalu absolut karena premis hanya menjamin subset berintegritas, bukan semua pegawai."
+    },
+    {
+      "id": 7,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Jika lulus psikotes maka mengikuti tahap berikutnya.\n2) Sebagian peserta tidak mengikuti tahap berikutnya.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Semua peserta tidak lulus psikotes.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian peserta lulus psikotes.", "isCorrect": false },
+        { "label": "C", "text": "Semua peserta mengikuti tahap berikutnya.", "isCorrect": false },
+        { "label": "D", "text": "Sebagian peserta tidak lulus psikotes.", "isCorrect": true },
+        { "label": "E", "text": "Tidak dapat disimpulkan apa pun tentang kelulusan.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: modus tollens pada individu (Jika Lulus→Ikut; Tidak Ikut→Tidak Lulus). Langkah: peserta yang 'tidak ikut' pasti berada pada kondisi 'tidak lulus'. Distraktor terdekat E salah karena informasi 'tidak ikut' sudah cukup menurunkan 'tidak lulus' lewat kontraposisi."
+    },
+    {
+      "id": 8,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Semua pelatihan lapangan membutuhkan izin.\n2) Tidak ada kegiatan yang membutuhkan izin dilakukan tanpa surat.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Sebagian pelatihan lapangan dilakukan tanpa surat.", "isCorrect": false },
+        { "label": "B", "text": "Semua kegiatan tanpa surat membutuhkan izin.", "isCorrect": false },
+        { "label": "C", "text": "Tidak ada pelatihan lapangan yang dilakukan tanpa surat.", "isCorrect": true },
+        { "label": "D", "text": "Semua kegiatan dilakukan dengan surat.", "isCorrect": false },
+        { "label": "E", "text": "Sebagian kegiatan tidak membutuhkan izin.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: rantai kategori (Pelatihan Lapangan→Butuh Izin) dan (Butuh Izin→Tidak Tanpa Surat) menghasilkan (Pelatihan Lapangan→Tidak Tanpa Surat). Langkah: substitusi 'pelatihan lapangan' ke aturan butuh izin, lalu terapkan larangan tanpa surat. Distraktor terdekat D salah karena premis hanya mengatur yang butuh izin, bukan semua kegiatan."
+    },
+    {
+      "id": 9,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Sebagian laporan terlambat diserahkan.\n2) Semua laporan yang terlambat diserahkan mendapat catatan revisi.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Semua laporan mendapat catatan revisi.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian laporan mendapat catatan revisi.", "isCorrect": true },
+        { "label": "C", "text": "Tidak ada laporan yang mendapat catatan revisi.", "isCorrect": false },
+        { "label": "D", "text": "Sebagian laporan tidak terlambat.", "isCorrect": false },
+        { "label": "E", "text": "Semua laporan yang mendapat revisi pasti terlambat.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: dari 'Sebagian Terlambat' dan 'Terlambat→Revisi' dapat diturunkan 'Sebagian Revisi'. Langkah: ambil laporan yang terlambat, lalu terapkan aturan revisi. Distraktor terdekat E salah karena itu membalik implikasi (revisi tidak selalu berarti terlambat)."
+    },
+    {
+      "id": 10,
+      "category": "IQ_LOGIC_SYLLOGISM",
+      "question": "Premis:\n1) Tidak ada kandidat yang tidak lulus kesehatan dapat diterima.\n2) Andi diterima.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Andi pasti tidak lulus kesehatan.", "isCorrect": false },
+        { "label": "B", "text": "Andi pasti lulus administrasi.", "isCorrect": false },
+        { "label": "C", "text": "Andi mungkin diterima tanpa tes kesehatan.", "isCorrect": false },
+        { "label": "D", "text": "Andi pasti mengikuti wawancara.", "isCorrect": false },
+        { "label": "E", "text": "Andi lulus kesehatan.", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: premis 1 setara dengan 'Jika tidak lulus kesehatan maka tidak diterima' sehingga berlaku kontraposisi 'Diterima→Lulus kesehatan'. Langkah: gunakan status diterima pada Andi untuk menurunkan lulus kesehatan. Distraktor terdekat B salah karena premis tidak menyebut administrasi sama sekali."
+    },
+    {
+      "id": 11,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika hujan lebat maka latihan dipindah ke dalam ruangan.\n2) Hujan lebat terjadi.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Latihan dibatalkan.", "isCorrect": false },
+        { "label": "B", "text": "Latihan dipindah ke dalam ruangan.", "isCorrect": true },
+        { "label": "C", "text": "Latihan tetap di luar ruangan.", "isCorrect": false },
+        { "label": "D", "text": "Tidak dapat disimpulkan apa pun.", "isCorrect": false },
+        { "label": "E", "text": "Hujan lebat tidak terjadi.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: modus ponens (Jika A→B; A benar; maka B benar). Langkah: cocokkan kondisi 'hujan lebat' lalu turunkan konsekuensinya. Distraktor terdekat D salah karena implikasi + fakta A sudah cukup menghasilkan B."
+    },
+    {
+      "id": 12,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika jaringan down maka pelayanan dialihkan ke manual.\n2) Jika pelayanan manual maka waktu tunggu lebih lama.\n3) Jaringan down.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Waktu tunggu menjadi lebih singkat.", "isCorrect": false },
+        { "label": "B", "text": "Pelayanan tetap online.", "isCorrect": false },
+        { "label": "C", "text": "Waktu tunggu lebih lama.", "isCorrect": true },
+        { "label": "D", "text": "Tidak ada perubahan pada pelayanan.", "isCorrect": false },
+        { "label": "E", "text": "Jaringan pasti normal.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: chaining implikasi (A→B, B→C, A benar ⇒ C benar). Langkah: down ⇒ manual, manual ⇒ lebih lama, maka down ⇒ lebih lama. Distraktor terdekat B salah karena bertentangan langsung dengan konsekuensi dari premis 1."
+    },
+    {
+      "id": 13,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika seseorang membawa kartu identitas maka ia boleh masuk.\n2) Budi tidak boleh masuk.\nKesimpulan yang PALING TEPAT adalah ...",
+      "options": [
+        { "label": "A", "text": "Tidak dapat dipastikan apakah Budi membawa kartu identitas.", "isCorrect": true },
+        { "label": "B", "text": "Budi pasti tidak membawa kartu identitas.", "isCorrect": false },
+        { "label": "C", "text": "Budi pasti membawa kartu identitas.", "isCorrect": false },
+        { "label": "D", "text": "Budi pasti boleh masuk.", "isCorrect": false },
+        { "label": "E", "text": "Setiap orang yang tidak boleh masuk pasti tidak punya kartu.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: 'Jika kartu → boleh masuk' tidak berarti 'boleh masuk hanya jika kartu'; karena itu 'tidak boleh masuk' tidak otomatis menunjukkan 'tidak bawa kartu'. Langkah: identifikasi bahwa yang tersedia adalah kondisi cukup, bukan kondisi perlu. Distraktor terdekat B salah karena itu bentuk inferensi terlarang (menyimpulkan sebab dari akibat yang tidak terjadi)."
+    },
+    {
+      "id": 14,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika terlambat maka mendapat teguran.\n2) Rani tidak mendapat teguran.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Rani terlambat tetapi tidak ditegur.", "isCorrect": false },
+        { "label": "B", "text": "Rani pasti datang lebih awal.", "isCorrect": false },
+        { "label": "C", "text": "Rani pasti mendapat teguran.", "isCorrect": false },
+        { "label": "D", "text": "Rani tidak hadir.", "isCorrect": false },
+        { "label": "E", "text": "Rani tidak terlambat.", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: modus tollens (Jika terlambat→tegur; tidak tegur → tidak terlambat). Langkah: gunakan kontraposisi pada premis 1, lalu terapkan pada kondisi Rani. Distraktor terdekat B salah karena 'tidak terlambat' tidak sama dengan 'lebih awal'."
+    },
+    {
+      "id": 15,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika laporan disetujui maka surat diterbitkan.\n2) Surat tidak diterbitkan.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Laporan pasti disetujui.", "isCorrect": false },
+        { "label": "B", "text": "Surat mungkin diterbitkan.", "isCorrect": false },
+        { "label": "C", "text": "Laporan pasti lengkap.", "isCorrect": false },
+        { "label": "D", "text": "Laporan tidak disetujui.", "isCorrect": true },
+        { "label": "E", "text": "Tidak dapat disimpulkan apa pun.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: modus tollens (Jika disetujui→terbit; tidak terbit → tidak disetujui). Langkah: terapkan kontraposisi pada premis 1 lalu cocokkan dengan premis 2. Distraktor terdekat E salah karena 'tidak terbit' sudah memberi informasi cukup untuk menolak 'disetujui'."
+    },
+    {
+      "id": 16,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika server overload maka sistem lambat.\n2) Jika jaringan padat maka sistem lambat.\n3) Sistem lambat.\nKesimpulan yang PALING TEPAT adalah ...",
+      "options": [
+        { "label": "A", "text": "Server overload pasti terjadi.", "isCorrect": false },
+        { "label": "B", "text": "Jaringan padat pasti terjadi.", "isCorrect": false },
+        { "label": "C", "text": "Server overload dan jaringan padat pasti terjadi bersamaan.", "isCorrect": false },
+        { "label": "D", "text": "Tidak bisa dipastikan apakah penyebabnya overload atau jaringan padat.", "isCorrect": true },
+        { "label": "E", "text": "Sistem lambat berarti server normal.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: 'B' sebagai akibat yang sama dari dua sebab tidak memungkinkan inferensi sebab (fallacy: affirming the consequent). Langkah: sadari bahwa lambat bisa disebabkan overload atau jaringan padat (atau sebab lain), sehingga penyebab tidak deterministik. Distraktor terdekat A salah karena menyimpulkan sebab tunggal hanya dari akibat."
+    },
+    {
+      "id": 17,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika seseorang tidak membawa alat tulis maka ia tidak dapat mengerjakan.\n2) Sinta dapat mengerjakan.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Sinta tidak mengerjakan.", "isCorrect": false },
+        { "label": "B", "text": "Sinta membawa alat tulis.", "isCorrect": true },
+        { "label": "C", "text": "Sinta pasti meminjam alat tulis.", "isCorrect": false },
+        { "label": "D", "text": "Sinta tidak hadir.", "isCorrect": false },
+        { "label": "E", "text": "Tidak bisa disimpulkan apa pun.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: kontraposisi berlaku pada bentuk 'Jika tidak P → tidak Q', sehingga Q → P. Langkah: dari 'tidak bawa → tidak bisa', dan fakta 'bisa', simpulkan 'bawa'. Distraktor terdekat E salah karena struktur ini justru memungkinkan inferensi pasti melalui kontraposisi."
+    },
+    {
+      "id": 18,
+      "category": "IQ_LOGIC_CONDITIONAL",
+      "question": "Premis:\n1) Jika lolos administrasi maka mendapat nomor ujian.\n2) Fajar tidak mendapat nomor ujian.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Fajar lolos administrasi.", "isCorrect": false },
+        { "label": "B", "text": "Fajar pasti mengikuti ujian.", "isCorrect": false },
+        { "label": "C", "text": "Fajar pasti mendapat nomor ujian.", "isCorrect": false },
+        { "label": "D", "text": "Fajar mungkin lolos administrasi.", "isCorrect": false },
+        { "label": "E", "text": "Fajar tidak lolos administrasi.", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: modus tollens (Jika lolos→dapat nomor; tidak dapat nomor→tidak lolos). Langkah: terapkan kontraposisi pada premis 1 dengan fakta di premis 2. Distraktor terdekat D salah karena premis 2 mengunci hasilnya menjadi pasti, bukan sekadar mungkin."
+    },
+    {
+      "id": 19,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Argumen:\n1) Semua peserta dengan nilai minimal 70 dinyatakan lulus.\n2) Budi dinyatakan lulus.\nKesimpulan: 'Nilai Budi minimal 70'.\nAsumsi TAMBAHAN yang diperlukan agar kesimpulan pasti valid adalah ...",
+      "options": [
+        { "label": "A", "text": "Nilai Budi dihitung tanpa kesalahan.", "isCorrect": false },
+        { "label": "B", "text": "Budi mengikuti ujian sampai selesai.", "isCorrect": false },
+        { "label": "C", "text": "Tidak ada kriteria lulus selain nilai minimal 70.", "isCorrect": true },
+        { "label": "D", "text": "Nilai minimal lulus selalu sama setiap tahun.", "isCorrect": false },
+        { "label": "E", "text": "Panitia menilai dengan standar yang ketat.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: tanpa asumsi, argumen melakukan kekeliruan 'affirming the consequent' (lulus tidak selalu berarti nilai ≥70 jika ada jalur lain). Langkah: agar 'lulus → nilai ≥70' benar, harus ditegaskan bahwa nilai ≥70 adalah satu-satunya syarat lulus. Distraktor terdekat A salah karena akurasi perhitungan tidak mengubah struktur validitas inferensi."
+    },
+    {
+      "id": 20,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Argumen:\n1) Jika seseorang memegang kartu akses khusus maka ia boleh masuk.\n2) Riko boleh masuk.\nKesimpulan: 'Riko memegang kartu akses khusus'.\nAsumsi TAMBAHAN yang diperlukan agar kesimpulan pasti valid adalah ...",
+      "options": [
+        { "label": "A", "text": "Hanya pemegang kartu akses khusus yang boleh masuk.", "isCorrect": true },
+        { "label": "B", "text": "Riko datang tepat waktu.", "isCorrect": false },
+        { "label": "C", "text": "Kartu akses khusus dibuat dari bahan tertentu.", "isCorrect": false },
+        { "label": "D", "text": "Pintu masuk selalu dijaga petugas.", "isCorrect": false },
+        { "label": "E", "text": "Riko sudah pernah masuk sebelumnya.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: kesimpulan saat ini adalah 'affirming the consequent'; agar valid perlu menjadikan kartu sebagai syarat perlu (boleh masuk → punya kartu). Langkah: ubah aturan dari kondisi cukup menjadi biconditional melalui asumsi 'hanya jika'. Distraktor terdekat D salah karena penjagaan pintu tidak menjamin alasan Riko boleh masuk."
+    },
+    {
+      "id": 21,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Aturan:\n'Izin diterbitkan hanya jika pemohon mengisi formulir, melampirkan identitas, dan membayar biaya.'\nFakta: Izin Rara diterbitkan.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Rara pasti melampirkan identitas saja.", "isCorrect": false },
+        { "label": "B", "text": "Rara mungkin tidak membayar biaya.", "isCorrect": false },
+        { "label": "C", "text": "Rara pasti mengisi formulir atau membayar biaya.", "isCorrect": false },
+        { "label": "D", "text": "Izin Rara diterbitkan tanpa syarat.", "isCorrect": false },
+        { "label": "E", "text": "Rara mengisi formulir, melampirkan identitas, dan membayar biaya.", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: frasa 'hanya jika' menyatakan syarat perlu (Terbit → Formulir ∧ Identitas ∧ Biaya). Langkah: karena izin diterbitkan, maka ketiga syarat harus terpenuhi bersamaan. Distraktor terdekat C salah karena melemahkan operator AND menjadi OR, padahal aturan menuntut ketiganya."
+    },
+    {
+      "id": 22,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Aturan:\n1) Jika dokumen lengkap maka proses selesai 2 hari.\n2) Jika dokumen tidak lengkap maka proses selesai 7 hari.\n3) Proses hanya mungkin selesai 2 hari atau 7 hari.\nFakta: Proses Deni selesai 7 hari.\nKesimpulan yang PASTI benar adalah ...",
+      "options": [
+        { "label": "A", "text": "Dokumen Deni lengkap.", "isCorrect": false },
+        { "label": "B", "text": "Deni pasti meminta percepatan.", "isCorrect": false },
+        { "label": "C", "text": "Waktu proses tidak terkait kelengkapan dokumen.", "isCorrect": false },
+        { "label": "D", "text": "Dokumen Deni tidak lengkap.", "isCorrect": true },
+        { "label": "E", "text": "Deni pasti diproses manual.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: dengan ruang kemungkinan dibatasi (hanya 2 atau 7 hari), fakta 7 hari mengunci jalur 'tidak lengkap'. Langkah: gunakan premis 3 untuk menutup alternatif lain, lalu cocokkan 7 hari dengan premis 2. Distraktor terdekat A salah karena bertentangan langsung dengan pemetaan waktu pada aturan."
+    },
+    {
+      "id": 23,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Manakah kontrapositif yang EKUIVALEN dari pernyataan:\n'Jika laporan valid maka laporan diproses'?",
+      "options": [
+        { "label": "A", "text": "Jika laporan tidak diproses maka laporan tidak valid.", "isCorrect": true },
+        { "label": "B", "text": "Jika laporan diproses maka laporan valid.", "isCorrect": false },
+        { "label": "C", "text": "Jika laporan tidak valid maka laporan tidak diproses.", "isCorrect": false },
+        { "label": "D", "text": "Jika laporan tidak valid maka laporan diproses.", "isCorrect": false },
+        { "label": "E", "text": "Jika laporan valid maka laporan tidak diproses.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: kontrapositif dari (P→Q) adalah (¬Q→¬P) dan nilainya ekuivalen secara logis. Langkah: negasikan konsekuen 'diproses' menjadi 'tidak diproses', lalu negasikan anteseden 'valid' menjadi 'tidak valid'. Distraktor terdekat C adalah invers (¬P→¬Q) yang tidak ekuivalen dengan P→Q."
+    },
+    {
+      "id": 24,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan 'Semua anggota yang disiplin mematuhi SOP' setara secara logis dengan ...",
+      "options": [
+        { "label": "A", "text": "Sebagian anggota yang disiplin mematuhi SOP.", "isCorrect": false },
+        { "label": "B", "text": "Tidak ada anggota yang disiplin yang tidak mematuhi SOP.", "isCorrect": true },
+        { "label": "C", "text": "Semua yang mematuhi SOP pasti disiplin.", "isCorrect": false },
+        { "label": "D", "text": "Sebagian yang mematuhi SOP tidak disiplin.", "isCorrect": false },
+        { "label": "E", "text": "Tidak ada anggota yang mematuhi SOP.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: 'Semua D adalah S' ekuivalen dengan 'Tidak ada D yang bukan S' (bentuk kuantor negatif). Langkah: ubah A⊆B menjadi pelarangan irisan A dengan ¬B. Distraktor terdekat C salah karena itu adalah pembalikan implikasi (converse) yang tidak ekuivalen."
+    },
+    {
+      "id": 25,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Premis:\n1) Jika seorang peserta lulus tes logika maka ia lulus seleksi kognitif.\n2) Jika seorang peserta lulus tes numerik maka ia lulus seleksi kognitif.\n3) Dina lulus seleksi kognitif.\nKesimpulan yang PALING TEPAT adalah ...",
+      "options": [
+        { "label": "A", "text": "Dina pasti lulus tes logika.", "isCorrect": false },
+        { "label": "B", "text": "Dina pasti lulus tes numerik.", "isCorrect": false },
+        { "label": "C", "text": "Tidak dapat dipastikan apakah Dina lulus tes logika atau tes numerik.", "isCorrect": true },
+        { "label": "D", "text": "Dina pasti lulus tes logika dan tes numerik.", "isCorrect": false },
+        { "label": "E", "text": "Dina pasti tidak lulus tes logika dan tidak lulus tes numerik.", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: ketika satu akibat (lulus kognitif) bisa dihasilkan oleh lebih dari satu kondisi, kita tidak boleh menyimpulkan kondisi tertentu hanya dari akibat (affirming the consequent). Langkah: identifikasi bahwa lulus kognitif kompatibel dengan lulus logika, atau lulus numerik, atau sumber lain yang tidak disebutkan. Distraktor terdekat A salah karena menyimpulkan satu penyebab spesifik dari akibat yang sama."
+    }
+  ]
+}

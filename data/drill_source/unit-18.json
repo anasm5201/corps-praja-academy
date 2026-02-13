@@ -1,0 +1,148 @@
+{
+    "unit_id": 18,
+    "title": "Unit 18: Leadership Under Fire (Kepemimpinan Krisis)",
+    "description": "Simulasi tekanan tinggi: Menangani kepanikan massal, serangan reputasi, kegagalan operasi, dan manajemen konflik internal yang mematikan.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U18-Q1",
+        "type": "TKP",
+        "text": "Kantor Anda diserang isu viral (hoax) yang sangat memalukan di media sosial. Netizen menyerang membabi buta, dan staf Anda mulai panik serta saling menyalahkan. Langkah pertama Anda sebagai Pimpinan?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Memecat staf yang diduga menjadi sumber masalah untuk meredakan netizen.", "score": 1 },
+          { "key": "B", "text": "Menutup akun media sosial instansi sementara waktu (Lockdown).", "score": 2 },
+          { "key": "C", "text": "Mengumpulkan tim, menenangkan kepanikan (Stop the Bleeding), mengambil alih tanggung jawab, lalu merilis klarifikasi resmi berbasis data.", "score": 5 },
+          { "key": "D", "text": "Membalas komentar netizen satu per satu dengan emosi.", "score": 1 },
+          { "key": "E", "text": "Melapor ke polisi atas pencemaran nama baik.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Crisis Communication. Langkah 1: Ketenangan Internal (Internal Consolidation). Pemimpin harus menjadi 'Peredam Kejut'. Jangan reaktif (D) atau mencari kambing hitam (A). Ambil tanggung jawab, lalu counter dengan fakta (C)."
+      },
+      {
+        "id": "U18-Q2",
+        "type": "TIU",
+        "text": "Logika Kritis (CPM - Critical Path Method): Proyek darurat memiliki alur kerja seperti gambar. Berapa hari waktu MINIMAL untuk menyelesaikan proyek ini? (Jalur Terpanjang = Jalur Kritis)",
+        "image": "<svg width='250' height='100' viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' fill='white' stroke='black'/><text x='30' y='55' text-anchor='middle'>Start</text><circle cx='100' cy='20' r='15' fill='white' stroke='black'/><text x='100' y='25' text-anchor='middle'>A(3)</text><circle cx='100' cy='80' r='15' fill='white' stroke='black'/><text x='100' y='85' text-anchor='middle'>B(5)</text><circle cx='170' cy='50' r='15' fill='white' stroke='black'/><text x='170' y='55' text-anchor='middle'>C(4)</text><circle cx='230' cy='50' r='15' fill='black'/><text x='230' y='55' text-anchor='middle' fill='white' font-size='8'>Finish</text><line x1='45' y1='50' x2='85' y2='20' stroke='black' marker-end='url(#arrow)'/><line x1='45' y1='50' x2='85' y2='80' stroke='black' marker-end='url(#arrow)'/><line x1='115' y1='20' x2='155' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='115' y1='80' x2='155' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='185' y1='50' x2='215' y2='50' stroke='black' marker-end='url(#arrow)'/></svg>",
+        "options": [
+          { "key": "A", "text": "7 Hari", "score": 0 },
+          { "key": "B", "text": "9 Hari", "score": 5 },
+          { "key": "C", "text": "12 Hari", "score": 0 },
+          { "key": "D", "text": "5 Hari", "score": 0 },
+          { "key": "E", "text": "8 Hari", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Cari Jalur Terpanjang (Critical Path). Jalur 1: Start -> A(3) -> C(4) -> Finish = 7 Hari. Jalur 2: Start -> B(5) -> C(4) -> Finish = 9 Hari. Proyek BARU BISA SELESAI jika semua jalur tuntas. Maka waktu minimalnya mengikuti yang terlama (9 Hari). Jangan terjebak mencari yang tercepat!"
+      },
+      {
+        "id": "U18-Q3",
+        "type": "TWK",
+        "text": "Dalam keadaan bahaya (krisis nasional), Presiden berhak menetapkan Peraturan Pemerintah Pengganti Undang-Undang (Perppu). Syarat mutlak keluarnya Perppu menurut Putusan MK adalah adanya...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Persetujuan DPR terlebih dahulu.", "score": 0 },
+          { "key": "B", "text": "Kegentingan yang memaksa.", "score": 5 },
+          { "key": "C", "text": "Krisis ekonomi global.", "score": 0 },
+          { "key": "D", "text": "Kudeta militer.", "score": 0 },
+          { "key": "E", "text": "Bencana alam skala besar.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasal 22 UUD 1945. Kunci Perppu adalah 'Kegentingan yang memaksa' (Subjektif Presiden, tapi dinilai DPR kemudian). Tidak butuh persetujuan DPR di awal (itu UU biasa)."
+      },
+      {
+        "id": "U18-Q4",
+        "type": "TKP",
+        "text": "Tim Anda gagal mencapai target tahunan dan pimpinan pusat marah besar. Padahal kegagalan itu akibat pemotongan anggaran mendadak dari pusat juga. Saat evaluasi di depan Direksi, sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menjelaskan bahwa ini bukan salah tim, tapi salah pusat yang memotong anggaran.", "score": 2 },
+          { "key": "B", "text": "Diam saja menerima dimarahi.", "score": 1 },
+          { "key": "C", "text": "Mengakui kegagalan mencapai target sebagai tanggung jawab Anda (Ownership), lalu menyajikan data dampak pemotongan anggaran secara objektif sebagai bahan evaluasi ke depan.", "score": 5 },
+          { "key": "D", "text": "Menyalahkan anggota tim yang kurang inovatif.", "score": 1 },
+          { "key": "E", "text": "Mengundurkan diri sebagai bentuk tanggung jawab.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Extreme Ownership. Pemimpin tidak melempar kesalahan (Blaming). Akui dulu (tanggung jawab), baru jelaskan sebab-akibat (Explanation) dengan data, bukan dengan nada membela diri (Defensive)."
+      },
+      {
+        "id": "U18-Q5",
+        "type": "TIU",
+        "text": "Analisis Logika: Jika Pasukan A bergerak, Pasukan B diam. Jika Pasukan B diam, Pasukan C menyerang. Saat ini Pasukan C tidak menyerang. Maka...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Pasukan A bergerak.", "score": 0 },
+          { "key": "B", "text": "Pasukan B diam.", "score": 0 },
+          { "key": "C", "text": "Pasukan A tidak bergerak.", "score": 5 },
+          { "key": "D", "text": "Pasukan B menyerang.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat disimpulkan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Modus Tollens Ganda. C tidak serang -> B tidak diam (B bergerak). B tidak diam -> A tidak bergerak. (Karena syarat A gerak adalah B diam). Kesimpulan: A tidak bergerak."
+      },
+      {
+        "id": "U18-Q6",
+        "type": "TWK",
+        "text": "Siapa yang memegang kekuasaan tertinggi atas Angkatan Darat, Angkatan Laut, dan Angkatan Udara dalam kondisi perang?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Panglima TNI", "score": 0 },
+          { "key": "B", "text": "Menteri Pertahanan", "score": 0 },
+          { "key": "C", "text": "Presiden", "score": 5 },
+          { "key": "D", "text": "DPR", "score": 0 },
+          { "key": "E", "text": "Jenderal Besar", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasal 10 UUD 1945. Presiden memegang kekuasaan tertinggi atas AD, AL, dan AU. Panglima TNI adalah pimpinan teknis operasional, tapi Panglima Tertinggi (Supreme Commander) adalah Presiden."
+      },
+      {
+        "id": "U18-Q7",
+        "type": "TKP",
+        "text": "Anda memiliki 'Anak Emas' (Star Performer) di tim yang sangat pintar dan produktif, tapi perilakunya 'Toxic' (suka meremehkan rekan lain dan merusak suasana kerja). Proyek sedang padat. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mempertahankannya apa adanya karena kinerjanya bagus.", "score": 1 },
+          { "key": "B", "text": "Langsung memecatnya demi kekompakan tim.", "score": 2 },
+          { "key": "C", "text": "Memanggilnya empat mata, memberikan umpan balik tegas bahwa perilaku (attitude) sama pentingnya dengan hasil, dan memberinya masa percobaan untuk berubah.", "score": 5 },
+          { "key": "D", "text": "Memindahkannya ke divisi lain.", "score": 3 },
+          { "key": "E", "text": "Meminta rekan lain bersabar.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Coaching & Counseling. Performa = Skill x Attitude. Jika Attitude 0, Performa 0. Tapi pecat langsung (B) saat krisis itu gegabah. Opsi C adalah jalan tengah 'Tough Love' (Tegas tapi Membina)."
+      },
+      {
+        "id": "U18-Q8",
+        "type": "TIU",
+        "text": "Manajemen Sumber Daya: Gudang logistik hanya cukup untuk 10 hari bagi 60 orang. Tiba-tiba datang 15 pengungsi tambahan. Persediaan akan habis dalam berapa hari?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "6 Hari", "score": 0 },
+          { "key": "B", "text": "8 Hari", "score": 5 },
+          { "key": "C", "text": "9 Hari", "score": 0 },
+          { "key": "D", "text": "12 Hari", "score": 0 },
+          { "key": "E", "text": "15 Hari", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Perbandingan Berbalik Nilai. (Orang x Hari) harus tetap. 60 x 10 = 600 'paket'. Orang baru = 60 + 15 = 75. Hari baru = 600 / 75 = 8 Hari."
+      },
+      {
+        "id": "U18-Q9",
+        "type": "TWK",
+        "text": "Dalam Sishankamrata (Sistem Pertahanan dan Keamanan Rakyat Semesta), jika negara dalam keadaan darurat militer, posisi Kepolisian Republik Indonesia (Polri) adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Di bawah komando Panglima TNI.", "score": 5 },
+          { "key": "B", "text": "Tetap mandiri di bawah Presiden.", "score": 0 },
+          { "key": "C", "text": "Di bawah Kementerian Dalam Negeri.", "score": 0 },
+          { "key": "D", "text": "Dibubarkan sementara.", "score": 0 },
+          { "key": "E", "text": "Menjadi kombatan cadangan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: UU Pertahanan Negara. Dalam keadaan Darurat Militer/Perang, komponen keamanan (Polri) dapat di-BKO-kan (Bawah Kendali Operasi) kepada TNI untuk kepentingan pertahanan negara."
+      },
+      {
+        "id": "U18-Q10",
+        "type": "TIU",
+        "text": "Decision Matrix: Anda harus memilih rute evakuasi. Rute A: Jarak 10km, Macet parah (Kecepatan 10km/jam). Rute B: Jarak 20km, Lancar (Kecepatan 40km/jam). Mana yang lebih cepat?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Rute A lebih cepat", "score": 0 },
+          { "key": "B", "text": "Rute B lebih cepat", "score": 5 },
+          { "key": "C", "text": "Sama saja", "score": 0 },
+          { "key": "D", "text": "Tergantung jenis kendaraan", "score": 0 },
+          { "key": "E", "text": "Tidak bisa ditentukan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hitung Waktu = Jarak / Kecepatan. Rute A: 10/10 = 1 Jam. Rute B: 20/40 = 0,5 Jam (30 Menit). Jelas Rute B lebih cepat 2x lipat meski jaraknya jauh. (Pelajaran Taktis: Jangan terpaku pada jarak, tapi pada waktu tempuh)."
+      }
+    ]
+  }

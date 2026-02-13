@@ -1,0 +1,148 @@
+{
+    "unit_id": 16,
+    "title": "Unit 16: Radicalism Radar (Anti-Radikalisme)",
+    "description": "Latihan mendeteksi bibit radikalisme, pola pikir intoleran, dan respon taktis terhadap ancaman ideologi.",
+    "level": "Kadet Madya",
+    "questions": [
+      {
+        "id": "U16-Q1",
+        "type": "TKP",
+        "text": "Di grup WhatsApp alumni, seorang teman lama mulai sering memposting narasi yang menyudutkan pemerintah dengan data palsu (hoax) dan mengajak untuk mengganti sistem negara karena dianggap 'thogut' (salah). Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Langsung keluar dari grup (Left Group) untuk menjaga diri.", "score": 1 },
+          { "key": "B", "text": "Mendebatnya dengan keras di grup agar dia malu.", "score": 2 },
+          { "key": "C", "text": "Memberikan data pembanding yang valid (Counter-Narrative) dengan bahasa santun, lalu melaporkan fitur hoax jika perlu.", "score": 5 },
+          { "key": "D", "text": "Diam saja (Silent Reader) karena malas ribut.", "score": 1 },
+          { "key": "E", "text": "Menghubunginya secara pribadi (Japri) untuk menasihati.", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Counter-Narrative. Radikalisme di medsos harus dilawan dengan 'Narasi Tandingan' yang cerdas dan valid (C), bukan dengan emosi (B) atau apati (A/D). Japri (E) bagus tapi kurang efektif membentengi anggota grup lain yang membaca."
+      },
+      {
+        "id": "U16-Q2",
+        "type": "TWK",
+        "text": "Inti dari paham Radikalisme yang paling bertentangan dengan Sila ke-3 Pancasila (Persatuan Indonesia) adalah sifat...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Revolusioner (Ingin perubahan cepat)", "score": 0 },
+          { "key": "B", "text": "Fanatik (Membenarkan diri sendiri)", "score": 0 },
+          { "key": "C", "text": "Eksklusif (Memisahkan diri dari golongan lain)", "score": 5 },
+          { "key": "D", "text": "Militan (Bersemangat tinggi)", "score": 0 },
+          { "key": "E", "text": "Evolusioner (Perubahan lambat)", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Sila 3 = Persatuan/Inklusif. Lawannya adalah EKSKLUSIVISME (Merasa paling benar dan menolak bergaul/bersatu dengan yang berbeda). Ini adalah ciri dasar radikalisme sebelum menjadi terorisme."
+      },
+      {
+        "id": "U16-Q3",
+        "type": "TIU",
+        "text": "Analogi Medis: IDEOLOGI RADIKAL : VIRUS = PANCASILA : ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "DOKTER", "score": 0 },
+          { "key": "B", "text": "RUMAH SAKIT", "score": 0 },
+          { "key": "C", "text": "IMUN/VAKSIN", "score": 5 },
+          { "key": "D", "text": "OBAT KERAS", "score": 0 },
+          { "key": "E", "text": "MASKER", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konsep Imunitas Bangsa. Virus (Radikal) menyerang tubuh. Pancasila adalah 'Sistem Imun' atau 'Vaksin' yang menangkal virus tersebut agar tidak merusak tubuh (Negara)."
+      },
+      {
+        "id": "U16-Q4",
+        "type": "TWK",
+        "text": "Tahapan radikalisasi sering digambarkan seperti corong. Tahap di mana seseorang mulai membenarkan aksi kekerasan untuk mencapai tujuan ideologisnya disebut tahap...",
+        "image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,10 180,10 100,140' fill='none' stroke='black'/><line x1='35' y1='40' x2='165' y2='40' stroke='black' stroke-dasharray='4'/><text x='100' y='30' text-anchor='middle' font-size='8'>Pra-Radikalisasi</text><line x1='55' y1='70' x2='145' y2='70' stroke='black' stroke-dasharray='4'/><text x='100' y='60' text-anchor='middle' font-size='8'>Identifikasi Diri</text><line x1='75' y1='100' x2='125' y2='100' stroke='black' stroke-dasharray='4'/><text x='100' y='90' text-anchor='middle' font-size='8'>Indoktrinasi</text><text x='100' y='125' text-anchor='middle' font-size='8' font-weight='bold' fill='red'>???</text></svg>",
+        "options": [
+          { "key": "A", "text": "Intoleransi", "score": 0 },
+          { "key": "B", "text": "Jihadisasi / Aksi Teror", "score": 5 },
+          { "key": "C", "text": "Self-Identification", "score": 0 },
+          { "key": "D", "text": "Indoktrinasi", "score": 0 },
+          { "key": "E", "text": "Eksklusivisme", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Tahap Akhir Corong. Ujung dari radikalisme (pemikiran) adalah Terorisme (Aksi/Jihadisasi). Di tahap ini kekerasan dianggap halal/wajib."
+      },
+      {
+        "id": "U16-Q5",
+        "type": "TKP",
+        "text": "Anda melihat rekan kerja mulai menunjukkan perubahan perilaku: menarik diri dari pergaulan kantor, menolak hormat bendera, dan sering mengkafirkan rekan lain yang berbeda pandangan. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menjauhinya agar tidak tertular.", "score": 1 },
+          { "key": "B", "text": "Melaporkan ke atasan langsung dan unit kepegawaian untuk pembinaan.", "score": 5 },
+          { "key": "C", "text": "Menegurnya keras di depan umum agar sadar.", "score": 2 },
+          { "key": "D", "text": "Mengajaknya debat teologis.", "score": 2 },
+          { "key": "E", "text": "Mengajaknya makan siang dan bicara hati ke hati (Pendekatan personal).", "score": 4 }
+        ],
+        "explanation": "PLATINUM KEY: Prosedur Keamanan Instansi. Jika sudah ada indikasi 'Anti-Sistem' (Tolak Hormat Bendera), ini pelanggaran disiplin ASN berat. Lapor Atasan (B) adalah tindakan prosedural paling tepat untuk mitigasi risiko. Pendekatan personal (E) baik tapi berisiko jika Anda tidak punya bekal cukup."
+      },
+      {
+        "id": "U16-Q6",
+        "type": "TIU",
+        "text": "Silogisme Radikal: Semua radikalis adalah ekstremis. Sebagian ekstremis melakukan kekerasan. Tidak ada orang toleran yang menjadi ekstremis.",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Sebagian radikalis adalah orang toleran.", "score": 0 },
+          { "key": "B", "text": "Semua orang toleran melakukan kekerasan.", "score": 0 },
+          { "key": "C", "text": "Tidak ada radikalis yang merupakan orang toleran.", "score": 5 },
+          { "key": "D", "text": "Semua yang melakukan kekerasan adalah radikalis.", "score": 0 },
+          { "key": "E", "text": "Sebagian orang toleran adalah ekstremis.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Coret 'Ekstremis'. Radikalis -> Ekstremis. Toleran -> BUKAN Ekstremis. Maka: Radikalis -> BUKAN Toleran (Terpisah Total)."
+      },
+      {
+        "id": "U16-Q7",
+        "type": "TWK",
+        "text": "Strategi penanggulangan terorisme di Indonesia dilakukan melalui dua pendekatan utama, yaitu 'Hard Approach' (Penegakan Hukum) dan 'Soft Approach'. Yang termasuk 'Soft Approach' adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Penangkapan terduga teroris oleh Densus 88.", "score": 0 },
+          { "key": "B", "text": "Penyitaan aset pendanaan terorisme.", "score": 0 },
+          { "key": "C", "text": "Deradikalisasi, Kontra-Radikalisasi, dan Kesiapsiagaan Nasional.", "score": 5 },
+          { "key": "D", "text": "Penjagaan ketat objek vital nasional.", "score": 0 },
+          { "key": "E", "text": "Operasi intelijen penyusupan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Soft Approach = Pendekatan Lunak (Pencegahan & Pemulihan). Hard Approach = Penindakan (Polisi/Militer). Deradikalisasi (untuk yang sudah terpapar) dan Kontra-Radikalisasi (untuk masyarakat umum) adalah Soft Approach."
+      },
+      {
+        "id": "U16-Q8",
+        "type": "TKP",
+        "text": "Saat seleksi wawancara kerja, pewawancara menanyakan pandangan Anda tentang konsep 'Khilafah'. Jawaban paling taktis dan ideologis adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menolak menjawab karena itu ranah sensitif.", "score": 1 },
+          { "key": "B", "text": "Menjelaskan bahwa konsep tersebut bagus tapi sulit diterapkan.", "score": 2 },
+          { "key": "C", "text": "Menghormatinya sebagai sejarah Islam, namun menegaskan bahwa di Indonesia, Pancasila & NKRI adalah konsensus final yang sudah sesuai dengan nilai agama (Mitsaqan Ghaliza).", "score": 5 },
+          { "key": "D", "text": "Mengatakan bahwa itu sistem terlarang yang harus dimusnahkan.", "score": 3 },
+          { "key": "E", "text": "Pura-pura tidak tahu.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Moderasi Beragama. Jangan antitesis buta (D), jangan simpati (B). Jawaban C menunjukkan kedewasaan: Mengakui sejarah (ilmu) tapi tegas pada Konsensus Kebangsaan (Nasionalisme)."
+      },
+      {
+        "id": "U16-Q9",
+        "type": "TIU",
+        "text": "Logika Figural: Manakah simbol yang mencerminkan 'Eksklusivisme' (Memisahkan diri)?",
+        "image": "<svg width='200' height='60' viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><g transform='translate(10,10)'><circle cx='10' cy='10' r='5' fill='black'/><circle cx='25' cy='10' r='5' fill='gray'/><circle cx='18' cy='25' r='5' fill='black'/><text x='18' y='45' font-size='8' text-anchor='middle'>A</text></g><g transform='translate(60,10)'><rect x='0' y='0' width='10' height='10' fill='black'/><circle cx='20' cy='5' r='5' fill='gray'/><rect x='10' y='15' width='10' height='10' fill='black'/><text x='15' y='45' font-size='8' text-anchor='middle'>B</text></g><g transform='translate(110,10)'><rect x='0' y='0' width='40' height='40' fill='none' stroke='black'/><circle cx='20' cy='20' r='10' fill='black'/><circle cx='55' cy='5' r='3' fill='gray'/><circle cx='60' cy='20' r='3' fill='gray'/><circle cx='55' cy='35' r='3' fill='gray'/><text x='20' y='45' font-size='8' text-anchor='middle'>C</text></g></svg>",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 5 },
+          { "key": "D", "text": "Semua Salah", "score": 0 },
+          { "key": "E", "text": "Gambar A dan B", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Visual Reading. Gambar A dan B menunjukkan elemen hitam dan abu-abu bercampur/berdekatan. Gambar C menunjukkan elemen Hitam TERKURUNG dalam kotak sendiri, terpisah dari elemen abu-abu di luarnya. Ini simbol Eksklusivisme."
+      },
+      {
+        "id": "U16-Q10",
+        "type": "TWK",
+        "text": "Organisasi radikal di masa lalu seperti DI/TII yang dipimpin Kartosuwiryo ingin mengganti ideologi Pancasila. Pemberontakan ini akhirnya dapat ditumpas melalui operasi militer yang melibatkan rakyat, yaitu...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Operasi 17 Agustus", "score": 0 },
+          { "key": "B", "text": "Operasi Pagar Betis (Bratayudha)", "score": 5 },
+          { "key": "C", "text": "Operasi Trikora", "score": 0 },
+          { "key": "D", "text": "Operasi Seroja", "score": 0 },
+          { "key": "E", "text": "Operasi Trisula", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Hafalan Sejarah Militer. DI/TII Jawa Barat ditumpas dengan 'Pagar Betis' (TNI + Rakyat mengepung gunung). Trisula untuk PKI Blitar. 17 Agustus untuk PRRI/Permesta."
+      }
+    ]
+  }

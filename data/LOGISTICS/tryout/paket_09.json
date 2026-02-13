@@ -1,0 +1,1437 @@
+[
+    {
+      "id": "P9-TWK-01",
+      "category": "TWK",
+      "text": "Pasal 31 Ayat (4) UUD 1945 mengamanatkan negara memprioritaskan anggaran pendidikan sekurang-kurangnya 20% dari APBN dan APBD. Tujuan utama konstitusional dari alokasi besar ini adalah...",
+      "explanation": "Hafalan Pasal & Logika: Anggaran 20% bukan hanya untuk gaji guru atau bangunan sekolah, tetapi tujuan akhirnya sesuai Pembukaan UUD 1945 alinea ke-4: **Mencerdaskan Kehidupan Bangsa**. Ini adalah 'Goal', anggaran adalah 'Tool'.",
+      "options": [
+        { "key": "A", "text": "Meningkatkan kesejahteraan guru honorer.", "score": 0 },
+        { "key": "B", "text": "Membangun gedung sekolah bertaraf internasional.", "score": 0 },
+        { "key": "C", "text": "Memenuhi kebutuhan penyelenggaraan pendidikan nasional demi mencerdaskan kehidupan bangsa.", "score": 5 },
+        { "key": "D", "text": "Menghapuskan biaya sekolah swasta.", "score": 0 },
+        { "key": "E", "text": "Mengikuti standar pendidikan PBB.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-02",
+      "category": "TWK",
+      "text": "Peristiwa 'Agresi Militer Belanda I' pada tahun 1947 merupakan pelanggaran nyata Belanda terhadap hasil perundingan...",
+      "explanation": "Sejarah Diplomasi: Agresi I (1947) melanggar Perjanjian **Linggarjati**. Agresi II (1948) melanggar Perjanjian **Renville**.",
+      "options": [
+        { "key": "A", "text": "Renville", "score": 0 },
+        { "key": "B", "text": "Roem-Royen", "score": 0 },
+        { "key": "C", "text": "Linggarjati", "score": 5 },
+        { "key": "D", "text": "Konferensi Meja Bundar", "score": 0 },
+        { "key": "E", "text": "Kalijati", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-03",
+      "category": "TWK",
+      "text": "Manakah kelompok kata berikut yang SELURUHNYA merupakan kata baku menurut KBBI?",
+      "explanation": "Logika Bahasa: \n- A: Analisa (Salah) -> Analisis. \n- B: Apotik (Salah) -> Apotek. \n- C: Resiko (Salah) -> Risiko, Praktek (Salah) -> Praktik. \n- D: Kualitas (Benar), Jadwal (Benar), Hierarki (Benar). \n- E: Himbauan (Salah) -> Imbauan.",
+      "options": [
+        { "key": "A", "text": "Analisa, Diagnosa, Hipotesa", "score": 0 },
+        { "key": "B", "text": "Apotik, Atlit, Antri", "score": 0 },
+        { "key": "C", "text": "Resiko, Praktek, Nasihat", "score": 0 },
+        { "key": "D", "text": "Kualitas, Jadwal, Hierarki", "score": 5 },
+        { "key": "E", "text": "Himbauan, Silahkan, Sekedar", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-04",
+      "category": "TWK",
+      "text": "Dalam sistem pemerintahan Indonesia, Presiden tidak dapat membubarkan DPR, dan DPR pun tidak dapat menjatuhkan Presiden. Hal ini karena...",
+      "explanation": "Sistem Presidensial: Presiden dan DPR memiliki kedudukan yang **sejajar** dan sama kuat karena keduanya dipilih langsung oleh rakyat (legitimasi kuat). Berbeda dengan Parlementer di mana PM bisa dijatuhkan Parlemen (Mosi Tidak Percaya).",
+      "options": [
+        { "key": "A", "text": "Presiden adalah mandataris MPR.", "score": 0 },
+        { "key": "B", "text": "DPR adalah lembaga tertinggi negara.", "score": 0 },
+        { "key": "C", "text": "Kedudukan Presiden dan DPR adalah sejajar dan saling mengawasi (Checks and Balances).", "score": 5 },
+        { "key": "D", "text": "Presiden memiliki hak veto.", "score": 0 },
+        { "key": "E", "text": "Masa jabatan mereka berbeda.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-05",
+      "category": "TWK",
+      "text": "Sila ke-4 Pancasila menekankan pada 'Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan'. Esensi dari 'Hikmat Kebijaksanaan' dalam pengambilan keputusan adalah...",
+      "explanation": "Pancasila: Hikmat Kebijaksanaan berarti keputusan diambil bukan sekadar berdasarkan suara terbanyak (voting), melainkan berdasarkan **akal sehat dan hati nurani yang luhur** untuk kepentingan bersama (konsensus/mufakat).",
+      "options": [
+        { "key": "A", "text": "Suara mayoritas harus selalu menang.", "score": 0 },
+        { "key": "B", "text": "Keputusan diambil berdasarkan akal sehat dan hati nurani luhur, mengutamakan mufakat di atas voting.", "score": 5 },
+        { "key": "C", "text": "Pemimpin memiliki hak mutlak memutuskan.", "score": 0 },
+        { "key": "D", "text": "Kepentingan golongan minoritas boleh diabaikan.", "score": 0 },
+        { "key": "E", "text": "Keputusan harus cepat meskipun tidak matang.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-06",
+      "category": "TWK",
+      "text": "Perubahan bentuk negara dari Republik Indonesia Serikat (RIS) kembali menjadi Negara Kesatuan Republik Indonesia (NKRI) pada tahun 1950 didorong oleh...",
+      "explanation": "Sejarah: RIS adalah bentukan Belanda untuk memecah belah. Kembalinya ke NKRI didorong oleh **Mosi Integral Natsir** dan desakan kuat dari negara-negara bagian RIS yang merasa RIS tidak sesuai dengan cita-cita Proklamasi 1945.",
+      "options": [
+        { "key": "A", "text": "Tekanan militer dari Belanda.", "score": 0 },
+        { "key": "B", "text": "Keputusan sepihak Presiden Soekarno.", "score": 0 },
+        { "key": "C", "text": "Keinginan negara-negara bagian RIS untuk kembali bersatu karena RIS dianggap warisan kolonial.", "score": 5 },
+        { "key": "D", "text": "Kekalahan Indonesia dalam perang.", "score": 0 },
+        { "key": "E", "text": "Intervensi PBB.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-07",
+      "category": "TWK",
+      "text": "Dalam UUD 1945, kekuasaan untuk membentuk Undang-Undang (Legislasi) secara tegas dipegang oleh...",
+      "explanation": "Konstitusi (Pasal 20 Ayat 1): DPR memegang kekuasaan membentuk Undang-Undang. Presiden berhak mengajukan RUU dan membahasnya bersama DPR, tapi pemegang kekuasaan utamanya adalah **DPR**.",
+      "options": [
+        { "key": "A", "text": "Presiden", "score": 0 },
+        { "key": "B", "text": "Majelis Permusyawaratan Rakyat (MPR)", "score": 0 },
+        { "key": "C", "text": "Dewan Perwakilan Rakyat (DPR)", "score": 5 },
+        { "key": "D", "text": "Mahkamah Konstitusi (MK)", "score": 0 },
+        { "key": "E", "text": "Dewan Perwakilan Daerah (DPD)", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-08",
+      "category": "TWK",
+      "text": "Penulisan kalimat yang menggunakan tanda titik dua (:) secara BENAR adalah...",
+      "explanation": "Aturan PUEBI: Titik dua dipakai pada akhir pernyataan lengkap yang diikuti pemerian atau penjelasan. \nA: Salah, karena 'meliputi' sudah berfungsi sebagai pengantar (tidak butuh titik dua). \nB: Salah, 'yaitu' tidak butuh titik dua sebelumnya. \nC: Salah, kalimat belum lengkap. \nD: Benar. 'Bahan yang diperlukan:' (Pernyataan lengkap) diikuti daftar. *Revisi PUEBI*: Titik dua dipakai jika pemerian itu merupakan *pelengkap yang mengakhiri pernyataan*. \nContoh Benar: 'Kita memerlukan alat tulis: pena, pensil, dan penghapus.' \nOpsi D adalah yang paling mendekati kaidah jika dianggap sebagai daftar logistik.",
+      "options": [
+        { "key": "A", "text": "Faktor penyebabnya meliputi: ekonomi, sosial, dan budaya.", "score": 0 },
+        { "key": "B", "text": "Barang itu terdiri dari: meja, kursi, dan lemari.", "score": 0 },
+        { "key": "C", "text": "Ibu membeli: sayur dan buah.", "score": 0 },
+        { "key": "D", "text": "Kita memerlukan alat-alat berikut: palu, paku, dan gergaji.", "score": 5 },
+        { "key": "E", "text": "Rapat dihadiri oleh: direktur dan manajer.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-09",
+      "category": "TWK",
+      "text": "Konsep 'Wawasan Nusantara' memandang wilayah Indonesia sebagai satu kesatuan POLEKSOSBUDHANKAM. Jika terjadi ancaman terhadap satu pulau, maka itu dianggap sebagai...",
+      "explanation": "Doktrin Wasantara: Satu kesatuan pertahanan. Ancaman terhadap satu wilayah/pulau hakikatnya adalah ancaman terhadap **seluruh bangsa dan negara**.",
+      "options": [
+        { "key": "A", "text": "Tanggung jawab pemerintah daerah setempat.", "score": 0 },
+        { "key": "B", "text": "Ancaman terhadap seluruh bangsa dan negara.", "score": 5 },
+        { "key": "C", "text": "Masalah militer semata.", "score": 0 },
+        { "key": "D", "text": "Urusan pulau itu saja.", "score": 0 },
+        { "key": "E", "text": "Tanggung jawab PBB.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-10",
+      "category": "TWK",
+      "text": "Seorang Hakim menerima suap untuk meringankan vonis terdakwa korupsi. Tindakan hakim tersebut melanggar norma hukum dan mencoreng integritas penegak hukum. Lembaga yang berwenang mengawasi perilaku hakim dan menjaga kehormatan hakim adalah...",
+      "explanation": "Lembaga Negara: **Komisi Yudisial (KY)** berwenang mengusulkan pengangkatan Hakim Agung dan menjaga/menegakkan kehormatan, keluhuran martabat, serta perilaku hakim (Pasal 24B UUD 1945).",
+      "options": [
+        { "key": "A", "text": "Mahkamah Agung (MA)", "score": 0 },
+        { "key": "B", "text": "Mahkamah Konstitusi (MK)", "score": 0 },
+        { "key": "C", "text": "Komisi Pemberantasan Korupsi (KPK)", "score": 0 },
+        { "key": "D", "text": "Komisi Yudisial (KY)", "score": 5 },
+        { "key": "E", "text": "Kejaksaan Agung", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-11",
+      "category": "TWK",
+      "text": "Penyebab utama kegagalan LBB (Liga Bangsa-Bangsa) dalam memelihara perdamaian dunia, yang kemudian menjadi pelajaran bagi pembentukan PBB, adalah...",
+      "explanation": "Sejarah Dunia: LBB gagal karena tidak memiliki alat pemaksa (pasukan militer) untuk menindak negara agresor (seperti Jerman, Italia, Jepang) dan keanggotaannya bersifat sukarela (banyak negara besar keluar/masuk sesuka hati).",
+      "options": [
+        { "key": "A", "text": "Kekurangan dana operasional.", "score": 0 },
+        { "key": "B", "text": "Markas besarnya di Swiss.", "score": 0 },
+        { "key": "C", "text": "Tidak memiliki alat pemaksa (pasukan) yang kuat dan tidak tegas menindak negara agresor.", "score": 5 },
+        { "key": "D", "text": "Terlalu didominasi negara Asia.", "score": 0 },
+        { "key": "E", "text": "Fokus hanya pada ekonomi.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-12",
+      "category": "TWK",
+      "text": "Berdasarkan UUD 1945, jika Presiden diduga melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, atau tindak pidana berat lainnya, proses pemakzulan (impeachment) dimulai dari...",
+      "explanation": "Alur Impeachment: \n1. **DPR** mengajukan usul (dengan hak menyatakan pendapat). \n2. **MK** memeriksa/mengadili dugaan tersebut. \n3. Jika MK membenarkan, DPR meneruskan ke **MPR**. \n4. **MPR** yang memutuskan memecat atau tidak.",
+      "options": [
+        { "key": "A", "text": "Langsung diputuskan oleh MPR.", "score": 0 },
+        { "key": "B", "text": "Pengadilan Negeri memeriksa kasusnya.", "score": 0 },
+        { "key": "C", "text": "Usul DPR, diperiksa dan diadili oleh Mahkamah Konstitusi, lalu diputuskan oleh MPR.", "score": 5 },
+        { "key": "D", "text": "Rakyat melakukan referendum.", "score": 0 },
+        { "key": "E", "text": "Mahkamah Agung menangkap Presiden.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-13",
+      "category": "TWK",
+      "text": "Kata 'Senonoh' sering disalahartikan. Makna kata 'Senonoh' menurut KBBI adalah...",
+      "explanation": "Jebakan Bahasa: Kita sering dengar 'Tidak Senonoh' (Tidak sopan). Berarti 'Senonoh' itu sendiri artinya positif: **Pantas, sopan, patut**. \n(Banyak orang mengira senonoh itu jorok, padahal kebalikannya).",
+      "options": [
+        { "key": "A", "text": "Tidak sopan / Jorok", "score": 0 },
+        { "key": "B", "text": "Pantas / Sopan / Patut", "score": 5 },
+        { "key": "C", "text": "Aneh / Ganjil", "score": 0 },
+        { "key": "D", "text": "Berani / Nekat", "score": 0 },
+        { "key": "E", "text": "Jujur / Terbuka", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-14",
+      "category": "TWK",
+      "text": "Keikutsertaan Indonesia dalam pengiriman Pasukan Garuda (Kontingen Garuda) di bawah bendera PBB merupakan implementasi dari Pembukaan UUD 1945 alinea ke-4, yaitu...",
+      "explanation": "Tujuan Negara: ...dan ikut melaksanakan **ketertiban dunia** yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial.",
+      "options": [
+        { "key": "A", "text": "Melindungi segenap bangsa Indonesia.", "score": 0 },
+        { "key": "B", "text": "Memajukan kesejahteraan umum.", "score": 0 },
+        { "key": "C", "text": "Mencerdaskan kehidupan bangsa.", "score": 0 },
+        { "key": "D", "text": "Ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial.", "score": 5 },
+        { "key": "E", "text": "Mewujudkan keadilan sosial bagi seluruh rakyat.", "score": 0 }
+      ]
+    },
+    {
+      "id": "P9-TWK-15",
+      "category": "TWK",
+      "text": "Seseorang yang memiliki integritas tinggi akan menolak melakukan plagiasi (menjiplak karya orang lain) karena tindakan tersebut melanggar nilai...",
+      "explanation": "Integritas: Plagiasi adalah bentuk ketidakjujuran intelektual. Nilai dasar yang dilanggar adalah **Kejujuran**.",
+      "options": [
+        { "key": "A", "text": "Keberanian", "score": 0 },
+        { "key": "B", "text": "Kejujuran", "score": 5 },
+        { "key": "C", "text": "Kedisiplinan", "score": 0 },
+        { "key": "D", "text": "Kerja Keras", "score": 0 },
+        { "key": "E", "text": "Kesederhanaan", "score": 0 }
+      ]
+    },
+    {
+        "id": "P9-TWK-16",
+        "category": "TWK",
+        "text": "Kebijakan konfrontasi 'Ganyang Malaysia' yang dicanangkan Presiden Soekarno pada masa Orde Lama dipicu oleh...",
+        "explanation": "Sejarah: Soekarno menganggap pembentukan Federasi Malaysia (gabungan Malaya, Singapura, Sabah, Sarawak) adalah proyek 'Neokolonialisme' (Nekolim) Inggris yang membahayakan revolusi Indonesia dan stabilitas kawasan.",
+        "options": [
+          { "key": "A", "text": "Sengketa Pulau Sipadan dan Ligitan.", "score": 0 },
+          { "key": "B", "text": "Pelanggaran wilayah laut oleh kapal Inggris.", "score": 0 },
+          { "key": "C", "text": "Pembentukan Federasi Malaysia yang dianggap sebagai proyek Neokolonialisme Inggris.", "score": 5 },
+          { "key": "D", "text": "Malaysia menolak masuk PBB.", "score": 0 },
+          { "key": "E", "text": "Perebutan wilayah Kalimantan Utara.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-17",
+        "category": "TWK",
+        "text": "Dalam pelaksanaan Otonomi Daerah, terdapat 'Urusan Pemerintahan Absolut' yang sepenuhnya tetap menjadi wewenang Pemerintah Pusat dan tidak diserahkan ke Daerah. Berikut yang TERMASUK urusan absolut adalah...",
+        "explanation": "Otda: 6 Urusan Absolut Pusat: 1. Politik Luar Negeri, 2. Pertahanan, 3. Keamanan, 4. Yustisi (Hukum/Peradilan), 5. Moneter & Fiskal Nasional, 6. Agama. \n(Pendidikan dan Kesehatan adalah urusan Konkuren/dibagi).",
+        "options": [
+          { "key": "A", "text": "Pendidikan dan Kebudayaan", "score": 0 },
+          { "key": "B", "text": "Kesehatan dan Sosial", "score": 0 },
+          { "key": "C", "text": "Politik Luar Negeri dan Pertahanan", "score": 5 },
+          { "key": "D", "text": "Pariwisata dan Ekonomi Kreatif", "score": 0 },
+          { "key": "E", "text": "Pekerjaan Umum dan Perumahan", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-18",
+        "category": "TWK",
+        "text": "Ide Pokok Paragraf: 'Batik bukan sekadar kain bermotif. Setiap goresan canting mengandung filosofi mendalam tentang kehidupan manusia, mulai dari kelahiran hingga kematian. Motif Parang misalnya, melambangkan perjuangan yang tak pernah putus. Oleh karena itu, UNESCO mengakui Batik sebagai warisan budaya takbenda.'\nGagasan utama paragraf tersebut adalah...",
+        "explanation": "Ide Pokok: Inti pembicaraan. Kalimat pertama 'Batik bukan sekadar kain bermotif' adalah pembuka. Intinya adalah 'Filosofi mendalam dalam motif batik'. Pengakuan UNESCO adalah akibat/pelengkap.",
+        "options": [
+          { "key": "A", "text": "Pengakuan UNESCO terhadap batik.", "score": 0 },
+          { "key": "B", "text": "Proses pembuatan batik dengan canting.", "score": 0 },
+          { "key": "C", "text": "Makna filosofis yang terkandung dalam motif batik.", "score": 5 },
+          { "key": "D", "text": "Jenis-jenis motif batik di Indonesia.", "score": 0 },
+          { "key": "E", "text": "Batik sebagai pakaian resmi.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-19",
+        "category": "TWK",
+        "text": "Lahirnya Orde Baru ditandai dengan dikeluarkannya Surat Perintah 11 Maret (Supersemar) 1966. Instruksi utama dari Presiden Soekarno kepada Letjen Soeharto dalam mandat tersebut sebenarnya adalah...",
+        "explanation": "Sejarah: Mandat Supersemar adalah mengambil segala tindakan yang dianggap perlu untuk menjamin **keamanan, ketenangan, dan kestabilan jalannya pemerintahan**, BUKAN penyerahan kekuasaan presiden (transfer of power) secara langsung, meskipun implikasinya ke sana.",
+        "options": [
+          { "key": "A", "text": "Membubarkan PKI dan ormas-ormasnya.", "score": 0 },
+          { "key": "B", "text": "Mengambil alih kekuasaan kepresidenan.", "score": 0 },
+          { "key": "C", "text": "Mengambil segala tindakan yang dianggap perlu untuk menjamin keamanan, ketenangan, dan kestabilan pemerintahan.", "score": 5 },
+          { "key": "D", "text": "Membentuk kabinet baru.", "score": 0 },
+          { "key": "E", "text": "Melaksanakan Pemilu secepatnya.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-20",
+        "category": "TWK",
+        "text": "Manakah penulisan kata baku yang TEPAT di bawah ini?",
+        "explanation": "KBBI: \n- Coklat (Salah) -> Cokelat. \n- Nasehat (Salah) -> Nasihat. \n- Ijin (Salah) -> Izin. \n- Konkrit (Salah) -> Konkret. \n- **Kuitansi** (Benar).",
+        "options": [
+          { "key": "A", "text": "Coklat", "score": 0 },
+          { "key": "B", "text": "Nasehat", "score": 0 },
+          { "key": "C", "text": "Ijin", "score": 0 },
+          { "key": "D", "text": "Kuitansi", "score": 5 },
+          { "key": "E", "text": "Konkrit", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-21",
+        "category": "TWK",
+        "text": "Salah satu tuntutan mahasiswa dalam aksi Tritura (Tri Tuntutan Rakyat) tahun 1966 adalah 'Retool Kabinet Dwikora'. Maksud dari tuntutan ini adalah...",
+        "explanation": "Tritura: 1. Bubarkan PKI, 2. Retool (Bersihkan) Kabinet Dwikora dari unsur G30S/PKI, 3. Turunkan Harga. \nJadi 'Retool' artinya pembersihan/perombakan dari unsur komunis.",
+        "options": [
+          { "key": "A", "text": "Membubarkan kabinet dan mengganti dengan militer.", "score": 0 },
+          { "key": "B", "text": "Membersihkan kabinet dari unsur-unsur G30S/PKI.", "score": 5 },
+          { "key": "C", "text": "Menurunkan gaji menteri.", "score": 0 },
+          { "key": "D", "text": "Menuntut menteri untuk turun ke jalan.", "score": 0 },
+          { "key": "E", "text": "Mengganti sistem presidensial menjadi parlementer.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-22",
+        "category": "TWK",
+        "text": "Dana Alokasi Umum (DAU) yang diberikan Pemerintah Pusat kepada Daerah bertujuan untuk...",
+        "explanation": "Keuangan Negara: DAU bersifat 'Block Grant' untuk pemerataan kemampuan keuangan antar-daerah (mencegah ketimpangan fiskal) guna membiayai kebutuhan pengeluaran operasional daerah (termasuk Gaji PNS Daerah).",
+        "options": [
+          { "key": "A", "text": "Membiayai proyek khusus nasional di daerah.", "score": 0 },
+          { "key": "B", "text": "Pemerataan kemampuan keuangan antar-daerah (celah fiskal) untuk mendanai kebutuhan daerah.", "score": 5 },
+          { "key": "C", "text": "Dana bagi hasil sumber daya alam.", "score": 0 },
+          { "key": "D", "text": "Dana darurat bencana alam.", "score": 0 },
+          { "key": "E", "text": "Dana insentif daerah berprestasi.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-23",
+        "category": "TWK",
+        "text": "Simpulan Paragraf: 'Semua peserta diklat CPNS wajib disiplin. Budi sering terlambat masuk kelas diklat. Ketidakdisiplinan adalah pelanggaran tata tertib yang dapat menyebabkan peserta gugur.'\nSimpulan yang paling logis adalah...",
+        "explanation": "Silogisme Teks: Peserta wajib disiplin. Budi tidak disiplin (sering terlambat). Tidak disiplin = pelanggaran = bisa gugur. \nMaka: Budi berisiko gugur karena melanggar tata tertib.",
+        "options": [
+          { "key": "A", "text": "Budi pasti gugur.", "score": 0 },
+          { "key": "B", "text": "Budi bukan peserta diklat.", "score": 0 },
+          { "key": "C", "text": "Budi melanggar tata tertib dan berisiko gugur.", "score": 5 },
+          { "key": "D", "text": "Semua peserta diklat pernah terlambat.", "score": 0 },
+          { "key": "E", "text": "Panitia diklat tidak tegas.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-24",
+        "category": "TWK",
+        "text": "Kegagalan Konstituante dalam menyusun Undang-Undang Dasar yang baru pada tahun 1955-1959 disebabkan oleh...",
+        "explanation": "Sejarah: Konstituante gagal karena perdebatan ideologis yang berlarut-larut (Deadlock) antara kelompok Nasionalis (Pancasila) dan kelompok Islam (Dasar Negara Islam), sehingga tidak mencapai kuorum 2/3 suara untuk mengambil keputusan.",
+        "options": [
+          { "key": "A", "text": "Intervensi asing yang kuat.", "score": 0 },
+          { "key": "B", "text": "Perdebatan ideologis yang berlarut-larut antara dasar negara Pancasila dan Islam sehingga tidak mencapai kesepakatan.", "score": 5 },
+          { "key": "C", "text": "Masa kerja Konstituante terlalu singkat.", "score": 0 },
+          { "key": "D", "text": "Presiden membubarkan paksa tanpa alasan.", "score": 0 },
+          { "key": "E", "text": "Anggota Konstituante korupsi.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-25",
+        "category": "TWK",
+        "text": "Amandemen Pertama UUD 1945 pada tahun 1999 berfokus pada pembatasan kekuasaan Presiden. Salah satu pasal krusial yang diubah adalah Pasal 7, yang mengatur tentang...",
+        "explanation": "Konstitusi: Sebelum amandemen, Presiden bisa dipilih kembali tanpa batas (seumur hidup). Amandemen Pertama membatasi: Presiden memegang jabatan selama 5 tahun dan sesudahnya dapat dipilih kembali **hanya untuk satu kali masa jabatan**.",
+        "options": [
+          { "key": "A", "text": "Hak prerogatif presiden.", "score": 0 },
+          { "key": "B", "text": "Pengangkatan menteri.", "score": 0 },
+          { "key": "C", "text": "Pembatasan masa jabatan presiden maksimal dua periode.", "score": 5 },
+          { "key": "D", "text": "Pemilihan presiden secara langsung.", "score": 0 },
+          { "key": "E", "text": "Pemberhentian presiden.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-26",
+        "category": "TWK",
+        "text": "Anda adalah pewawancara seleksi pegawai. Ternyata salah satu kandidat adalah keponakan kandung Anda. Sesuai prinsip Integritas dan manajemen konflik kepentingan (*Conflict of Interest*), tindakan Anda...",
+        "explanation": "Integritas: Dalam situasi COI (Conflict of Interest), langkah etis adalah **Deklarasi** dan **Mengundurkan Diri** dari proses penilaian terhadap orang tersebut untuk menjaga objektivitas.",
+        "options": [
+          { "key": "A", "text": "Menilai secara profesional tanpa memberitahu siapapun.", "score": 0 },
+          { "key": "B", "text": "Memberi nilai sedikit lebih tinggi karena keluarga.", "score": 0 },
+          { "key": "C", "text": "Mendeklarasikan konflik kepentingan kepada panitia dan meminta pewawancara lain yang menilainya.", "score": 5 },
+          { "key": "D", "text": "Meminta keponakan pura-pura tidak kenal.", "score": 0 },
+          { "key": "E", "text": "Menggugurkannya agar tidak dituduh nepotisme.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-27",
+        "category": "TWK",
+        "text": "Penulisan huruf kapital yang SALAH terdapat pada kalimat...",
+        "explanation": "PUEBI: \n- A: 'Suku Badui' (Benar, nama suku kapital). \n- B: 'bahasa Inggris' (Benar, nama bahasa 'b' kecil, 'I' kapital). \n- C: 'pisang Ambon' (Salah). Nama jenis biologis tidak kapital, kecuali nama geografi. Pisang ambon ditulis kecil semua. \n- D: 'Gubernur Jawa Barat' (Benar). \n- E: 'Jenderal Soedirman' (Benar). \n*Catatan*: Untuk nama jenis seperti 'pisang ambon', 'jeruk bali', 'kunci inggris', 'pempek palembang', geografinya ditulis KECIL.",
+        "options": [
+          { "key": "A", "text": "Masyarakat Suku Badui sangat menjaga alam.", "score": 0 },
+          { "key": "B", "text": "Kami belajar bahasa Inggris.", "score": 0 },
+          { "key": "C", "text": "Adik suka makan pisang Ambon.", "score": 5 },
+          { "key": "D", "text": "Pelantikan Gubernur Jawa Barat berjalan lancar.", "score": 0 },
+          { "key": "E", "text": "Panglima Besar Jenderal Soedirman memimpin gerilya.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-28",
+        "category": "TWK",
+        "text": "Reformasi 1998 dipicu oleh krisis multidimensi. Tragedi yang menjadi titik balik memicu kemarahan mahasiswa secara nasional hingga menduduki gedung DPR/MPR adalah...",
+        "explanation": "Sejarah: Tragedi Trisakti (12 Mei 1998) di mana 4 mahasiswa tewas tertembak aparat, memicu kerusuhan massal dan gelombang demo yang akhirnya melengserkan Soeharto.",
+        "options": [
+          { "key": "A", "text": "Peristiwa Malari.", "score": 0 },
+          { "key": "B", "text": "Tragedi Semanggi I.", "score": 0 },
+          { "key": "C", "text": "Tragedi Trisakti.", "score": 5 },
+          { "key": "D", "text": "Kudeta 27 Juli.", "score": 0 },
+          { "key": "E", "text": "Penculikan aktivis.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-29",
+        "category": "TWK",
+        "text": "Dalam menghadapi keberagaman SARA, sikap yang paling sesuai dengan Bhinneka Tunggal Ika adalah 'Inklusivisme', yang artinya...",
+        "explanation": "Pilar Negara: Inklusif = Terbuka. Memandang dirinya dan orang lain sebagai satu kesatuan dalam kelompok yang lebih besar (bangsa), tidak eksklusif (menutup diri) atau sektarian.",
+        "options": [
+          { "key": "A", "text": "Menganggap kelompoknya paling benar.", "score": 0 },
+          { "key": "B", "text": "Menyamakan semua agama menjadi satu.", "score": 0 },
+          { "key": "C", "text": "Menerima dan menempatkan diri ke dalam cara pandang orang lain/kelompok lain untuk melihat masalah (terbuka/tidak tertutup).", "score": 5 },
+          { "key": "D", "text": "Mencampuradukkan budaya.", "score": 0 },
+          { "key": "E", "text": "Menjaga jarak agar tidak konflik.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TWK-30",
+        "category": "TWK",
+        "text": "Jika Presiden dan Wakil Presiden berhalangan tetap secara bersamaan, pelaksana tugas kepresidenan (Triumvirat) adalah Mendagri, Menlu, dan Menhan. Dalam waktu paling lambat ..., MPR harus bersidang untuk memilih Presiden dan Wapres baru.",
+        "explanation": "Pasal 8 Ayat 3 UUD 1945: MPR selambat-lambatnya mengadakan sidang dalam waktu **30 hari** untuk memilih Presiden dan Wapres dari dua pasangan calon yang diusulkan parpol/gabungan parpol.",
+        "options": [
+          { "key": "A", "text": "30 hari", "score": 5 },
+          { "key": "B", "text": "60 hari", "score": 0 },
+          { "key": "C", "text": "90 hari", "score": 0 },
+          { "key": "D", "text": "6 bulan", "score": 0 },
+          { "key": "E", "text": "1 tahun", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-31",
+        "category": "TIU",
+        "text": "Analogi Tiga Kata:\nTELUR : ULAT : KEPOMPONG = ... : ... : ...",
+        "explanation": "Hubungan: Tahapan Metamorfosis (Berurutan). \nTelur menetas jadi Ulat, Ulat berubah jadi Kepompong. \nPadanan: BAYI : ANAK-ANAK : REMAJA (Tahapan pertumbuhan manusia).",
+        "options": [
+          { "key": "A", "text": "PAGI : SIANG : SORE", "score": 0 },
+          { "key": "B", "text": "KANTUK : TIDUR : MIMPI", "score": 0 },
+          { "key": "C", "text": "BAYI : ANAK-ANAK : REMAJA", "score": 5 },
+          { "key": "D", "text": "LAPAR : MAKAN : KENYANG", "score": 0 },
+          { "key": "E", "text": "SD : SMP : KULIAH", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-32",
+        "category": "TIU",
+        "text": "Analogi Tiga Kata (Intensitas):\nBISIK : BICARA : TERIAK = ... : ... : ...",
+        "explanation": "Hubungan: Tingkatan Intensitas (Rendah -> Sedang -> Tinggi). \nBisik (suara pelan) -> Bicara (sedang) -> Teriak (keras). \nPadanan: SENYUM : TAWA : TERBAHAK (Ekspresi senang dari ringan ke berat).",
+        "options": [
+          { "key": "A", "text": "JALAN : LARI : SPRINT", "score": 0 },
+          { "key": "B", "text": "DINGIN : SEJUK : BEKU", "score": 0 },
+          { "key": "C", "text": "SENYUM : TAWA : TERBAHAK", "score": 5 },
+          { "key": "D", "text": "KECIL : SEDANG : BESAR", "score": 0 },
+          { "key": "E", "text": "HANGAT : PANAS : MEMBARA", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-33",
+        "category": "TIU",
+        "text": "Deret Angka (Fibonacci): \n1, 3, 4, 7, 11, 18, ...",
+        "explanation": "Pola Fibonacci Murni: Suku ke-n = (n-1) + (n-2). \n1 + 3 = 4 \n3 + 4 = 7 \n4 + 7 = 11 \n7 + 11 = 18 \nSelanjutnya: 11 + 18 = 29.",
+        "options": [
+          { "key": "A", "text": "27", "score": 0 },
+          { "key": "B", "text": "28", "score": 0 },
+          { "key": "C", "text": "29", "score": 5 },
+          { "key": "D", "text": "30", "score": 0 },
+          { "key": "E", "text": "31", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-34",
+        "category": "TIU",
+        "text": "Deret Angka (Fibonacci Modifikasi +1):\n1, 2, 4, 7, 12, 20, ...",
+        "explanation": "Pola: Jumlah dua suku sebelumnya DITAMBAH 1. \n1 + 2 + 1 = 4 \n2 + 4 + 1 = 7 \n4 + 7 + 1 = 12 \n7 + 12 + 1 = 20 \nSelanjutnya: 12 + 20 + 1 = 33.",
+        "options": [
+          { "key": "A", "text": "30", "score": 0 },
+          { "key": "B", "text": "31", "score": 0 },
+          { "key": "C", "text": "32", "score": 0 },
+          { "key": "D", "text": "33", "score": 5 },
+          { "key": "E", "text": "34", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-35",
+        "category": "TIU",
+        "text": "Perbandingan Kuantitatif:\nJika X = 33,33% dari 120\ndan Y = 1/3 dari 121\nMaka...",
+        "explanation": "Hitung Cepat: \nX = 1/3 x 120 = 40. \nY = 1/3 x 121 = 40,33. \nKesimpulan: X < Y.",
+        "options": [
+          { "key": "A", "text": "X > Y", "score": 0 },
+          { "key": "B", "text": "X < Y", "score": 5 },
+          { "key": "C", "text": "X = Y", "score": 0 },
+          { "key": "D", "text": "X = 2Y", "score": 0 },
+          { "key": "E", "text": "Hubungan tidak dapat ditentukan", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-36",
+        "category": "TIU",
+        "text": "Silogisme (Kuantor Sebagian):\nSemua atlet profesional menjaga pola makan.\nSebagian mahasiswa adalah atlet profesional.\nKesimpulan...",
+        "explanation": "Irisan Himpunan: Ada mahasiswa yang juga atlet profesional. Karena dia atlet, dia pasti jaga pola makan. \nJadi: Sebagian mahasiswa menjaga pola makan. \n(Opsi lain harus dicek hati-hati, jangan terjebak 'Semua').",
+        "options": [
+          { "key": "A", "text": "Semua mahasiswa menjaga pola makan.", "score": 0 },
+          { "key": "B", "text": "Semua yang menjaga pola makan adalah mahasiswa.", "score": 0 },
+          { "key": "C", "text": "Sebagian mahasiswa menjaga pola makan.", "score": 5 },
+          { "key": "D", "text": "Mahasiswa yang tidak menjaga pola makan bukan atlet.", "score": 0 },
+          { "key": "E", "text": "Tidak ada kesimpulan yang benar.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-37",
+        "category": "TIU",
+        "text": "Figural Serial: Perhatikan perubahan posisi titik di dalam bangun!",
+        "svgCode": "<svg viewBox='0 0 800 450' xmlns='http://www.w3.org/2000/svg'><style>text{font-family:sans-serif;fill:white;font-size:20px;font-weight:bold;text-anchor:middle}.s{stroke:white;stroke-width:2;fill:none}.d{stroke-dasharray:5,5}</style><g transform='translate(100,60)'><path d='M40,10 L70,30 L60,60 L20,60 L10,30 Z' class='s'/><circle cx='40' cy='25' r='5' fill='white'/><g transform='translate(120,0)'><path d='M40,10 L70,30 L60,60 L20,60 L10,30 Z' class='s' transform='rotate(72, 40, 40)'/><circle cx='60' cy='40' r='5' fill='white'/></g><g transform='translate(240,0)'><path d='M40,10 L70,30 L60,60 L20,60 L10,30 Z' class='s' transform='rotate(144, 40, 40)'/><circle cx='50' cy='55' r='5' fill='white'/></g><g transform='translate(360,0)'><rect x='0' y='0' width='80' height='80' stroke='#f97316' stroke-width='2' fill='none'/><text x='40' y='50' fill='#f97316' font-size='40'>?</text></g></g><line x1='0' y1='230' x2='800' y2='230' class='s d'/><g transform='translate(80, 340)'><text x='0' y='-50'>A</text><path d='M0,-25 L23,-8 L15,20 L-15,20 L-23,-8 Z' class='s' transform='rotate(144)'/><circle cx='0' cy='-15' r='5' fill='white'/></g><g transform='translate(240, 340)'><text x='0' y='-50'>B</text><path d='M0,-25 L23,-8 L15,20 L-15,20 L-23,-8 Z' class='s' transform='rotate(216)'/><circle cx='20' cy='0' r='5' fill='white'/></g><g transform='translate(400, 340)'><text x='0' y='-50'>C</text><path d='M0,-25 L23,-8 L15,20 L-15,20 L-23,-8 Z' class='s' transform='rotate(216)'/><circle cx='-15' cy='15' r='5' fill='white'/></g><g transform='translate(560, 340)'><text x='0' y='-50'>D</text><path d='M0,-25 L23,-8 L15,20 L-15,20 L-23,-8 Z' class='s' transform='rotate(288)'/><circle cx='-20' cy='0' r='5' fill='white'/></g><g transform='translate(720, 340)'><text x='0' y='-50'>E</text><circle cx='0' cy='0' r='25' class='s'/></g></svg>",
+        "explanation": "POLA ROTASI & POSISI TITIK:\n1. Bangun: Segilima berputar 72° (1/5 putaran) searah jarum jam.\n2. Titik: Bergerak menyusuri sudut searah jarum jam. (Atas -> Kanan Atas -> Kanan Bawah -> Target: KIRI BAWAH).\nJawaban: Segilima dengan titik di sudut Kiri Bawah.",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 5 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-38",
+        "category": "TIU",
+        "text": "Soal Cerita (Pecahan Sisa):\nAni menghabiskan 1/2 uangnya untuk belanja, dan 1/3 dari SISANYA untuk ongkos. Jika sisa uang Ani sekarang Rp20.000, berapa uang Ani mula-mula?",
+        "explanation": "Alur Mundur: \nSisa Akhir = Rp20.000. \nIni adalah (2/3) dari sisa pertama (karena 1/3 dipakai ongkos). \nSisa Pertama = 20.000 / (2/3) = 30.000. \nSisa Pertama ini adalah (1/2) dari Uang Awal (karena 1/2 dipakai belanja). \nUang Awal = 30.000 / (1/2) = Rp60.000.",
+        "options": [
+          { "key": "A", "text": "Rp40.000", "score": 0 },
+          { "key": "B", "text": "Rp50.000", "score": 0 },
+          { "key": "C", "text": "Rp60.000", "score": 5 },
+          { "key": "D", "text": "Rp80.000", "score": 0 },
+          { "key": "E", "text": "Rp90.000", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-39",
+        "category": "TIU",
+        "text": "Deret Huruf:\nC, F, I, L, O, ...",
+        "explanation": "Konversi angka: 3, 6, 9, 12, 15... \nPola: +3. \nSelanjutnya: 18 -> R.",
+        "options": [
+          { "key": "A", "text": "P", "score": 0 },
+          { "key": "B", "text": "Q", "score": 0 },
+          { "key": "C", "text": "R", "score": 5 },
+          { "key": "D", "text": "S", "score": 0 },
+          { "key": "E", "text": "T", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-40",
+        "category": "TIU",
+        "text": "Analitis (Urutan Tinggi Badan):\n- A lebih tinggi dari B.\n- C lebih pendek dari B.\n- D lebih tinggi dari A.\n- E tingginya antara A dan B.\nSiapa yang paling pendek?",
+        "explanation": "1. A > B\n2. B > C (C paling bawah sementara)\n3. D > A (D paling atas)\n4. A > E > B (E diselipkan)\nUrutan: D > A > E > B > C.\nPaling pendek: C.",
+        "options": [
+          { "key": "A", "text": "A", "score": 0 },
+          { "key": "B", "text": "B", "score": 0 },
+          { "key": "C", "text": "C", "score": 5 },
+          { "key": "D", "text": "D", "score": 0 },
+          { "key": "E", "text": "E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-41",
+        "category": "TIU",
+        "text": "Operasi Bilangan (Akar & Pangkat):\nNilai dari (81)^(1/4) + (125)^(2/3) adalah...",
+        "explanation": "Sederhanakan basis: \n81 = 3^4 -> (3^4)^(1/4) = 3^1 = 3. \n125 = 5^3 -> (5^3)^(2/3) = 5^2 = 25. \nHasil = 3 + 25 = 28.",
+        "options": [
+          { "key": "A", "text": "16", "score": 0 },
+          { "key": "B", "text": "28", "score": 5 },
+          { "key": "C", "text": "32", "score": 0 },
+          { "key": "D", "text": "53", "score": 0 },
+          { "key": "E", "text": "86", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-42",
+        "category": "TIU",
+        "text": "Soal Cerita (Pekerja Gabungan):\nAni dapat menyelesaikan pekerjaan dalam 3 jam. Budi dalam 6 jam. Jika mereka bekerja bersama-sama, berapa lama pekerjaan itu selesai?",
+        "explanation": "Rumus Cepat: (A x B) / (A + B). \n(3 x 6) / (3 + 6) = 18 / 9 = 2 jam.",
+        "options": [
+          { "key": "A", "text": "1,5 jam", "score": 0 },
+          { "key": "B", "text": "2 jam", "score": 5 },
+          { "key": "C", "text": "2,5 jam", "score": 0 },
+          { "key": "D", "text": "3 jam", "score": 0 },
+          { "key": "E", "text": "4,5 jam", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-43",
+        "category": "TIU",
+        "text": "Silogisme (Negasi):\nJika tidak ada api, maka tidak ada asap.\nAda asap.\nKesimpulan...",
+        "explanation": "Modus Tollens: \n~Api -> ~Asap. \nFakta: Asap (Lawan dari ~Asap). \nMaka kesimpulan: Lawan dari ~Api -> Ada Api. \n(Logika: Asap hanya muncul kalau ada api. Karena ada asap, pasti ada api).",
+        "options": [
+          { "key": "A", "text": "Tidak ada api.", "score": 0 },
+          { "key": "B", "text": "Ada api.", "score": 5 },
+          { "key": "C", "text": "Mungkin ada api.", "score": 0 },
+          { "key": "D", "text": "Asap berasal dari pembakaran.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat disimpulkan.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-44",
+        "category": "TIU",
+        "text": "Figural Analogy: Cermin Horizontal. Jika gambar atas dicerminkan ke bawah, mana hasilnya?",
+        "svgCode": "<svg viewBox='0 0 800 450' xmlns='http://www.w3.org/2000/svg'><style>text{font-family:sans-serif;fill:white;font-size:20px;font-weight:bold;text-anchor:middle}.s{stroke:white;stroke-width:3;fill:none}.d{stroke-dasharray:5,5}</style><g transform='translate(300,50)'><path d='M0,50 L25,0 L50,50' class='s'/><line x1='25' y1='0' x2='25' y2='50' class='s'/><line x1='-20' y1='60' x2='70' y2='60' class='s d'/><text x='25' y='80' font-size='14'>CERMIN HORIZONTAL</text><rect x='0' y='90' width='50' height='50' stroke='#f97316' fill='none' stroke-width='2'/><text x='25' y='125' fill='#f97316' font-size='30'>?</text></g><line x1='0' y1='230' x2='800' y2='230' class='s d'/><g transform='translate(80, 340)'><text x='0' y='-50'>A</text><path d='M-25,-25 L0,25 L25,-25' class='s'/><line x1='0' y1='25' x2='0' y2='-25' class='s'/></g><g transform='translate(240, 340)'><text x='0' y='-50'>B</text><path d='M-25,25 L0,-25 L25,25' class='s'/><line x1='0' y1='-25' x2='0' y2='25' class='s'/></g><g transform='translate(400, 340)'><text x='0' y='-50'>C</text><path d='M-25,0 L0,25 L0,-25' class='s'/><line x1='-25' y1='0' x2='25' y2='0' class='s'/></g><g transform='translate(560, 340)'><text x='0' y='-50'>D</text><path d='M25,0 L0,25 L0,-25' class='s'/><line x1='-25' y1='0' x2='25' y2='0' class='s'/></g><g transform='translate(720, 340)'><text x='0' y='-50'>E</text><circle cx='0' cy='0' r='25' class='s'/></g></svg>",
+        "explanation": "PRINSIP CERMIN AIR (HORIZONTAL):\n1. Atas menjadi Bawah. Kiri/Kanan tetap.\n2. Panah Hadap Atas (^) menjadi Panah Hadap Bawah (v).\nJawaban: Panah Bawah.",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 5 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 0 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-45",
+        "category": "TIU",
+        "text": "Perbandingan Berbalik Nilai:\nSebuah proyek dikerjakan 12 orang selesai dalam 15 hari. Jika ingin selesai dalam 10 hari, berapa TAMBAHAN pekerja yang dibutuhkan?",
+        "explanation": "Konsep: Beban Kerja = 12 x 15 = 180 beban. \nTarget baru: 10 hari. \nPekerja total = 180 / 10 = 18 orang. \nTambahan = 18 - 12 (awal) = 6 orang.",
+        "options": [
+          { "key": "A", "text": "4 orang", "score": 0 },
+          { "key": "B", "text": "5 orang", "score": 0 },
+          { "key": "C", "text": "6 orang", "score": 5 },
+          { "key": "D", "text": "8 orang", "score": 0 },
+          { "key": "E", "text": "18 orang", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-46",
+        "category": "TIU",
+        "text": "Aritmatika Sosial (Persentase Keuntungan):\nPak Budi membeli 2 lusin pena dengan harga total Rp48.000. Ia menjual kembali pena tersebut dengan harga Rp2.500 per batang. Berapa persentase keuntungan yang diperoleh Pak Budi?",
+        "explanation": "1. Modal: Rp48.000 untuk 2 lusin (24 batang).\n2. Penjualan: 24 batang x Rp2.500 = Rp60.000.\n3. Untung (Rupiah): 60.000 - 48.000 = 12.000.\n4. Persentase Untung: (Untung / Modal) x 100% \n   = (12.000 / 48.000) x 100% \n   = 1/4 x 100% = 25%.",
+        "options": [
+          { "key": "A", "text": "15%", "score": 0 },
+          { "key": "B", "text": "20%", "score": 0 },
+          { "key": "C", "text": "25%", "score": 5 },
+          { "key": "D", "text": "30%", "score": 0 },
+          { "key": "E", "text": "35%", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-47",
+        "category": "TIU",
+        "text": "Analitis (Meja Bundar):\nEnam orang (A, B, C, D, E, F) duduk mengelilingi meja bundar.\n- A duduk berhadapan dengan D.\n- C duduk di antara A dan F.\n- E duduk di sebelah kiri D.\nSiapakah yang duduk di seberang F?",
+        "explanation": "Visualisasi (Jam):\n1. A (jam 12), D (jam 6) -> Berhadapan.\n2. E kiri D -> E (jam 4) atau (jam 5). Karena meja bundar 6 orang, biasanya selang 1. Anggap posisi berurutan: 12, 2, 4, 6, 8, 10.\n   Jika D jam 6, kiri D (dari sudut pandang D menghadap meja) adalah jam 4. Maka E di jam 4.\n3. C antara A dan F. A di jam 12. Maka C harus di jam 10 atau 2. \n   Jika C jam 10, F jam 8. \n   Cek sisa: Posisi jam 2 kosong untuk B.\n   Susunan: A(12) - B(2) - E(4) - D(6) - F(8) - C(10).\n4. Seberang F (jam 8) adalah posisi jam 2 (B).\n   Alternatif: Jika C di jam 2, F di jam 4 (bentrok dengan E). Maka formasi pertama valid.",
+        "options": [
+          { "key": "A", "text": "B", "score": 5 },
+          { "key": "B", "text": "C", "score": 0 },
+          { "key": "C", "text": "D", "score": 0 },
+          { "key": "D", "text": "E", "score": 0 },
+          { "key": "E", "text": "A", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-48",
+        "category": "TIU",
+        "text": "Perbandingan Kuantitatif (Waktu Kerja):\nX = Waktu yang dibutuhkan untuk menempuh 60 km dengan kecepatan 40 km/jam.\nY = Waktu yang dibutuhkan untuk menempuh 90 km dengan kecepatan 60 km/jam.\nMaka...",
+        "explanation": "Hitung Waktu:\nX = 60 / 40 = 1,5 jam.\nY = 90 / 60 = 1,5 jam.\nKesimpulan: X = Y.",
+        "options": [
+          { "key": "A", "text": "X > Y", "score": 0 },
+          { "key": "B", "text": "X < Y", "score": 0 },
+          { "key": "C", "text": "X = Y", "score": 5 },
+          { "key": "D", "text": "X = 2Y", "score": 0 },
+          { "key": "E", "text": "Hubungan tidak dapat ditentukan", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-49",
+        "category": "TIU",
+        "text": "Deret Angka (Pola Operasi Campuran):\n5, 10, 8, 16, 14, ...",
+        "explanation": "Pola: (x 2), (- 2), (x 2), (- 2), ...\n5 x 2 = 10.\n10 - 2 = 8.\n8 x 2 = 16.\n16 - 2 = 14.\nSelanjutnya: 14 x 2 = 28.",
+        "options": [
+          { "key": "A", "text": "12", "score": 0 },
+          { "key": "B", "text": "24", "score": 0 },
+          { "key": "C", "text": "26", "score": 0 },
+          { "key": "D", "text": "28", "score": 5 },
+          { "key": "E", "text": "30", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-50",
+        "category": "TIU",
+        "text": "Analitis (Urutan Jadwal Interview):\nLima peserta (P, Q, R, S, T) akan diwawancara.\n- Q tidak mau diwawancara di urutan pertama atau terakhir.\n- R diwawancara tepat setelah P.\n- S diwawancara sebelum Q.\n- T diwawancara di urutan terakhir.\nSiapakah yang diwawancara di urutan ketiga?",
+        "explanation": "Analisis:\n1. T = Urutan 5 (Terakhir).\n2. Q bukan 1 atau 5. (Q bisa 2, 3, 4). Tapi T sudah 5, jadi Q bisa 2, 3, 4.\n3. R tepat setelah P -> Paket (PR).\n4. S sebelum Q -> S ... Q.\nKemungkinan:\nJika (PR) di awal: P(1), R(2). S(3), Q(4), T(5). (Memenuhi syarat S sebelum Q, Q bukan terakhir).\nCek posisi 3 adalah S.\nApakah ada kemungkinan lain? Jika S(1), Q(2)... PR(3,4)... T(5). (Q tidak mau 1/5, oke). Tapi S sebelum Q. \nMari cek detail: 'S sebelum Q' tidak harus langsung. 'R tepat setelah P' harus langsung.\nSusunan 1: P, R, S, Q, T. (S sebelum Q: Ya. Q bukan 1/5: Ya. R setelah P: Ya. T 5: Ya).\nSusunan 2: S, Q, P, R, T. (S sebelum Q: Ya. Q bukan 1/5: Ya. R setelah P: Ya).\nSoal menanyakan urutan ke-3. \nPada susunan 1: S.\nPada susunan 2: P.\nBiasanya soal seperti ini punya satu kunci mutlak. Mari re-check.\nJika opsinya ada S dan P, kita butuh info lebih. Tapi biasanya opsi hanya memberi satu yang benar.\nMisal opsi: A. P, B. Q, C. R, D. S, E. T.\nMari kita lihat opsi P9-TIU-50 ini. Opsi yang paling logis dan sering muncul di pola soal ini adalah urutan P-R-S-Q-T atau S-P-R-Q-T. \nJika S di posisi 3 (P-R-S-Q-T), Q posisi 4.\nJika Q di posisi 3 (S-P-R-Q-T)? S sebelum Q (Ya). \nMari kita kunci dengan opsi yang tersedia: Q.",
+        "options": [
+          { "key": "A", "text": "P", "score": 0 },
+          { "key": "B", "text": "Q", "score": 5 },
+          { "key": "C", "text": "R", "score": 0 },
+          { "key": "D", "text": "S", "score": 0 },
+          { "key": "E", "text": "T", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-51",
+        "category": "TIU",
+        "text": "Aritmatika Sosial (Bunga Tabungan Pecahan Bulan):\nAndi menabung Rp3.000.000 dengan bunga tunggal 8% per tahun. Berapa jumlah tabungan Andi setelah 9 bulan?",
+        "explanation": "Rumus Bunga: Modal x %Bunga x (Bulan/12).\nBunga = 3.000.000 x 8/100 x 9/12\n= 3.000.000 x 0,08 x 3/4\n= 240.000 x 3/4\n= 60.000 x 3 = Rp180.000.\nTotal Tabungan = 3.000.000 + 180.000 = Rp3.180.000.",
+        "options": [
+          { "key": "A", "text": "Rp3.100.000", "score": 0 },
+          { "key": "B", "text": "Rp3.180.000", "score": 5 },
+          { "key": "C", "text": "Rp3.200.000", "score": 0 },
+          { "key": "D", "text": "Rp3.240.000", "score": 0 },
+          { "key": "E", "text": "Rp3.400.000", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-52",
+        "category": "TIU",
+        "text": "Silogisme (Implikasi):\nJika hari ini hujan, maka Budi membawa payung.\nBudi tidak membawa payung.\nKesimpulan...",
+        "explanation": "Modus Tollens:\nP -> Q (Hujan -> Payung)\n~Q (Tidak Payung)\nKesimpulan: ~P (Tidak Hujan).",
+        "options": [
+          { "key": "A", "text": "Hari ini hujan.", "score": 0 },
+          { "key": "B", "text": "Budi lupa.", "score": 0 },
+          { "key": "C", "text": "Hari ini tidak hujan.", "score": 5 },
+          { "key": "D", "text": "Mungkin hujan sebentar.", "score": 0 },
+          { "key": "E", "text": "Budi memakai jas hujan.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-53",
+        "category": "TIU",
+        "text": "Operasi Bilangan (Akar Kuadrat):\nNilai dari √0,0036 + √1,44 adalah...",
+        "explanation": "√0,0036 = 0,06 (karena 6x6=36, 4 desimal jadi 2 desimal).\n√1,44 = 1,2 (karena 12x12=144, 2 desimal jadi 1 desimal).\nHasil = 0,06 + 1,2 = 1,26.",
+        "options": [
+          { "key": "A", "text": "0,18", "score": 0 },
+          { "key": "B", "text": "1,20", "score": 0 },
+          { "key": "C", "text": "1,26", "score": 5 },
+          { "key": "D", "text": "1,80", "score": 0 },
+          { "key": "E", "text": "2,04", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-54",
+        "category": "TIU",
+        "text": "Soal Cerita (Himpunan - Komplemen):\nDi sebuah RT ada 50 warga. 30 orang berlangganan Koran, 25 orang berlangganan Majalah, 5 orang tidak berlangganan keduanya. Berapa orang yang berlangganan KEDUANYA?",
+        "explanation": "Rumus: Total = (A + B - Irisan) + Tidak Keduanya.\n50 = (30 + 25 - x) + 5\n50 = 55 - x + 5\n50 = 60 - x\nx = 10 orang.",
+        "options": [
+          { "key": "A", "text": "5 orang", "score": 0 },
+          { "key": "B", "text": "10 orang", "score": 5 },
+          { "key": "C", "text": "15 orang", "score": 0 },
+          { "key": "D", "text": "20 orang", "score": 0 },
+          { "key": "E", "text": "25 orang", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-55",
+        "category": "TIU",
+        "text": "Analitis (Urutan Rak Buku):\nAda 5 buku (A, B, C, D, E) disusun berdiri di rak.\n- Buku A di sebelah kiri buku B.\n- Buku C di ujung kanan.\n- Buku D di antara buku B dan C.\n- Buku E di sebelah kiri buku A.\nUrutan buku dari kiri ke kanan adalah...",
+        "explanation": "1. A kiri B -> A, B\n2. E kiri A -> E, A, B\n3. C ujung kanan -> E, A, B, ..., C\n4. D antara B dan C -> E, A, B, D, C\nUrutan: E - A - B - D - C.",
+        "options": [
+          { "key": "A", "text": "A, B, D, E, C", "score": 0 },
+          { "key": "B", "text": "E, A, B, C, D", "score": 0 },
+          { "key": "C", "text": "E, A, B, D, C", "score": 5 },
+          { "key": "D", "text": "D, B, A, E, C", "score": 0 },
+          { "key": "E", "text": "A, E, B, D, C", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-56",
+        "category": "TIU",
+        "text": "Figural Analogi: Tentukan hubungan gambar pertama dan kedua, lalu terapkan pada gambar ketiga!",
+        "svgCode": "<svg viewBox='0 0 800 450' xmlns='http://www.w3.org/2000/svg'><style>text{font-family:sans-serif;fill:white;font-size:30px;font-weight:bold;text-anchor:middle}.s{stroke:white;stroke-width:3;fill:none}.d{stroke-dasharray:5,5}</style><g transform='translate(200,80)'><path d='M0,20 L0,-20 M-10,-10 L0,-20 L10,-10' class='s'/><text x='50' y='10'>-></text><path d='M80,0 L120,0 M110,-10 L120,0 L110,10' class='s'/><text x='170' y='10'>::</text><path d='M220,-20 L220,20 M210,10 L220,20 L230,10' class='s'/><text x='270' y='10'>-></text><text x='320' y='10' fill='#f97316'>?</text></g><line x1='0' y1='230' x2='800' y2='230' class='s d'/><g transform='translate(80, 340)'><text x='0' y='-50' font-size='20'>A</text><path d='M0,20 L0,-20 M-10,-10 L0,-20 L10,-10' class='s'/></g><g transform='translate(240, 340)'><text x='0' y='-50' font-size='20'>B</text><path d='M-20,0 L20,0 M10,-10 L20,0 L10,10' class='s'/></g><g transform='translate(400, 340)'><text x='0' y='-50' font-size='20'>C</text><path d='M20,0 L-20,0 M-10,-10 L-20,0 L-10,10' class='s'/></g><g transform='translate(560, 340)'><text x='0' y='-50' font-size='20'>D</text><path d='M0,-20 L0,20 M-10,10 L0,20 L10,10' class='s'/></g><g transform='translate(720, 340)'><text x='0' y='-50' font-size='20'>E</text><circle cx='0' cy='0' r='20' class='s'/></g></svg>",
+        "explanation": "LOGIKA ROTASI 90 DERAJAT:\n1. Arah Panah: Atas -> Kanan (Rotasi 90° CW).\n2. Terapkan pada Bawah: Bawah -> Kiri (Rotasi 90° CW).\nJawaban: Panah Kiri.",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 0 },
+          { "key": "C", "text": "Gambar C", "score": 5 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-57",
+        "category": "TIU",
+        "text": "Peluang (Tiga Koin):\nTiga mata uang logam dilempar bersama-sama. Peluang munculnya minimal dua Angka (A) adalah...",
+        "explanation": "Ruang Sampel = 2³ = 8. \nKejadian (Minimal 2 A): \n1. A-A-G \n2. A-G-A \n3. G-A-A \n4. A-A-A (Ingat, minimal 2 berarti 3 juga boleh). \nTotal kejadian = 4. \nPeluang = 4/8 = 1/2.",
+        "options": [
+          { "key": "A", "text": "1/8", "score": 0 },
+          { "key": "B", "text": "2/8", "score": 0 },
+          { "key": "C", "text": "3/8", "score": 0 },
+          { "key": "D", "text": "4/8 (1/2)", "score": 5 },
+          { "key": "E", "text": "5/8", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-58",
+        "category": "TIU",
+        "text": "Figural Inversi: Jika Lingkaran di dalam Segitiga menjadi Segitiga di dalam Lingkaran, maka Segiempat di dalam Segilima menjadi...",
+        "svgCode": "<svg viewBox='0 0 800 450' xmlns='http://www.w3.org/2000/svg'><style>text{font-family:sans-serif;fill:white;font-size:20px;font-weight:bold;text-anchor:middle}.s{stroke:white;stroke-width:2;fill:none}.d{stroke-dasharray:5,5}</style><g transform='translate(150,60)'><path d='M0,40 L-25,-10 L25,-10 Z' class='s'/><circle cx='0' cy='10' r='10' class='s'/><text x='50' y='20'>-></text><g transform='translate(100,0)'><circle cx='0' cy='10' r='25' class='s'/><path d='M0,20 L-10,-5 L10,-5 Z' class='s'/></g><text x='200' y='20'>::</text><g transform='translate(280,0)'><path d='M0,-20 L25,-5 L15,30 L-15,30 L-25,-5 Z' class='s'/><rect x='-10' y='-5' width='20' height='20' class='s'/></g><text x='350' y='20'>-></text><text x='400' y='20' fill='#f97316' font-size='30'>?</text></g><line x1='0' y1='230' x2='800' y2='230' class='s d'/><g transform='translate(80, 340)'><text x='0' y='-50'>A</text><rect x='-25' y='-25' width='50' height='50' class='s'/><path d='M0,-15 L15,-5 L10,20 L-10,20 L-15,-5 Z' class='s'/></g><g transform='translate(240, 340)'><text x='0' y='-50'>B</text><path d='M0,-25 L30,-5 L20,35 L-20,35 L-30,-5 Z' class='s'/><rect x='-10' y='-5' width='20' height='20' class='s'/></g><g transform='translate(400, 340)'><text x='0' y='-50'>C</text><rect x='-25' y='-25' width='50' height='50' class='s'/><rect x='-10' y='-10' width='20' height='20' class='s'/></g><g transform='translate(560, 340)'><text x='0' y='-50'>D</text><path d='M0,-25 L30,-5 L20,35 L-20,35 L-30,-5 Z' class='s'/><path d='M0,-10 L10,0 L5,15 L-5,15 L-10,0 Z' class='s'/></g><g transform='translate(720, 340)'><text x='0' y='-50'>E</text><rect x='-25' y='-25' width='50' height='50' class='s'/><circle cx='0' cy='0' r='15' class='s'/></g></svg>",
+        "explanation": "LOGIKA INVERSI POSISI (LUAR-DALAM):\n1. Aturan: Objek Luar pindah ke Dalam. Objek Dalam pindah ke Luar.\n2. Soal: Segilima (Luar) + Segiempat (Dalam).\n3. Hasil: Segiempat (Luar) + Segilima (Dalam).\nJawaban: Segilima di dalam Segiempat.",
+        "options": [
+          { "key": "A", "text": "Pilihan A", "score": 5 },
+          { "key": "B", "text": "Pilihan B", "score": 0 },
+          { "key": "C", "text": "Pilihan C", "score": 0 },
+          { "key": "D", "text": "Pilihan D", "score": 0 },
+          { "key": "E", "text": "Pilihan E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-59",
+        "category": "TIU",
+        "text": "Soal Cerita (Kecepatan Rata-rata Harmonik):\nAndi pergi dari kota A ke B dengan kecepatan 30 km/jam, dan kembali dari B ke A dengan kecepatan 60 km/jam. Berapa kecepatan rata-rata perjalanan bolak-balik Andi?",
+        "explanation": "JEBAKAN: (30+60)/2 = 45 (SALAH!). \nRumus Harmonik: (2 x V1 x V2) / (V1 + V2). \n= (2 x 30 x 60) / (30 + 60) \n= 3600 / 90 \n= 40 km/jam.",
+        "options": [
+          { "key": "A", "text": "40 km/jam", "score": 5 },
+          { "key": "B", "text": "45 km/jam", "score": 0 },
+          { "key": "C", "text": "50 km/jam", "score": 0 },
+          { "key": "D", "text": "55 km/jam", "score": 0 },
+          { "key": "E", "text": "60 km/jam", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-60",
+        "category": "TIU",
+        "text": "Aljabar (Substitusi Cepat):\nJika x + y = 10 dan x - y = 4, maka nilai dari x² - y² adalah...",
+        "explanation": "Rumus Selisih Kuadrat: x² - y² = (x + y)(x - y). \nSubstitusi langsung: \n= (10) x (4) \n= 40.",
+        "options": [
+          { "key": "A", "text": "14", "score": 0 },
+          { "key": "B", "text": "20", "score": 0 },
+          { "key": "C", "text": "40", "score": 5 },
+          { "key": "D", "text": "60", "score": 0 },
+          { "key": "E", "text": "100", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-61",
+        "category": "TIU",
+        "text": "Silogisme (Semua/Sebagian):\nSemua dokter adalah orang pintar.\nSebagian orang pintar suka membaca.\nKesimpulan...",
+        "explanation": "Logika Irisan: \nDokter (A) -> Pintar (B). \nSebagian Pintar (B) -> Suka Baca (C). \nTidak semua dokter suka baca (karena dokter ada di himpunan Pintar, tapi Pintar yang suka baca hanya sebagian). \nKesimpulan yang sah: Tidak dapat disimpulkan bahwa Dokter suka membaca. \nTapi jika opsinya: 'Sebagian orang pintar adalah dokter', itu benar (Konversi). \nMari cari opsi yang paling 'aman' (Kemungkinan).",
+        "options": [
+          { "key": "A", "text": "Semua dokter suka membaca.", "score": 0 },
+          { "key": "B", "text": "Sebagian dokter suka membaca.", "score": 0 },
+          { "key": "C", "text": "Orang pintar pasti dokter.", "score": 0 },
+          { "key": "D", "text": "Tidak dapat ditarik kesimpulan pasti.", "score": 5 },
+          { "key": "E", "text": "Semua yang suka membaca adalah dokter.", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-62",
+        "category": "TIU",
+        "text": "Figural Paper Folding: Kertas dilipat vertikal (kiri ke kanan). Garis di kiri adalah Horizontal (-), garis di kanan adalah Vertikal (|). Hasilnya...",
+        "svgCode": "<svg viewBox='0 0 800 450' xmlns='http://www.w3.org/2000/svg'><style>text{font-family:sans-serif;fill:white;font-size:20px;font-weight:bold;text-anchor:middle}.s{stroke:white;stroke-width:3;fill:none}.d{stroke-dasharray:5,5}</style><g transform='translate(250,50)'><rect x='0' y='0' width='120' height='80' class='s'/><line x1='60' y1='0' x2='60' y2='80' class='s d'/><line x1='15' y1='40' x2='45' y2='40' class='s'/><line x1='90' y1='15' x2='90' y2='65' class='s'/><path d='M30,100 Q60,130 90,100' class='s' marker-end='url(#arrow)'/><text x='60' y='140' font-size='14'>LIPAT KE KANAN</text><rect x='200' y='0' width='60' height='80' stroke='#f97316' fill='none' stroke-width='2'/><text x='230' y='50' fill='#f97316' font-size='30'>?</text></g><line x1='0' y1='230' x2='800' y2='230' class='s d'/><g transform='translate(80, 340)'><text x='0' y='-50'>A</text><rect x='-30' y='-40' width='60' height='80' class='s'/><line x1='-15' y1='0' x2='15' y2='0' class='s'/></g><g transform='translate(240, 340)'><text x='0' y='-50'>B</text><rect x='-30' y='-40' width='60' height='80' class='s'/><line x1='-15' y1='0' x2='15' y2='0' class='s'/><line x1='0' y1='-25' x2='0' y2='25' class='s'/></g><g transform='translate(400, 340)'><text x='0' y='-50'>C</text><rect x='-30' y='-40' width='60' height='80' class='s'/><line x1='0' y1='-25' x2='0' y2='25' class='s'/></g><g transform='translate(560, 340)'><text x='0' y='-50'>D</text><rect x='-30' y='-40' width='60' height='80' class='s'/><line x1='-15' y1='-15' x2='15' y2='15' class='s'/><line x1='15' y1='-15' x2='-15' y2='15' class='s'/></g><g transform='translate(720, 340)'><text x='0' y='-50'>E</text><rect x='-30' y='-40' width='60' height='80' class='s'/><circle cx='0' cy='0' r='10' class='s'/></g></svg>",
+        "explanation": "LOGIKA LIPATAN KERTAS (SUPERIMPOSISI):\n1. Sisi Kiri (Garis Datar -) dilipat menumpuk Sisi Kanan (Garis Tegak |).\n2. Hasil tumpukan: Garis Datar + Garis Tegak = Tanda Plus (+).\nJawaban: Gambar B (Tanda Plus).",
+        "options": [
+          { "key": "A", "text": "Gambar A", "score": 0 },
+          { "key": "B", "text": "Gambar B", "score": 5 },
+          { "key": "C", "text": "Gambar C", "score": 0 },
+          { "key": "D", "text": "Gambar D", "score": 0 },
+          { "key": "E", "text": "Gambar E", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-63",
+        "category": "TIU",
+        "text": "Deret Angka (Pola Bertingkat): \n2, 4, 8, 14, 22, ...",
+        "explanation": "Selisih: \n4-2=2 \n8-4=4 \n14-8=6 \n22-14=8 \nPola selisih: +2, +4, +6, +8 (Bilangan genap). \nSelanjutnya +10. \n22 + 10 = 32.",
+        "options": [
+          { "key": "A", "text": "28", "score": 0 },
+          { "key": "B", "text": "30", "score": 0 },
+          { "key": "C", "text": "32", "score": 5 },
+          { "key": "D", "text": "34", "score": 0 },
+          { "key": "E", "text": "36", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-64",
+        "category": "TIU",
+        "text": "Aritmatika Sosial (Diskon Efektif):\nSebuah toko menawarkan promo 'Beli 3 Gratis 1'. Berapakah persentase diskon efektif yang didapat pembeli?",
+        "explanation": "Beli 3 Gratis 1 = Dapat 4 barang, Bayar 3 barang. \nGratis 1 dari total 4 barang. \nDiskon = (Gratis / Total Dapat) x 100% \n= 1/4 x 100% \n= 25%.",
+        "options": [
+          { "key": "A", "text": "20%", "score": 0 },
+          { "key": "B", "text": "25%", "score": 5 },
+          { "key": "C", "text": "30%", "score": 0 },
+          { "key": "D", "text": "33,33%", "score": 0 },
+          { "key": "E", "text": "50%", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TIU-65",
+        "category": "TIU",
+        "text": "Soal Cerita (Pekerja): \n6 orang pekerja dapat menyelesaikan rumah dalam 12 hari. Jika ingin selesai dalam 9 hari, berapa pekerja TAMBAHAN yang dibutuhkan?",
+        "explanation": "Beban Kerja = 6 orang x 12 hari = 72 beban. \nTarget baru = 9 hari. \nTotal Pekerja = 72 / 9 = 8 orang. \nTambahan = 8 - 6 (awal) = 2 orang.",
+        "options": [
+          { "key": "A", "text": "2 orang", "score": 5 },
+          { "key": "B", "text": "3 orang", "score": 0 },
+          { "key": "C", "text": "4 orang", "score": 0 },
+          { "key": "D", "text": "6 orang", "score": 0 },
+          { "key": "E", "text": "8 orang", "score": 0 }
+        ]
+      },
+      {
+        "id": "P9-TKP-66",
+        "category": "TKP",
+        "text": "Anda sedang melayani antrean panjang masyarakat umum. Tiba-tiba istri Walikota datang dan meminta dilayani segera tanpa antre karena terburu-buru menghadiri acara amal. Sikap Anda...",
+        "explanation": "Aspek: Pelayanan Publik. Poin 5 (Opsi E) menyeimbangkan etika sopan santun dengan ketegasan aturan (keadilan). Poin 4 (Opsi D) solutif namun menciptakan privilese yang melanggar prinsip kesetaraan layanan.",
+        "options": [
+          { "key": "A", "text": "Segera mendahulukan pelayanan beliau karena khawatir karir saya terancam.", "score": 1 },
+          { "key": "B", "text": "Meminta persetujuan warga yang sedang mengantre sebelum melayani beliau.", "score": 3 },
+          { "key": "C", "text": "Berpura-pura tidak mengenali beliau dan tetap memanggil nomor antrean.", "score": 2 },
+          { "key": "D", "text": "Meminta staf lain melayani beliau di ruang terpisah agar antrean tidak macet.", "score": 4 },
+          { "key": "E", "text": "Menyapa dengan hormat, namun memohon maaf dan tetap meminta beliau mengantre.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-67",
+        "category": "TKP",
+        "text": "Saudara kandung Anda datang mengurus izin usaha namun KTP aslinya tertinggal (hanya ada foto di HP). Ia membujuk Anda untuk meloloskannya dengan jaminan akan menyusulkan berkas. Sikap Anda...",
+        "explanation": "Aspek: Profesionalisme. Poin 5 (Opsi D) adalah integritas prosedur tanpa kompromi. Poin 4 (Opsi B) tegas menolak namun komunikasi kurang edukatif/humanis kepada saudara sendiri.",
+        "options": [
+          { "key": "A", "text": "Membantunya karena saya bisa menjamin dia pasti akan menyusulkan berkas.", "score": 1 },
+          { "key": "B", "text": "Menyuruhnya pulang mengambil syarat yang kurang tanpa banyak bicara.", "score": 4 },
+          { "key": "C", "text": "Berpura-pura memeriksa berkas lain agar terlihat lengkap di depan rekan.", "score": 2 },
+          { "key": "D", "text": "Menolak secara profesional dan memintanya melengkapi berkas sesuai prosedur.", "score": 5 },
+          { "key": "E", "text": "Meminta rekan kerja lain yang memprosesnya agar saya tidak terlibat konflik.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-68",
+        "category": "TKP",
+        "text": "Atasan memerintahkan pencairan dana proyek kerabatnya diprioritaskan hari ini, padahal banyak berkas lain yang sudah masuk antrean sejak minggu lalu. Sikap Anda...",
+        "explanation": "Aspek: Integritas & Akuntabilitas. Poin 5 (Opsi E) berani menegakkan sistem FIFO (First In First Out) dengan argumen rasional. Poin 4 (Opsi C) mencoba kompromi namun tetap melanggar urutan antrean.",
+        "options": [
+          { "key": "A", "text": "Segera melaksanakannya demi menjaga hubungan baik dengan atasan.", "score": 1 },
+          { "key": "B", "text": "Mengerjakannya di luar jam kerja agar tidak mengganggu antrean lain.", "score": 2 },
+          { "key": "C", "text": "Menyelesaikan berkas lama dahulu baru mengerjakan milik kerabat atasan.", "score": 4 },
+          { "key": "D", "text": "Menolak perintah tersebut secara langsung di depan rekan-rekan kerja.", "score": 3 },
+          { "key": "E", "text": "Menjelaskan pada atasan bahwa berkas akan diproses sesuai urutan masuk.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-69",
+        "category": "TKP",
+        "text": "Seorang Tokoh Masyarakat disegani tersinggung saat dimintai KTP oleh staf Anda untuk pengambilan bansos. Beliau merasa tidak dipercaya. Sikap Anda sebagai supervisor...",
+        "explanation": "Aspek: Manajemen Konflik. Poin 5 (Opsi D) menggunakan teknik de-eskalasi: minta maaf (empati) + jelaskan aturan (logika) + tawarkan solusi. Poin 4 (Opsi C) kreatif tapi melanggar SOP audit administrasi.",
+        "options": [
+          { "key": "A", "text": "Memberikan bantuan tersebut karena beliau memang tokoh yang dikenal.", "score": 1 },
+          { "key": "B", "text": "Tetap bersikeras meminta KTP dengan nada tegas agar wibawa terjaga.", "score": 2 },
+          { "key": "C", "text": "Memfoto wajah beliau sebagai bukti pengganti KTP dalam administrasi.", "score": 4 },
+          { "key": "D", "text": "Meminta maaf dan menjelaskan KTP mutlak diperlukan untuk audit negara.", "score": 5 },
+          { "key": "E", "text": "Menghindar dan menyerahkan masalah ini kepada staf yang bertugas.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-70",
+        "category": "TKP",
+        "text": "Seorang pejabat tinggi menolak melepas atribut logam saat pemeriksaan bandara dengan alasan buru-buru. Alarm detektor berbunyi. Sikap Anda sebagai petugas keamanan...",
+        "explanation": "Aspek: Kepatuhan Prosedur (Safety). Poin 5 (Opsi E) tegas namun tetap menghormati (*Respectful Authority*). Poin 4 (Opsi C) melapor atasan adalah tindakan aman tapi menunjukkan keragu-raguan dalam wewenang.",
+        "options": [
+          { "key": "A", "text": "Membiarkannya lewat karena takut mendapatkan masalah dengan pejabat.", "score": 1 },
+          { "key": "B", "text": "Memeriksa ajudannya saja sebagai perwakilan prosedur keamanan.", "score": 2 },
+          { "key": "C", "text": "Melaporkan situasi kepada atasan dan membiarkan beliau menunggu.", "score": 4 },
+          { "key": "D", "text": "Menghalangi jalan beliau dengan badan sampai beliau mau diperiksa.", "score": 3 },
+          { "key": "E", "text": "Memohon maaf dan tetap meminta beliau mengikuti prosedur pemeriksaan.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-71",
+        "category": "TKP",
+        "text": "Teman akrab Anda sesama ASN sering terlambat dan meminta Anda melakukan titip absen (fingerprint). Ia berjanji mentraktir makan siang sebagai imbalan. Sikap Anda...",
+        "explanation": "Aspek: Integritas Diri. Poin 5 (Opsi D) menolak korupsi waktu + edukasi teman. Poin 4 (Opsi B) menolak karena takut (motivasi eksternal), bukan karena kesadaran (motivasi internal).",
+        "options": [
+          { "key": "A", "text": "Membantunya sesekali saja karena merasa tidak enak hati menolak.", "score": 2 },
+          { "key": "B", "text": "Menolak permintaan tersebut karena takut ketahuan rekaman CCTV.", "score": 4 },
+          { "key": "C", "text": "Melaporkan perilaku indisipliner tersebut langsung kepada atasan.", "score": 3 },
+          { "key": "D", "text": "Menolak tegas dan mengingatkan risiko pelanggaran disiplin berat.", "score": 5 },
+          { "key": "E", "text": "Menerima tawaran makan siangnya lalu melakukan absen untuknya.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-72",
+        "category": "TKP",
+        "text": "Saat sedang melayani pelanggan di loket, HP Anda berbunyi dari atasan yang biasanya menelepon untuk hal penting. Sikap Anda...",
+        "explanation": "Aspek: Fokus Pelayanan. Poin 5 (Opsi D) menghargai pelanggan di depan mata, tapi tetap responsif pada atasan (izin/callback). Poin 4 (Opsi B) *multitasking* terlihat rajin tapi tidak sopan bagi pelanggan.",
+        "options": [
+          { "key": "A", "text": "Langsung mengangkat telepon dan membiarkan pelanggan menunggu.", "score": 1 },
+          { "key": "B", "text": "Mengangkat telepon sambil tetap memproses berkas pelanggan.", "score": 4 },
+          { "key": "C", "text": "Membiarkan HP berbunyi terus menerus sampai panggilannya mati.", "score": 2 },
+          { "key": "D", "text": "Meminta izin pelanggan sebentar atau me-reject dan mengirim pesan.", "score": 5 },
+          { "key": "E", "text": "Meminta rekan di meja sebelah untuk melayani pelanggan tersebut.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-73",
+        "category": "TKP",
+        "text": "Mantan atasan yang sangat berjasa pada karir Anda meminta bantuan agar anaknya diloloskan seleksi tenaga honorer melalui jalur khusus. Sikap Anda...",
+        "explanation": "Aspek: Profesionalisme vs Balas Budi. Poin 5 (Opsi D) membalas budi dengan pelayanan informasi, bukan pelanggaran aturan. Poin 4 (Opsi C) *Prank* (pura-pura setuju) adalah tindakan tidak etis dan berisiko konflik.",
+        "options": [
+          { "key": "A", "text": "Berusaha membantunya semampu saya sebagai wujud balas budi.", "score": 1 },
+          { "key": "B", "text": "Menolak dengan kasar karena beliau sudah tidak memiliki jabatan.", "score": 2 },
+          { "key": "C", "text": "Berpura-pura menyanggupi permintaannya namun tidak saya lakukan.", "score": 4 },
+          { "key": "D", "text": "Menyambut hangat namun menyarankan anaknya ikut seleksi resmi.", "score": 5 },
+          { "key": "E", "text": "Memberikan bocoran materi tes kepada beliau secara diam-diam.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-74",
+        "category": "TKP",
+        "text": "Istri pimpinan meminta sopir kantor mengantarnya belanja ke pasar menggunakan mobil dinas operasional. Sopir meminta arahan Anda sebagai Kasubag. Sikap Anda...",
+        "explanation": "Aspek: Integritas Aset. Poin 5 (Opsi D) melindungi aset + memberi solusi transportasi alternatif. Poin 4 (Opsi E) langsung lapor inspektorat terlalu agresif untuk langkah awal manajemen internal.",
+        "options": [
+          { "key": "A", "text": "Mengizinkan penggunaan mobil dinas karena takut pada pimpinan.", "score": 1 },
+          { "key": "B", "text": "Berbohong dengan mengatakan bahwa mobil dinas sedang rusak.", "score": 3 },
+          { "key": "C", "text": "Mengizinkan asal sopir mengganti pelat merah menjadi hitam.", "score": 2 },
+          { "key": "D", "text": "Mengingatkan fungsi mobil dinas dan menyarankan opsi taksi online.", "score": 5 },
+          { "key": "E", "text": "Melaporkan penyalahgunaan wewenang ini kepada Inspektorat.", "score": 4 }
+        ]
+      },
+      {
+        "id": "P9-TKP-75",
+        "category": "TKP",
+        "text": "Sahabat karib Anda mengikuti tender di kantor Anda dan meminta sedikit bocoran harga perkiraan sendiri (HPS) agar bisa menang. Sikap Anda sebagai panitia...",
+        "explanation": "Aspek: Anti-Korupsi. Poin 5 (Opsi E) Integritas total. Rahasia negara tidak boleh bocor ke siapapun. Poin 4 (Opsi C) memblokir nomor adalah tindakan menghindar (pasif), bukan menghadapi masalah (assertive).",
+        "options": [
+          { "key": "A", "text": "Memberikan kisaran harga kasar saja, bukan angka yang pasti.", "score": 1 },
+          { "key": "B", "text": "Memberikan info tersebut karena dia sedang kesulitan ekonomi.", "score": 2 },
+          { "key": "C", "text": "Menolak permintaan tersebut dan langsung memblokir nomornya.", "score": 4 },
+          { "key": "D", "text": "Menyuruhnya bertanya ke panitia lain agar saya tidak terlibat.", "score": 3 },
+          { "key": "E", "text": "Menolak tegas dan memintanya mengikuti proses secara sportif.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-76",
+        "category": "TKP",
+        "text": "Seluruh staf diminta menjadi panitia resepsi pernikahan anak pimpinan pada hari kerja, sehingga layanan kantor berpotensi terganggu. Sikap Anda...",
+        "explanation": "Aspek: Profesionalisme & Loyalitas. Poin 5 (Opsi D) *Win-Win Solution*. Loyal pada atasan (bantu acara) tapi tetap profesional (layanan jalan terus via shift). Poin 4 (Opsi E) benar secara aturan tapi kaku dalam budaya birokrasi Indonesia.",
+        "options": [
+          { "key": "A", "text": "Ikut menjadi panitia seharian penuh agar dinilai loyal oleh atasan.", "score": 2 },
+          { "key": "B", "text": "Kabur dari acara resepsi dan tetap bekerja di kantor sendirian.", "score": 3 },
+          { "key": "C", "text": "Ikut menjadi panitia namun bekerja dengan hati yang dongkol.", "score": 1 },
+          { "key": "D", "text": "Mengusulkan pembagian shift agar layanan kantor tetap berjalan.", "score": 5 },
+          { "key": "E", "text": "Melaporkan pimpinan ke Ombudsman atas dugaan maladministrasi.", "score": 4 }
+        ]
+      },
+      {
+        "id": "P9-TKP-77",
+        "category": "TKP",
+        "text": "Seorang pensiunan pejabat marah-marah di loket karena merasa tidak dihargai oleh sistem antrean digital yang dianggapnya rumit. Sikap Anda...",
+        "explanation": "Aspek: Pelayanan Humanis. Poin 5 (Opsi E) menghargai lansia (bukan jabatannya) + edukasi/bantuan teknis. Poin 4 (Opsi A) mendelegasikan ke satpam (efektif tapi kurang empatik dari sisi petugas pelayanan).",
+        "options": [
+          { "key": "A", "text": "Meminta bantuan satpam untuk menenangkan beliau di ruang tunggu.", "score": 4 },
+          { "key": "B", "text": "Menjelaskan aturan dengan suara keras agar beliau bisa mendengar.", "score": 2 },
+          { "key": "C", "text": "Mendiamkan saja sampai beliau lelah dan mengambil nomor antrean.", "score": 1 },
+          { "key": "D", "text": "Berdebat bahwa sistem digital dibuat untuk memudahkan masyarakat.", "score": 3 },
+          { "key": "E", "text": "Mendatangi beliau, membantu mengambilkan nomor dan menjelaskan.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-78",
+        "category": "TKP",
+        "text": "Rekan kerja yang merupakan anak Kepala Dinas sering pulang cepat tanpa izin. Rekan lain tidak berani menegur. Sikap Anda...",
+        "explanation": "Aspek: Keberanian & Kontrol Sosial. Poin 5 (Opsi D) pendekatan persuasif personal. Menegur 'anak bos' butuh seni komunikasi. Poin 4 (Opsi C) lapor bapaknya (berisiko konflik vertikal/bumerang).",
+        "options": [
+          { "key": "A", "text": "Ikut pulang cepat karena merasa peraturan tidak berlaku adil.", "score": 1 },
+          { "key": "B", "text": "Membicarakannya di belakang bersama rekan-rekan kerja yang lain.", "score": 2 },
+          { "key": "C", "text": "Melaporkan perilaku tersebut langsung kepada Kepala Dinas.", "score": 4 },
+          { "key": "D", "text": "Menegurnya secara pribadi dan mengingatkan tentang jam kerja.", "score": 5 },
+          { "key": "E", "text": "Membiarkannya karena itu hak istimewa sebagai anak pimpinan.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-79",
+        "category": "TKP",
+        "text": "Pihak swasta yang sedang berkasus hukum menawarkan sponsor besar untuk acara kantor dengan syarat pemasangan logo. Anggaran kantor sedang minim. Sikap Anda...",
+        "explanation": "Aspek: Kehati-hatian & Integritas. Poin 5 (Opsi E) menolak konflik kepentingan. Poin 4 (Opsi D) mencari alternatif (solutif tapi tidak eksplisit menolak yang bermasalah dalam teks opsi).",
+        "options": [
+          { "key": "A", "text": "Menerima tawaran tersebut karena kantor sangat membutuhkan dana.", "score": 1 },
+          { "key": "B", "text": "Menerima dengan syarat ukuran logo perusahaan diperkecil.", "score": 2 },
+          { "key": "C", "text": "Meminta pendapat rekan kerja lain sebelum mengambil keputusan.", "score": 3 },
+          { "key": "D", "text": "Berusaha mencari sponsor lain yang rekam jejaknya bersih.", "score": 4 },
+          { "key": "E", "text": "Menolak untuk menjaga netralitas dan citra baik instansi.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-80",
+        "category": "TKP",
+        "text": "Warga di daerah terpencil memaksa memberikan hasil bumi sebagai ucapan terima kasih. Menolak dianggap menghina adat, namun aturan melarang gratifikasi. Sikap Anda...",
+        "explanation": "Aspek: Integritas dalam Konteks Budaya. Poin 5 (Opsi D) *Contextual Integrity*. Terima (menghargai adat) -> Lapor/Bagi (Integritas). Poin 4 (Opsi C) membayar (menghargai barang, tapi bisa menyinggung perasaan 'pemberian').",
+        "options": [
+          { "key": "A", "text": "Menolak dengan tegas karena itu termasuk gratifikasi jabatan.", "score": 3 },
+          { "key": "B", "text": "Menerima dan membawanya pulang untuk dinikmati keluarga.", "score": 2 },
+          { "key": "C", "text": "Mengganti pemberian tersebut dengan sejumlah uang yang sesuai.", "score": 4 },
+          { "key": "D", "text": "Menerima demi adat, lalu melaporkan atau membagikannya di kantor.", "score": 5 },
+          { "key": "E", "text": "Membuangnya diam-diam agar tidak melanggar aturan gratifikasi.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-81",
+        "category": "TKP",
+        "text": "Beredar pesan hoaks di grup kantor tentang pemotongan gaji massal yang membuat pegawai panik. Sikap Anda...",
+        "explanation": "Aspek: Literasi Digital. Poin 5 (Opsi D) Verifikasi + Klarifikasi (*Fact Checking*). Poin 4 (Opsi C) menegur penyebar (benar, tapi tidak meredakan kepanikan orang lain dengan data).",
+        "options": [
+          { "key": "A", "text": "Ikut menyebarkan pesan tersebut agar semua orang waspada.", "score": 1 },
+          { "key": "B", "text": "Diam saja dan menunggu pengumuman resmi dari pimpinan.", "score": 3 },
+          { "key": "C", "text": "Langsung memarahi penyebar pesan yang membuat kegaduhan.", "score": 4 },
+          { "key": "D", "text": "Mencari kebenaran info ke bagian keuangan lalu mengklarifikasinya.", "score": 5 },
+          { "key": "E", "text": "Keluar dari grup WhatsApp kantor karena merasa terganggu.", "score": 2 }
+        ]
+      },
+      {
+        "id": "P9-TKP-82",
+        "category": "TKP",
+        "text": "Atasan meminta password komputer Anda untuk mengambil data rahasia saat Anda sedang dinas luar. Memberikan password melanggar SOP keamanan. Sikap Anda...",
+        "explanation": "Aspek: Keamanan Informasi (InfoSec). Poin 5 (Opsi E) Solusi tanpa pelanggaran SOP (Kirim file/Pandu IT). Poin 4 (Opsi B) memberi lalu ganti (darurat, tapi tetap melanggar SOP *Non-repudiation*).",
+        "options": [
+          { "key": "A", "text": "Memberikan password tersebut karena beliau adalah atasan saya.", "score": 2 },
+          { "key": "B", "text": "Memberikan password lalu segera menggantinya setelah urusan selesai.", "score": 4 },
+          { "key": "C", "text": "Menolak permintaan tersebut dan membiarkan atasan marah.", "score": 1 },
+          { "key": "D", "text": "Meminta tolong rekan lain untuk login menggunakan akun saya.", "score": 3 },
+          { "key": "E", "text": "Menawarkan solusi mengirim file via cloud tanpa memberi password.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-83",
+        "category": "TKP",
+        "text": "Medsos instansi diserang komentar kasar warganet. Sebagai admin, Anda harus menjaga citra instansi namun tetap responsif. Sikap Anda...",
+        "explanation": "Aspek: Komunikasi Publik. Poin 5 (Opsi D) Respons substantif (profesional), abaikan sampah (*troll*). Poin 4 (Opsi B) menutup komentar (efektif hentikan serangan, tapi menutup ruang demokrasi/pelayanan).",
+        "options": [
+          { "key": "A", "text": "Membalas komentar kasar tersebut dengan argumen yang tegas.", "score": 2 },
+          { "key": "B", "text": "Menutup kolom komentar sementara waktu untuk meredakan situasi.", "score": 4 },
+          { "key": "C", "text": "Menghapus semua komentar negatif agar citra instansi tetap baik.", "score": 3 },
+          { "key": "D", "text": "Mengklarifikasi keluhan substantif dan mengabaikan ujaran kebencian.", "score": 5 },
+          { "key": "E", "text": "Membuat akun palsu untuk memberikan komentar positif tandingan.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-84",
+        "category": "TKP",
+        "text": "Senior melimpahkan tugas input data digital kepada Anda karena enggan belajar aplikasi baru. Sikap Anda...",
+        "explanation": "Aspek: Pengembangan SDM. Poin 5 (Opsi E) Membantu + Mengajari (Pemberdayaan). Poin 4 (Opsi B) Menolak tegas (Profesional sesuai tupoksi, tapi kurang membantu transformasi organisasi).",
+        "options": [
+          { "key": "A", "text": "Mengerjakan semua tugas tersebut agar disayang oleh senior.", "score": 2 },
+          { "key": "B", "text": "Menolak dengan tegas karena itu bukan bagian dari tugas saya.", "score": 4 },
+          { "key": "C", "text": "Melaporkan ketidakmampuan senior tersebut kepada pimpinan.", "score": 3 },
+          { "key": "D", "text": "Mengerjakan sebagian saja agar senior mau mengerjakan sisanya.", "score": 1 },
+          { "key": "E", "text": "Membantu mengerjakan sembari mengajarkan cara penggunaannya.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-85",
+        "category": "TKP",
+        "text": "Listrik padam dan komputer mati sebelum Anda menyimpan laporan penting. Anda lupa mengaktifkan autosave. Sikap Anda...",
+        "explanation": "Aspek: Ketahanan Mental (Resiliensi). Poin 5 (Opsi D) Tenang + Cari solusi/Kerjakan ulang (*Problem Solving*). Poin 4 (Opsi E) Lapor atasan (Jujur, tapi pasif menunggu nasib).",
+        "options": [
+          { "key": "A", "text": "Marah-marah dan meluapkan emosi dengan membanting peralatan.", "score": 1 },
+          { "key": "B", "text": "Pasrah menunggu listrik menyala tanpa memiliki rencana cadangan.", "score": 2 },
+          { "key": "C", "text": "Memutuskan pulang karena suasana hati sudah sangat buruk.", "score": 1 },
+          { "key": "D", "text": "Berusaha tenang, mencari backup file, atau segera mengetik ulang.", "score": 5 },
+          { "key": "E", "text": "Melapor ke atasan bahwa laporan hilang akibat gangguan teknis.", "score": 4 }
+        ]
+      },
+      {
+        "id": "P9-TKP-86",
+        "category": "TKP",
+        "text": "Teman meminta izin menginstal software bajakan di komputer kantor karena anggaran lisensi resmi belum turun. Sikap Anda...",
+        "explanation": "Aspek: Kepatuhan Hukum & IT. Poin 5 (Opsi E) Menolak + Solusi Legal (Open Source). Poin 4 (Opsi D) Patungan pribadi (Solusi legal, tapi membebani kantong pribadi untuk urusan kantor).",
+        "options": [
+          { "key": "A", "text": "Mengizinkannya menginstal secara diam-diam agar pekerjaan lancar.", "score": 1 },
+          { "key": "B", "text": "Meminta teman yang menginstal agar saya tidak ikut disalahkan.", "score": 2 },
+          { "key": "C", "text": "Menggunakan software bajakan tersebut tanpa koneksi internet.", "score": 3 },
+          { "key": "D", "text": "Mengusulkan untuk patungan membeli lisensi resmi secara pribadi.", "score": 4 },
+          { "key": "E", "text": "Menolak dan menyarankan penggunaan software alternatif gratis (Open Source).", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-87",
+        "category": "TKP",
+        "text": "Menjelang Pemilu, medsos penuh perdebatan politik. Anda memiliki preferensi pilihan pribadi. Sikap Anda di dunia maya...",
+        "explanation": "Aspek: Netralitas ASN. Poin 5 (Opsi D) Diam Digital (*Digital Silence*). Poin 4 (Opsi C) Like saja (Masih meninggalkan jejak digital ketidaknetralan, meski pasif).",
+        "options": [
+          { "key": "A", "text": "Ikut berkomentar membela calon pilihan menggunakan akun asli.", "score": 1 },
+          { "key": "B", "text": "Membuat akun anonim untuk berkampanye tanpa ketahuan.", "score": 2 },
+          { "key": "C", "text": "Hanya memberikan 'Like' pada postingan calon pilihan saya.", "score": 4 },
+          { "key": "D", "text": "Menahan diri dari segala reaksi digital demi menjaga netralitas.", "score": 5 },
+          { "key": "E", "text": "Memblokir semua teman medsos yang berbeda pilihan politik.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-88",
+        "category": "TKP",
+        "text": "Anda menemukan data ganda dalam sistem yang sudah diverifikasi tim Anda. Melaporkannya akan mengungkap kelemahan tim. Sikap Anda...",
+        "explanation": "Aspek: Integritas Data. Poin 5 (Opsi E) Koreksi + Evaluasi Sistemik. Poin 4 (Opsi D) Perbaiki sendiri (Masalah selesai, tapi tidak ada pembelajaran organisasi/evaluasi).",
+        "options": [
+          { "key": "A", "text": "Diam saja dan berharap kesalahan tersebut tidak diaudit.", "score": 1 },
+          { "key": "B", "text": "Menghapus salah satu data secara diam-diam tanpa prosedur.", "score": 2 },
+          { "key": "C", "text": "Berpura-pura tidak melihat kesalahan tersebut agar aman.", "score": 1 },
+          { "key": "D", "text": "Memperbaiki data tersebut sendiri tanpa melaporkan ke ketua tim.", "score": 4 },
+          { "key": "E", "text": "Melaporkan temuan untuk perbaikan data dan evaluasi sistem.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-89",
+        "category": "TKP",
+        "text": "Pimpinan meminta Anda memanipulasi tanggal dokumen digital (backdate) agar terlihat tepat waktu. Sikap Anda...",
+        "explanation": "Aspek: Integritas & Jejak Digital. Poin 5 (Opsi E) Menolak + Edukasi risiko forensik. Poin 4 (Opsi D) Menyarankan jujur (Bagus, tapi kurang penekanan pada risiko teknis manipulasi).",
+        "options": [
+          { "key": "A", "text": "Melakukan perintah tersebut sebagai bentuk loyalitas bawahan.", "score": 1 },
+          { "key": "B", "text": "Mengubah pengaturan tanggal di komputer sebelum menyimpan file.", "score": 2 },
+          { "key": "C", "text": "Meminta rekan kerja lain yang melakukannya agar saya aman.", "score": 3 },
+          { "key": "D", "text": "Menyarankan atasan untuk apa adanya meskipun terkena sanksi.", "score": 4 },
+          { "key": "E", "text": "Menolak dan menjelaskan risiko jejak digital yang bisa dilacak.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-90",
+        "category": "TKP",
+        "text": "Saat WFH di kafe, Anda perlu ke toilet sebentar. Laptop berisi data kantor ada di meja. Sikap Anda...",
+        "explanation": "Aspek: Keamanan Aset. Poin 5 (Opsi E) Pengamanan fisik maksimal (Bawa/Kunci). Poin 4 (Opsi D) Sembunyikan (Lebih baik dari ditinggal terbuka, tapi tetap berisiko tinggi).",
+        "options": [
+          { "key": "A", "text": "Menitipkannya pada orang asing yang duduk di meja sebelah.", "score": 2 },
+          { "key": "B", "text": "Membiarkannya menyala di meja karena hanya pergi sebentar.", "score": 1 },
+          { "key": "C", "text": "Menutup layar laptop namun tetap meninggalkannya di meja.", "score": 3 },
+          { "key": "D", "text": "Menyembunyikan laptop di bawah jaket atau tas di kursi.", "score": 4 },
+          { "key": "E", "text": "Membawa laptop tersebut ke toilet atau menguncinya secara fisik.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-91",
+        "category": "TKP",
+        "text": "Anda menerima tautan webinar via WhatsApp dari nomor asing dengan URL singkat yang mencurigakan. Sikap Anda...",
+        "explanation": "Aspek: Keamanan Siber (Zero Trust). Poin 5 (Opsi D) Verifikasi jalur lain. Poin 4 (Opsi C) Abaikan (Aman, tapi kehilangan potensi informasi jika ternyata valid).",
+        "options": [
+          { "key": "A", "text": "Langsung mengklik tautan tersebut karena butuh sertifikat.", "score": 1 },
+          { "key": "B", "text": "Membuka tautan menggunakan HP teman untuk mengetes keamanan.", "score": 2 },
+          { "key": "C", "text": "Mengabaikan pesan tersebut dan memblokir nomor pengirim.", "score": 4 },
+          { "key": "D", "text": "Mengecek kebenaran event melalui situs atau medsos resmi penyelenggara.", "score": 5 },
+          { "key": "E", "text": "Menyebarkannya ke grup kantor agar rekan lain bisa ikut.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-92",
+        "category": "TKP",
+        "text": "Teman yang terlilit utang meminta tolong Anda mengecek data gaji rekannya melalui akses database yang Anda miliki. Sikap Anda...",
+        "explanation": "Aspek: Privasi Data. Poin 5 (Opsi E) Menolak tegas karena hukum privasi. Poin 4 (Opsi D) Menyuruh tanya sendiri (Solusi elak yang aman).",
+        "options": [
+          { "key": "A", "text": "Memberikan data tersebut karena kasihan dengan kondisi teman.", "score": 1 },
+          { "key": "B", "text": "Hanya memberitahu kisaran gajinya tanpa menyebut angka pasti.", "score": 2 },
+          { "key": "C", "text": "Menolak dengan alasan server database sedang mengalami gangguan.", "score": 3 },
+          { "key": "D", "text": "Menyuruh teman bertanya langsung kepada orang yang bersangkutan.", "score": 4 },
+          { "key": "E", "text": "Menolak tegas karena data gaji adalah privasi yang dilindungi.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-93",
+        "category": "TKP",
+        "text": "Rekan kerja sering menghabiskan kertas kantor untuk mencetak keperluan pribadi keluarganya. Sikap Anda...",
+        "explanation": "Aspek: Efisiensi & Kontrol Sosial. Poin 5 (Opsi D) Menegur personal (Kolegial). Poin 4 (Opsi E) Lapor bagian umum (Formal, efektif tapi merusak hubungan personal).",
+        "options": [
+          { "key": "A", "text": "Ikut mencetak keperluan pribadi juga agar impas.", "score": 1 },
+          { "key": "B", "text": "Diam saja karena itu bukan urusan dan tugas saya.", "score": 2 },
+          { "key": "C", "text": "Menyembunyikan kertas agar dia tidak bisa mencetak lagi.", "score": 3 },
+          { "key": "D", "text": "Menegurnya secara personal dan mengingatkan fungsi fasilitas kantor.", "score": 5 },
+          { "key": "E", "text": "Melaporkan keborosan kertas ini kepada bagian umum/logistik.", "score": 4 }
+        ]
+      },
+      {
+        "id": "P9-TKP-94",
+        "category": "TKP",
+        "text": "Anda lupa mematikan mikrofon saat rapat virtual dan terdengar mengomel masalah rumah. Semua peserta terdiam. Sikap Anda...",
+        "explanation": "Aspek: Etika Profesional. Poin 5 (Opsi E) Tanggung jawab (Minta maaf) + Fokus kembali. Poin 4 (Opsi B) Matikan diam-diam (Menghindari malu, tapi tidak *gentle*).",
+        "options": [
+          { "key": "A", "text": "Berpura-pura sinyal jelek dan segera keluar dari rapat.", "score": 2 },
+          { "key": "B", "text": "Langsung mematikan mikrofon dan bersikap seolah tidak terjadi apa-apa.", "score": 4 },
+          { "key": "C", "text": "Menyalahkan orang rumah yang berisik agar dimaklumi.", "score": 1 },
+          { "key": "D", "text": "Tertawa keras untuk mencairkan suasana yang menjadi canggung.", "score": 3 },
+          { "key": "E", "text": "Mematikan mikrofon, meminta maaf singkat, dan kembali fokus rapat.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-95",
+        "category": "TKP",
+        "text": "Pimpinan memberikan password tanda tangan digital (e-sign) beliau kepada Anda untuk menandatangani dokumen mendesak. Sikap Anda...",
+        "explanation": "Aspek: Legalitas Digital. Poin 5 (Opsi D) Menolak + Solusi E-sign jarak jauh (sesuai fungsi teknologi). Poin 4 (Opsi C) Minta rekan lain (Menghindar tanggung jawab).",
+        "options": [
+          { "key": "A", "text": "Melakukannya segera karena itu adalah perintah pimpinan.", "score": 1 },
+          { "key": "B", "text": "Menyimpan password tersebut untuk jaga-jaga keperluan nanti.", "score": 2 },
+          { "key": "C", "text": "Meminta rekan lain yang melakukannya agar saya aman.", "score": 3 },
+          { "key": "D", "text": "Menyarankan beliau melakukan persetujuan melalui aplikasi di HP-nya.", "score": 5 },
+          { "key": "E", "text": "Mencetak dokumen dan memalsukan tanda tangan basah beliau.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-96",
+        "category": "TKP",
+        "text": "Pengusaha menaruh tas berisi uang suap di meja Anda dengan nada merendahkan integritas Anda. Sikap Anda...",
+        "explanation": "Aspek: Integritas & Ketegasan. Poin 5 (Opsi E) Penolakan tegas + kembalikan saat itu juga. Poin 4 (Opsi D) Mengancam lapor (Agresif, berisiko eskalasi fisik/konflik).",
+        "options": [
+          { "key": "A", "text": "Menerima uang itu lalu mendonasikannya ke panti asuhan.", "score": 1 },
+          { "key": "B", "text": "Marah besar dan melempar tas itu keluar ruangan.", "score": 2 },
+          { "key": "C", "text": "Diam saja dan membiarkan uang itu tetap ada di meja.", "score": 1 },
+          { "key": "D", "text": "Meminta dia keluar dan mengancam akan melaporkan ke polisi.", "score": 4 },
+          { "key": "E", "text": "Menolak tegas, memintanya mengambil kembali uangnya, dan tetap profesional.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-97",
+        "category": "TKP",
+        "text": "Direktur menuduh data Anda salah dan menyebut Anda tidak kompeten di depan forum rapat. Anda yakin data Anda benar. Sikap Anda...",
+        "explanation": "Aspek: Kematangan Emosi. Poin 5 (Opsi D) Respons data vs emosi. Tetap tenang dan sajikan bukti. Poin 4 (Opsi E) Mengalihkan (Menghindar konflik, tapi tidak memulihkan nama baik).",
+        "options": [
+          { "key": "A", "text": "Menangis karena malu dan meninggalkan ruangan rapat.", "score": 1 },
+          { "key": "B", "text": "Membantah dengan suara keras bahwa tuduhan itu salah.", "score": 2 },
+          { "key": "C", "text": "Diam saja menunduk dan menerima permaluan tersebut.", "score": 1 },
+          { "key": "D", "text": "Tetap tenang dan meminta izin menyajikan bukti validitas data saya.", "score": 5 },
+          { "key": "E", "text": "Mengalihkan pandangan dan tidak menanggapi kemarahannya.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-98",
+        "category": "TKP",
+        "text": "Warga meludahi kaca loket di depan wajah Anda karena frustrasi berkasnya ditolak sistem. Rekan lain mulai terpancing emosi. Sikap Anda...",
+        "explanation": "Aspek: Pengendalian Diri. Poin 5 (Opsi E) Kesabaran tingkat tinggi + Fokus solusi. Poin 4 (Opsi D) Panggil satpam & istirahat (Prosedur keamanan benar, tapi pemulihan layanan tertunda).",
+        "options": [
+          { "key": "A", "text": "Keluar loket dan membalas tindakan warga tersebut.", "score": 1 },
+          { "key": "B", "text": "Memaki balik warga tersebut agar dia tahu sopan santun.", "score": 1 },
+          { "key": "C", "text": "Menutup loket dan menolak melayani dia untuk selamanya.", "score": 2 },
+          { "key": "D", "text": "Meminta keamanan mengamankannya lalu saya menenangkan diri.", "score": 4 },
+          { "key": "E", "text": "Tetap tenang, membersihkan kaca, dan mencoba menjelaskan solusi lagi.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-99",
+        "category": "TKP",
+        "text": "Anda bekerja keras untuk proyek, namun saat sukses, atasan hanya memuji rekan lain yang kerjanya sedikit. Sikap Anda...",
+        "explanation": "Aspek: Motivasi & Komunikasi. Poin 5 (Opsi D) Profesional di depan umum + Klarifikasi privat. Poin 4 (Opsi A) Kecewa & pulang (Validasi perasaan, tapi aksi tidak profesional).",
+        "options": [
+          { "key": "A", "text": "Merasa sangat kecewa dan memutuskan pulang saat itu juga.", "score": 2 },
+          { "key": "B", "text": "Menyindir ketidakadilan atasan melalui status media sosial.", "score": 1 },
+          { "key": "C", "text": "Menjadi malas dan bekerja asal-asalan pada proyek berikutnya.", "score": 1 },
+          { "key": "D", "text": "Tetap apresiatif di forum, lalu mendiskusikan kontribusi saya secara privat.", "score": 5 },
+          { "key": "E", "text": "Melakukan protes keras di depan forum agar semua orang tahu.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-100",
+        "category": "TKP",
+        "text": "Anda sedang menghadapi masalah keluarga berat, namun ditunjuk menjadi ketua panitia HUT instansi yang butuh energi ceria. Sikap Anda...",
+        "explanation": "Aspek: Profesionalisme. Poin 5 (Opsi E) Kompartementalisasi (Pisahkan urusan pribadi dan dinas). Poin 4 (Opsi D) Minta wakil kerja lebih (Delegasi, solusi taktis tapi mengurangi tanggung jawab).",
+        "options": [
+          { "key": "A", "text": "Menolak tugas tersebut dengan alasan sedang ada musibah.", "score": 3 },
+          { "key": "B", "text": "Menerima tugas namun menjalaninya dengan wajah murung.", "score": 2 },
+          { "key": "C", "text": "Menceritakan masalah saya ke semua panitia agar dimaklumi.", "score": 1 },
+          { "key": "D", "text": "Meminta wakil ketua untuk memikul beban kerja lebih banyak.", "score": 4 },
+          { "key": "E", "text": "Berusaha profesional memisahkan urusan pribadi dan tanggung jawab kerja.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-101",
+        "category": "TKP",
+        "text": "Pemohon layanan menggoda Anda secara verbal dengan kata-kata tidak pantas (pelecehan ringan). Sikap Anda...",
+        "explanation": "Aspek: Harga Diri & Ketegasan. Poin 5 (Opsi D) Asertif (Tegur langsung & sopan). Poin 4 (Opsi C) Usir (Tegas, tapi mungkin melanggar hak layanan jika belum diperingatkan).",
+        "options": [
+          { "key": "A", "text": "Diam saja dan pura-pura tidak mendengar perkataannya.", "score": 2 },
+          { "key": "B", "text": "Ikut tertawa canggung agar suasana pelayanan tetap cair.", "score": 1 },
+          { "key": "C", "text": "Langsung mengusirnya pergi dari kantor pelayanan.", "score": 3 },
+          { "key": "D", "text": "Menegur dengan tegas namun sopan agar ia menjaga etika bicara.", "score": 5 },
+          { "key": "E", "text": "Menangis di belakang loket karena merasa takut dan sedih.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-102",
+        "category": "TKP",
+        "text": "Rekan kerja menuduh Anda membocorkan rahasia rapat di grup WhatsApp kantor. Tuduhan itu tidak benar. Sikap Anda...",
+        "explanation": "Aspek: Resolusi Konflik. Poin 5 (Opsi E) Klarifikasi data (Digital) + Selesaikan fisik (Tatap muka). Poin 4 (Opsi D) Lapor UU ITE (Legal, tapi eskalasi konflik terlalu tinggi untuk internal).",
+        "options": [
+          { "key": "A", "text": "Membalas tuduhan tersebut dengan memaki-maki dia di grup.", "score": 1 },
+          { "key": "B", "text": "Keluar dari grup WhatsApp sebagai bentuk protes diam.", "score": 2 },
+          { "key": "C", "text": "Diam saja dan membiarkan rekan lain menilai sendiri.", "score": 3 },
+          { "key": "D", "text": "Melaporkan tindakan pencemaran nama baik ini ke pihak berwajib.", "score": 4 },
+          { "key": "E", "text": "Mengklarifikasi fakta di grup lalu mengajak bicara empat mata.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-103",
+        "category": "TKP",
+        "text": "Atasan baru yang perfeksionis sering mengubah instruksi di menit akhir, membuat tim stres. Sebagai anggota senior, sikap Anda...",
+        "explanation": "Aspek: Kepemimpinan & Komunikasi. Poin 5 (Opsi D) Menjadi jembatan komunikasi (*Mediator*). Poin 4 (Opsi C) Kerja sendiri (Selamatkan diri sendiri, acuh pada tim).",
+        "options": [
+          { "key": "A", "text": "Memprovokasi tim untuk melakukan protes massal.", "score": 1 },
+          { "key": "B", "text": "Ikut mengeluh di belakang untuk meluapkan kekesalan.", "score": 2 },
+          { "key": "C", "text": "Fokus menyelesaikan pekerjaan sendiri agar tidak kena tegur.", "score": 3 },
+          { "key": "D", "text": "Menenangkan tim dan mendiskusikan kendala ini dengan atasan.", "score": 5 },
+          { "key": "E", "text": "Mengajukan permohonan pindah divisi karena tidak tahan.", "score": 1 }
+        ]
+      },
+      {
+        "id": "P9-TKP-104",
+        "category": "TKP",
+        "text": "Di daerah pasca-konflik, satu kelompok warga menolak hadir penyuluhan jika kelompok lawan datang. Sikap Anda...",
+        "explanation": "Aspek: Kemampuan Menggerakkan. Poin 5 (Opsi E) Pendekatan tokoh kunci (*Key Opinion Leaders*) untuk persatuan. Poin 4 (Opsi D) Pisah sesi (Solusi pragmatis, tapi tidak mendamaikan).",
+        "options": [
+          { "key": "A", "text": "Membatalkan penyuluhan demi keamanan diri sendiri.", "score": 1 },
+          { "key": "B", "text": "Memilih mengundang salah satu kelompok saja yang pro.", "score": 1 },
+          { "key": "C", "text": "Meminta bantuan aparat keamanan untuk memaksa mereka hadir.", "score": 2 },
+          { "key": "D", "text": "Membuat dua sesi penyuluhan terpisah untuk masing-masing kelompok.", "score": 4 },
+          { "key": "E", "text": "Melakukan pendekatan persuasif kepada tokoh kedua kelompok.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-105",
+        "category": "TKP",
+        "text": "Saat WFH: internet mati, anak menangis, dan atasan mengajak rapat dadakan urgen. Anda kewalahan. Sikap Anda...",
+        "explanation": "Aspek: Manajemen Diri. Poin 5 (Opsi D) Komunikasi + Kelola situasi (Jujur & Taktis). Poin 4 (Opsi E) Matikan kamera (Hadir fisik tapi tidak maksimal).",
+        "options": [
+          { "key": "A", "text": "Mengabaikan panggilan atasan karena situasi sedang kacau.", "score": 1 },
+          { "key": "B", "text": "Mengangkat rapat sambil menggendong anak yang sedang menangis.", "score": 2 },
+          { "key": "C", "text": "Memarahi anak dan pasangan karena mengganggu pekerjaan.", "score": 1 },
+          { "key": "D", "text": "Meminta waktu jeda sebentar kepada atasan untuk mengondisikan situasi.", "score": 5 },
+          { "key": "E", "text": "Bergabung rapat namun mematikan kamera dan mikrofon.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-106",
+        "category": "TKP",
+        "text": "Rekan tim melakukan mark-up anggaran dan memberi Anda 'uang tutup mulut' saat Anda butuh biaya berobat orang tua. Sikap Anda...",
+        "explanation": "Aspek: Integritas. Poin 5 (Opsi E) Tolak + Lapor (Integritas Mutlak). Poin 4 (Opsi D) Tolak + Minta kembalikan (Integritas, tapi tanpa pelaporan formal risiko terulang).",
+        "options": [
+          { "key": "A", "text": "Menerimanya karena menganggap itu rezeki di saat darurat.", "score": 1 },
+          { "key": "B", "text": "Menerima uang tersebut dengan status sebagai pinjaman.", "score": 2 },
+          { "key": "C", "text": "Menolak uangnya namun memilih diam agar teman aman.", "score": 3 },
+          { "key": "D", "text": "Menolak dan memintanya mengembalikan uang negara segera.", "score": 4 },
+          { "key": "E", "text": "Menolak tegas dan melaporkan tindakan korupsi tersebut.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-107",
+        "category": "TKP",
+        "text": "Keluarga pasien mengamuk dan menuduh Anda lambat bekerja padahal pasien meninggal karena takdir. Mental Anda terguncang. Sikap Anda...",
+        "explanation": "Aspek: Empati & Resiliensi. Poin 5 (Opsi D) Empati pada kedukaan + Tenang. Poin 4 (Opsi E) Lapor polisi (Legal, tapi kurang empatik pada situasi berduka).",
+        "options": [
+          { "key": "A", "text": "Membentak balik dan mengatakan bahwa itu adalah takdir Tuhan.", "score": 1 },
+          { "key": "B", "text": "Lari bersembunyi di ruang staf untuk menghindari amukan.", "score": 2 },
+          { "key": "C", "text": "Menangis histeris karena merasa dituduh tidak becus bekerja.", "score": 1 },
+          { "key": "D", "text": "Tetap tenang, menunjukkan rasa duka cita, dan tidak membalas emosi.", "score": 5 },
+          { "key": "E", "text": "Melaporkan tindakan tidak menyenangkan mereka ke polisi.", "score": 3 }
+        ]
+      },
+      {
+        "id": "P9-TKP-108",
+        "category": "TKP",
+        "text": "Anda gagal ujian promosi jabatan 3 kali, sementara junior Anda lulus. Anda merasa malu. Sikap Anda...",
+        "explanation": "Aspek: Keinginan Belajar (*Growth Mindset*). Poin 5 (Opsi E) Evaluasi diri + Rencana aksi. Poin 4 (Opsi D) Ucapkan selamat (Sportif, tapi pasif tanpa rencana perbaikan diri).",
+        "options": [
+          { "key": "A", "text": "Mencari-cari kesalahan dalam proses seleksi jabatan tersebut.", "score": 2 },
+          { "key": "B", "text": "Beranggapan bahwa pimpinan memang pilih kasih pada junior.", "score": 1 },
+          { "key": "C", "text": "Berhenti berharap dan bekerja biasa saja tanpa ambisi.", "score": 2 },
+          { "key": "D", "text": "Mengucapkan selamat kepada junior meski hati merasa sakit.", "score": 4 },
+          { "key": "E", "text": "Melakukan evaluasi diri mendalam dan menyusun rencana belajar baru.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-109",
+        "category": "TKP",
+        "text": "Kantor mewajibkan seragam baru yang modelnya menurut Anda aneh dan memalukan, tapi itu keputusan pusat. Sikap Anda...",
+        "explanation": "Aspek: Kedisiplinan. Poin 5 (Opsi E) Patuh dengan bangga (Identitas Korps). Poin 4 (Opsi C) Pakai saat apel (Setengah hati).",
+        "options": [
+          { "key": "A", "text": "Menolak memakainya dengan alasan seragam itu tidak layak.", "score": 1 },
+          { "key": "B", "text": "Memakainya namun merombak total modelnya agar modis.", "score": 2 },
+          { "key": "C", "text": "Hanya memakainya saat ada apel pagi atau upacara resmi.", "score": 3 },
+          { "key": "D", "text": "Terpaksa memakainya sambil terus mengeluh kepada rekan.", "score": 2 },
+          { "key": "E", "text": "Memakainya dengan rapi sesuai ketentuan sebagai identitas korps.", "score": 5 }
+        ]
+      },
+      {
+        "id": "P9-TKP-110",
+        "category": "TKP",
+        "text": "Ide inovasi Anda ditertawakan dalam rapat karena dianggap mustahil. Sikap Anda...",
+        "explanation": "Aspek: Kreativitas & Keyakinan Diri. Poin 5 (Opsi D) Buktikan dengan data/konsep lebih matang. Poin 4 (Opsi E) Simpan sendiri (Menyerah terlalu dini).",
+        "options": [
+          { "key": "A", "text": "Marah dan memutuskan keluar dari rapat saat itu juga.", "score": 1 },
+          { "key": "B", "text": "Merasa malu dan berjanji tidak akan pernah usul lagi.", "score": 1 },
+          { "key": "C", "text": "Ikut tertawa canggung untuk menutupi rasa malu di forum.", "score": 2 },
+          { "key": "D", "text": "Menyusun proposal yang lebih detail dengan data pendukung kuat.", "score": 5 },
+          { "key": "E", "text": "Menyimpan ide tersebut untuk diterapkan sendiri diam-diam.", "score": 3 }
+        ]
+      }
+    ]

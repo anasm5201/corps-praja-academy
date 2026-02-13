@@ -1,0 +1,148 @@
+{
+    "unit_id": 3,
+    "title": "Unit 3: Diplomasi & Pola Adaptif",
+    "description": "Drill sejarah perjanjian, deret fibonacci, dan kemampuan membangun relasi kerja.",
+    "level": "Kadet Pratama",
+    "questions": [
+      {
+        "id": "U3-Q1",
+        "type": "TWK",
+        "text": "Perjanjian yang mengakui wilayah Republik Indonesia hanya mencakup Jawa, Sumatera, dan Madura secara de facto adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Perjanjian Renville", "score": 0 },
+          { "key": "B", "text": "Perjanjian Linggarjati", "score": 5 },
+          { "key": "C", "text": "Perjanjian Roem-Royen", "score": 0 },
+          { "key": "D", "text": "Konferensi Meja Bundar", "score": 0 },
+          { "key": "E", "text": "Perjanjian Kalijati", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Linggarjati (1947) = Jawa, Sumatera, Madura. Renville (1948) = Wilayah makin sempit (Garis Van Mook)."
+      },
+      {
+        "id": "U3-Q2",
+        "type": "TIU",
+        "text": "Deret: 1, 1, 2, 3, 5, 8, ... Angka selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "11", "score": 0 },
+          { "key": "B", "text": "12", "score": 0 },
+          { "key": "C", "text": "13", "score": 5 },
+          { "key": "D", "text": "14", "score": 0 },
+          { "key": "E", "text": "15", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola Fibonacci. Angka berikutnya adalah jumlah dua angka sebelumnya. 5 + 8 = 13."
+      },
+      {
+        "id": "U3-Q3",
+        "type": "TKP",
+        "text": "Rekan kerja satu tim Anda mendadak sakit menjelang deadline proyek besar. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Melapor ke atasan agar deadline diundur.", "score": 2 },
+          { "key": "B", "text": "Mengerjakan bagian rekan tersebut sebisanya saja.", "score": 3 },
+          { "key": "C", "text": "Membagi tugas rekan tersebut dengan anggota tim lain agar tuntas tepat waktu.", "score": 5 },
+          { "key": "D", "text": "Menunggu rekan sembuh karena itu tanggung jawabnya.", "score": 1 },
+          { "key": "E", "text": "Mengeluh karena beban kerja bertambah.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Fokus pada Hasil (Result Oriented) & Kerjasama Tim. Jangan pasif (D) atau minta keringanan (A) jika masih bisa diatasi tim."
+      },
+      {
+        "id": "U3-Q4",
+        "type": "TIU",
+        "text": "Jarak kota A ke B adalah 120 km. Jika ditempuh dengan kecepatan 60 km/jam, berapa menit waktu tempuhnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "60 menit", "score": 0 },
+          { "key": "B", "text": "90 menit", "score": 0 },
+          { "key": "C", "text": "100 menit", "score": 0 },
+          { "key": "D", "text": "120 menit", "score": 5 },
+          { "key": "E", "text": "150 menit", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Waktu = Jarak / Kecepatan. 120 / 60 = 2 jam. 2 jam = 120 menit. Awas jebakan satuan!"
+      },
+      {
+        "id": "U3-Q5",
+        "type": "TWK",
+        "text": "Tugas MPR menurut UUD 1945 hasil amandemen adalah sebagai berikut, KECUALI...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Mengubah dan menetapkan UUD", "score": 0 },
+          { "key": "B", "text": "Melantik Presiden dan Wakil Presiden", "score": 0 },
+          { "key": "C", "text": "Memilih Presiden jika terjadi kekosongan jabatan", "score": 0 },
+          { "key": "D", "text": "Meminta pertanggungjawaban Presiden tahunan", "score": 5 },
+          { "key": "E", "text": "Memberhentikan Presiden dalam masa jabatannya", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pasca Amandemen, MPR TIDAK LAGI meminta pertanggungjawaban Presiden (Mandataris MPR sudah hapus). Sistem sekarang Presidensial."
+      },
+      {
+        "id": "U3-Q6",
+        "type": "TIU",
+        "text": "Sinonim: MILITAN = ...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Anti Penindasan", "score": 0 },
+          { "key": "B", "text": "Agresif", "score": 5 },
+          { "key": "C", "text": "Brutal", "score": 0 },
+          { "key": "D", "text": "Penguasa", "score": 0 },
+          { "key": "E", "text": "Keras Kepala", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Militan (KBBI) = Bersemangat tinggi, penuh gairah, berhaluan keras (Agresif dalam perjuangan)."
+      },
+      {
+        "id": "U3-Q7",
+        "type": "TWK",
+        "text": "Peristiwa Rengasdengklok terjadi karena adanya perbedaan pendapat antara golongan tua dan muda mengenai...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Tempat pembacaan teks proklamasi", "score": 0 },
+          { "key": "B", "text": "Waktu pelaksanaan proklamasi", "score": 5 },
+          { "key": "C", "text": "Tokoh yang menandatangani teks", "score": 0 },
+          { "key": "D", "text": "Isi naskah proklamasi", "score": 0 },
+          { "key": "E", "text": "Bentuk negara Indonesia", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Inti Rengasdengklok adalah 'WAKTU'. Muda ingin segera (tanpa Jepang), Tua ingin tunggu rapat PPKI."
+      },
+      {
+        "id": "U3-Q8",
+        "type": "TKP",
+        "text": "Anda ditempatkan sebagai frontliner. Ada pelanggan tuna rungu yang kesulitan memahami penjelasan lisan Anda. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Berbicara lebih keras agar terdengar.", "score": 1 },
+          { "key": "B", "text": "Meminta rekan lain menggantikan.", "score": 2 },
+          { "key": "C", "text": "Menggunakan tulisan atau bahasa isyarat sederhana dengan sabar.", "score": 5 },
+          { "key": "D", "text": "Menjelaskan seperlunya saja agar cepat.", "score": 1 },
+          { "key": "E", "text": "Menyuruh pelanggan membawa pendamping.", "score": 3 }
+        ],
+        "explanation": "PLATINUM KEY: Pelayanan Prima (Service Excellence) = Adaptif terhadap kondisi pelanggan (Disabilitas)."
+      },
+      {
+        "id": "U3-Q9",
+        "type": "TIU",
+        "text": "Semua hewan adalah makhluk hidup. Semua makhluk hidup butuh makan. Ayam adalah hewan.",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Ayam tidak butuh makan.", "score": 0 },
+          { "key": "B", "text": "Ayam butuh makan.", "score": 5 },
+          { "key": "C", "text": "Sebagian ayam butuh makan.", "score": 0 },
+          { "key": "D", "text": "Ayam adalah makhluk hidup tapi tidak butuh makan.", "score": 0 },
+          { "key": "E", "text": "Tidak dapat disimpulkan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Modus Barbara (A=B, B=C, maka A=C). Hewan -> MH -> Makan. Ayam = Hewan, maka Ayam -> Makan."
+      },
+      {
+        "id": "U3-Q10",
+        "type": "TWK",
+        "text": "Sikap 'Chauvinisme' bertentangan dengan Pancasila terutama sila ke...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Pertama", "score": 0 },
+          { "key": "B", "text": "Kedua", "score": 0 },
+          { "key": "C", "text": "Ketiga", "score": 5 },
+          { "key": "D", "text": "Keempat", "score": 0 },
+          { "key": "E", "text": "Kelima", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Chauvinisme = Cinta tanah air berlebihan & merendahkan bangsa lain. Bertentangan dengan Nasionalisme (Sila 3) dan Kemanusiaan (Sila 2). Namun konteks 'Kebangsaan' utama di Sila 3."
+      }
+    ]
+  }

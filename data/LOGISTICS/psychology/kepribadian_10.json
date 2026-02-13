@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 10 - Wawasan Kebangsaan & Visi Institusi",
+  "type": "PSIKOLOGI_IDEOLOGI_POLRI",
+  "description": "Fase final pengujian keselarasan ideologi, patriotisme, dan pemahaman visi misi institusi.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_SIMBOL_NEGARA",
+  "question": "Anda melihat bendera Merah Putih di depan kantor polisi sudah kusam, robek di ujung, dan sempat menyentuh tanah. Rekan lain sibuk bekerja. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menganggap itu urusan bagian umum dan melanjutkan pekerjaan saya.", "points": 1 },
+  { "label": "B", "text": "Menginformasikan lewat grup kerja agar nanti ada yang menindaklanjuti.", "points": 2 },
+  { "label": "C", "text": "Mencatat kondisi bendera untuk laporan, sambil menunggu instruksi penggantian.", "points": 3 },
+  { "label": "D", "text": "Meminta rekan senior membantu, lalu menunggu dia memutuskan tindakan.", "points": 4 },
+  { "label": "E", "text": "Menangani segera secara hormat sesuai SOP, amankan bendera, lalu koordinasi penggantian resmi.", "points": 5 }
+  ],
+  "explanation": "Simbol negara menuntut disiplin dan integritas protokoler. Opsi 4 menunjukkan kepedulian melalui rujukan ke senior, tetapi opsi 5 lebih unggul karena mengambil tindakan terukur sesuai SOP (inisiatif + penghormatan), sekaligus menjaga chain of command dan memastikan tindak lanjut administratif berjalan."
+  },
+  {
+  "id": 2,
+  "category": "KEP_KEPENTINGAN_NASIONAL",
+  "question": "Anda mendapat tawaran kursus spesialisasi luar negeri yang sangat Anda impikan. Namun pada saat yang sama, institusi membutuhkan personel untuk pengamanan di daerah konflik. Pilihan Anda?",
+  "options": [
+  { "label": "A", "text": "Memprioritaskan kursus karena itu rencana karier saya dan sudah lama ditunggu.", "points": 1 },
+  { "label": "B", "text": "Mencari cara agar tetap dapat kursus tanpa ikut penugasan, agar aman bagi saya.", "points": 2 },
+  { "label": "C", "text": "Menunggu keputusan pimpinan sepenuhnya tanpa menyampaikan kesiapan atau opsi.", "points": 3 },
+  { "label": "D", "text": "Menyatakan siap tugas, tetapi meminta kompensasi khusus sebagai syarat utama.", "points": 4 },
+  { "label": "E", "text": "Menyatakan siap penugasan, serta mengusulkan penjadwalan kursus ulang setelah tugas selesai.", "points": 5 }
+  ],
+  "explanation": "Ini menilai selfless service dan orientasi kepentingan nasional. Opsi 4 tampak siap, tetapi berbasis transaksi sehingga rawan melemahkan integritas pengabdian. Opsi 5 lebih baik karena mendahulukan tugas negara, namun tetap berpikir strategis melalui komunikasi asertif untuk menjaga rencana pengembangan kompetensi."
+  },
+  {
+  "id": 3,
+  "category": "KEP_PRODUK_DALAM_NEGERI",
+  "question": "Dinas memberikan sepatu PDL buatan lokal. Anda merasa kualitasnya belum senyaman merek luar negeri. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memakai seperlunya saja dan membeli sepatu lain untuk penggunaan utama.", "points": 1 },
+  { "label": "B", "text": "Mengeluhkan kualitasnya di lingkar pertemanan agar jadi perhatian banyak orang.", "points": 2 },
+  { "label": "C", "text": "Memakai sepatu dinas, tetapi diam-diam menyimpan keluhan tanpa solusi.", "points": 3 },
+  { "label": "D", "text": "Memakai sepatu dinas dan menyampaikan masukan kualitas melalui jalur internal.", "points": 4 },
+  { "label": "E", "text": "Memakai sepatu dinas, dukung produk lokal, dan beri umpan balik data ke logistik.", "points": 5 }
+  ],
+  "explanation": "Nasionalisme ekonomi diuji tanpa mengorbankan profesionalisme. Opsi 4 sudah konstruktif lewat jalur internal, namun opsi 5 lebih unggul karena konsisten: tetap patuh penggunaan perlengkapan dinas, menunjukkan kebanggaan produk dalam negeri, dan memberi feedback berbasis data untuk perbaikan sistem."
+  },
+  {
+  "id": 4,
+  "category": "KEP_LAGU_KEBANGSAAN",
+  "question": "Anda sedang makan di kantin, lalu terdengar Indonesia Raya dikumandangkan dari area markas. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Tetap makan karena merasa itu tidak resmi dan sedang jam istirahat.", "points": 1 },
+  { "label": "B", "text": "Menghentikan aktivitas sebentar, lalu lanjut makan karena situasinya tidak formal.", "points": 2 },
+  { "label": "C", "text": "Berdiri, tetapi tetap berbicara pelan dengan rekan karena sedang di kantin.", "points": 3 },
+  { "label": "D", "text": "Berdiri dan bersikap hormat, sambil memastikan situasi kantin tetap tertib.", "points": 4 },
+  { "label": "E", "text": "Hentikan aktivitas, berdiri sikap sempurna, dan memberi contoh tanpa menggurui.", "points": 5 }
+  ],
+  "explanation": "Ini menilai disiplin protokoler dan keteladanan. Opsi 4 sudah benar secara sikap, namun opsi 5 lebih baik karena menambahkan aspek kepemimpinan situasional: menjadi role model yang tenang sehingga kepatuhan muncul lewat modeling, bukan lewat tekanan sosial."
+  },
+  {
+  "id": 5,
+  "category": "KEP_BAHASA_NASIONAL",
+  "question": "Dalam pertemuan internasional, Anda diminta memperkenalkan institusi. Anda mahir bahasa Inggris. Bagaimana Anda memulai presentasi?",
+  "options": [
+  { "label": "A", "text": "Langsung memakai bahasa Inggris penuh agar terlihat profesional di forum global.", "points": 2 },
+  { "label": "B", "text": "Menggunakan bahasa Indonesia penuh agar identitas bangsa kuat, tanpa adaptasi audiens.", "points": 2 },
+  { "label": "C", "text": "Memulai dengan bahasa Inggris, lalu menyelipkan salam Indonesia di tengah saja.", "points": 3 },
+  { "label": "D", "text": "Membuka dengan salam Indonesia, lalu beralih ke Inggris untuk efektivitas audiens.", "points": 4 },
+  { "label": "E", "text": "Buka dengan salam Indonesia singkat, jelaskan identitas, lalu presentasi Inggris terstruktur.", "points": 5 }
+  ],
+  "explanation": "Kebanggaan identitas harus berjalan bersama efektivitas komunikasi. Opsi 4 sudah tepat, namun opsi 5 lebih unggul karena menunjukkan komunikasi diplomatik: identitas ditampilkan secara proporsional, lalu isi disampaikan jelas sesuai audiens (service excellence dalam komunikasi publik)."
+  },
+  {
+  "id": 6,
+  "category": "KEP_MENJAGA_RAHASIA_NEGARA",
+  "question": "Seorang kawan lama (sipil) bertanya rinci strategi pengamanan yang sedang Anda kerjakan karena penasaran. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menceritakan sebagian karena hubungan pertemanan dan merasa dia bisa dipercaya.", "points": 1 },
+  { "label": "B", "text": "Memberi gambaran umum agar dia puas, tanpa menyebut detail teknis.", "points": 2 },
+  { "label": "C", "text": "Mengalihkan topik agar percakapan cepat selesai tanpa memperjelas batasannya.", "points": 3 },
+  { "label": "D", "text": "Menolak halus dan meminta dia memahami, lalu segera mengakhiri obrolan.", "points": 4 },
+  { "label": "E", "text": "Menolak tegas-santun, jelaskan prinsip need-to-know, dan jaga relasi tetap baik.", "points": 5 }
+  ],
+  "explanation": "OPSEC dan loyalitas institusi menuntut kontrol informasi. Opsi 4 sudah menolak, namun opsi 5 lebih baik karena menggabungkan assertive communication dan boundary setting yang jelas: informasi tetap aman, relasi sosial tidak rusak, dan risiko kebocoran lewat “curiosity leak” ditekan."
+  },
+  {
+  "id": 7,
+  "category": "KEP_BELA_NEGARA_DIGITAL",
+  "question": "Ada provokasi di media sosial yang menghina Pancasila dan memancing emosi publik. Sikap Anda sebagai anggota Polri di ruang digital?",
+  "options": [
+  { "label": "A", "text": "Membalas dengan sindiran tajam agar pelaku kapok dan jera.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan karena takut memperbesar isu dan mengundang serangan balik.", "points": 2 },
+  { "label": "C", "text": "Melaporkan konten saja, tanpa langkah edukasi atau koordinasi lanjutan.", "points": 3 },
+  { "label": "D", "text": "Menjawab dengan klarifikasi singkat dan tetap menjaga etika berkomunikasi.", "points": 4 },
+  { "label": "E", "text": "Koordinasi ke unit siber, report terukur, dan dorong counter-narrative edukatif.", "points": 5 }
+  ],
+  "explanation": "Ini menilai pengendalian diri dan literasi keamanan digital. Opsi 4 sudah menjaga etika, namun opsi 5 lebih unggul karena memakai pendekatan intelijen-komunikasi: ada eskalasi ke fungsi yang tepat (unit siber) dan counter-narrative untuk meredam polarisasi tanpa terpancing debat emosional."
+  },
+  {
+  "id": 8,
+  "category": "KEP_PEMAHAMAN_SEJARAH",
+  "question": "Anda ditugaskan memberi materi wawasan kebangsaan di sekolah. Mengapa sejarah perjuangan bangsa penting disampaikan?",
+  "options": [
+  { "label": "A", "text": "Agar siswa hafal tokoh dan peristiwa untuk kebutuhan ujian saja.", "points": 1 },
+  { "label": "B", "text": "Agar siswa memiliki kebencian pada pihak yang dulu pernah menjajah.", "points": 2 },
+  { "label": "C", "text": "Agar siswa patuh pada aparat karena takut mengulangi masa sulit.", "points": 3 },
+  { "label": "D", "text": "Agar siswa memahami identitas dan nilai, lalu punya motivasi menjaga persatuan.", "points": 4 },
+  { "label": "E", "text": "Agar siswa belajar nilai, berpikir kritis, dan punya imunitas terhadap provokasi.", "points": 5 }
+  ],
+  "explanation": "Wawasan sejarah bukan hafalan, melainkan pembentukan civic resilience. Opsi 4 sudah menekankan identitas dan persatuan, namun opsi 5 lebih unggul karena menambahkan kemampuan kritis: sejarah dijadikan filter psikologis-sosial untuk menolak disinformasi dan provokasi yang mengancam ideologi."
+  },
+  {
+  "id": 9,
+  "category": "KEP_KEPEMIMPINAN_PANCASILA",
+  "question": "Saat memimpin tim dengan latar belakang berbeda, nilai Pancasila mana yang paling Anda praktikkan dalam proses pengambilan keputusan?",
+  "options": [
+  { "label": "A", "text": "Menekankan Persatuan dengan menyamakan cara kerja semua orang tanpa pengecualian.", "points": 2 },
+  { "label": "B", "text": "Menekankan Kemanusiaan dengan menghindari keputusan tegas agar tidak melukai perasaan.", "points": 3 },
+  { "label": "C", "text": "Menekankan Keadilan dengan membagi tugas sama rata tanpa melihat kompetensi.", "points": 3 },
+  { "label": "D", "text": "Menekankan Musyawarah dengan meminta masukan semua pihak sebelum memutuskan.", "points": 4 },
+  { "label": "E", "text": "Musyawarah berbasis data, adil proporsional, dan menjaga persatuan dalam eksekusi.", "points": 5 }
+  ],
+  "explanation": "Kepemimpinan Pancasila bukan memilih satu sila secara sempit, tetapi menyeimbangkan prinsip. Opsi 4 kuat pada proses musyawarah, namun opsi 5 lebih unggul karena menambahkan kualitas keputusan: musyawarah yang terarah (evidence-based), adil proporsional (merit), dan tetap menjaga kohesi tim saat eksekusi."
+  },
+  {
+  "id": 10,
+  "category": "KEP_PENGABDIAN_PERBATASAN",
+  "question": "Di awal karier, Anda ditawari penugasan kota besar dengan insentif lebih tinggi atau penugasan perbatasan dengan fasilitas terbatas. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memilih kota besar karena insentif lebih besar dan kebutuhan pribadi lebih aman.", "points": 1 },
+  { "label": "B", "text": "Memilih perbatasan hanya jika ada jaminan percepatan karier yang jelas.", "points": 2 },
+  { "label": "C", "text": "Menyerahkan pilihan sepenuhnya tanpa menyampaikan kesiapan atau pertimbangan.", "points": 3 },
+  { "label": "D", "text": "Siap ditempatkan di mana saja, namun cenderung memilih lokasi yang lebih siap fasilitas.", "points": 4 },
+  { "label": "E", "text": "Nyatakan siap di mana pun, dan bila diminta preferensi saya siap ke perbatasan.", "points": 5 }
+  ],
+  "explanation": "Patriotisme diuji lewat kesiapan ditempatkan sesuai kebutuhan negara. Opsi 4 sudah menunjukkan fleksibilitas, namun opsi 5 lebih unggul karena menegaskan motivasi pengabdian: tetap tunduk pada kebijakan pimpinan, namun menunjukkan readiness untuk wilayah yang paling membutuhkan kehadiran negara."
+  },
+  {
+  "id": 11,
+  "category": "KEP_TOLERANSI_IBADAH",
+  "question": "Tetangga asrama sedang ibadah dengan suara musik cukup keras dan berbeda keyakinan. Anda sedang belajar. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Meminta mereka menghentikan kegiatan karena mengganggu, tanpa dialog.", "points": 1 },
+  { "label": "B", "text": "Memendam kesal dan menunjukkan sikap dingin agar mereka sadar sendiri.", "points": 2 },
+  { "label": "C", "text": "Beradaptasi sendiri dulu, tetapi tetap merasa terganggu dan tidak mencari solusi.", "points": 3 },
+  { "label": "D", "text": "Menunggu waktu yang tepat lalu menyampaikan permintaan pelan-pelan agar volumenya turun.", "points": 4 },
+  { "label": "E", "text": "Toleransi aktif: adaptasi, lalu komunikasi asertif sopan untuk solusi win-win.", "points": 5 }
+  ],
+  "explanation": "Toleransi bukan pasif, tetapi mampu mengelola kebutuhan bersama. Opsi 4 sudah mengarah pada komunikasi, namun opsi 5 lebih unggul karena memadukan de-eskalasi emosi, penghormatan hak ibadah, dan assertive communication untuk menjaga harmoni tanpa memicu konflik."
+  },
+  {
+  "id": 12,
+  "category": "KEP_NARASI_RADIKAL_MEDSOS",
+  "question": "Seorang teman di grup WhatsApp menyebarkan video yang membenturkan aturan negara dengan hukum agama tertentu. Respon Anda?",
+  "options": [
+  { "label": "A", "text": "Menegur keras di grup agar dia malu dan berhenti menyebarkan.", "points": 1 },
+  { "label": "B", "text": "Memilih diam agar tidak memicu debat panjang di grup.", "points": 2 },
+  { "label": "C", "text": "Menghapus/keluar grup tanpa menjelaskan agar tidak ikut terseret isu.", "points": 3 },
+  { "label": "D", "text": "Menghubungi dia pribadi untuk klarifikasi dan mengingatkan secara sopan.", "points": 4 },
+  { "label": "E", "text": "Pendekatan ganda: edukasi santun, rujuk sumber kredibel, dan eskalasi ke unit bila perlu.", "points": 5 }
+  ],
+  "explanation": "Counter-radicalism menuntut respons yang tidak reaktif. Opsi 4 efektif untuk hubungan interpersonal, namun opsi 5 lebih unggul karena memakai pendekatan intelijen sosial: mengurangi penyebaran, memperkuat narasi moderat, dan menyiapkan jalur eskalasi yang tepat bila ada indikasi radikalisasi."
+  },
+  {
+  "id": 13,
+  "category": "KEP_KERJA_SAMA_BEDA_AGAMA",
+  "question": "Anda ditugaskan di tim khusus, mayoritas anggota berbeda keyakinan. Mereka mengajak makan di tempat yang menurut Anda kurang nyaman secara prinsip. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menolak ikut agar prinsip saya aman, tanpa menawarkan alternatif.", "points": 1 },
+  { "label": "B", "text": "Ikut saja agar tidak dianggap berbeda, meski hati tidak nyaman.", "points": 2 },
+  { "label": "C", "text": "Tidak ikut, tetapi menyampaikan alasan singkat tanpa mengajak solusi bersama.", "points": 3 },
+  { "label": "D", "text": "Mengusulkan tempat lain dengan alasan kebutuhan pribadi, tanpa mempertimbangkan tim.", "points": 4 },
+  { "label": "E", "text": "Komunikasi inklusif: jelaskan prinsip, tawarkan opsi setara, dan jaga solidaritas.", "points": 5 }
+  ],
+  "explanation": "Ini menilai moderasi, komunikasi, dan kohesi tim. Opsi 4 sudah mengarah pada solusi, namun opsi 5 lebih unggul karena menggabungkan win-win solution dan social intelligence: prinsip terjaga, tim tetap solid, dan tidak muncul friksi identitas."
+  },
+  {
+  "id": 14,
+  "category": "KEP_KRITIK_TERHADAP_PEMERINTAH",
+  "question": "Anda mendengar rekan kerja menghujat pemerintah secara ekstrem dan mengajak tidak patuh pada aturan pimpinan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengiyakan karena sebagian kritiknya terasa benar dan mengajak rekan lain ikut.", "points": 1 },
+  { "label": "B", "text": "Mendiamkan karena tidak mau urusan dan menganggap itu urusan pribadi dia.", "points": 2 },
+  { "label": "C", "text": "Menjauh agar tidak terpengaruh, tetapi tidak melakukan langkah pencegahan.", "points": 3 },
+  { "label": "D", "text": "Mengingatkan secara profesional agar menjaga etika, lalu mengamati perkembangannya.", "points": 4 },
+  { "label": "E", "text": "Tegur terukur, dokumentasikan, dan laporkan melalui jalur internal sesuai prosedur.", "points": 5 }
+  ],
+  "explanation": "Ini menguji loyalitas institusi dan manajemen risiko internal. Opsi 4 sudah ada koreksi perilaku, namun opsi 5 lebih unggul karena menjaga chain of command dan akuntabilitas: ada pencegahan dini, bukti terstruktur, dan mitigasi potensi insubordinasi atau radikalisasi tanpa konflik terbuka."
+  },
+  {
+  "id": 15,
+  "category": "KEP_STEREOTIP_SUKU",
+  "question": "Ada anggapan bahwa suku tertentu terkenal kasar dan tidak cocok di bagian pelayanan. Anda mendapat bawahan dari suku tersebut. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menempatkannya di area belakang agar risiko keluhan masyarakat lebih kecil.", "points": 1 },
+  { "label": "B", "text": "Memberinya tugas pelayanan, tetapi dengan pengawasan berlebih karena waswas.", "points": 2 },
+  { "label": "C", "text": "Memintanya menyesuaikan gaya bicara agar tidak menonjol di depan publik.", "points": 3 },
+  { "label": "D", "text": "Menilai kinerja secara objektif dan memberi pembinaan komunikasi seperti anggota lain.", "points": 4 },
+  { "label": "E", "text": "Terapkan merit system: asesmen individu, coaching setara, dan nol toleransi diskriminasi.", "points": 5 }
+  ],
+  "explanation": "Prasangka adalah bias kognitif yang merusak integritas pelayanan. Opsi 4 sudah objektif, namun opsi 5 lebih unggul karena menegaskan standar organisasi: merit-based assessment, pembinaan profesional yang setara, dan anti-diskriminasi sebagai fondasi keadilan sosial serta service excellence."
+  },
+  {
+  "id": 16,
+  "category": "KEP_HARI_RAYA_MINORITAS",
+  "question": "Rekan kerja minoritas merayakan hari besar agamanya dan meminta bertukar piket dengan Anda. Anda sebenarnya ingin istirahat. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menolak karena jadwal saya hak pribadi dan saya butuh istirahat.", "points": 1 },
+  { "label": "B", "text": "Menerima jika ada imbalan tertentu agar saya merasa sepadan.", "points": 2 },
+  { "label": "C", "text": "Menerima, tetapi tanpa koordinasi resmi sehingga berisiko salah jadwal.", "points": 3 },
+  { "label": "D", "text": "Menerima dengan syarat ada pengganti yang jelas dan disetujui atasan.", "points": 4 },
+  { "label": "E", "text": "Bantu tukar jadwal secara prosedural dan adil, sambil menjaga kesiapan layanan.", "points": 5 }
+  ],
+  "explanation": "Toleransi dan solidaritas harus tetap berada dalam prosedur. Opsi 4 sudah aman secara kontrol, namun opsi 5 lebih unggul karena menambahkan aspek service readiness: membantu rekan beribadah tanpa mengorbankan kualitas layanan dan memastikan fairness (tidak transaksional, tidak melanggar aturan)."
+  },
+  {
+  "id": 17,
+  "category": "KEP_RADIKALISME_KELUARGA",
+  "question": "Anda mendapati anggota keluarga inti mengikuti pengajian tertutup yang mengajarkan kebencian pada kelompok lain dan pemerintah. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkan karena itu pilihan pribadi mereka dan saya tidak ingin konflik.", "points": 1 },
+  { "label": "B", "text": "Memutus hubungan dan melarang keras tanpa dialog agar mereka jera.", "points": 2 },
+  { "label": "C", "text": "Menasehati sekali, lalu berhenti membahasnya karena takut hubungan memburuk.", "points": 3 },
+  { "label": "D", "text": "Mengajak dialog rutin dengan pendekatan persuasif dan memberi rujukan yang moderat.", "points": 4 },
+  { "label": "E", "text": "Intervensi dini: dialog persuasif, rujuk tokoh kredibel, dan konsultasi jalur resmi bila perlu.", "points": 5 }
+  ],
+  "explanation": "Radikalisasi adalah risiko keamanan yang sering dimulai dari ruang privat. Opsi 4 sudah tepat secara persuasif, namun opsi 5 lebih unggul karena menambahkan risk management: ada deradikalisasi berbasis dukungan kredibel dan kesiapan eskalasi prosedural bila muncul indikator ancaman, tanpa reaksi agresif yang memicu resistensi."
+  },
+  {
+  "id": 18,
+  "category": "KEP_KESETARAAN_GENDER",
+  "question": "Ada patroli malam di wilayah rawan. Pimpinan menunjuk rekan polwan memimpin tim. Beberapa rekan pria keberatan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mendukung keberatan mereka karena tugas malam sebaiknya dipimpin pria.", "points": 1 },
+  { "label": "B", "text": "Diam saja agar tidak ikut konflik, sambil menunggu situasi mereda.", "points": 2 },
+  { "label": "C", "text": "Mendukung keputusan pimpinan, dan fokus menyiapkan patroli sesuai rencana.", "points": 3 },
+  { "label": "D", "text": "Menguatkan polwan secara pribadi, tetapi membiarkan rekan lain tetap berkomentar.", "points": 4 },
+  { "label": "E", "text": "Tegaskan kompetensi dan SOP, redam resistensi, lalu perkuat briefing tugas tim.", "points": 5 }
+  ],
+  "explanation": "Isu ini menguji bias, integritas, dan chain of command. Opsi 4 sudah empatik ke pemimpin tim, namun tidak mengelola dinamika kelompok sehingga risiko insubordinasi pasif meningkat. Opsi 5 lebih unggul karena melakukan de-biasing dan assertive communication berbasis SOP, menjaga kewibawaan komando sekaligus kohesi tim sebelum bergerak."
+  },
+  {
+  "id": 19,
+  "category": "KEP_MENERIMA_BANTUAN_SARA",
+  "question": "Saat banjir, bantuan logistik datang dari lembaga yang ideologinya berbeda dengan Anda. Posko sangat membutuhkan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menolak bantuan karena takut dianggap mendukung ideologi lembaga tersebut.", "points": 1 },
+  { "label": "B", "text": "Menerima bantuan, tetapi menyampaikan komentar sinis kepada relawan.", "points": 2 },
+  { "label": "C", "text": "Menerima bantuan dan segera membagi, tanpa pencatatan atau koordinasi posko.", "points": 3 },
+  { "label": "D", "text": "Menerima bantuan, lalu minta posko yang menjelaskan asal bantuan ke warga.", "points": 4 },
+  { "label": "E", "text": "Terima secara humanis, verifikasi, catat, dan distribusi transparan lewat posko.", "points": 5 }
+  ],
+  "explanation": "Dalam krisis, prinsip pelayanan prima menuntut fokus pada keselamatan warga, bukan preferensi identitas. Opsi 4 sudah menjaga jarak psikologis, tetapi masih berisiko salah persepsi karena tidak menata proses. Opsi 5 lebih baik karena memisahkan bantuan kemanusiaan dari afiliasi, memakai kontrol administrasi (accountability) dan koordinasi posko agar tidak ada manipulasi atau framing."
+  },
+  {
+  "id": 20,
+  "category": "KEP_NARASI_RASIAL",
+  "question": "Tokoh publik membuat pernyataan bernuansa rasis. Banyak rekan Anda ikut membenarkan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut membenarkan agar diterima di lingkungan rekan kerja.", "points": 1 },
+  { "label": "B", "text": "Menghindari pembahasan dan memilih diam demi menjaga posisi sosial.", "points": 2 },
+  { "label": "C", "text": "Menyatakan tidak setuju, namun tetap membiarkan candaan rasis berlanjut.", "points": 3 },
+  { "label": "D", "text": "Menyanggah dengan tegas di forum, meski berpotensi memicu debat panas.", "points": 4 },
+  { "label": "E", "text": "Tolak rasisme secara profesional, redam eskalasi, dan ingatkan etika dinas.", "points": 5 }
+  ],
+  "explanation": "Ini menilai kontrol diri, keberanian moral, dan kemampuan de-eskalasi sosial. Opsi 4 tampak berani, tetapi berisiko memicu konflik emosional yang mengeras dan memperburuk iklim kerja. Opsi 5 lebih unggul karena menolak narasi rasis dengan komunikasi asertif yang terukur, menjaga martabat institusi dan mencegah normalisasi diskriminasi."
+  },
+  {
+  "id": 21,
+  "category": "KEP_FILOSOFI_PELAYANAN",
+  "question": "Seorang warga datang tengah malam ingin melapor kehilangan surat berharga, sementara layanan administrasi sudah tutup. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Meminta warga datang besok karena loket sudah tutup dan tidak bisa diproses.", "points": 1 },
+  { "label": "B", "text": "Menerima sebentar, lalu menyuruh pulang tanpa penjelasan prosedur lanjutan.", "points": 2 },
+  { "label": "C", "text": "Menampung keluhan dan memberi arahan singkat, lalu jadwalkan esok hari.", "points": 3 },
+  { "label": "D", "text": "Menerima laporan, tetapi hanya mencatat manual tanpa memastikan tindak lanjut.", "points": 4 },
+  { "label": "E", "text": "Layani dengan empati, lakukan pencatatan resmi, beri bukti laporan dan rute lanjut.", "points": 5 }
+  ],
+  "explanation": "Pelayanan prima menuntut respons yang menenangkan, jelas, dan akuntabel. Opsi 4 sudah membantu, tetapi tanpa kepastian tindak lanjut warga tetap cemas dan proses rawan hilang (administrative gap). Opsi 5 lebih baik karena menggabungkan service excellence, komunikasi asertif, serta kontrol proses (bukti laporan dan langkah berikutnya) sehingga rasa aman warga meningkat."
+  },
+  {
+  "id": 22,
+  "category": "KEP_PENGAYOMAN_MASYARAKAT",
+  "question": "Ada laporan ODGJ mengamuk dan warga meminta polisi 'membereskan' dengan kekerasan. Anda datang ke lokasi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengizinkan warga memukul asal situasi cepat selesai dan aman.", "points": 1 },
+  { "label": "B", "text": "Meminta warga menahan diri, lalu menunggu bantuan tanpa mengatur perimeter.", "points": 2 },
+  { "label": "C", "text": "Mengamankan area dan meminta warga menjauh, sambil menunggu tenaga medis.", "points": 3 },
+  { "label": "D", "text": "Menahan ODGJ cepat dengan pengikatan seadanya agar warga tenang.", "points": 4 },
+  { "label": "E", "text": "De-eskalasi, buat perimeter aman, panggil bantuan/medis, dan amankan humanis.", "points": 5 }
+  ],
+  "explanation": "Kasus ini menguji pengendalian diri, human rights awareness, dan taktik de-eskalasi. Opsi 4 terlihat efektif, tetapi berisiko melanggar prinsip penanganan humanis dan memicu cedera/trauma serta tuntutan etik. Opsi 5 lebih unggul karena mengutamakan keselamatan semua pihak, memakai perimeter control, komunikasi menenangkan, dan koordinasi lintas instansi (Dinsos/RS) sesuai prinsip pengayoman."
+  },
+  {
+  "id": 23,
+  "category": "KEP_PENEGAKAN_HUKUM_ADIL",
+  "question": "Anda mendapati sahabat karib melakukan pelanggaran pidana ringan. Anda satu-satunya petugas di lokasi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Melepaskan dan meminta dia janji tidak mengulangi, demi hubungan pribadi.", "points": 1 },
+  { "label": "B", "text": "Memberi teguran lisan saja lalu menutup kejadian agar tidak jadi masalah.", "points": 2 },
+  { "label": "C", "text": "Menangani sesuai prosedur, namun meminta rekan lain membuat berkas agar netral.", "points": 3 },
+  { "label": "D", "text": "Memproses sendiri dengan tegas, tanpa menjelaskan hak dan prosedur kepada sahabat.", "points": 4 },
+  { "label": "E", "text": "Proses sesuai SOP, dokumentasi lengkap, komunikasi profesional, dan hindari conflict of interest.", "points": 5 }
+  ],
+  "explanation": "Integritas diuji saat ada konflik kepentingan. Opsi 4 menegakkan hukum, tetapi minim procedural justice dan rawan dianggap personal/abusive. Opsi 5 lebih baik karena menegakkan equality before the law sekaligus menjaga akuntabilitas: dokumentasi, komunikasi hak-prosedur, dan mitigasi bias (conflict of interest management)."
+  },
+  {
+  "id": 24,
+  "category": "KEP_KAMTIBMAS_PREVENTIF",
+  "question": "Dalam rapat evaluasi Kamtibmas, pimpinan meminta Anda memilih prioritas kerja satu semester. Apa pendekatan yang Anda dorong?",
+  "options": [
+  { "label": "A", "text": "Mengejar target penangkapan tinggi agar efek jera terlihat cepat di media.", "points": 2 },
+  { "label": "B", "text": "Memprioritaskan peralatan dan kendaraan baru agar operasional terlihat modern.", "points": 1 },
+  { "label": "C", "text": "Mendorong patroli rutin dan razia berkala, tanpa program kemitraan warga.", "points": 3 },
+  { "label": "D", "text": "Menguatkan pencegahan lewat pemetaan rawan dan sambang, namun minim evaluasi data.", "points": 4 },
+  { "label": "E", "text": "Bangun pencegahan berbasis data, kemitraan warga, dan indikator rasa aman publik.", "points": 5 }
+  ],
+  "explanation": "Preventive policing menuntut strategi, bukan sekadar aktivitas. Opsi 4 sudah preventif, tetapi tanpa data dan indikator hasil, program mudah jadi rutinitas tanpa dampak. Opsi 5 lebih unggul karena memakai problem-oriented policing: pemetaan risiko, kemitraan (community policing), dan metrik public trust/rasa aman sebagai outcome nyata."
+  },
+  {
+  "id": 25,
+  "category": "KEP_SINERGI_INSTANSI",
+  "question": "Terjadi bencana alam. TNI dan BPBD sudah lebih dulu di lokasi. Anda datang sebagai personel Polri. Peran yang paling tepat?",
+  "options": [
+  { "label": "A", "text": "Bergerak sendiri agar kontribusi Polri terlihat paling dominan di lapangan.", "points": 1 },
+  { "label": "B", "text": "Menunggu perintah dari pusat sebelum membantu agar tidak salah langkah.", "points": 2 },
+  { "label": "C", "text": "Langsung membantu evakuasi, meski tanpa koordinasi komando posko.", "points": 3 },
+  { "label": "D", "text": "Fokus pengamanan lokasi dan jalur, lalu koordinasi dasar dengan posko.", "points": 4 },
+  { "label": "E", "text": "Masuk struktur posko, bagi peran jelas, jaga keamanan logistik, dan update informasi publik.", "points": 5 }
+  ],
+  "explanation": "Operasi bencana menuntut unified command dan sinergi lintas instansi. Opsi 4 sudah tepat pada fungsi Polri, namun koordinasinya masih minimal dan rawan overlap. Opsi 5 lebih unggul karena mengikuti manajemen insiden: masuk struktur posko, membagi peran, menjaga ketertiban, dan memastikan komunikasi publik yang menenangkan (crisis communication)."
+  },
+  {
+  "id": 26,
+  "category": "KEP_PEMAHAMAN_MODERN_POLICING",
+  "question": "Di era digital, tantangan terbesar Polri untuk tetap efektif dan dipercaya publik menurut Anda adalah?",
+  "options": [
+  { "label": "A", "text": "Kekurangan perangkat mahal, karena teknologi selalu lebih penting dari manusia.", "points": 1 },
+  { "label": "B", "text": "Banyak kritik di media sosial, sehingga yang utama adalah membatasi komentar.", "points": 2 },
+  { "label": "C", "text": "Lonjakan kasus siber, sehingga cukup menambah personel dan menangkap pelaku.", "points": 3 },
+  { "label": "D", "text": "Disinformasi dan hoaks, sehingga perlu edukasi publik meski prosesnya lambat.", "points": 4 },
+  { "label": "E", "text": "Menjaga public trust lewat layanan transparan, literasi digital, dan penegakan siber yang beretika.", "points": 5 }
+  ],
+  "explanation": "Modern policing bukan hanya soal alat, melainkan trust, kompetensi digital, dan etika. Opsi 4 sudah menangkap isu disinformasi, namun belum mengikatnya pada kualitas layanan dan integritas operasional. Opsi 5 lebih baik karena menggabungkan service excellence, cyber capability, dan akuntabilitas (ethical enforcement) sebagai satu paket penguat legitimasi institusi."
+  },
+  {
+  "id": 27,
+  "category": "KEP_DISKRESI_KEPOLISIAN",
+  "question": "Seorang kakek mengendarai motor tanpa helm untuk membawa obat darurat ke cucunya. Anda sedang bertugas lantas. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menilang sesuai aturan karena pelanggaran tetap pelanggaran tanpa pengecualian.", "points": 1 },
+  { "label": "B", "text": "Membiarkan lewat tanpa arahan, karena situasi darurat bukan urusan saya.", "points": 2 },
+  { "label": "C", "text": "Memberi pengawalan singkat agar cepat sampai, lalu selesai tanpa pencatatan.", "points": 3 },
+  { "label": "D", "text": "Memberi helm sementara dan mengawal, lalu memberi edukasi setelah situasi aman.", "points": 4 },
+  { "label": "E", "text": "Utamakan keselamatan: asesmen cepat, bantu rute aman/pengawalan, dokumentasikan diskresi dan edukasi.", "points": 5 }
+  ],
+  "explanation": "Diskresi menuntut keputusan berbasis risiko dan kemanusiaan, bukan impuls. Opsi 4 sudah bijak, tetapi tanpa dokumentasi diskresi bisa dipersepsi tebang pilih. Opsi 5 lebih unggul karena menggabungkan risk assessment, keselamatan lalu lintas, dan akuntabilitas (pencatatan diskresi) serta edukasi setelah krisis."
+  },
+  {
+  "id": 28,
+  "category": "KEP_REFORMASI_BIROKRASI",
+  "question": "Anda melihat ada celah pungli dalam pelayanan, dan praktik itu dianggap 'normal' oleh rekan kerja. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut melakukan agar tidak dianggap berbeda dan tetap aman secara sosial.", "points": 1 },
+  { "label": "B", "text": "Menolak ikut, tetapi membiarkan praktik itu terus berjalan tanpa intervensi.", "points": 2 },
+  { "label": "C", "text": "Menolak dan menegur rekan satu per satu, namun tanpa jalur resmi atau bukti.", "points": 3 },
+  { "label": "D", "text": "Melapor lewat kanal internal, tetapi tetap pasif pada perbaikan proses layanan.", "points": 4 },
+  { "label": "E", "text": "Tolak, dokumentasikan, lapor prosedural, dan usulkan perbaikan sistem agar celah tertutup.", "points": 5 }
+  ],
+  "explanation": "Pungli adalah pelanggaran integritas dan merusak public trust. Opsi 4 sudah benar secara pelaporan, tetapi tidak menyentuh akar masalah (celah sistem) sehingga risiko berulang tinggi. Opsi 5 lebih baik karena menerapkan accountability + prevention: menolak praktik, mengamankan bukti, melapor melalui chain of command, dan mendorong reformasi proses (digitalisasi/standarisasi)."
+  },
+  {
+  "id": 29,
+  "category": "KEP_NETRALITAS_POLITIK",
+  "question": "Menjelang Pemilu, saudara kandung Anda mencalonkan diri dan meminta memasang baliho di depan kantor polisi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membantu karena keluarga prioritas, dan itu hanya baliho bukan kampanye aktif.", "points": 1 },
+  { "label": "B", "text": "Menolak di kantor, tetapi membantu memasang diam-diam di area sekitar markas.", "points": 2 },
+  { "label": "C", "text": "Menolak, namun tetap memberi dukungan simbolik lewat percakapan di lingkungan kerja.", "points": 3 },
+  { "label": "D", "text": "Menolak dengan sopan dan menjelaskan aturan netralitas agar dia paham batasnya.", "points": 4 },
+  { "label": "E", "text": "Menolak tegas-santun, jaga batas dinas, dan hentikan tekanan lewat jalur formal bila perlu.", "points": 5 }
+  ],
+  "explanation": "Netralitas adalah modal legitimasi Polri. Opsi 4 sudah baik karena edukatif, namun jika tekanan berlanjut, risiko konflik kepentingan tetap ada. Opsi 5 lebih unggul karena menjaga boundary profesional, mencegah penyalahgunaan fasilitas negara, dan siap melakukan langkah prosedural bila terjadi pemaksaan (integrity safeguarding)."
+  },
+  {
+  "id": 30,
+  "category": "KEP_LOYALITAS_ORGANISASI",
+  "question": "Pimpinan dihujat masif karena kebijakan yang kontroversial namun sah secara hukum. Anda bawahan yang ikut terdampak suasana. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Ikut mengkritik keras di akun anonim agar dianggap berpihak pada publik.", "points": 1 },
+  { "label": "B", "text": "Menjauh dari isu dan memilih diam, karena takut salah bicara di ruang publik.", "points": 2 },
+  { "label": "C", "text": "Membela pimpinan secara emosional di medsos agar serangan berhenti cepat.", "points": 3 },
+  { "label": "D", "text": "Tetap bekerja profesional dan mengarahkan pertanyaan publik ke juru bicara resmi.", "points": 4 },
+  { "label": "E", "text": "Kerja profesional, jaga narasi faktual, dan sampaikan masukan internal untuk perbaikan.", "points": 5 }
+  ],
+  "explanation": "Loyalitas bukan fanatisme; ukurannya adalah profesionalisme dan disiplin komunikasi. Opsi 4 sudah tepat menjaga jalur komunikasi resmi, namun belum memanfaatkan evaluasi internal. Opsi 5 lebih unggul karena menambah after-action mindset: menjaga kepercayaan publik dengan narasi faktual, sekaligus memberi umpan balik ke organisasi melalui chain of command."
+  },
+  {
+  "id": 31,
+  "category": "KEP_STAATSIDEE_PANCASILA",
+  "question": "Ada wacana sebagian organisasi untuk mengganti dasar negara dengan ideologi lain yang dianggap lebih baik. Sikap Anda sebagai calon aparat?",
+  "options": [
+  { "label": "A", "text": "Mendukung jika itu ramai didukung, karena semua ide bisa diperdebatkan.", "points": 1 },
+  { "label": "B", "text": "Tidak mendukung, tetapi memilih diam agar aman dan tidak diserang pihak manapun.", "points": 2 },
+  { "label": "C", "text": "Menolak wacana itu, namun menganggap cukup berhenti di pendapat pribadi saja.", "points": 3 },
+  { "label": "D", "text": "Menolak tegas dan mengedukasi lingkungan tentang Pancasila sebagai konsensus bangsa.", "points": 4 },
+  { "label": "E", "text": "Menolak tegas berbasis konstitusi, edukasi santun, dan lapor bila ada indikasi ancaman.", "points": 5 }
+  ],
+  "explanation": "Kesetiaan ideologis diuji lewat ketegasan yang tetap terukur. Opsi 4 sudah baik karena edukatif, namun belum memasukkan aspek early warning terhadap potensi ancaman. Opsi 5 lebih unggul karena memadukan ketegasan konstitusional, counter-narrative yang tidak memicu konflik, serta langkah intelijen dini bila terdeteksi indikasi radikalisasi."
+  },
+  {
+  "id": 32,
+  "category": "KEP_STAATSIDEE_NKRI",
+  "question": "Sebuah wilayah menyuarakan pemisahan diri karena merasa tidak puas dengan pembangunan. Pandangan dan sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mendukung pemisahan jika itu pilihan warga setempat dan dianggap solusi cepat.", "points": 1 },
+  { "label": "B", "text": "Tidak setuju, tetapi memilih pasif karena urusan itu dianggap di luar peran saya.", "points": 2 },
+  { "label": "C", "text": "Menolak, namun hanya fokus penindakan tanpa memahami akar keluhan masyarakat.", "points": 3 },
+  { "label": "D", "text": "Menjaga NKRI, sambil mendorong dialog dan program pemulihan kepercayaan masyarakat.", "points": 4 },
+  { "label": "E", "text": "Komit NKRI, lakukan pendekatan preemtif, intelijen terukur, dan penegakan hukum proporsional.", "points": 5 }
+  ],
+  "explanation": "Ancaman disintegrasi harus ditangani dengan strategi, bukan emosi. Opsi 4 sudah menggabungkan kedaulatan dan dialog, namun kurang pada aspek deteksi dini dan pengendalian situasi. Opsi 5 lebih unggul karena memakai spektrum penanganan: preemtif-preventif (komunikasi, trust building), intelijen (early warning), lalu law enforcement yang proporsional sesuai aturan."
+  },
+  {
+  "id": 33,
+  "category": "KEP_STAATSIDEE_UUD45",
+  "question": "Ada Perda yang dalam praktiknya bertentangan dengan UUD 1945. Sebagai aparat, bagaimana Anda menyikapinya?",
+  "options": [
+  { "label": "A", "text": "Mengikuti Perda karena itu aturan setempat dan lebih aman bagi posisi saya.", "points": 1 },
+  { "label": "B", "text": "Mengikuti yang paling mudah dijalankan di lapangan tanpa konsultasi hukum.", "points": 2 },
+  { "label": "C", "text": "Menolak menjalankan Perda, tetapi tidak melaporkan atau mencari solusi legalnya.", "points": 3 },
+  { "label": "D", "text": "Menjadikan UUD sebagai rujukan, lalu konsultasi ke fungsi hukum untuk arahan.", "points": 4 },
+  { "label": "E", "text": "Ikuti hierarki hukum, konsultasi resmi, dan dorong koreksi aturan via jalur legal institusi.", "points": 5 }
+  ],
+  "explanation": "Ini menguji legal reasoning dan kepatuhan pada hierarki perundang-undangan. Opsi 4 sudah benar dengan konsultasi, namun bisa berhenti sebagai wacana tanpa tindak lanjut. Opsi 5 lebih unggul karena memastikan tindakan lapangan tetap konstitusional sekaligus mendorong perbaikan sistem melalui jalur legal (akuntabel, bukan aksi sepihak)."
+  },
+  {
+  "id": 34,
+  "category": "KEP_STAATSIDEE_BELA_NEGARA",
+  "question": "Dalam menjalankan tugas sebagai anggota Polri, sejauh mana komitmen Anda terhadap risiko dan konsekuensi yang melekat pada penugasan?",
+  "options": [
+  { "label": "A", "text": "Saya memilih tugas yang aman saja, karena risiko tinggi bukan untuk semua orang.", "points": 1 },
+  { "label": "B", "text": "Saya siap selama kompensasi besar dan fasilitas lengkap dijamin di awal.", "points": 2 },
+  { "label": "C", "text": "Saya siap, tetapi akan menghindari penugasan tertentu agar tidak terlalu berbahaya.", "points": 3 },
+  { "label": "D", "text": "Saya siap menjalankan tugas sesuai perintah, dengan manajemen risiko yang disiplin.", "points": 4 },
+  { "label": "E", "text": "Saya siap ditempatkan sesuai kebutuhan, taat prosedur, dan bertanggung jawab atas konsekuensi.", "points": 5 }
+  ],
+  "explanation": "Bela negara pada aparat diukur dari kesiapan, disiplin prosedur, dan akuntabilitas, bukan retorika. Opsi 4 sudah baik karena menekankan manajemen risiko, namun belum menegaskan tanggung jawab personal terhadap konsekuensi. Opsi 5 lebih unggul karena mengikat komitmen pada duty orientation, self-control, dan ultimate accountability dalam koridor SOP."
+  },
+  {
+  "id": 35,
+  "category": "KEP_STAATSIDEE_PENGARUH_ASING",
+  "question": "Anda mengetahui ada upaya pihak asing memengaruhi penegakan hukum melalui bantuan dana dan fasilitas. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menerima bantuan itu karena bisa mempercepat kemajuan, tanpa banyak pertanyaan.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan karena merasa itu urusan atasan dan saya tidak ingin repot.", "points": 2 },
+  { "label": "C", "text": "Menolak secara pribadi, namun tidak melakukan langkah pencegahan organisasi.", "points": 3 },
+  { "label": "D", "text": "Meneruskan informasi ke atasan agar dinilai, sambil menunggu keputusan formal.", "points": 4 },
+  { "label": "E", "text": "Jaga kedaulatan: lapor prosedural, audit kepatuhan, dan pastikan kerja sama hanya via jalur resmi.", "points": 5 }
+  ],
+  "explanation": "Intervensi terselubung sering datang melalui pintu 'bantuan', sehingga butuh kewaspadaan integritas. Opsi 4 sudah tepat melibatkan pimpinan, tetapi belum memastikan kontrol kepatuhan dan mitigasi risiko. Opsi 5 lebih unggul karena menerapkan governance: pelaporan chain of command, compliance check, dan memastikan semua kerja sama berada pada kerangka hukum serta transparansi (anti-infiltrasi, anti-korupsi)."
+  },
+  {
+  "id": 36,
+  "category": "KEP_STAATSIDEE_BHINNEKA",
+  "question": "Ada konflik komunal yang mengatasnamakan mayoritas versus minoritas. Bagaimana Anda memposisikan diri sebagai aparat negara?",
+  "options": [
+  { "label": "A", "text": "Mengutamakan kepentingan mayoritas agar situasi cepat tenang.", "points": 1 },
+  { "label": "B", "text": "Fokus membela minoritas saja karena dianggap pihak paling lemah.", "points": 2 },
+  { "label": "C", "text": "Memisahkan massa dan menegakkan aturan netral demi ketertiban umum.", "points": 3 },
+  { "label": "D", "text": "Netral, menenangkan kedua pihak, lalu menunggu arahan pimpinan.", "points": 4 },
+  { "label": "E", "text": "Netral, de-eskalasi, lindungi yang rentan, dan koordinasikan tindak lanjut.", "points": 5 }
+  ],
+  "explanation": "Bhinneka menuntut impartial policing: aparat berdiri di atas semua golongan dengan procedural justice. Opsi 4 sudah menahan eskalasi, namun masih reaktif dan berisiko kehilangan momentum kontrol situasi. Opsi 5 lebih unggul karena menggabungkan de-eskalasi, perlindungan kelompok rentan (harm prevention), dan koordinasi lintas fungsi/instansi sebagai early intervention agar konflik tidak berulang."
+  },
+  {
+  "id": 37,
+  "category": "KEP_STAATSIDEE_SUMPAH",
+  "question": "Anda dihadapkan pada perintah komandan yang jelas melanggar hukum dan mengkhianati konstitusi. Apa pilihan Anda?",
+  "options": [
+  { "label": "A", "text": "Tetap patuh karena kepatuhan komando adalah prinsip utama.", "points": 1 },
+  { "label": "B", "text": "Bersikap netral dan menunda eksekusi agar tidak ikut terseret.", "points": 2 },
+  { "label": "C", "text": "Menjalankan dulu, lalu melapor belakangan untuk mengurangi risiko.", "points": 3 },
+  { "label": "D", "text": "Menolak dan meminta perintah tertulis sebelum mengambil langkah apapun.", "points": 4 },
+  { "label": "E", "text": "Menolak, amankan bukti, konsultasi hukum, dan lapor via jalur resmi.", "points": 5 }
+  ],
+  "explanation": "Chain of command memiliki batas: supremasi hukum dan loyalitas pada negara. Opsi 4 sudah menunjukkan penolakan yang lebih aman, namun bisa berhenti sebagai “stalling” tanpa mitigasi risiko organisasi. Opsi 5 lebih baik karena menegakkan lawful order, menjaga akuntabilitas (evidence handling), serta memakai pelaporan prosedural sehingga organisasi terlindungi dari penyimpangan komando."
+  },
+  {
+  "id": 38,
+  "category": "KEP_STAATSIDEE_NASIONALISME",
+  "question": "Apa makna pengabdian bagi Anda sebagai bagian dari institusi negara?",
+  "options": [
+  { "label": "A", "text": "Sarana meraih status sosial dan pengaruh yang lebih tinggi.", "points": 1 },
+  { "label": "B", "text": "Pekerjaan yang aman selama hak dan fasilitas terpenuhi.", "points": 2 },
+  { "label": "C", "text": "Menjalankan tugas profesional sesuai peran dan aturan organisasi.", "points": 3 },
+  { "label": "D", "text": "Pelayanan publik yang menuntut keteladanan dan pengendalian diri.", "points": 4 },
+  { "label": "E", "text": "Pengabdian tulus, siap ditempatkan, dan akuntabel pada konstitusi.", "points": 5 }
+  ],
+  "explanation": "Pengabdian yang matang bersifat duty-oriented: melayani, menjaga keamanan, dan berintegritas. Opsi 4 sudah kuat pada aspek etika dan self-control, tetapi belum menegaskan kesiapan penugasan dan ultimate accountability. Opsi 5 lebih unggul karena menambah komitmen kesiapsiagaan (readiness) dan pertanggungjawaban moral-hukum sebagai core identity aparatur negara."
+  },
+  {
+  "id": 39,
+  "category": "KEP_STAATSIDEE_WAWASAN_NUSANTARA",
+  "question": "Anda ditugaskan di wilayah terluar yang tertinggal pembangunannya. Bagaimana Anda memandang wilayah tersebut?",
+  "options": [
+  { "label": "A", "text": "Anggap sebagai hukuman, lalu mencari cara agar cepat dipindah.", "points": 1 },
+  { "label": "B", "text": "Menjalani seperlunya sambil menghitung hari sampai mutasi.", "points": 2 },
+  { "label": "C", "text": "Menerima penugasan dan fokus layanan dasar serta adaptasi lapangan.", "points": 3 },
+  { "label": "D", "text": "Melihatnya sebagai beranda depan, lalu membangun kemitraan warga.", "points": 4 },
+  { "label": "E", "text": "Bangga, perkuat layanan, keamanan, dan problem solving berbasis komunitas.", "points": 5 }
+  ],
+  "explanation": "Wawasan Nusantara menempatkan wilayah terluar sebagai simbol kedaulatan. Opsi 4 sudah tepat karena memandang strategis dan membangun relasi sosial, namun belum menekankan kapasitas problem-oriented policing. Opsi 5 lebih baik karena menggabungkan kebanggaan penugasan, pelayanan prima, dan pemecahan masalah bersama warga (community partnership) untuk dampak yang terukur."
+  },
+  {
+  "id": 40,
+  "category": "KEP_STAATSIDEE_KEAMANAN_NASIONAL",
+  "question": "Dalam penilaian Anda, ancaman apa yang paling berisiko memecah persatuan jika tidak dikelola dengan tepat?",
+  "options": [
+  { "label": "A", "text": "Kesenjangan ekonomi yang memicu kriminalitas dan keresahan sosial.", "points": 2 },
+  { "label": "B", "text": "Korupsi layanan publik yang merusak kepercayaan pada institusi.", "points": 3 },
+  { "label": "C", "text": "Disinformasi digital yang membentuk polarisasi dan kebencian massal.", "points": 4 },
+  { "label": "D", "text": "Intoleransi yang mengeras menjadi konflik komunal antar kelompok.", "points": 4 },
+  { "label": "E", "text": "Hoaks dan intoleransi yang berkolaborasi memicu disintegrasi bangsa.", "points": 5 }
+  ],
+  "explanation": "Ancaman strategis bukan hanya satu faktor, tetapi efek pengganda. Opsi 4 benar karena intoleransi bisa memicu kekerasan komunal, namun masih melihatnya sebagai isu tunggal. Opsi 5 lebih unggul karena menangkap pola operasi: disinformasi mempercepat radikalisasi sosial, memperbesar eskalasi, dan meningkatkan risiko disintegrasi (strategic threat awareness)."
+  },
+  {
+  "id": 41,
+  "category": "KEP_KONSISTENSI_BELA_NEGARA",
+  "question": "Pernyataan UU: 'Saat situasi negara relatif aman, saya cenderung menomorduakan bela negara karena merasa itu tidak mendesak.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Bela negara bagi aparat adalah perilaku harian: disiplin, pelayanan prima, menjaga Kamtibmas, dan loyal pada konstitusi. Opsi 4 menunjukkan penolakan, namun masih membuka celah “situasional” saat nyaman. Opsi 5 lebih kuat karena menunjukkan internalisasi tugas tanpa syarat (consistent duty orientation) dan kesiapsiagaan psikologis."
+  },
+  {
+  "id": 42,
+  "category": "KEP_KONSISTENSI_SARA",
+  "question": "Pernyataan VV: 'Saya lebih cepat mempercayai informasi dari orang yang satu keyakinan, sebelum memeriksa sumbernya.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Pernyataan ini mengukur bias kognitif dan objektivitas informasi. Opsi 4 menolak bias, tetapi belum menegaskan kebiasaan verifikasi. Opsi 5 lebih baik karena menunjukkan standar kerja berbasis fakta (evidence-based), resisten terhadap bias kelompok, dan konsisten dengan prinsip netralitas."
+  },
+  {
+  "id": 43,
+  "category": "KEP_KONSISTENSI_DEMOKRASI",
+  "question": "Pernyataan WW: 'Dalam kondisi tertentu, pendekatan pemimpin yang otoriter saya anggap lebih efektif daripada prosedur demokratis.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Indonesia adalah negara hukum; efektivitas tidak boleh mengalahkan constitutionalism dan due process. Opsi 4 menolak kecenderungan otoriter, namun masih berpotensi kompromi saat tertekan. Opsi 5 lebih unggul karena konsisten menempatkan hukum dan prosedur sebagai kontrol kekuasaan (power restraint) serta indikator kematangan kepemimpinan."
+  },
+  {
+  "id": 44,
+  "category": "KEP_KONSISTENSI_KRITIK_ASING",
+  "question": "Pernyataan XX: 'Saya cenderung defensif dan kesal ketika kritik tentang negara datang dari warga negara asing.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Nasionalisme sehat berbeda dari chauvinisme; aparat dituntut emotional regulation dan evaluasi berbasis substansi. Opsi 4 menunjukkan kontrol diri, namun belum menegaskan sikap terbuka untuk perbaikan. Opsi 5 lebih baik karena menandakan kedewasaan: menyaring kritik dengan data, tidak reaktif, dan tetap menjaga martabat negara secara profesional."
+  },
+  {
+  "id": 45,
+  "category": "KEP_KONSISTENSI_KEPENTINGAN_PRIBADI",
+  "question": "Pernyataan YY: 'Dalam keadaan darurat, saya akan memastikan harta saya aman dulu sebelum membantu mengamankan dokumen dinas yang penting.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Pernyataan ini menguji prioritas tugas dan self-sacrifice dalam batas keselamatan. Opsi 4 menolak mengutamakan kepentingan pribadi, namun masih menyisakan ruang kompromi saat panik. Opsi 5 lebih unggul karena menunjukkan orientasi pada kepentingan dinas/negara dan pengendalian diri saat krisis (crisis discipline)."
+  },
+  {
+  "id": 46,
+  "category": "KEP_KONSISTENSI_HUKUM_ADAT",
+  "question": "Pernyataan ZZ: 'Dalam konflik, saya lebih memilih kesepakatan kelompok setempat meski tidak sejalan dengan hukum nasional.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Menghormati adat boleh, tetapi supremasi hukum negara tetap rujukan utama. Opsi 4 menunjukkan pemahaman hierarki hukum, namun bisa belum konsisten saat tekanan sosial tinggi. Opsi 5 lebih baik karena menegaskan rule of law sebagai batas diskresi, sekaligus mencegah impunitas berbasis kelompok."
+  },
+  {
+  "id": 47,
+  "category": "KEP_KONSISTENSI_KESETIAAN",
+  "question": "Pernyataan AAA: 'Jika mengetahui rekan terlibat gerakan yang bertentangan dengan konstitusi, saya akan melindunginya demi setia kawan.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Setia kawan tidak boleh berubah menjadi kolusi yang mengancam organisasi dan negara. Opsi 4 menolak melindungi, namun belum menegaskan keberanian moral untuk bertindak prosedural. Opsi 5 lebih unggul karena menunjukkan integritas: menolak kolusi, siap melapor melalui mekanisme resmi, dan melindungi keamanan internal institusi."
+  },
+  {
+  "id": 48,
+  "category": "KEP_KONSISTENSI_HAK_KEWAJIBAN",
+  "question": "Pernyataan BBB: 'Bagi saya, menjadi polisi lebih tentang memiliki kuasa daripada kewajiban melayani warga.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Motif kuasa berasosiasi dengan risiko arogansi dan penyalahgunaan wewenang. Opsi 4 menolak orientasi kuasa, tetapi belum tentu mencerminkan service mindset yang kuat. Opsi 5 lebih baik karena menegaskan identitas pelayan publik (service excellence) dan kontrol diri dalam penggunaan kewenangan."
+  },
+  {
+  "id": 49,
+  "category": "KEP_KONSISTENSI_KEBHINNEKAAN",
+  "question": "Pernyataan CCC: 'Keberagaman budaya sering saya anggap menghambat, sehingga lebih baik diseragamkan agar efisien.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+  { "label": "B", "text": "Sesuai", "points": 2 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+  ],
+  "explanation": "Pernyataan ini menguji penerimaan Bhinneka dan kemampuan bekerja inklusif. Opsi 4 menunjukkan penolakan gagasan penyeragaman, namun masih dapat menyisakan bias implisit. Opsi 5 lebih unggul karena menerima keberagaman sebagai modal sosial, selaras dengan pelayanan tanpa diskriminasi dan stabilitas persatuan."
+  },
+  {
+  "id": 50,
+  "category": "KEP_PENUTUP_ULTIMATUM",
+  "question": "Pernyataan DDD (FINAL): 'Saya berkomitmen menjaga integritas, loyalitas, dan kehormatan institusi serta negara dalam setiap tugas.'",
+  "options": [
+  { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+  { "label": "B", "text": "Sesuai", "points": 4 },
+  { "label": "C", "text": "Ragu-ragu", "points": 3 },
+  { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+  { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+  ],
+  "explanation": "Ini adalah item penutup untuk mengunci profil integritas dan konsistensi nilai. Opsi 4 masih positif, tetapi bisa bersifat situasional saat tekanan meningkat. Opsi 5 lebih baik karena menunjukkan komitmen tanpa syarat (value internalization) dan kesiapan memegang accountability sebagai standar perilaku, bukan sekadar slogan."
+  }
+  ]
+}

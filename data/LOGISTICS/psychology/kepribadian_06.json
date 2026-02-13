@@ -1,0 +1,658 @@
+{
+  "title": "Paket Kepribadian 06 - Kepemimpinan Taktis",
+  "type": "PSIKOLOGI_KLINIS_POLRI",
+  "description": "Simulasi tes kepribadian fokus pada leadership, decision making, dan manajemen situasi.",
+  "duration": 1500,
+  "questions": [
+  {
+  "id": 1,
+  "category": "KEP_KEPUTUSAN_CEPAT",
+  "question": "Saat operasi berisiko tinggi, rencana awal gagal dan komunikasi dengan komando terputus. Sebagai Komandan Tim, Anda harus memutuskan segera. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menghentikan pergerakan dan menunggu sampai komunikasi pulih agar keputusan tidak salah.", "points": 1 },
+  { "label": "B", "text": "Meminta pendapat semua anggota secara bergantian sebelum memberi perintah agar lebih aman.", "points": 2 },
+  { "label": "C", "text": "Menjalankan prosedur cadangan yang sudah disepakati, sambil memetakan ulang risiko di lapangan.", "points": 3 },
+  { "label": "D", "text": "Menetapkan keputusan cepat berdasarkan pengamatan inti, lalu menyesuaikan langkah saat situasi berubah.", "points": 4 },
+  { "label": "E", "text": "Menetapkan prioritas keselamatan, memberi perintah jelas, menyiapkan mitigasi, dan mencatat alasan keputusan untuk akuntabilitas.", "points": 5 }
+  ],
+  "explanation": "Inti kompetensi di sini adalah decisiveness berbasis situational awareness dan risk management. Opsi 4 sudah cepat dan adaptif, tetapi masih minim aspek akuntabilitas dan mitigasi terstruktur. Opsi 5 unggul karena menggabungkan prinsip command presence (tegas-tenang), keselamatan sebagai prioritas, rencana kontinjensi, dan dokumentasi keputusan (accountability) meski komunikasi terputus."
+  },
+  {
+  "id": 2,
+  "category": "KEP_MENEGUR_SENIOR",
+  "question": "Anda ditunjuk sebagai ketua tim. Ada anggota yang lebih senior usianya, namun kerap melanggar SOP dan memperlambat kerja. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkannya karena merasa sungkan, sambil berharap situasi membaik dengan sendirinya.", "points": 1 },
+  { "label": "B", "text": "Menegurnya saat rapat agar semua melihat bahwa Anda tegas sebagai ketua tim.", "points": 2 },
+  { "label": "C", "text": "Menyampaikan catatan SOP secara umum ke tim, tanpa menyebut nama agar tidak menyinggung.", "points": 3 },
+  { "label": "D", "text": "Mengajak bicara empat mata, menjelaskan dampaknya, lalu meminta komitmen perbaikan sesuai SOP.", "points": 4 },
+  { "label": "E", "text": "Empat mata: tegas-bermartabat, sepakati rencana perbaikan dan monitoring, lalu eskalasi formal bila berulang.", "points": 5 }
+  ],
+  "explanation": "Dilema utamanya adalah menjaga wibawa, menghormati senioritas, dan memastikan kepatuhan SOP. Opsi 4 sudah tepat melalui assertive communication dan menjaga face-saving. Opsi 5 lebih unggul karena menambah kontrol manajerial: ada rencana perbaikan, monitoring, dan jalur chain of command bila pelanggaran berulang, sehingga disiplin berjalan tanpa mempermalukan."
+  },
+  {
+  "id": 3,
+  "category": "KEP_TANGGUNG_JAWAB_KEGAGALAN",
+  "question": "Tim gagal mencapai target karena kesalahan salah satu anggota. Pimpinan menuntut penjelasan. Sikap Anda sebagai ketua tim?",
+  "options": [
+  { "label": "A", "text": "Menyebut nama anggota yang salah agar jelas siapa penyebabnya dan Anda tidak ikut disalahkan.", "points": 1 },
+  { "label": "B", "text": "Menjelaskan bahwa kegagalan terjadi karena anggota tidak mengikuti arahan, lalu meminta pimpinan menegur.", "points": 2 },
+  { "label": "C", "text": "Menerima kritik tanpa banyak bicara, lalu berjanji tim akan lebih hati-hati ke depannya.", "points": 3 },
+  { "label": "D", "text": "Mengakui ada kelemahan pengawasan, menyampaikan langkah korektif, dan meminta kesempatan memperbaiki kinerja.", "points": 4 },
+  { "label": "E", "text": "Mengambil tanggung jawab komando, memaparkan perbaikan sistem, lalu membina anggota secara internal dan terukur.", "points": 5 }
+  ],
+  "explanation": "Prinsipnya: accountability dan leadership shielding—melindungi tim ke luar, membina ke dalam. Opsi 4 sudah bertanggung jawab dan fokus solusi. Opsi 5 unggul karena bukan hanya meminta kesempatan, tetapi menunjukkan kontrol komando: perbaikan sistem, pembinaan terukur, dan pengendalian emosi saat ditekan (self-control) tanpa melempar kambing hitam."
+  },
+  {
+  "id": 4,
+  "category": "KEP_MORAL_PASUKAN",
+  "question": "Moral tim turun karena kelelahan dan kehilangan rekan. Besok masih ada tugas berat. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Mendorong mereka tetap kuat tanpa banyak bicara, karena tugas harus jalan apa pun kondisinya.", "points": 1 },
+  { "label": "B", "text": "Membiarkan semua istirahat total dan menunda pembahasan agar emosi tidak semakin berat.", "points": 2 },
+  { "label": "C", "text": "Mengadakan pengarahan singkat, menegaskan fokus misi, lalu melanjutkan persiapan seperti biasa.", "points": 3 },
+  { "label": "D", "text": "Mengakui duka tim, memberi ruang singkat, lalu menyusun rencana kerja besok yang realistis.", "points": 4 },
+  { "label": "E", "text": "Melakukan debrief terstruktur, validasi emosi, cek kondisi anggota, atur recovery, dan tetapkan target besok bertahap.", "points": 5 }
+  ],
+  "explanation": "Kuncinya adalah de-eskalasi emosi, psychological first aid, dan menjaga operational readiness. Opsi 4 sudah empatik dan realistis. Opsi 5 lebih baik karena memakai pendekatan terstruktur: debrief, asesmen kondisi anggota, pengaturan recovery, serta target bertahap yang menjaga moral dan kinerja tanpa mengabaikan aspek kemanusiaan."
+  },
+  {
+  "id": 5,
+  "category": "KEP_POPULARITAS_VS_DISIPLIN",
+  "question": "Anda menerapkan aturan disiplin baru. Sebagian anggota mengeluh dan mulai membicarakan Anda di belakang. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Melonggarkan aturan agar suasana kembali nyaman dan hubungan dengan anggota tidak tegang.", "points": 1 },
+  { "label": "B", "text": "Mencari sumber gosip dan menegur keras agar tidak ada yang berani melemahkan kewibawaan.", "points": 2 },
+  { "label": "C", "text": "Mengabaikan komentar dan fokus bekerja, karena waktu tidak perlu habis untuk hal seperti itu.", "points": 3 },
+  { "label": "D", "text": "Menjelaskan tujuan aturan, mendengar keberatan yang relevan, namun tetap menegakkan standar secara konsisten.", "points": 4 },
+  { "label": "E", "text": "Konsisten menegakkan aturan, memberi teladan, komunikasi dua arah, dan menerapkan sanksi adil tanpa personalisasi.", "points": 5 }
+  ],
+  "explanation": "Dilema antara leadership acceptance dan disiplin organisasi. Opsi 4 baik karena transparan dan tegas. Opsi 5 unggul karena menambah service excellence internal: teladan, komunikasi dua arah, serta penegakan yang adil dan non-reaktif (self-control), sehingga disiplin terjaga tanpa menciptakan iklim takut atau balas dendam."
+  },
+  {
+  "id": 6,
+  "category": "KEP_PENDELEGASIAN",
+  "question": "Anda punya anggota sangat kompeten tetapi pemalu. Ada tugas presentasi di depan pimpinan. Apa yang Anda lakukan?",
+  "options": [
+  { "label": "A", "text": "Mengambil alih presentasi agar hasil aman, karena di depan pimpinan tidak boleh ada risiko.", "points": 1 },
+  { "label": "B", "text": "Menugaskan anggota lain yang lebih percaya diri, sementara dia tetap di belakang layar saja.", "points": 2 },
+  { "label": "C", "text": "Memberinya pilihan ikut atau tidak, agar dia nyaman dan tidak merasa dipaksa oleh atasan.", "points": 3 },
+  { "label": "D", "text": "Memintanya mempresentasikan bagian kecil dengan latihan, sementara Anda menutup presentasi keseluruhan.", "points": 4 },
+  { "label": "E", "text": "Menjadikannya co-presenter, melatih struktur pesan, dan menyiapkan backup jika dia blank saat sesi tanya jawab.", "points": 5 }
+  ],
+  "explanation": "Prinsipnya empowerment dan kaderisasi. Opsi 4 sudah memberi panggung bertahap. Opsi 5 lebih unggul karena membangun kompetensi komunikasi secara sistematis: ada coaching, peran jelas, dan safety net. Ini meningkatkan kepercayaan diri tanpa mempermalukan, sekaligus menjaga standar performa di hadapan pimpinan."
+  },
+  {
+  "id": 7,
+  "category": "KEP_KRISIS_MEDIA",
+  "question": "Terjadi kesalahan prosedur oleh anggota Anda dan videonya viral dengan narasi negatif. Media meminta pernyataan segera. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menghindari media sementara waktu agar situasi mereda, karena bicara sekarang bisa memperkeruh keadaan.", "points": 1 },
+  { "label": "B", "text": "Membantah narasi viral dan menegaskan bahwa publik tidak paham situasi, tanpa banyak penjelasan.", "points": 2 },
+  { "label": "C", "text": "Memberi pernyataan singkat bahwa kasus akan dipelajari, lalu menutup sesi agar tidak salah kutip.", "points": 3 },
+  { "label": "D", "text": "Menyampaikan bahwa ada evaluasi internal, dan akan ada tindak lanjut setelah fakta lengkap terkumpul.", "points": 4 },
+  { "label": "E", "text": "Tenang: akui kekhawatiran publik, sampaikan langkah investigasi, jaga due process, dan rilis update lewat kanal resmi.", "points": 5 }
+  ],
+  "explanation": "Manajemen krisis menuntut one-voice policy, kontrol emosi, dan akuntabilitas. Opsi 4 sudah benar dengan komitmen evaluasi. Opsi 5 lebih baik karena menggabungkan service excellence (mengakui kekhawatiran publik), transparansi terukur (investigasi), perlindungan prosedur (due process), dan strategi komunikasi resmi untuk mencegah misinformasi."
+  },
+  {
+  "id": 8,
+  "category": "KEP_ALOKASI_SUMBERDAYA",
+  "question": "Anda hanya punya satu unit patroli. Masuk dua laporan bersamaan: potensi kekerasan yang mengancam keselamatan, dan laporan pencurian properti. Prioritas Anda?",
+  "options": [
+  { "label": "A", "text": "Mendahulukan laporan dari pihak berpengaruh agar hubungan kelembagaan tetap aman dan tidak menimbulkan masalah.", "points": 1 },
+  { "label": "B", "text": "Membagi personel tanpa perhitungan risiko agar dua lokasi sama-sama ditangani meski terbatas.", "points": 2 },
+  { "label": "C", "text": "Menangani potensi kekerasan, sementara laporan pencurian ditangani setelah situasi pertama selesai.", "points": 3 },
+  { "label": "D", "text": "Mengutamakan potensi kekerasan dan meminta bantuan unit lain, sambil memberi arahan awal untuk pengamanan TKP.", "points": 4 },
+  { "label": "E", "text": "Life safety first: respon cepat ke ancaman, koordinasi cadangan, dan instruksi preserving evidence untuk kasus properti.", "points": 5 }
+  ],
+  "explanation": "Prinsip prioritas layanan adalah keselamatan jiwa di atas harta. Opsi 4 sudah mengarah benar dengan koordinasi bantuan. Opsi 5 lebih unggul karena menyertakan dua hal krusial: respons life safety yang cepat serta langkah awal menjaga kualitas penanganan kasus properti (preserving evidence) tanpa mengabaikan layanan kepada pelapor."
+  },
+  {
+  "id": 9,
+  "category": "KEP_INOVASI_PROSEDUR",
+  "question": "Anda melihat layanan administrasi di kantor berbelit dan menyulitkan masyarakat. Anda punya ide penyederhanaan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengikuti alur lama saja karena perubahan bisa menimbulkan resistensi dan membuat Anda disorot.", "points": 1 },
+  { "label": "B", "text": "Mengubah alur secara langsung agar cepat terasa dampaknya, meski belum sempat koordinasi formal.", "points": 2 },
+  { "label": "C", "text": "Menyampaikan keluhan warga ke rekan kerja agar jadi bahan obrolan dan tekanan sosial internal.", "points": 3 },
+  { "label": "D", "text": "Mengusulkan alur baru ke atasan dengan argumentasi manfaat, lalu meminta izin uji coba terbatas.", "points": 4 },
+  { "label": "E", "text": "Memetakan proses, identifikasi bottleneck, ajukan pilot sesuai aturan, ukur hasil, lalu standarkan bila efektif.", "points": 5 }
+  ],
+  "explanation": "Change management yang baik harus taat prosedur sekaligus berorientasi pelayanan prima. Opsi 4 sudah tepat dengan usulan dan izin uji coba. Opsi 5 lebih baik karena memakai pendekatan berbasis data: pemetaan proses, identifikasi bottleneck, evaluasi terukur, dan standardisasi. Ini mengurangi risiko, meningkatkan akuntabilitas, dan memperkuat service excellence."
+  },
+  {
+  "id": 10,
+  "category": "KEP_REKRUTMEN_TIM",
+  "question": "Anda memilih anggota untuk tim khusus. Ada kandidat titipan dengan nilai sedang, dan kandidat lain lebih kompeten tanpa koneksi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memilih kandidat titipan agar relasi dengan atasan aman, karena Anda tidak ingin konflik kepentingan.", "points": 1 },
+  { "label": "B", "text": "Memilih kandidat titipan namun memberinya tugas ringan agar tetap ada ruang untuk kandidat kompeten.", "points": 2 },
+  { "label": "C", "text": "Menyerahkan keputusan ke atasan agar Anda tidak ikut terseret, apa pun hasilnya nanti.", "points": 3 },
+  { "label": "D", "text": "Memilih kandidat paling kompeten dan menyiapkan alasan berbasis data jika ada pertanyaan dari atasan.", "points": 4 },
+  { "label": "E", "text": "Pilih yang kompeten, dokumentasikan kriteria, komunikasikan profesional, dan siapkan jalur pembinaan untuk kandidat titipan.", "points": 5 }
+  ],
+  "explanation": "Integritas menuntut merit system dan anti-nepotisme. Opsi 4 sudah benar karena berbasis data. Opsi 5 lebih unggul karena menambah tata kelola: dokumentasi kriteria (fairness), komunikasi asertif tanpa agresi, dan menyediakan jalan pembinaan bagi yang tidak terpilih. Ini menjaga misi, moral tim, dan relasi kerja secara dewasa."
+  },
+  {
+  "id": 11,
+  "category": "KEP_MICROMANAGEMENT",
+  "question": "Sebagai ketua tim, Anda merasa anggota bekerja lambat. Anda bisa menyelesaikan tugas sendiri lebih cepat. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Mengambil alih sebagian besar pekerjaan agar hasil cepat selesai dan Anda tidak perlu menunggu mereka.", "points": 1 },
+  { "label": "B", "text": "Meninggikan tekanan dengan teguran keras agar mereka sadar tempo kerja harus meningkat.", "points": 2 },
+  { "label": "C", "text": "Membiarkan saja proses berjalan, karena setiap orang punya ritme dan Anda tidak ingin mengganggu.", "points": 3 },
+  { "label": "D", "text": "Menetapkan target antara, memberi coaching singkat, dan memantau progres tanpa mengambil alih semuanya.", "points": 4 },
+  { "label": "E", "text": "Delegasi tetap jalan, hilangkan hambatan, tetapkan milestone, dan intervensi hanya pada titik kritis berbasis data.", "points": 5 }
+  ],
+  "explanation": "Tujuan pemimpin adalah enable tim, bukan one man show. Opsi 4 sudah menyeimbangkan kontrol dan coaching. Opsi 5 lebih baik karena menguatkan manajemen kinerja: identifikasi hambatan, milestone, monitoring berbasis data, serta intervensi selektif. Ini mencegah burnout pemimpin dan meningkatkan kapasitas tim secara berkelanjutan."
+  },
+  {
+  "id": 12,
+  "category": "KEP_PENEMPATAN_ANGGOTA",
+  "question": "Ada anggota ahli teknologi tetapi fisiknya lemah, dan anggota fisiknya kuat tetapi kurang teknologi. Bagaimana Anda membagi peran?",
+  "options": [
+  { "label": "A", "text": "Menukar peran mereka agar cepat bisa semua hal, meski hasil kerja awal kemungkinan kurang rapi.", "points": 1 },
+  { "label": "B", "text": "Membagi tugas sama rata agar adil, walau efektivitas tim berpotensi turun saat situasi padat.", "points": 2 },
+  { "label": "C", "text": "Menempatkan mereka sesuai kekuatan masing-masing agar operasi berjalan, tanpa menambah tugas pengembangan.", "points": 3 },
+  { "label": "D", "text": "Menempatkan sesuai kekuatan, lalu memberi cross-training ringan agar ada cadangan saat dibutuhkan.", "points": 4 },
+  { "label": "E", "text": "Right man right place, plus rencana cross-training bertahap dan skenario cadangan agar tim adaptif.", "points": 5 }
+  ],
+  "explanation": "Keadilan bukan berarti sama rata, melainkan optimalisasi kapasitas. Opsi 4 sudah efektif dan mulai membangun cadangan kompetensi. Opsi 5 unggul karena menambahkan perencanaan kontinjensi dan pengembangan bertahap, sehingga organisasi tidak rapuh jika salah satu personel absen, sekaligus tetap menjaga output layanan/operasi."
+  },
+  {
+  "id": 13,
+  "category": "KEP_ANGGOTA_BERMASALAH",
+  "question": "Ada anggota sangat cerdas dan produktif, tetapi sering merendahkan rekan dan merusak suasana tim. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkannya karena output kerja tinggi dan Anda tidak ingin kehilangan performa tim dalam jangka pendek.", "points": 1 },
+  { "label": "B", "text": "Memberi teguran keras saat itu juga agar dia jera, tanpa perlu diskusi panjang tentang perasaannya.", "points": 2 },
+  { "label": "C", "text": "Mengimbau tim untuk bersabar dan berharap dia akan menyesuaikan diri seiring waktu berjalan.", "points": 3 },
+  { "label": "D", "text": "Memanggil empat mata, memberi umpan balik tegas, dan meminta perubahan perilaku agar tidak mengganggu tim.", "points": 4 },
+  { "label": "E", "text": "Empat mata: feedback terstruktur, target perilaku, coaching, monitoring, dan eskalasi sanksi bila tetap toxic.", "points": 5 }
+  ],
+  "explanation": "Isu utamanya adalah manajemen perilaku dan budaya kerja. Opsi 4 sudah assertive dan menjaga martabat. Opsi 5 lebih unggul karena memakai pendekatan intelijen perilaku: feedback terstruktur, target perilaku, coaching, monitoring, dan jalur sanksi. Ini memastikan perubahan nyata, bukan sekadar teguran sekali yang mudah diulang kembali."
+  },
+  {
+  "id": 14,
+  "category": "KEP_MENJAGA_WIBAWA_TIM",
+  "question": "Anggota Anda melakukan kesalahan prosedur di depan masyarakat. Bagaimana Anda mengoreksi tanpa merusak wibawa institusi?",
+  "options": [
+  { "label": "A", "text": "Menegurnya keras di tempat agar publik melihat Anda tegas dan tidak mentoleransi kesalahan.", "points": 1 },
+  { "label": "B", "text": "Membela tindakan anggota agar tampak kompak, meski Anda tahu ada prosedur yang terlewat.", "points": 2 },
+  { "label": "C", "text": "Membetulkan situasi secara singkat, lalu melanjutkan kegiatan tanpa memberi arahan apa pun ke anggota.", "points": 3 },
+  { "label": "D", "text": "Mengambil alih, merapikan layanan ke publik, lalu menegur anggota secara privat setelah situasi selesai.", "points": 4 },
+  { "label": "E", "text": "Ambil alih dan service recovery ke publik, lalu coaching privat berbasis SOP serta catat perbaikan untuk evaluasi.", "points": 5 }
+  ],
+  "explanation": "Standar pelayanan prima: perbaiki dampak ke publik dulu, baru pembinaan internal. Opsi 4 sudah sesuai prinsip 'tegur di ruang tertutup'. Opsi 5 lebih baik karena menambah service recovery dan evaluasi terukur: publik mendapat solusi langsung, anggota mendapat coaching berbasis SOP, dan ada catatan untuk mencegah pengulangan."
+  },
+  {
+  "id": 15,
+  "category": "KEP_PARTISIPASI_TIM",
+  "question": "Dalam rapat, anggota terlihat pasif dan takut menyampaikan pendapat karena Anda pimpinan. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkan rapat cepat selesai, karena diam berarti patuh dan keputusan lebih mudah diambil.", "points": 1 },
+  { "label": "B", "text": "Menegur tim karena pasif, agar mereka sadar rapat tidak boleh hanya mendengar tanpa kontribusi.", "points": 2 },
+  { "label": "C", "text": "Meminta masukan secara umum, lalu melanjutkan agenda meski tetap tidak ada yang berpendapat.", "points": 3 },
+  { "label": "D", "text": "Membuat sesi giliran bicara, bertanya spesifik, dan menampung opsi tanpa mengomentari terlalu cepat.", "points": 4 },
+  { "label": "E", "text": "Bangun psychological safety: aturan diskusi, validasi masukan, dorong dissent sehat, lalu simpulkan berbasis data.", "points": 5 }
+  ],
+  "explanation": "Keheningan tim bisa memicu groupthink dan blind spot. Opsi 4 sudah menciptakan struktur agar orang bicara. Opsi 5 unggul karena menekankan psychological safety dan dissent sehat: anggota merasa aman, ide kritis muncul, dan keputusan jadi lebih matang serta akuntabel—tanpa kehilangan chain of command."
+  },
+  {
+  "id": 16,
+  "category": "KEP_KADERISASI",
+  "question": "Anda akan cuti dua minggu dan perlu menunjuk pelaksana harian. Siapa yang Anda pilih dan bagaimana Anda menyiapkannya?",
+  "options": [
+  { "label": "A", "text": "Memilih rekan paling dekat agar koordinasi mudah, karena hubungan personal mempercepat komunikasi.", "points": 1 },
+  { "label": "B", "text": "Memilih yang paling senior agar tidak ada yang protes, meski performanya tidak selalu stabil.", "points": 2 },
+  { "label": "C", "text": "Tidak menunjuk siapa pun dan tetap mengontrol dari jarak jauh agar keputusan tetap di tangan Anda.", "points": 3 },
+  { "label": "D", "text": "Memilih anggota yang paling kompeten dan memberi arahan umum, lalu percaya dia mengatur sendiri.", "points": 4 },
+  { "label": "E", "text": "Memilih yang kompeten, brief wewenang-batasan, tetapkan jalur laporan, dan siapkan eskalasi bila ada keputusan sensitif.", "points": 5 }
+  ],
+  "explanation": "Succession planning menuntut meritokrasi dan tata kelola. Opsi 4 sudah memilih orang kompeten. Opsi 5 lebih baik karena memastikan continuity: ada briefing wewenang, batasan keputusan, jalur laporan, dan mekanisme eskalasi. Ini mencegah vacuum of command dan menjaga akuntabilitas selama Anda tidak hadir."
+  },
+  {
+  "id": 17,
+  "category": "KEP_FAIRNESS",
+  "question": "Ada kuota pelatihan luar negeri untuk satu orang. Adik kandung Anda memenuhi syarat, tetapi ada anggota lain dengan nilai sedikit lebih tinggi. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Memilih adik Anda karena sama-sama memenuhi syarat dan Anda ingin memastikan keluarga mendapat kesempatan.", "points": 1 },
+  { "label": "B", "text": "Memilih adik Anda namun tetap menyebut proses seleksi objektif agar tidak menimbulkan pertanyaan.", "points": 2 },
+  { "label": "C", "text": "Memilih anggota dengan nilai tertinggi, tetapi Anda sendiri yang menetapkan keputusan tanpa melibatkan pihak lain.", "points": 3 },
+  { "label": "D", "text": "Menyerahkan seleksi pada tim kecil internal agar terlihat netral, lalu Anda mengikuti hasilnya.", "points": 4 },
+  { "label": "E", "text": "Menyatakan konflik kepentingan, gunakan panel dan kriteria tertulis, lalu umumkan hasil beserta dasar penilaian.", "points": 5 }
+  ],
+  "explanation": "Ujian integritas paling berat adalah konflik kepentingan. Opsi 4 sudah mengurangi bias dengan melibatkan tim. Opsi 5 paling kuat karena memenuhi prinsip good governance: deklarasi conflict of interest, kriteria tertulis, panel, dan transparansi dasar penilaian. Ini melindungi organisasi, melindungi Anda, dan menjaga trust tim."
+  },
+  {
+  "id": 18,
+  "category": "KEP_KONFLIK_INTERNAL",
+  "question": "Dua anggota terbaik bertengkar karena masalah pribadi sampai mengganggu kerja tim. Apa tindakan Anda?",
+  "options": [
+  { "label": "A", "text": "Membiarkan dulu karena mereka orang dewasa, dan Anda yakin nanti akan selesai sendiri.", "points": 1 },
+  { "label": "B", "text": "Memindahkan salah satunya agar cepat tenang, tanpa membahas akar masalah yang memicu konflik.", "points": 2 },
+  { "label": "C", "text": "Menegur keduanya di depan tim agar jadi pelajaran, lalu meminta mereka kembali bekerja normal.", "points": 3 },
+  { "label": "D", "text": "Memanggil keduanya, memediasi, dan menegaskan batas profesional: urusan pribadi tidak dibawa ke dinas.", "points": 4 },
+  { "label": "E", "text": "Mediasi: aturan komunikasi, kesepakatan kerja, tindak lanjut terjadwal, dan rujukan pembinaan bila berulang.", "points": 5 }
+  ],
+  "explanation": "Conflict resolution yang efektif menuntut de-eskalasi dan batas profesional. Opsi 4 sudah tepat sebagai mediator dan menegaskan profesionalisme. Opsi 5 unggul karena menambah perangkat kontrol: aturan komunikasi, kesepakatan kerja yang jelas, follow-up, serta jalur pembinaan. Ini mencegah konflik kambuh dan menjaga performa tim."
+  },
+  {
+  "id": 19,
+  "category": "KEP_MENERIMA_MASUKAN",
+  "question": "Bawahan berpangkat lebih rendah mengkritik rencana Anda dan menyebut ada risiko serius. Sikap Anda?",
+  "options": [
+  { "label": "A", "text": "Menegurnya karena dianggap tidak sopan mengkritik pimpinan, lalu meminta dia mengikuti perintah saja.", "points": 1 },
+  { "label": "B", "text": "Mengabaikan masukan karena Anda lebih berpengalaman, dan tidak ingin wibawa komando melemah.", "points": 2 },
+  { "label": "C", "text": "Mendengarkan sekilas, namun tetap menjalankan rencana karena perubahan di menit akhir bisa merepotkan.", "points": 3 },
+  { "label": "D", "text": "Meminta dia memaparkan risiko secara singkat, lalu Anda evaluasi dan putuskan apakah perlu penyesuaian.", "points": 4 },
+  { "label": "E", "text": "Apresiasi keberanian speak-up, uji data/risiko, revisi bila valid, dan tegaskan jalur komunikasi tetap sesuai komando.", "points": 5 }
+  ],
+  "explanation": "Pemimpin taktis perlu rendah hati tanpa kehilangan chain of command. Opsi 4 sudah objektif dan terbuka. Opsi 5 lebih baik karena membangun budaya keselamatan: menghargai speak-up, menguji risiko berbasis data, dan merevisi bila perlu. Di saat yang sama, opsi 5 tetap menjaga disiplin komunikasi dan otoritas komando."
+  },
+  {
+  "id": 20,
+  "category": "KEP_KESEJAHTERAAN_ANGGOTA",
+  "question": "Anggaran terbatas. Ada arahan untuk mengurangi hak makan anggota demi pos lain. Sikap Anda sebagai pimpinan?",
+  "options": [
+  { "label": "A", "text": "Menyetujui pemotongan agar dianggap loyal, karena Anda tidak ingin terlihat menentang arahan pimpinan.", "points": 1 },
+  { "label": "B", "text": "Memotong tanpa penjelasan agar tidak terjadi protes, lalu berharap anggota memahami situasinya.", "points": 2 },
+  { "label": "C", "text": "Menutup kekurangan dengan dana pribadi sementara waktu, agar kebutuhan anggota tetap terpenuhi.", "points": 3 },
+  { "label": "D", "text": "Mengusulkan efisiensi pos lain dengan alasan moral tim, lalu mencari solusi agar hak anggota tidak turun drastis.", "points": 4 },
+  { "label": "E", "text": "Audit anggaran, ajukan re-alokasi berbasis data, komunikasikan transparan, dan buat mitigasi sementara tanpa melanggar aturan.", "points": 5 }
+  ],
+  "explanation": "Kesejahteraan dasar berkaitan langsung dengan moral dan kinerja. Opsi 4 sudah memperjuangkan hak dengan argumentasi. Opsi 5 unggul karena sistemik: audit anggaran, usulan re-alokasi berbasis data, transparansi komunikasi, dan mitigasi sementara yang tetap patuh aturan. Ini menunjukkan integritas, kepedulian, dan kendali diri dalam tekanan struktural."
+  },
+  {
+    "id": 21,
+    "category": "KEP_SANKSI_TEMAN",
+    "question": "Teman angkatan Anda yang berada di bawah komando Anda melakukan pelanggaran disiplin berat (mis. mabuk saat dinas) dan memohon agar tidak diproses demi persahabatan. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menunda proses dan meminta dia menutup rapat kejadian itu agar tidak merusak hubungan.", "points": 1 },
+    { "label": "B", "text": "Memberi pembinaan informal saja, tanpa pencatatan, agar ia kapok namun tidak berdampak karier.", "points": 2 },
+    { "label": "C", "text": "Mengarahkannya melapor sendiri ke atasan langsung, sementara Anda menjaga jarak agar tidak dituduh memihak.", "points": 3 },
+    { "label": "D", "text": "Memproses sesuai aturan, lalu memberi dukungan moral di luar jam dinas agar ia mau memperbaiki diri.", "points": 4 },
+    { "label": "E", "text": "Memproses sesuai aturan, dokumentasi objektif, dan memastikan pembinaan terukur agar tidak terulang.", "points": 5 }
+    ],
+    "explanation": "Ujian integritas muncul saat konflik kepentingan (friendship vs disiplin). Opsi 4 sudah menjaga profesionalisme dan empati. Opsi 5 lebih baik karena menambah akuntabilitas (dokumentasi objektif) dan pembinaan terukur, sehingga keputusan tahan audit, adil bagi personel lain, serta mencegah preseden buruk."
+    },
+    {
+    "id": 22,
+    "category": "KEP_KEBIJAKAN_TIDAK_POPULER",
+    "question": "Untuk meningkatkan respons, Anda melarang penggunaan HP saat jam jaga. Anggota protes dan menyebut Anda kaku/otoriter. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mencabut aturan agar suasana membaik dan anggota kembali nyaman saat jaga.", "points": 1 },
+    { "label": "B", "text": "Mempertahankan aturan, tetapi membiarkannya longgar agar tidak makin memicu konflik.", "points": 2 },
+    { "label": "C", "text": "Membatasi HP hanya pada jam/jeda tertentu, namun tanpa mekanisme kontrol yang jelas.", "points": 3 },
+    { "label": "D", "text": "Menjelaskan alasan aturan, memberi kanal darurat, lalu menegakkan disiplin secara konsisten.", "points": 4 },
+    { "label": "E", "text": "Sosialisasi berbasis data, tetapkan mekanisme darurat, monitoring dampak, dan penegakan adil tanpa pilih kasih.", "points": 5 }
+    ],
+    "explanation": "Kebijakan tidak populer butuh assertive communication dan service excellence internal. Opsi 4 sudah menjelaskan “why” dan menjaga ketertiban. Opsi 5 lebih unggul karena memasukkan evaluasi terukur (monitoring dampak) serta penegakan adil, sehingga resistensi turun tanpa mengorbankan kinerja dan integritas."
+    },
+    {
+    "id": 23,
+    "category": "KEP_EVALUASI_BAWAHAN_BAIK",
+    "question": "Staf Anda ramah dan sangat membantu secara sosial, tetapi kinerjanya buruk dan sering salah. Saat penilaian kinerja, apa yang Anda tulis?",
+    "options": [
+    { "label": "A", "text": "Memberi nilai tinggi karena Anda tidak tega, dan berharap ia membaik dengan sendirinya.", "points": 1 },
+    { "label": "B", "text": "Memberi nilai sedang agar aman, tanpa detail agar tidak menyinggung perasaannya.", "points": 2 },
+    { "label": "C", "text": "Memberi nilai sesuai fakta, lalu menyarankan ia belajar sendiri agar tidak mengulang kesalahan.", "points": 3 },
+    { "label": "D", "text": "Memberi penilaian objektif, sampaikan umpan balik konstruktif, dan sepakati target perbaikan.", "points": 4 },
+    { "label": "E", "text": "Nilai objektif berbasis data, buat rencana pembinaan, dan jadwalkan tindak lanjut evaluasi berkala.", "points": 5 }
+    ],
+    "explanation": "Pemimpin dituntut candor yang beretika: jujur namun membangun. Opsi 4 sudah objektif dan memberi arah. Opsi 5 lebih baik karena menambah mekanisme kontrol (rencana pembinaan + follow-up berkala), sehingga perubahan perilaku kerja lebih mungkin terjadi dan organisasi terlindungi dari repetisi kesalahan."
+    },
+    {
+    "id": 24,
+    "category": "KEP_IZIN_MASAL",
+    "question": "Menjelang hari raya banyak anggota mengajukan cuti bersamaan. Jika diizinkan semua, operasional terganggu; jika ditolak banyak, muncul resistensi. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mengizinkan hampir semua agar dianggap pengertian, meski risiko operasional meningkat.", "points": 1 },
+    { "label": "B", "text": "Menolak mayoritas pengajuan agar aman, lalu berharap anggota memahami kebutuhan dinas.", "points": 2 },
+    { "label": "C", "text": "Meminta atasan memutuskan agar Anda tidak disalahkan oleh anggota yang kecewa.", "points": 3 },
+    { "label": "D", "text": "Membagi cuti bergelombang dengan kriteria jelas dan komunikasi terbuka agar operasional tetap jalan.", "points": 4 },
+    { "label": "E", "text": "Tetapkan kuota minimal personel, sistem giliran transparan, dan siapkan rencana cadangan untuk lonjakan tugas.", "points": 5 }
+    ],
+    "explanation": "Dilema ini menguji fairness dan kemampuan menjaga readiness. Opsi 4 sudah win-win lewat giliran dan komunikasi. Opsi 5 lebih unggul karena menambahkan perencanaan kontinjensi (rencana cadangan), sehingga pelayanan prima tetap terjaga meski terjadi situasi tak terduga saat periode cuti."
+    },
+    {
+    "id": 25,
+    "category": "KEP_MENGUBAH_BUDAYA_MALAS",
+    "question": "Anda menjadi pimpinan baru di unit yang terkenal santai. Saat Anda mulai disiplin, muncul perlawanan pasif (silent treatment). Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mengikuti ritme mereka agar cepat diterima dan suasana kerja tidak tegang.", "points": 1 },
+    { "label": "B", "text": "Menekan dengan ancaman sanksi agar mereka segera patuh dan tidak melawan diam-diam.", "points": 2 },
+    { "label": "C", "text": "Fokus kerja sendiri dan berharap budaya berubah lewat waktu tanpa perlu banyak interaksi.", "points": 3 },
+    { "label": "D", "text": "Tetap konsisten, lakukan dialog, dan mulai dari target kecil yang mudah terlihat hasilnya.", "points": 4 },
+    { "label": "E", "text": "Konsisten, bangun koalisi tokoh kunci, buat standar kerja, dan terapkan reward-consequence secara adil.", "points": 5 }
+    ],
+    "explanation": "Perubahan budaya butuh resilience dan strategi, bukan sekadar tekanan. Opsi 4 sudah mengarah ke change leadership (quick wins + dialog). Opsi 5 lebih baik karena menambahkan pendekatan sistemik: koalisi tokoh kunci, standardisasi, dan penguatan perilaku lewat reward-consequence yang adil—lebih efektif mengatasi resistensi pasif."
+    },
+    {
+    "id": 26,
+    "category": "KEP_JEBAKAN_HADIAH",
+    "question": "Bawahan sering memberi oleh-oleh mahal dan mentraktir Anda. Sebagai gantinya mereka sering meminta izin pulang cepat. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menerima saja karena dianggap bentuk hormat, lalu sesekali memberi kelonggaran izin pulang.", "points": 1 },
+    { "label": "B", "text": "Menerima pemberian, tetapi menolak izin pulang cepat agar tetap terlihat tegas.", "points": 2 },
+    { "label": "C", "text": "Menerima jika nilainya kecil, lalu berusaha menyeimbangkan dengan memberi traktiran balik.", "points": 3 },
+    { "label": "D", "text": "Menolak dengan sopan, jelaskan batas profesional, dan tetapkan izin pulang berdasarkan kebutuhan dinas.", "points": 4 },
+    { "label": "E", "text": "Tolak dan edukasi aturan integritas, buat standar penerimaan hadiah, dan pastikan disiplin izin berbasis aturan.", "points": 5 }
+    ],
+    "explanation": "Hadiah yang berulang bisa menjadi konflik kepentingan dan melemahkan independensi keputusan. Opsi 4 sudah menjaga batas profesional. Opsi 5 lebih unggul karena membangun kontrol organisasi: edukasi integritas, standar yang jelas, serta penegakan izin berbasis aturan—mengurangi ruang barter “utang budi” secara sistemik."
+    },
+    {
+    "id": 27,
+    "category": "KEP_MEMILIH_WAKIL",
+    "question": "Anda harus memilih wakil ketua tim. Kandidat A populer dan mudah akrab. Kandidat B disiplin, tegas, tetapi kurang disukai karena kaku. Keputusan Anda?",
+    "options": [
+    { "label": "A", "text": "Memilih A karena kohesi dan pengaruh sosialnya dianggap memudahkan koordinasi harian.", "points": 3 },
+    { "label": "B", "text": "Memilih B karena ketegasan dinilai kunci untuk menjaga standar dan target kerja tim.", "points": 4 },
+    { "label": "C", "text": "Memilih A, lalu Anda sendiri yang mengawasi disiplin agar kelemahan A tidak berdampak besar.", "points": 2 },
+    { "label": "D", "text": "Memilih B, lalu meminta ia menyesuaikan gaya komunikasi agar tidak menimbulkan resistensi.", "points": 4 },
+    { "label": "E", "text": "Menetapkan B sebagai wakil, dan memanfaatkan A untuk fungsi komunikasi/morale tanpa tumpang tindih komando.", "points": 5 }
+    ],
+    "explanation": "Wakil ketua adalah posisi eksekutif yang menuntut reliability dan disiplin proses. Opsi 4 sudah memilih kompetensi dan menambahkan coaching komunikasi. Opsi 5 lebih baik karena menerapkan situational leadership: peran formal berbasis kompetensi (B) dipadukan dengan kekuatan sosial (A) pada fungsi yang tepat, menjaga efektivitas sekaligus kohesi tanpa merusak chain of command."
+    },
+    {
+    "id": 28,
+    "category": "KEP_GOSIP_BAWAHAN",
+    "question": "Anda mendengar bawahan menjelek-jelekkan gaya kepemimpinan Anda yang dianggap terlalu kaku. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mengonfrontasi saat itu juga agar mereka jera dan tidak mengulang perilaku tersebut.", "points": 1 },
+    { "label": "B", "text": "Mendiamkan, tetapi Anda menyimpan catatan dan mulai menjaga jarak dengan mereka.", "points": 2 },
+    { "label": "C", "text": "Memanggil salah satu untuk klarifikasi, lalu mengingatkan etika komunikasi agar tidak melebar.", "points": 3 },
+    { "label": "D", "text": "Menahan diri, refleksi gaya kepemimpinan, dan membuka kanal umpan balik yang lebih formal.", "points": 4 },
+    { "label": "E", "text": "Tetap tenang, kumpulkan feedback terstruktur, perbaiki yang relevan, dan tegakkan etika tanpa represif.", "points": 5 }
+    ],
+    "explanation": "Situasi ini menguji pengendalian diri dan kematangan emosional. Opsi 4 sudah mengarah ke introspeksi dan kanal formal. Opsi 5 lebih unggul karena menyeimbangkan dua hal: adaptasi kepemimpinan berbasis feedback (service excellence internal) serta penegakan etika komunikasi yang proporsional, sehingga tidak memicu iklim takut atau balas dendam."
+    },
+    {
+    "id": 29,
+    "category": "KEP_KOMPROMI_STANDAR",
+    "question": "Tim kelelahan setelah tugas panjang dan meminta laporan harian ditunda. SOP mewajibkan laporan. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mengizinkan ditunda penuh karena kondisi fisik tim lebih penting daripada administrasi.", "points": 1 },
+    { "label": "B", "text": "Meminta laporan lengkap saat itu juga agar tidak ada celah SOP, meski tim sangat lelah.", "points": 2 },
+    { "label": "C", "text": "Meminta laporan ringkas, lalu sisanya dilengkapi kapan sempat tanpa tenggat yang jelas.", "points": 3 },
+    { "label": "D", "text": "Wajibkan ringkasan inti sekarang, lalu lengkapi detail besok dengan tenggat dan pembagian tugas.", "points": 4 },
+    { "label": "E", "text": "Buat laporan inti segera, bagi peran bergiliran, dan pastikan kelengkapan tetap sesuai SOP tepat waktu.", "points": 5 }
+    ],
+    "explanation": "Akuntabilitas tidak boleh hilang, namun pemimpin juga wajib mengelola beban dan risiko kelelahan. Opsi 4 sudah menjaga SOP dengan simplifikasi dan tenggat. Opsi 5 lebih baik karena menambah manajemen sumber daya: pembagian tugas bergiliran dan kontrol penyelesaian, sehingga SOP terpenuhi tanpa mengorbankan kesehatan dan moral tim."
+    },
+    {
+    "id": 30,
+    "category": "KEP_NICE_GUY_SYNDROME",
+    "question": "Anda khawatir jika tegas, bawahan akan menjauh dan hubungan sosial menjadi canggung. Sikap yang paling tepat?",
+    "options": [
+    { "label": "A", "text": "Menuruti sebagian besar keinginan bawahan agar hubungan tetap hangat dan Anda diterima.", "points": 1 },
+    { "label": "B", "text": "Menghindari ketegasan dan memilih kompromi agar tidak memicu penolakan dari bawahan.", "points": 2 },
+    { "label": "C", "text": "Menjadi sangat tegas tanpa ruang dialog agar tidak ada yang mencoba mendekati Anda.", "points": 3 },
+    { "label": "D", "text": "Tegas pada aturan, tetap humanis, dan membangun relasi profesional tanpa mencari validasi dari bawahan.", "points": 4 },
+    { "label": "E", "text": "Terima risiko sosial, komunikasikan tegas-empatik, dan bangun dukungan sebaya agar keputusan tetap independen.", "points": 5 }
+    ],
+    "explanation": "Pemimpin perlu batas profesional agar keputusan tidak bias relasi. Opsi 4 sudah memisahkan peran dan menjaga komunikasi humanis. Opsi 5 lebih unggul karena menegaskan independensi keputusan (integritas), komunikasi asertif-empatik, serta membangun dukungan sebaya agar tidak bergantung pada penerimaan bawahan—menjaga rantai komando tetap sehat."
+    },
+    {
+    "id": 31,
+    "category": "KEP_TRIAGE_DARURAT",
+    "question": "Terjadi ledakan. Di dekat Anda ada rekan yang terluka kritis dan ada tersangka yang mencoba kabur. Prioritas Anda?",
+    "options": [
+    { "label": "A", "text": "Mengejar tersangka segera karena jika lepas, kasus akan lebih sulit ditangani.", "points": 2 },
+    { "label": "B", "text": "Mencari perlindungan dan menunggu bantuan, karena situasi berbahaya dan tidak jelas.", "points": 1 },
+    { "label": "C", "text": "Meminta orang lain menolong rekan, sementara Anda tetap fokus mengejar tersangka.", "points": 3 },
+    { "label": "D", "text": "Memprioritaskan nyawa rekan, sambil mengarahkan unit lain untuk melakukan pengejaran.", "points": 4 },
+    { "label": "E", "text": "Selamatkan nyawa dulu sesuai pelatihan, koordinasi pengejaran oleh unit lain, dan jaga ketertiban lokasi.", "points": 5 }
+    ],
+    "explanation": "Prinsip pelayanan dan kemanusiaan: life preservation adalah prioritas. Opsi 4 sudah benar dengan fokus nyawa dan koordinasi. Opsi 5 lebih baik karena menambah kontrol situasi: pertolongan sesuai pelatihan, koordinasi penindakan, serta menjaga ketertiban lokasi agar tidak memperburuk kondisi dan tetap menjaga akuntabilitas kejadian."
+    },
+    {
+    "id": 32,
+    "category": "KEP_KEPEMIMPINAN_HILANG",
+    "question": "Dalam situasi berbahaya, komandan tim tidak mampu memimpin dan anggota mulai panik. Anda adalah wakil/senior. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Fokus menolong komandan terlebih dahulu, sementara anggota lain diharapkan tetap bertahan sendiri.", "points": 2 },
+    { "label": "B", "text": "Menunggu ada instruksi dari pihak lain karena Anda takut salah mengambil alih komando.", "points": 1 },
+    { "label": "C", "text": "Mengumpulkan anggota yang paling dekat, lalu berdiskusi singkat sebelum menentukan langkah.", "points": 3 },
+    { "label": "D", "text": "Mengambil alih komando, memberi instruksi tegas, dan menata ulang peran agar situasi stabil.", "points": 4 },
+    { "label": "E", "text": "Mengambil alih komando, tetapkan prioritas keselamatan, bagi tugas jelas, dan lakukan komunikasi disiplin.", "points": 5 }
+    ],
+    "explanation": "Dalam chain of command, suksesi kepemimpinan harus cepat untuk mencegah disorganisasi. Opsi 4 sudah tegas dan menstabilkan. Opsi 5 lebih unggul karena menambah prioritas yang jelas (keselamatan), pembagian tugas yang spesifik, serta disiplin komunikasi—mengurangi panik dan meningkatkan kontrol situasional tanpa tindakan impulsif."
+    },
+    {
+    "id": 33,
+    "category": "KEP_NEGOSIASI_SANDERA",
+    "question": "Terjadi penyanderaan. Pelaku mengancam melukai sandera jika aparat mendekat. Anda menjadi negosiator awal dengan tekanan tinggi. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Mendorong tindakan cepat agar situasi tidak berlarut, meski risikonya sulit diprediksi.", "points": 2 },
+    { "label": "B", "text": "Mengikuti semua permintaan pelaku agar sandera aman, tanpa banyak syarat.", "points": 1 },
+    { "label": "C", "text": "Menunggu instruksi pimpinan tanpa komunikasi, agar tidak salah bicara dan memperburuk situasi.", "points": 2 },
+    { "label": "D", "text": "Membuka komunikasi menenangkan, mencari informasi inti, dan menahan situasi sambil menyiapkan dukungan.", "points": 4 },
+    { "label": "E", "text": "De-eskalasi, bangun komunikasi stabil, koordinasi spesialis sesuai prosedur, dan fokus keselamatan sandera.", "points": 5 }
+    ],
+    "explanation": "Situasi sandera menuntut de-eskalasi dan kontrol emosi, bukan reaksi impulsif. Opsi 4 sudah mengulur waktu dan mencari informasi. Opsi 5 lebih baik karena menegaskan kepatuhan prosedur (koordinasi spesialis), komunikasi stabil, dan fokus keselamatan sandera sebagai prioritas utama—lebih aman dan lebih akuntabel."
+    },
+    {
+    "id": 34,
+    "category": "KEP_BLACKOUT_KOMUNIKASI",
+    "question": "Saat pengamanan VVIP, seluruh alat komunikasi mengalami blackout. Anda tidak bisa melapor ke pusat. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Menunggu sinyal kembali sambil tetap berjaga, karena tanpa komunikasi Anda ragu mengambil langkah.", "points": 2 },
+    { "label": "B", "text": "Meninggalkan pos untuk mencari sinyal di tempat lain agar bisa segera melapor.", "points": 1 },
+    { "label": "C", "text": "Mengandalkan inisiatif masing-masing personel tanpa rencana, yang penting tetap bergerak aktif.", "points": 2 },
+    { "label": "D", "text": "Menjalankan SOP darurat dan memakai metode komunikasi cadangan sesuai rencana kontinjensi.", "points": 4 },
+    { "label": "E", "text": "Tetap di pos, aktifkan rencana kontinjensi, koordinasi cadangan, dan catat kejadian untuk evaluasi.", "points": 5 }
+    ],
+    "explanation": "Kontinuitas pengamanan bergantung pada disiplin SOP dan kesiapan kontinjensi. Opsi 4 sudah benar karena mengikuti rencana darurat. Opsi 5 lebih unggul karena menambahkan akuntabilitas (pencatatan untuk evaluasi) serta memastikan pos tidak ditinggalkan, sehingga integritas pengamanan dan kontrol situasi tetap terjaga."
+    },
+    {
+    "id": 35,
+    "category": "KEP_AMUK_MASSA",
+    "question": "Massa menjebol barikade menuju objek vital dan jumlah personel Anda jauh lebih sedikit. Sikap Anda?",
+    "options": [
+    { "label": "A", "text": "Memaksa bertahan di titik awal walau tidak seimbang, agar terlihat berani dan tidak mundur.", "points": 1 },
+    { "label": "B", "text": "Mundur tanpa koordinasi agar selamat, lalu berharap situasi bisa ditangani oleh unit lain.", "points": 1 },
+    { "label": "C", "text": "Bertahan sambil memberi peringatan, tetapi tanpa penataan ulang posisi atau permintaan bantuan.", "points": 3 },
+    { "label": "D", "text": "Reposisi ke titik yang lebih aman untuk melindungi objek vital dan meminta penebalan personel.", "points": 4 },
+    { "label": "E", "text": "Mundur taktis terkoordinasi, lindungi objek vital, aktifkan de-eskalasi, dan minta bantuan penebalan segera.", "points": 5 }
+    ],
+    "explanation": "Pengendalian diri dan keselamatan menjadi kunci saat ketimpangan kekuatan ekstrem. Opsi 4 sudah strategis dengan reposisi dan meminta bantuan. Opsi 5 lebih baik karena menambah elemen de-eskalasi dan koordinasi yang terstruktur, sehingga risiko eskalasi kekerasan berkurang, perlindungan objek vital meningkat, dan keputusan tetap sesuai prinsip pelayanan prima."
+    },
+    {
+      "id": 36,
+      "category": "KEP_KESALAHAN_INFORMASI",
+      "question": "Anda menyadari terjadi salah tangkap akibat informasi intelijen yang keliru. Orang tersebut tidak bersalah dan tekanan publik mulai muncul. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Menunda koreksi sampai situasi tenang agar institusi tidak semakin disorot publik.", "points": 1 },
+      { "label": "B", "text": "Melepaskan yang bersangkutan tanpa penjelasan agar isu cepat selesai dan tidak melebar.", "points": 2 },
+      { "label": "C", "text": "Melepaskan segera, lalu fokus memperbaiki narasi publik agar citra institusi tidak jatuh.", "points": 3 },
+      { "label": "D", "text": "Melepaskan segera, menyampaikan permohonan maaf, dan mulai evaluasi internal atas sumber informasi.", "points": 4 },
+      { "label": "E", "text": "Melepaskan, lakukan rehabilitasi nama baik, dan audit intelijen-prosedur agar tidak berulang.", "points": 5 }
+      ],
+      "explanation": "Kasus salah tangkap menuntut accountability dan service excellence terhadap korban. Opsi 4 sudah mengandung koreksi cepat, permintaan maaf, dan evaluasi internal. Opsi 5 lebih baik karena menambahkan rehabilitasi (pemulihan hak/kehormatan korban) serta audit prosedural intelijen-operasional yang berbasis pencegahan, sehingga solusi bukan sekadar reaktif, tetapi sistemik dan tahan uji."
+      },
+      {
+      "id": 37,
+      "category": "KEP_BENCANA_PERSONAL",
+      "question": "Rumah Anda terbakar saat Anda memimpin operasi pengamanan yang krusial. Keluarga menelepon panik. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Meninggalkan pos untuk pulang segera karena keluarga adalah prioritas utama saat ini.", "points": 1 },
+      { "label": "B", "text": "Meminta anggota menutup operasi sementara agar Anda bisa mengurus keluarga tanpa izin formal.", "points": 2 },
+      { "label": "C", "text": "Menghubungi keluarga singkat, lalu minta mereka mengurus dengan bantuan lingkungan sekitar.", "points": 3 },
+      { "label": "D", "text": "Stabilisasi emosi keluarga, minta dukungan kerabat, dan ajukan pergantian komando sesuai prosedur.", "points": 4 },
+      { "label": "E", "text": "Delegasi urusan rumah, jaga komando sampai ada pengganti resmi, lalu serah terima terstruktur.", "points": 5 }
+      ],
+      "explanation": "Dilema ini menguji emotional regulation dan chain of command. Opsi 4 sudah tepat: menenangkan keluarga dan meminta pergantian komando sesuai prosedur. Opsi 5 lebih unggul karena memastikan continuity of operations: Anda tetap memegang kontrol sampai pengganti resmi hadir dan dilakukan serah-terima yang jelas, sehingga pelayanan publik tidak terganggu dan urusan keluarga tetap tertangani melalui delegasi."
+      },
+      {
+      "id": 38,
+      "category": "KEP_PROVOKASI_ATASAN",
+      "question": "Atasan emosi memarahi Anda dengan kata kasar di depan umum karena kesalahan kecil. Anda merasa dipermalukan. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Menjawab dengan nada tegas agar batasan dihormati, meski situasi sedang panas.", "points": 1 },
+      { "label": "B", "text": "Diam saja hingga selesai, lalu menghindari atasan untuk beberapa waktu agar tidak terpancing lagi.", "points": 2 },
+      { "label": "C", "text": "Menerima teguran saat itu, kemudian meminta klarifikasi singkat tentang perbaikan yang diinginkan.", "points": 3 },
+      { "label": "D", "text": "Tetap tenang, jawab seperlunya, dan setelah situasi reda minta evaluasi empat mata secara sopan.", "points": 4 },
+      { "label": "E", "text": "De-eskalasi di publik, lalu lakukan klarifikasi privat melalui jalur resmi agar koreksi tetap beretika.", "points": 5 }
+      ],
+      "explanation": "Kuncinya adalah self-control dan menjaga hierarki tanpa menguatkan perilaku toxic. Opsi 4 sudah matang: menahan diri di publik dan meminta evaluasi privat. Opsi 5 lebih baik karena menambah dua hal: de-eskalasi yang menjaga wibawa institusi di depan umum, serta penggunaan jalur resmi (chain of command/etik) untuk koreksi perilaku dan perbaikan kerja tanpa insubordinasi."
+      },
+      {
+      "id": 39,
+      "category": "KEP_KERUSUHAN_PENJARA",
+      "question": "Terjadi kerusuhan di rutan: tahanan membakar kasur dan mencoba menjebol pintu. Personel Anda terbatas. Sikap Anda?",
+      "options": [
+      { "label": "A", "text": "Masuk segera untuk memadamkan api agar situasi cepat selesai meski personel minim.", "points": 1 },
+      { "label": "B", "text": "Menghentikan interaksi dan menunggu bantuan tanpa melakukan pengamanan lapis lanjut.", "points": 2 },
+      { "label": "C", "text": "Mengunci akses utama dan memberi peringatan verbal, sambil menilai apakah perlu negosiasi.", "points": 3 },
+      { "label": "D", "text": "Melokalisir area, aktifkan alarm, dan koordinasi komandan untuk bantuan serta pemadam.", "points": 4 },
+      { "label": "E", "text": "Containment: lokalisir, amankan perimeter, aktifkan SOP, dan minta bantuan terkoordinasi segera.", "points": 5 }
+      ],
+      "explanation": "Situasi rutan menuntut containment dan keselamatan, bukan heroisme impulsif. Opsi 4 sudah sesuai SOP: lokalisir, alarm, dan minta bantuan. Opsi 5 lebih unggul karena memperjelas kontrol situasi: pengamanan perimeter dan koordinasi terstruktur untuk mencegah pelarian/eskalasi, sekaligus menjaga keselamatan petugas dan tahanan sesuai prinsip pelayanan prima dan proporsionalitas."
+      },
+      {
+      "id": 40,
+      "category": "KEP_ANCAMAN_BOM",
+      "question": "Ada tas mencurigakan di lobi kantor, diduga bom. Warga berkerumun ingin melihat. Tindakan awal Anda?",
+      "options": [
+      { "label": "A", "text": "Menjauhkan tas sedikit agar jalur lobi lebih aman, lalu meminta warga menepi.", "points": 1 },
+      { "label": "B", "text": "Meminta petugas keamanan mengawasi tas, sementara Anda menenangkan warga agar tidak panik.", "points": 2 },
+      { "label": "C", "text": "Mengosongkan area dekat tas dan mengatur arus orang, sambil meminta bantuan rekan terdekat.", "points": 3 },
+      { "label": "D", "text": "Sterilisasi radius aman, pasang pembatas, dan segera koordinasi ke unit terkait untuk penanganan.", "points": 4 },
+      { "label": "E", "text": "Sterilisasi, police line, evakuasi terarah, dan panggil unit Jibom sesuai SOP tanpa menyentuh barang.", "points": 5 }
+      ],
+      "explanation": "Ancaman bom menuntut keselamatan manusia dan kepatuhan SOP: jangan sentuh, jangan geser. Opsi 4 sudah benar dengan sterilisasi dan koordinasi. Opsi 5 lebih baik karena lengkap: evakuasi terarah (service excellence), pemasangan police line, serta pemanggilan unit Jibom sesuai prosedur, sehingga risiko korban dan kepanikan publik bisa diminimalkan secara profesional."
+      },
+      {
+      "id": 41,
+      "category": "KEP_KONSISTENSI_TANGGUNG_JAWAB",
+      "question": "Pernyataan YY: 'Saya merasa kurang adil jika saya harus ikut bertanggung jawab atas kesalahan yang dilakukan oleh anggota tim saya.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menguji command responsibility dan integritas kepemimpinan. Opsi 4 menolak sebagian, namun masih membuka ruang rasionalisasi saat tekanan tinggi. Opsi 5 paling konsisten dengan doktrin kepemimpinan: pemimpin menanggung akuntabilitas, membina ke dalam, dan melindungi tim ke luar, tanpa melempar kesalahan sebagai pembenaran."
+      },
+      {
+      "id": 42,
+      "category": "KEP_KONSISTENSI_DECISIVENESS",
+      "question": "Pernyataan ZZ: 'Saya sering ragu-ragu dan mengubah keputusan berkali-kali karena takut salah.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Decisiveness adalah kemampuan mengeksekusi keputusan dengan informasi yang tidak sempurna, sambil tetap adaptif. Opsi 4 menolak kecenderungan ragu, tetapi belum menegaskan kontrol emosi saat tekanan tinggi. Opsi 5 lebih kuat karena menunjukkan stabilitas dan keberanian mengambil calculated risk, bukan plin-plan yang melemahkan komando."
+      },
+      {
+      "id": 43,
+      "category": "KEP_KONSISTENSI_MICROMANAGE",
+      "question": "Pernyataan AAA: 'Saya percaya pekerjaan akan paling rapi jika saya yang mengerjakannya sendiri daripada mendelegasikan.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Pernyataan ini mengarah pada micromanagement dan rendahnya trust. Opsi 4 menolak kecenderungan tersebut, namun masih bisa menyisakan pola kontrol berlebihan. Opsi 5 lebih baik karena menggambarkan mindset multiplier: percaya pada delegasi, coaching, dan kontrol melalui standar—bukan menggantikan orang lain."
+      },
+      {
+      "id": 44,
+      "category": "KEP_KONSISTENSI_EMOSI_LEADER",
+      "question": "Pernyataan BBB: 'Saya cenderung defensif atau marah ketika gaya kepemimpinan saya dikritik oleh bawahan.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini mengukur emotional stability dan openness to feedback. Opsi 4 menolak reaksi defensif, namun belum menegaskan kemampuan menerima kritik secara terstruktur. Opsi 5 lebih unggul karena menunjukkan kontrol emosi, kemampuan mendengar, dan mengolah kritik sebagai input perbaikan tanpa kehilangan kewibawaan."
+      },
+      {
+      "id": 45,
+      "category": "KEP_KONSISTENSI_KOMPROMI",
+      "question": "Pernyataan CCC: 'Demi menjaga hubungan baik dengan atasan, saya kadang bersedia melakukan hal kecil yang menyimpang dari aturan.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Pernyataan ini menguji integritas dan resistensi terhadap tekanan otoritas. Opsi 4 menolak, tetapi masih membuka ruang rasionalisasi “sedikit saja”. Opsi 5 paling tepat: integritas tidak ditukar relasi, dan kepatuhan aturan adalah landasan pelayanan prima serta mencegah budaya ABS."
+      },
+      {
+      "id": 46,
+      "category": "KEP_KONSISTENSI_PEOPLE_PLEASER",
+      "question": "Pernyataan DDD: 'Saya sulit menolak permintaan bawahan karena takut mereka tidak menyukai saya.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini menilai ketegasan, batas profesional, dan kebutuhan validasi sosial. Opsi 4 menolak people-pleasing, namun belum menegaskan keberanian mengambil keputusan tidak populer. Opsi 5 lebih baik karena mencerminkan moral courage: mampu berkata tidak secara asertif demi standar, tanpa agresif dan tanpa mengorbankan hubungan kerja profesional."
+      },
+      {
+      "id": 47,
+      "category": "KEP_KONSISTENSI_SAFETY_FIRST",
+      "question": "Pernyataan EEE: 'Saya cenderung bermain aman dan menghindari risiko, meskipun hasilnya mungkin biasa saja.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Organisasi membutuhkan pemimpin yang mampu mengambil calculated risk, bukan risk avoidance yang berujung stagnasi. Opsi 4 menolak kecenderungan bermain aman, namun masih bisa menyisakan keraguan saat tekanan meningkat. Opsi 5 paling tepat karena menunjukkan kesiapan mengambil risiko terukur dengan mitigasi, sehingga hasil optimal tetap aman dan akuntabel."
+      },
+      {
+      "id": 48,
+      "category": "KEP_KONSISTENSI_MOTIVASI_JABATAN",
+      "question": "Pernyataan FFF: 'Alasan utama saya ingin menjadi pemimpin adalah fasilitas dan kehormatan.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Motivasi jabatan menguji orientasi pengabdian vs keuntungan pribadi. Opsi 4 menolak, tetapi masih memungkinkan motif status terselip. Opsi 5 paling selaras dengan integritas: kepemimpinan adalah amanah pelayanan, bukan sarana mencari privilege, sehingga menekan risiko penyimpangan dan konflik kepentingan."
+      },
+      {
+      "id": 49,
+      "category": "KEP_KONSISTENSI_ANTI_STRES",
+      "question": "Pernyataan GGG: 'Saya sering panik dan sulit tidur saat memikirkan tanggung jawab pekerjaan esok hari.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 1 },
+      { "label": "B", "text": "Sesuai", "points": 2 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 4 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 5 }
+      ],
+      "explanation": "Ini mengukur stress tolerance dan emotional regulation. Opsi 4 menandakan ketahanan yang cukup, namun belum menegaskan kemampuan mengelola beban secara konsisten. Opsi 5 lebih baik karena merefleksikan resiliensi: mampu mengatur emosi, mempersiapkan diri, dan tetap fungsional di bawah tekanan, yang krusial untuk pemimpin operasional."
+      },
+      {
+      "id": 50,
+      "category": "KEP_KONSISTENSI_PENUTUP_LEADER",
+      "question": "Pernyataan HHH (Penutup): 'Saya siap tidak populer selama keputusan saya benar dan bermanfaat bagi organisasi.'",
+      "options": [
+      { "label": "A", "text": "Sangat Sesuai", "points": 5 },
+      { "label": "B", "text": "Sesuai", "points": 4 },
+      { "label": "C", "text": "Ragu-ragu", "points": 3 },
+      { "label": "D", "text": "Tidak Sesuai", "points": 2 },
+      { "label": "E", "text": "Sangat Tidak Sesuai", "points": 1 }
+      ],
+      "explanation": "Ini menguji moral courage dan orientasi kepentingan organisasi. Opsi 4 menunjukkan kecenderungan setuju tetapi bisa goyah saat tekanan sosial meningkat. Opsi 5 paling kuat karena konsisten dengan integritas: siap menanggung biaya sosial demi keputusan yang benar, dengan komunikasi asertif dan kontrol emosi agar tetap profesional."
+      }
+    ]
+}

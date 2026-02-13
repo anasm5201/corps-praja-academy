@@ -1,0 +1,337 @@
+```json
+{
+  "title": "Paket Kecerdasan 09 - Verbal Logic & Inference",
+  "type": "PSIKOLOGI_KECERDASAN",
+  "description": "Menguji pemahaman teks singkat, penarikan implikasi yang sah, serta penalaran relasional melalui analogi tingkat menengah.",
+  "duration": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Di ruang layanan, petugas menata ulang antrean agar jalur kursi roda tidak terhalang. Ia juga menambahkan penanda arah sederhana di lantai. Setelah itu, waktu tunggu rata-rata menurun meski jumlah pengunjung tetap.\"\nKesimpulan paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Penurunan waktu tunggu terjadi karena jumlah pengunjung berkurang.", "isCorrect": false },
+        { "label": "B", "text": "Perubahan alur dan penanda membantu proses layanan menjadi lebih efisien.", "isCorrect": true },
+        { "label": "C", "text": "Penanda arah di lantai adalah satu-satunya penyebab waktu tunggu menurun.", "isCorrect": false },
+        { "label": "D", "text": "Kursi roda selalu menjadi faktor utama lamanya antrean.", "isCorrect": false },
+        { "label": "E", "text": "Petugas menambah jumlah loket untuk mengurangi antrean.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Inferensi harus langsung ditopang oleh informasi teks, tanpa menambah fakta baru. Langkah ringkas: (1) Catat tindakan: menata ulang antrean + penanda arah, (2) Catat hasil: waktu tunggu turun walau pengunjung tetap, (3) Hubungkan sebab-akibat yang paling wajar. Mengapa distraktor terdekat salah: Opsi C mengklaim 'satu-satunya' penyebab, padahal teks menyebut dua tindakan."
+    },
+    {
+      "id": 2,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Sebuah tim menyusun jadwal kerja bergilir agar setiap anggota mendapat waktu istirahat yang cukup. Mereka juga menetapkan aturan singkat: laporan harian maksimal 5 poin. Setelah dua minggu, keterlambatan tugas menurun.\"\nImplikasi yang paling masuk akal adalah...",
+      "options": [
+        { "label": "A", "text": "Laporan harian yang ringkas membantu fokus eksekusi dan mengurangi keterlambatan.", "isCorrect": true },
+        { "label": "B", "text": "Keterlambatan turun karena beban kerja dihapuskan.", "isCorrect": false },
+        { "label": "C", "text": "Aturan 5 poin membuat semua tugas selesai tanpa kendala.", "isCorrect": false },
+        { "label": "D", "text": "Jadwal bergilir selalu lebih baik daripada jadwal tetap dalam semua kondisi.", "isCorrect": false },
+        { "label": "E", "text": "Dua minggu adalah waktu yang cukup untuk menghilangkan semua masalah kerja.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Implikasi harus bersifat wajar, tidak absolut, dan berbasis detail tindakan-hasil pada teks. Langkah ringkas: Identifikasi intervensi (jadwal istirahat + laporan ringkas), lalu kaitkan dengan hasil (keterlambatan turun). Mengapa distraktor terdekat salah: Opsi D bersifat absolut 'selalu', sementara teks hanya menggambarkan satu kasus."
+    },
+    {
+      "id": 3,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Dalam rapat, moderator meminta peserta menuliskan pertanyaan terlebih dulu sebelum berbicara. Diskusi menjadi lebih terarah dan waktu rapat tidak molor. Beberapa ide yang awalnya terlupakan justru muncul dari catatan tersebut.\"\nPernyataan yang paling didukung teks adalah...",
+      "options": [
+        { "label": "A", "text": "Menulis pertanyaan lebih dulu dapat membantu struktur diskusi dan mengurangi pemborosan waktu.", "isCorrect": true },
+        { "label": "B", "text": "Rapat akan selalu selesai lebih cepat bila semua orang menulis.", "isCorrect": false },
+        { "label": "C", "text": "Catatan tertulis membuat ide baru mustahil muncul.", "isCorrect": false },
+        { "label": "D", "text": "Moderator menghapus sesi tanya jawab dari rapat.", "isCorrect": false },
+        { "label": "E", "text": "Semua peserta setuju dengan ide yang sama setelah menulis.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Pilih pernyataan yang langsung disokong teks, tidak menambah klaim baru. Langkah ringkas: Ambil bukti: diskusi lebih terarah, rapat tidak molor, ide muncul dari catatan. Mengapa distraktor terdekat salah: Opsi B memakai kata 'selalu', padahal teks hanya menyatakan efek pada situasi tersebut."
+    },
+    {
+      "id": 4,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Seorang petugas memindahkan meja informasi lebih dekat ke pintu masuk. Ia menempelkan peta kecil yang mudah dibaca. Keluhan tentang 'bingung arah' berkurang, namun keluhan tentang 'lama layanan' tidak berubah.\"\nKesimpulan paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Perbaikan akses informasi membantu orientasi, tetapi tidak otomatis mempercepat proses layanan.", "isCorrect": true },
+        { "label": "B", "text": "Keluhan lama layanan pasti disebabkan peta yang terlalu kecil.", "isCorrect": false },
+        { "label": "C", "text": "Memindahkan meja informasi selalu mengurangi semua jenis keluhan.", "isCorrect": false },
+        { "label": "D", "text": "Keluhan bingung arah turun karena jumlah pengunjung menurun.", "isCorrect": false },
+        { "label": "E", "text": "Petugas seharusnya menghapus peta karena tidak berpengaruh pada layanan.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Bedakan variabel hasil yang berubah dan yang tidak berubah. Langkah ringkas: (1) Tindakan: meja lebih dekat + peta, (2) Hasil: keluhan arah turun, keluhan lama tidak berubah, (3) Simpulkan efek spesifik. Mengapa distraktor terdekat salah: Opsi C menggeneralisasi 'semua keluhan', bertentangan dengan bagian teks yang menyebut keluhan lama layanan tidak berubah."
+    },
+    {
+      "id": 5,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Sebuah sekolah menguji dua metode belajar: ringkasan 1 halaman dan presentasi 10 menit. Siswa yang membuat ringkasan cenderung mengingat detail, sedangkan yang presentasi cenderung mengingat gambaran besar.\"\nPernyataan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Ringkasan 1 halaman cenderung membantu retensi detail, sementara presentasi membantu retensi gambaran besar.", "isCorrect": true },
+        { "label": "B", "text": "Presentasi 10 menit selalu lebih efektif daripada ringkasan.", "isCorrect": false },
+        { "label": "C", "text": "Ringkasan membuat siswa lupa gambaran besar.", "isCorrect": false },
+        { "label": "D", "text": "Semua siswa seharusnya hanya memakai satu metode saja.", "isCorrect": false },
+        { "label": "E", "text": "Metode belajar tidak memengaruhi cara mengingat informasi.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Ambil perbandingan yang dinyatakan eksplisit dalam teks, tanpa membuat rekomendasi baru. Langkah ringkas: Petakan 'ringkasan→detail' dan 'presentasi→gambaran besar'. Mengapa distraktor terdekat salah: Opsi C menambahkan klaim negatif yang tidak disebutkan (teks tidak menyatakan ringkasan membuat lupa gambaran besar)."
+    },
+    {
+      "id": 6,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Sebuah kantor menerapkan aturan 'rapat maksimal 25 menit'. Agenda harus ditulis sebelum rapat dimulai. Setelah satu bulan, jumlah rapat tidak berkurang, tetapi keputusan yang tertulis meningkat.\"\nImplikasi paling masuk akal adalah...",
+      "options": [
+        { "label": "A", "text": "Pembatasan durasi dan agenda tertulis dapat meningkatkan kejelasan keputusan, meski frekuensi rapat tetap.", "isCorrect": true },
+        { "label": "B", "text": "Jumlah rapat pasti turun jika durasi dibatasi.", "isCorrect": false },
+        { "label": "C", "text": "Agenda tertulis membuat rapat menjadi tidak perlu.", "isCorrect": false },
+        { "label": "D", "text": "Keputusan tertulis meningkat karena peserta rapat bertambah banyak.", "isCorrect": false },
+        { "label": "E", "text": "Durasi 25 menit terlalu lama untuk menghasilkan keputusan.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Implikasi harus mengikuti data: variabel mana yang berubah vs tidak. Langkah ringkas: Frekuensi rapat tetap, tetapi output keputusan tertulis naik → kualitas dokumentasi membaik. Mengapa distraktor terdekat salah: Opsi B bertentangan dengan teks yang menyebut jumlah rapat tidak berkurang."
+    },
+    {
+      "id": 7,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Dalam simulasi layanan, peserta diminta mengulang permintaan pelanggan dengan kalimat sendiri sebelum memberi solusi. Pelanggan merasa lebih dipahami, namun durasi percakapan sedikit lebih panjang.\"\nKesimpulan paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Teknik parafrase dapat meningkatkan rasa dipahami walau berpotensi menambah durasi komunikasi.", "isCorrect": true },
+        { "label": "B", "text": "Durasi lebih panjang membuktikan teknik parafrase tidak efektif.", "isCorrect": false },
+        { "label": "C", "text": "Pelanggan hanya peduli durasi, bukan rasa dipahami.", "isCorrect": false },
+        { "label": "D", "text": "Memberi solusi tanpa mengulang permintaan selalu lebih baik.", "isCorrect": false },
+        { "label": "E", "text": "Teknik parafrase membuat solusi menjadi salah.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Simpulkan trade-off yang disebutkan, tanpa mengubah arah temuan. Langkah ringkas: Catat dua efek: 'lebih dipahami' dan 'durasi sedikit lebih panjang'. Mengapa distraktor terdekat salah: Opsi B menyamakan durasi lebih panjang dengan tidak efektif, padahal teks menyebut dampak positif pada persepsi pelanggan."
+    },
+    {
+      "id": 8,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Sebuah perpustakaan mengganti label rak dari kode angka menjadi kategori kata sederhana. Pengunjung baru lebih cepat menemukan buku yang dicari, tetapi pengunjung lama perlu waktu beradaptasi.\"\nPernyataan yang paling didukung teks adalah...",
+      "options": [
+        { "label": "A", "text": "Perubahan label dapat memudahkan pengguna baru, namun bisa menimbulkan biaya adaptasi bagi pengguna lama.", "isCorrect": true },
+        { "label": "B", "text": "Pengunjung lama pasti menolak semua perubahan sistem.", "isCorrect": false },
+        { "label": "C", "text": "Label angka selalu lebih buruk daripada label kata.", "isCorrect": false },
+        { "label": "D", "text": "Pengunjung baru lebih cepat karena jumlah buku berkurang.", "isCorrect": false },
+        { "label": "E", "text": "Kategori kata membuat pengunjung lama tidak mungkin menemukan buku.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Inferensi yang tepat menangkap efek berbeda pada kelompok berbeda. Langkah ringkas: Identifikasi kelompok (baru vs lama) dan dampaknya (lebih cepat vs butuh adaptasi). Mengapa distraktor terdekat salah: Opsi B menyimpulkan penolakan, sementara teks hanya menyebut butuh waktu adaptasi."
+    },
+    {
+      "id": 9,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Dalam pelatihan, peserta diberi contoh jawaban yang baik dan yang kurang baik. Setelah itu mereka menilai jawaban anonim menggunakan rubrik singkat. Nilai antarpeserta menjadi lebih konsisten.\"\nImplikasi paling masuk akal adalah...",
+      "options": [
+        { "label": "A", "text": "Rubrik singkat dan contoh dapat menyamakan standar penilaian di antara penilai.", "isCorrect": true },
+        { "label": "B", "text": "Penilaian anonim membuat semua jawaban otomatis menjadi baik.", "isCorrect": false },
+        { "label": "C", "text": "Konsistensi meningkat karena peserta saling menyalin nilai.", "isCorrect": false },
+        { "label": "D", "text": "Rubrik singkat tidak berguna karena terlalu sederhana.", "isCorrect": false },
+        { "label": "E", "text": "Konsistensi nilai berarti semua peserta punya kemampuan yang sama.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Cari mekanisme yang paling parsimonious sesuai teks: standar penilaian diselaraskan. Langkah ringkas: Contoh + rubrik → acuan bersama → nilai lebih konsisten. Mengapa distraktor terdekat salah: Opsi E menyamakan konsistensi penilaian dengan kesamaan kemampuan, padahal yang berubah adalah keseragaman penilai, bukan kemampuan peserta."
+    },
+    {
+      "id": 10,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Bacalah paragraf berikut.\n\"Seorang koordinator membagi tugas besar menjadi empat bagian kecil dengan tenggat mingguan. Tim melaporkan kemajuan tiap akhir minggu. Hasil akhir selesai tepat waktu walau sempat ada perubahan kebutuhan di tengah jalan.\"\nKesimpulan paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Pembagian tugas dan pelaporan berkala dapat membantu ketepatan waktu meski ada perubahan.", "isCorrect": true },
+        { "label": "B", "text": "Perubahan kebutuhan tidak pernah memengaruhi hasil kerja.", "isCorrect": false },
+        { "label": "C", "text": "Tenggat mingguan selalu membuat pekerjaan lebih lambat.", "isCorrect": false },
+        { "label": "D", "text": "Tim pasti mengabaikan perubahan kebutuhan agar selesai tepat waktu.", "isCorrect": false },
+        { "label": "E", "text": "Pekerjaan selesai tepat waktu karena tugasnya sebenarnya mudah.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Kesimpulan harus sesuai fakta: pekerjaan tetap tepat waktu meski ada perubahan, dengan strategi pembagian dan pelaporan. Langkah ringkas: Petakan strategi → dukungan kontrol kemajuan → hasil tepat waktu. Mengapa distraktor terdekat salah: Opsi D menuduh tim mengabaikan perubahan, padahal teks menyebut perubahan terjadi tetapi pekerjaan tetap selesai."
+    },
+
+    {
+      "id": 11,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Semua pelatih menggunakan rubrik. Sebagian pelatih adalah fasilitator.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Semua fasilitator menggunakan rubrik.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian fasilitator menggunakan rubrik.", "isCorrect": true },
+        { "label": "C", "text": "Tidak ada fasilitator yang menggunakan rubrik.", "isCorrect": false },
+        { "label": "D", "text": "Sebagian pelatih tidak menggunakan rubrik.", "isCorrect": false },
+        { "label": "E", "text": "Semua yang menggunakan rubrik adalah pelatih.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Dari 'Semua pelatih menggunakan rubrik' dan 'Sebagian pelatih adalah fasilitator' → irisan fasilitator-pelatih pasti menggunakan rubrik. Langkah ringkas: Ambil kelompok 'pelatih' sebagai subset pengguna rubrik; lalu sebagian pelatih berada di kelompok fasilitator → sebagian fasilitator termasuk pelatih → menggunakan rubrik. Mengapa distraktor terdekat salah: Opsi A terlalu kuat (menggeneralisasi semua fasilitator), padahal hanya sebagian fasilitator yang dipastikan adalah pelatih."
+    },
+    {
+      "id": 12,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Tidak ada laporan yang dibuat tanpa verifikasi. Beberapa catatan adalah laporan.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Semua catatan diverifikasi.", "isCorrect": false },
+        { "label": "B", "text": "Beberapa catatan tidak diverifikasi.", "isCorrect": false },
+        { "label": "C", "text": "Beberapa catatan dibuat tanpa verifikasi.", "isCorrect": false },
+        { "label": "D", "text": "Beberapa catatan diverifikasi.", "isCorrect": true },
+        { "label": "E", "text": "Tidak ada catatan yang diverifikasi.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Jika semua laporan membutuhkan verifikasi, maka setiap objek yang merupakan laporan pasti diverifikasi. Langkah ringkas: (1) Laporan → diverifikasi, (2) Beberapa catatan adalah laporan → sebagian catatan masuk kategori laporan → diverifikasi. Mengapa distraktor terdekat salah: Opsi A menyimpulkan semua catatan diverifikasi, padahal hanya catatan yang termasuk laporan yang pasti diverifikasi."
+    },
+    {
+      "id": 13,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Semua kegiatan yang terjadwal memiliki penanggung jawab. Tidak semua kegiatan memiliki penanggung jawab.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Tidak ada kegiatan yang terjadwal.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian kegiatan terjadwal tidak memiliki penanggung jawab.", "isCorrect": false },
+        { "label": "C", "text": "Ada kegiatan yang tidak terjadwal.", "isCorrect": true },
+        { "label": "D", "text": "Semua kegiatan tidak terjadwal.", "isCorrect": false },
+        { "label": "E", "text": "Semua kegiatan memiliki penanggung jawab.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Kontraposisi tidak boleh dibalik secara keliru; namun dari 'tidak semua kegiatan punya penanggung jawab' berarti ada kegiatan tanpa penanggung jawab. Karena semua yang terjadwal punya penanggung jawab, maka kegiatan tanpa penanggung jawab tidak terjadwal. Langkah ringkas: (1) Terjadwal → PJ, (2) Ada kegiatan tanpa PJ, (3) Maka ada kegiatan tidak terjadwal. Mengapa distraktor terdekat salah: Opsi B bertentangan dengan premis pertama karena kegiatan terjadwal wajib punya penanggung jawab."
+    },
+    {
+      "id": 14,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Sebagian dokumen arsip adalah dokumen digital. Semua dokumen digital diberi indeks.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Semua dokumen arsip diberi indeks.", "isCorrect": false },
+        { "label": "B", "text": "Sebagian dokumen arsip diberi indeks.", "isCorrect": true },
+        { "label": "C", "text": "Tidak ada dokumen arsip yang diberi indeks.", "isCorrect": false },
+        { "label": "D", "text": "Sebagian dokumen digital bukan arsip.", "isCorrect": false },
+        { "label": "E", "text": "Semua yang diberi indeks adalah dokumen arsip.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Jika sebagian arsip adalah digital, dan semua digital berindeks, maka irisan arsip-digital pasti berindeks. Langkah ringkas: (1) Digital → indeks, (2) Ada arsip yang digital, (3) Maka ada arsip yang berindeks. Mengapa distraktor terdekat salah: Opsi A terlalu kuat karena hanya sebagian arsip yang diketahui digital."
+    },
+    {
+      "id": 15,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Semua peserta yang lulus telah menyelesaikan simulasi. Sebagian peserta tidak menyelesaikan simulasi.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Sebagian peserta tidak lulus.", "isCorrect": true },
+        { "label": "B", "text": "Semua peserta tidak lulus.", "isCorrect": false },
+        { "label": "C", "text": "Sebagian peserta lulus tanpa simulasi.", "isCorrect": false },
+        { "label": "D", "text": "Semua peserta menyelesaikan simulasi.", "isCorrect": false },
+        { "label": "E", "text": "Sebagian peserta yang tidak menyelesaikan simulasi tetap lulus.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Jika lulus mensyaratkan simulasi, maka yang tidak menyelesaikan simulasi tidak dapat lulus. Langkah ringkas: (1) Lulus → simulasi, (2) Ada peserta tanpa simulasi, (3) Maka ada peserta yang tidak lulus. Mengapa distraktor terdekat salah: Opsi E bertentangan langsung dengan premis pertama."
+    },
+    {
+      "id": 16,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Tidak ada formulir yang disetujui tanpa tanda tangan. Semua berkas yang disetujui disimpan.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Semua formulir bertanda tangan disimpan.", "isCorrect": false },
+        { "label": "B", "text": "Semua formulir yang disetujui pasti disimpan.", "isCorrect": true },
+        { "label": "C", "text": "Semua berkas yang disimpan pasti disetujui.", "isCorrect": false },
+        { "label": "D", "text": "Tidak ada formulir yang disimpan.", "isCorrect": false },
+        { "label": "E", "text": "Sebagian formulir tanpa tanda tangan disetujui.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Rantai implikasi boleh disusun jika premisnya searah. Langkah ringkas: Premis 2: disetujui → disimpan; sehingga untuk formulir yang disetujui, konsekuensinya disimpan. Mengapa distraktor terdekat salah: Opsi C membalik arah (disimpan → disetujui), yang tidak diberikan oleh premis."
+    },
+    {
+      "id": 17,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Sebagian petugas mengikuti pelatihan komunikasi. Semua yang mengikuti pelatihan komunikasi juga mengikuti pelatihan etika.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Sebagian petugas mengikuti pelatihan etika.", "isCorrect": true },
+        { "label": "B", "text": "Semua petugas mengikuti pelatihan etika.", "isCorrect": false },
+        { "label": "C", "text": "Sebagian petugas mengikuti pelatihan komunikasi tetapi tidak etika.", "isCorrect": false },
+        { "label": "D", "text": "Tidak ada petugas yang mengikuti pelatihan etika.", "isCorrect": false },
+        { "label": "E", "text": "Semua yang mengikuti pelatihan etika pasti mengikuti komunikasi.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Jika A ⊂ B dan ada anggota A, maka pasti ada anggota B. Langkah ringkas: (1) Komunikasi → etika, (2) Ada petugas di komunikasi, (3) Maka ada petugas di etika. Mengapa distraktor terdekat salah: Opsi E membalik implikasi (etika → komunikasi) yang tidak dinyatakan."
+    },
+    {
+      "id": 18,
+      "category": "IQ_LOGIC_RULES",
+      "question": "Pernyataan: Semua tugas prioritas ditinjau setiap hari. Ada tugas yang tidak ditinjau setiap hari.\nKesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Tidak ada tugas prioritas yang ditinjau setiap hari.", "isCorrect": false },
+        { "label": "B", "text": "Semua tugas adalah prioritas.", "isCorrect": false },
+        { "label": "C", "text": "Ada tugas yang bukan prioritas.", "isCorrect": true },
+        { "label": "D", "text": "Ada tugas prioritas yang tidak ditinjau setiap hari.", "isCorrect": false },
+        { "label": "E", "text": "Semua tugas tidak ditinjau setiap hari.", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Jika prioritas → ditinjau harian, maka yang tidak ditinjau harian tidak bisa prioritas. Langkah ringkas: (1) Prioritas → harian, (2) Ada yang tidak harian, (3) Maka ada yang bukan prioritas. Mengapa distraktor terdekat salah: Opsi D bertentangan dengan premis pertama."
+    },
+
+    {
+      "id": 19,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Kalender : Jadwal = Peta : ...",
+      "options": [
+        { "label": "A", "text": "Lokasi", "isCorrect": true },
+        { "label": "B", "text": "Kecepatan", "isCorrect": false },
+        { "label": "C", "text": "Cuaca", "isCorrect": false },
+        { "label": "D", "text": "Bahan", "isCorrect": false },
+        { "label": "E", "text": "Suara", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Hubungan alat → informasi utama yang ditunjukkan. Langkah ringkas: Kalender menunjukkan jadwal; peta menunjukkan lokasi. Mengapa distraktor terdekat salah: Kecepatan bisa terkait navigasi, tetapi bukan informasi utama yang ditampilkan peta."
+    },
+    {
+      "id": 20,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Filter : Menyaring = Enkripsi : ...",
+      "options": [
+        { "label": "A", "text": "Menyembunyikan", "isCorrect": false },
+        { "label": "B", "text": "Mengacak", "isCorrect": true },
+        { "label": "C", "text": "Menghapus", "isCorrect": false },
+        { "label": "D", "text": "Menyalin", "isCorrect": false },
+        { "label": "E", "text": "Menyusun", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Objek : fungsi utama. Langkah ringkas: Filter berfungsi menyaring; enkripsi berfungsi mengacak/menyandikan agar tidak terbaca tanpa kunci. Mengapa distraktor terdekat salah: Menyembunyikan terlalu umum; inti enkripsi adalah transformasi (pengacakan/penyandian), bukan sekadar menyembunyikan."
+    },
+    {
+      "id": 21,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Diagnosa : Penyebab = Evaluasi : ...",
+      "options": [
+        { "label": "A", "text": "Hukuman", "isCorrect": false },
+        { "label": "B", "text": "Aturan", "isCorrect": false },
+        { "label": "C", "text": "Perasaan", "isCorrect": false },
+        { "label": "D", "text": "Rekomendasi", "isCorrect": true },
+        { "label": "E", "text": "Kebetulan", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Proses → keluaran yang dihasilkan. Langkah ringkas: Diagnosa menghasilkan identifikasi penyebab; evaluasi menghasilkan rekomendasi/umpan balik untuk perbaikan. Mengapa distraktor terdekat salah: Aturan adalah acuan, bukan hasil utama dari evaluasi."
+    },
+    {
+      "id": 22,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Arsip : Menyimpan = Protokol : ...",
+      "options": [
+        { "label": "A", "text": "Menghitung", "isCorrect": false },
+        { "label": "B", "text": "Mengumumkan", "isCorrect": false },
+        { "label": "C", "text": "Mengatur", "isCorrect": true },
+        { "label": "D", "text": "Membandingkan", "isCorrect": false },
+        { "label": "E", "text": "Menghibur", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Konsep → fungsi dominan. Langkah ringkas: Arsip berfungsi menyimpan; protokol berfungsi mengatur tata cara/urutan tindakan. Mengapa distraktor terdekat salah: Mengumumkan bisa bagian komunikasi, tetapi bukan fungsi inti protokol."
+    },
+    {
+      "id": 23,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Kompas : Arah = Termometer : ...",
+      "options": [
+        { "label": "A", "text": "Waktu", "isCorrect": false },
+        { "label": "B", "text": "Suhu", "isCorrect": true },
+        { "label": "C", "text": "Tekanan", "isCorrect": false },
+        { "label": "D", "text": "Kecepatan", "isCorrect": false },
+        { "label": "E", "text": "Jarak", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Alat ukur → besaran yang diukur. Langkah ringkas: Kompas mengukur/menunjukkan arah; termometer mengukur suhu. Mengapa distraktor terdekat salah: Tekanan diukur barometer, bukan termometer."
+    },
+    {
+      "id": 24,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Ringkasan : Inti = Grafik : ...",
+      "options": [
+        { "label": "A", "text": "Rincian", "isCorrect": false },
+        { "label": "B", "text": "Warna", "isCorrect": false },
+        { "label": "C", "text": "Perbandingan", "isCorrect": true },
+        { "label": "D", "text": "Cerita", "isCorrect": false },
+        { "label": "E", "text": "Rahasia", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Bentuk representasi → informasi yang dipadatkan. Langkah ringkas: Ringkasan memadatkan inti; grafik memadatkan data menjadi perbandingan/tren yang mudah dilihat. Mengapa distraktor terdekat salah: Rincian adalah kebalikan dari fungsi ringkasan maupun grafik."
+    },
+    {
+      "id": 25,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "ANALOGI: Antrian : Urutan = Inventaris : ...",
+      "options": [
+        { "label": "A", "text": "Harga", "isCorrect": false },
+        { "label": "B", "text": "Jadwal", "isCorrect": false },
+        { "label": "C", "text": "Promosi", "isCorrect": false },
+        { "label": "D", "text": "Catatan", "isCorrect": true },
+        { "label": "E", "text": "Lokasi", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Sistem/konsep → karakteristik esensialnya. Langkah ringkas: Antrian menekankan urutan; inventaris menekankan pencatatan/daftar barang. Mengapa distraktor terdekat salah: Lokasi bisa tercantum dalam inventaris, tetapi fungsi inti inventaris adalah catatan/daftar, bukan lokasi."
+    }
+  ]
+}
+

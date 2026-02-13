@@ -1,0 +1,69 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <style>.box { fill: none; stroke: black; stroke-width: 2; } .txt { font-family: Arial; font-weight: bold; font-size: 14px; text-anchor: middle; }</style>
+  
+  <text x="300" y="20" class="txt" text-anchor="middle">PERHATIKAN GAMBAR DI BAWAH INI</text>
+  
+  <g transform="translate(50, 40)">
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="40" y2="10" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/>
+  </g>
+
+  <g transform="translate(150, 40)">
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="61" y2="19" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/>
+  </g>
+
+  <g transform="translate(250, 40)">
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="70" y2="40" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> <circle cx="50" cy="70" r="3" fill="black"/>
+  </g>
+
+  <g transform="translate(350, 40)">
+    <rect width="80" height="80" class="box"/>
+    <text x="40" y="50" font-size="30" text-anchor="middle">?</text>
+  </g>
+
+  <line x1="0" y1="140" x2="600" y2="140" stroke="#ccc" stroke-dasharray="5,5"/>
+
+  <g transform="translate(20, 160)">
+    <text x="40" y="-5" class="txt">A</text>
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="61" y2="61" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> <circle cx="50" cy="70" r="3" fill="black"/>
+  </g>
+
+  <g transform="translate(130, 160)">
+    <text x="40" y="-5" class="txt">B</text>
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="61" y2="61" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> <circle cx="50" cy="70" r="3" fill="black"/> <circle cx="40" cy="70" r="3" fill="black"/>
+  </g>
+
+  <g transform="translate(240, 160)">
+    <text x="40" y="-5" class="txt">C</text>
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="40" y2="70" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> <circle cx="50" cy="70" r="3" fill="black"/> <circle cx="40" cy="70" r="3" fill="black"/>
+  </g>
+  
+  <g transform="translate(350, 160)">
+    <text x="40" y="-5" class="txt">D</text>
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="19" y2="61" stroke="black" stroke-width="3" marker-end="url(#arrow)"/> <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> <circle cx="50" cy="70" r="3" fill="black"/> <circle cx="40" cy="70" r="3" fill="black"/>
+  </g>
+
+   <g transform="translate(460, 160)">
+    <text x="40" y="-5" class="txt">E</text>
+    <rect width="80" height="80" class="box"/>
+    <line x1="40" y1="40" x2="61" y2="61" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="70" cy="70" r="3" fill="black"/> <circle cx="60" cy="70" r="3" fill="black"/> </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="black" />
+    </marker>
+  </defs>
+</svg>

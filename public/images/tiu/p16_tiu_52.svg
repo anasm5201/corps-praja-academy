@@ -1,0 +1,8 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <polygon points="30,10 10,50 50,50" fill="none" stroke="black" stroke-width="2"/>
+  <polygon points="90,10 70,25 75,50 105,50 110,25" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="130" y="10" width="40" height="40" fill="none" stroke="red" stroke-width="2"/>
+  <path d="M200 10 L190 25 L190 40 L200 50 L220 50 L230 40 L230 25 Z" fill="none" stroke="black" stroke-width="2"/>
+</svg>

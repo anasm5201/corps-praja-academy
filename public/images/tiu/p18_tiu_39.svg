@@ -1,0 +1,12 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <polygon points="20,40 30,10 40,40" fill="black"/>
+  <polygon points="50,10 60,40 70,10" fill="none" stroke="black" stroke-width="2"/>
+  <text x="80" y="30" font-size="20">:</text>
+  
+  <text x="100" y="40" font-family="Arial" font-size="40" font-weight="bold">T</text>
+  <text x="130" y="30" font-size="20">=</text>
+  
+  <text x="150" y="40" font-family="Arial" font-size="40" font-weight="bold" fill="red" transform="rotate(180 160 30)">T</text>
+</svg>

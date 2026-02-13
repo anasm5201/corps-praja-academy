@@ -1,0 +1,11 @@
+<svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="30,110 50,110 55,125 40,140 25,125" fill="none" stroke="black"/> <text x="65" y="130">+</text>
+  <path d="M90 120 L93 130 H103 L95 136 L98 146 L90 140 L82 146 L85 136 L77 130 H87 Z" fill="black"/> <text x="115" y="130">=</text>
+  
+  <text x="140" y="130" font-size="30">?</text>
+  
+  <g transform="translate(180, 110)">
+     <polygon points="5,0 25,0 30,15 15,30 0,15" fill="none" stroke="black"/>
+     <path d="M15 10 L16 15 H21 L17 18 L18 23 L15 20 L12 23 L13 18 L9 15 H14 Z" fill="black"/>
+  </g>
+</svg>

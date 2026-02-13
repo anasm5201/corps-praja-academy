@@ -1,0 +1,148 @@
+{
+  "unit_id": 1,
+  "title": "Unit 1: Fondasi Intelektual & Integritas Dasar (Stamina Mode)",
+  "description": "Latihan ketahanan fokus 10 soal: Pilar Pancasila, UUD 45, Hitungan Dasar, dan Integritas Birokrasi.",
+  "level": "PRATAMA",
+  "questions": [
+    {
+      "id": "U1-Q1",
+      "type": "TWK",
+      "text": "Pancasila tidak lahir mendadak, melainkan digali dari nilai budaya bangsa. Dalam kausalitas, Bangsa Indonesia berkedudukan sebagai...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Causa Efisien (Karya)", "score": 0 },
+        { "key": "B", "text": "Causa Materialis (Bahan)", "score": 5 },
+        { "key": "C", "text": "Causa Finalis (Tujuan)", "score": 0 },
+        { "key": "D", "text": "Causa Formalis (Bentuk)", "score": 0 },
+        { "key": "E", "text": "Causa Prima (Sebab Pertama)", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Bangsa = BAHAN (Materialis). BPUPKI/Soekarno = BENTUK (Formalis). Kemerdekaan = TUJUAN (Finalis)."
+    },
+    {
+      "id": "U1-Q2",
+      "type": "TIU",
+      "text": "Jika x = 1/16 dan y = 16%, maka hubungan yang tepat adalah...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "x > y", "score": 0 },
+        { "key": "B", "text": "x < y", "score": 5 },
+        { "key": "C", "text": "x = y", "score": 0 },
+        { "key": "D", "text": "x = 2y", "score": 0 },
+        { "key": "E", "text": "Tidak dapat ditentukan", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: x = 0,0625 (6,25%). y = 16%. Jelas 6,25% < 16%. Maka x < y."
+    },
+    {
+      "id": "U1-Q3",
+      "type": "TKP",
+      "text": "Anda menemukan amplop uang tunai tanpa identitas terselip di arsip lama kantor. Tindakan Anda?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Menyimpannya sampai pemiliknya datang.", "score": 3 },
+        { "key": "B", "text": "Menggunakannya untuk kas divisi.", "score": 1 },
+        { "key": "C", "text": "Lapor atasan & serahkan ke pengawas internal.", "score": 5 },
+        { "key": "D", "text": "Tanya rekan senior.", "score": 4 },
+        { "key": "E", "text": "Sumbangkan ke panti asuhan.", "score": 2 }
+      ],
+      "explanation": "PLATINUM KEY: Integritas Prosedural. Opsi C paling transparan & administratif. Opsi E salah prosedur (bukan hak Anda)."
+    },
+    {
+      "id": "U1-Q4",
+      "type": "TIU",
+      "text": "Premis 1: Semua Kadet wajib disiplin. Premis 2: Sebagian peserta apel adalah Kadet. Simpulan?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Semua peserta apel wajib disiplin.", "score": 0 },
+        { "key": "B", "text": "Sebagian peserta apel wajib disiplin.", "score": 5 },
+        { "key": "C", "text": "Semua yang disiplin adalah peserta apel.", "score": 0 },
+        { "key": "D", "text": "Sebagian peserta apel tidak wajib disiplin.", "score": 0 },
+        { "key": "E", "text": "Tidak dapat ditarik kesimpulan.", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Rumus 'Semua + Sebagian = Sebagian'. Subjek 'Kadet' dicoret. Sisa: Sebagian peserta apel -> wajib disiplin."
+    },
+    {
+      "id": "U1-Q5",
+      "type": "TWK",
+      "text": "Penegasan Indonesia sebagai Negara Hukum (Rechtsstaat) tercantum jelas pada UUD 1945 Pasal...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "1 Ayat 1", "score": 0 },
+        { "key": "B", "text": "1 Ayat 2", "score": 0 },
+        { "key": "C", "text": "1 Ayat 3", "score": 5 },
+        { "key": "D", "text": "27 Ayat 1", "score": 0 },
+        { "key": "E", "text": "28 D", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Hafalan Pasal 1 -> (1) Kesatuan, (2) Kedaulatan, (3) Hukum."
+    },
+    {
+      "id": "U1-Q6",
+      "type": "TIU",
+      "text": "Hasil dari 0,75 + 1/4 - 50% adalah...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "0,25", "score": 0 },
+        { "key": "B", "text": "0,50", "score": 5 },
+        { "key": "C", "text": "0,75", "score": 0 },
+        { "key": "D", "text": "1,00", "score": 0 },
+        { "key": "E", "text": "1,25", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Jadikan desimal semua. 0,75 + 0,25 - 0,50 = 1,00 - 0,50 = 0,50."
+    },
+    {
+      "id": "U1-Q7",
+      "type": "TWK",
+      "text": "Piagam Jakarta yang memuat sila pertama 'dengan kewajiban menjalankan syariat Islam...' dirumuskan oleh...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "BPUPKI", "score": 0 },
+        { "key": "B", "text": "PPKI", "score": 0 },
+        { "key": "C", "text": "Panitia Sembilan", "score": 5 },
+        { "key": "D", "text": "Panitia Delapan", "score": 0 },
+        { "key": "E", "text": "Panitia Perancang UUD", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Piagam Jakarta (22 Juni 1945) adalah produk Panitia Sembilan. Jangan tertukar dengan Sidang BPUPKI."
+    },
+    {
+      "id": "U1-Q8",
+      "type": "TKP",
+      "text": "Saat antrean pelayanan publik sedang panjang, seorang senior Anda datang dan minta dilayani duluan tanpa antre. Sikap Anda?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Segera melayani karena hormat pada senior.", "score": 1 },
+        { "key": "B", "text": "Meminta izin warga lain untuk melayani senior.", "score": 3 },
+        { "key": "C", "text": "Menolak dengan tegas di depan umum.", "score": 2 },
+        { "key": "D", "text": "Meminta senior antre dengan sopan & tegas.", "score": 5 },
+        { "key": "E", "text": "Pura-pura tidak melihat senior tersebut.", "score": 1 }
+      ],
+      "explanation": "PLATINUM KEY: Profesionalisme vs Hierarki. Dalam pelayanan publik, 'First Come First Served' adalah mutlak. Tolak halus tapi tetap sopan."
+    },
+    {
+      "id": "U1-Q9",
+      "type": "TIU",
+      "text": "Seri angka: 100, 95, 85, 70, 50, ... Angka selanjutnya?",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "25", "score": 5 },
+        { "key": "B", "text": "30", "score": 0 },
+        { "key": "C", "text": "35", "score": 0 },
+        { "key": "D", "text": "40", "score": 0 },
+        { "key": "E", "text": "45", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Pola pengurangan bertingkat: -5, -10, -15, -20. Selanjutnya pasti -25. Maka 50 - 25 = 25."
+    },
+    {
+      "id": "U1-Q10",
+      "type": "TWK",
+      "text": "Amandemen UUD 1945 yang membatasi masa jabatan Presiden maksimal dua periode terjadi pada...",
+      "image": null,
+      "options": [
+        { "key": "A", "text": "Amandemen I (1999)", "score": 5 },
+        { "key": "B", "text": "Amandemen II (2000)", "score": 0 },
+        { "key": "C", "text": "Amandemen III (2001)", "score": 0 },
+        { "key": "D", "text": "Amandemen IV (2002)", "score": 0 },
+        { "key": "E", "text": "Dekrit Presiden", "score": 0 }
+      ],
+      "explanation": "PLATINUM KEY: Isu paling krusial pasca reformasi adalah kekuasaan Presiden. Maka itu dibahas di Amandemen PERTAMA (1999)."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+    "unit_id": 5,
+    "title": "Unit 5: Integritas Total & Presisi Bahasa",
+    "description": "Latihan nilai antikorupsi, ejaan bahasa baku, dan logika gambar (figural).",
+    "level": "Kadet Pratama",
+    "questions": [
+      {
+        "id": "U5-Q1",
+        "type": "TWK",
+        "text": "Salah satu dari 9 Nilai Integritas KPK adalah 'BERANI'. Contoh perilaku yang mencerminkan nilai berani adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Datang ke kantor tepat waktu.", "score": 0 },
+          { "key": "B", "text": "Melaporkan gratifikasi yang diterima kepada UPG.", "score": 5 },
+          { "key": "C", "text": "Menyelesaikan tugas sesuai target.", "score": 0 },
+          { "key": "D", "text": "Hidup sederhana tidak bermewah-mewah.", "score": 0 },
+          { "key": "E", "text": "Membantu rekan yang kesulitan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Datang tepat waktu = Disiplin. Hidup sederhana = Sederhana. Melapor gratifikasi = BERANI (Mengambil resiko demi kebenaran)."
+      },
+      {
+        "id": "U5-Q2",
+        "type": "TIU",
+        "text": "Penulisan kata yang baku di bawah ini adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Apotik, Praktek, Resiko", "score": 0 },
+          { "key": "B", "text": "Apotek, Praktik, Risiko", "score": 5 },
+          { "key": "C", "text": "Apotek, Praktek, Resiko", "score": 0 },
+          { "key": "D", "text": "Apotik, Praktik, Risiko", "score": 0 },
+          { "key": "E", "text": "Apotek, Praktik, Resiko", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Ingat 'Kapotek' (Apoteker) -> Apotek. 'Praktikum' -> Praktik. Resiko is wrong -> RISIKO."
+      },
+      {
+        "id": "U5-Q3",
+        "type": "TKP",
+        "text": "Anda melihat rekan kerja menggunakan printer kantor untuk mencetak ratusan lembar undangan pernikahan pribadinya. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Membiarkan karena itu hal biasa.", "score": 1 },
+          { "key": "B", "text": "Ikut mencetak tugas pribadi juga.", "score": 1 },
+          { "key": "C", "text": "Menegurnya dan mengingatkan bahwa itu fasilitas negara.", "score": 5 },
+          { "key": "D", "text": "Melapor ke atasan langsung tanpa menegur.", "score": 4 },
+          { "key": "E", "text": "Menyindirnya di grup WhatsApp.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Penggunaan BMN (Barang Milik Negara) untuk pribadi adalah Korupsi. Tegur langsung (Assertive) lebih baik daripada pasif."
+      },
+      {
+        "id": "U5-Q4",
+        "type": "TIU",
+        "text": "Manakah kelompok kata yang TIDAK sepola? (Singa, Harimau, Kucing, Serigala)",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Singa", "score": 0 },
+          { "key": "B", "text": "Harimau", "score": 0 },
+          { "key": "C", "text": "Kucing", "score": 0 },
+          { "key": "D", "text": "Serigala", "score": 5 },
+          { "key": "E", "text": "Semua sepola", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Singa, Harimau, Kucing = Feline (Keluarga Kucing). Serigala = Canine (Keluarga Anjing)."
+      },
+      {
+        "id": "U5-Q5",
+        "type": "TWK",
+        "text": "Hari Kebangkitan Nasional (Harkitnas) diperingati setiap tanggal 20 Mei. Tanggal ini dipilih berdasarkan momen...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Sumpah Pemuda", "score": 0 },
+          { "key": "B", "text": "Berdirinya Budi Utomo", "score": 5 },
+          { "key": "C", "text": "Kongres Perempuan I", "score": 0 },
+          { "key": "D", "text": "Lahirnya Pancasila", "score": 0 },
+          { "key": "E", "text": "Proklamasi Kemerdekaan", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: 20 Mei 1908 = Lahirnya Budi Utomo (Awal Pergerakan Nasional)."
+      },
+      {
+        "id": "U5-Q6",
+        "type": "TIU",
+        "text": "2, 4, 8, 14, 22, ... Angka selanjutnya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "30", "score": 0 },
+          { "key": "B", "text": "32", "score": 5 },
+          { "key": "C", "text": "34", "score": 0 },
+          { "key": "D", "text": "36", "score": 0 },
+          { "key": "E", "text": "40", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Pola tingkat dua. Selisihnya: +2, +4, +6, +8. Maka selanjutnya +10. 22 + 10 = 32."
+      },
+      {
+        "id": "U5-Q7",
+        "type": "TWK",
+        "text": "Lembaga yang berwenang memeriksa pengelolaan dan tanggung jawab keuangan negara adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "KPK", "score": 0 },
+          { "key": "B", "text": "BPK", "score": 5 },
+          { "key": "C", "text": "Kementerian Keuangan", "score": 0 },
+          { "key": "D", "text": "BPKP", "score": 0 },
+          { "key": "E", "text": "DPR", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Kata kunci 'MEMERIKSA' (Audit) = BPK (Badan Pemeriksa Keuangan). KPK = Penindakan Korupsi."
+      },
+      {
+        "id": "U5-Q8",
+        "type": "TKP",
+        "text": "Anda dijanjikan promosi jabatan oleh kepala dinas, dengan syarat Anda harus memalsukan sedikit data laporan anggaran. Sikap Anda?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Menerima tawaran tersebut demi karir.", "score": 1 },
+          { "key": "B", "text": "Menolak secara halus dan tetap bekerja jujur.", "score": 5 },
+          { "key": "C", "text": "Meminta waktu untuk memikirkannya.", "score": 2 },
+          { "key": "D", "text": "Menerima tapi diam-diam memperbaiki datanya.", "score": 3 },
+          { "key": "E", "text": "Pura-pura tidak mengerti maksud atasan.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas Harga Mati. Menolak perintah koruptif adalah kewajiban ASN, meskipun resikonya karir terhambat."
+      },
+      {
+        "id": "U5-Q9",
+        "type": "TIU",
+        "text": "Jika p = q + 2 dan q = r - 1, dan r = 5. Maka nilai p adalah...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "4", "score": 0 },
+          { "key": "B", "text": "5", "score": 0 },
+          { "key": "C", "text": "6", "score": 5 },
+          { "key": "D", "text": "7", "score": 0 },
+          { "key": "E", "text": "8", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Substitusi balik. r = 5. q = 5 - 1 = 4. p = 4 + 2 = 6."
+      },
+      {
+        "id": "U5-Q10",
+        "type": "TWK",
+        "text": "Paham yang menganggap bahwa Tuhan itu tidak ada disebut...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Sekulerisme", "score": 0 },
+          { "key": "B", "text": "Ateisme", "score": 5 },
+          { "key": "C", "text": "Komunisme", "score": 0 },
+          { "key": "D", "text": "Liberalisme", "score": 0 },
+          { "key": "E", "text": "Animisme", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Ateisme = Tidak percaya Tuhan. Komunisme seringkali ateis, tapi definisinya adalah paham ekonomi-politik. Sekulerisme = Pemisahan agama & negara."
+      }
+    ]
+  }

@@ -1,0 +1,336 @@
+```json
+{
+  "title": "Paket Kecerdasan 08 - Numeric Series & Pattern",
+  "type": "PSIKOLOGI_KECERDASAN",
+  "description": "Deret angka menengah–sulit dengan pola 2 langkah: selang-seling, bertingkat, dan operasi campuran (+ dan ×) yang wajar.",
+  "duration": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 3, 6, 5, 10, 7, 14, 9, ...",
+      "options": [
+        { "label": "A", "text": "18", "isCorrect": true },
+        { "label": "B", "text": "16", "isCorrect": false },
+        { "label": "C", "text": "20", "isCorrect": false },
+        { "label": "D", "text": "14", "isCorrect": false },
+        { "label": "E", "text": "22", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +2, suku genap naik +4. Langkah ringkas: suku genap: 6, 10, 14, maka berikutnya 18. Mengapa distraktor terdekat salah: 16 muncul jika mengikuti kenaikan +2 (aturan suku ganjil) pada suku genap."
+    },
+    {
+      "id": 2,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 12, 9, 18, 15, 24, 21, ...",
+      "options": [
+        { "label": "A", "text": "27", "isCorrect": false },
+        { "label": "B", "text": "30", "isCorrect": true },
+        { "label": "C", "text": "33", "isCorrect": false },
+        { "label": "D", "text": "24", "isCorrect": false },
+        { "label": "E", "text": "36", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil bertambah +6, suku genap juga bertambah +6. Langkah ringkas: suku ganjil 12, 18, 24, maka berikutnya 30. Mengapa distraktor terdekat salah: 27 muncul jika hanya memperhatikan suku genap (9, 15, 21) dan melanjutkannya."
+    },
+    {
+      "id": 3,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 2, 8, 3, 12, 4, 16, 5, ...",
+      "options": [
+        { "label": "A", "text": "18", "isCorrect": false },
+        { "label": "B", "text": "16", "isCorrect": false },
+        { "label": "C", "text": "20", "isCorrect": true },
+        { "label": "D", "text": "24", "isCorrect": false },
+        { "label": "E", "text": "21", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +1, suku genap naik +4. Langkah ringkas: suku genap 8, 12, 16, maka berikutnya 20. Mengapa distraktor terdekat salah: 16 muncul jika mengulang suku genap terakhir (tidak meneruskan kenaikan +4)."
+    },
+    {
+      "id": 4,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 20, 18, 16, 15, 12, 12, 8, ...",
+      "options": [
+        { "label": "A", "text": "6", "isCorrect": false },
+        { "label": "B", "text": "10", "isCorrect": false },
+        { "label": "C", "text": "12", "isCorrect": false },
+        { "label": "D", "text": "9", "isCorrect": true },
+        { "label": "E", "text": "7", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil turun -4, suku genap turun -3. Langkah ringkas: suku genap 18, 15, 12, maka berikutnya 9. Mengapa distraktor terdekat salah: 8 muncul jika meneruskan aturan suku ganjil (-4) pada posisi suku genap."
+    },
+    {
+      "id": 5,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 5, 11, 7, 14, 9, 17, 11, ...",
+      "options": [
+        { "label": "A", "text": "19", "isCorrect": false },
+        { "label": "B", "text": "21", "isCorrect": false },
+        { "label": "C", "text": "18", "isCorrect": false },
+        { "label": "D", "text": "23", "isCorrect": false },
+        { "label": "E", "text": "20", "isCorrect": true }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +2, suku genap naik +3. Langkah ringkas: suku genap 11, 14, 17, maka berikutnya 20. Mengapa distraktor terdekat salah: 19 muncul jika mengikuti kenaikan +2 (aturan suku ganjil) pada suku genap."
+    },
+    {
+      "id": 6,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 30, 27, 24, 22, 18, 17, 12, ...",
+      "options": [
+        { "label": "A", "text": "12", "isCorrect": true },
+        { "label": "B", "text": "7", "isCorrect": false },
+        { "label": "C", "text": "11", "isCorrect": false },
+        { "label": "D", "text": "17", "isCorrect": false },
+        { "label": "E", "text": "13", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil turun -6, suku genap turun -5. Langkah ringkas: suku genap 27, 22, 17, maka berikutnya 12. Mengapa distraktor terdekat salah: 11 muncul jika memakai penurunan -6 (aturan suku ganjil) pada suku genap."
+    },
+    {
+      "id": 7,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 7, 14, 9, 18, 11, 22, 13, ...",
+      "options": [
+        { "label": "A", "text": "24", "isCorrect": false },
+        { "label": "B", "text": "26", "isCorrect": true },
+        { "label": "C", "text": "28", "isCorrect": false },
+        { "label": "D", "text": "22", "isCorrect": false },
+        { "label": "E", "text": "25", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +2, suku genap naik +4. Langkah ringkas: suku genap 14, 18, 22, maka berikutnya 26. Mengapa distraktor terdekat salah: 25 muncul jika menambah +3 (rata-rata) tanpa memisahkan dua subderet."
+    },
+    {
+      "id": 8,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 4, 10, 6, 15, 8, 20, 10, ...",
+      "options": [
+        { "label": "A", "text": "20", "isCorrect": false },
+        { "label": "B", "text": "23", "isCorrect": false },
+        { "label": "C", "text": "25", "isCorrect": true },
+        { "label": "D", "text": "30", "isCorrect": false },
+        { "label": "E", "text": "27", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +2, suku genap naik +5. Langkah ringkas: suku genap 10, 15, 20, maka berikutnya 25. Mengapa distraktor terdekat salah: 23 muncul jika keliru menaikkan suku genap dengan +4 (mengira sama seperti paket selang-seling lain)."
+    },
+    {
+      "id": 9,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 9, 6, 12, 9, 15, 12, ...",
+      "options": [
+        { "label": "A", "text": "15", "isCorrect": false },
+        { "label": "B", "text": "16", "isCorrect": false },
+        { "label": "C", "text": "21", "isCorrect": false },
+        { "label": "D", "text": "18", "isCorrect": true },
+        { "label": "E", "text": "17", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil naik +3 (9,12,15,...), suku genap juga naik +3 (6,9,12,...). Langkah ringkas: suku ganjil berikutnya setelah 15 adalah 18. Mengapa distraktor terdekat salah: 21 muncul jika menambah +6 dari 15 (menggabungkan dua langkah sekaligus)."
+    },
+    {
+      "id": 10,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 2, 5, 4, 9, 8, 13, 16, ...",
+      "options": [
+        { "label": "A", "text": "16", "isCorrect": false },
+        { "label": "B", "text": "18", "isCorrect": false },
+        { "label": "C", "text": "15", "isCorrect": false },
+        { "label": "D", "text": "21", "isCorrect": false },
+        { "label": "E", "text": "17", "isCorrect": true }
+      ],
+      "explanation": "Aturan/Logika inti: Deret selang-seling; suku ganjil dikali 2 (2,4,8,16), suku genap naik +4 (5,9,13,...). Langkah ringkas: suku genap berikutnya setelah 13 adalah 17. Mengapa distraktor terdekat salah: 21 muncul jika meneruskan kenaikan +8 (mengira mengikuti suku ganjil yang dobel)."
+    },
+
+    {
+      "id": 11,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 3, 8, 15, 24, 35, ...",
+      "options": [
+        { "label": "A", "text": "48", "isCorrect": true },
+        { "label": "B", "text": "46", "isCorrect": false },
+        { "label": "C", "text": "50", "isCorrect": false },
+        { "label": "D", "text": "45", "isCorrect": false },
+        { "label": "E", "text": "44", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat naik +2 (5, 7, 9, 11, ...). Langkah ringkas: selisih berikutnya 13, jadi 35 + 13 = 48. Mengapa distraktor terdekat salah: 46 muncul jika memakai selisih 11 sekali lagi (tidak menaikkan menjadi 13)."
+    },
+    {
+      "id": 12,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 10, 13, 18, 25, 34, ...",
+      "options": [
+        { "label": "A", "text": "44", "isCorrect": false },
+        { "label": "B", "text": "45", "isCorrect": true },
+        { "label": "C", "text": "46", "isCorrect": false },
+        { "label": "D", "text": "47", "isCorrect": false },
+        { "label": "E", "text": "43", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat bilangan ganjil (3, 5, 7, 9, ...). Langkah ringkas: selisih berikutnya 11, jadi 34 + 11 = 45. Mengapa distraktor terdekat salah: 44 muncul jika menambah 10 (mengira selisih naik +1, bukan +2)."
+    },
+    {
+      "id": 13,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 6, 7, 10, 15, 22, ...",
+      "options": [
+        { "label": "A", "text": "29", "isCorrect": false },
+        { "label": "B", "text": "30", "isCorrect": false },
+        { "label": "C", "text": "31", "isCorrect": true },
+        { "label": "D", "text": "32", "isCorrect": false },
+        { "label": "E", "text": "33", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat naik +2 (1, 3, 5, 7, ...). Langkah ringkas: selisih berikutnya 9, jadi 22 + 9 = 31. Mengapa distraktor terdekat salah: 30 muncul jika memakai selisih 8 (keliru menaikkan +1)."
+    },
+    {
+      "id": 14,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 2, 6, 12, 20, 30, ...",
+      "options": [
+        { "label": "A", "text": "40", "isCorrect": false },
+        { "label": "B", "text": "44", "isCorrect": false },
+        { "label": "C", "text": "41", "isCorrect": false },
+        { "label": "D", "text": "42", "isCorrect": true },
+        { "label": "E", "text": "38", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat bilangan genap (4, 6, 8, 10, ...). Langkah ringkas: selisih berikutnya 12, jadi 30 + 12 = 42. Mengapa distraktor terdekat salah: 40 muncul jika menambah 10 lagi (tidak menaikkan selisih menjadi 12)."
+    },
+    {
+      "id": 15,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 1, 2, 5, 10, 17, ...",
+      "options": [
+        { "label": "A", "text": "24", "isCorrect": false },
+        { "label": "B", "text": "25", "isCorrect": false },
+        { "label": "C", "text": "27", "isCorrect": false },
+        { "label": "D", "text": "28", "isCorrect": false },
+        { "label": "E", "text": "26", "isCorrect": true }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat bilangan ganjil (1, 3, 5, 7, ...). Langkah ringkas: selisih berikutnya 9, jadi 17 + 9 = 26. Mengapa distraktor terdekat salah: 25 muncul jika mengira selisih berikutnya 8 (padahal pola naik +2)."
+    },
+    {
+      "id": 16,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 50, 47, 42, 35, 26, ...",
+      "options": [
+        { "label": "A", "text": "15", "isCorrect": true },
+        { "label": "B", "text": "17", "isCorrect": false },
+        { "label": "C", "text": "14", "isCorrect": false },
+        { "label": "D", "text": "13", "isCorrect": false },
+        { "label": "E", "text": "11", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat turun -2 (−3, −5, −7, −9, ...). Langkah ringkas: selisih berikutnya −11, jadi 26 − 11 = 15. Mengapa distraktor terdekat salah: 17 muncul jika memakai −9 lagi (tidak melanjutkan ke −11)."
+    },
+    {
+      "id": 17,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 5, 9, 16, 26, 39, ...",
+      "options": [
+        { "label": "A", "text": "52", "isCorrect": false },
+        { "label": "B", "text": "55", "isCorrect": true },
+        { "label": "C", "text": "53", "isCorrect": false },
+        { "label": "D", "text": "57", "isCorrect": false },
+        { "label": "E", "text": "51", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat naik +3 (4, 7, 10, 13, ...). Langkah ringkas: selisih berikutnya 16, jadi 39 + 16 = 55. Mengapa distraktor terdekat salah: 53 muncul jika menambah 14 (keliru menaikkan selisih hanya +1)."
+    },
+    {
+      "id": 18,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 7, 12, 19, 28, 39, ...",
+      "options": [
+        { "label": "A", "text": "50", "isCorrect": false },
+        { "label": "B", "text": "51", "isCorrect": false },
+        { "label": "C", "text": "52", "isCorrect": true },
+        { "label": "D", "text": "54", "isCorrect": false },
+        { "label": "E", "text": "55", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Selisih bertingkat naik +2 (5, 7, 9, 11, ...). Langkah ringkas: selisih berikutnya 13, jadi 39 + 13 = 52. Mengapa distraktor terdekat salah: 54 muncul jika menambah 15 (mengira selisih naik +4, bukan +2)."
+    },
+
+    {
+      "id": 19,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 2, 5, 11, 23, ...",
+      "options": [
+        { "label": "A", "text": "45", "isCorrect": false },
+        { "label": "B", "text": "46", "isCorrect": false },
+        { "label": "C", "text": "49", "isCorrect": false },
+        { "label": "D", "text": "47", "isCorrect": true },
+        { "label": "E", "text": "48", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi campuran konsisten: ×2 lalu +1. Langkah ringkas: 23 × 2 = 46, lalu +1 = 47. Mengapa distraktor terdekat salah: 46 hanya menjalankan langkah ×2 dan melewatkan +1."
+    },
+    {
+      "id": 20,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 3, 7, 15, 31, ...",
+      "options": [
+        { "label": "A", "text": "62", "isCorrect": false },
+        { "label": "B", "text": "64", "isCorrect": false },
+        { "label": "C", "text": "61", "isCorrect": false },
+        { "label": "D", "text": "60", "isCorrect": false },
+        { "label": "E", "text": "63", "isCorrect": true }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi campuran konsisten: ×2 lalu +1. Langkah ringkas: 31 × 2 = 62, lalu +1 = 63. Mengapa distraktor terdekat salah: 62 muncul jika berhenti di langkah pertama (×2) tanpa menambah +1."
+    },
+    {
+      "id": 21,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 4, 9, 19, 39, ...",
+      "options": [
+        { "label": "A", "text": "79", "isCorrect": true },
+        { "label": "B", "text": "78", "isCorrect": false },
+        { "label": "C", "text": "81", "isCorrect": false },
+        { "label": "D", "text": "77", "isCorrect": false },
+        { "label": "E", "text": "80", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi campuran konsisten: ×2 lalu +1. Langkah ringkas: 39 × 2 = 78, lalu +1 = 79. Mengapa distraktor terdekat salah: 78 hanya mengikuti ×2 tetapi mengabaikan +1."
+    },
+    {
+      "id": 22,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 6, 12, 13, 26, 27, ...",
+      "options": [
+        { "label": "A", "text": "53", "isCorrect": false },
+        { "label": "B", "text": "54", "isCorrect": true },
+        { "label": "C", "text": "52", "isCorrect": false },
+        { "label": "D", "text": "55", "isCorrect": false },
+        { "label": "E", "text": "56", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi selang-seling: ×2 lalu +1, berulang. Langkah ringkas: 6×2=12, +1=13, ×2=26, +1=27, berikutnya ×2=54. Mengapa distraktor terdekat salah: 55 muncul jika menambah +1 lagi padahal langkah berikutnya harus ×2."
+    },
+    {
+      "id": 23,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 5, 8, 16, 19, 38, ...",
+      "options": [
+        { "label": "A", "text": "40", "isCorrect": false },
+        { "label": "B", "text": "42", "isCorrect": false },
+        { "label": "C", "text": "41", "isCorrect": true },
+        { "label": "D", "text": "38", "isCorrect": false },
+        { "label": "E", "text": "44", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi selang-seling: +3 lalu ×2, berulang. Langkah ringkas: 5+3=8, ×2=16, +3=19, ×2=38, berikutnya +3=41. Mengapa distraktor terdekat salah: 44 muncul jika melakukan ×2 lagi (mengulang langkah kedua)."
+    },
+    {
+      "id": 24,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 9, 11, 22, 24, 48, ...",
+      "options": [
+        { "label": "A", "text": "48", "isCorrect": false },
+        { "label": "B", "text": "49", "isCorrect": false },
+        { "label": "C", "text": "52", "isCorrect": false },
+        { "label": "D", "text": "50", "isCorrect": true },
+        { "label": "E", "text": "46", "isCorrect": false }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi selang-seling: +2 lalu ×2, berulang. Langkah ringkas: 9+2=11, ×2=22, +2=24, ×2=48, berikutnya +2=50. Mengapa distraktor terdekat salah: 49 muncul jika menambah +1 (keliru langkah pertama)."
+    },
+    {
+      "id": 25,
+      "category": "IQ_NUM_SERIES",
+      "question": "Tentukan angka berikutnya: 1, 3, 4, 12, 13, 39, ...",
+      "options": [
+        { "label": "A", "text": "39", "isCorrect": false },
+        { "label": "B", "text": "41", "isCorrect": false },
+        { "label": "C", "text": "37", "isCorrect": false },
+        { "label": "D", "text": "43", "isCorrect": false },
+        { "label": "E", "text": "40", "isCorrect": true }
+      ],
+      "explanation": "Aturan/Logika inti: Operasi selang-seling: ×3 lalu +1, berulang. Langkah ringkas: 1×3=3, +1=4, ×3=12, +1=13, ×3=39, berikutnya +1=40. Mengapa distraktor terdekat salah: 39 muncul jika berhenti di 39 dan tidak menjalankan langkah +1 yang wajib setelah operasi ×3."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+    "unit_id": 29,
+    "title": "Unit 29: Mini Tryout Charlie (The Traps)",
+    "description": "Simulasi ujian acak ketiga. Fokus pada ketelitian membaca instruksi, jebakan logika silogisme, dan dilema etika tingkat tinggi.",
+    "level": "Kadet Utama",
+    "questions": [
+      {
+        "id": "U29-Q1",
+        "type": "TWK",
+        "text": "Sejarah Ketatanegaraan: Pada awal kemerdekaan, sistem pemerintahan Indonesia berubah dari Presidensial menjadi Parlementer. Hal ini ditandai dengan keluarnya Maklumat Wakil Presiden No. X tanggal 16 Oktober 1945, yang mengubah fungsi KNIP dari pembantu presiden menjadi...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Lembaga Eksekutif", "score": 0 },
+          { "key": "B", "text": "Lembaga Yudikatif", "score": 0 },
+          { "key": "C", "text": "Lembaga Legislatif", "score": 5 },
+          { "key": "D", "text": "Dewan Konstituante", "score": 0 },
+          { "key": "E", "text": "Majelis Permusyawaratan Rakyat", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Sejarah Maklumat X. Ini titik balik demokrasi. KNIP (Komite Nasional Indonesia Pusat) awalnya hanya pembantu presiden. Maklumat X memberikan kekuasaan LEGISLATIF (membuat UU) kepada KNIP sebelum DPR/MPR terbentuk. Ini awal mula 'check and balances' meski sistem jadi parlementer."
+      },
+      {
+        "id": "U29-Q2",
+        "type": "TIU",
+        "text": "Figural Serial: Tentukan elemen yang hilang pada kotak ketiga.",
+        "image": "<svg width='250' height='60' viewBox='0 0 250 60' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><rect x='15' y='15' width='10' height='10' fill='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><rect x='95' y='15' width='10' height='10' fill='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><text x='150' y='35' text-anchor='middle' font-weight='bold'>?</text><rect x='190' y='10' width='40' height='40' fill='none' stroke='black'/><rect x='195' y='35' width='10' height='10' fill='black'/></svg>",
+        "options": [
+          { "key": "A", "text": "Kotak Hitam di Kanan Bawah", "score": 5 },
+          { "key": "B", "text": "Kotak Hitam di Tengah", "score": 0 },
+          { "key": "C", "text": "Kotak Putih di Kanan Bawah", "score": 0 },
+          { "key": "D", "text": "Kotak Hitam di Kiri Atas", "score": 0 },
+          { "key": "E", "text": "Dua Kotak Hitam", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rotasi Searah Jarum Jam (Clockwise). Posisi kotak hitam kecil bergerak menyusuri sudut: Kiri Atas -> Kanan Atas -> (Pasti Kanan Bawah) -> Kiri Bawah."
+      },
+      {
+        "id": "U29-Q3",
+        "type": "TKP",
+        "text": "Anda adalah petugas antrean. Seorang Pejabat Daerah (VIP) datang dan meminta dilayani segera tanpa antre karena ada rapat mendadak dengan Gubernur. Warga lain mulai berbisik-bisik protes. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Segera melayaninya karena urusan Gubernur pasti penting untuk negara.", "score": 2 },
+          { "key": "B", "text": "Menolak kasar dan menyuruhnya antre seperti rakyat biasa.", "score": 1 },
+          { "key": "C", "text": "Menjelaskan dengan sangat sopan bahwa sistem antrean sudah terkomputerisasi dan tidak bisa di-bypass demi keadilan, namun menawarkan bantuan staf lain untuk memproses berkasnya jika beliau harus segera pergi (Delegasi), asalkan tetap sesuai urutan sistem.", "score": 5 },
+          { "key": "D", "text": "Meminta persetujuan warga yang mengantre, jika boleh baru dilayani.", "score": 3 },
+          { "key": "E", "text": "Pura-pura tidak tahu dia pejabat.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Integritas vs Fleksibilitas. Mendahulukan pejabat melukai rasa keadilan publik (Blunder fatal). Solusi C: Tegakkan aturan (Integritas) + Beri Solusi (Sopan/Delegasi). Jangan korbankan SOP demi jabatan."
+      },
+      {
+        "id": "U29-Q4",
+        "type": "TIU",
+        "text": "Pekerjaan Gabungan: A dapat mengecat rumah dalam 10 hari. B dalam 15 hari. Mereka bekerja bersama selama 4 hari, lalu A pergi. Berapa hari lagi B harus bekerja sendirian untuk menyelesaikannya?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "2 Hari", "score": 0 },
+          { "key": "B", "text": "3 Hari", "score": 0 },
+          { "key": "C", "text": "4 Hari", "score": 0 },
+          { "key": "D", "text": "5 Hari", "score": 5 },
+          { "key": "E", "text": "6 Hari", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Konsep 'Sisa Pekerjaan'. \nKecepatan Gabungan = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 bagian per hari. \nKerja 4 hari = 4 x 1/6 = 4/6 = 2/3 selesai. \nSisa = 1 - 2/3 = 1/3 bagian. \nSisa dikerjakan B (speed 1/15). \nWaktu B = Sisa / Speed B = (1/3) / (1/15) = (1/3) x 15 = 5 Hari."
+      },
+      {
+        "id": "U29-Q5",
+        "type": "TKP",
+        "text": "Rekan kerja satu meja Anda sedang putus cinta dan sering menangis di kantor sehingga pekerjaannya terbengkalai dan Anda harus mem-backup terus menerus. Ini sudah berlangsung 1 minggu. Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Melapor ke atasan agar dia ditegur.", "score": 3 },
+          { "key": "B", "text": "Memarahinya agar profesional.", "score": 1 },
+          { "key": "C", "text": "Mengajaknya bicara di luar jam kerja, mendengarkan keluh kesahnya (Support), lalu mengingatkan dengan tegas namun halus bahwa kinerja tim mulai terganggu dan dia harus bangkit.", "score": 5 },
+          { "key": "D", "text": "Membiarkan saja sampai dia sembuh sendiri.", "score": 1 },
+          { "key": "E", "text": "Minta pindah meja.", "score": 2 }
+        ],
+        "explanation": "PLATINUM KEY: Empathy & Boundaries. Anda bukan psikolog, tapi rekan kerja. Beri dukungan (Empati) TAPI tegaskan batasan profesional (Boundaries). Melapor (A) opsi terakhir jika C gagal."
+      },
+      {
+        "id": "U29-Q6",
+        "type": "TIU",
+        "text": "Logika Bilangan: X adalah bilangan bulat positif. Jika X habis dibagi 3 dan 4, maka X juga PASTI habis dibagi...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "5", "score": 0 },
+          { "key": "B", "text": "8", "score": 0 },
+          { "key": "C", "text": "9", "score": 0 },
+          { "key": "D", "text": "6", "score": 5 },
+          { "key": "E", "text": "24", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: KPK (Kelipatan Persekutuan Terkecil). Habis dibagi 3 dan 4 artinya habis dibagi KPK(3,4) yaitu 12. \nJika habis dibagi 12, maka pasti habis dibagi FAKTOR dari 12 (1, 2, 3, 4, 6, 12). \nDari opsi, yang merupakan faktor 12 adalah 6. \n(Contoh: 12, 24, 36... semua bisa dibagi 6)."
+      },
+      {
+        "id": "U29-Q7",
+        "type": "TWK",
+        "text": "Pasal 1 Ayat (3) UUD 1945 berbunyi 'Negara Indonesia adalah Negara Hukum'. Konsekuensi logis dari pasal ini dalam kehidupan bernegara adalah prinsip...",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Machtstaat (Negara Kekuasaan)", "score": 0 },
+          { "key": "B", "text": "Supremasi Hukum (Equality before the Law)", "score": 5 },
+          { "key": "C", "text": "Absolutisme Pemerintah", "score": 0 },
+          { "key": "D", "text": "Kekuasaan ada di tangan Presiden", "score": 0 },
+          { "key": "E", "text": "Hukum rimba", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Rechstaat vs Machtstaat. Indonesia adalah Rechstaat (Negara Hukum), bukan Machtstaat (Negara Kekuasaan). Artinya Hukum di atas segalanya, termasuk pejabat (Supremasi Hukum) dan semua orang sama di mata hukum."
+      },
+      {
+        "id": "U29-Q8",
+        "type": "TIU",
+        "text": "Luas Daerah Diarsir: Persegi dengan sisi 14 cm. Di dalamnya ada lingkaran menyinggung sisi. Berapa luas daerah di pojok-pojok (luar lingkaran, dalam persegi)?",
+        "image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='130' height='130' fill='black' stroke='black'/><circle cx='75' cy='75' r='65' fill='white' stroke='black'/><text x='75' y='75' font-size='10' text-anchor='middle'>s=14</text></svg>",
+        "options": [
+          { "key": "A", "text": "42 cm²", "score": 5 },
+          { "key": "B", "text": "154 cm²", "score": 0 },
+          { "key": "C", "text": "196 cm²", "score": 0 },
+          { "key": "D", "text": "20 cm²", "score": 0 },
+          { "key": "E", "text": "84 cm²", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Luas Persegi - Luas Lingkaran. \nSisi = 14 -> Jari-jari (r) = 7. \nL. Persegi = 14 x 14 = 196. \nL. Lingkaran = π.r² = (22/7) x 7 x 7 = 154. \nL. Arsir = 196 - 154 = 42 cm²."
+      },
+      {
+        "id": "U29-Q9",
+        "type": "TKP",
+        "text": "Jam istirahat kantor. Anda ingin menonton film streaming di laptop kantor menggunakan Wi-Fi kantor yang sangat kencang (karena di rumah kuota terbatas). Sikap?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Melakukannya karena itu jam istirahat (hak saya).", "score": 1 },
+          { "key": "B", "text": "Download filmnya saja biar bisa ditonton di rumah.", "score": 1 },
+          { "key": "C", "text": "Tidak menggunakannya untuk hal pribadi yang memakan bandwidth besar, karena itu fasilitas negara untuk bekerja.", "score": 5 },
+          { "key": "D", "text": "Hanya nonton YouTube berita.", "score": 3 },
+          { "key": "E", "text": "Mengajak teman nonton bareng.", "score": 1 }
+        ],
+        "explanation": "PLATINUM KEY: Penggunaan BMN (Barang Milik Negara). Fasilitas kantor (Wi-Fi, Listrik, Kertas) dibiayai uang rakyat untuk 'Operational Support', bukan 'Personal Entertainment'. Memakai bandwidth besar untuk download film adalah penyalahgunaan fasilitas (Abuse of Asset)."
+      },
+      {
+        "id": "U29-Q10",
+        "type": "TIU",
+        "text": "Silogisme Jebakan: \nSemua anggota BEM adalah Mahasiswa. \nTidak ada Karyawan yang menjadi anggota BEM. \nBeberapa Mahasiswa adalah Karyawan (Kelas Karyawan). \nKesimpulan?",
+        "image": null,
+        "options": [
+          { "key": "A", "text": "Semua Mahasiswa adalah anggota BEM.", "score": 0 },
+          { "key": "B", "text": "Beberapa Mahasiswa bukan Karyawan.", "score": 5 },
+          { "key": "C", "text": "Tidak ada Mahasiswa yang Karyawan.", "score": 0 },
+          { "key": "D", "text": "Semua Karyawan adalah Mahasiswa.", "score": 0 },
+          { "key": "E", "text": "Anggota BEM bisa jadi Karyawan.", "score": 0 }
+        ],
+        "explanation": "PLATINUM KEY: Cek Diagram Venn. \nAda irisan antara Mahasiswa dan Karyawan. \nTapi BEM ada di dalam Mahasiswa dan TERPISAH dari Karyawan. \nKesimpulan yang pasti benar: Karena 'Beberapa Mahasiswa adalah Karyawan', maka sisanya 'Beberapa Mahasiswa BUKAN Karyawan'. (Sederhana tapi pasti). \nOpsi E salah karena premis 2 bilang 'Tidak ada'."
+      }
+    ]
+  }

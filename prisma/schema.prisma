@@ -1,0 +1,472 @@
+// ==========================================
+// CORPS PRAJA ACADEMY - TRITUNGGAL SYSTEM
+// JAR (AKADEMIK) - LAT (FISIK/PSIKO) - SUH (MENTAL)
+// ==========================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ==========================================
+// 1. DATA USER (PERSONEL)
+// ==========================================
+model User {
+  id                    String    @id @default(cuid())
+  name                  String?
+  email                 String    @unique
+  password              String?
+  role                  String    @default("CADET") 
+  profile               UserProfile?
+  image                 String?
+
+  // ✅ POSISI 1: DIPERTAHANKAN (Satu kesatuan dengan logs)
+  walletBalance         Int       @default(0) // Tabungan Poin/Saldo
+  walletLogs            WalletLog[] // Relasi ke riwayat saldo
+  
+  // --- SISTEM REFERRAL ---
+  referredBy            String?
+  referralCode          String?   @unique
+
+  // --- STATISTIK UTAMA ---
+  points                Int       @default(0)
+  xp                    Int       @default(0)
+  level                 Int       @default(1)
+  rank                  String    @default("CALON PRAJA")
+  
+  // --- EKONOMI & KESEHATAN ---
+  // [DIHAPUS] walletBalance Int @default(0) <-- Penyebab Error Duplikasi
+  suhStats              Int       @default(100)
+
+  // --- [BARU] SISTEM BERLANGGANAN (SUBSCRIPTION) ---
+  // Field ini digunakan sebagai gatekeeper utama di middleware
+  subscriptionPlan      String    @default("FREE")      // "FREE", "MONTHLY", "LIFETIME"
+  subscriptionStatus    String    @default("INACTIVE") // "INACTIVE", "PENDING", "ACTIVE"
+  subscriptionExpires   DateTime? 
+  
+  // --- [BARU] ONBOARDING AGENT ---
+  hasSeenOnboarding     Boolean   @default(false)       
+
+  // --- SCREENING & DIAGNOSA AWAL ---
+  hasCompletedScreening Boolean   @default(false)
+  
+  // Data Fisik Awal
+  initialRunDistance    Int?  
+  initialPushup         Int?  
+  initialSitup          Int?  
+  initialPullup         Int?  
+
+  // Data Akademik Awal
+  initialTwkScore       Int?
+  initialTiuScore       Int?
+  initialTkpScore       Int?
+  speedProgress         UserDrillProgress[]
+  
+  // --- RELASI DATA ---
+  drillHistory          DrillHistory[]        
+  skdAttempts           TryoutAttempt[]
+  psychAttempts         PsychologyAttempt[]
+  
+  physicalLogs          PhysicalLog[]
+  missions              DailyMission[]
+  disciplinaryRecords   DisciplinaryRecord[]
+  weeklyPlans           WeeklyPlan[]
+  
+  // --- RELASI TRANSAKSI ---
+  // Menghubungkan user dengan bukti pembayaran di tabel Transaction
+  transactions          Transaction[]
+  dailyLogs             DailyLog[]
+
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+}
+
+// Model Transaction sebagai "Logistik" untuk memvalidasi amunisi
+
+// ==========================================
+// 2. JAR - AKADEMIK (SKD SYSTEM)
+// ==========================================
+model TryoutPackage {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  duration    Int      @default(100)
+  
+  // 🔥 FIELD INI YANG DICARI OLEH KODE ANDA:
+  category    String   @default("SKD") // Pastikan ini ada!
+  
+  price       Int      @default(0)
+  isFree      Boolean  @default(false)
+  isPublished Boolean  @default(true)
+
+  // Relasi ke Soal (Gunakan TryoutQuestion)
+  questions   TryoutQuestion[] 
+  
+  attempts    TryoutAttempt[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model TryoutAttempt {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  packageId   String
+  package     TryoutPackage @relation(fields: [packageId], references: [id])
+  
+  score       Int       @default(0)      // Total Skor
+  answers     String    // JSON Jawaban user
+  
+  // --- [WEAKNESS HUNTER INTEL] ---
+  analysis    String?   
+  
+  isFinished  Boolean   @default(false) 
+  
+  startedAt   DateTime @default(now())
+  finishedAt  DateTime?                
+  
+  // [PERBAIKAN] Menambahkan field ini agar sesuai standar Prisma dan fix error screenshot
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([userId])
+  @@index([packageId])
+}
+
+// ==========================================
+// 3. LAT - LABORATORIUM PSIKOLOGI
+// ==========================================
+model PsychologyPackage {
+  id          String   @id @default(cuid())
+  title       String
+  type        String   @default("PSIKOLOGI_KECERMATAN") // PSIKOLOGI_KECERMATAN, PSIKOLOGI_KEPRIBADIAN
+  description String?
+  duration    Int      @default(60)
+  
+  // 🔥 TAMBAHKAN INI (Jalur Komunikasi ke Soal):
+  questions   PsychologyQuestion[] 
+
+  // Relasi ke Riwayat Pengerjaan
+  attempts    PsychologyAttempt[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model PsychologyQuestion {
+  id          String            @id @default(cuid())
+  
+  // Relasi ke Paket
+  packageId   String
+  package     PsychologyPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  // Data Soal
+  question    String   // Teks soal (atau simbol untuk kecermatan)
+  options     String?  // JSON String (Opsional untuk Kecermatan)
+  correct     String?  // Kunci Jawaban
+  
+  // Atribut Tambahan
+  columnIdx   Int?     // Khusus Kecermatan: Kolom ke berapa
+  rowIdx      Int?     // Khusus Kecermatan: Baris ke berapa
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([packageId])
+}
+
+model PsychologyAttempt {
+  id             String            @id @default(cuid())
+  userId         String
+  user           User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  packageId      String
+  package        PsychologyPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+  
+  score          Int     @default(0)
+  totalMistakes  Int     @default(0)
+  
+  columnHistory  String? // JSON String
+  answers        String? // JSON String
+  
+  createdAt      DateTime @default(now())
+  
+  @@index([userId])
+}
+// ==========================================
+// 4. LAT - FISIK & SUH
+// ==========================================
+model PhysicalLog {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  // Detail Item Samapta A & B
+  lariMeter      Int       // Jarak lari 12 menit
+  pushUp         Int       // Jumlah 1 menit
+  sitUp          Int       // Jumlah 1 menit
+  pullUp         Int       // Jumlah 1 menit
+  shuttleRun     Float     // Waktu dalam detik
+
+  // Hasil Kalkulasi
+  totalScore     Float     // Skor Akhir (0-100)
+  
+  // Analisa AI 
+  aiFeedback     String? 
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model DisciplinaryRecord {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type        String    
+  reason      String    
+  isResolved  Boolean   @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Material {
+  id          String    @id @default(cuid())
+  title       String
+  description String    
+  type        String    // "PDF", "VIDEO", "LINK"
+  category    String    // "DOKTRIN", "STRATEGI"
+  url         String    
+  content     String?
+  duration    String? 
+  isPremium   Boolean  @default(false)  
+  isLocked    Boolean   @default(false) 
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model DailyMission {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  title       String
+  description String?  @default("Misi Rutin")
+  category    String
+  difficulty  String
+  status      String   @default("AVAILABLE")
+  image       String?
+
+  xpReward    Int      @default(50)
+  duration    String?  @default("Tanpa Batas")
+  isCompleted Boolean  @default(false)
+  
+  // Relasi ke pertanyaan
+  questions   MissionQuestion[] 
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+}
+
+// ==========================================
+// 5. CORE QUESTION BANK (PUSAT BANK SOAL)
+// ==========================================
+
+// ==========================================
+// 6. SPEED DRILL (LATIHAN REFLEKS SYSTEM)
+// ==========================================
+model DrillUnit {
+  id          String    @id @default(cuid())
+  
+  unitNumber  Int       @default(0) 
+  level       String?   // "PRATAMA", "MADYA"
+
+  title       String
+  category    String    // "TWK", "TIU", "TKP"
+  description String?
+  duration    Int       @default(120) 
+  
+  // 🔥 PERBAIKAN: Mengarah ke 'TryoutQuestion' (Standard Baru)
+  questions   TryoutQuestion[] 
+
+  history     DrillHistory[] 
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model DrillHistory {
+  id          String    @id @default(cuid())
+  
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  drillUnitId String
+  drillUnit   DrillUnit @relation(fields: [drillUnitId], references: [id], onDelete: Cascade)
+
+  stars       Int       @default(0) 
+  
+  // 🔥 FIELD STATISTIK
+  bestScore   Int       @default(0) // Database pakai 'bestScore', Kode pakai 'score'
+  correctCount Int      @default(0) // ✅ Tambahkan ini agar tidak error
+  accuracy    Float     @default(0) // (Opsional) Tambahkan untuk statistik akurasi
+
+  isUnlocked  Boolean   @default(false)
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([userId, drillUnitId])
+}
+// ==========================================
+// 7. PERENCANAAN & TRANSAKSI
+// ==========================================
+model WeeklyPlan {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  weekNumber  Int       
+  weekId      String?   
+
+  diagnosis   String?   
+  focusAreas  String    
+  status      String    @default("ACTIVE")
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, weekNumber]) 
+}
+
+model Transaction {
+  id            String    @id @default(cuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  planType      String    // "SOLO" atau "INTENSIVE"
+  amount        Int       // Total Bayar (Harga Paket + Kode Unik)
+  uniqueCode    Int       // Kode Unik 3 digit untuk verifikasi otomatis/manual
+
+  paymentMethod String    @default("MANUAL_TRANSFER")
+  status        String    @default("PENDING") // PENDING, SUCCESS, FAILED, CANCELLED
+
+  proofImage    String?   // URL Bukti transfer dari Kadet
+
+  expiresAt     DateTime? // Batas waktu bayar (24 Jam dari transaction.ts)
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([userId])
+}
+model DailyLog {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  morningCall Boolean  @default(false)
+  worship     Boolean  @default(false)
+  cleanliness Boolean  @default(false)
+  study       Boolean  @default(false)
+  nightCall   Boolean  @default(false)
+  
+  notes       String?
+  score       Int      @default(0)
+  evidenceUrl String?  // Foto bukti kegiatan (jika ada)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt // Pastikan ada ini
+
+  @@index([userId])
+}
+
+model MissionQuestion {
+  id            String       @id @default(cuid())
+  missionId     String
+  mission       DailyMission @relation(fields: [missionId], references: [id], onDelete: Cascade)
+
+  text          String
+  image         String?
+  options       String       // JSON String
+  correctOption Int          // Menggunakan Angka (0-4) sesuai kode
+  explanation   String?      // Pembahasan
+  category      String?      // Kategori per soal
+  isHOTS        Boolean      @default(false)
+
+  createdAt     DateTime     @default(now())
+
+  @@index([missionId])
+}
+
+model UserDrillProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  unitId      String   // ID dari Drill Unit (Unit 1, Unit 2, dst)
+  isUnlocked  Boolean  @default(false)
+  stars       Int      @default(0) // Jumlah bintang (1-3)
+  highScore   Int      @default(0)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, unitId]) // Mencegah duplikasi data progres untuk unit yang sama
+}
+
+model TryoutQuestion {
+  id            String    @id @default(cuid())
+  text          String    // Isi soal
+  image         String?   // URL Gambar
+  svgCode       String?   // Kode SVG
+  
+  options       String    // JSON String
+  correctAnswer String    // Kunci Jawaban
+  explanation   String?   
+  type          String    @default("TWK") 
+  subCategory   String? 
+  score          Int       @default(5)  
+
+  // Relasi 1: KE PAKET TRYOUT
+  packageId     String?   
+  package       TryoutPackage? @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  // 🔥 RELASI 2: KE SPEED DRILL (Pastikan ini ada!)
+  drillUnitId   String?
+  drillUnit     DrillUnit? @relation(fields: [drillUnitId], references: [id], onDelete: Cascade)
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model WalletLog {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  amount      Int      // Positif (Masuk) atau Negatif (Keluar)
+  type        String   // "DEPOSIT", "WITHDRAW", "PURCHASE", "REWARD"
+  description String?
+  
+  createdAt   DateTime @default(now())
+  
+  @@index([userId])
+}
+
+model UserProfile {
+  id             String   @id @default(cuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  targetInstance String?
+  examDate       DateTime?
+  updatedAt      DateTime @updatedAt
+}

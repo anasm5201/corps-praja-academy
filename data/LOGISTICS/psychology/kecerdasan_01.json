@@ -1,0 +1,333 @@
+{
+  "title": "Paket Kecerdasan 01 – Verbal Foundation",
+  "type": "PSIKOLOGI_KECERDASAN",
+  "description": "Mengukur penalaran bahasa dasar: sinonim/antonim, analogi, klasifikasi kata, dan inferensi kalimat singkat.",
+  "duration": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "category": "IQ_VERBAL_SYNONYM",
+      "question": "Pilih kata yang paling dekat maknanya dengan: \"CERMAT\"",
+      "options": [
+        { "label": "A", "text": "Teliti", "isCorrect": true },
+        { "label": "B", "text": "Cepat", "isCorrect": false },
+        { "label": "C", "text": "Berani", "isCorrect": false },
+        { "label": "D", "text": "Santai", "isCorrect": false },
+        { "label": "E", "text": "Luas", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: sinonim adalah kesamaan makna. Langkah: pahami arti \"cermat\" (memperhatikan detail) lalu cocokkan. Opsi A tepat; opsi B adalah kecepatan, bukan ketelitian."
+    },
+    {
+      "id": 2,
+      "category": "IQ_VERBAL_ANTONYM",
+      "question": "Pilih kata yang paling berlawanan maknanya dengan: \"RINGKAS\"",
+      "options": [
+        { "label": "A", "text": "Padat", "isCorrect": false },
+        { "label": "B", "text": "Bertele-tele", "isCorrect": true },
+        { "label": "C", "text": "Singkat", "isCorrect": false },
+        { "label": "D", "text": "Jelas", "isCorrect": false },
+        { "label": "E", "text": "Rapi", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: antonim adalah lawan makna. Langkah: \"ringkas\" berarti singkat dan tidak panjang; lawannya adalah uraian panjang tak perlu. Opsi B paling tepat; opsi A justru searah (padat/ringkas)."
+    },
+    {
+      "id": 3,
+      "category": "IQ_VERBAL_SYNONYM",
+      "question": "Pilih kata yang paling dekat maknanya dengan: \"MENANGGUHKAN\"",
+      "options": [
+        { "label": "A", "text": "Menyelesaikan", "isCorrect": false },
+        { "label": "B", "text": "Memulai", "isCorrect": false },
+        { "label": "C", "text": "Menunda", "isCorrect": true },
+        { "label": "D", "text": "Membatalkan", "isCorrect": false },
+        { "label": "E", "text": "Mengumumkan", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: sinonim = makna setara. Langkah: \"menangguhkan\" berarti menggeser pelaksanaan ke waktu lain (bukan membatalkan). Opsi C sesuai; opsi D berbeda karena membatalkan berarti menghentikan permanen."
+    },
+    {
+      "id": 4,
+      "category": "IQ_VERBAL_ANTONYM",
+      "question": "Pilih kata yang paling berlawanan maknanya dengan: \"OBJEKTIF\"",
+      "options": [
+        { "label": "A", "text": "Faktual", "isCorrect": false },
+        { "label": "B", "text": "Netral", "isCorrect": false },
+        { "label": "C", "text": "Terukur", "isCorrect": false },
+        { "label": "D", "text": "Subjektif", "isCorrect": true },
+        { "label": "E", "text": "Rasional", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: antonim menekankan pertentangan cara menilai. Langkah: objektif = berdasarkan fakta/ukuran; lawannya = berdasar perasaan/pendapat pribadi. Opsi D tepat; opsi B masih dekat dengan objektif (netral)."
+    },
+    {
+      "id": 5,
+      "category": "IQ_VERBAL_SYNONYM",
+      "question": "Pilih kata yang paling dekat maknanya dengan: \"AKURAT\"",
+      "options": [
+        { "label": "A", "text": "Lancar", "isCorrect": false },
+        { "label": "B", "text": "Kasar", "isCorrect": false },
+        { "label": "C", "text": "Acak", "isCorrect": false },
+        { "label": "D", "text": "Lentur", "isCorrect": false },
+        { "label": "E", "text": "Tepat", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: sinonim = makna paling mendekati. Langkah: akurat berarti tepat sasaran/benar sesuai data. Opsi E sesuai; opsi A terkait kelancaran proses, bukan ketepatan hasil."
+    },
+    {
+      "id": 6,
+      "category": "IQ_VERBAL_ANTONYM",
+      "question": "Pilih kata yang paling berlawanan maknanya dengan: \"STABIL\"",
+      "options": [
+        { "label": "A", "text": "Labil", "isCorrect": true },
+        { "label": "B", "text": "Tegas", "isCorrect": false },
+        { "label": "C", "text": "Tetap", "isCorrect": false },
+        { "label": "D", "text": "Kuat", "isCorrect": false },
+        { "label": "E", "text": "Rata", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: antonim = kondisi berlawanan. Langkah: stabil berarti mantap/tidak mudah berubah; lawannya adalah mudah berubah-ubah. Opsi A tepat; opsi C justru sinonim (tetap)."
+    },
+    {
+      "id": 7,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: DOKTER : PASIEN = GURU : ...",
+      "options": [
+        { "label": "A", "text": "Sekolah", "isCorrect": false },
+        { "label": "B", "text": "Murid", "isCorrect": true },
+        { "label": "C", "text": "Buku", "isCorrect": false },
+        { "label": "D", "text": "Kelas", "isCorrect": false },
+        { "label": "E", "text": "Ujian", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: hubungan peran terhadap penerima layanan. Langkah: dokter melayani/menangani pasien; guru mengajar murid. Opsi B memenuhi relasi; opsi D hanya tempat, bukan pihak yang dilayani."
+    },
+    {
+      "id": 8,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: BATERAI : ENERGI = TANGKI : ...",
+      "options": [
+        { "label": "A", "text": "Pipa", "isCorrect": false },
+        { "label": "B", "text": "Mesin", "isCorrect": false },
+        { "label": "C", "text": "Bahan bakar", "isCorrect": true },
+        { "label": "D", "text": "Kecepatan", "isCorrect": false },
+        { "label": "E", "text": "Rangka", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: wadah penyimpan sumber daya. Langkah: baterai menyimpan energi; tangki menyimpan bahan bakar. Opsi C tepat; opsi B adalah pengguna bahan bakar, bukan isi tangki."
+    },
+    {
+      "id": 9,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: PETA : NAVIGASI = KAMUS : ...",
+      "options": [
+        { "label": "A", "text": "Membaca", "isCorrect": false },
+        { "label": "B", "text": "Menulis", "isCorrect": false },
+        { "label": "C", "text": "Ejaan", "isCorrect": false },
+        { "label": "D", "text": "Makna kata", "isCorrect": true },
+        { "label": "E", "text": "Cerita", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: alat bantu untuk menemukan informasi spesifik. Langkah: peta membantu menemukan arah/posisi; kamus membantu menemukan makna kata. Opsi D sesuai; opsi C hanya sebagian fungsi bahasa (ejaan)."
+    },
+    {
+      "id": 10,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: BENIH : TUMBUH = IDE : ...",
+      "options": [
+        { "label": "A", "text": "Dipamerkan", "isCorrect": false },
+        { "label": "B", "text": "Dihapus", "isCorrect": false },
+        { "label": "C", "text": "Ditimbang", "isCorrect": false },
+        { "label": "D", "text": "Ditukar", "isCorrect": false },
+        { "label": "E", "text": "Dikembangkan", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: proses menuju bentuk yang lebih matang. Langkah: benih berkembang menjadi tanaman; ide berkembang menjadi rencana/solusi. Opsi E tepat; opsi A hanya tindakan sosial, bukan proses pengembangan."
+    },
+    {
+      "id": 11,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: REM : MENGHENTIKAN LAJU = TOMBOL MUTE : ...",
+      "options": [
+        { "label": "A", "text": "Menghentikan suara", "isCorrect": true },
+        { "label": "B", "text": "Meningkatkan suara", "isCorrect": false },
+        { "label": "C", "text": "Mempercepat gerak", "isCorrect": false },
+        { "label": "D", "text": "Mengubah warna", "isCorrect": false },
+        { "label": "E", "text": "Menyalakan layar", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: fungsi alat terhadap efek langsung. Langkah: rem membuat laju berhenti; mute membuat suara berhenti. Opsi A memenuhi relasi; opsi B justru kebalikan (menaikkan volume)."
+    },
+    {
+      "id": 12,
+      "category": "IQ_VERBAL_ANALOGY",
+      "question": "Analogi: KUNCI : PINTU = KATA SANDI : ...",
+      "options": [
+        { "label": "A", "text": "Jaringan", "isCorrect": false },
+        { "label": "B", "text": "Akun", "isCorrect": true },
+        { "label": "C", "text": "Pesan", "isCorrect": false },
+        { "label": "D", "text": "Berkas", "isCorrect": false },
+        { "label": "E", "text": "Alamat", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: sarana akses terhadap sesuatu. Langkah: kunci memberi akses membuka pintu; kata sandi memberi akses masuk akun. Opsi B tepat; opsi D bisa dikunci, tetapi relasinya tidak seumum akun–kata sandi."
+    },
+    {
+      "id": 13,
+      "category": "IQ_VERBAL_CLASSIFICATION",
+      "question": "Pilih satu kata yang tidak sekelompok dengan yang lain.",
+      "options": [
+        { "label": "A", "text": "Apel", "isCorrect": false },
+        { "label": "B", "text": "Mangga", "isCorrect": false },
+        { "label": "C", "text": "Wortel", "isCorrect": true },
+        { "label": "D", "text": "Pisang", "isCorrect": false },
+        { "label": "E", "text": "Jeruk", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: klasifikasi berdasarkan kategori benda. Langkah: empat opsi adalah buah; satu opsi adalah sayuran. Opsi C berbeda; opsi A paling dekat karena sama-sama bahan pangan, tetapi tetap buah."
+    },
+    {
+      "id": 14,
+      "category": "IQ_VERBAL_CLASSIFICATION",
+      "question": "Pilih satu kata yang tidak sekelompok dengan yang lain.",
+      "options": [
+        { "label": "A", "text": "Volt", "isCorrect": false },
+        { "label": "B", "text": "Ampere", "isCorrect": false },
+        { "label": "C", "text": "Ohm", "isCorrect": false },
+        { "label": "D", "text": "Meter", "isCorrect": true },
+        { "label": "E", "text": "Watt", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: satuan besaran listrik vs non-listrik. Langkah: volt, ampere, ohm, watt terkait listrik; meter adalah panjang. Opsi D berbeda; opsi A paling dekat karena sama-sama satuan, tetapi tetap listrik."
+    },
+    {
+      "id": 15,
+      "category": "IQ_VERBAL_CLASSIFICATION",
+      "question": "Pilih satu kata yang tidak sekelompok dengan yang lain.",
+      "options": [
+        { "label": "A", "text": "Meneliti", "isCorrect": false },
+        { "label": "B", "text": "Menganalisis", "isCorrect": false },
+        { "label": "C", "text": "Mengukur", "isCorrect": false },
+        { "label": "D", "text": "Menyimpulkan", "isCorrect": false },
+        { "label": "E", "text": "Berdebat", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: langkah kerja ilmiah vs aktivitas argumentatif. Langkah: meneliti–mengukur–menganalisis–menyimpulkan adalah rangkaian ilmiah; berdebat bukan langkah inti metode. Opsi E berbeda; opsi B dekat karena sama-sama berpikir, tetapi tetap bagian analisis ilmiah."
+    },
+    {
+      "id": 16,
+      "category": "IQ_VERBAL_CLASSIFICATION",
+      "question": "Pilih satu kata yang tidak sekelompok dengan yang lain.",
+      "options": [
+        { "label": "A", "text": "Januari", "isCorrect": true },
+        { "label": "B", "text": "Senin", "isCorrect": false },
+        { "label": "C", "text": "Selasa", "isCorrect": false },
+        { "label": "D", "text": "Rabu", "isCorrect": false },
+        { "label": "E", "text": "Kamis", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: nama bulan vs nama hari. Langkah: empat opsi adalah hari; satu opsi adalah bulan. Opsi A berbeda; opsi B paling dekat karena sama-sama penanda waktu, tetapi tetap kategori hari."
+    },
+    {
+      "id": 17,
+      "category": "IQ_VERBAL_CLASSIFICATION",
+      "question": "Pilih satu kata yang tidak sekelompok dengan yang lain.",
+      "options": [
+        { "label": "A", "text": "Jujur", "isCorrect": false },
+        { "label": "B", "text": "Licik", "isCorrect": true },
+        { "label": "C", "text": "Tulus", "isCorrect": false },
+        { "label": "D", "text": "Ikhlas", "isCorrect": false },
+        { "label": "E", "text": "Apa adanya", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: sifat integritas vs manipulatif. Langkah: jujur, tulus, ikhlas, apa adanya berkonotasi integritas; licik berkonotasi menipu. Opsi B berbeda; opsi E paling dekat karena terkait perilaku, namun tetap selaras dengan integritas."
+    },
+    {
+      "id": 18,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Di setiap rapat mingguan, biasanya ada notulen yang dibagikan hari yang sama. Hari ini rapat selesai tanpa notulen karena notulis izin mendadak. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Rapat hari ini pasti dibatalkan", "isCorrect": false },
+        { "label": "B", "text": "Notulen rapat hari ini sudah dibagikan", "isCorrect": false },
+        { "label": "C", "text": "Notulen rapat hari ini kemungkinan belum tersedia", "isCorrect": true },
+        { "label": "D", "text": "Semua rapat minggu depan akan tanpa notulen", "isCorrect": false },
+        { "label": "E", "text": "Notulis rapat hari ini sengaja tidak membuat notulen", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: inferensi harus mengikuti informasi yang ada, bukan asumsi berlebihan. Langkah: (1) biasanya notulen dibagikan hari yang sama, (2) hari ini notulis izin sehingga notulen tidak muncul saat rapat selesai. Opsi C paling logis; opsi B keliru karena bertentangan dengan kondisi tanpa notulen."
+    },
+    {
+      "id": 19,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Rata-rata waktu tunggu di loket adalah 30 menit. Setelah ditambah satu petugas, waktu tunggu turun 20%. Berapa rata-rata waktu tunggu baru?",
+      "options": [
+        { "label": "A", "text": "20 menit", "isCorrect": false },
+        { "label": "B", "text": "25 menit", "isCorrect": false },
+        { "label": "C", "text": "26 menit", "isCorrect": false },
+        { "label": "D", "text": "24 menit", "isCorrect": true },
+        { "label": "E", "text": "18 menit", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: penurunan persentase berarti mengurangi dari nilai awal. Langkah: 20% dari 30 menit = 6 menit, lalu 30 − 6 = 24 menit. Opsi D benar; opsi B adalah penurunan 5 menit (bukan 20%)."
+    },
+    {
+      "id": 20,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Semua surat dinas harus ditandatangani atasan sebelum dikirim. Surat X belum ditandatangani atasan. Maka pernyataan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Surat X pasti sudah dikirim", "isCorrect": false },
+        { "label": "B", "text": "Surat X tidak perlu ditandatangani", "isCorrect": false },
+        { "label": "C", "text": "Atasan pasti sedang tidak ada di tempat", "isCorrect": false },
+        { "label": "D", "text": "Surat X sudah disetujui secara lisan", "isCorrect": false },
+        { "label": "E", "text": "Surat X belum memenuhi syarat untuk dikirim", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: logika implikasi—syarat wajib yang belum terpenuhi membuat proses belum dapat lanjut. Langkah: (1) tanda tangan atasan wajib, (2) surat X belum ditandatangani, sehingga belum siap dikirim. Opsi E benar; opsi C spekulatif karena tidak disebutkan."
+    },
+    {
+      "id": 21,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Dua minggu terakhir Andi selalu datang sebelum pukul 07.00. Hari ini ia datang pukul 07.30 karena ban sepeda motornya bocor. Pernyataan paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Andi terlambat hari ini karena kendala, bukan kebiasaan", "isCorrect": true },
+        { "label": "B", "text": "Andi memang biasanya datang pukul 07.30", "isCorrect": false },
+        { "label": "C", "text": "Andi sengaja datang terlambat untuk menghindari tugas", "isCorrect": false },
+        { "label": "D", "text": "Andi tidak pernah datang sebelum pukul 07.00", "isCorrect": false },
+        { "label": "E", "text": "Andi akan selalu terlambat setiap hari berikutnya", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: gunakan pola data dan sebab langsung yang disebutkan. Langkah: (1) pola dua minggu = tepat waktu, (2) penyebab hari ini = ban bocor, jadi keterlambatan bersifat insidental. Opsi A tepat; opsi B menyalahi informasi pola dua minggu."
+    },
+    {
+      "id": 22,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Pendaftaran akan ditutup begitu kuota 100 peserta terpenuhi. Saat ini sudah ada 98 peserta terverifikasi. Jika ada 2 pendaftar baru dan keduanya terverifikasi, maka...",
+      "options": [
+        { "label": "A", "text": "Pendaftaran pasti tetap dibuka sampai besok", "isCorrect": false },
+        { "label": "B", "text": "Pendaftaran akan ditutup setelah kuota terpenuhi", "isCorrect": true },
+        { "label": "C", "text": "Kuota akan naik otomatis menjadi lebih dari 100", "isCorrect": false },
+        { "label": "D", "text": "Pendaftaran ditutup sebelum proses verifikasi", "isCorrect": false },
+        { "label": "E", "text": "Jumlah peserta akan tetap 98 karena kuota tetap", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: kondisi IF-THEN yang deterministik. Langkah: 98 + 2 = 100, dan aturan menyatakan ditutup saat 100 terpenuhi. Opsi B benar; opsi D keliru karena menutup sebelum verifikasi tidak disebutkan."
+    },
+    {
+      "id": 23,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Siti membaca 15 halaman per hari. Buku yang dibaca berjumlah 210 halaman, dan ia sudah menyelesaikan 90 halaman. Berapa hari lagi Siti membutuhkan waktu untuk menyelesaikan buku itu?",
+      "options": [
+        { "label": "A", "text": "6 hari", "isCorrect": false },
+        { "label": "B", "text": "7 hari", "isCorrect": false },
+        { "label": "C", "text": "8 hari", "isCorrect": true },
+        { "label": "D", "text": "9 hari", "isCorrect": false },
+        { "label": "E", "text": "10 hari", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: sisa pekerjaan dibagi laju kerja. Langkah: sisa halaman = 210 − 90 = 120, lalu 120 ÷ 15 = 8 hari. Opsi C benar; opsi D terjadi bila laju baca dianggap 13–14 halaman/hari, padahal sudah ditetapkan 15."
+    },
+    {
+      "id": 24,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Semua pegawai yang lulus diklat wajib mengikuti evaluasi akhir. Budi mengikuti evaluasi akhir. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Budi pasti lulus diklat", "isCorrect": false },
+        { "label": "B", "text": "Budi pasti tidak lulus diklat", "isCorrect": false },
+        { "label": "C", "text": "Tidak ada hubungan antara diklat dan evaluasi", "isCorrect": false },
+        { "label": "D", "text": "Budi mungkin lulus diklat, tetapi tidak dapat dipastikan", "isCorrect": true },
+        { "label": "E", "text": "Evaluasi akhir pasti hanya untuk yang tidak lulus", "isCorrect": false }
+      ],
+      "explanation": "Aturan inti: dari 'Jika lulus maka evaluasi' tidak boleh dibalik menjadi 'Jika evaluasi maka lulus'. Langkah: evaluasi bisa saja diikuti oleh yang lulus maupun karena alasan lain yang tidak disebutkan. Opsi D paling tepat; opsi A adalah kekeliruan pembalikan implikasi."
+    },
+    {
+      "id": 25,
+      "category": "IQ_VERBAL_INFERENCE",
+      "question": "Surat pengaduan tanpa kontak pelapor akan diproses setelah verifikasi tambahan. Surat Y tidak mencantumkan kontak pelapor. Pernyataan yang paling tepat adalah...",
+      "options": [
+        { "label": "A", "text": "Surat Y pasti ditolak", "isCorrect": false },
+        { "label": "B", "text": "Surat Y langsung diproses tanpa verifikasi", "isCorrect": false },
+        { "label": "C", "text": "Surat Y pasti palsu", "isCorrect": false },
+        { "label": "D", "text": "Kontak pelapor tidak penting untuk semua surat", "isCorrect": false },
+        { "label": "E", "text": "Surat Y memerlukan verifikasi tambahan sebelum diproses", "isCorrect": true }
+      ],
+      "explanation": "Aturan inti: terapkan aturan prosedural pada kasus spesifik. Langkah: (1) tanpa kontak → verifikasi tambahan, (2) surat Y tanpa kontak, maka Y masuk jalur verifikasi tambahan. Opsi E benar; opsi A terlalu jauh karena aturan tidak menyatakan penolakan."
+    }
+  ]
+}
