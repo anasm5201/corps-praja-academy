@@ -45,7 +45,7 @@ model User {
 
   // --- [BARU] SISTEM BERLANGGANAN (SUBSCRIPTION) ---
   // Field ini digunakan sebagai gatekeeper utama di middleware
-  subscriptionPlan      String    @default("FREE")      // "FREE", "MONTHLY", "LIFETIME"
+  subscriptionType      String    @default("FREE")
   subscriptionStatus    String    @default("INACTIVE") // "INACTIVE", "PENDING", "ACTIVE"
   subscriptionExpires   DateTime? 
   
