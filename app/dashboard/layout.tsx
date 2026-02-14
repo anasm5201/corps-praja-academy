@@ -6,7 +6,7 @@ import { prisma } from "@/lib/prisma";
 import Sidebar from "@/components/dashboard/Sidebar";       
 import NavbarMobile from "@/components/dashboard/NavbarMobile"; 
 import { Toaster } from "sonner"; 
-import SecurityGate from "@/components/dashboard/SecurityGate"; // ✅ INI KUNCI KEMENANGAN KITA
+import IronCurtain from "@/components/dashboard/IronCurtain"; // ✅ INI KUNCI KEMENANGAN KITA
 
 export default async function DashboardLayout({
   children,
@@ -99,9 +99,9 @@ export default async function DashboardLayout({
         {/* [UPDATED] CONTENT CHILDREN WRAPPED WITH IRON CURTAIN */}
         {/* Guard ini akan mengecek status user & URL. Jika tidak valid, konten asli diganti Lock Screen */}
         <div className="flex-1">
-            <SecurityGate user={user}>
-               {children}
-            </SecurityGate>
+        <IronCurtain user={user}>
+             {children}
+        </IronCurtain>
         </div>
 
       </main>

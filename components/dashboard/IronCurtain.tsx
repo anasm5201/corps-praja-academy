@@ -6,7 +6,7 @@ import { Lock, Crown, Timer, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function SubscriptionGuard({ 
+export default function IronCurtain({ children, user }: any) ({ 
   user, 
   children 
 }: { 
