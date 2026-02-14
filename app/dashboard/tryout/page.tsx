@@ -4,9 +4,10 @@ import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
 import { 
-    Radar, Clock, Activity, Play, 
-    CheckCircle2, Lock, ShieldAlert, Terminal, FileJson
+    Radar, Activity, Play, CheckCircle2, 
+    Lock, ShieldAlert, Terminal, FileJson, KeyRound
 } from "lucide-react";
+import LockedMissionModal from "./LockedMissionModal"; // Akan kita buat setelah ini
 
 export const dynamic = "force-dynamic";
 
@@ -16,7 +17,20 @@ export default async function TryoutPage() {
 
   if (!userId) redirect("/auth/login");
 
-  // AMBIL DATA (Filter Strict: SKD Only)
+  // 1. AMBIL DATA USER (Untuk Cek Akses)
+  const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { subscriptionType: true, createdAt: true }
+  });
+
+  // 2. LOGIKA KEPEMILIKAN AKSES (Premium & Trial)
+  const isPremium = ["SOLO_FIGHTER", "INTENSIVE_SQUAD"].includes(user?.subscriptionType || "FREE");
+  const joinDate = new Date(user?.createdAt || new Date()).getTime();
+  const now = new Date().getTime();
+  const hoursSinceJoin = (now - joinDate) / (1000 * 60 * 60);
+  const isTrialActive = hoursSinceJoin < 2; 
+
+  // 3. AMBIL DATA PAKET MISI
   const packages = await prisma.tryoutPackage.findMany({
       where: {
           isPublished: true,
@@ -44,9 +58,7 @@ export default async function TryoutPage() {
             
             {/* --- HEADER: COMMAND CENTER STYLE --- */}
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-white/10 pb-8 gap-6 relative">
-                {/* Decorative Line */}
                 <div className="absolute bottom-0 left-0 w-32 h-1 bg-red-600"></div>
-
                 <div>
                     <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-950/30 border border-red-900/50 text-red-500 text-[10px] font-black uppercase tracking-[0.2em] mb-4 chamfer-btn">
                         <Radar size={14} className="animate-spin-slow" /> ACTIVE OPERATIONS
@@ -58,42 +70,58 @@ export default async function TryoutPage() {
                         // Pilih misi latihan. Skor dihitung menggunakan standar BKN terbaru.
                     </p>
                 </div>
-
                 <div className="text-right hidden md:block">
                     <div className="text-4xl font-black text-white">{packages.length}</div>
                     <div className="text-[10px] text-zinc-500 font-mono uppercase tracking-widest">MISI TERSEDIA</div>
                 </div>
             </div>
 
-            {/* --- GRID PAKET: TACTICAL CARDS --- */}
+            {/* --- GRID PAKET: TACTICAL CARDS (ARSENAL TRANSPARAN) --- */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {packages.map((pkg) => {
+                {packages.map((pkg, index) => {
                     const lastAttempt = pkg.attempts[0]; 
                     const isFinished = lastAttempt?.isFinished;
                     const inProgress = lastAttempt && !lastAttempt.isFinished;
                     
+                    // 4. KUNCI KEPUTUSAN (Apakah paket ini dilock untuk user ini?)
+                    // Paket Pertama (index 0) selalu gratis. Sisanya tergantung status user.
+                    const isMissionLocked = !isPremium && !isTrialActive && index > 0;
+
                     return (
                         <div key={pkg.id} className="group relative">
                             
-                            {/* Hover Glow Effect */}
-                            <div className="absolute -inset-0.5 bg-gradient-to-br from-red-600 to-transparent opacity-0 group-hover:opacity-30 transition duration-500 blur-lg rounded-xl"></div>
+                            {/* Hover Glow Effect (Dimatikan jika terkunci) */}
+                            {!isMissionLocked && (
+                                <div className="absolute -inset-0.5 bg-gradient-to-br from-red-600 to-transparent opacity-0 group-hover:opacity-30 transition duration-500 blur-lg rounded-xl"></div>
+                            )}
 
-                            {/* CARD BODY (CHAMFERED) */}
-                            <div className="chamfer-card bg-[#080808] border border-white/5 h-full relative overflow-hidden transition-all duration-300 group-hover:-translate-y-1 group-hover:border-red-900/50 group-hover:shadow-[0_0_30px_rgba(220,38,38,0.1)]">
+                            {/* CARD BODY (CHAMFERED) - Visual Berubah jika Terkunci */}
+                            <div className={`chamfer-card bg-[#080808] border h-full relative overflow-hidden transition-all duration-300 ${isMissionLocked ? 'border-zinc-800 opacity-80 grayscale-[50%]' : 'border-white/5 group-hover:-translate-y-1 group-hover:border-red-900/50 group-hover:shadow-[0_0_30px_rgba(220,38,38,0.1)]'}`}>
                                 
                                 {/* Scanline Overlay */}
                                 <div className="absolute inset-0 opacity-0 group-hover:opacity-10 pointer-events-none scanline bg-[linear-gradient(transparent_2px,#ff0000_3px,transparent_4px)] bg-[size:100%_4px]"></div>
+
+                                {/* BACKGROUND GEMBOK RAKSASA (Jika Terkunci) */}
+                                {isMissionLocked && (
+                                    <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none z-0">
+                                        <Lock size={150} />
+                                    </div>
+                                )}
 
                                 <div className="p-8 flex flex-col h-full relative z-10">
                                     
                                     {/* Top Status Bar */}
                                     <div className="flex justify-between items-start mb-6">
-                                        <div className="p-3 bg-zinc-900/50 rounded-sm border border-white/5 group-hover:border-red-500/30 group-hover:bg-red-950/20 transition-colors">
-                                            <FileJson className="w-6 h-6 text-zinc-600 group-hover:text-red-500 transition-colors" />
+                                        <div className={`p-3 rounded-sm border transition-colors ${isMissionLocked ? 'bg-zinc-900 border-zinc-800' : 'bg-zinc-900/50 border-white/5 group-hover:border-red-500/30 group-hover:bg-red-950/20'}`}>
+                                            <FileJson className={`w-6 h-6 transition-colors ${isMissionLocked ? 'text-zinc-700' : 'text-zinc-600 group-hover:text-red-500'}`} />
                                         </div>
                                         
                                         {/* Status Badge */}
-                                        {isFinished ? (
+                                        {isMissionLocked ? (
+                                            <span className="flex items-center gap-2 text-[10px] font-black uppercase text-zinc-500 bg-zinc-900 px-3 py-1 rounded-sm border border-zinc-800">
+                                                <Lock size={12} /> RESTRICTED
+                                            </span>
+                                        ) : isFinished ? (
                                             <span className="flex items-center gap-2 text-[10px] font-black uppercase text-green-500 bg-green-950/30 px-3 py-1 rounded-sm border border-green-900">
                                                 <CheckCircle2 size={12} /> SELESAI
                                             </span>
@@ -103,7 +131,7 @@ export default async function TryoutPage() {
                                             </span>
                                         ) : (
                                             <span className="flex items-center gap-2 text-[10px] font-black uppercase text-zinc-500 bg-zinc-900 px-3 py-1 rounded-sm border border-zinc-800">
-                                                <Lock size={12} /> LOCKED
+                                                <Lock size={12} /> AVAILABLE
                                             </span>
                                         )}
                                     </div>
@@ -111,7 +139,7 @@ export default async function TryoutPage() {
                                     {/* Title */}
                                     <div className="mb-6">
                                         <div className="text-[10px] font-black text-red-600 uppercase tracking-widest mb-2">SKD PREMIUM</div>
-                                        <h3 className="text-xl font-black text-white uppercase tracking-tight leading-none group-hover:text-red-500 transition-colors">
+                                        <h3 className={`text-xl font-black uppercase tracking-tight leading-none transition-colors ${isMissionLocked ? 'text-zinc-500' : 'text-white group-hover:text-red-500'}`}>
                                             {pkg.title}
                                         </h3>
                                     </div>
@@ -120,13 +148,13 @@ export default async function TryoutPage() {
                                     <div className="grid grid-cols-2 gap-px bg-white/5 border border-white/5 mb-8">
                                         <div className="bg-[#0A0A0A] p-3 text-center">
                                             <div className="text-[9px] text-zinc-500 font-mono uppercase mb-1">DURASI</div>
-                                            <div className="text-lg font-bold text-white flex justify-center items-center gap-1">
+                                            <div className={`text-lg font-bold flex justify-center items-center gap-1 ${isMissionLocked ? 'text-zinc-600' : 'text-white'}`}>
                                                 {pkg.duration}<span className="text-[10px] text-zinc-600">MNT</span>
                                             </div>
                                         </div>
                                         <div className="bg-[#0A0A0A] p-3 text-center">
                                             <div className="text-[9px] text-zinc-500 font-mono uppercase mb-1">SOAL</div>
-                                            <div className="text-lg font-bold text-white flex justify-center items-center gap-1">
+                                            <div className={`text-lg font-bold flex justify-center items-center gap-1 ${isMissionLocked ? 'text-zinc-600' : 'text-white'}`}>
                                                 {pkg._count.questions}<span className="text-[10px] text-zinc-600">QTS</span>
                                             </div>
                                         </div>
@@ -134,7 +162,10 @@ export default async function TryoutPage() {
 
                                     {/* Action Button (Chamfered) */}
                                     <div className="mt-auto">
-                                        {isFinished ? (
+                                        {isMissionLocked ? (
+                                            // TAMPILAN JIKA TERKUNCI (Memanggil Komponen Pop-up)
+                                            <LockedMissionModal missionName={pkg.title} />
+                                        ) : isFinished ? (
                                             <div className="grid grid-cols-2 gap-3">
                                                 <Link href={`/dashboard/result/${pkg.id}/${lastAttempt.id}`} className="w-full">
                                                     <button className="chamfer-btn w-full py-3 bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] transition border border-white/5 hover:border-white/20">
