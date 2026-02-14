@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { Lock, Crown, Timer, ChevronRight } from "lucide-react";
+import { Lock, Timer } from "lucide-react"; // Menghapus Crown dan ChevronRight karena tidak dipakai agar lebih bersih
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function IronCurtain({ children, user }: any) ({ 
+// [SUDAH DIPERBAIKI]: Deklarasi parameter dirapikan menjadi satu kesatuan
+export default function IronCurtain({ 
   user, 
   children 
 }: { 
@@ -24,12 +25,10 @@ export default function IronCurtain({ children, user }: any) ({
   const isTrialActive = hoursSinceJoin < 2; // Golden Ticket 2 Jam
 
   // 2. ZONA MERAH (Fitur Berbayar)
-  // Daftar URL yang HARAM dimasuki user GRATISAN setelah masa trial habis
   const RESTRICTED_ZONES = [
-    "/dashboard/materials",       // Plaza Menza (Kecuali yang free - logic detail ada di page-nya, tapi ini guard global)
+    "/dashboard/materials",       // Plaza Menza 
     "/dashboard/physical/input",  // Input Samapta
     "/dashboard/tryout/result",   // Analisa mendalam
-    // "/dashboard/tryout"        // Kita biarkan terbuka agar mereka melihat menu (tapi terkunci di dalamnya)
   ];
 
   // Cek apakah user sedang berada di zona merah
@@ -45,9 +44,9 @@ export default function IronCurtain({ children, user }: any) ({
   useEffect(() => {
     if (isPremium || !isTrialActive) return;
     const interval = setInterval(() => {
-      const now = new Date().getTime();
+      const currentTime = new Date().getTime();
       const endTime = joinDate + (2 * 60 * 60 * 1000);
-      const diff = endTime - now;
+      const diff = endTime - currentTime;
 
       if (diff <= 0) {
         window.location.reload(); // Refresh paksa saat waktu habis
