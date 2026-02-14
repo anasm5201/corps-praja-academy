@@ -1,3 +1,4 @@
+// UPDATE PAKSA: Memastikan SecurityGate terimport (V2)
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
@@ -72,7 +73,7 @@ export default async function DashboardLayout({
                         TERITORIAL
                     </span>
                     <span className="block text-xs font-bold text-white uppercase tracking-wider leading-none mt-1">
-                        LEMBAH MANGLAYANG
+                        MARKAS BESAR
                     </span>
                 </div>
              </div>
