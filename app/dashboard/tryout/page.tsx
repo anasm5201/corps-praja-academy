@@ -36,7 +36,10 @@ export default async function TryoutPage() {
           isPublished: true,
           category: "SKD" 
       },
-      orderBy: { title: 'asc' }, 
+      orderBy: [
+        { isFree: 'desc' }, // Yang Gratis ditaruh paling atas
+        { title: 'asc' }    // Sisanya diurutkan sesuai abjad
+    ], 
       include: {
           _count: { select: { questions: true } },
           attempts: {
@@ -85,7 +88,7 @@ export default async function TryoutPage() {
                     
                     // 4. KUNCI KEPUTUSAN (Apakah paket ini dilock untuk user ini?)
                     // Paket Pertama (index 0) selalu gratis. Sisanya tergantung status user.
-                    const isMissionLocked = !isPremium && !isTrialActive && index > 0;
+                    const isMissionLocked = !isPremium && !isTrialActive && !pkg.isFree;
 
                     return (
                         <div key={pkg.id} className="group relative">
