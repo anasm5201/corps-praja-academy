@@ -1,6 +1,7 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import Link from "next/link"; // [FIX]: Tambah import Link
 // import { prisma } from "@/lib/prisma"; // Uncomment jika model Transaction sudah ada
 import { Check, Zap, Crown, Shield, X, Flame, Gem, Video, MessageCircle, Star, Dumbbell, Radar } from "lucide-react";
 // import { createTransaction } from "@/app/actions/transaction"; // Uncomment jika file action sudah dibuat
@@ -36,22 +37,29 @@ export default async function SubscriptionPage() {
   }
   */
 
+  // [PENGATURAN WHATSAPP ADMIN]
+  // Ganti dengan nomor Admin Corps Praja Anda (Format: 628...)
+  const ADMIN_WA = "085279722605";
+  const msgSoloFighter = encodeURIComponent(`Izin Komandan, saya Kadet ${user.name || "Praja"}. Saya siap upgrade ke paket SOLO FIGHTER (Rp 299rb). Mohon instruksi pembayaran.`);
+  const msgIntensiveSquad = encodeURIComponent(`Izin Komandan, saya Kadet ${user.name || "Praja"}. Saya siap bergabung dengan INTENSIVE SQUAD (Rp 999rb). Mohon instruksi pembayaran.`);
+
   return (
     <div className="min-h-screen bg-[#050505] text-white py-20 px-4 relative overflow-hidden font-sans selection:bg-indigo-500 selection:text-white">
         
         {/* ATMOSFER LATAR BELAKANG (UPGRADED - COSMIC VIBE) */}
-        <div className="fixed inset-0 pointer-events-none opacity-40">
+        {/* [FIX]: Tambah z-0 agar tidak menutupi tombol */}
+        <div className="fixed inset-0 pointer-events-none opacity-40 z-0">
             <div className="absolute top-[-20%] left-[-10%] w-[800px] h-[800px] bg-indigo-900/30 rounded-full blur-[150px] animate-pulse-slow"></div>
             <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-violet-900/20 rounded-full blur-[120px]"></div>
         </div>
-        <div className="fixed inset-0 pointer-events-none opacity-[0.05]" 
+        <div className="fixed inset-0 pointer-events-none opacity-[0.05] z-0" 
              style={{ backgroundImage: 'linear-gradient(to right, #444 1px, transparent 1px), linear-gradient(to bottom, #444 1px, transparent 1px)', backgroundSize: '60px 60px' }}>
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
             
             {/* HEADER COPYWRITING (PSIKOLOGI DESAKAN & INTEGRASI JAR-LAT-SUH) */}
-            <div className="text-center mb-20 space-y-6 animate-in fade-in slide-in-from-top-10 duration-1000">
+            <div className="text-center mb-20 space-y-6 animate-in fade-in slide-in-from-top-10 duration-1000 relative z-20">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-950/30 backdrop-blur-md text-indigo-400 text-[10px] font-black uppercase tracking-[0.3em] shadow-[0_0_15px_rgba(99,102,241,0.5)]">
                     <Star size={12} className="fill-indigo-400 text-indigo-400 animate-pulse" /> Official Corps Praja System
                 </div>
@@ -66,7 +74,8 @@ export default async function SubscriptionPage() {
             </div>
 
             {/* GRID 3 PAKET */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+            {/* [FIX]: Tambah relative dan z-30 pada container grid utama */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch relative z-30">
                 
                 {/* ========================================================= */}
                 {/* 1. SILVER (REKRUT / FREE) */}
@@ -91,7 +100,7 @@ export default async function SubscriptionPage() {
                             <li className="flex gap-3 items-center text-neutral-700 line-through decoration-red-900/50"><X size={16} className="shrink-0 text-red-900"/> <span>Zoom Class & Bimbingan</span></li>
                         </ul>
 
-                        <button disabled className="w-full py-4 rounded-lg border border-neutral-800 bg-neutral-900 text-neutral-600 font-bold text-xs uppercase tracking-widest cursor-not-allowed">
+                        <button disabled className="w-full py-4 rounded-lg border border-neutral-800 bg-neutral-900 text-neutral-600 font-bold text-xs uppercase tracking-widest cursor-not-allowed pointer-events-none">
                             POSISI ANDA SAAT INI
                         </button>
                     </div>
@@ -100,14 +109,14 @@ export default async function SubscriptionPage() {
                 {/* ========================================================= */}
                 {/* 2. GOLD (SOLO FIGHTER) - FOCUS: SYSTEM ONLY */}
                 {/* ========================================================= */}
-                <div className="relative group p-1 rounded-2xl bg-gradient-to-b from-amber-500 via-yellow-600 to-amber-800 transform lg:-translate-y-4 shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] transition-all duration-500 hover:shadow-[0_0_80px_-10px_rgba(245,158,11,0.5)] z-10">
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-amber-500 to-yellow-500 text-black px-6 py-1.5 rounded-sm skew-x-[-10deg] shadow-lg z-20">
+                <div className="relative group p-1 rounded-2xl bg-gradient-to-b from-amber-500 via-yellow-600 to-amber-800 transform lg:-translate-y-4 shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] transition-all duration-500 hover:shadow-[0_0_80px_-10px_rgba(245,158,11,0.5)] z-40">
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-amber-500 to-yellow-500 text-black px-6 py-1.5 rounded-sm skew-x-[-10deg] shadow-lg z-20 pointer-events-none">
                         <span className="block skew-x-[10deg] text-[10px] font-black uppercase tracking-[0.2em]">PILIHAN POPULER</span>
                     </div>
                     
                     <div className="relative h-full bg-[#0f0a05] rounded-xl p-8 flex flex-col border border-amber-900/50">
                         <div className="mb-8 border-b border-amber-900/30 pb-6 relative overflow-hidden">
-                            <div className="absolute top-0 right-0 p-4 opacity-10"><Zap size={80} /></div>
+                            <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none"><Zap size={80} /></div>
                             <div className="flex items-center gap-3 mb-4 text-amber-500">
                                 <Flame size={24} className="animate-pulse fill-amber-500/20" />
                                 <h3 className="font-black text-lg uppercase tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">SOLO FIGHTER</h3>
@@ -136,22 +145,24 @@ export default async function SubscriptionPage() {
                             </li>
                         </ul>
 
-                        {/* MENGGUNAKAN DUMMY BUTTON AGAR BUILD SUKSES TANPA FILE ACTION */}
-                        <form>
-                            <button type="button" className="w-full py-4 rounded-lg bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-black font-black text-sm uppercase tracking-[0.15em] hover:brightness-110 hover:shadow-[0_0_20px_rgba(245,158,11,0.6)] transition-all active:scale-[0.98] flex items-center justify-center gap-2 cursor-pointer">
-                                <Zap size={16} fill="black" /> AMBIL SENJATA INI
-                            </button>
-                        </form>
+                        {/* [FIX]: Bungkus dengan Link WA dan pastikan z-index tinggi */}
+                        <div className="mt-auto relative z-50">
+                            <Link href={`https://wa.me/${ADMIN_WA}?text=${msgSoloFighter}`} target="_blank" className="block w-full">
+                                <button type="button" className="w-full py-4 rounded-lg bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-black font-black text-sm uppercase tracking-[0.15em] hover:brightness-110 hover:shadow-[0_0_20px_rgba(245,158,11,0.6)] transition-all active:scale-[0.98] flex items-center justify-center gap-2 cursor-pointer pointer-events-auto">
+                                    <Zap size={16} fill="black" /> AMBIL SENJATA INI
+                                </button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
                 {/* ========================================================= */}
                 {/* 3. DIAMOND (INTENSIVE SQUAD) - COSMIC PURPLE THEME */}
                 {/* ========================================================= */}
-                <div className="relative group p-1 rounded-2xl bg-gradient-to-b from-indigo-600 via-violet-700 to-fuchsia-900 transform lg:-translate-y-8 shadow-[0_0_60px_-10px_rgba(124,58,237,0.5)] transition-all duration-500 hover:shadow-[0_0_100px_-10px_rgba(124,58,237,0.8)] hover:scale-[1.02] z-20 border border-indigo-400/30">
+                <div className="relative group p-1 rounded-2xl bg-gradient-to-b from-indigo-600 via-violet-700 to-fuchsia-900 transform lg:-translate-y-8 shadow-[0_0_60px_-10px_rgba(124,58,237,0.5)] transition-all duration-500 hover:shadow-[0_0_100px_-10px_rgba(124,58,237,0.8)] hover:scale-[1.02] z-40 border border-indigo-400/30">
                     
                     {/* LABEL GLOWING */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black border border-indigo-400 text-indigo-300 px-6 py-2 rounded-sm shadow-[0_0_20px_rgba(124,58,237,0.8)] z-30">
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black border border-indigo-400 text-indigo-300 px-6 py-2 rounded-sm shadow-[0_0_20px_rgba(124,58,237,0.8)] z-30 pointer-events-none">
                         <span className="block text-[11px] font-black uppercase tracking-[0.2em] animate-pulse flex items-center gap-2">
                             <Crown size={12} fill="currentColor"/> BEST SELLER
                         </span>
@@ -160,11 +171,11 @@ export default async function SubscriptionPage() {
                     <div className="relative h-full bg-[#090515] rounded-xl p-8 flex flex-col border border-indigo-500/40 bg-[url('/noise.png')]">
                         
                         {/* EFEK KILAU (SHINE) - LEBIH KUAT */}
-                        <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 via-transparent to-fuchsia-500/10 opacity-40 pointer-events-none rounded-xl"></div>
+                        <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 via-transparent to-fuchsia-500/10 opacity-40 pointer-events-none rounded-xl z-0"></div>
 
                         {/* HEADER */}
-                        <div className="mb-8 border-b border-indigo-500/30 pb-6 relative overflow-hidden">
-                            <div className="absolute top-0 right-0 p-4 opacity-20 text-indigo-500 rotate-12"><Gem size={100} /></div>
+                        <div className="mb-8 border-b border-indigo-500/30 pb-6 relative overflow-hidden z-10">
+                            <div className="absolute top-0 right-0 p-4 opacity-20 text-indigo-500 rotate-12 pointer-events-none"><Gem size={100} /></div>
                             <div className="flex items-center gap-3 mb-4 text-indigo-300">
                                 <Gem size={28} className="fill-indigo-400/20 text-indigo-300 drop-shadow-[0_0_15px_rgba(167,139,250,1)]" />
                                 <h3 className="font-black text-lg uppercase tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-white to-fuchsia-300">INTENSIVE SQUAD</h3>
@@ -176,7 +187,7 @@ export default async function SubscriptionPage() {
                         </div>
 
                         {/* FITUR LIST (HIGHLIGHTED) */}
-                        <ul className="space-y-5 mb-8 text-sm text-neutral-200 font-medium flex-1">
+                        <ul className="space-y-5 mb-8 text-sm text-neutral-200 font-medium flex-1 z-10">
                             <li className="flex gap-3 items-start bg-indigo-900/40 p-2.5 rounded-lg border border-indigo-500/30">
                                 <Shield size={18} className="text-indigo-300 shrink-0 mt-0.5"/> 
                                 <span><strong>SEMUA FITUR GOLD:</strong> Bank Soal, Tryout, & Pelacak Jasmani Lengkap.</span>
@@ -200,21 +211,24 @@ export default async function SubscriptionPage() {
                         </ul>
 
                         {/* TOMBOL */}
-                        <form>
-                            <button type="button" className="w-full py-5 rounded-lg bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 text-white font-black text-sm uppercase tracking-[0.15em] border border-indigo-400/50 hover:border-white hover:shadow-[0_0_40px_rgba(124,58,237,0.8)] hover:scale-[1.02] transition-all active:scale-[0.98] flex items-center justify-center gap-3 group relative overflow-hidden cursor-pointer">
-                                <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
-                                <Crown size={18} fill="currentColor" /> GABUNG PASUKAN KHUSUS
-                            </button>
-                        </form>
-                        <p className="text-center text-[10px] text-indigo-400/60 mt-3 font-mono">
-                            *Garansi bimbingan maksimal sampai hari H tes.
-                        </p>
+                        {/* [FIX]: Bungkus dengan Link WA dan z-50 */}
+                        <div className="mt-auto relative z-50">
+                            <Link href={`https://wa.me/${ADMIN_WA}?text=${msgIntensiveSquad}`} target="_blank" className="block w-full">
+                                <button type="button" className="w-full py-5 rounded-lg bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 text-white font-black text-sm uppercase tracking-[0.15em] border border-indigo-400/50 hover:border-white hover:shadow-[0_0_40px_rgba(124,58,237,0.8)] hover:scale-[1.02] transition-all active:scale-[0.98] flex items-center justify-center gap-3 group relative overflow-hidden cursor-pointer pointer-events-auto">
+                                    <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
+                                    <Crown size={18} fill="currentColor" /> GABUNG PASUKAN KHUSUS
+                                </button>
+                            </Link>
+                            <p className="text-center text-[10px] text-indigo-400/60 mt-3 font-mono">
+                                *Garansi bimbingan maksimal sampai hari H tes.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
             </div>
             
-            <div className="text-center mt-20 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
+            <div className="text-center mt-20 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500 relative z-10">
                 <p className="text-neutral-500 text-xs font-mono uppercase tracking-widest">
                     "Keringat yang menetes di medan latihan akan menebus darah di medan pertempuran."
                 </p>
