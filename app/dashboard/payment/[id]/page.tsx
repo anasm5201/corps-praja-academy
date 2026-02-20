@@ -107,8 +107,8 @@ export default async function PaymentDetailPage({ params }: { params: { id: stri
                         {/* GANTI DENGAN REKENING ASLI ANDA */}
                         <div className="space-y-2 relative z-10">
                             <div className="bg-black/50 p-3 rounded-lg flex justify-between items-center border border-amber-900/30">
-                               <span className="text-xs text-neutral-400 font-mono">BCA</span>
-                               <span className="text-sm font-mono font-bold text-white selection:bg-amber-500 selection:text-black">1234567890</span>
+                               <span className="text-xs text-neutral-400 font-mono">BRI</span>
+                               <span className="text-sm font-mono font-bold text-white selection:bg-amber-500 selection:text-black">225901006157501</span>
                             </div>
                             <div className="bg-black/50 p-3 rounded-lg flex justify-between items-center border border-amber-900/30">
                                <span className="text-xs text-neutral-400 font-mono">A/N</span>
