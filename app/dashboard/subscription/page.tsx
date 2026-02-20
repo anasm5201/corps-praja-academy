@@ -1,10 +1,8 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
-import Link from "next/link"; // [FIX]: Tambah import Link
-// import { prisma } from "@/lib/prisma"; // Uncomment jika model Transaction sudah ada
 import { Check, Zap, Crown, Shield, X, Flame, Gem, Video, MessageCircle, Star, Dumbbell, Radar } from "lucide-react";
-// import { createTransaction } from "@/app/actions/transaction"; // Uncomment jika file action sudah dibuat
+import { createTransaction } from "@/app/actions/transaction"; 
 
 export default async function SubscriptionPage() {
   // 1. AMBIL SESI
@@ -37,11 +35,9 @@ export default async function SubscriptionPage() {
   }
   */
 
-  // [PENGATURAN WHATSAPP ADMIN]
-  // Ganti dengan nomor Admin Corps Praja Anda (Format: 628...)
-  const ADMIN_WA = "085279722605";
-  const msgSoloFighter = encodeURIComponent(`Izin Komandan, saya Kadet ${user.name || "Praja"}. Saya siap upgrade ke paket SOLO FIGHTER (Rp 299rb). Mohon instruksi pembayaran.`);
-  const msgIntensiveSquad = encodeURIComponent(`Izin Komandan, saya Kadet ${user.name || "Praja"}. Saya siap bergabung dengan INTENSIVE SQUAD (Rp 999rb). Mohon instruksi pembayaran.`);
+  // ✅ KONEKSI KE KASIR DIGITAL (Membuat ID Transaksi)
+  const buySolo = createTransaction.bind(null, "SOLO");
+  const buyIntensive = createTransaction.bind(null, "INTENSIVE");
 
   return (
     <div className="min-h-screen bg-[#050505] text-white py-20 px-4 relative overflow-hidden font-sans selection:bg-indigo-500 selection:text-white">
@@ -145,13 +141,13 @@ export default async function SubscriptionPage() {
                             </li>
                         </ul>
 
-                        {/* [FIX]: Bungkus dengan Link WA dan pastikan z-index tinggi */}
+                        {/* [FIX]: Bungkus dengan form Server Action */}
                         <div className="mt-auto relative z-50">
-                            <Link href={`https://wa.me/${ADMIN_WA}?text=${msgSoloFighter}`} target="_blank" className="block w-full">
-                                <button type="button" className="w-full py-4 rounded-lg bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-black font-black text-sm uppercase tracking-[0.15em] hover:brightness-110 hover:shadow-[0_0_20px_rgba(245,158,11,0.6)] transition-all active:scale-[0.98] flex items-center justify-center gap-2 cursor-pointer pointer-events-auto">
+                            <form action={buySolo} className="block w-full">
+                                <button type="submit" className="w-full py-4 rounded-lg bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-black font-black text-sm uppercase tracking-[0.15em] hover:brightness-110 hover:shadow-[0_0_20px_rgba(245,158,11,0.6)] transition-all active:scale-[0.98] flex items-center justify-center gap-2 cursor-pointer pointer-events-auto">
                                     <Zap size={16} fill="black" /> AMBIL SENJATA INI
                                 </button>
-                            </Link>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -211,14 +207,14 @@ export default async function SubscriptionPage() {
                         </ul>
 
                         {/* TOMBOL */}
-                        {/* [FIX]: Bungkus dengan Link WA dan z-50 */}
+                        {/* [FIX]: Bungkus dengan form Server Action */}
                         <div className="mt-auto relative z-50">
-                            <Link href={`https://wa.me/${ADMIN_WA}?text=${msgIntensiveSquad}`} target="_blank" className="block w-full">
-                                <button type="button" className="w-full py-5 rounded-lg bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 text-white font-black text-sm uppercase tracking-[0.15em] border border-indigo-400/50 hover:border-white hover:shadow-[0_0_40px_rgba(124,58,237,0.8)] hover:scale-[1.02] transition-all active:scale-[0.98] flex items-center justify-center gap-3 group relative overflow-hidden cursor-pointer pointer-events-auto">
+                            <form action={buyIntensive} className="block w-full">
+                                <button type="submit" className="w-full py-5 rounded-lg bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 text-white font-black text-sm uppercase tracking-[0.15em] border border-indigo-400/50 hover:border-white hover:shadow-[0_0_40px_rgba(124,58,237,0.8)] hover:scale-[1.02] transition-all active:scale-[0.98] flex items-center justify-center gap-3 group relative overflow-hidden cursor-pointer pointer-events-auto">
                                     <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
                                     <Crown size={18} fill="currentColor" /> GABUNG PASUKAN KHUSUS
                                 </button>
-                            </Link>
+                            </form>
                             <p className="text-center text-[10px] text-indigo-400/60 mt-3 font-mono">
                                 *Garansi bimbingan maksimal sampai hari H tes.
                             </p>

@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@/lib/prisma"; // ✅ KOREKSI: Gunakan prisma, bukan db
+import { prisma } from "@/lib/prisma"; 
 import { revalidatePath } from "next/cache";
 
 // ✅ 1. ACC PEMBAYARAN (AKTIFKAN AKSES KADET)
@@ -23,6 +23,11 @@ export async function approveTransaction(transactionId: string) {
     const expiryDate = new Date();
     expiryDate.setDate(now.getDate() + durationDays);
 
+    // 🔥 KODE SANDI KONVERSI (AGAR GEMBOK DASHBOARD TERBUKA)
+    let finalPlanType = "FREE";
+    if (transaction.planType === "SOLO") finalPlanType = "SOLO_FIGHTER";
+    if (transaction.planType === "INTENSIVE") finalPlanType = "INTENSIVE_SQUAD";
+
     // C. DATABASE TRANSACTION (ATOMIC)
     await prisma.$transaction([
         // 1. Update Status Transaksi -> SUCCESS
@@ -31,14 +36,14 @@ export async function approveTransaction(transactionId: string) {
             data: { status: "SUCCESS" }
         }),
 
-        // 2. Update Status User -> ACTIVE
+        // 2. Update Status User -> ACTIVE & BUKA GEMBOK
         prisma.user.update({
             where: { id: transaction.userId },
             data: {
                 subscriptionStatus: "ACTIVE",
-                subscriptionPlan: transaction.planType,
+                subscriptionType: finalPlanType, // ✅ INI YANG MEMBUKA GEMBOK
+                subscriptionPlan: transaction.planType, // (Tetap disimpan sebagai riwayat)
                 subscriptionExpires: expiryDate,
-                // walletBalance: { increment: 0 } // Opsional
             }
         })
     ]);

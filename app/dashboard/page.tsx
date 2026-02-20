@@ -19,6 +19,8 @@ import {
   ScanFace,
   CalendarCheck,
   ArrowRight,
+  Terminal, // [TAMBAHAN AI-SUH]
+  AlertOctagon // [TAMBAHAN AI-SUH]
 } from "lucide-react";
 
 export const dynamic = 'force-dynamic';
@@ -155,7 +157,7 @@ export default async function DashboardPage() {
       ? latestPhysical.totalScore 
       : Math.min(100, Math.round(((user.initialRunDistance || 0) / 3000) * 100));
 
-  // 3. JAR SCORE
+  // 3. JAR SCORE (AKADEMIK TERBARU)
   const latestTryout = await prisma.tryoutAttempt.findFirst({
     where: { userId: user.id, isFinished: true },
     orderBy: { finishedAt: 'desc' }
@@ -173,12 +175,83 @@ export default async function DashboardPage() {
   // HP
   const hp = Math.round((jarScore + latScore + suhScore) / 3);
 
-  // AI BRIEFING LOGIC
+  // ===================================================================================
+  // 🔥 [NEW] AI-SUH LOGIC: THE DIGITAL COMMANDER (TARGET CHARLIE)
+  // ===================================================================================
+  const twk = latestTryout ? (latestTryout.twkScore || 0) : (user.initialTwkScore || 0);
+  const tiu = latestTryout ? (latestTryout.tiuScore || 0) : (user.initialTiuScore || 0);
+  const tkp = latestTryout ? (latestTryout.tkpScore || 0) : (user.initialTkpScore || 0);
+  const hasTakenTryout = latestTryout !== null || initialTotalScore > 0;
+
+  let aiCommand = {
+      level: "INFO", // CRITICAL, WARNING, INFO
+      title: "KONDISI TEMPUR OPTIMAL",
+      message: "Pertahankan ritme tempur, Kadet! Parameter akademik dan fisik stabil. Selesaikan sisa Modul Psikologi untuk mengasah insting dan mental Anda.",
+      actionText: "BONGKAR LAB PSIKOLOGI",
+      actionLink: "/dashboard/psychology",
+      color: "border-blue-500/30 bg-blue-950/20 text-blue-400",
+      iconColor: "text-blue-500"
+  };
+
+  if (!hasTakenTryout) {
+      aiCommand = {
+          level: "CRITICAL",
+          title: "BUTA PETA KEKUATAN MUSUH",
+          message: "KADET! Radar intelijen kosong. Kami tidak bisa memetakan kemampuan Anda sama sekali. Laksanakan Simulasi SKD sebagai baseline (patokan) awal Anda sekarang juga!",
+          actionText: "LAKSANAKAN SIMULASI SKD",
+          actionLink: "/dashboard/tryout",
+          color: "border-red-600/50 bg-red-950/40 text-red-200",
+          iconColor: "text-red-500 animate-pulse"
+      };
+  } else if (twk < 65) {
+      aiCommand = {
+          level: "WARNING",
+          title: "KEBOCORAN SEKTOR TWK DETECTED",
+          message: `KADET! Radar kami mendeteksi kelemahan fatal di sektor Wawasan Kebangsaan (Skor Anda: ${twk} | Ambang Batas: 65). Perintah hari ini: Hancurkan minimal 1 Modul TWK di Speed Drill untuk menutup lubang pertahanan!`,
+          actionText: "LAKSANAKAN DRILL TWK",
+          actionLink: "/dashboard/speed-drill",
+          color: "border-amber-500/40 bg-amber-950/30 text-amber-200",
+          iconColor: "text-amber-500"
+      };
+  } else if (tiu < 80) {
+      aiCommand = {
+          level: "WARNING",
+          title: "LOGIKA TIU DI BAWAH STANDAR",
+          message: `KADET! Parameter Logika & Numerik Anda kritis (Skor Anda: ${tiu} | Ambang Batas: 80). Lawan Anda sedang berlatih keras. Perintah: Sikat habis Modul TIU di lintasan Speed Drill sekarang!`,
+          actionText: "LAKSANAKAN DRILL TIU",
+          actionLink: "/dashboard/speed-drill",
+          color: "border-amber-500/40 bg-amber-950/30 text-amber-200",
+          iconColor: "text-amber-500"
+      };
+  } else if (tkp < 166) {
+      aiCommand = {
+          level: "WARNING",
+          title: "KRISIS MENTAL TKP",
+          message: `KADET! Parameter Karakteristik Pribadi Anda jeblok (Skor Anda: ${tkp} | Ambang Batas: 166). Jangan gugur sebelum bertempur. Segera lakukan kalibrasi mental!`,
+          actionText: "LAKSANAKAN DRILL TKP",
+          actionLink: "/dashboard/speed-drill",
+          color: "border-amber-500/40 bg-amber-950/30 text-amber-200",
+          iconColor: "text-amber-500"
+      };
+  } else if (latScore < 60) {
+      aiCommand = {
+          level: "WARNING",
+          title: "DEGRADASI FISIK (SAMAPTA)",
+          message: `KADET! Parameter jasmani Anda melemah (Skor LAT: ${latScore}). Otak cerdas tidak berguna jika fisik tumbang di medan tempur. Segera lakukan latihan fisik dan input hasilnya!`,
+          actionText: "INPUT DATA SAMAPTA",
+          actionLink: "/dashboard/physical/input",
+          color: "border-amber-500/40 bg-amber-950/30 text-amber-200",
+          iconColor: "text-amber-500"
+      };
+  }
+
+  // AI BRIEFING LAMA (Hanya untuk radar kecil di bawah)
   let aiBriefing = "Lanjutkan latihan sesuai instruksi. Jaga konsistensi!";
   let aiMood = "NEUTRAL";
   if (latScore < 60) { aiBriefing = "PERINGATAN: Fisik (LAT) di bawah standar! Tingkatkan interval lari."; aiMood = "ANGRY"; }
   else if (jarScore < 60) { aiBriefing = "PERINGATAN: Logika (JAR) tumpul! Perbanyak simulasi CAT."; aiMood = "ANGRY"; }
   else if (hp > 85) { aiBriefing = "LUAR BIASA! Kondisi Prima. Pertahankan ritme tempur ini."; aiMood = "HAPPY"; }
+  // ===================================================================================
 
   // RANK LOGIC
   const currentXP = user.xp || 0;
@@ -268,6 +341,39 @@ export default async function DashboardPage() {
           <div className="w-full lg:w-1/3 bg-neutral-950 p-5 border border-neutral-800 rounded-sm shadow-xl">
              <HealthBar hp={hp} />
           </div>
+        </div>
+
+        {/* ========================================================================= */}
+        {/* 🔥 BLOK AI-SUH (SURAT PERINTAH HARIAN) - MUNCUL PALING ATAS SETELAH HEADER */}
+        {/* ========================================================================= */}
+        <div className={`mb-10 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
+            <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
+                <AlertOctagon size={120} />
+            </div>
+            
+            <div className="relative z-10">
+                <div className="flex items-center gap-2 mb-3">
+                    <Terminal size={16} className={`${aiCommand.iconColor}`} />
+                    <span className={`text-[10px] font-black uppercase tracking-[0.3em] ${aiCommand.iconColor}`}>
+                        [AI-SUH] TRANSMISI PERINTAH HARIAN
+                    </span>
+                </div>
+                
+                <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight mb-2">
+                    {aiCommand.title}
+                </h3>
+                
+                <p className="text-sm font-mono opacity-90 leading-relaxed mb-6 max-w-3xl">
+                    <span className="animate-pulse mr-2">_</span>{aiCommand.message}
+                </p>
+                
+                <Link href={aiCommand.actionLink} className="inline-block">
+                    <button className={`px-6 py-3 text-xs font-black uppercase tracking-widest bg-black/40 hover:bg-black/60 border border-current rounded-sm flex items-center gap-3 transition-all group`}>
+                        {aiCommand.actionText} 
+                        <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform"/>
+                    </button>
+                </Link>
+            </div>
         </div>
 
         {/* WEEKLY PLAN & REMEDIAL */}
