@@ -123,6 +123,21 @@ export default async function DashboardPage() {
         }
     }
   });
+  if (!userId) {
+    redirect("/api/auth/signin"); 
+  }
+
+  // ==============================================================
+  // 💥 SUNTIKAN VIP SEMENTARA UNTUK KOMANDAN (HAPUS NANTI) 💥
+  // ==============================================================
+  await prisma.user.update({
+    where: { id: userId },
+    data: {
+      role: "ADMIN",
+      subscriptionType: "INTENSIVE_SQUAD",
+      subscriptionStatus: "ACTIVE"
+    }
+  });
 
   if (!user) return <div className="p-10 text-red-500 font-mono text-center mt-20">DATA PERSONEL HILANG. LAKUKAN REGISTER ULANG.</div>;
 
