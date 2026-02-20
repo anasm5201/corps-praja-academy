@@ -73,7 +73,7 @@ export default async function DashboardLayout({
                         TERITORIAL
                     </span>
                     <span className="block text-xs font-bold text-white uppercase tracking-wider leading-none mt-1">
-                        MARKAS BESAR
+                        LEMBAH MANGLAYANG
                     </span>
                 </div>
              </div>
