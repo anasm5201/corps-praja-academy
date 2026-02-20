@@ -112,7 +112,7 @@ export default async function PaymentDetailPage({ params }: { params: { id: stri
                             </div>
                             <div className="bg-black/50 p-3 rounded-lg flex justify-between items-center border border-amber-900/30">
                                <span className="text-xs text-neutral-400 font-mono">A/N</span>
-                               <span className="text-xs font-bold text-white uppercase">Admin Corps Praja</span>
+                               <span className="text-xs font-bold text-white uppercase">MUHAMAD ANAS KIRSAM NUR</span>
                             </div>
                         </div>
                         <p className="text-[10px] text-amber-500/70 font-mono mt-4 leading-relaxed text-center">
