@@ -1,33 +1,30 @@
 import { prisma } from "@/lib/prisma";
 import OpenAI from "openai";
 
-// Inisialisasi OpenAI - Memakai kunci yang sudah ada di Vercel Komandan
+// Inisialisasi OpenAI - Memakai amunisi yang sudah siap di Vercel Komandan
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
 export async function ensureWeeklyPlan(userId: string) {
   // =========================================================================
-  // 1. CEK BLUEPRINT MINGGU INI & PROTOKOL RE-GENERATE
+  // 1. PROTOKOL RE-GENERATE & PENENTUAN WAKTU
   // =========================================================================
   const startOfWeek = new Date();
   startOfWeek.setHours(0, 0, 0, 0);
   startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay() + 1); // Senin
 
-  // ⚠️ [HACK TAKTIS] Menghapus jadwal lama agar AI membuat yang baru dengan doktrin terbaru.
+  // ⚠️ [FORCE REFRESH] Menghapus blueprint lama agar Kadet langsung menerima Doktrin TRI TUNGGAL TERPUSAT
   await prisma.weeklyBlueprint.deleteMany({ where: { userId: userId } });
 
   let currentPlan = await prisma.weeklyBlueprint.findFirst({
-    where: {
-      userId: userId,
-      createdAt: { gte: startOfWeek }
-    }
+    where: { userId, createdAt: { gte: startOfWeek } }
   });
 
   if (currentPlan) return currentPlan;
 
   // =========================================================================
-  // 2. KUMPULKAN DATA INTELIJEN KADET
+  // 2. EKSTRAKSI INTELIJEN KADET (DATA DRIVEN)
   // =========================================================================
   const user = await prisma.user.findUnique({
     where: { id: userId },
@@ -37,7 +34,7 @@ export async function ensureWeeklyPlan(userId: string) {
     }
   });
 
-  if (!user) throw new Error("Data personel tidak ditemukan.");
+  if (!user) return null;
 
   const latestTryout = user.skdAttempts[0] || null;
   const latestPhysical = user.physicalLogs[0] || null;
@@ -46,94 +43,65 @@ export async function ensureWeeklyPlan(userId: string) {
   const tiu = latestTryout?.tiuScore || user.initialTiuScore || 0;
   const tkp = latestTryout?.tkpScore || user.initialTkpScore || 0;
   const fisik = latestPhysical ? Math.round(latestPhysical.totalScore) : 0;
-  const currentXP = user.xp || 0;
-
-  let trainingPhase = "FASE 1: ADAPTASI & PRA-KONDISI";
-  if (currentXP > 1000) trainingPhase = "FASE 2: EKSKALASI & INTENSITAS TINGGI";
-  if (currentXP > 5000) trainingPhase = "FASE 3: SIMULASI MEDAN TEMPUR (STRESS TEST)";
 
   // =========================================================================
-  // 3. BRAIN PROMPT: DOKTRIN ELITE COACHING & TRI TUNGGAL TERPUSAT
+  // 3. BRAIN PROMPT: DOKTRIN TRI TUNGGAL TERPUSAT (ELITE COACHING)
   // =========================================================================
   const systemPrompt = `
-Anda adalah PELATIH KEPALA (Elite Coach) profesional di Akademi Digital untuk persiapan CPNS dan Sekolah Kedinasan.
-Tugas Anda merancang "Tactical Blueprint" (Jadwal Latihan 7 Hari) yang brutal, presisi, dan berbasis data untuk Kadet.
+Anda adalah PELATIH KEPALA di Akademi Digital Persiapan Kedinasan & CPNS.
+Tugas: Rancang "Tactical Blueprint" 7 hari dengan Doktrin TRI TUNGGAL TERPUSAT.
 
-DATA KADET SAAT INI:
-- Fase Latihan: ${trainingPhase}
-- Nilai TWK: ${twk}/150, Nilai TIU: ${tiu}/175, Nilai TKP: ${tkp}/225, Nilai Jasmani (LAT): ${fisik}/100.
+DATA KADET: TWK:${twk}, TIU:${tiu}, TKP:${tkp}, FISIK:${fisik}.
 
-ATURAN MUTLAK (GUARDRAILS):
-1. DILARANG KERAS menyarankan tes menggambar (Pohon/Wartegg) atau tes koran. Fokus pada simulasi pilihan ganda/CAT.
-2. Dilarang menggunakan istilah spesifik instansi seperti "Polri/TNI". Gunakan istilah universal: "Sikap Kerja", "Kematangan Mental", atau "Integritas".
+GUARDRAILS (HARUS DIPATUHI):
+1. DILARANG menyarankan tes menggambar/psikotes proyektif. Fokus pada Sikap Kerja CAT.
+2. Gunakan istilah universal: "Sikap Kerja", "Kematangan Mental", "Integritas". HAPUS kata "Polri".
 3. Bahasa tegas, militeristik, profesional (Command Directive).
-4. Output HARUS murni JSON valid, tanpa teks markdown, tanpa backticks.
+4. Output WAJIB JSON valid.
 
-DOKTRIN "TRI TUNGGAL TERPUSAT":
-Setiap hari wajib berisi 3 elemen (LAT, JAR, SUH) dalam siklus 24 jam:
-- "tahap1": [LAT - PAGI] Latihan jasmani spesifik (Contoh: Interval lari 5 set, Push-up repetisi maksimal). Berikan metodenya secara profesional.
-- "tahap2": [JAR - SIANG/SORE] Deep Work Akademik minimal 90 Menit. Gunakan teknik cerdas (Active Recall, Feynman, Pemetaan Logika). Fokus pada kelemahan nilai kadet.
-- "tahap3": [SUH - MALAM] Latihan Mental/Sikap Kerja minimal 30 Menit. (Contoh: Simulasi Sikap Kerja di bawah tekanan, Kalibrasi Mental, Evaluasi Jurnal, Tidur 22:00).
-
-FORMAT JSON:
-{
-  "focusAreas": "...",
-  "evaluationText": "...",
-  "dailyDrills": [
-    {
-      "title": "HARI 1: SENIN (...)",
-      "duration": "180 Menit Total",
-      "tahap1": "[LAT - PAGI] ...",
-      "tahap2": "[JAR - SIANG] ...",
-      "tahap3": "[SUH - MALAM] ..."
-    }
-  ]
-}
+DOKTRIN TRI TUNGGAL TERPUSAT (STRUKTUR HARIAN):
+Setiap hari HARUS mencakup 3 Matra dalam siklus 24 jam:
+- "tahap1": [LAT - PAGI] Jasmani spesifik (Contoh: Interval lari, Push-up repetisi).
+- "tahap2": [JAR - SIANG] Deep Work Akademik 90 Menit (Active Recall/Pemetaan Logika).
+- "tahap3": [SUH - MALAM] Mental & Sikap Kerja 30 Menit (Simulasi, Evaluasi, Tidur 22:00).
 `;
 
-  // =========================================================================
-  // 4. TEMBAKKAN KE OPENAI (MENGGUNAKAN GPT-4O / GPT-3.5-TURBO)
-  // =========================================================================
-  let aiFocusAreas = "PENYELARASAN AWAL";
-  let aiEvaluationText = "Laksanakan perintah dengan disiplin tempur!";
-  let aiDailyDrills = "[]";
+  let aiFocusAreas = "PENYELARASAN TRI TUNGGAL";
+  let aiEvaluationText = "Kadet, laksanakan instruksi harian dengan disiplin tanpa celah!";
+  let aiDailyDrills = [];
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini", // Menggunakan model terbaru yang cepat dan cerdas
+      model: "gpt-4o-mini", // Mesin cerdas, cepat, dan efisien
       messages: [{ role: "system", content: systemPrompt }],
-      response_format: { type: "json_object" }, // Memastikan output JSON murni
-      temperature: 0.7,
+      response_format: { type: "json_object" },
     });
 
-    const parsedData = JSON.parse(response.choices[0].message.content || "{}");
-    
-    if (parsedData.focusAreas) aiFocusAreas = parsedData.focusAreas;
-    if (parsedData.evaluationText) aiEvaluationText = parsedData.evaluationText;
-    if (parsedData.dailyDrills) aiDailyDrills = JSON.stringify(parsedData.dailyDrills);
-
+    const parsed = JSON.parse(response.choices[0].message.content || "{}");
+    aiFocusAreas = parsed.focusAreas || aiFocusAreas;
+    aiEvaluationText = parsed.evaluationText || aiEvaluationText;
+    aiDailyDrills = parsed.dailyDrills || [];
   } catch (error) {
-    console.error("⚠️ [OPENAI FAILURE]:", error);
-    // Fallback manual tetap disediakan sebagai pengaman
-    const fallbackDrills = Array.from({ length: 7 }).map((_, i) => ({
-      title: `HARI ${i + 1}: PROTOKOL DARURAT`,
-      duration: "120 Menit",
-      tahap1: "[LAT - PAGI] Kardio Dasar 30 Menit.",
-      tahap2: "[JAR - SIANG] Deep Work 60 Menit Materi Lemah.",
-      tahap3: "[SUH - MALAM] Kalibrasi Sikap Kerja & Tidur 22:00."
+    console.error("⚠️ AI Gagal, mengaktifkan Protokol Cadangan:", error);
+    // FALLBACK: Jaminan sistem tetap muncul meskipun API Down
+    aiDailyDrills = Array.from({ length: 7 }).map((_, i) => ({
+      title: `HARI ${i + 1}: OPERASI TRI TUNGGAL`,
+      duration: "180 Menit",
+      tahap1: "[LAT - PAGI] Lari Aerobik 30 Menit & Penguatan Otot Inti (Push-up/Plank).",
+      tahap2: "[JAR - SIANG] Deep Work 90 Menit: Bedah materi akademik tersulit berdasarkan data.",
+      tahap3: "[SUH - MALAM] Kalibrasi Sikap Kerja & Refleksi Jurnal. Istirahat total jam 22:00."
     }));
-    aiDailyDrills = JSON.stringify(fallbackDrills);
   }
 
   // =========================================================================
-  // 5. SIMPAN KE DATABASE
+  // 4. PENYIMPANAN DATA
   // =========================================================================
   return await prisma.weeklyBlueprint.create({
     data: {
       userId,
       focusAreas: aiFocusAreas,
       evaluationText: aiEvaluationText,
-      dailyDrills: aiDailyDrills,
+      dailyDrills: JSON.stringify(aiDailyDrills),
       isCompleted: false
     }
   });
