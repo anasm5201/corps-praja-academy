@@ -354,6 +354,48 @@ export default async function DashboardPage() {
                 </Link>
             </div>
         </div>
+           {/* ========================================================================= */}
+{/* 🚀 WIDGET RINGKASAN: TODAY'S TACTICAL OPS (TRI TUNGGAL TERPUSAT) */}
+{/* ========================================================================= */}
+{weeklyBlueprint && (
+  <div className="mb-8 group">
+    <div className="bg-neutral-900/80 border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(59,130,246,0.1)] hover:border-blue-500 transition-all">
+      <div className="p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex items-center gap-5 w-full">
+          <div className="h-16 w-16 bg-blue-600/20 border border-blue-500 rounded-lg flex items-center justify-center text-blue-500 shrink-0">
+            <CalendarCheck size={32} />
+          </div>
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="px-2 py-0.5 bg-blue-500 text-black text-[9px] font-black rounded-sm uppercase tracking-tighter">LIVE OPS</span>
+              <h3 className="text-lg font-black text-white uppercase tracking-tight">PROGRAM TRI TUNGGAL TERPUSAT</h3>
+            </div>
+            <p className="text-xs text-neutral-400 font-mono italic leading-tight line-clamp-1">
+              "{weeklyBlueprint.evaluationText}"
+            </p>
+          </div>
+        </div>
+        
+        {/* BUTTON MENU: MASUK KE DETAIL JADWAL */}
+        <Link href="/dashboard/blueprint" className="w-full md:w-auto">
+          <button className="w-full px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm flex items-center justify-center gap-3 transition-all shadow-[0_5px_15px_rgba(37,99,235,0.4)] active:scale-95 group">
+            BUKA PETA JADWAL MINGGUAN <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform"/>
+          </button>
+        </Link>
+      </div>
+      
+      {/* PROGRESS TRACKER SINGKAT */}
+      <div className="bg-black/40 px-6 py-3 border-t border-neutral-800 flex justify-between items-center">
+        <div className="flex gap-4">
+           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><Zap size={12}/> LAT: AKTIF</span>
+           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><BookOpen size={12}/> JAR: AKTIF</span>
+           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><Activity size={12}/> SUH: AKTIF</span>
+        </div>
+        <span className="text-[10px] font-mono text-blue-400 uppercase tracking-widest">Fokus: {weeklyBlueprint.focusAreas}</span>
+      </div>
+    </div>
+  </div>
+)}
 
         {/* ========================================================================= */}
         {/* 🚀 TACTICAL BLUEPRINT MINGGUAN (PENGGANTI MISI HARIAN ACAK) */}
