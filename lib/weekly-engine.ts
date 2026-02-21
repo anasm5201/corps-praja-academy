@@ -1,31 +1,19 @@
 import { prisma } from "@/lib/prisma";
 import OpenAI from "openai";
 
-// Inisialisasi OpenAI - Memakai amunisi yang sudah siap di Vercel Komandan
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
 export async function ensureWeeklyPlan(userId: string) {
-  // =========================================================================
-  // 1. PROTOKOL RE-GENERATE & PENENTUAN WAKTU
-  // =========================================================================
   const startOfWeek = new Date();
   startOfWeek.setHours(0, 0, 0, 0);
-  startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay() + 1); // Senin
+  startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay() + 1);
 
-  // ⚠️ [FORCE REFRESH] Menghapus blueprint lama agar Kadet langsung menerima Doktrin TRI TUNGGAL TERPUSAT
-  await prisma.weeklyBlueprint.deleteMany({ where: { userId: userId } });
+  // 1. PROTOKOL PEMBERSIHAN (PASTIKAN JADWAL LAMA MUSNAH)
+  await prisma.weeklyBlueprint.deleteMany({ where: { userId } });
 
-  let currentPlan = await prisma.weeklyBlueprint.findFirst({
-    where: { userId, createdAt: { gte: startOfWeek } }
-  });
-
-  if (currentPlan) return currentPlan;
-
-  // =========================================================================
-  // 2. EKSTRAKSI INTELIJEN KADET (DATA DRIVEN)
-  // =========================================================================
+  // 2. AMBIL DATA KADET
   const user = await prisma.user.findUnique({
     where: { id: userId },
     include: {
@@ -36,72 +24,47 @@ export async function ensureWeeklyPlan(userId: string) {
 
   if (!user) return null;
 
-  const latestTryout = user.skdAttempts[0] || null;
-  const latestPhysical = user.physicalLogs[0] || null;
+  // 3. INSTRUKSI DOKTRIN TRI TUNGGAL TERPUSAT
+  const systemPrompt = `Anda adalah ELITE COACH. Rancang jadwal 7 hari (Senin-Minggu) DOKTRIN TRI TUNGGAL TERPUSAT. 
+  Setiap hari wajib 3 tahap: [LAT - PAGI] (Fisik Spesifik), [JAR - SIANG] (Deep Work Akademik 90 Menit), [SUH - MALAM] (Sikap Kerja/Mental). 
+  Gunakan bahasa militer, profesional, tanpa kata 'Polri'. Output WAJIB JSON.`;
 
-  const twk = latestTryout?.twkScore || user.initialTwkScore || 0;
-  const tiu = latestTryout?.tiuScore || user.initialTiuScore || 0;
-  const tkp = latestTryout?.tkpScore || user.initialTkpScore || 0;
-  const fisik = latestPhysical ? Math.round(latestPhysical.totalScore) : 0;
-
-  // =========================================================================
-  // 3. BRAIN PROMPT: DOKTRIN TRI TUNGGAL TERPUSAT (ELITE COACHING)
-  // =========================================================================
-  const systemPrompt = `
-Anda adalah PELATIH KEPALA di Akademi Digital Persiapan Kedinasan & CPNS.
-Tugas: Rancang "Tactical Blueprint" 7 hari dengan Doktrin TRI TUNGGAL TERPUSAT.
-
-DATA KADET: TWK:${twk}, TIU:${tiu}, TKP:${tkp}, FISIK:${fisik}.
-
-GUARDRAILS (HARUS DIPATUHI):
-1. DILARANG menyarankan tes menggambar/psikotes proyektif. Fokus pada Sikap Kerja CAT.
-2. Gunakan istilah universal: "Sikap Kerja", "Kematangan Mental", "Integritas". HAPUS kata "Polri".
-3. Bahasa tegas, militeristik, profesional (Command Directive).
-4. Output WAJIB JSON valid.
-
-DOKTRIN TRI TUNGGAL TERPUSAT (STRUKTUR HARIAN):
-Setiap hari HARUS mencakup 3 Matra dalam siklus 24 jam:
-- "tahap1": [LAT - PAGI] Jasmani spesifik (Contoh: Interval lari, Push-up repetisi).
-- "tahap2": [JAR - SIANG] Deep Work Akademik 90 Menit (Active Recall/Pemetaan Logika).
-- "tahap3": [SUH - MALAM] Mental & Sikap Kerja 30 Menit (Simulasi, Evaluasi, Tidur 22:00).
-`;
-
-  let aiFocusAreas = "PENYELARASAN TRI TUNGGAL";
-  let aiEvaluationText = "Kadet, laksanakan instruksi harian dengan disiplin tanpa celah!";
-  let aiDailyDrills = [];
+  let aiFocus = "PENYELARASAN TRI TUNGGAL";
+  let aiEval = "Laksanakan instruksi TRI TUNGGAL TERPUSAT dengan disiplin baja!";
+  let aiDrills = [];
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini", // Mesin cerdas, cepat, dan efisien
+      model: "gpt-3.5-turbo", // Menggunakan model paling stabil untuk menjamin eksekusi
       messages: [{ role: "system", content: systemPrompt }],
       response_format: { type: "json_object" },
     });
 
     const parsed = JSON.parse(response.choices[0].message.content || "{}");
-    aiFocusAreas = parsed.focusAreas || aiFocusAreas;
-    aiEvaluationText = parsed.evaluationText || aiEvaluationText;
-    aiDailyDrills = parsed.dailyDrills || [];
+    aiFocus = parsed.focusAreas || aiFocus;
+    aiEval = parsed.evaluationText || aiEval;
+    aiDrills = parsed.dailyDrills || [];
   } catch (error) {
-    console.error("⚠️ AI Gagal, mengaktifkan Protokol Cadangan:", error);
-    // FALLBACK: Jaminan sistem tetap muncul meskipun API Down
-    aiDailyDrills = Array.from({ length: 7 }).map((_, i) => ({
-      title: `HARI ${i + 1}: OPERASI TRI TUNGGAL`,
-      duration: "180 Menit",
-      tahap1: "[LAT - PAGI] Lari Aerobik 30 Menit & Penguatan Otot Inti (Push-up/Plank).",
-      tahap2: "[JAR - SIANG] Deep Work 90 Menit: Bedah materi akademik tersulit berdasarkan data.",
-      tahap3: "[SUH - MALAM] Kalibrasi Sikap Kerja & Refleksi Jurnal. Istirahat total jam 22:00."
-    }));
+    console.error("AI Sabotage Detected, activating fallback:", error);
+    // FALLBACK: JAMINAN 100% PAPAN MISI MUNCUL
+    aiDrills = [
+      { title: "HARI 1: SENIN (OPS KETAHANAN)", tahap1: "[LAT - PAGI] Lari Interval 400m x 5 Set. Istirahat 1 menit.", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Bedah materi TIU Analitis & Pemetaan Logika.", tahap3: "[SUH - MALAM] Kalibrasi Sikap Kerja & Refleksi Jurnal. Tidur 22:00." },
+      { title: "HARI 2: SELASA (OPS AKADEMIK)", tahap1: "[LAT - PAGI] Penguatan Otot Inti (Push-up & Plank) 3 Set.", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Pendalaman TWK Nasionalisme & Integritas.", tahap3: "[SUH - MALAM] Simulasi Kepribadian Kedinasan & Tidur 22:00." },
+      { title: "HARI 3: RABU (OPS MENTAL)", tahap1: "[LAT - PAGI] Lari Aerobik (Zone 2) 30 Menit Konsisten.", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Speed Drill TIU Numerik & Berhitung.", tahap3: "[SUH - MALAM] Evaluasi Etika Kerja & Jurnal Kedisiplinan. Tidur 22:00." },
+      { title: "HARI 4: KAMIS (OPS TAKTIS)", tahap1: "[LAT - PAGI] Latihan Ketangkasan (Pull-up/Sit-up) Repetisi Maksimal.", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Analisa Soal Cerita TIU & Pola Gambar.", tahap3: "[SUH - MALAM] Kalibrasi Respon Stress & Manajemen Emosi. Tidur 22:00." },
+      { title: "HARI 5: JUMAT (OPS INTEGRASI)", tahap1: "[LAT - PAGI] Fartlek Training 20 Menit (Variasi Kecepatan).", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Review Materi TWK Pilar Negara & UUD.", tahap3: "[SUH - MALAM] Simulasi Sikap Profesional Kedinasan. Tidur 22:00." },
+      { title: "HARI 6: SABTU (OPS EVALUASI)", tahap1: "[LAT - PAGI] Jalan Cepat/Jogging Ringan 45 Menit (Recovery).", tahap2: "[JAR - SIANG] Deep Work 90 Menit: Simulasi CAT SKD Mini (60 Soal).", tahap3: "[SUH - MALAM] Review Hasil Mingguan & Strategi Perbaikan. Tidur 22:00." },
+      { title: "HARI 7: MINGGU (OPS RECOVERY)", tahap1: "[LAT - PAGI] Peregangan Statis & Mobilitas Sendi (Full Body).", tahap2: "[JAR - SIANG] Membaca Ringkas Literatur Wawasan Kebangsaan (30 Menit).", tahap3: "[SUH - MALAM] Ibadah, Persiapan Mental & Logistik Senin. Tidur 21:00." }
+    ];
   }
 
-  // =========================================================================
-  // 4. PENYIMPANAN DATA
-  // =========================================================================
+  // 4. SIMPAN KE DATABASE
   return await prisma.weeklyBlueprint.create({
     data: {
       userId,
-      focusAreas: aiFocusAreas,
-      evaluationText: aiEvaluationText,
-      dailyDrills: JSON.stringify(aiDailyDrills),
+      focusAreas: aiFocus,
+      evaluationText: aiEval,
+      dailyDrills: JSON.stringify(aiDrills),
       isCompleted: false
     }
   });
