@@ -1,66 +1,78 @@
-// STANDAR PENILAIAN SAMAPTA (APPROXIMATION FOR MVP)
-// Mengacu pada standar umum Kedinasan/Polri (Pria)
+// STANDAR PENILAIAN SAMAPTA DENGAN KESETARAAN GENDER (PRIA/WANITA)
+// Mengacu pada standar umum Kedinasan/TNI/Polri
 
 export function calculateSamaptaScore(
-    lariMeter: number,
-    pushUp: number,
-    sitUp: number,
-    pullUp: number,
-    shuttleRunSeconds: number
-  ) {
-    // 1. HITUNG NILAI SAMAPTA A (LARI 12 MENIT)
-    // Target Max (100) ≈ 3444 meter | Target Min (0) ≈ 1300 meter
-    let scoreA = 0;
-    if (lariMeter >= 3444) scoreA = 100;
-    else if (lariMeter <= 1300) scoreA = 0;
-    else {
-      // Rumus Interpolasi Linear Sederhana
-      scoreA = ((lariMeter - 1300) / (3444 - 1300)) * 100;
-    }
-  
-    // 2. HITUNG NILAI SAMAPTA B (PER ITEM)
-    
-    // B1. Push Up (1 Menit) - Max 43
-    let scorePush = (pushUp / 43) * 100;
-    if (scorePush > 100) scorePush = 100;
-  
-    // B2. Sit Up (1 Menit) - Max 40
-    let scoreSit = (sitUp / 40) * 100;
-    if (scoreSit > 100) scoreSit = 100;
-  
-    // B3. Pull Up (1 Menit) - Max 17
-    let scorePull = (pullUp / 17) * 100;
-    if (scorePull > 100) scorePull = 100;
-  
-    // B4. Shuttle Run (Detik) - Target 16.2s (100) sampai 25s (0)
-    // Semakin kecil waktu, semakin besar nilai
-    let scoreShuttle = 0;
-    if (shuttleRunSeconds <= 16.2) scoreShuttle = 100;
-    else if (shuttleRunSeconds >= 25.0) scoreShuttle = 0;
-    else {
-      scoreShuttle = 100 - ((shuttleRunSeconds - 16.2) / (25.0 - 16.2)) * 100;
-    }
-  
-    // 3. RATA-RATA SAMAPTA B
-    const scoreB = (scorePush + scoreSit + scorePull + scoreShuttle) / 4;
-  
-    // 4. NILAI AKHIR (A + B) / 2
-    const finalScore = (scoreA + scoreB) / 2;
-  
-    // 5. GENERATE FEEDBACK TAKTIS (UNTUK AI)
-    let feedback = [];
-    if (scoreA < 70) feedback.push("Lari masih kurang! Tingkatkan interval training.");
-    if (scorePush < 70) feedback.push("Otot lengan lemah (Push-up). Lakukan diamond push-up.");
-    if (scoreSit < 70) feedback.push("Core muscle lemah (Sit-up). Rutinkan plank.");
-    if (scorePull < 70) feedback.push("Otot punggung/sayap kurang (Pull-up).");
-    if (scoreShuttle < 70) feedback.push("Kelincahan kaki lambat (Shuttle Run).");
-    
-    if (feedback.length === 0) feedback.push("Kondisi Fisik PRIMA! Pertahankan intensitas.");
-  
-    return {
-      scoreA: Math.round(scoreA),
-      scoreB: Math.round(scoreB),
-      totalScore: Math.round(finalScore),
-      feedback: feedback.join(" ")
-    };
+  gender: string | null | undefined, // [BARU] Menerima data jenis kelamin
+  lariMeter: number,
+  pushUp: number,
+  sitUp: number,
+  pullUp: number, // Pria: Pull-up | Wanita: Chinning
+  shuttleRunSeconds: number
+) {
+  // Normalisasi Gender (Default ke 'PRIA' jika Kadet belum mengatur profilnya)
+  const isWanita = gender?.toUpperCase() === "WANITA";
+
+  // ====================================================================
+  // 1. HITUNG NILAI SAMAPTA A (LARI 12 MENIT)
+  // ====================================================================
+  const targetLariMax = isWanita ? 3095 : 3444; // Nilai 100
+  const targetLariMin = isWanita ? 1100 : 1300; // Nilai 0 (Batas bawah)
+
+  let scoreA = 0;
+  if (lariMeter >= targetLariMax) scoreA = 100;
+  else if (lariMeter <= targetLariMin) scoreA = 0;
+  else {
+    scoreA = ((lariMeter - targetLariMin) / (targetLariMax - targetLariMin)) * 100;
   }
+
+  // ====================================================================
+  // 2. HITUNG NILAI SAMAPTA B (PER ITEM)
+  // ====================================================================
+  
+  // Target Maksimal (Nilai 100) berdasarkan Gender
+  const targetPushUp = isWanita ? 37 : 43;
+  const targetSitUp = isWanita ? 50 : 40; // Wanita lebih tinggi target sit-up nya
+  const targetPullUp = isWanita ? 72 : 17; // Wanita: Chinning (72x), Pria: Pull-up (17x)
+
+  const scorePush = pushUp <= 0 ? 0 : Math.min((pushUp / targetPushUp) * 100, 100);
+  const scoreSit = sitUp <= 0 ? 0 : Math.min((sitUp / targetSitUp) * 100, 100);
+  const scorePull = pullUp <= 0 ? 0 : Math.min((pullUp / targetPullUp) * 100, 100);
+
+  // Shuttle Run (Makin cepat detik = Makin besar nilai)
+  const targetShuttleMax = isWanita ? 17.6 : 16.2; // Nilai 100
+  const targetShuttleMin = isWanita ? 26.0 : 25.0; // Nilai 0
+
+  let scoreShuttle = 0;
+  if (shuttleRunSeconds <= 0 || shuttleRunSeconds >= targetShuttleMin) {
+      scoreShuttle = 0; // Cegah kecurangan jika input 0 detik
+  } else if (shuttleRunSeconds <= targetShuttleMax) {
+      scoreShuttle = 100;
+  } else {
+      scoreShuttle = 100 - ((shuttleRunSeconds - targetShuttleMax) / (targetShuttleMin - targetShuttleMax)) * 100;
+  }
+
+  // ====================================================================
+  // 3. RATA-RATA & NILAI AKHIR MUTLAK
+  // ====================================================================
+  const scoreB = (scorePush + scoreSit + scorePull + scoreShuttle) / 4;
+  const finalScore = (scoreA + scoreB) / 2;
+
+  // ====================================================================
+  // 4. GENERATE DIAGNOSA TAKTIS (BAHAN MENTAH UNTUK AI MENTOR)
+  // ====================================================================
+  let feedback = [];
+  if (scoreA < 70) feedback.push(`[KARDIO] Lari ${lariMeter}m masih di bawah standar tempur ${isWanita ? 'Putri' : 'Putra'}.`);
+  if (scorePush < 70) feedback.push("[OTOT LENGAN] Repetisi Push-up di bawah standar.");
+  if (scoreSit < 70) feedback.push("[CORE] Otot perut rapuh, bahaya cedera punggung.");
+  if (scorePull < 70) feedback.push(`[OTOT TARIK] Kekuatan ${isWanita ? 'Chinning' : 'Pull-up'} sangat minim.`);
+  if (scoreShuttle < 70) feedback.push("[AGILITY] Kelincahan kaki (Shuttle Run) lambat.");
+  
+  if (feedback.length === 0) feedback.push("KONDISI FISIK PRIMA! Kadet siap tempur.");
+
+  return {
+    scoreA: Math.round(scoreA),
+    scoreB: Math.round(scoreB),
+    totalScore: Math.round(finalScore),
+    feedback: feedback.join(" ")
+  };
+}

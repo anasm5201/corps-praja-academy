@@ -1,165 +1,195 @@
 import { prisma } from "@/lib/prisma";
-import { startOfWeek, endOfWeek, subDays } from "date-fns";
+import OpenAI from "openai";
 
-// KONFIGURASI TARGET FISIK (LAT) - BATAS AMAN
-const TARGET_FISIK = {
-  LARI: 2000,      // Meter (Minimal agar tidak merah)
-  PUSHUP: 30,      // Reps
-  PULLUP: 5,       // Reps
-  SHUTTLE: 18.0    // Detik (Maksimal)
-};
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
 
-/**
- * 🚀 FUNGSI UTAMA: MENJAMIN ADANYA RENCANA MINGGUAN (VERSI JAR-LAT-SUH)
- * Menganalisa Otak (JAR), Otot (LAT), dan Mental (SUH) secara bersamaan.
- */
 export async function ensureWeeklyPlan(userId: string) {
-  // 1. Tentukan ID Minggu Ini
-  const now = new Date();
-  const weekNumber = getWeekNumber(now);
-  const weekId = `${now.getFullYear()}-W${weekNumber}`;
+  try {
+    const now = new Date();
 
-  // 2. CEK STATUS: Apakah rencana minggu ini sudah ada?
-  // Menggunakan findFirst agar lebih aman jika unique index belum ter-set sempurna
-  const existingPlan = await prisma.weeklyPlan.findFirst({
-    where: {
-      userId,
-      weekNumber: weekNumber // Menggunakan field weekNumber integer sesuai schema terakhir
-    }
-  });
-
-  if (existingPlan) {
-    return existingPlan; 
-  }
-
-  // 3. JIKA BELUM ADA -> JALANKAN OPERASI INTELIJEN GABUNGAN
-  console.log(`🧠 AI JAR-LAT-SUH: Generasi Rencana Mingguan Kadet ${userId}...`);
-  
-  const startDate = subDays(now, 7); // Data 7 hari terakhir
-  
-  // =================================================================
-  // A. INTELIJEN JAR (AKADEMIK) - DRILL & TRYOUT
-  // =================================================================
-  const drills = await prisma.drillHistory.findMany({
-    where: { userId, createdAt: { gte: startDate } },
-    include: { drillUnit: { include: { questions: true } } }
-  });
-
-  const tryouts = await prisma.tryoutAttempt.findMany({
-    where: { userId, startedAt: { gte: startDate }, isFinished: true },
-    include: { package: { include: { questions: true } } }
-  });
-
-  // Map untuk menyimpan skor rata-rata per kategori
-  const weaknessMap = new Map<string, { totalScore: number, count: number, category: "JAR" | "LAT" | "SUH" }>();
-
-  const recordStat = (name: string, score: number, category: "JAR" | "LAT" | "SUH") => {
-    if (!name) return;
-    const current = weaknessMap.get(name) || { totalScore: 0, count: 0, category };
-    current.totalScore += score;
-    current.count += 1;
-    weaknessMap.set(name, current);
-  };
-
-  // Proses Data Akademik
-  drills.forEach(d => {
-    d.drillUnit.questions.forEach(q => {
-      if (q.subCategory) recordStat(q.subCategory, d.score, "JAR");
+    // =========================================================================
+    // 🛡️ 1. PENJAGA GERBANG (COST-SAVING PROTOCOL)
+    // =========================================================================
+    // Cek apakah ada jadwal minggu ini yang masih aktif dan belum kedaluwarsa
+    const activeBlueprint = await prisma.weeklyBlueprint.findFirst({
+      where: {
+        userId: userId,
+        endDate: { gt: now }, // 'gt' = greater than (Lebih besar dari waktu sekarang)
+        isActive: true
+      }
     });
-  });
 
-  tryouts.forEach(t => {
-    // Penyerdehanaan: Skor Tryout dipukul rata ke semua soal di dalamnya
-    const normalizedScore = Math.min(100, (t.score / 500) * 100); 
-    t.package.questions.forEach(q => {
-      if (q.subCategory) recordStat(q.subCategory, normalizedScore, "JAR");
+    // Jika jadwal masih berlaku, STOP proses di sini. OpenAI diistirahatkan.
+    if (activeBlueprint) {
+        return activeBlueprint;
+    }
+
+    // =========================================================================
+    // 📡 2. PENGUMPULAN DATA INTELIJEN & AWOL RADAR
+    // =========================================================================
+    const user = await prisma.user.findUnique({ where: { id: userId } });
+    if (!user) throw new Error("Kadet tidak ditemukan di markas.");
+
+    const latestTryout = await prisma.tryoutAttempt.findFirst({
+      where: { userId: userId, isFinished: true },
+      orderBy: { finishedAt: 'desc' }
     });
-  });
 
-  // =================================================================
-  // B. INTELIJEN LAT (JASMANI) - SAMAPTA LOG
-  // =================================================================
-  const physicalLogs = await prisma.physicalLog.findMany({
-    where: { userId, createdAt: { gte: startDate } },
-    orderBy: { createdAt: 'desc' }
-  });
+    const latestPhysical = await prisma.physicalLog.findFirst({
+      where: { userId: userId },
+      orderBy: { createdAt: 'desc' }
+    });
 
-  if (physicalLogs.length > 0) {
-    // Ambil log terakhir untuk cek kondisi terkini
-    const latest = physicalLogs[0];
+    // --- LOGIKA CERDAS DETEKSI KEMALASAN (AWOL) ---
+    const nowTime = now.getTime();
+    // Jika belum pernah Tryout/Fisik, gunakan tanggal pendaftaran akun sebagai titik awal
+    const tryoutTime = latestTryout?.finishedAt ? latestTryout.finishedAt.getTime() : user.createdAt.getTime();
+    const physicalTime = latestPhysical?.createdAt ? latestPhysical.createdAt.getTime() : user.createdAt.getTime();
 
-    // Cek Lari (Endurance)
-    if (latest.lariMeter < TARGET_FISIK.LARI) {
-      recordStat("FISIK_LARI_INTERVAL", 40, "LAT"); // Nilai 40 = PRIORITAS TINGGI
-    }
-    // Cek Pushup (Upper Body)
-    if (latest.pushUp < TARGET_FISIK.PUSHUP) {
-      recordStat("FISIK_PUSH_UP", 45, "LAT");
-    }
-    // Cek Pullup (Back)
-    if (latest.pullUp < TARGET_FISIK.PULLUP) {
-      recordStat("FISIK_PULL_UP", 45, "LAT");
-    }
-    // Cek Shuttle (Agility)
-    if (latest.shuttleRun > TARGET_FISIK.SHUTTLE) {
-      recordStat("FISIK_KELINCAHAN", 50, "LAT");
-    }
-  } else {
-    // ⚠️ BAHAYA: TIDAK PERNAH LATIHAN FISIK MINGGU INI
-    recordStat("DISIPLIN_SAMAPTA", 20, "SUH"); // Nilai 20 = SUPER PRIORITAS
+    const daysSinceTryout = Math.floor((nowTime - tryoutTime) / (1000 * 3600 * 24));
+    const daysSincePhysical = Math.floor((nowTime - physicalTime) / (1000 * 3600 * 24));
+
+    // Kadet dinyatakan DESERSI jika menghilang lebih dari 7 hari
+    const isAwol = (daysSinceTryout > 7 && daysSincePhysical > 7);
+
+    const stats = {
+      nama: user.name,
+      lari_meter: latestPhysical ? latestPhysical.totalScore * 30 : (user.initialRunDistance || 0),
+      twk: latestTryout?.twkScore ?? user.initialTwkScore ?? 0,
+      tiu: latestTryout?.tiuScore ?? user.initialTiuScore ?? 0,
+      tkp: latestTryout?.tkpScore ?? user.initialTkpScore ?? 0,
+      analisa_kelemahan: latestTryout?.analysis || "Peta kelemahan masih buta",
+      status_kedisiplinan: isAwol
+        ? `DESERSI! Menghilang tanpa latihan selama lebih dari 7 hari!`
+        : `AKTIF. Konsisten menyetorkan data.`
+    };
+
+    // =========================================================================
+    // 🧠 3. PEMANGGILAN PAKAR KURIKULUM (OPENAI)
+    // =========================================================================
+    console.log(`[WEEKLY ENGINE] Menyusun Kurikulum untuk ${stats.nama} (Status: ${isAwol ? 'AWOL' : 'AKTIF'})...`);
+
+    const completion = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo", 
+      messages: [
+        {
+          role: "system",
+          content: `
+            Anda adalah "CPA-TACTICAL", Pelatih Fisik VVIP dan Dosen Kurikulum di CORPS PRAJA ACADEMY.
+            Doktrin Utama: "TRITUNGGAL TERPUSAT" (JAR: Akademik, LAT: Fisik, SUH: Mental/Karakter).
+
+            TUGAS: Buat "TACTICAL BLUEPRINT" (Jadwal Latihan 7 Hari) berdasarkan Rapor Kadet.
+
+            PROTOKOL DESERSI (AWOL):
+            - Jika status_kedisiplinan = "DESERSI": Anda HARUS SANGAT MARAH, HINA kemalasannya ("Tough Love"). Rombak jadwal menjadi HUKUMAN FISIK DASAR (Push up/Sit up tinggi) dan TRYOUT KALIBRASI di awal minggu untuk mengukur penurunan otaknya.
+            - Jika "AKTIF": Nada tegas, puji progres jika ada, lalu susun kurikulum spesifik.
+
+            METODOLOGI EXPERT:
+            - LAT: HIIT, Fartlek, Active Recovery. Pecah jadi Pemanasan, Inti, Pendinginan.
+            - JAR: Active Recall, Feynman Technique, Pomodoro.
+            - SUH: Stress Inoculation (Mengerjakan tes saat lelah fisik).
+
+            STRUKTUR 7 HARI (Senin s.d Minggu):
+            Selang-seling antara LAT, JAR, dan SUH. Jangan biarkan overtraining.
+
+            FORMAT JSON MUTLAK (Tanpa awalan markdown):
+            {
+              "evaluationText": "Evaluasi/Omelan 3 kalimat taktis.",
+              "focusAreas": "KATA KUNCI (Max 4 kata, cth: PEMULIHAN DISIPLIN & KARDIO)",
+              "dailyDrills": [
+                {
+                  "day": "Senin",
+                  "category": "LAT",
+                  "title": "NAMA DRILL KAPITAL",
+                  "duration": "45 Menit",
+                  "tahap1": "Detail Pemanasan...",
+                  "tahap2": "Detail Eksekusi Inti...",
+                  "tahap3": "Detail Pendinginan..."
+                }
+              ]
+            }
+          `
+        },
+        {
+          role: "user",
+          content: `Data Kadet Terkini: ${JSON.stringify(stats)}`
+        }
+      ],
+      temperature: 0.7,
+    });
+
+    const aiResponse = completion.choices[0].message.content;
+    const cleanJson = aiResponse?.replace(/```json|```/g, '').trim();
+
+    if (!cleanJson) throw new Error("Format AI kosong atau rusak.");
+
+    const blueprintData = JSON.parse(cleanJson);
+
+    // =========================================================================
+    // 💾 4. PENYIMPANAN AMAN KE BRANKAS (DATABASE)
+    // =========================================================================
+    
+    // Matikan jadwal lama agar tidak bentrok
+    await prisma.weeklyBlueprint.updateMany({
+        where: { userId: userId, isActive: true },
+        data: { isActive: false }
+    });
+
+    // Set Masa Berlaku 7 Hari
+    const endDate = new Date(now);
+    endDate.setDate(endDate.getDate() + 7);
+
+    const newBlueprint = await prisma.weeklyBlueprint.create({
+      data: {
+        userId: userId,
+        startDate: now,
+        endDate: endDate,
+        evaluationText: blueprintData.evaluationText,
+        focusAreas: blueprintData.focusAreas,
+        dailyDrills: JSON.stringify(blueprintData.dailyDrills),
+        isActive: true
+      }
+    });
+
+    console.log(`✅ [WEEKLY ENGINE] Blueprint 7 Hari sukses dicetak & dikunci!`);
+    return newBlueprint;
+
+  } catch (error) {
+    console.error("❌ [WEEKLY ENGINE ERROR]:", error);
+    
+    // =========================================================================
+    // 🚨 5. PROTOKOL DARURAT (FALLBACK PLAN)
+    // =========================================================================
+    // Jika OpenAI Down/Limit habis, sistem tidak boleh mati. Buat jadwal Offline!
+    const emergencyDrills = Array.from({ length: 7 }).map((_, i) => ({
+        day: `Hari ${i + 1}`,
+        category: "LAT",
+        title: "OPERASI KEMANDIRIAN FISIK",
+        duration: "30 Menit",
+        tahap1: "Jogging ringan 5 menit untuk adaptasi detak jantung.",
+        tahap2: "Lari ketahanan (Endurance) tanpa henti selama 20 Menit.",
+        tahap3: "Pendinginan statis dan peregangan kaki."
+    }));
+
+    const now = new Date();
+    const endDate = new Date(now);
+    endDate.setDate(endDate.getDate() + 7);
+
+    // Tetap simpan jadwal darurat ke database agar tidak looping manggil error terus
+    const fallbackBlueprint = await prisma.weeklyBlueprint.create({
+      data: {
+        userId: userId,
+        startDate: now,
+        endDate: endDate,
+        evaluationText: "KONEKSI KE SATELIT TERPUTUS! AI Mentor sedang dalam perbaikan jaringan. Tetap laksanakan latihan fisik mandiri agar ototmu tidak menyusut!",
+        focusAreas: "PEMELIHARAAN DARURAT",
+        dailyDrills: JSON.stringify(emergencyDrills),
+        isActive: true
+      }
+    });
+
+    return fallbackBlueprint;
   }
-
-  // =================================================================
-  // C. INTELIJEN SUH (MENTAL/DISIPLIN) - USER ACTIVITY
-  // =================================================================
-  const user = await prisma.user.findUnique({ where: { id: userId } });
-  
-  // Jika XP rendah minggu ini (Kadet Malas)
-  if (user && user.xp < 500) {
-    recordStat("DISIPLIN_LOGIN", 30, "SUH");
-  }
-
-  // =================================================================
-  // 5. PENENTUAN STRATEGI (SORTING)
-  // =================================================================
-  const ranking = Array.from(weaknessMap.entries()).map(([name, data]) => ({
-    focus: name,
-    avgScore: data.totalScore / data.count,
-    category: data.category
-  }));
-
-  // Urutkan dari skor TERENDAH (Makin rendah skor, makin butuh diperbaiki)
-  ranking.sort((a, b) => a.avgScore - b.avgScore);
-
-  // Ambil 3 Kelemahan Utama
-  let topWeaknesses = ranking.slice(0, 3).map(r => r.focus);
-
-  // FAILSAFE: Jika data kosong total (User Baru)
-  if (topWeaknesses.length === 0) {
-    topWeaknesses = ["PEMAHAMAN_MATERI", "LARI_JOGGING", "ADAPTASI_SISTEM"]; 
-  }
-
-  // =================================================================
-  // 6. EKSEKUSI (SIMPAN RENCANA)
-  // =================================================================
-  const newPlan = await prisma.weeklyPlan.create({
-    data: {
-      userId,
-      weekNumber, // Integer
-      // Simpan fokus area sebagai JSON string
-      focusAreas: JSON.stringify(topWeaknesses),      
-      status: "ACTIVE"
-    }
-  });
-
-  return newPlan;
-}
-
-// --- HELPER: MENGHITUNG NOMOR MINGGU ---
-function getWeekNumber(d: Date) {
-    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay()||7));
-    const yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
-    const weekNo = Math.ceil(( ( (d.getTime() - yearStart.getTime()) / 86400000) + 1)/7);
-    return weekNo;
 }

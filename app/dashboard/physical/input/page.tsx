@@ -22,7 +22,7 @@ export default async function PhysicalInputPage() {
                 <h1 className="text-2xl font-black uppercase tracking-tight flex items-center gap-2">
                     <Activity className="text-amber-500" /> Laporan Samapta
                 </h1>
-                <p className="text-neutral-500 text-xs font-mono">Input hasil latihan harian untuk kalkulasi skor & grafik JAR-LAT-SUH.</p>
+                <p className="text-neutral-500 text-xs font-mono">Input hasil latihan untuk kalkulasi skor & bahan evaluasi AI Mentor Mingguan.</p>
             </div>
         </div>
 
@@ -85,7 +85,7 @@ export default async function PhysicalInputPage() {
                             {/* PULL UP */}
                             <div>
                                 <div className="flex justify-between mb-1.5 ml-1">
-                                    <label className="text-xs text-neutral-400">PULL UP / CHANNING</label>
+                                    <label className="text-xs text-neutral-400">PULL UP / CHINNING</label>
                                     <span className="text-[10px] text-emerald-500 font-bold">Target: 17</span>
                                 </div>
                                 <input type="number" name="pullUp" placeholder="0" className="w-full bg-black border border-neutral-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 outline-none font-mono"/>
@@ -107,7 +107,7 @@ export default async function PhysicalInputPage() {
                     </button>
                     
                     <p className="text-center text-[10px] text-neutral-500 font-mono">
-                        *Data akan dianalisa oleh AI untuk menentukan menu latihan besok. Jujurlah pada diri sendiri.
+                        *Data ini akan dievaluasi oleh AI Mentor untuk menentukan Cetak Biru (Blueprint) latihan Anda minggu depan.
                     </p>
                 </form>
             </div>
@@ -128,7 +128,7 @@ export default async function PhysicalInputPage() {
                         </li>
                         <li className="flex gap-3 text-neutral-300">
                             <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5"></span>
-                            <span><strong>SUH (Pengasuhan):</strong> AI akan memberikan Misi Harian jika skor fisik menurun.</span>
+                            <span><strong>SUH (Pengasuhan):</strong> AI Mentor akan merombak Kurikulum Mingguan Anda jika fisik stagnan atau menurun.</span>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +136,7 @@ export default async function PhysicalInputPage() {
                 <div className="bg-neutral-900/30 border border-neutral-800 p-6 rounded-xl">
                     <h4 className="text-neutral-500 text-[10px] font-bold uppercase tracking-widest mb-2">CATATAN PELATIH</h4>
                     <p className="text-sm text-white italic">
-                        "Jangan memanipulasi data. AI Intelligence dapat mendeteksi anomali jika progress fisik tidak masuk akal dalam waktu singkat."
+                        "Jangan memanipulasi data. Sistem dapat mendeteksi anomali (AWOL) jika Anda tidak lapor, atau progress fisik melonjak tidak masuk akal."
                     </p>
                 </div>
             </div>

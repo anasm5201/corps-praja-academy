@@ -2,58 +2,57 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
-import { generateDailyMissions } from "@/lib/mission-engine"; 
-import { ensureWeeklyPlan } from "@/lib/weekly-engine";
+import { ensureWeeklyPlan } from "@/lib/weekly-engine"; // 🚀 ENGINE BARU
 import Link from "next/link";
-import MissionCard from "@/components/dashboard/MissionCard"; 
-import DashboardCharts from "./DashboardCharts"; // 🔥 GRAFIK VISUAL
+import DashboardCharts from "./DashboardCharts"; 
 import { 
   Target, Zap, ChevronsUp, Star, Activity, BookOpen, Laptop2, Dumbbell,
-  ShieldAlert, ScanFace, CalendarCheck, ArrowRight, Terminal, AlertOctagon 
+  ShieldAlert, ScanFace, CalendarCheck, ArrowRight, Terminal, AlertOctagon,
+  Clock, MessageSquare, CheckCircle 
 } from "lucide-react";
+import DrillCard from "@/components/dashboard/DrillCard";
 
 export const dynamic = 'force-dynamic';
 
 // ============================================================================
 // 🧠 BUKU PINTAR: MATRIKS NALAR MENTOR (THE MENTOR'S DICTIONARY)
-// Berisi 24 Subtes BKN + Referensi Eksternal + Navigasi Fitur Internal
 // ============================================================================
 const MENTOR_DICTIONARY: Record<string, any> = {
   // --- TWK (8 PILAR) ---
-  "NASIONALISME": { title: "PENGUATAN NASIONALISME", message: "Kadet, jiwa cintamu pada tanah air harus diwujudkan dalam pemahaman konseptual. Radar melihat kamu masih goyah membedakan Nasionalisme dan Chauvinisme. Buka modul di Plaza Menza. Di luar itu, luangkan waktumu membaca artikel sejarah atau biografi pahlawan dari literatur tepercaya. Wawasanmu harus seluas samudera!", actionText: "BACA MODUL TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "INTEGRITAS": { title: "KRISIS INTEGRITAS DETECTED", message: "Sebagai calon aparatur, kejujuran adalah harga mati. Kamu tampak bimbang pada studi kasus anti-korupsi. Pelajari kembali SOP integritas di Plaza Menza. Rutinkan juga membaca studi kasus nyata dari publikasi resmi KPK agar nurani dan logikamu semakin tajam.", actionText: "PELAJARI INTEGRITAS ➔", actionLink: "/dashboard/materials", color: "border-red-500/40 bg-red-950/30 text-red-200", iconColor: "text-red-500" },
-  "BELA_NEGARA": { title: "WAWASAN KETAHANAN MELEMAH", message: "Ancaman negara kini bukan cuma fisik, tapi juga perang siber dan ideologi. Pemahamanmu tentang Ketahanan Nasional perlu dipertajam. Asah refleks analisamu di Simulasi CAT. Jangan lupa cari referensi jurnal geopolitik terkini agar analisamu relevan dengan zaman!", actionText: "ASAH LOGIKA KETAHANAN ➔", actionLink: "/dashboard/tryout", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "PANCASILA": { title: "FONDASI IDEOLOGI GOYAH", message: "Pancasila lahir dari proses panjang. Kamu tampak kebingungan dengan sejarah BPUPKI dan butir pengamalan sila. Kembali ke Plaza Menza dan petakan ulang sejarahnya. Sangat disarankan kamu membaca pidato Bung Karno 1 Juni 1945 dari arsip nasional untuk menangkap ruh aslinya.", actionText: "PELAJARI SEJARAH PANCASILA ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "UUD_1945": { title: "KEBOCORAN KONSTITUSI", message: "Pemahaman hierarki hukum tidak boleh keliru satu kata pun. Kamu sering terjebak di wewenang lembaga negara dan amandemen UUD. Kuasai kembali di Plaza Menza. Pastikan juga kamu membaca Naskah Asli UUD 1945 dari situs resmi Mahkamah Konstitusi sebagai referensi mutlak.", actionText: "KUASAI KONSTITUSI ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "NKRI": { title: "DEFISIT MEMORI SEJARAH", message: "Bangsa yang besar tidak melupakan sejarahnya. Rekam jejakmu menunjukkan kelemahan di periode sejarah kemerdekaan. Latih memori sejarahmu di Speed Drill. Tontonlah film dokumenter nasional atau baca buku kronik kemerdekaan agar rentetan peristiwanya terpatri di kepalamu.", actionText: "LATIHAN MEMORI SEJARAH ➔", actionLink: "/dashboard/speed-drill", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "BHINNEKA_TUNGGAL_IKA": { title: "RESOLUSI KONFLIK SARA", message: "Indonesia berdiri di atas ribuan perbedaan. Kamu masih kesulitan saat dihadapkan pada skenario konflik SARA. Perbaiki perspektif kebhinekaanmu di Plaza Menza. Sering-seringlah membaca jurnal sosiologi tentang resolusi konflik agar wawasan sosialmu makin matang.", actionText: "PELAJARI KEBERAGAMAN ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "BAHASA_INDONESIA": { title: "KETELITIAN BAHASA MENURUN", message: "Bahasa adalah alat komando yang vital. Ketelitianmu mencari ide pokok atau menganalisa PUEBI masih di bawah standar. Latih kecepatan membacamu di Speed Drill. Biasakan membaca Tajuk Rencana di koran nasional untuk membiasakan otak mengurai kalimat kompleks.", actionText: "ASAH KETELITIAN BAHASA ➔", actionLink: "/dashboard/speed-drill", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-  "TWK_GENERAL": { title: "DEFISIT WAWASAN KEBANGSAAN", message: "Radar mendeteksi kelemahan secara umum di sektor TWK. Fondasi kebangsaanmu harus segera diperkokoh. Laksanakan evaluasi menyeluruh dengan membaca materi di Plaza Menza!", actionText: "PERKUAT MATERI TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "NASIONALISME": { title: "PENGUATAN NASIONALISME", message: "Kadet, jiwa cintamu pada tanah air harus diwujudkan dalam pemahaman konseptual. Radar melihat kamu masih goyah membedakan Nasionalisme dan Chauvinisme. Buka modul di Plaza Menza.", actionText: "BACA MODUL TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "INTEGRITAS": { title: "KRISIS INTEGRITAS DETECTED", message: "Sebagai calon aparatur, kejujuran adalah harga mati. Kamu tampak bimbang pada studi kasus anti-korupsi. Pelajari kembali SOP integritas di Plaza Menza.", actionText: "PELAJARI INTEGRITAS ➔", actionLink: "/dashboard/materials", color: "border-red-500/40 bg-red-950/30 text-red-200", iconColor: "text-red-500" },
+  "BELA_NEGARA": { title: "WAWASAN KETAHANAN MELEMAH", message: "Ancaman negara kini bukan cuma fisik, tapi juga perang siber dan ideologi. Pemahamanmu tentang Ketahanan Nasional perlu dipertajam. Asah refleks analisamu di Simulasi CAT.", actionText: "ASAH LOGIKA KETAHANAN ➔", actionLink: "/dashboard/tryout", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "PANCASILA": { title: "FONDASI IDEOLOGI GOYAH", message: "Pancasila lahir dari proses panjang. Kamu tampak kebingungan dengan sejarah BPUPKI dan butir pengamalan sila. Kembali ke Plaza Menza dan petakan ulang sejarahnya.", actionText: "PELAJARI SEJARAH PANCASILA ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "UUD_1945": { title: "KEBOCORAN KONSTITUSI", message: "Pemahaman hierarki hukum tidak boleh keliru satu kata pun. Kamu sering terjebak di wewenang lembaga negara dan amandemen UUD. Kuasai kembali di Plaza Menza.", actionText: "KUASAI KONSTITUSI ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "NKRI": { title: "DEFISIT MEMORI SEJARAH", message: "Bangsa yang besar tidak melupakan sejarahnya. Rekam jejakmu menunjukkan kelemahan di periode sejarah kemerdekaan. Latih memori sejarahmu di Speed Drill.", actionText: "LATIHAN MEMORI SEJARAH ➔", actionLink: "/dashboard/speed-drill", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "BHINNEKA_TUNGGAL_IKA": { title: "RESOLUSI KONFLIK SARA", message: "Indonesia berdiri di atas ribuan perbedaan. Kamu masih kesulitan saat dihadapkan pada skenario konflik SARA. Perbaiki perspektif kebhinekaanmu di Plaza Menza.", actionText: "PELAJARI KEBERAGAMAN ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "BAHASA_INDONESIA": { title: "KETELITIAN BAHASA MENURUN", message: "Bahasa adalah alat komando yang vital. Ketelitianmu mencari ide pokok atau menganalisa PUEBI masih di bawah standar. Latih kecepatan membacamu di Speed Drill.", actionText: "ASAH KETELITIAN BAHASA ➔", actionLink: "/dashboard/speed-drill", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
+  "TWK_GENERAL": { title: "DEFISIT WAWASAN KEBANGSAAN", message: "Radar mendeteksi kelemahan secara umum di sektor TWK. Fondasi kebangsaanmu harus segera diperkokoh.", actionText: "PERKUAT MATERI TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
 
   // --- TIU (10 PILAR) ---
-  "VERBAL_ANALOGI": { title: "KOSAKATA ANALOGI TERBATAS", message: "Analogi bukan sekadar menebak, tapi menemukan pola hubungan kata secara presisi. Latih refleksmu di Speed Drill. Biasakan membuka KBBI atau membaca karya sastra klasik untuk memperkaya kosakatamu. Bahasa adalah senjatamu!", actionText: "PERKAYA KOSAKATA ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "VERBAL_SILOGISME": { title: "KEBOCORAN LOGIKA SILOGISME", message: "Kamu sering terkecoh pada penarikan Kesimpulan Logis karena menggunakan asumsi pribadi. Gunakan rumus murni (Modus Ponens/Tollens)! Tonton video triknya di Plaza Menza. Cobalah membaca transkrip debat hukum untuk melihat argumen logis dibangun tanpa emosi.", actionText: "ASAH LOGIKA DEDUKTIF ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "VERBAL_ANALITIS": { title: "PENALARAN ANALITIS KACAU", message: "Otakmu kewalahan menerima informasi bertumpuk (syarat, urutan posisi). Penalaran analitismu harus lebih terstruktur. Gempur soal di Simulasi CAT. Latih juga otakmu dengan permainan asah otak seperti Sudoku di waktu luang.", actionText: "LATIHAN ANALISA DATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "NUMERIK_BERHITUNG": { title: "REFLEKS HITUNG LAMBAT", message: "Ketangkasanmu berhitung pecahan dan desimal masih sangat lambat. Jangan bergantung pada kalkulator! Uji refleks hitungmu di Speed Drill. Biasakan melakukan 'mental math' (hitung di luar kepala) dalam transaksi sehari-hari.", actionText: "ASAH REFLEKS HITUNG ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "NUMERIK_DERET": { title: "KEPEKAAN POLA TUMPUL", message: "Deret angka adalah tes kejelian melihat ritme tersembunyi. Kamu masih gagal melihat pola lompatan. Tonton rumus deret di Plaza Menza. Latih pengenalan polamu dengan mengamati grafik tren data dari sumber terbuka.", actionText: "PELAJARI POLA DERET ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "NUMERIK_PERBANDINGAN": { title: "TERJEBAK HITUNGAN KULI", message: "Kamu membuang waktu menghitung detail pada soal kuantitatif (X dan Y). Ini tes nalar matematis, bukan hitung kuli! Pelajari trik eliminasinya di Plaza Menza. Biasakan membandingkan rasio angka secara cepat.", actionText: "TRIK PERBANDINGAN ANGKA ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "NUMERIK_CERITA": { title: "PANIK NARASI SOAL CERITA", message: "Jangan panik melihat narasi panjang. Kamu masih goyah menerjemahkan teks ke rumus Aritmatika Sosial (Jarak/Kecepatan/Laba). Biasakan diri di Simulasi CAT. Terapkan logikamu di dunia nyata: hitunglah estimasi kecepatan saat kamu bepergian!", actionText: "TAKHLUKKAN SOAL CERITA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "FIGURAL_ANALOGI": { title: "RELASI VISUAL KAKU", message: "Kecerdasan visualmu butuh pemanasan. Kamu gagal menangkap relasi perubahan antar gambar. Latih kejelian matamu di Speed Drill. Latihlah persepsi visualmu dengan mengamati pola arsitektur atau desain grafis.", actionText: "LATIHAN RELASI VISUAL ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "FIGURAL_KETIDAKSAMAAN": { title: "KURANG TELITI (ANOMALI)", message: "Di medan operasi, ketelitian melihat hal ganjil adalah nyawa. Kamu masih luput mencari pola gambar yang berbeda (anomali). Asah di Simulasi CAT. Latih insting observasimu dengan memperhatikan detail kecil di sekitarmu.", actionText: "ASAH KETELITIAN MATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "FIGURAL_SERIAL": { title: "IMAJINASI SPASIAL LEMAH", message: "Imajinasi spasialmu kaku saat merotasi atau melipat gambar (Jaring-jaring). Santai sejenak dan latih otak kananmu di Lab Psikologi. Di rumah, cobalah bermain rubik atau origami untuk membiasakan otak memanipulasi bentuk.", actionText: "LATIH IMAJINASI SPASIAL ➔", actionLink: "/dashboard/psychology", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-  "TIU_GENERAL": { title: "LOGIKA INTELEGENSIA MELEMAH", message: "Radar mendeteksi kecepatan dan ketepatan logikamu berada di bawah standar. Asah kembali insting numerik dan verbalmu melalui Simulasi CAT secara konsisten!", actionText: "HAJAR SIMULASI TIU ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "VERBAL_ANALOGI": { title: "KOSAKATA ANALOGI TERBATAS", message: "Analogi bukan sekadar menebak, tapi menemukan pola hubungan kata secara presisi. Latih refleksmu di Speed Drill.", actionText: "PERKAYA KOSAKATA ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "VERBAL_SILOGISME": { title: "KEBOCORAN LOGIKA SILOGISME", message: "Kamu sering terkecoh pada penarikan Kesimpulan Logis karena menggunakan asumsi pribadi. Gunakan rumus murni (Modus Ponens/Tollens)!", actionText: "ASAH LOGIKA DEDUKTIF ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "VERBAL_ANALITIS": { title: "PENALARAN ANALITIS KACAU", message: "Otakmu kewalahan menerima informasi bertumpuk (syarat, urutan posisi). Penalaran analitismu harus lebih terstruktur. Gempur soal di Simulasi CAT.", actionText: "LATIHAN ANALISA DATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "NUMERIK_BERHITUNG": { title: "REFLEKS HITUNG LAMBAT", message: "Ketangkasanmu berhitung pecahan dan desimal masih sangat lambat. Jangan bergantung pada kalkulator! Uji refleks hitungmu di Speed Drill.", actionText: "ASAH REFLEKS HITUNG ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "NUMERIK_DERET": { title: "KEPEKAAN POLA TUMPUL", message: "Deret angka adalah tes kejelian melihat ritme tersembunyi. Kamu masih gagal melihat pola lompatan. Tonton rumus deret di Plaza Menza.", actionText: "PELAJARI POLA DERET ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "NUMERIK_PERBANDINGAN": { title: "TERJEBAK HITUNGAN KULI", message: "Kamu membuang waktu menghitung detail pada soal kuantitatif (X dan Y). Ini tes nalar matematis, bukan hitung kuli! Pelajari trik eliminasinya di Plaza Menza.", actionText: "TRIK PERBANDINGAN ANGKA ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "NUMERIK_CERITA": { title: "PANIK NARASI SOAL CERITA", message: "Jangan panik melihat narasi panjang. Kamu masih goyah menerjemahkan teks ke rumus Aritmatika Sosial. Biasakan diri di Simulasi CAT.", actionText: "TAKHLUKKAN SOAL CERITA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "FIGURAL_ANALOGI": { title: "RELASI VISUAL KAKU", message: "Kecerdasan visualmu butuh pemanasan. Kamu gagal menangkap relasi perubahan antar gambar. Latih kejelian matamu di Speed Drill.", actionText: "LATIHAN RELASI VISUAL ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "FIGURAL_KETIDAKSAMAAN": { title: "KURANG TELITI (ANOMALI)", message: "Di medan operasi, ketelitian melihat hal ganjil adalah nyawa. Kamu masih luput mencari pola gambar yang berbeda. Asah di Simulasi CAT.", actionText: "ASAH KETELITIAN MATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "FIGURAL_SERIAL": { title: "IMAJINASI SPASIAL LEMAH", message: "Imajinasi spasialmu kaku saat merotasi atau melipat gambar (Jaring-jaring). Latih otak kananmu di Lab Psikologi.", actionText: "LATIH IMAJINASI SPASIAL ➔", actionLink: "/dashboard/psychology", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
+  "TIU_GENERAL": { title: "LOGIKA INTELEGENSIA MELEMAH", message: "Radar mendeteksi kecepatan dan ketepatan logikamu berada di bawah standar. Asah kembali insting numerik dan verbalmu!", actionText: "HAJAR SIMULASI TIU ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
 
   // --- TKP (6 PILAR) ---
-  "PELAYANAN_PUBLIK": { title: "EMPATI PELAYANAN RENDAH", message: "Ingat, kita pelayan rakyat! Kamu terpancing emosi dan abai SOP saat menghadapi komplain warga. Kalibrasi mentalmu di Lab Psikologi. Amati bagaimana petugas frontliner di bank menangani pelanggan dengan kepala dingin.", actionText: "KALIBRASI EMPATI ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "JEJARING_KERJA": { title: "SINDROM INDIVIDUALIS", message: "Kerja besar tak bisa diselesaikan sendiri. Rekam jejakmu menunjukkan sifat individualis saat ada konflik tim. Perbaiki sikap profesionalmu di Simulasi CAT. Belajarlah dinamika kelompok dan jadilah pendengar yang aktif di dunia nyata.", actionText: "PELAJARI KOLABORASI TIM ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "SOSIAL_BUDAYA": { title: "INTOLERANSI LINGKUNGAN", message: "Abdi negara harus siap ditugaskan di mana saja. Insting adaptasimu di lingkungan multikultural sangat kaku. Latih toleransimu di Plaza Menza. Perluas pergaulanmu dengan individu beda latar belakang untuk membuka perspektif.", actionText: "ASAH KECERDASAN SOSIAL ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "TIK": { title: "RAWAN TERTINGGAL TEKNOLOGI", message: "Dunia bergerak cepat! Kamu tampak menghindari digitalisasi di pekerjaan (gaptek) dan rentan hoaks. Asah literasi digitalmu di Lab Psikologi. Mulai sekarang, perbarui wawasanmu dengan membaca berita keamanan siber.", actionText: "PERKUAT LITERASI DIGITAL ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "PROFESIONALISME": { title: "PRIORITAS TUGAS GOYAH", message: "Tugas negara adalah amanah. Kamu bimbang memisahkan urusan personal (keluarga/cuti) dengan deadline pekerjaan. Mantapkan karaktermu di Simulasi CAT. Baca literatur manajemen waktu agar prioritasmu tidak mengorbankan tanggung jawab.", actionText: "MANTAPKAN PROFESIONALISME ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "ANTI_RADIKALISME": { title: "RADAR IDEOLOGI TUMPUL", message: "Keamanan bangsa di tangan kita. Kamu kurang responsif menolak ekstremisme. Bekali pemahaman yang benar di Plaza Menza. Bacalah pedoman BNPT agar radar deteksimu di masyarakat semakin tajam.", actionText: "BENTENGI IDEOLOGI NEGARA ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-  "TKP_GENERAL": { title: "KEMATANGAN PSIKOLOGI MINUS", message: "Karakteristik pribadimu saat menghadapi tekanan kerja terpantau belum matang. Jangan sampai gugur di tahap akhir. Lakukan kalibrasi mental di Laboratorium Psikologi!", actionText: "KALIBRASI MENTAL ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "PELAYANAN_PUBLIK": { title: "EMPATI PELAYANAN RENDAH", message: "Ingat, kita pelayan rakyat! Kamu terpancing emosi dan abai SOP saat menghadapi komplain warga. Kalibrasi mentalmu di Lab Psikologi.", actionText: "KALIBRASI EMPATI ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "JEJARING_KERJA": { title: "SINDROM INDIVIDUALIS", message: "Kerja besar tak bisa diselesaikan sendiri. Rekam jejakmu menunjukkan sifat individualis. Perbaiki sikap profesionalmu di Simulasi CAT.", actionText: "PELAJARI KOLABORASI TIM ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "SOSIAL_BUDAYA": { title: "INTOLERANSI LINGKUNGAN", message: "Abdi negara harus siap ditugaskan di mana saja. Insting adaptasimu di lingkungan multikultural sangat kaku.", actionText: "ASAH KECERDASAN SOSIAL ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "TIK": { title: "RAWAN TERTINGGAL TEKNOLOGI", message: "Dunia bergerak cepat! Kamu tampak menghindari digitalisasi di pekerjaan (gaptek) dan rentan hoaks.", actionText: "PERKUAT LITERASI DIGITAL ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "PROFESIONALISME": { title: "PRIORITAS TUGAS GOYAH", message: "Tugas negara adalah amanah. Kamu bimbang memisahkan urusan personal (keluarga/cuti) dengan deadline pekerjaan.", actionText: "MANTAPKAN PROFESIONALISME ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "ANTI_RADIKALISME": { title: "RADAR IDEOLOGI TUMPUL", message: "Keamanan bangsa di tangan kita. Kamu kurang responsif menolak ekstremisme. Bekali pemahaman yang benar di Plaza Menza.", actionText: "BENTENGI IDEOLOGI NEGARA ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
+  "TKP_GENERAL": { title: "KEMATANGAN PSIKOLOGI MINUS", message: "Karakteristik pribadimu saat menghadapi tekanan kerja terpantau belum matang. Jangan sampai gugur di tahap akhir.", actionText: "KALIBRASI MENTAL ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
 
   // --- LAT / FISIK ---
-  "FISIK_KRITIS": { title: "DEGRADASI FISIK (SAMAPTA)", message: "Kadet! Otak cerdas tidak akan berguna jika fisik tumbang di medan tempur. Parameter jasmanimu jauh di bawah standar lulus. Perintah hari ini: Segera eksekusi lari interval, push-up, dan input hasilnya untuk menaikkan grafik!", actionText: "INPUT DATA SAMAPTA ➔", actionLink: "/dashboard/physical/input", color: "border-red-600/50 bg-red-950/40 text-red-200", iconColor: "text-red-500 animate-pulse" }
+  "FISIK_KRITIS": { title: "DEGRADASI FISIK (SAMAPTA)", message: "Kadet! Otak cerdas tidak akan berguna jika fisik tumbang di medan tempur. Parameter jasmanimu jauh di bawah standar lulus. Perintah hari ini: Segera eksekusi lari interval, push-up, dan input hasilnya!", actionText: "INPUT DATA SAMAPTA ➔", actionLink: "/dashboard/physical/input", color: "border-red-600/50 bg-red-950/40 text-red-200", iconColor: "text-red-500 animate-pulse" }
 };
 
 // ============================================================================
@@ -128,23 +127,22 @@ export default async function DashboardPage() {
 
   if (!userId) redirect("/api/auth/signin"); 
 
-  // --- ENGINE EXECUTION ---
-  let weeklyPlan = null;
+  // --- MENGHIDUPKAN OTAK KURIKULUM MINGGUAN (BLUEPRINT ENGINE) ---
+  let weeklyBlueprint = null;
   try {
-    await generateDailyMissions(userId);
-    weeklyPlan = await ensureWeeklyPlan(userId); 
+    weeklyBlueprint = await ensureWeeklyPlan(userId); 
   } catch (error) {
-    console.error("⚠️ [COMMANDER WARNING] Engine Failure:", error);
+    console.error("⚠️ [COMMANDER WARNING] Blueprint Engine Failure:", error);
+  }
+
+  // Parse JSON Drills dari Database
+  let parsedDrills: any[] = [];
+  if (weeklyBlueprint && weeklyBlueprint.dailyDrills) {
+      try { parsedDrills = JSON.parse(weeklyBlueprint.dailyDrills); } catch (e) { parsedDrills = []; }
   }
 
   // --- FETCH USER DATA ---
-  const user = await prisma.user.findUnique({
-    where: { id: userId },
-    include: {
-        missions: { where: { isCompleted: false }, orderBy: { xpReward: 'desc' }, take: 3 }
-    }
-  });
-
+  const user = await prisma.user.findUnique({ where: { id: userId } });
   if (!user) return <div className="p-10 text-red-500 font-mono text-center mt-20">DATA PERSONEL HILANG. LAKUKAN REGISTER ULANG.</div>;
   if (!user.hasCompletedScreening) redirect("/dashboard/assessment");
 
@@ -152,13 +150,11 @@ export default async function DashboardPage() {
   // 🔥 MENGAMBIL DATA UNTUK GRAFIK VISUAL & AI MENTOR
   // ============================================================================
   
-  // A. Data Tryout Terakhir (Untuk AI Mentor & Grafik SKD)
   const historyTryouts = await prisma.tryoutAttempt.findMany({
     where: { userId: userId, isFinished: true },
-    orderBy: { finishedAt: 'asc' }, // Urut Lama ke Baru untuk grafik
+    orderBy: { finishedAt: 'asc' }, 
     take: 5
   });
-  
   const latestTryout = historyTryouts.length > 0 ? historyTryouts[historyTryouts.length - 1] : null;
 
   const skdHistory = historyTryouts.map((t, index) => ({
@@ -169,13 +165,11 @@ export default async function DashboardPage() {
     total: t.score
   }));
 
-  // B. Data Fisik Terakhir (Untuk Grafik LAT)
   const historyPhysical = await prisma.physicalLog.findMany({
     where: { userId: userId },
     orderBy: { createdAt: 'asc' },
     take: 5
   });
-  
   const latestPhysical = historyPhysical.length > 0 ? historyPhysical[historyPhysical.length - 1] : null;
 
   const physicalHistory = historyPhysical.map((p) => ({
@@ -214,13 +208,11 @@ export default async function DashboardPage() {
   const tkpScore = latestTryout ? (latestTryout.tkpScore || 0) : (user.initialTkpScore || 0);
   const hasTakenTryout = latestTryout !== null || initialTotalScore > 0;
 
-  // Baca Json Analitik dari Database
   let analysisData = { worstTwk: "AMAN", worstTiu: "AMAN", worstTkp: "AMAN" };
   if (latestTryout && latestTryout.analysis) {
       try { analysisData = JSON.parse(latestTryout.analysis); } catch(e) {}
   }
 
-  // Cari Defisit Terbesar (Triase)
   const assessments = [
       { id: "TWK", deficit: TARGET_TWK - twkScore, isCritical: twkScore < TARGET_TWK, worstCategory: analysisData.worstTwk },
       { id: "TIU", deficit: TARGET_TIU - tiuScore, isCritical: tiuScore < TARGET_TIU, worstCategory: analysisData.worstTiu },
@@ -239,11 +231,9 @@ export default async function DashboardPage() {
           actionText: "LAKSANAKAN SIMULASI SKD ➔", actionLink: "/dashboard/tryout", color: "border-red-600/50 bg-red-950/40 text-red-200", iconColor: "text-red-500 animate-pulse"
       };
   } else if (primaryWeakness.isCritical) {
-      // Panggil Buku Pintar berdasarkan Kode (atau fallback ke _GENERAL jika kode LAINNYA/Tidak Ketemu)
       const dictKey = (primaryWeakness.worstCategory === "LAINNYA" || !primaryWeakness.worstCategory) 
                       ? `${primaryWeakness.id}_GENERAL` 
                       : primaryWeakness.worstCategory;
-                      
       aiCommand = MENTOR_DICTIONARY[dictKey] || MENTOR_DICTIONARY[`${primaryWeakness.id}_GENERAL`];
   } else {
       aiCommand = {
@@ -253,7 +243,6 @@ export default async function DashboardPage() {
       };
   }
 
-  // AI Briefing Mini
   let aiBriefing = "Lanjutkan latihan sesuai instruksi. Jaga konsistensi!";
   let aiMood = "NEUTRAL";
   if (primaryWeakness.isCritical && primaryWeakness.id === "LAT") { aiBriefing = `PERINGATAN: Fisik (LAT) di bawah standar (${latScore})! Prioritaskan kardio.`; aiMood = "ANGRY"; } 
@@ -261,7 +250,7 @@ export default async function DashboardPage() {
   else if (hp > 80) { aiBriefing = "LUAR BIASA! Kondisi Prima. Pertahankan ritme tempur ini."; aiMood = "HAPPY"; }
 
   // ============================================================================
-  // RANK LOGIC & WEEKLY PLAN
+  // RANK LOGIC 
   // ============================================================================
   const currentXP = user.xp || 0;
   const RANK_LEVELS = [
@@ -286,9 +275,6 @@ export default async function DashboardPage() {
       rankProgressPercent = Math.min(100, Math.max(0, (currentPos / range) * 100));
       xpToNext = nextRank.threshold - currentXP;
   }
-
-  let focusAreas: string[] = [];
-  try { focusAreas = weeklyPlan ? JSON.parse(weeklyPlan.focusAreas || "[]") : []; } catch (e) { focusAreas = []; }
 
   return (
     <div className="min-h-screen bg-[#050505] text-slate-100 font-sans selection:bg-red-900 pb-20">
@@ -341,29 +327,25 @@ export default async function DashboardPage() {
         </div>
 
         {/* ========================================================================= */}
-        {/* 🔥 BLOK AI-SUH (SURAT PERINTAH HARIAN) */}
+        {/* 🔥 BLOK AI-SUH (DIAGNOSA TERBARU) */}
         {/* ========================================================================= */}
-        <div className={`mb-8 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
+        <div className={`mb-10 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
             <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
                 <AlertOctagon size={120} />
             </div>
-            
             <div className="relative z-10">
                 <div className="flex items-center gap-2 mb-3">
                     <Terminal size={16} className={`${aiCommand.iconColor}`} />
                     <span className={`text-[10px] font-black uppercase tracking-[0.3em] ${aiCommand.iconColor}`}>
-                        [AI-MENTOR] EVALUASI & NAVIGASI TAKTIS
+                        [AI-MENTOR] DIAGNOSA TRIASE TERKINI
                     </span>
                 </div>
-                
                 <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight mb-2">
                     {aiCommand.title}
                 </h3>
-                
                 <p className="text-sm font-mono opacity-90 leading-relaxed mb-6 max-w-4xl">
                     <span className="animate-pulse mr-2">_</span>{aiCommand.message}
                 </p>
-                
                 <Link href={aiCommand.actionLink} className="inline-block">
                     <button className={`px-6 py-3 text-xs font-black uppercase tracking-widest bg-black/40 hover:bg-black/60 border border-current rounded-sm flex items-center gap-3 transition-all group active:scale-95`}>
                         {aiCommand.actionText} 
@@ -374,63 +356,105 @@ export default async function DashboardPage() {
         </div>
 
         {/* ========================================================================= */}
+        {/* 🚀 TACTICAL BLUEPRINT MINGGUAN (PENGGANTI MISI HARIAN ACAK) */}
+        {/* ========================================================================= */}
+        {weeklyBlueprint && (
+          <div className="mb-14">
+            <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-blue-900/20 rounded-lg text-blue-500 border border-blue-500/30 shadow-[0_0_15px_rgba(59,130,246,0.2)]">
+                  <CalendarCheck size={24} />
+                </div>
+                <div>
+                  <h3 className="text-xl lg:text-2xl font-black text-white uppercase tracking-wider">TACTICAL BLUEPRINT (7 HARI)</h3>
+                  <p className="text-xs text-neutral-400 font-mono">Fokus Ops Minggu Ini: <span className="text-blue-400 font-bold">{weeklyBlueprint.focusAreas || "PENYELARASAN TRITUNGGAL"}</span></p>
+                </div>
+            </div>
+
+            {/* Evaluasi Bersambung Mentor */}
+            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-5 mb-8 border-l-4 border-l-blue-500 shadow-lg">
+               <h4 className="text-[10px] font-black uppercase tracking-widest text-blue-500 mb-2 flex items-center gap-2">
+                 <MessageSquare size={12}/> EVALUASI & INSTRUKSI MINGGUAN MENTOR
+               </h4>
+               <p className="text-sm font-mono text-neutral-300 leading-relaxed italic">
+                 "{weeklyBlueprint.evaluationText || "Laksanakan instruksi ini dengan penuh disiplin dan tanggung jawab. Jangan ada yang terlewat!"}"
+               </p>
+            </div>
+
+            {/* Grid 7 Hari (Menu Drill Expert) */}
+            {parsedDrills.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+                 {parsedDrills.map((drill, idx) => (
+                    <DrillCard 
+                        key={idx} 
+                        blueprintId={weeklyBlueprint.id} 
+                        drill={drill} 
+                        index={idx} 
+                    />
+                 ))}
+              </div>
+            ) : (
+              <div className="p-10 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm font-mono bg-neutral-900/20">
+                 Menyusun ulang data komando... (Silakan muat ulang halaman jika menu belum tampil)
+              </div>
+            )}
+                       
+                       {/* Body Drill */}
+                       <div className="p-5 flex-1 flex flex-col">
+                          <h5 className="text-sm font-black text-white uppercase mb-2 leading-tight flex-1">{drill.title || "DRILL KHUSUS"}</h5>
+                          
+                          <div className="flex items-center gap-2 text-[10px] text-neutral-400 font-mono mb-5 bg-neutral-900/50 px-2 py-1 rounded w-fit">
+                            <Clock size={12} className="text-blue-500" /> Estimasi: {drill.duration || "Fleksibel"}
+                          </div>
+                          
+                          <div className="space-y-4">
+                            <div className="text-xs text-neutral-400 leading-relaxed">
+                               <strong className="text-blue-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 1 (Persiapan)</strong> 
+                               {drill.tahap1 || "Lakukan pemanasan atau persiapan baca materi."}
+                            </div>
+                            <div className="text-xs text-neutral-400 leading-relaxed border-l-2 border-neutral-800 pl-3">
+                               <strong className="text-amber-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 2 (Eksekusi Inti)</strong> 
+                               {drill.tahap2 || "Laksanakan misi utama dengan intensitas penuh."}
+                            </div>
+                            <div className="text-xs text-neutral-400 leading-relaxed">
+                               <strong className="text-emerald-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 3 (Pendinginan)</strong> 
+                               {drill.tahap3 || "Evaluasi hasil dan lakukan pendinginan fisik/otak."}
+                            </div>
+                          </div>
+                       </div>
+                       
+                       {/* Tombol Eksekusi */}
+                       <div className="p-3 bg-neutral-900/30 border-t border-neutral-800 mt-auto">
+                         <button className="w-full py-2.5 text-xs font-black text-neutral-500 border border-neutral-800 rounded-lg hover:bg-blue-600/20 hover:text-blue-400 hover:border-blue-500/50 transition-all uppercase flex items-center justify-center gap-2 group-hover:shadow-[0_0_10px_rgba(59,130,246,0.1)]">
+                            <CheckCircle size={14} /> TANDAI SELESAI
+                         </button>
+                       </div>
+                     </div>
+                   );
+                 })}
+              </div>
+            ) : (
+              <div className="p-10 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm font-mono bg-neutral-900/20">
+                 Menyusun ulang data komando... (Silakan muat ulang halaman jika menu belum tampil)
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ========================================================================= */}
         {/* 🔥 PAPAN VISUAL: GRAFIK REKAM JEJAK SKD & SAMAPTA */}
         {/* ========================================================================= */}
         <DashboardCharts skdHistory={skdHistory} physicalHistory={physicalHistory} />
 
-        {/* --- WEEKLY PLAN & REMEDIAL --- */}
-        {focusAreas.length > 0 && (
-            <div className="mb-10 bg-gradient-to-r from-neutral-900 via-neutral-900 to-neutral-950 border border-neutral-800 rounded-xl p-6 relative overflow-hidden group">
-                <div className="absolute top-0 right-0 p-10 opacity-5 group-hover:opacity-10 transition-opacity"><CalendarCheck size={100} /></div>
-                <div className="relative z-10">
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="p-2 bg-blue-900/20 rounded-lg text-blue-400 border border-blue-500/30"><CalendarCheck size={20} /></div>
-                        <div>
-                            <h3 className="text-lg font-black text-white uppercase tracking-wider">INSTRUKSI PELATIH</h3>
-                            <p className="text-[10px] text-neutral-400 font-mono uppercase">Target Strategis Mingguan</p>
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                        {focusAreas.map((area, idx) => (
-                            <span key={idx} className="px-3 py-1 bg-neutral-950 text-blue-400 border border-blue-900/60 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">
-                                <Target size={12} /> {area.replace("_", " ")}
-                            </span>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        )}
-
-        {/* --- DAILY MISSIONS GRID --- */}
-        <div className="mb-10">
-            <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-yellow-500/10 rounded-lg text-yellow-500 border border-yellow-500/20"><ShieldAlert size={20} /></div>
-                <h3 className="text-lg font-black text-white uppercase tracking-wider">MISI HARIAN (TRISULA)</h3>
-            </div>
-            {user.missions.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {user.missions.map((mission) => (
-                        <MissionCard 
-                            key={mission.id} 
-                            mission={{ ...mission, description: mission.description || "Laksanakan misi untuk membuka detail." }} 
-                        />
-                    ))}
-                </div>
-            ) : (
-                <div className="p-6 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm">
-                    Tidak ada misi aktif. Istirahat yang cukup, Kadet!
-                </div>
-            )}
-        </div>
-
+        {/* ========================================================================= */}
         {/* --- ANALYTICS GRID (RADAR & SHORTCUTS) --- */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10">
+        {/* ========================================================================= */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10 mt-10">
           
           <div className="lg:col-span-1 h-full">
             <div className="bg-black border border-neutral-800 p-1 rounded-sm relative group hover:border-red-900/50 transition-colors h-full flex flex-col">
                 <div className="p-3 border-b border-neutral-900 flex justify-between items-center bg-neutral-950">
                     <h3 className="text-xs font-bold text-white uppercase tracking-widest flex items-center gap-2">
-                        <Target size={14} className="text-red-500" /> PETA KEKUATAN
+                        <Target size={14} className="text-red-500" /> PETA KEKUATAN KESELURUHAN
                     </h3>
                 </div>
                 <div className="p-4 flex-1 flex items-center">

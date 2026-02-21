@@ -24,6 +24,13 @@ model User {
   role                  String    @default("CADET") 
   profile               UserProfile?
   image                 String?
+  
+  // ====================================================================
+  // [KODE BARU] SENSOR GENDER (PRIA/WANITA) UNTUK KALKULATOR SAMAPTA
+  // ====================================================================
+  gender                String?   
+
+  blueprints            WeeklyBlueprint[]
 
   // ✅ POSISI 1: DIPERTAHANKAN (Satu kesatuan dengan logs)
   walletBalance         Int       @default(0) // Tabungan Poin/Saldo
@@ -474,3 +481,30 @@ model UserProfile {
   updatedAt      DateTime @updatedAt
 }
 // Update pancingan untuk Vercel (Force Update)
+// ============================================================================
+// [KODE BARU] WADAH MEMORI MINGGUAN AI MENTOR (TACTICAL BLUEPRINT)
+// ============================================================================
+model WeeklyBlueprint {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  startDate      DateTime // Tanggal mulai minggu ini (Misal: Senin)
+  endDate        DateTime // Tanggal akhir minggu ini (Misal: Minggu)
+  
+  // Memori Sang Mentor: Menyimpan evaluasi bersambung dari minggu sebelumnya
+  evaluationText String   @db.Text 
+  
+  // Fokus Latihan Minggu ini (Contoh: "Kardio HIIT & Penalaran Analitis")
+  focusAreas     String   
+  
+  // Data JSON Raksasa: Berisi menu 7 hari dengan 3 tahap Drill Expert per hari
+  dailyDrills    String   @db.Text 
+  
+  isActive       Boolean  @default(true)
+  
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([userId])
+}
