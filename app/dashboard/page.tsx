@@ -2,7 +2,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
-import { ensureWeeklyPlan } from "@/lib/weekly-engine"; // 🚀 ENGINE BARU
+import { ensureWeeklyPlan } from "@/lib/weekly-engine"; 
 import Link from "next/link";
 import DashboardCharts from "./DashboardCharts"; 
 import { 
@@ -391,46 +391,6 @@ export default async function DashboardPage() {
                         index={idx} 
                     />
                  ))}
-              </div>
-            ) : (
-              <div className="p-10 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm font-mono bg-neutral-900/20">
-                 Menyusun ulang data komando... (Silakan muat ulang halaman jika menu belum tampil)
-              </div>
-            )}
-                       
-                       {/* Body Drill */}
-                       <div className="p-5 flex-1 flex flex-col">
-                          <h5 className="text-sm font-black text-white uppercase mb-2 leading-tight flex-1">{drill.title || "DRILL KHUSUS"}</h5>
-                          
-                          <div className="flex items-center gap-2 text-[10px] text-neutral-400 font-mono mb-5 bg-neutral-900/50 px-2 py-1 rounded w-fit">
-                            <Clock size={12} className="text-blue-500" /> Estimasi: {drill.duration || "Fleksibel"}
-                          </div>
-                          
-                          <div className="space-y-4">
-                            <div className="text-xs text-neutral-400 leading-relaxed">
-                               <strong className="text-blue-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 1 (Persiapan)</strong> 
-                               {drill.tahap1 || "Lakukan pemanasan atau persiapan baca materi."}
-                            </div>
-                            <div className="text-xs text-neutral-400 leading-relaxed border-l-2 border-neutral-800 pl-3">
-                               <strong className="text-amber-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 2 (Eksekusi Inti)</strong> 
-                               {drill.tahap2 || "Laksanakan misi utama dengan intensitas penuh."}
-                            </div>
-                            <div className="text-xs text-neutral-400 leading-relaxed">
-                               <strong className="text-emerald-400 block mb-1 text-[10px] uppercase tracking-wider">Tahap 3 (Pendinginan)</strong> 
-                               {drill.tahap3 || "Evaluasi hasil dan lakukan pendinginan fisik/otak."}
-                            </div>
-                          </div>
-                       </div>
-                       
-                       {/* Tombol Eksekusi */}
-                       <div className="p-3 bg-neutral-900/30 border-t border-neutral-800 mt-auto">
-                         <button className="w-full py-2.5 text-xs font-black text-neutral-500 border border-neutral-800 rounded-lg hover:bg-blue-600/20 hover:text-blue-400 hover:border-blue-500/50 transition-all uppercase flex items-center justify-center gap-2 group-hover:shadow-[0_0_10px_rgba(59,130,246,0.1)]">
-                            <CheckCircle size={14} /> TANDAI SELESAI
-                         </button>
-                       </div>
-                     </div>
-                   );
-                 })}
               </div>
             ) : (
               <div className="p-10 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm font-mono bg-neutral-900/20">
