@@ -3,6 +3,11 @@ import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { NextResponse } from "next/server";
 
+// 🚨 [KUNCI ANTI-CRASH VERCEL] 
+// Memaksa API ini untuk selalu beroperasi secara real-time (membaca session Kadet), 
+// dan mencegah Vercel membekukannya menjadi halaman statis saat proses build.
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     // 1. Verifikasi Keamanan (Hanya Kadet terdaftar yang bisa meminta data)
