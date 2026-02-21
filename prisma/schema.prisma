@@ -121,6 +121,9 @@ model TryoutAttempt {
   packageId   String
   package     TryoutPackage @relation(fields: [packageId], references: [id])
   
+  twkScore    Int       @default(0)
+  tiuScore    Int       @default(0)
+  tkpScore    Int       @default(0)
   score       Int       @default(0)      // Total Skor
   answers     String    // JSON Jawaban user
   

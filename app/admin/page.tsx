@@ -21,7 +21,7 @@ export default async function AdminDashboardPage() {
     
     // 🔥 PERBAIKAN: Fokus pada yang SUDAH TRANSFER (PENDING_VERIFICATION)
     pendingApprovals: await prisma.transaction.count({ 
-        where: { status: "PENDING_VERIFICATION" } 
+        where: { status: "PENDING" } // <--- UBAH DI SINI
     }),
     
     // Hitung Revenue dari Transaksi SUKSES
