@@ -58,14 +58,14 @@ export async function ensureWeeklyPlan(userId: string) {
     ];
   }
 
-  // 4. SIMPAN KE DATABASE
-  return await prisma.weeklyBlueprint.create({
-    data: {
-      userId,
-      focusAreas: aiFocus,
-      evaluationText: aiEval,
-      dailyDrills: JSON.stringify(aiDrills),
-      isCompleted: false
-    }
-  });
+ // 4. SIMPAN KE DATABASE
+ return await prisma.weeklyBlueprint.create({
+  data: {
+    userId,
+    focusAreas: aiFocus,
+    evaluationText: aiEval,
+    dailyDrills: JSON.stringify(aiDrills)
+    // BARIS isCompleted: false TELAH DIHAPUS DARI SINI
+  }
+});
 }
