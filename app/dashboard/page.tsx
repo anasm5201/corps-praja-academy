@@ -10,8 +10,11 @@ import {
   ShieldAlert, ScanFace, CalendarCheck, ArrowRight, Terminal, AlertOctagon,
   Clock, MessageSquare, CheckCircle 
 } from "lucide-react";
-import DrillCard from "@/components/dashboard/DrillCard";
 
+// IMPORT KOMPONEN TERBARU (HUD MENTOR)
+import ProgressHeader from "@/components/dashboard/ProgressHeader";
+
+// 🚨 PROTOKOL WAJIB VERCEL: Anti-Static Render
 export const dynamic = 'force-dynamic';
 
 // ============================================================================
@@ -135,11 +138,22 @@ export default async function DashboardPage() {
     console.error("⚠️ [COMMANDER WARNING] Blueprint Engine Failure:", error);
   }
 
-  // Parse JSON Drills dari Database
-  let parsedDrills: any[] = [];
-  if (weeklyBlueprint && weeklyBlueprint.dailyDrills) {
-      try { parsedDrills = JSON.parse(weeklyBlueprint.dailyDrills); } catch (e) { parsedDrills = []; }
+  // --- KALKULASI STATISTIK UNTUK HUD PROGRESS (TRI-AXIS) ---
+  let completedDrills: string[] = [];
+  try {
+    if (weeklyBlueprint && (weeklyBlueprint as any).completedDrills) {
+      const raw = (weeklyBlueprint as any).completedDrills;
+      completedDrills = typeof raw === 'string' ? JSON.parse(raw) : raw;
+    }
+  } catch (e) {
+    completedDrills = [];
   }
+
+  const matraStats = {
+    lat: Math.round((completedDrills.filter((id: string) => id.includes('tahap1')).length / 7) * 100) || 0,
+    jar: Math.round((completedDrills.filter((id: string) => id.includes('tahap2')).length / 7) * 100) || 0,
+    suh: Math.round((completedDrills.filter((id: string) => id.includes('tahap3')).length / 7) * 100) || 0,
+  };
 
   // --- FETCH USER DATA ---
   const user = await prisma.user.findUnique({ where: { id: userId } });
@@ -182,8 +196,8 @@ export default async function DashboardPage() {
   let completedDrillsCount = 0;
   try {
       const drillUnitsCount = await prisma.drillUnit.count();
-      const completedDrills = await prisma.drillHistory.findMany({ where: { userId: user.id }, select: { drillUnitId: true }, distinct: ['drillUnitId'] });
-      completedDrillsCount = completedDrills.length;
+      const completedDrillsDB = await prisma.drillHistory.findMany({ where: { userId: user.id }, select: { drillUnitId: true }, distinct: ['drillUnitId'] });
+      completedDrillsCount = completedDrillsDB.length;
       drillProgress = drillUnitsCount > 0 ? Math.round((completedDrillsCount / drillUnitsCount) * 100) : 0;
   } catch (e) {}
 
@@ -327,7 +341,48 @@ export default async function DashboardPage() {
         </div>
 
         {/* ========================================================================= */}
-        {/* 🔥 BLOK AI-SUH (DIAGNOSA TERBARU) */}
+        {/* 🚀 FITUR BARU 1: TRI-AXIS READINESS METER (HUD MENTOR)                    */}
+        {/* ========================================================================= */}
+        <div className="mb-6">
+          <ProgressHeader stats={matraStats} />
+        </div>
+
+        {/* ========================================================================= */}
+        {/* 🚀 FITUR BARU 2: PINTU GERBANG MENUJU WAR ROOM (BLUEPRINT)                */}
+        {/* ========================================================================= */}
+        {weeklyBlueprint ? (
+          <div className="bg-neutral-900/80 border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(59,130,246,0.1)] hover:border-blue-500 transition-all mb-10 group">
+            <div className="p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="flex items-center gap-5 w-full">
+                <div className="h-16 w-16 bg-blue-600/20 border border-blue-500 rounded-lg flex items-center justify-center text-blue-500 shrink-0">
+                  <CalendarCheck size={32} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="px-2 py-0.5 bg-blue-500 text-black text-[9px] font-black rounded-sm uppercase tracking-tighter">LIVE OPS</span>
+                    <h3 className="text-lg font-black text-white uppercase tracking-tight">PROGRAM TRI TUNGGAL TERPUSAT</h3>
+                  </div>
+                  <p className="text-xs text-neutral-400 font-mono italic leading-tight line-clamp-1">
+                    "{weeklyBlueprint.evaluationText}"
+                  </p>
+                </div>
+              </div>
+              
+              <Link href="/dashboard/blueprint" className="w-full md:w-auto">
+                <button className="w-full px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm flex items-center justify-center gap-3 transition-all shadow-[0_5px_15px_rgba(37,99,235,0.4)] active:scale-95 group/btn">
+                  BUKA PETA WAR ROOM <ArrowRight size={16} className="group-hover/btn:translate-x-2 transition-transform"/>
+                </button>
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <div className="bg-red-900/20 border border-red-500/50 p-6 rounded-xl text-center mb-10">
+            <p className="text-red-400 font-mono text-xs animate-pulse">⚠️ Menginisiasi AI Elite Coach... Membangun Blueprint Baru.</p>
+          </div>
+        )}
+
+        {/* ========================================================================= */}
+        {/* 🔥 BLOK AI-SUH (DIAGNOSA TRIASE) */}
         {/* ========================================================================= */}
         <div className={`mb-10 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
             <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
@@ -354,93 +409,6 @@ export default async function DashboardPage() {
                 </Link>
             </div>
         </div>
-           {/* ========================================================================= */}
-{/* 🚀 WIDGET RINGKASAN: TODAY'S TACTICAL OPS (TRI TUNGGAL TERPUSAT) */}
-{/* ========================================================================= */}
-{weeklyBlueprint && (
-  <div className="mb-8 group">
-    <div className="bg-neutral-900/80 border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(59,130,246,0.1)] hover:border-blue-500 transition-all">
-      <div className="p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex items-center gap-5 w-full">
-          <div className="h-16 w-16 bg-blue-600/20 border border-blue-500 rounded-lg flex items-center justify-center text-blue-500 shrink-0">
-            <CalendarCheck size={32} />
-          </div>
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="px-2 py-0.5 bg-blue-500 text-black text-[9px] font-black rounded-sm uppercase tracking-tighter">LIVE OPS</span>
-              <h3 className="text-lg font-black text-white uppercase tracking-tight">PROGRAM TRI TUNGGAL TERPUSAT</h3>
-            </div>
-            <p className="text-xs text-neutral-400 font-mono italic leading-tight line-clamp-1">
-              "{weeklyBlueprint.evaluationText}"
-            </p>
-          </div>
-        </div>
-        
-        {/* BUTTON MENU: MASUK KE DETAIL JADWAL */}
-        <Link href="/dashboard/blueprint" className="w-full md:w-auto">
-          <button className="w-full px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm flex items-center justify-center gap-3 transition-all shadow-[0_5px_15px_rgba(37,99,235,0.4)] active:scale-95 group">
-            BUKA PETA JADWAL MINGGUAN <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform"/>
-          </button>
-        </Link>
-      </div>
-      
-      {/* PROGRESS TRACKER SINGKAT */}
-      <div className="bg-black/40 px-6 py-3 border-t border-neutral-800 flex justify-between items-center">
-        <div className="flex gap-4">
-           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><Zap size={12}/> LAT: AKTIF</span>
-           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><BookOpen size={12}/> JAR: AKTIF</span>
-           <span className="text-[10px] font-bold text-neutral-500 flex items-center gap-1.5"><Activity size={12}/> SUH: AKTIF</span>
-        </div>
-        <span className="text-[10px] font-mono text-blue-400 uppercase tracking-widest">Fokus: {weeklyBlueprint.focusAreas}</span>
-      </div>
-    </div>
-  </div>
-)}
-
-        {/* ========================================================================= */}
-        {/* 🚀 TACTICAL BLUEPRINT MINGGUAN (PENGGANTI MISI HARIAN ACAK) */}
-        {/* ========================================================================= */}
-        {weeklyBlueprint && (
-          <div className="mb-14">
-            <div className="flex items-center gap-3 mb-6">
-                <div className="p-3 bg-blue-900/20 rounded-lg text-blue-500 border border-blue-500/30 shadow-[0_0_15px_rgba(59,130,246,0.2)]">
-                  <CalendarCheck size={24} />
-                </div>
-                <div>
-                  <h3 className="text-xl lg:text-2xl font-black text-white uppercase tracking-wider">TACTICAL BLUEPRINT (7 HARI)</h3>
-                  <p className="text-xs text-neutral-400 font-mono">Fokus Ops Minggu Ini: <span className="text-blue-400 font-bold">{weeklyBlueprint.focusAreas || "PENYELARASAN TRITUNGGAL"}</span></p>
-                </div>
-            </div>
-
-            {/* Evaluasi Bersambung Mentor */}
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-5 mb-8 border-l-4 border-l-blue-500 shadow-lg">
-               <h4 className="text-[10px] font-black uppercase tracking-widest text-blue-500 mb-2 flex items-center gap-2">
-                 <MessageSquare size={12}/> EVALUASI & INSTRUKSI MINGGUAN MENTOR
-               </h4>
-               <p className="text-sm font-mono text-neutral-300 leading-relaxed italic">
-                 "{weeklyBlueprint.evaluationText || "Laksanakan instruksi ini dengan penuh disiplin dan tanggung jawab. Jangan ada yang terlewat!"}"
-               </p>
-            </div>
-
-            {/* Grid 7 Hari (Menu Drill Expert) */}
-            {parsedDrills.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-                 {parsedDrills.map((drill, idx) => (
-                    <DrillCard 
-                        key={idx} 
-                        blueprintId={weeklyBlueprint.id} 
-                        drill={drill} 
-                        index={idx} 
-                    />
-                 ))}
-              </div>
-            ) : (
-              <div className="p-10 border border-dashed border-neutral-800 rounded-xl text-center text-neutral-500 text-sm font-mono bg-neutral-900/20">
-                 Menyusun ulang data komando... (Silakan muat ulang halaman jika menu belum tampil)
-              </div>
-            )}
-          </div>
-        )}
 
         {/* ========================================================================= */}
         {/* 🔥 PAPAN VISUAL: GRAFIK REKAM JEJAK SKD & SAMAPTA */}
