@@ -11,17 +11,15 @@ import {
   Clock, MessageSquare, CheckCircle 
 } from "lucide-react";
 
-// IMPORT KOMPONEN TERBARU (HUD MENTOR)
+// 🚀 IMPORT HUD MENTOR BARU
 import ProgressHeader from "@/components/dashboard/ProgressHeader";
 
-// 🚨 PROTOKOL WAJIB VERCEL: Anti-Static Render
 export const dynamic = 'force-dynamic';
 
 // ============================================================================
 // 🧠 BUKU PINTAR: MATRIKS NALAR MENTOR (THE MENTOR'S DICTIONARY)
 // ============================================================================
 const MENTOR_DICTIONARY: Record<string, any> = {
-  // --- TWK (8 PILAR) ---
   "NASIONALISME": { title: "PENGUATAN NASIONALISME", message: "Kadet, jiwa cintamu pada tanah air harus diwujudkan dalam pemahaman konseptual. Radar melihat kamu masih goyah membedakan Nasionalisme dan Chauvinisme. Buka modul di Plaza Menza.", actionText: "BACA MODUL TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
   "INTEGRITAS": { title: "KRISIS INTEGRITAS DETECTED", message: "Sebagai calon aparatur, kejujuran adalah harga mati. Kamu tampak bimbang pada studi kasus anti-korupsi. Pelajari kembali SOP integritas di Plaza Menza.", actionText: "PELAJARI INTEGRITAS ➔", actionLink: "/dashboard/materials", color: "border-red-500/40 bg-red-950/30 text-red-200", iconColor: "text-red-500" },
   "BELA_NEGARA": { title: "WAWASAN KETAHANAN MELEMAH", message: "Ancaman negara kini bukan cuma fisik, tapi juga perang siber dan ideologi. Pemahamanmu tentang Ketahanan Nasional perlu dipertajam. Asah refleks analisamu di Simulasi CAT.", actionText: "ASAH LOGIKA KETAHANAN ➔", actionLink: "/dashboard/tryout", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
@@ -31,8 +29,6 @@ const MENTOR_DICTIONARY: Record<string, any> = {
   "BHINNEKA_TUNGGAL_IKA": { title: "RESOLUSI KONFLIK SARA", message: "Indonesia berdiri di atas ribuan perbedaan. Kamu masih kesulitan saat dihadapkan pada skenario konflik SARA. Perbaiki perspektif kebhinekaanmu di Plaza Menza.", actionText: "PELAJARI KEBERAGAMAN ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
   "BAHASA_INDONESIA": { title: "KETELITIAN BAHASA MENURUN", message: "Bahasa adalah alat komando yang vital. Ketelitianmu mencari ide pokok atau menganalisa PUEBI masih di bawah standar. Latih kecepatan membacamu di Speed Drill.", actionText: "ASAH KETELITIAN BAHASA ➔", actionLink: "/dashboard/speed-drill", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
   "TWK_GENERAL": { title: "DEFISIT WAWASAN KEBANGSAAN", message: "Radar mendeteksi kelemahan secara umum di sektor TWK. Fondasi kebangsaanmu harus segera diperkokoh.", actionText: "PERKUAT MATERI TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
-
-  // --- TIU (10 PILAR) ---
   "VERBAL_ANALOGI": { title: "KOSAKATA ANALOGI TERBATAS", message: "Analogi bukan sekadar menebak, tapi menemukan pola hubungan kata secara presisi. Latih refleksmu di Speed Drill.", actionText: "PERKAYA KOSAKATA ➔", actionLink: "/dashboard/speed-drill", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
   "VERBAL_SILOGISME": { title: "KEBOCORAN LOGIKA SILOGISME", message: "Kamu sering terkecoh pada penarikan Kesimpulan Logis karena menggunakan asumsi pribadi. Gunakan rumus murni (Modus Ponens/Tollens)!", actionText: "ASAH LOGIKA DEDUKTIF ➔", actionLink: "/dashboard/materials", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
   "VERBAL_ANALITIS": { title: "PENALARAN ANALITIS KACAU", message: "Otakmu kewalahan menerima informasi bertumpuk (syarat, urutan posisi). Penalaran analitismu harus lebih terstruktur. Gempur soal di Simulasi CAT.", actionText: "LATIHAN ANALISA DATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
@@ -44,8 +40,6 @@ const MENTOR_DICTIONARY: Record<string, any> = {
   "FIGURAL_KETIDAKSAMAAN": { title: "KURANG TELITI (ANOMALI)", message: "Di medan operasi, ketelitian melihat hal ganjil adalah nyawa. Kamu masih luput mencari pola gambar yang berbeda. Asah di Simulasi CAT.", actionText: "ASAH KETELITIAN MATA ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
   "FIGURAL_SERIAL": { title: "IMAJINASI SPASIAL LEMAH", message: "Imajinasi spasialmu kaku saat merotasi atau melipat gambar (Jaring-jaring). Latih otak kananmu di Lab Psikologi.", actionText: "LATIH IMAJINASI SPASIAL ➔", actionLink: "/dashboard/psychology", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
   "TIU_GENERAL": { title: "LOGIKA INTELEGENSIA MELEMAH", message: "Radar mendeteksi kecepatan dan ketepatan logikamu berada di bawah standar. Asah kembali insting numerik dan verbalmu!", actionText: "HAJAR SIMULASI TIU ➔", actionLink: "/dashboard/tryout", color: "border-blue-500/40 bg-blue-950/30 text-blue-200", iconColor: "text-blue-500" },
-
-  // --- TKP (6 PILAR) ---
   "PELAYANAN_PUBLIK": { title: "EMPATI PELAYANAN RENDAH", message: "Ingat, kita pelayan rakyat! Kamu terpancing emosi dan abai SOP saat menghadapi komplain warga. Kalibrasi mentalmu di Lab Psikologi.", actionText: "KALIBRASI EMPATI ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
   "JEJARING_KERJA": { title: "SINDROM INDIVIDUALIS", message: "Kerja besar tak bisa diselesaikan sendiri. Rekam jejakmu menunjukkan sifat individualis. Perbaiki sikap profesionalmu di Simulasi CAT.", actionText: "PELAJARI KOLABORASI TIM ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
   "SOSIAL_BUDAYA": { title: "INTOLERANSI LINGKUNGAN", message: "Abdi negara harus siap ditugaskan di mana saja. Insting adaptasimu di lingkungan multikultural sangat kaku.", actionText: "ASAH KECERDASAN SOSIAL ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
@@ -53,8 +47,6 @@ const MENTOR_DICTIONARY: Record<string, any> = {
   "PROFESIONALISME": { title: "PRIORITAS TUGAS GOYAH", message: "Tugas negara adalah amanah. Kamu bimbang memisahkan urusan personal (keluarga/cuti) dengan deadline pekerjaan.", actionText: "MANTAPKAN PROFESIONALISME ➔", actionLink: "/dashboard/tryout", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
   "ANTI_RADIKALISME": { title: "RADAR IDEOLOGI TUMPUL", message: "Keamanan bangsa di tangan kita. Kamu kurang responsif menolak ekstremisme. Bekali pemahaman yang benar di Plaza Menza.", actionText: "BENTENGI IDEOLOGI NEGARA ➔", actionLink: "/dashboard/materials", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
   "TKP_GENERAL": { title: "KEMATANGAN PSIKOLOGI MINUS", message: "Karakteristik pribadimu saat menghadapi tekanan kerja terpantau belum matang. Jangan sampai gugur di tahap akhir.", actionText: "KALIBRASI MENTAL ➔", actionLink: "/dashboard/psychology", color: "border-purple-500/40 bg-purple-950/30 text-purple-200", iconColor: "text-purple-500" },
-
-  // --- LAT / FISIK ---
   "FISIK_KRITIS": { title: "DEGRADASI FISIK (SAMAPTA)", message: "Kadet! Otak cerdas tidak akan berguna jika fisik tumbang di medan tempur. Parameter jasmanimu jauh di bawah standar lulus. Perintah hari ini: Segera eksekusi lari interval, push-up, dan input hasilnya!", actionText: "INPUT DATA SAMAPTA ➔", actionLink: "/dashboard/physical/input", color: "border-red-600/50 bg-red-950/40 text-red-200", iconColor: "text-red-500 animate-pulse" }
 };
 
@@ -138,7 +130,17 @@ export default async function DashboardPage() {
     console.error("⚠️ [COMMANDER WARNING] Blueprint Engine Failure:", error);
   }
 
-  // --- KALKULASI STATISTIK UNTUK HUD PROGRESS (TRI-AXIS) ---
+  // 🚨 SISTEM ANTI-BLANK: Jika database gagal/timeout, buat data darurat agar UI tidak hancur.
+  if (!weeklyBlueprint) {
+    weeklyBlueprint = {
+      id: "fallback-ops",
+      focusAreas: "SINKRONISASI SISTEM",
+      evaluationText: "Mesin utama sedang memproses data intelijen Anda. Tetap disiplin dan selesaikan misi yang ada!",
+      completedDrills: "[]"
+    } as any;
+  }
+
+  // Kalkulasi Statistik untuk HUD Tri-Axis
   let completedDrills: string[] = [];
   try {
     if (weeklyBlueprint && (weeklyBlueprint as any).completedDrills) {
@@ -163,7 +165,6 @@ export default async function DashboardPage() {
   // ============================================================================
   // 🔥 MENGAMBIL DATA UNTUK GRAFIK VISUAL & AI MENTOR
   // ============================================================================
-  
   const historyTryouts = await prisma.tryoutAttempt.findMany({
     where: { userId: userId, isFinished: true },
     orderBy: { finishedAt: 'asc' }, 
@@ -296,7 +297,9 @@ export default async function DashboardPage() {
 
       <div className="relative p-4 md:p-6 max-w-7xl mx-auto">
         
-        {/* --- HEADER: PANGKAT & HP --- */}
+        {/* ========================================================================= */}
+        {/* --- HEADER: PANGKAT & HP (KEMBALI KE DESAIN ASLI ANDA YANG SEMPURNA) --- */}
+        {/* ========================================================================= */}
         <div className="flex flex-col lg:flex-row justify-between items-end gap-8 border-b border-neutral-800 pb-8 mb-8">
           <div className="w-full lg:w-1/2">
             <div className="flex items-center gap-4 mb-4">
@@ -341,48 +344,38 @@ export default async function DashboardPage() {
         </div>
 
         {/* ========================================================================= */}
-        {/* 🚀 FITUR BARU 1: TRI-AXIS READINESS METER (HUD MENTOR)                    */}
+        {/* 🚀 FITUR BARU 1: HUD TRI-AXIS READINESS METER (DENGAN EMPATI) */}
         {/* ========================================================================= */}
         <div className="mb-6">
           <ProgressHeader stats={matraStats} />
         </div>
 
         {/* ========================================================================= */}
-        {/* 🚀 FITUR BARU 2: PINTU GERBANG MENUJU WAR ROOM (BLUEPRINT)                */}
+        {/* 🚀 FITUR BARU 2: TOMBOL MENUJU WAR ROOM (BLUEPRINT) */}
         {/* ========================================================================= */}
-        {weeklyBlueprint ? (
-          <div className="bg-neutral-900/80 border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(59,130,246,0.1)] hover:border-blue-500 transition-all mb-10 group">
-            <div className="p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="flex items-center gap-5 w-full">
-                <div className="h-16 w-16 bg-blue-600/20 border border-blue-500 rounded-lg flex items-center justify-center text-blue-500 shrink-0">
-                  <CalendarCheck size={32} />
-                </div>
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="px-2 py-0.5 bg-blue-500 text-black text-[9px] font-black rounded-sm uppercase tracking-tighter">LIVE OPS</span>
-                    <h3 className="text-lg font-black text-white uppercase tracking-tight">PROGRAM TRI TUNGGAL TERPUSAT</h3>
-                  </div>
-                  <p className="text-xs text-neutral-400 font-mono italic leading-tight line-clamp-1">
-                    "{weeklyBlueprint.evaluationText}"
-                  </p>
-                </div>
+        <div className="bg-neutral-900 border border-blue-500/30 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-[0_0_30px_rgba(59,130,246,0.1)] mb-10 group hover:border-blue-500 transition-all">
+          <div className="flex items-center gap-5 w-full">
+            <div className="h-14 w-14 bg-blue-900/30 border border-blue-500/50 rounded-lg flex items-center justify-center text-blue-500 group-hover:scale-105 transition-transform">
+              <CalendarCheck size={28} />
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="px-2 py-0.5 bg-blue-600 text-white text-[9px] font-black rounded-sm uppercase tracking-widest">OPS AKTIF</span>
               </div>
-              
-              <Link href="/dashboard/blueprint" className="w-full md:w-auto">
-                <button className="w-full px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm flex items-center justify-center gap-3 transition-all shadow-[0_5px_15px_rgba(37,99,235,0.4)] active:scale-95 group/btn">
-                  BUKA PETA WAR ROOM <ArrowRight size={16} className="group-hover/btn:translate-x-2 transition-transform"/>
-                </button>
-              </Link>
+              <h3 className="text-lg lg:text-xl font-black text-white uppercase tracking-tighter">TACTICAL BLUEPRINT 7 HARI</h3>
+              <p className="text-xs text-neutral-400 font-mono mt-1">Fokus: <span className="text-blue-400 font-bold">{weeklyBlueprint.focusAreas}</span></p>
             </div>
           </div>
-        ) : (
-          <div className="bg-red-900/20 border border-red-500/50 p-6 rounded-xl text-center mb-10">
-            <p className="text-red-400 font-mono text-xs animate-pulse">⚠️ Menginisiasi AI Elite Coach... Membangun Blueprint Baru.</p>
-          </div>
-        )}
+          
+          <Link href="/dashboard/blueprint" className="w-full md:w-auto shrink-0">
+            <button className="w-full md:w-auto px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm transition-all shadow-[0_5px_20px_rgba(37,99,235,0.4)] active:scale-95 flex items-center justify-center gap-3 group/btn">
+              BUKA WAR ROOM <ArrowRight size={16} className="group-hover/btn:translate-x-2 transition-transform" />
+            </button>
+          </Link>
+        </div>
 
         {/* ========================================================================= */}
-        {/* 🔥 BLOK AI-SUH (DIAGNOSA TRIASE) */}
+        {/* 🔥 BLOK AI-SUH (DIAGNOSA TRIASE) - 100% KODE ASLI ANDA */}
         {/* ========================================================================= */}
         <div className={`mb-10 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
             <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
@@ -416,7 +409,7 @@ export default async function DashboardPage() {
         <DashboardCharts skdHistory={skdHistory} physicalHistory={physicalHistory} />
 
         {/* ========================================================================= */}
-        {/* --- ANALYTICS GRID (RADAR & SHORTCUTS) --- */}
+        {/* --- ANALYTICS GRID (RADAR & SHORTCUTS) - 100% KODE ASLI ANDA --- */}
         {/* ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10 mt-10">
           
@@ -488,7 +481,7 @@ export default async function DashboardPage() {
           </div>
         </div>
 
-        {/* --- SHORTCUTS GRID --- */}
+        {/* --- SHORTCUTS GRID - 100% KODE ASLI ANDA --- */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <Link href="/dashboard/tryout" className="group bg-red-950/40 hover:bg-red-900/60 text-white p-6 rounded-xl flex flex-col items-center gap-3 transition-all border border-red-900/50 shadow-lg relative overflow-hidden backdrop-blur-sm">
                 <Laptop2 size={24} className="group-hover:scale-110 transition-transform relative z-10 text-red-400" /> 
