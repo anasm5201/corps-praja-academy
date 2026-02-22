@@ -343,37 +343,87 @@ export default async function DashboardPage() {
           </div>
         </div>
 
+       {/* ========================================================================= */}
+        {/* 🚀 FITUR BARU: PROGRAM LATIHAN 7 HARI (PENGGANTI BLUEPRINT & PROGRESS BAR) */}
         {/* ========================================================================= */}
-        {/* 🚀 FITUR BARU 1: HUD TRI-AXIS READINESS METER (DENGAN EMPATI) */}
-        {/* ========================================================================= */}
-        <div className="mb-6">
-          <ProgressHeader stats={matraStats} />
-        </div>
+        {(() => {
+            // Logika Cerdas: Menentukan Hari Ini untuk Teaser
+            const namaHari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            const hariIni = namaHari[new Date().getDay()];
+            
+            let teaserText = "Menyiapkan intruksi Matra Jasmani, Akademik, dan Mental...";
+            if (parsedDrills.length > 0) {
+                // Mencari jadwal yang sesuai dengan hari ini, atau ambil hari ke-1 jika tidak ketemu
+                const drillHariIni = parsedDrills.find(d => d.title?.toUpperCase().includes(hariIni.toUpperCase())) || parsedDrills[0];
+                teaserText = drillHariIni.tahap1 || drillHariIni.tahap2 || "Lanjutkan misi sesuai komando di layar utama.";
+            }
 
-        {/* ========================================================================= */}
-        {/* 🚀 FITUR BARU 2: TOMBOL MENUJU WAR ROOM (BLUEPRINT) */}
-        {/* ========================================================================= */}
-        <div className="bg-neutral-900 border border-blue-500/30 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-[0_0_30px_rgba(59,130,246,0.1)] mb-10 group hover:border-blue-500 transition-all">
-          <div className="flex items-center gap-5 w-full">
-            <div className="h-14 w-14 bg-blue-900/30 border border-blue-500/50 rounded-lg flex items-center justify-center text-blue-500 group-hover:scale-105 transition-transform">
-              <CalendarCheck size={28} />
-            </div>
-            <div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="px-2 py-0.5 bg-blue-600 text-white text-[9px] font-black rounded-sm uppercase tracking-widest">OPS AKTIF</span>
+            return (
+              <div className="bg-gradient-to-br from-blue-950/40 to-black border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_30px_rgba(59,130,246,0.1)] mb-10 group relative transition-all hover:border-blue-500/60">
+                {/* Ornamen Latar Belakang */}
+                <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity pointer-events-none">
+                    <CalendarDays size={180} className="text-blue-500" />
+                </div>
+
+                <div className="p-6 md:p-8 relative z-10">
+                    <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
+                        
+                        {/* KONTEN KIRI: PENJELASAN & TEASER */}
+                        <div className="flex-1 w-full">
+                            <div className="flex items-center gap-3 mb-3">
+                                <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-black rounded-sm uppercase tracking-widest shadow-[0_0_10px_rgba(37,99,235,0.5)]">
+                                    SIKLUS AKTIF
+                                </span>
+                                <span className="text-xs text-blue-400 font-mono flex items-center gap-1 uppercase">
+                                    <Zap size={12} /> FOKUS: {weeklyBlueprint?.focusAreas || "PENYELARASAN TRITUNGGAL"}
+                                </span>
+                            </div>
+
+                            <h3 className="text-2xl md:text-3xl font-black text-white uppercase tracking-tighter mb-2">
+                                PROGRAM LATIHAN 7 HARI
+                            </h3>
+                            <p className="text-sm text-neutral-400 leading-relaxed max-w-2xl mb-6">
+                                Ini adalah siklus kehidupan harianmu. Berisi panduan matra <strong className="text-amber-500">Jasmani (Pagi)</strong>, <strong className="text-blue-500">Akademik (Siang)</strong>, dan <strong className="text-purple-500">Mental (Malam)</strong> yang telah diracik khusus agar kamu siap tempur menghadapi ujian.
+                            </p>
+
+                            {/* KOTAK TEASER HARI INI */}
+                            <div className="bg-black/60 border border-neutral-800 rounded-lg p-4 flex items-start gap-4 max-w-2xl backdrop-blur-sm">
+                                <div className="p-2 bg-neutral-900 border border-neutral-700 rounded-md text-neutral-400 shrink-0">
+                                  <Clock size={20} className="text-blue-500"/>
+                                </div>
+                                <div>
+                                    <h4 className="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-1.5 flex items-center gap-2">
+                                      BOCORAN MISI HARI INI ({hariIni})
+                                    </h4>
+                                    <p className="text-xs text-neutral-300 font-mono italic leading-relaxed line-clamp-2">
+                                        "{teaserText}"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* KONTEN KANAN: INDIKATOR HARI & TOMBOL */}
+                        <div className="w-full md:w-auto shrink-0 flex flex-col items-center md:items-end gap-5">
+                            {/* Indikator Hari (Senin-Minggu) */}
+                            <div className="flex gap-2 w-full justify-center md:justify-end">
+                                {['S', 'S', 'R', 'K', 'J', 'S', 'M'].map((day, i) => (
+                                    <div key={i} className={`w-7 h-7 rounded-md flex items-center justify-center text-[10px] font-black transition-all ${i + 1 === (new Date().getDay() === 0 ? 7 : new Date().getDay()) ? 'bg-blue-600 text-white shadow-[0_0_10px_rgba(37,99,235,0.8)] scale-110' : 'bg-neutral-900 text-neutral-600 border border-neutral-800'}`}>
+                                        {day}
+                                    </div>
+                                ))}
+                            </div>
+
+                            <Link href="/dashboard/blueprint" className="w-full">
+                                <button className="w-full md:w-auto px-8 py-5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-black uppercase tracking-[0.2em] rounded-md transition-all shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:shadow-[0_10px_40px_rgba(37,99,235,0.6)] active:scale-95 flex items-center justify-center gap-3 group/btn">
+                                    CEK JADWAL MINGGU INI <ArrowRight size={18} className="group-hover/btn:translate-x-2 transition-transform" />
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
               </div>
-              <h3 className="text-lg lg:text-xl font-black text-white uppercase tracking-tighter">TACTICAL BLUEPRINT 7 HARI</h3>
-              <p className="text-xs text-neutral-400 font-mono mt-1">Fokus: <span className="text-blue-400 font-bold">{weeklyBlueprint.focusAreas}</span></p>
-            </div>
-          </div>
-          
-          <Link href="/dashboard/blueprint" className="w-full md:w-auto shrink-0">
-            <button className="w-full md:w-auto px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm transition-all shadow-[0_5px_20px_rgba(37,99,235,0.4)] active:scale-95 flex items-center justify-center gap-3 group/btn">
-              BUKA WAR ROOM <ArrowRight size={16} className="group-hover/btn:translate-x-2 transition-transform" />
-            </button>
-          </Link>
-        </div>
-
+            );
+        })()}
         {/* ========================================================================= */}
         {/* 🔥 BLOK AI-SUH (DIAGNOSA TRIASE) - 100% KODE ASLI ANDA */}
         {/* ========================================================================= */}
