@@ -25,14 +25,12 @@ model User {
   profile               UserProfile?
   image                 String?
   
-  // ====================================================================
-  // [KODE BARU] SENSOR GENDER (PRIA/WANITA) UNTUK KALKULATOR SAMAPTA
-  // ====================================================================
+  // SENSOR GENDER (PRIA/WANITA) UNTUK KALKULATOR SAMAPTA
   gender                String?   
 
   blueprints            WeeklyBlueprint[]
 
-  // ✅ POSISI 1: DIPERTAHANKAN (Satu kesatuan dengan logs)
+  // POSISI 1: DIPERTAHANKAN (Satu kesatuan dengan logs)
   walletBalance         Int       @default(0) // Tabungan Poin/Saldo
   walletLogs            WalletLog[] // Relasi ke riwayat saldo
   
@@ -47,16 +45,14 @@ model User {
   rank                  String    @default("CALON PRAJA")
   
   // --- EKONOMI & KESEHATAN ---
-  // [DIHAPUS] walletBalance Int @default(0) <-- Penyebab Error Duplikasi
   suhStats              Int       @default(100)
 
-  // --- [BARU] SISTEM BERLANGGANAN (SUBSCRIPTION) ---
-  // Field ini digunakan sebagai gatekeeper utama di middleware
+  // --- SISTEM BERLANGGANAN (SUBSCRIPTION) ---
   subscriptionType      String    @default("FREE")
   subscriptionStatus    String    @default("INACTIVE") // "INACTIVE", "PENDING", "ACTIVE"
   subscriptionExpires   DateTime? 
   
-  // --- [BARU] ONBOARDING AGENT ---
+  // --- ONBOARDING AGENT ---
   hasSeenOnboarding     Boolean   @default(false)       
 
   // --- SCREENING & DIAGNOSA AWAL ---
@@ -85,15 +81,12 @@ model User {
   weeklyPlans           WeeklyPlan[]
   
   // --- RELASI TRANSAKSI ---
-  // Menghubungkan user dengan bukti pembayaran di tabel Transaction
   transactions          Transaction[]
   dailyLogs             DailyLog[]
 
   createdAt             DateTime  @default(now())
   updatedAt             DateTime  @updatedAt
 }
-
-// Model Transaction sebagai "Logistik" untuk memvalidasi amunisi
 
 // ==========================================
 // 2. JAR - AKADEMIK (SKD SYSTEM)
@@ -104,14 +97,12 @@ model TryoutPackage {
   description String?
   duration    Int      @default(100)
   
-  // 🔥 FIELD INI YANG DICARI OLEH KODE ANDA:
-  category    String   @default("SKD") // Pastikan ini ada!
+  category    String   @default("SKD") 
   
   price       Int      @default(0)
   isFree      Boolean  @default(false)
   isPublished Boolean  @default(true)
 
-  // Relasi ke Soal (Gunakan TryoutQuestion)
   questions   TryoutQuestion[] 
   
   attempts    TryoutAttempt[]
@@ -142,7 +133,6 @@ model TryoutAttempt {
   startedAt   DateTime @default(now())
   finishedAt  DateTime?                
   
-  // [PERBAIKAN] Menambahkan field ini agar sesuai standar Prisma dan fix error screenshot
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   
@@ -160,10 +150,8 @@ model PsychologyPackage {
   description String?
   duration    Int      @default(60)
   
-  // 🔥 TAMBAHKAN INI (Jalur Komunikasi ke Soal):
   questions   PsychologyQuestion[] 
 
-  // Relasi ke Riwayat Pengerjaan
   attempts    PsychologyAttempt[]
   
   createdAt   DateTime @default(now())
@@ -173,16 +161,13 @@ model PsychologyPackage {
 model PsychologyQuestion {
   id          String            @id @default(cuid())
   
-  // Relasi ke Paket
   packageId   String
   package     PsychologyPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
 
-  // Data Soal
   question    String   // Teks soal (atau simbol untuk kecermatan)
   options     String?  // JSON String (Opsional untuk Kecermatan)
   correct     String?  // Kunci Jawaban
   
-  // Atribut Tambahan
   columnIdx   Int?     // Khusus Kecermatan: Kolom ke berapa
   rowIdx      Int?     // Khusus Kecermatan: Baris ke berapa
 
@@ -210,6 +195,7 @@ model PsychologyAttempt {
   
   @@index([userId])
 }
+
 // ==========================================
 // 4. LAT - FISIK & SUH
 // ==========================================
@@ -218,17 +204,14 @@ model PhysicalLog {
   userId         String
   user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   
-  // Detail Item Samapta A & B
-  lariMeter      Int       // Jarak lari 12 menit
-  pushUp         Int       // Jumlah 1 menit
-  sitUp          Int       // Jumlah 1 menit
-  pullUp         Int       // Jumlah 1 menit
-  shuttleRun     Float     // Waktu dalam detik
+  lariMeter      Int       
+  pushUp         Int       
+  sitUp          Int       
+  pullUp         Int       
+  shuttleRun     Float     
 
-  // Hasil Kalkulasi
-  totalScore     Float     // Skor Akhir (0-100)
+  totalScore     Float     
   
-  // Analisa AI 
   aiFeedback     String? 
 
   createdAt      DateTime @default(now())
@@ -277,7 +260,6 @@ model DailyMission {
   duration    String?  @default("Tanpa Batas")
   isCompleted Boolean  @default(false)
   
-  // Relasi ke pertanyaan
   questions   MissionQuestion[] 
 
   createdAt   DateTime @default(now())
@@ -285,10 +267,6 @@ model DailyMission {
 
   @@index([userId])
 }
-
-// ==========================================
-// 5. CORE QUESTION BANK (PUSAT BANK SOAL)
-// ==========================================
 
 // ==========================================
 // 6. SPEED DRILL (LATIHAN REFLEKS SYSTEM)
@@ -304,7 +282,6 @@ model DrillUnit {
   description String?
   duration    Int       @default(120) 
   
-  // 🔥 PERBAIKAN: Mengarah ke 'TryoutQuestion' (Standard Baru)
   questions   TryoutQuestion[] 
 
   history     DrillHistory[] 
@@ -324,10 +301,9 @@ model DrillHistory {
 
   stars       Int       @default(0) 
   
-  // 🔥 FIELD STATISTIK
-  bestScore   Int       @default(0) // Database pakai 'bestScore', Kode pakai 'score'
-  correctCount Int      @default(0) // ✅ Tambahkan ini agar tidak error
-  accuracy    Float     @default(0) // (Opsional) Tambahkan untuk statistik akurasi
+  bestScore   Int       @default(0) 
+  correctCount Int      @default(0) 
+  accuracy    Float     @default(0) 
 
   isUnlocked  Boolean   @default(false)
 
@@ -336,6 +312,7 @@ model DrillHistory {
 
   @@unique([userId, drillUnitId])
 }
+
 // ==========================================
 // 7. PERENCANAAN & TRANSAKSI
 // ==========================================
@@ -378,6 +355,7 @@ model Transaction {
 
   @@index([userId])
 }
+
 model DailyLog {
   id          String   @id @default(cuid())
   userId      String
@@ -394,7 +372,7 @@ model DailyLog {
   evidenceUrl String?  // Foto bukti kegiatan (jika ada)
 
   createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt // Pastikan ada ini
+  updatedAt   DateTime @updatedAt 
 
   @@index([userId])
 }
@@ -430,7 +408,7 @@ model UserDrillProgress {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
-  @@unique([userId, unitId]) // Mencegah duplikasi data progres untuk unit yang sama
+  @@unique([userId, unitId]) 
 }
 
 model TryoutQuestion {
@@ -446,11 +424,9 @@ model TryoutQuestion {
   subCategory   String? 
   score          Int       @default(5)  
 
-  // Relasi 1: KE PAKET TRYOUT
   packageId     String?   
   package       TryoutPackage? @relation(fields: [packageId], references: [id], onDelete: Cascade)
 
-  // 🔥 RELASI 2: KE SPEED DRILL (Pastikan ini ada!)
   drillUnitId   String?
   drillUnit     DrillUnit? @relation(fields: [drillUnitId], references: [id], onDelete: Cascade)
 
@@ -480,31 +456,31 @@ model UserProfile {
   examDate       DateTime?
   updatedAt      DateTime @updatedAt
 }
-// Update pancingan untuk Vercel (Force Update)
+
 // ============================================================================
-// [KODE BARU] WADAH MEMORI MINGGUAN AI MENTOR (TACTICAL BLUEPRINT)
+// 🚀 WADAH MEMORI MINGGUAN AI MENTOR (TACTICAL BLUEPRINT)
 // ============================================================================
 model WeeklyBlueprint {
-  id             String   @id @default(cuid())
-  userId         String
-  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   
-  startDate      DateTime // Tanggal mulai minggu ini (Misal: Senin)
-  endDate        DateTime // Tanggal akhir minggu ini (Misal: Minggu)
+  // Tanggal siklus (Dibuat opsional agar AI Engine yang lama tidak error)
+  startDate       DateTime @default(now())
+  endDate         DateTime?
   
-  // Memori Sang Mentor: Menyimpan evaluasi bersambung dari minggu sebelumnya
-  evaluationText String   @db.Text 
+  // Teks Evaluasi & Fokus Operasi
+  evaluationText  String   @db.Text 
+  focusAreas      String   @db.Text
   
-  // Fokus Latihan Minggu ini (Contoh: "Kardio HIIT & Penalaran Analitis")
-  focusAreas     String   
+  // JSON Penyimpanan Data Operasional
+  dailyDrills     String   @db.Text  
+  completedDrills String?  @db.Text @default("[]") 
   
-  // Data JSON Raksasa: Berisi menu 7 hari dengan 3 tahap Drill Expert per hari
-  dailyDrills    String   @db.Text 
+  isActive        Boolean  @default(true)
   
-  isActive       Boolean  @default(true)
-  
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
 
   @@index([userId])
 }

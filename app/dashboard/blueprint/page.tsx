@@ -3,7 +3,7 @@ import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
-import { ChevronLeft, Calendar, ShieldCheck, Info, MessageSquare, AlertTriangle } from "lucide-react";
+import { ChevronLeft, Calendar, ShieldCheck, MessageSquare } from "lucide-react";
 import DrillCard from "@/components/dashboard/DrillCard";
 import { ensureWeeklyPlan } from "@/lib/weekly-engine";
 
@@ -15,31 +15,76 @@ export default async function BlueprintPage() {
 
   if (!userId) redirect("/api/auth/signin");
 
-  // 1. PASTIKAN MESIN JADWAL MENYALA!
+  // 1. TARIK DATA DARI DATABASE / AI
   let blueprint = null;
   try {
-     // Ini kunci penyembuhnya! Kita panggil AI-nya langsung di sini
-     blueprint = await ensureWeeklyPlan(userId); 
+    // Coba cari di database dulu agar tidak terus-menerus memanggil AI
+    blueprint = await prisma.weeklyBlueprint.findFirst({
+        where: { userId },
+        orderBy: { createdAt: 'desc' }
+    });
+
+    if (!blueprint) {
+        blueprint = await ensureWeeklyPlan(userId); 
+    }
   } catch (error) {
      console.error("Gagal load program 7 hari:", error);
   }
 
-  // JIKA AI BENAR-BENAR DOWN (Sistem Cadangan Mutlak)
+ // =========================================================================
+  // 🚨 SISTEM ANTI-BLANK MUTLAK (THE ELITE FALLBACK PROTOCOL)
+  // Dirancang khusus oleh Elite Coach dengan standar Periodisasi Militer.
+  // =========================================================================
   if (!blueprint) {
-    return (
-      <div className="min-h-screen bg-[#050505] flex flex-col items-center justify-center p-10">
-        <div className="p-10 border border-dashed border-red-900/50 bg-red-950/10 rounded-xl text-center max-w-lg">
-           <AlertTriangle className="mx-auto text-red-500 mb-6 animate-pulse" size={56} />
-           <h2 className="text-xl font-black text-white uppercase tracking-widest mb-2">GANGGUAN SATELIT KOMANDO</h2>
-           <p className="text-neutral-500 font-mono text-xs leading-relaxed mb-8">
-             Sistem AI gagal merumuskan jadwal. Mesin sedang dalam masa pendinginan. Silakan kembali ke Markas Utama dan coba lagi nanti.
-           </p>
-           <Link href="/dashboard" className="px-8 py-3 bg-red-900 hover:bg-red-800 text-white text-xs font-black uppercase tracking-[0.2em] rounded-sm transition-all">
-             KEMBALI KE MARKAS UTAMA
-           </Link>
-        </div>
-      </div>
-    );
+    blueprint = {
+      id: "fallback-ops",
+      focusAreas: "PENYELARASAN TRITUNGGAL (STANDAR OPERASI ELIT)",
+      evaluationText: "Kadet! Koneksi AI ke Markas Besar terganggu, namun di medan tempur sejati tidak ada alasan untuk berhenti. Saya mengambil alih komando manual. Ini adalah siklus periodisasi yang dirancang untuk menghancurkan kelemahanmu secara sistematis. Laksanakan tanpa ragu!",
+      dailyDrills: JSON.stringify([
+        { 
+          title: "HARI 1: SENIN (INISIASI & DAYA TAHAN)", 
+          tahap1: "[LAT - PAGI] Aerobic Base Building: Lari Zone 2 (Jogging konstan) selama 35-40 menit. Fokus pada ritme napas, bukan kecepatan. Bangun kapasitas paru-parumu (VO2 Max).", 
+          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TIU): Otakmu paling segar di awal minggu. Gempur materi Analitis dan Silogisme. Pecahkan logika, jangan pakai asumsi.", 
+          tahap3: "[SUH - MALAM] Goal Setting & Visualisasi: Tulis 3 target absolut minggu ini. Visualisasikan dirimu memakai seragam abdi negara. Kunci mentalmu sebelum tidur." 
+        },
+        { 
+          title: "HARI 2: SELASA (KEKUATAN OTOT & RETENSI MEMORI)", 
+          tahap1: "[LAT - PAGI] Strength Conditioning: Istirahatkan kaki. Eksekusi Push-up, Sit-up, dan Pull-up (3 Set x Repetisi Maksimal). Akhiri dengan Plank 2 menit untuk kekuatan otot inti.", 
+          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TWK): Retensi memorimu sedang kuat. Hafalkan sejarah konstitusi, pasal UUD 1945, dan pengamalan butir Pancasila.", 
+          tahap3: "[SUH - MALAM] Time Audit: Evaluasi 24 jam terakhirmu. Cari tahu di jam berapa kamu membuang waktu secara sia-sia. Perketat disiplin!" 
+        },
+        { 
+          title: "HARI 3: RABU (KETANGKASAN & RESPON TEKANAN)", 
+          tahap1: "[LAT - PAGI] Anaerobic Interval: Lari Sprint 400m x 5 Set. Jeda jalan kaki 1 menit tiap set. Latih daya ledak jantungmu untuk mengejar waktu Samapta.", 
+          tahap2: "[JAR - SIANG] Speed Drill Terpadu: Hajar 50 soal TIU Numerik & Deret dalam 30 menit. Latih otakmu berpikir jernih di bawah tekanan waktu yang mencekik.", 
+          tahap3: "[SUH - MALAM] Stress Inoculation (Box Breathing): Lakukan teknik napas taktis militer (Tarik 4s, Tahan 4s, Hembus 4s, Tahan 4s). Turunkan hormon kortisolmu." 
+        },
+        { 
+          title: "HARI 4: KAMIS (PEMULIHAN AKTIF & KARAKTER)", 
+          tahap1: "[LAT - PAGI] Active Recovery: Jangan diam. Lakukan jalan cepat 20 menit dilanjutkan peregangan dinamis (Dynamic Stretching) total. Lancarkan peredaran darah ke otot yang robek.", 
+          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TKP): Tubuh yang rileks sangat cocok untuk materi empati. Pelajari studi kasus Pelayanan Publik dan Sosial Budaya.", 
+          tahap3: "[SUH - MALAM] Bedah Integritas: Pelajari studi kasus radikalisme dan korupsi. Selaraskan pola pikirmu dengan nilai mutlak integritas aparatur negara." 
+        },
+        { 
+          title: "HARI 5: JUMAT (INTEGRASI TAKTIS & ADAPTASI)", 
+          tahap1: "[LAT - PAGI] Fartlek Training 30 Menit: Lari dengan ritme acak (lambat, sedang, sprint) tanpa aturan baku. Biasakan tubuhmu merespons perubahan situasi mendadak.", 
+          tahap2: "[JAR - SIANG] Weakness Targeted Review: Buka rapot Tryout terakhir. Hajar secara brutal materi yang nilainya paling merah. Jangan lari dari kelemahanmu.", 
+          tahap3: "[SUH - MALAM] Resiliensi Mental: Evaluasi alasan kegagalanmu di masa lalu. Ubah rasa takut gagal menjadi bahan bakar agresi belajar untuk esok hari." 
+        },
+        { 
+          title: "HARI 6: SABTU (SIMULASI MEDAN TEMPUR)", 
+          tahap1: "[LAT - PAGI] Tryout Samapta Total: Lakukan simulasi lari 12 menit murni, disusul seluruh rangkaian kekuatan fisik. Catat skormu dengan jujur di sistem!", 
+          tahap2: "[JAR - SIANG] Full CAT SKD (110 Soal): Duduk tenang, matikan gangguan. Latih stamina duduk dan fokus matamu untuk simulasi ujian sesungguhnya.", 
+          tahap3: "[SUH - MALAM] After Action Review (AAR): Bedah hasil simulasi hari ini secara dingin dan objektif. Apa yang salah? Apa yang lambat? Catat untuk diperbaiki Senin depan." 
+        },
+        { 
+          title: "HARI 7: MINGGU (RESTORASI TOTAL & SPIRITUAL)", 
+          tahap1: "[LAT - PAGI] Total Rest & Mobility: Tidak ada beban fisik berat. Lakukan peregangan statis ringan. Biarkan ototmu pulih dan tumbuh hari ini.", 
+          tahap2: "[JAR - SIANG] Off-Grid: Jauhkan modul berat. Baca literatur ringan, pantau berita nasional atau isu kebijakan publik terkini tanpa tekanan menghafal.", 
+          tahap3: "[SUH - MALAM] Pengisian Tangki Spiritual: Ibadah, meditasi, dan habiskan waktu bersama keluarga. Kosongkan pikiran agar kamu kembali buas di hari Senin." 
+        }
+      ])
+    } as any;
   }
 
   // 2. PARSING DATA
@@ -63,20 +108,30 @@ export default async function BlueprintPage() {
               <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
             </Link>
             <div>
-              <h1 className="text-3xl font-black text-white uppercase tracking-tighter flex items-center gap-3">
-                <Calendar className="text-blue-500" /> PROGRAM LATIHAN 7 HARI
+              <h1 className="text-2xl md:text-3xl font-black text-white uppercase tracking-tighter flex items-center gap-3">
+                <Calendar className="text-blue-500" /> PROGRAM 7 HARI
               </h1>
               <p className="text-[10px] text-neutral-500 font-mono mt-1 uppercase tracking-widest">
                 SIKLUS AKTIF • TARGET OPS: <span className="text-blue-400 font-bold">{blueprint.focusAreas}</span>
               </p>
             </div>
           </div>
+          
+          <div className="bg-neutral-900/80 border border-neutral-800 px-6 py-3 rounded-lg flex items-center gap-4 shadow-xl backdrop-blur-md">
+            <ShieldCheck className={blueprint.id === "fallback-ops" ? "text-amber-500" : "text-emerald-500"} size={24} />
+            <div className="text-[10px] font-black uppercase tracking-widest leading-none">
+              <span className="text-neutral-500 block mb-1">STATUS SISTEM</span>
+              <span className={blueprint.id === "fallback-ops" ? "text-amber-400 animate-pulse" : "text-emerald-400"}>
+                 {blueprint.id === "fallback-ops" ? "OFFLINE PROTOCOL" : "AKTIF TERKENDALI"}
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* EVALUASI MENTOR */}
-        <div className="bg-neutral-900/50 border-l-4 border-blue-600 p-6 rounded-r-xl shadow-lg relative overflow-hidden group mb-4">
+        <div className={`bg-neutral-900/50 border-l-4 ${blueprint.id === "fallback-ops" ? 'border-amber-500' : 'border-blue-600'} p-6 rounded-r-xl shadow-lg relative overflow-hidden group mb-4`}>
           <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity"><MessageSquare size={100} /></div>
-          <h4 className="text-[10px] font-black text-blue-500 uppercase tracking-[0.3em] mb-3 flex items-center gap-2">
+          <h4 className={`text-[10px] font-black uppercase tracking-[0.3em] mb-3 flex items-center gap-2 ${blueprint.id === "fallback-ops" ? 'text-amber-500' : 'text-blue-500'}`}>
              [DIRECTIVE] ARAHAN MENTOR MINGGU INI
           </h4>
           <p className="text-lg md:text-xl font-medium text-neutral-200 leading-relaxed italic font-serif">
