@@ -18,7 +18,6 @@ export default async function BlueprintPage() {
   // 1. TARIK DATA DARI DATABASE / AI
   let blueprint = null;
   try {
-    // Coba cari di database dulu agar tidak terus-menerus memanggil AI
     blueprint = await prisma.weeklyBlueprint.findFirst({
         where: { userId },
         orderBy: { createdAt: 'desc' }
@@ -31,70 +30,44 @@ export default async function BlueprintPage() {
      console.error("Gagal load program 7 hari:", error);
   }
 
- // =========================================================================
-  // 🚨 SISTEM ANTI-BLANK MUTLAK (THE ELITE FALLBACK PROTOCOL)
-  // Dirancang khusus oleh Elite Coach dengan standar Periodisasi Militer.
-  // =========================================================================
+  // Jaring Pengaman Lapis 1 (Jika Data Kosong Total)
   if (!blueprint) {
     blueprint = {
       id: "fallback-ops",
-      focusAreas: "PENYELARASAN TRITUNGGAL (STANDAR OPERASI ELIT)",
-      evaluationText: "Kadet! Koneksi AI ke Markas Besar terganggu, namun di medan tempur sejati tidak ada alasan untuk berhenti. Saya mengambil alih komando manual. Ini adalah siklus periodisasi yang dirancang untuk menghancurkan kelemahanmu secara sistematis. Laksanakan tanpa ragu!",
-      dailyDrills: JSON.stringify([
-        { 
-          title: "HARI 1: SENIN (INISIASI & DAYA TAHAN)", 
-          tahap1: "[LAT - PAGI] Aerobic Base Building: Lari Zone 2 (Jogging konstan) selama 35-40 menit. Fokus pada ritme napas, bukan kecepatan. Bangun kapasitas paru-parumu (VO2 Max).", 
-          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TIU): Otakmu paling segar di awal minggu. Gempur materi Analitis dan Silogisme. Pecahkan logika, jangan pakai asumsi.", 
-          tahap3: "[SUH - MALAM] Goal Setting & Visualisasi: Tulis 3 target absolut minggu ini. Visualisasikan dirimu memakai seragam abdi negara. Kunci mentalmu sebelum tidur." 
-        },
-        { 
-          title: "HARI 2: SELASA (KEKUATAN OTOT & RETENSI MEMORI)", 
-          tahap1: "[LAT - PAGI] Strength Conditioning: Istirahatkan kaki. Eksekusi Push-up, Sit-up, dan Pull-up (3 Set x Repetisi Maksimal). Akhiri dengan Plank 2 menit untuk kekuatan otot inti.", 
-          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TWK): Retensi memorimu sedang kuat. Hafalkan sejarah konstitusi, pasal UUD 1945, dan pengamalan butir Pancasila.", 
-          tahap3: "[SUH - MALAM] Time Audit: Evaluasi 24 jam terakhirmu. Cari tahu di jam berapa kamu membuang waktu secara sia-sia. Perketat disiplin!" 
-        },
-        { 
-          title: "HARI 3: RABU (KETANGKASAN & RESPON TEKANAN)", 
-          tahap1: "[LAT - PAGI] Anaerobic Interval: Lari Sprint 400m x 5 Set. Jeda jalan kaki 1 menit tiap set. Latih daya ledak jantungmu untuk mengejar waktu Samapta.", 
-          tahap2: "[JAR - SIANG] Speed Drill Terpadu: Hajar 50 soal TIU Numerik & Deret dalam 30 menit. Latih otakmu berpikir jernih di bawah tekanan waktu yang mencekik.", 
-          tahap3: "[SUH - MALAM] Stress Inoculation (Box Breathing): Lakukan teknik napas taktis militer (Tarik 4s, Tahan 4s, Hembus 4s, Tahan 4s). Turunkan hormon kortisolmu." 
-        },
-        { 
-          title: "HARI 4: KAMIS (PEMULIHAN AKTIF & KARAKTER)", 
-          tahap1: "[LAT - PAGI] Active Recovery: Jangan diam. Lakukan jalan cepat 20 menit dilanjutkan peregangan dinamis (Dynamic Stretching) total. Lancarkan peredaran darah ke otot yang robek.", 
-          tahap2: "[JAR - SIANG] Deep Work 90 Menit (TKP): Tubuh yang rileks sangat cocok untuk materi empati. Pelajari studi kasus Pelayanan Publik dan Sosial Budaya.", 
-          tahap3: "[SUH - MALAM] Bedah Integritas: Pelajari studi kasus radikalisme dan korupsi. Selaraskan pola pikirmu dengan nilai mutlak integritas aparatur negara." 
-        },
-        { 
-          title: "HARI 5: JUMAT (INTEGRASI TAKTIS & ADAPTASI)", 
-          tahap1: "[LAT - PAGI] Fartlek Training 30 Menit: Lari dengan ritme acak (lambat, sedang, sprint) tanpa aturan baku. Biasakan tubuhmu merespons perubahan situasi mendadak.", 
-          tahap2: "[JAR - SIANG] Weakness Targeted Review: Buka rapot Tryout terakhir. Hajar secara brutal materi yang nilainya paling merah. Jangan lari dari kelemahanmu.", 
-          tahap3: "[SUH - MALAM] Resiliensi Mental: Evaluasi alasan kegagalanmu di masa lalu. Ubah rasa takut gagal menjadi bahan bakar agresi belajar untuk esok hari." 
-        },
-        { 
-          title: "HARI 6: SABTU (SIMULASI MEDAN TEMPUR)", 
-          tahap1: "[LAT - PAGI] Tryout Samapta Total: Lakukan simulasi lari 12 menit murni, disusul seluruh rangkaian kekuatan fisik. Catat skormu dengan jujur di sistem!", 
-          tahap2: "[JAR - SIANG] Full CAT SKD (110 Soal): Duduk tenang, matikan gangguan. Latih stamina duduk dan fokus matamu untuk simulasi ujian sesungguhnya.", 
-          tahap3: "[SUH - MALAM] After Action Review (AAR): Bedah hasil simulasi hari ini secara dingin dan objektif. Apa yang salah? Apa yang lambat? Catat untuk diperbaiki Senin depan." 
-        },
-        { 
-          title: "HARI 7: MINGGU (RESTORASI TOTAL & SPIRITUAL)", 
-          tahap1: "[LAT - PAGI] Total Rest & Mobility: Tidak ada beban fisik berat. Lakukan peregangan statis ringan. Biarkan ototmu pulih dan tumbuh hari ini.", 
-          tahap2: "[JAR - SIANG] Off-Grid: Jauhkan modul berat. Baca literatur ringan, pantau berita nasional atau isu kebijakan publik terkini tanpa tekanan menghafal.", 
-          tahap3: "[SUH - MALAM] Pengisian Tangki Spiritual: Ibadah, meditasi, dan habiskan waktu bersama keluarga. Kosongkan pikiran agar kamu kembali buas di hari Senin." 
-        }
-      ])
+      focusAreas: "PENYELARASAN TRITUNGGAL (OFFLINE MODE)",
+      evaluationText: "Koneksi ke Markas Besar terganggu. Sistem AI mengaktifkan Protokol Jadwal Darurat. Laksanakan instruksi ini tanpa banyak alasan, Kadet!",
+      dailyDrills: "[]"
     } as any;
   }
 
-  // 2. PARSING DATA
-  let parsedDrills = [];
+  // =========================================================================
+  // 🚨 2. PARSING DATA & TACTICAL OVERRIDE (ANTI-KARTU KOSONG)
+  // =========================================================================
+  let parsedDrills: any[] = [];
   try {
-    parsedDrills = JSON.parse(blueprint.dailyDrills || "[]");
+    if (blueprint.dailyDrills) {
+      // PEMBERSIHAN KOTORAN AI: Menghapus tag markdown ```json yang bikin error
+      const cleanJson = blueprint.dailyDrills.replace(/```json/g, "").replace(/```/g, "").trim();
+      parsedDrills = JSON.parse(cleanJson);
+    }
   } catch (e) {
-    console.error("Gagal parsing dailyDrills:", e);
+    console.error("Gagal parsing JSON AI:", e);
   }
 
+  // 🛡️ INJEKSI JADWAL ELIT (JIKA AI GAGAL MEMBERI JADWAL)
+  if (!parsedDrills || parsedDrills.length === 0 || !Array.isArray(parsedDrills)) {
+    parsedDrills = [
+      { title: "HARI 1: SENIN (INISIASI & DAYA TAHAN)", tahap1: "[LAT - PAGI] Aerobic Base Building: Lari Zone 2 (Jogging konstan) selama 35-40 menit.", tahap2: "[JAR - SIANG] Deep Work 90 Menit (TIU): Gempur materi Analitis dan Silogisme.", tahap3: "[SUH - MALAM] Goal Setting & Visualisasi: Tulis 3 target absolut minggu ini." },
+      { title: "HARI 2: SELASA (KEKUATAN OTOT & RETENSI)", tahap1: "[LAT - PAGI] Strength Conditioning: Push-up, Sit-up, dan Pull-up (3 Set x Repetisi Maks).", tahap2: "[JAR - SIANG] Deep Work 90 Menit (TWK): Hafalkan sejarah konstitusi dan butir Pancasila.", tahap3: "[SUH - MALAM] Time Audit: Evaluasi 24 jam terakhirmu." },
+      { title: "HARI 3: RABU (KETANGKASAN & TEKANAN)", tahap1: "[LAT - PAGI] Anaerobic Interval: Lari Sprint 400m x 5 Set.", tahap2: "[JAR - SIANG] Speed Drill Terpadu: Hajar 50 soal TIU Numerik dalam 30 menit.", tahap3: "[SUH - MALAM] Stress Inoculation (Box Breathing): Lakukan teknik napas taktis militer." },
+      { title: "HARI 4: KAMIS (PEMULIHAN AKTIF)", tahap1: "[LAT - PAGI] Active Recovery: Jalan cepat 20 menit dilanjutkan peregangan statis.", tahap2: "[JAR - SIANG] Deep Work 90 Menit (TKP): Pelajari studi kasus Pelayanan Publik.", tahap3: "[SUH - MALAM] Bedah Integritas: Pelajari studi kasus anti-korupsi." },
+      { title: "HARI 5: JUMAT (INTEGRASI TAKTIS)", tahap1: "[LAT - PAGI] Fartlek Training 30 Menit: Lari dengan ritme acak (lambat, sedang, sprint).", tahap2: "[JAR - SIANG] Weakness Targeted Review: Hajar materi yang nilainya paling merah.", tahap3: "[SUH - MALAM] Resiliensi Mental: Evaluasi alasan kegagalan di masa lalu." },
+      { title: "HARI 6: SABTU (SIMULASI MEDAN TEMPUR)", tahap1: "[LAT - PAGI] Tryout Samapta Total: Simulasi lari 12 menit murni.", tahap2: "[JAR - SIANG] Full CAT SKD (110 Soal): Latih stamina duduk dan fokus mata.", tahap3: "[SUH - MALAM] After Action Review (AAR): Bedah hasil simulasi hari ini." },
+      { title: "HARI 7: MINGGU (RESTORASI TOTAL)", tahap1: "[LAT - PAGI] Total Rest & Mobility: Peregangan ringan, biarkan otot pulih.", tahap2: "[JAR - SIANG] Off-Grid: Baca literatur ringan, tanpa tekanan menghafal.", tahap3: "[SUH - MALAM] Pengisian Tangki Spiritual: Ibadah, meditasi, dan kumpul keluarga." }
+    ];
+  }
+
+  // 3. RENDER WAR ROOM
   return (
     <div className="min-h-screen bg-[#050505] text-slate-100 font-sans pb-20 selection:bg-blue-900">
       <div className="fixed inset-0 pointer-events-none opacity-[0.02]" style={{ backgroundImage: 'linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
@@ -139,7 +112,7 @@ export default async function BlueprintPage() {
           </p>
         </div>
 
-        {/* GRID KARTU MISI */}
+        {/* GRID KARTU MISI (ANTI KOSONG) */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pt-4 border-t border-neutral-800/50">
           {parsedDrills.map((drill: any, idx: number) => (
             <DrillCard key={idx} blueprintId={blueprint.id} drill={drill} index={idx} />
