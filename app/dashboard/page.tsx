@@ -8,16 +8,15 @@ import DashboardCharts from "./DashboardCharts";
 import { 
   Target, Zap, ChevronsUp, Star, Activity, BookOpen, Laptop2, Dumbbell,
   ShieldAlert, ScanFace, CalendarCheck, ArrowRight, Terminal, AlertOctagon,
-  Clock, MessageSquare, CheckCircle 
+  Clock, MessageSquare, CheckCircle, CalendarDays 
 } from "lucide-react";
 
-// 🚀 IMPORT HUD MENTOR BARU
 import ProgressHeader from "@/components/dashboard/ProgressHeader";
 
 export const dynamic = 'force-dynamic';
 
 // ============================================================================
-// 🧠 BUKU PINTAR: MATRIKS NALAR MENTOR (THE MENTOR'S DICTIONARY)
+// 🧠 BUKU PINTAR: MATRIKS NALAR MENTOR
 // ============================================================================
 const MENTOR_DICTIONARY: Record<string, any> = {
   "NASIONALISME": { title: "PENGUATAN NASIONALISME", message: "Kadet, jiwa cintamu pada tanah air harus diwujudkan dalam pemahaman konseptual. Radar melihat kamu masih goyah membedakan Nasionalisme dan Chauvinisme. Buka modul di Plaza Menza.", actionText: "BACA MODUL TWK ➔", actionLink: "/dashboard/materials", color: "border-amber-500/40 bg-amber-950/30 text-amber-200", iconColor: "text-amber-500" },
@@ -50,9 +49,6 @@ const MENTOR_DICTIONARY: Record<string, any> = {
   "FISIK_KRITIS": { title: "DEGRADASI FISIK (SAMAPTA)", message: "Kadet! Otak cerdas tidak akan berguna jika fisik tumbang di medan tempur. Parameter jasmanimu jauh di bawah standar lulus. Perintah hari ini: Segera eksekusi lari interval, push-up, dan input hasilnya!", actionText: "INPUT DATA SAMAPTA ➔", actionLink: "/dashboard/physical/input", color: "border-red-600/50 bg-red-950/40 text-red-200", iconColor: "text-red-500 animate-pulse" }
 };
 
-// ============================================================================
-// KOMPONEN RADAR CHARTS (INTEGRATED JAR-LAT-SUH)
-// ============================================================================
 const IntelligenceRadar = ({ jar, lat, suh }: { jar: number, lat: number, suh: number }) => {
   const getCoord = (value: number, angle: number) => {
     const r = (Math.min(value, 100) / 100) * 40; 
@@ -88,9 +84,6 @@ const IntelligenceRadar = ({ jar, lat, suh }: { jar: number, lat: number, suh: n
   );
 };
 
-// ============================================================================
-// KOMPONEN HEALTH BAR
-// ============================================================================
 const HealthBar = ({ hp }: { hp: number }) => {
   let colorClass = "bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]";
   let statusText = "PRIMA";
@@ -122,7 +115,6 @@ export default async function DashboardPage() {
 
   if (!userId) redirect("/api/auth/signin"); 
 
-  // --- MENGHIDUPKAN OTAK KURIKULUM MINGGUAN (BLUEPRINT ENGINE) ---
   let weeklyBlueprint = null;
   try {
     weeklyBlueprint = await ensureWeeklyPlan(userId); 
@@ -130,14 +122,25 @@ export default async function DashboardPage() {
     console.error("⚠️ [COMMANDER WARNING] Blueprint Engine Failure:", error);
   }
 
-  // 🚨 SISTEM ANTI-BLANK: Jika database gagal/timeout, buat data darurat agar UI tidak hancur.
   if (!weeklyBlueprint) {
     weeklyBlueprint = {
       id: "fallback-ops",
       focusAreas: "SINKRONISASI SISTEM",
       evaluationText: "Mesin utama sedang memproses data intelijen Anda. Tetap disiplin dan selesaikan misi yang ada!",
-      completedDrills: "[]"
+      completedDrills: "[]",
+      dailyDrills: "[]"
     } as any;
+  }
+
+  // 🔥 PENYEMBUH ERROR VERCEL: Parsing parsedDrills
+  let parsedDrills: any[] = [];
+  try {
+    if (weeklyBlueprint && (weeklyBlueprint as any).dailyDrills) {
+      const rawDrills = (weeklyBlueprint as any).dailyDrills;
+      parsedDrills = typeof rawDrills === 'string' ? JSON.parse(rawDrills) : rawDrills;
+    }
+  } catch (e) {
+    parsedDrills = [];
   }
 
   // Kalkulasi Statistik untuk HUD Tri-Axis
@@ -162,9 +165,6 @@ export default async function DashboardPage() {
   if (!user) return <div className="p-10 text-red-500 font-mono text-center mt-20">DATA PERSONEL HILANG. LAKUKAN REGISTER ULANG.</div>;
   if (!user.hasCompletedScreening) redirect("/dashboard/assessment");
 
-  // ============================================================================
-  // 🔥 MENGAMBIL DATA UNTUK GRAFIK VISUAL & AI MENTOR
-  // ============================================================================
   const historyTryouts = await prisma.tryoutAttempt.findMany({
     where: { userId: userId, isFinished: true },
     orderBy: { finishedAt: 'asc' }, 
@@ -192,7 +192,6 @@ export default async function DashboardPage() {
     score: Math.round(p.totalScore)
   }));
 
-  // C. Perhitungan Skor Baseline
   let drillProgress = 0;
   let completedDrillsCount = 0;
   try {
@@ -210,9 +209,6 @@ export default async function DashboardPage() {
   const suhScore = Math.min(100, mentalBase + disciplineBonus);
   const hp = Math.round((jarScore + latScore + suhScore) / 3);
 
-  // ============================================================================
-  // 🧠 OTAK AI-SUH: DYNAMIC MENTOR MATRIX (SISTEM TRIASE)
-  // ============================================================================
   const TARGET_TWK = 65;
   const TARGET_TIU = 80;
   const TARGET_TKP = 166;
@@ -264,9 +260,6 @@ export default async function DashboardPage() {
   else if (primaryWeakness.isCritical) { aiBriefing = `FOKUS SEKTOR ${primaryWeakness.id}: Kelemahan terdeteksi di subtes ${primaryWeakness.worstCategory.replace("_", " ")}.`; aiMood = "ANGRY"; } 
   else if (hp > 80) { aiBriefing = "LUAR BIASA! Kondisi Prima. Pertahankan ritme tempur ini."; aiMood = "HAPPY"; }
 
-  // ============================================================================
-  // RANK LOGIC 
-  // ============================================================================
   const currentXP = user.xp || 0;
   const RANK_LEVELS = [
     { name: "KADET PRATAMA", threshold: 0, stars: 0, isPurna: false },
@@ -297,9 +290,6 @@ export default async function DashboardPage() {
 
       <div className="relative p-4 md:p-6 max-w-7xl mx-auto">
         
-        {/* ========================================================================= */}
-        {/* --- HEADER: PANGKAT & HP (KEMBALI KE DESAIN ASLI ANDA YANG SEMPURNA) --- */}
-        {/* ========================================================================= */}
         <div className="flex flex-col lg:flex-row justify-between items-end gap-8 border-b border-neutral-800 pb-8 mb-8">
           <div className="w-full lg:w-1/2">
             <div className="flex items-center gap-4 mb-4">
@@ -343,24 +333,21 @@ export default async function DashboardPage() {
           </div>
         </div>
 
-       {/* ========================================================================= */}
-        {/* 🚀 FITUR BARU: PROGRAM LATIHAN 7 HARI (PENGGANTI BLUEPRINT & PROGRESS BAR) */}
+        {/* ========================================================================= */}
+        {/* 🚀 FITUR BARU: PROGRAM LATIHAN 7 HARI */}
         {/* ========================================================================= */}
         {(() => {
-            // Logika Cerdas: Menentukan Hari Ini untuk Teaser
             const namaHari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
             const hariIni = namaHari[new Date().getDay()];
             
-            let teaserText = "Menyiapkan intruksi Matra Jasmani, Akademik, dan Mental...";
+            let teaserText = "Menyiapkan instruksi Matra Jasmani, Akademik, dan Mental...";
             if (parsedDrills.length > 0) {
-                // Mencari jadwal yang sesuai dengan hari ini, atau ambil hari ke-1 jika tidak ketemu
                 const drillHariIni = parsedDrills.find(d => d.title?.toUpperCase().includes(hariIni.toUpperCase())) || parsedDrills[0];
                 teaserText = drillHariIni.tahap1 || drillHariIni.tahap2 || "Lanjutkan misi sesuai komando di layar utama.";
             }
 
             return (
               <div className="bg-gradient-to-br from-blue-950/40 to-black border border-blue-500/30 rounded-xl overflow-hidden shadow-[0_0_30px_rgba(59,130,246,0.1)] mb-10 group relative transition-all hover:border-blue-500/60">
-                {/* Ornamen Latar Belakang */}
                 <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity pointer-events-none">
                     <CalendarDays size={180} className="text-blue-500" />
                 </div>
@@ -368,7 +355,6 @@ export default async function DashboardPage() {
                 <div className="p-6 md:p-8 relative z-10">
                     <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
                         
-                        {/* KONTEN KIRI: PENJELASAN & TEASER */}
                         <div className="flex-1 w-full">
                             <div className="flex items-center gap-3 mb-3">
                                 <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-black rounded-sm uppercase tracking-widest shadow-[0_0_10px_rgba(37,99,235,0.5)]">
@@ -386,7 +372,6 @@ export default async function DashboardPage() {
                                 Ini adalah siklus kehidupan harianmu. Berisi panduan matra <strong className="text-amber-500">Jasmani (Pagi)</strong>, <strong className="text-blue-500">Akademik (Siang)</strong>, dan <strong className="text-purple-500">Mental (Malam)</strong> yang telah diracik khusus agar kamu siap tempur menghadapi ujian.
                             </p>
 
-                            {/* KOTAK TEASER HARI INI */}
                             <div className="bg-black/60 border border-neutral-800 rounded-lg p-4 flex items-start gap-4 max-w-2xl backdrop-blur-sm">
                                 <div className="p-2 bg-neutral-900 border border-neutral-700 rounded-md text-neutral-400 shrink-0">
                                   <Clock size={20} className="text-blue-500"/>
@@ -402,9 +387,7 @@ export default async function DashboardPage() {
                             </div>
                         </div>
 
-                        {/* KONTEN KANAN: INDIKATOR HARI & TOMBOL */}
                         <div className="w-full md:w-auto shrink-0 flex flex-col items-center md:items-end gap-5">
-                            {/* Indikator Hari (Senin-Minggu) */}
                             <div className="flex gap-2 w-full justify-center md:justify-end">
                                 {['S', 'S', 'R', 'K', 'J', 'S', 'M'].map((day, i) => (
                                     <div key={i} className={`w-7 h-7 rounded-md flex items-center justify-center text-[10px] font-black transition-all ${i + 1 === (new Date().getDay() === 0 ? 7 : new Date().getDay()) ? 'bg-blue-600 text-white shadow-[0_0_10px_rgba(37,99,235,0.8)] scale-110' : 'bg-neutral-900 text-neutral-600 border border-neutral-800'}`}>
@@ -424,9 +407,7 @@ export default async function DashboardPage() {
               </div>
             );
         })()}
-        {/* ========================================================================= */}
-        {/* 🔥 BLOK AI-SUH (DIAGNOSA TRIASE) - 100% KODE ASLI ANDA */}
-        {/* ========================================================================= */}
+
         <div className={`mb-10 border rounded-xl p-6 relative overflow-hidden ${aiCommand.color}`}>
             <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
                 <AlertOctagon size={120} />
@@ -453,14 +434,8 @@ export default async function DashboardPage() {
             </div>
         </div>
 
-        {/* ========================================================================= */}
-        {/* 🔥 PAPAN VISUAL: GRAFIK REKAM JEJAK SKD & SAMAPTA */}
-        {/* ========================================================================= */}
         <DashboardCharts skdHistory={skdHistory} physicalHistory={physicalHistory} />
 
-        {/* ========================================================================= */}
-        {/* --- ANALYTICS GRID (RADAR & SHORTCUTS) - 100% KODE ASLI ANDA --- */}
-        {/* ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10 mt-10">
           
           <div className="lg:col-span-1 h-full">
@@ -531,7 +506,6 @@ export default async function DashboardPage() {
           </div>
         </div>
 
-        {/* --- SHORTCUTS GRID - 100% KODE ASLI ANDA --- */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <Link href="/dashboard/tryout" className="group bg-red-950/40 hover:bg-red-900/60 text-white p-6 rounded-xl flex flex-col items-center gap-3 transition-all border border-red-900/50 shadow-lg relative overflow-hidden backdrop-blur-sm">
                 <Laptop2 size={24} className="group-hover:scale-110 transition-transform relative z-10 text-red-400" /> 
